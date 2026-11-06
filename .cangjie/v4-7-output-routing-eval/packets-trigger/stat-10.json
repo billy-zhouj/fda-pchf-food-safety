@@ -1,0 +1,13 @@
+{
+  "case_id": "stat-10",
+  "runs": 3,
+  "prompt": "帮我把 21 CFR part 108 的 FCE 注册和 SID 备案流程、Emergency Permit 条件、F0/D/z 值计算和 BAM Ch.21A 培养步骤逐条列出来，顺便说说 Part 113/114 是不是也没收。",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

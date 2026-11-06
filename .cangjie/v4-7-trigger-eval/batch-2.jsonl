@@ -1,0 +1,29 @@
+{"case_id": "lmono-edge-02", "prompt": "我们成品抽检想直接套环境监测那套，检 Listeria spp. 就行了吧？环境样品和成品样品的前处理方法能通用吗？"}
+{"case_id": "lmono-edge-03", "prompt": "FDA 那份李斯特菌指南里说每个产线至少采 5 个食品接触面加 5 个非食品接触面点位，我们只做了 3 个，检查会不会直接判不合格？"}
+{"case_id": "lmono-edge-04", "prompt": "我们杀菌工序验证做到了 5 log 削减，成品用灵敏度 10 CFU/g 的方法检不出李斯特菌，能算这个致死工艺验证通过了吗？"}
+{"case_id": "lmono-edge-05", "prompt": "我们的 RTE 产品杀菌后整线都不暴露环境了，是不是还要按李斯特菌专项指南做全套环境监测和产品抽检？"}
+{"case_id": "lmono-edge-06", "prompt": "我们把成品冷藏库设成 4°C，可冷却协议写的是降到 41°F（5°C）就行，同一份食品安全计划里两个冷藏数字是不是写错了？"}
+{"case_id": "lmono-trigger-05", "prompt": "槽车拉原料、冷藏车配送成品，装车前要不要预冷并记录温度？洗车标签能不能当清洁消毒的证明？"}
+{"case_id": "lmono-trigger-06", "prompt": "我们要给冷藏即食食品写环境监测程序，采样点位数、时机、频次和阳性后的升级路径具体怎么定？清洁消毒程序里必须写哪些字段？"}
+{"case_id": "secg-trigger-01", "prompt": "cGMP 合规到底有没有官方指南？我们厂要做一次 Subpart B 内审，九条逐条该看什么、证据怎么留？"}
+{"case_id": "secg-trigger-02", "prompt": "FDA 那份小企业合规指南里通篇写的是 should，我们是不是可以不做？能不能用别的做法替代？"}
+{"case_id": "secg-trigger-03", "prompt": "我们是 qualified facility，也已经有 HACCP 计划了，cGMP 是不是就免了？FDA 来检查会看什么？"}
+{"case_id": "secg-trigger-04", "prompt": "有一批原料缺陷超标，掺到合格批次里之后终产品检测是合格的，这样处理算违法吗？"}
+{"case_id": "secg-trigger-05", "prompt": "我记得那份 Small Entity Compliance Guide 是 2016 年 11 月发的？还有 80 FR 55907 和 80 FR 56145 是不是两份不同的规则？"}
+{"case_id": "secg-trigger-06", "prompt": "我们要做 cGMP 迎检，怎么把 § 117.20 的厂房要求和 § 117.40 的设备要求落成检查要点？法规里没写具体数值怎么判？"}
+{"case_id": "secg-edge-01", "prompt": "SECG 的 Table 4 写着 qualified facility 合规日期是 2018 年 9 月 17 日，我们现在是不是还没到期限、可以先不合规？"}
+{"case_id": "secg-edge-02", "prompt": "帮我按中国 GB 14881 出一份可直接签发的食品厂 cGMP 内审检查表，顺便把药品 21 CFR 211 的偏差调查要求也写进去。"}
+{"case_id": "secg-negative-01", "prompt": "帮我查一下 2026 年国内食品生产许可证 SC 证的续证材料清单和办理窗口。"}
+{"case_id": "secg-audit-01", "prompt": "我们买一款即食原料，致病菌危害是供应商控制的，能不能每批拿个 COA、每年看一次供应商记录就够了，不做现场审核？"}
+{"case_id": "secg-qf-01", "prompt": "我们厂去年销售额降到 45 万美元，超过一半卖给本地餐馆，今年变成 qualified facility 了，需要通知 FDA 吗？什么时候？"}
+{"case_id": "secg-withdraw-01", "prompt": "FDA 给我们发了撤销 qualified facility 豁免的意向通知，我们 15 天内答复了，之后还能做什么？"}
+{"case_id": "secg-1175k-01", "prompt": "我们只做坚果的去壳、干燥和包装，不做烘烤，也不做其他加工。CGMP 我们是不是也要全做？"}
+{"case_id": "ed5-tree-nut-01", "prompt": "我们饼干里用了椰子粉和乳木果油，标签上的 Contains 要不要写 tree nuts？"}
+{"case_id": "ed5-milk-eggs-01", "prompt": "我们做山羊奶酸奶和鸭蛋糕点，过敏原标签该怎么写？以前只写 milk 和 egg 可以吗？"}
+{"case_id": "ed5-freefrom-01", "prompt": "我们产品想标 milk-free，但和含奶产品共线，能不能再加一句 may contain milk 保险一点？"}
+{"case_id": "defect-level-01", "prompt": "我们磨碎的多香果检出 25 个虫碎片/10 克，FDA 表里是 30 个/10 克，低于行动水平是不是就能放行？内控规格直接定 28 行不行？"}
+{"case_id": "defect-level-02", "prompt": "供应商给的资料引用 21 CFR 110.110 说符合缺陷行动水平就没事，这条现在还有效吗？另外手册里写不良生产实践可不论行动水平执法，是不是〔§ 117.110(c)〕？"}
+{"case_id": "defect-level-03", "prompt": "我们一款复配调味料不在 FDA 缺陷表里，检验报告写『无适用标准，判定合格』；另外原料全多香果有 5% 霉变，同事说这只是 Aesthetic 美学缺陷，是不是不用进危害分析？"}
+{"case_id": "inspection-01", "prompt": "FDA 检查员说我们有一条 critical observation，要按最严重级别整改；483 我们打算等通知再回，多久之内必须回复？"}
+{"case_id": "inspection-02", "prompt": "这次是 limited scope PCHF 检查，同事说检查员不看 FSP，我们把全套危害分析和实施记录收起来；另外 FDA 今天要做环境擦拭取样，应该还是 limited scope 吧？"}
+{"case_id": "inspection-03", "prompt": "我们的 FSP 和监控记录都存在总部服务器，工厂现场只有纸质摘要，检查员要的时候第二天发邮件过去可以吗？记录要留多久、要不要签字？"}

@@ -1,0 +1,32 @@
+slug: supply-chain-verification
+title: 供应链验证决策
+importance: core
+importance_rationale: 供应链控制是采购与供应商管理的通用框架，SAHCODH 年审/验证独立性/控制主体映射等规则为本书独立价值最高的两块之一。
+one_liner: 先做控制主体映射定验证对象，再按 SAHCODH 属性×供应商控制结构性程度定验证强度；供应商自审自证零效力。
+intents:
+  - 设计新供应商批准流程与四类验证活动组合
+  - 确定 SAHCODH 危害的年度现场审核义务及书面豁免
+  - 判断经纪商/分销商/上游第三方场景下验证对象是谁
+  - 评估证书与政府检查能否替代现场审核
+  - 处置供应商不合规、断供与紧急临时采购
+  - 收到保证书/被索保证的合规审查
+  - FSVP 折抵判定
+  - 审核合同条款把关
+keywords:
+  - 供应链控制
+  - 供应商批准
+  - 供应商验证
+  - SAHCODH
+  - 现场审核
+  - approved supplier
+  - 经纪商
+  - 分销商
+  - COA
+  - qualified facility
+  - 临时供应商
+  - "117.410"
+  - "117.430"
+  - written assurance
+  - FSVP
+  - "12月31日"
+member_units: [fB-07, fB-14, fB-21, fB-29, fB-38, pV-51, pV-52, pV-53, pV-54, pV-55, pV-56, pV-57, pV-58, pV-76]

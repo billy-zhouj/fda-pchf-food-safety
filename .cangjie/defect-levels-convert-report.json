@@ -1,0 +1,55 @@
+{
+  "source_file": "G:/下载/Food Defect Levels Handbook _ FDA.mhtml",
+  "source_url": "https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/food-defect-levels-handbook",
+  "snapshot_utc": "2026-11-05T08:50:05Z",
+  "page_content_current_as_of": "2018-09-07",
+  "edition_line": "May 1995; Revised March 1997 and May 1998; February 2005 two source corrections (MPM-V92->MPM-V32, 955.46->965.41)",
+  "output": "source-defect-levels-handbook.md",
+  "converter": ".cangjie/convert_defect_levels.py",
+  "output_chars": 58575,
+  "sections": [
+    "INTRODUCTION",
+    "PRODUCTS WITHOUT DEFECT LEVELS",
+    "USE OF CHEMICAL SUBSTANCES TO ELIMINATE DEFECT LEVELS",
+    "USING THIS FOOD DEFECT ACTION LEVEL BOOKLET",
+    "GLOSSARY",
+    "COMMODITIES AND DEFECT ACTION LEVELS"
+  ],
+  "glossary_terms": 27,
+  "commodities": {
+    "table_rows_including_header": 293,
+    "unique_products": 111,
+    "action_level_rows": 173,
+    "defect_source_rows": 111,
+    "first_product": "Allspice, Ground",
+    "last_product": "Wheat Flour"
+  },
+  "nested_tables_extracted": 1,
+  "nested_table_note": "Nut Type / Unshelled % / Shelled % 原嵌于主商品表内，拆为文末独立小节",
+  "quality_checks": {
+    "layout_br_noise_lines": 0,
+    "unreplaced_table_markers": 0,
+    "main_table_columns": 3,
+    "rowspan_expanded": true,
+    "defect_source_row_moved_to_action_level_column": true,
+    "verbatim_english_preserved": true
+  },
+  "legal_basis_correction": {
+    "handbook_says": "21 CFR Part 110.110",
+    "current_law": [
+      "21 CFR 117.110(a)(b)",
+      "21 CFR 117.3 definition",
+      "21 CFR 117.80(b)(3)(4)",
+      "FD&C Act 402(a)(3)/(4)"
+    ],
+    "part_110_removed": "2018-09-17 per 80 FR 56144 (2015-09-17)",
+    "note": "现行 117.110 只有 (a)(b) 两款，无 (c)；手册白话不得标成〔§ 117.110(c)〕"
+  },
+  "known_limitations": [
+    "AOAC Official Methods / MPM 方法正文未收；数值绑定方法编号与取样量",
+    "网页 MPM 已绝版（手册说明网上可查）",
+    "链接只保留锚文本；图片/导航/页脚/反馈表单已剔除",
+    "Allspice, Whole 行 DEFECT SOURCE: : 双冒号为 FDA 原网页排版残留，逐字保留",
+    "页面标注 2018-09-07 后未更新，修订以 Federal Register Notices 发布，引用前须核对现行版本"
+  ]
+}

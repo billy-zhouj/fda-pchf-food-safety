@@ -1,0 +1,87 @@
+slug: investigator-authority-procedure
+title: FDA 检查员权限、文书与证据链
+importance: extended
+importance_rationale: IOM 是本包此前连续三个版本都挂在「未纳入」边界里的一级缺口。用户提供的 2026 版 Chapter 5 从检查员侧给出制度性反证，可直接纠正「FDA 指南没做到会上 483」「483 可以引法规条款」「FDA 从不预告检查」「境外检查一律不预告」「拒绝提供配方构成拒绝检查」「样品合格即 cGMP 合规」六类高频误读，并把 482/483/483a/484/4056 表单地图、15 个工作日双出处、807(b) 拒绝入境后果落成可执行清单。属入口型判定能力，与 inspection-readiness、inspection-sampling、regulatory-boundaries、cgmp-compliance-guide 多卡交叉，故定 extended。
+one_liner: 先分权限层再谈配合——法定基础是 FD&C Act 704(a)(1)，国内到场出示证件并签 FDA 482、境外一般不发；483 只写事实、不引法规原文也不引 guidance 偏离，取任何实体样必发 FDA 484；15 个工作日是 IOM 与 CPGM 双出处的程序口径而非法定时限。
+intents:
+  - 判断 FDA 检查的法定基础与合理时间/合理方式边界（704(a)(1)）
+  - 拆解 Form FDA 482 / 482a / 482b / 482c / 482d / 483 / 483a / 484 / 4056 的签发时机与对象
+  - 回答境外检查是否签发 FDA 482、是否提前预告、无预告检查政策如何与 IOM 口径并存
+  - 判断国内食品企业检查的预告规则、5 个日历日与改期限制，以及「预告不是预约」
+  - 解释 FDA 483 的措辞纪律：不引法规原文、不纳入标准、不引 policy/guidance 偏离、不写 violative
+  - 判断只偏离官方 guidance 是否构成 Category 3 non-reportable observation 以及会写进哪里
+  - 回答 483 回复 15 个工作日的两个出处（IOM 5.5.12.3 / CPGM 7303.040 PART III.1）及非法定时限性质
+  - 处理拒绝入场、拒绝提供或复制记录的后果，区分 301(e)/(f) 与非法定信息拒绝
+  - 判断境外拒绝检查的 807(b) 拒绝入境、Import Alert 与注销注册风险
+  - 回答检查员索取电子记录、拷贝记录、拍照时的证据固定规则与企业配合方式
+  - 纠正「样品合格即 cGMP 合规」「没抽到阳性样就不能开 483」的误读
+  - 判断哪些问题超出本卡（IOM Chapter 3/4/6/7/8、RPM、CPG、警告信答复、检查结果预测）
+  - 用 IOM 5.5.11.3 反证本包九类来源的效力分层，说明 guidance 不是可直接开观察项的法定义务
+keywords:
+  - IOM
+  - "Investigations Operations Manual 2026"
+  - "Chapter 5"
+  - "704(a)(1)"
+  - "21 U.S.C. 374"
+  - "301(e)"
+  - "301(f)"
+  - "807(b)"
+  - "21 U.S.C. 384c(b)"
+  - "FDA 482"
+  - "FDA 482c"
+  - "FDA 482d"
+  - "FDA 483"
+  - "FDA 483a"
+  - "FDA 484"
+  - "FDA 4056"
+  - "Notice of Inspection"
+  - "Receipt for Samples"
+  - "Inspectional Observations"
+  - OOAC
+  - "owner, operator, or agent-in-charge"
+  - "FDA credentials"
+  - "18 U.S.C. 701"
+  - "Pre-Announcement"
+  - "five calendar days"
+  - "appointment to inspect"
+  - "usually announces foreign inspections in advance"
+  - "5.2.7"
+  - "5.5.10"
+  - "5.5.10.7"
+  - "5.5.11"
+  - "5.5.11.3"
+  - "5.5.12.3"
+  - "5.5.12.5"
+  - "5.6.4"
+  - "5.6.5.1"
+  - "5.6.6.1"
+  - "5.6.7"
+  - "15 business days"
+  - "Do not cite deviations from policy or guidance documents"
+  - "do not quote regulations"
+  - "violative"
+  - "non-reportable observation"
+  - "General Discussion with Management"
+  - "Who What When Where Why"
+  - "So What?"
+  - "discussion items"
+  - "Establishment Inspection Report"
+  - EIR
+  - eNSpect
+  - exhibit
+  - "chain of evidence"
+  - "electronic records"
+  - "trade secret"
+  - "inspection refusal"
+  - "inspection warrant"
+  - "CPG Sec. 130.100"
+  - "RPM Chapter 10-4"
+  - "414(a)"
+  - "117.320"
+  - "117.315(c)"
+  - "402(a)(4)"
+  - 检查权限
+  - 证据链
+  - 无预告检查
+member_units: []
+source_label: FDA Investigations Operations Manual 2026, Chapter 5 – Inspections（221 页 / 410 书签，含 Exhibit 5-1…5-23）+ FD&C Act 条款 + 21 CFR Part 117 法规正文

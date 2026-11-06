@@ -1,0 +1,31 @@
+slug: allergen-program
+title: 食品过敏原程序
+importance: extended
+importance_rationale: Ch11 独立成章+2 个完整示例厂，跨境食品与代工场景高频踩坑区，但受众多为多品种共线生产者
+one_liner: 过敏原按"CGMP 基线→排产/清洁+标签双控制→供应链三选一"三层搭建——清洁等级由相邻产品过敏原谱包含关系决定，may contain 声明只能是被证明的控制极限之出口
+intents:
+  - 设计多品种共线的过敏原交叉接触控制与排产序列
+  - 判断换产清洁等级（通用清洁 vs 专项过敏原清洁）
+  - 处理供应商 may contain 声明（传递/不传递/阈值论证）
+  - 搭建过敏原标签内容控制与管理控制核对流程
+  - 选择过敏原清洁验证的检测方法
+  - 过敏原 CGMP 法定分离手段核对与标签/交叉接触双控制的程序分界
+keywords:
+  - 过敏原
+  - allergen
+  - 交叉接触
+  - cross-contact
+  - 排产
+  - like into like
+  - may contain
+  - 咨询声明
+  - 标签控制
+  - ATP 拭子
+  - 过敏原特异性检测
+  - Ed.5
+  - Table 1 树坚果
+  - allergen-free
+  - "117.20(b)(2)"
+  - "117.150(c)(1)"
+  - 法定分离手段
+member_units: [fA-56, fA-58, fA-59, fB-01, fB-03, fB-06, pV-45, pV-46, pV-47, pV-48, pV-49, pV-50, rA-B-08]

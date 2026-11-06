@@ -1,0 +1,51 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\allergen-program.md": "1c155b71756a5b9f5c503ce08174487f04152c0f1fa15b5b3b33704eebb6f928",
+    "references\\capabilities\\cgmp-compliance-guide.md": "676145135b2ba52a1b9e8bcc4575a1a16d61f244db742e9d31ed5717bab64413",
+    "references\\capabilities\\chemical-hazard-controls.md": "8817bbeb6a130fa0101f8edff7ce16c08751685ae4a49c89bf90236b83c5ee4b",
+    "references\\capabilities\\defect-action-levels.md": "75dff48cb83d7d4d7c9c3e3f1201d19469425fb6ee79045ce1f9ef2300feb435",
+    "references\\capabilities\\environmental-engineering-controls.md": "6ae093a843b7f8866045f09e323d4dace6225469b2053788687e827a719a466a",
+    "references\\capabilities\\environmental-pathogen-sanitation.md": "c9c839b1379f1bf074d8b58c6f521804dbae0a7c3062c6e02bcb3eef7afa188d",
+    "references\\capabilities\\exemption-withdrawal-procedure.md": "cf255e356d3c3105cce7c1ac203f07e4424aee4cf1e1bee81141cceddc11ac5d",
+    "references\\capabilities\\fsvp-inspection-program.md": "95bebd9d684e58624f7558ce7622e1d29c8d43a971811c679f341d155c8b9686",
+    "references\\capabilities\\hazard-analysis-method.md": "1ca531e417c0c7d26076aefdb8b5c081f4385b9af5257163597e7b0c1188d5bf",
+    "references\\capabilities\\inspection-readiness.md": "62a8e1e3d779eb29a63d08e1fe9a0b2460609bc7bff235c010f2b9b88d8877a1",
+    "references\\capabilities\\inspection-sampling.md": "be5d92bdcf8bcbbbe5f0ea0fb79ff625370f4d01f54a9dee13dbee983677f577",
+    "references\\capabilities\\investigator-authority-procedure.md": "4c5cc2b7aab18e3f50b8de5567d8f1797f42a989152bf6b82302c26625c41200",
+    "references\\capabilities\\lacf-inspection-program.md": "8d389d39cf34406646c52ea013a820e7455bbdbf6c700029b215672e3cde0414",
+    "references\\capabilities\\lacf-statutory-requirements.md": "1ba8c821d83330a85e188f04616b006ffd28d243b9ad011277ba2be8459d98e4",
+    "references\\capabilities\\management-components.md": "af91292fad670652bf679b2ac7ac121cc6601c38dd5984e01f20cba633d47558",
+    "references\\capabilities\\personnel-hygiene-controls.md": "d8645d9e2fd293500eec792292709ff3eee1d6c587928c738367feb9cbded8e9",
+    "references\\capabilities\\process-control-validation.md": "a7c176e844b7a60511e3b4ba1bb0fc174084b962f3fc87dc5f11169ec0d48a3b",
+    "references\\capabilities\\recall-plan.md": "8686a95f61660014efce19516cce9acd83226cc04fd266499439e5a1931b10ca",
+    "references\\capabilities\\reference-tools-discipline.md": "fb2dee130c4e64d3967ea915e03ca61baa98b174451677fde6a99cc3521d8e9e",
+    "references\\capabilities\\regulatory-boundaries.md": "c0ec53f7d22b384880b8fb957358c93882e1dcb5dece188e8aa60c78193aca62",
+    "references\\capabilities\\supply-chain-verification.md": "a602fe3b7ffcee7339d3a515b1f74376e96ee79294cb0146da28defe7817424d",
+    "references\\capability-index.md": "660d7b4440fb3b578a9987e6b616ef18441701ad56d427093c7f130a050df204",
+    "references\\cheatsheet.md": "c726b8b71e3f59233e9c6d1a43cfae0e56b485f33532b8c75457799977233f2a",
+    "references\\glossary.md": "1b455fd00491971266a285ed32a378a12aeee7a2b6816769cd715e2af40fd43d",
+    "references\\overview.md": "c56586676e987941ec2638afa55c81ddfd71ae73e11d6d85dfb4f3aba790d7e7",
+    "SKILL.md": "62b07753566110c74a8e1345bd7a837a7c9b39cb21261b4f4ec1dc262475656e"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.fda-pchf-human-food",
+  "bundle_sha256": "2affe8305eae27ebd13c3e8aa1dba5f87a7e90fe0a8371c99b7f5ee328f15c25",
+  "variant": "single",
+  "run_id": "run-20261106-151203-02dd78",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 21,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

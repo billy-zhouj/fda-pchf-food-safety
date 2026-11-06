@@ -1,0 +1,13 @@
+{
+  "case_id": "edge-02",
+  "runs": 1,
+  "prompt": "供应商的达规-may contain 奶声明，我们的饼干产品里本来就有奶粉，标签还要加 may contain 吗？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

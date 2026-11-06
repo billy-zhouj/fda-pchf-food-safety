@@ -1,0 +1,29 @@
+{
+  "input": "G:\\下载\\CFR-2025-title21-vol2-part114.pdf",
+  "output": "source-cfr-part114-2025.md",
+  "method": "page → left column → right column clip; paragraph recombination; hyphenated line breaks preserved",
+  "pages": 7,
+  "lines_left": 436,
+  "lines_right": 423,
+  "hyphenated_line_ends_preserved": 210,
+  "metadata": {
+    "creationDate": "D:20250806205405Z",
+    "modDate": "D:20250806170159-04'00'"
+  },
+  "raw_lines": 859,
+  "paragraphs_before_trim": 96,
+  "paragraphs_kept": 82,
+  "trim": {
+    "trim_start": 3,
+    "trim_end": 11,
+    "part_found": true
+  },
+  "noise_lines_dropped": 0,
+  "chars": 25747,
+  "md_lines": 172,
+  "h2_sections": 8,
+  "part_headings": 1,
+  "section_bodies_split": 6,
+  "residual_header_lines": 0,
+  "residual_standalone_pagenum": 0
+}

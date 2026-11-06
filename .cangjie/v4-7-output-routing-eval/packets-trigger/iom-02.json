@@ -1,0 +1,13 @@
+{
+  "case_id": "iom-02",
+  "runs": 3,
+  "prompt": "FDA 从来不预告检查吧？境外工厂应该都是突击检查、也不发 482。这次提前 5 天通知我们，能不能跟检查员约个更方便的时间？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

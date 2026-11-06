@@ -1,0 +1,52 @@
+{
+  "out-01": {
+    "vB": "v47_skill",
+    "vA": "without_skill",
+    "vC": "v46_skill"
+  },
+  "out-02": {
+    "vC": "v47_skill",
+    "vB": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-03": {
+    "vB": "v47_skill",
+    "vC": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-04": {
+    "vB": "v47_skill",
+    "vC": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-05": {
+    "vB": "v47_skill",
+    "vA": "without_skill",
+    "vC": "v46_skill"
+  },
+  "out-06": {
+    "vA": "v47_skill",
+    "vB": "without_skill",
+    "vC": "v46_skill"
+  },
+  "out-07": {
+    "vB": "v47_skill",
+    "vC": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-08": {
+    "vB": "v47_skill",
+    "vC": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-09": {
+    "vB": "v47_skill",
+    "vC": "without_skill",
+    "vA": "v46_skill"
+  },
+  "out-10": {
+    "vB": "v47_skill",
+    "vA": "without_skill",
+    "vC": "v46_skill"
+  }
+}

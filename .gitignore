@@ -1,0 +1,47 @@
+# ===== 编译产物（dist-v12 为已发布产物，单独保留）=====
+dist/
+dist-update/
+dist-v3/
+dist-v4/
+dist-v5/
+dist-v6/
+dist-v7/
+dist-v8/
+dist-v9/
+dist-v10/
+dist-v11/
+.staging-run-*/
+
+# ===== 历史备份 =====
+backups/
+.cangjie/backup-v4-7-pre-revisions/
+.cangjie/backup-v4-8-pre-revisions/
+.cangjie/backup-v4-8-pre-docs/
+
+# ===== 中间缓存 / 临时 / 探针 =====
+__pycache__/
+*.pyc
+.cangjie/__pycache__/
+.cangjie/cache/
+.cangjie/chunks/
+.cangjie/index/
+.cangjie/graph/
+.cangjie/normalized/
+.cangjie/snapshots/
+.cangjie/runs/
+.cangjie/_probe/
+.cangjie/changes/
+.cangjie/_secg_raw.txt
+
+# ===== 拒绝/暂存区 =====
+rejected/
+
+# ===== candidates 中间阶段（保留 glossary/cases/counter-examples）=====
+candidates/_stage0/
+candidates/_stage1/
+candidates/_update-cfr/
+candidates/_update-lmono/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db

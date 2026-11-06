@@ -1,0 +1,20 @@
+{"case_id": "route-01", "run": 2, "selected_capability": "hazard-analysis-method", "reason": "六列工作表危害分析写FSP"}
+{"case_id": "route-02", "run": 2, "selected_capability": "management-components", "reason": "偏离处置与记录审查7日"}
+{"case_id": "route-03", "run": 2, "selected_capability": "process-control-validation", "reason": "巴杀D值与热分布验证"}
+{"case_id": "route-04", "run": 2, "selected_capability": "environmental-pathogen-sanitation", "reason": "李斯特菌环境监测升级"}
+{"case_id": "route-05", "run": 2, "selected_capability": "allergen-program", "reason": "共线排产与换产清洁"}
+{"case_id": "route-06", "run": 2, "selected_capability": "chemical-hazard-controls", "reason": "无机砷毒元素与查新"}
+{"case_id": "route-07", "run": 2, "selected_capability": "supply-chain-verification", "reason": "SAHCODH供应商验证活动"}
+{"case_id": "route-08", "run": 2, "selected_capability": "recall-plan", "reason": "Class I召回与RFR报告"}
+{"case_id": "route-09", "run": 2, "selected_capability": "regulatory-boundaries", "reason": "酸化食品双法规豁免边界"}
+{"case_id": "route-10", "run": 2, "selected_capability": "reference-tools-discipline", "reason": "附录1 X标记使用纪律"}
+{"case_id": "route-11", "run": 2, "selected_capability": "exemption-withdrawal-procedure", "reason": "豁免撤销上诉期限"}
+{"case_id": "route-12", "run": 2, "selected_capability": "environmental-engineering-controls", "reason": "厂房排水冷凝水设计"}
+{"case_id": "route-13", "run": 2, "selected_capability": "personnel-hygiene-controls", "reason": "人员洗手手套卫生"}
+{"case_id": "route-14", "run": 2, "selected_capability": "cgmp-compliance-guide", "reason": "cGMP内审SECG索引"}
+{"case_id": "route-15", "run": 2, "selected_capability": "defect-action-levels", "reason": "缺陷行动水平与掺混"}
+{"case_id": "route-16", "run": 2, "selected_capability": "inspection-readiness", "reason": "迎检记录举证准备"}
+{"case_id": "route-17", "run": 2, "selected_capability": "inspection-sampling", "reason": "取样量与阳性应对"}
+{"case_id": "route-18", "run": 2, "selected_capability": "investigator-authority-procedure", "reason": "检查员权限与482/483"}
+{"case_id": "route-19", "run": 2, "selected_capability": "lacf-inspection-program", "reason": "7303.070检查分流RRA"}
+{"case_id": "route-20", "run": 2, "selected_capability": "lacf-statutory-requirements", "reason": "113/114保存期限差异"}

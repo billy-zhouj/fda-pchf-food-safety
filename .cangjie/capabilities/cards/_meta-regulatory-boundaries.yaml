@@ -1,0 +1,28 @@
+slug: regulatory-boundaries
+title: 双法规与豁免边界
+importance: extended
+importance_rationale: 例外与豁免体系是全书的边界条件层（骨架第 7 点），决定"哪些规则对我适用"，但篇幅集中于 Ch16 与附录脚注，场景频率低于核心卡。
+one_liner: 法规适用性按"对象×危害类别"矩阵逐格判定，两套法规取义务并集（借用不免责）；极强致死工艺可作 No 的科学依据。
+intents:
+  - 判断产品是否豁免 PCHF（qualified facility/极强致死/研究用途等）
+  - 梳理酸化食品/低酸罐装与 PCHF 双法规的义务并集与专项缺口
+  - 处理供应商受 USDA 等其他机构管辖时的判定责任归属
+  - 多法规交叉产品（食品+非食品组件）的适用性切分
+  - 豁免资格精确判定（数字门槛/清单/日历）与不合规法律后果评估
+keywords:
+  - 豁免
+  - qualified facility
+  - LACF
+  - 酸化食品
+  - part 114
+  - part 113
+  - 双法规
+  - Form 2541e
+  - USDA
+  - FSIS
+  - 极强致死工艺
+  - "117.5"
+  - "117.201"
+  - "275英里"
+  - "Form 3942a"
+member_units: [fB-48, fB-45, pV-69, pV-70]

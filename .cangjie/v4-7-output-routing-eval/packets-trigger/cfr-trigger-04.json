@@ -1,0 +1,13 @@
+{
+  "case_id": "cfr-trigger-04",
+  "runs": 3,
+  "prompt": "客户要求我们提供书面保证，说他们就不用自己做供应商验证了，这个保证有什么法定格式要求吗？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

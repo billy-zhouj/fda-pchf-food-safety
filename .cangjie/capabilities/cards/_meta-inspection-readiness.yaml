@@ -1,0 +1,65 @@
+slug: inspection-readiness
+title: FDA 现场检查迎检与记录举证
+importance: extended
+importance_rationale: 本包此前 15 张卡全部是「建体系」视角，检查员视角一直挂在 PIPELINE_STATE 的「未纳入」边界里，且 cgmp-compliance-guide 明确写「不提供 FDA 检查程序、警告信答复策略」。CPGM 7303.040 现行版（2025-CPM-HFP-001）补齐后，可同时纠正「迎检＝把法规背熟」「critical observation 旧口径」「483 没有时限」「记录放总部就行」四类高频误读，并把 § 117.320 / § 117.315(c) / § 117.305 / § 117.310 / § 117.190 落成可执行的记录举证矩阵。属入口型判定能力，与 cgmp-compliance-guide、defect-action-levels、environmental-pathogen-sanitation、supply-chain-verification、regulatory-boundaries 多卡交叉，故定 extended。
+one_liner: 先判检查类型与三层分级，再按〔§ 117.320〕当场调得出记录——FSP 必须在现场、其余记录异地须 24 小时内可取、483 回复 15 个工作日；CPGM 7303.040 是检查员作业指导，不是企业义务清单。
+intents:
+  - 判断一次 FDA 检查属于哪种类型（03040 / 03040A / 03040L / 03040F / 03040Q / 03040R / 03040T / 03040U）以及覆盖哪些 Subpart
+  - 生成迎检记录举证矩阵，把 § 117.126/130/135/139/145/150/155/160/165/170/180/190/201/305/310/315/320 与 § 117.405–475 映射到具体记录、签署人与保存期
+  - 回答记录能否异地或云端保存、FSP 是否必须在现场、保存期多久、签字与批号要求
+  - 拆解 FDA 483 回复时限、境外投递通道与回复骨架（事实澄清、根因、CAPA、有效性验证、证据附件）
+  - 纠正「critical observation」旧口径，区分 eNSpect 单条观察项 major/minor、整次检查 critical/major/minor 与 OAI/VAI/NAI 分类
+  - 判断 limited scope PCHF 是否审 FSP、何时转为 full scope 或 focused PCHF、环境取样时为何不得做 limited scope
+  - 解释 OAI 后 6 个月跟进检查、OAI 重分类 VAI 后 1 年复检及 NAI/VAI 的 FSMA 复检频率
+  - 识别 2020 版 7303.040 的过时口径（03040U = PCHF Follow-Up、CFSAN/ORA、观察项分三级）并回指现行版
+  - 处理 qualified facility 与仅储存未暴露包装 TCS 食品设施的简化要求检查取证
+  - 给检查当天的陪同、walkthrough、现场纠正、取样与收尾会准备骨架
+  - 提示无预告检查、RRA、检查前索取记录等政策层准备原则，并声明原文未收须复核
+  - 判断哪些迎检事项超出本包覆盖（IOM、RPM、CPG、抽样方法、警告信答复、进口扣留应诉）
+keywords:
+  - FDA 现场检查
+  - 迎检
+  - 记录举证
+  - CPGM 7303.040
+  - "2025-CPM-HFP-001"
+  - "2020-CPGM-CFSAN-003"
+  - "03040U"
+  - Focused PCHF
+  - Limited Scope PCHF
+  - Full Scope PCHF
+  - PAC
+  - "FDA 483"
+  - "15 business days"
+  - OAI
+  - VAI
+  - NAI
+  - critical
+  - major
+  - minor
+  - eNSpect
+  - SOFO
+  - HFP OCE
+  - OII
+  - Direct Reference Authority
+  - IOM
+  - RPM
+  - Establishment Inspection Report
+  - 环境取样
+  - 无预告检查
+  - 远程监管评估
+  - official review
+  - "117.320"
+  - "117.315"
+  - "117.305"
+  - "117.310"
+  - "117.190"
+  - "117.4"
+  - "117.9"
+  - "117.201"
+  - "117.206"
+  - 24 小时
+  - 2 年
+  - 记录保存
+  - 食品防御
+member_units: []
+source_label: 21 CFR Part 117 法规正文（Subparts A/B/C/D/F/G）+ FDA CPGM 7303.040 现行版（2025-CPM-HFP-001，08/29/2025）+ 2020-CPGM-CFSAN-003 历史对照

@@ -1,0 +1,23 @@
+slug: recall-plan
+title: 召回计划与报告义务
+importance: extended
+importance_rationale: 召回计划四程序与 RFR 24 小时规则是法定必备但篇幅占比较小（Ch14 两节），作为危机预案模板有独立场景价值。
+one_liner: SAHCODH 一次定性三处联动（Class I 召回+24h RFR+供应商年审）；召回后先通知 FDA 再对媒体，有效性核查看"已送达+已行动"。
+intents:
+  - 编写或审查召回计划（团队/决策人/通讯模板/公众警告标准）
+  - 判断问题产品是否构成 Class I 召回与可报告食品
+  - 处理 RFR 24 小时报告的时序与顺序问题
+  - 供应商召回后评估自家已生产/已出货产品
+  - 区分公众警告义务与 FDA 执法报告公示
+keywords:
+  - 召回
+  - 召回计划
+  - Class I
+  - RFR
+  - 可报告食品
+  - "24小时报告"
+  - 公众警告
+  - 有效性核查
+  - recall
+  - reportable food
+member_units: [fB-26, pV-67, pV-68]

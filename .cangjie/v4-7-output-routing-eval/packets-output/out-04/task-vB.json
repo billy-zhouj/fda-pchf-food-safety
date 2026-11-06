@@ -1,0 +1,9 @@
+{
+  "case_id": "out-04",
+  "variant_label": "vB",
+  "prompt": "我们既做低酸罐头又做普通即食食品，是不是做了 Part 113 的 scheduled process 就不用管 21 CFR Part 117 的 Subparts C 和 G 了？请从条款层面回答。",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "可用参考材料（请先读取再作答）：C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety/SKILL.md 与该目录下 references/ 中的能力卡。遇到条款号、保存期限、来源分层等问题，请以材料为准。",
+  "output_file": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/.cangjie/v4-7-output-routing-eval/packets-output/out-04/vB.md"
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "secg-trigger-05",
+  "runs": 3,
+  "prompt": "我记得那份 Small Entity Compliance Guide 是 2016 年 11 月发的？还有 80 FR 55907 和 80 FR 56145 是不是两份不同的规则？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

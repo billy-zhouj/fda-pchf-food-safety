@@ -1,0 +1,68 @@
+{
+  "bundle_id": "bundle.fda-pchf-human-food",
+  "destinations": {
+    "CAP-01": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-02": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-03": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-04": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-05": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-06": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-07": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-08": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-09": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-10": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-11": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-12": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-13": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-14": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-15": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-16": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-17": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-18": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-19": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-20": {
+      "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-21": {
+      "served_by": "fda-pchf-food-safety"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "version": "4.7",
+  "date": "2026-11-06",
+  "scope": "只纳入 21 CFR Part 113 / 114 法规正文；其余 6 份下载资料本版不纳入",
+  "sources_added": [
+    {
+      "source_id": "src-fda-cfr-part113-2025",
+      "file": "source-cfr-part113-2025.md",
+      "edition": "4-1-25 Edition",
+      "pages": 36,
+      "sections": 10,
+      "converter": ".cangjie/convert_cfr_part.py",
+      "convert_report": ".cangjie/cfr-part113-2025-convert-report.json"
+    },
+    {
+      "source_id": "src-fda-cfr-part114-2025",
+      "file": "source-cfr-part114-2025.md",
+      "edition": "4-1-25 Edition",
+      "pages": 7,
+      "sections": 8,
+      "converter": ".cangjie/convert_cfr_part.py",
+      "convert_report": ".cangjie/cfr-part114-2025-convert-report.json"
+    }
+  ],
+  "capability_added": {
+    "capability_id": "CAP-20",
+    "slug": "lacf-statutory-requirements",
+    "card": ".cangjie/capabilities/cards/lacf-statutory-requirements.md",
+    "meta": ".cangjie/capabilities/cards/_meta-lacf-statutory-requirements.yaml",
+    "verbatim_quotes": "26/26 matched"
+  },
+  "substantive_corrections": [
+    "Part 110 至今有效：FDA 2018-09-12 FR Doc. 2018-19855 撤回 2015 规则的 amendatory instruction 13；v4.3「110.110 是过时引用 / Part 110 已移除」作废，改为「现行仍有效、正文本包未收 → 转引未收」",
+    "§113.100(g)(h) 为 1 年厂内 + 另 2 年且允许 part 11 电子记录；§114.100(e) 为整段 3 年、无分段、无 part 11 条款。CAP-20 草稿、source-cfr-part114-2025.md 条款地图、术语 t116/t149、用例 defect-level-02/stat-05/lacf-08 全部同步更正"
+  ],
+  "counts": {
+    "capabilities": 20,
+    "glossary_terms": 152,
+    "test_cases": 85,
+    "additional_sources": 11,
+    "total_sources": 12,
+    "core_principles": 37,
+    "stop_conditions": 14,
+    "out_of_scope": 6
+  },
+  "revision_script": {
+    "file": ".cangjie/apply_v4_7_revisions.py",
+    "replacements": 32,
+    "files_touched": 9,
+    "backup": ".cangjie/backup-v4-7-pre-revisions/",
+    "dry_run": "32/32 prefixes unique, 0 problems"
+  },
+  "checks": {
+    "meta_yaml": "20 files, 0 type problems",
+    "cap20_quotes": "26/26 verbatim",
+    "glossary_ids": "152 unique",
+    "test_case_ids": "85 unique",
+    "py_compile": [
+      "assemble_bundle.py",
+      "apply_v4_7_revisions.py",
+      "install_v8.py"
+    ],
+    "also_read_dangling": 0
+  },
+  "build": {
+    "dist": "dist-v11",
+    "run_id": "run-20261106-132848-65bf3a",
+    "variant": "single",
+    "published_files": 25,
+    "staging_validate": "0 errors / 1 warning (name-dir, expected for dist-vN)",
+    "installed_validate": "0 errors / 0 warnings",
+    "backup": "backups/fda-pchf-food-safety-v4.6-20261106-132910",
+    "install_script": ".cangjie/install_v8.py",
+    "hash_diff": 0
+  },
+  "trigger_eval": {
+    "suite": "test-prompts.json v4.7 (85)",
+    "adapter": ".cangjie/v4-7-trigger-eval/trigger-suite.json",
+    "split": "train 51 / validation 34 (seed 42)",
+    "set": "all",
+    "judges": "3 clean sub-agents, batches 29/29/27, blind (prompt + condensed skill catalog only)",
+    "runs_per_case": 1,
+    "tp": 80,
+    "fp": 0,
+    "fn": 0,
+    "tn": 5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "report": ".cangjie/v4-7-trigger-eval-report.md",
+    "caveats": [
+      "1 run per case, no repeat-consistency check",
+      "no sibling cases; sibling confusion 0/0 is empty",
+      "only 5 negative cases",
+      "edge_case scored as should_trigger; capability routing not evaluated",
+      "judges saw condensed catalog, not full SKILL.md frontmatter",
+      "no statistical non-inferiority claim"
+    ]
+  },
+  "not_included_this_version": [
+    "CFR-2025-title21-vol2-part120.pdf",
+    "CFR-2025-title21-vol2-part123.pdf",
+    "CP7303.878",
+    "CP 7303.842",
+    "CP 7303.847",
+    "CP 7303.819 (rescinded)"
+  ],
+  "still_not_collected": [
+    "21 CFR part 108 / 110 / 120 / 123 正文",
+    "IOM Chapter 4 及 IOM 其余章节",
+    "BAM / AOAC / MPM 方法正文",
+    "CPG 全套与 Import Alert 全文",
+    "其余 Compliance Programs",
+    "F0/D/z 计算与温度分布/热穿透研究设计、卷边解剖判读、商业无菌验证方案审批",
+    "Form 2541e 与 SOP-001642 细则"
+  ]
+}

@@ -1,0 +1,27 @@
+slug: hazard-analysis-method
+title: 危害分析方法
+importance: core
+importance_rationale: 全书方法论核心（Ch2）与所有示例厂的共同起点，其他能力的地基；图入度最高
+one_liner: 用六列工作表把危害从识别到控制落点做成可辩护的书面推演——"No"与"Yes"同等重要，发现点不等于控制点
+intents:
+  - 给新产品/新产线做危害分析或重建六列工作表
+  - 判断某个危害要不要写进 FSP、要不要设预防控制
+  - 解释附录 1 的 X 标记怎么用、能不能判 No
+  - 把 HACCP 计划升级为 FSP 危害分析
+  - 出现新信息（原料/工艺/暴发通报）后判断危害分析是否要重做
+  - 判断某情形法定是否违法/是否必须设预防控制（条款级判定）
+keywords:
+  - 危害分析
+  - hazard analysis
+  - 六列工作表
+  - potential hazard
+  - 需预防控制的危害
+  - "117.130"
+  - 危害识别
+  - 危害评估
+  - HACCP 升级 FSP
+  - 危害分析工作表
+  - "117.136"
+  - 法定义务
+  - "significantly minimize"
+member_units: [fA-01, fA-02, fA-09, fA-11, fB-40, fB-41, fB-43, fB-44, fB-45, fB-46, pV-01, pV-02, pV-04, pV-05, pV-06, pV-07, pV-08, pV-09, pV-10, pV-11, pV-12, pV-14, pV-15, pV-75]

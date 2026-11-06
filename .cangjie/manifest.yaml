@@ -1,0 +1,25 @@
+schema_version: 1
+content_pack: fda-pchf-human-food-guidance
+sources:
+- source_id: src-21-cfr-part-117-2025
+  kind: other
+  title: 21-CFR-Part-117-2025
+  uri: file:///E:/WeChatData/2026-11-04-09-51-05/books/_inbox/21-CFR-Part-117-2025.md
+  rights: user-provided
+  trust: primary
+  versions:
+  - version_id: sha256:dad643170e0c871d8a6929059550572cd7fea8795b6153eb8d09c0fc50609826
+    added_at: 2026-11-04T12:48:42+0800
+    parser: build_chunks v1.0
+    status: active
+- source_id: src-source-lmono
+  kind: other
+  title: source-lmono
+  uri: file:///E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/source-lmono.md
+  rights: user-provided
+  trust: primary
+  versions:
+  - version_id: sha256:9849765e3af97d7b8e4a71fd1fe65c0cd938fdc226b7afe4e83cecac68367cdf
+    added_at: 2026-11-04T14:35:02+0800
+    parser: build_chunks v1.0
+    status: active

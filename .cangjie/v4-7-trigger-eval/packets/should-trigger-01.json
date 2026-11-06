@@ -1,0 +1,13 @@
+{
+  "case_id": "should-trigger-01",
+  "runs": 1,
+  "prompt": "我们工厂要上一条新的坚果烘焙产线，帮我做一份危害分析，面粉和花生酱里有什么潜在危害、哪些需要设预防控制？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

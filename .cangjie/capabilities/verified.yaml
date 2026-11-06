@@ -1,0 +1,2249 @@
+schema_version: 1
+bundle_id: bundle.fda-pchf-human-food
+book:
+  title: 'Hazard Analysis and Risk-Based Preventive Controls for Human Food: Guidance for Industry (Draft)'
+  author: U.S. FDA, CFSAN Office of Food Safety
+  year: 2024（滚动草案；引用数据截至 2016–2022）
+  content_type: regulatory-guidance
+  source_id: src-main-book
+  source_file: books/fda-pchf-human-food-guidance/source.md
+  additional_sources:
+  - title: 21 CFR Part 117（2025 版）法规正文
+    author: U.S. FDA（eCFR 现行文本）
+    year: '2025'
+    content_type: regulation（最终规则，具法律约束力）
+    source_id: src-21-cfr-part-117-2025
+    source_file: books/_inbox/21-CFR-Part-117-2025.md
+    note: Subparts A–G 全量条文，用于提供法定义务、法定例外与时限的权威出处；卡内以〔§ 117.xxx〕标注
+  - title: 'Control of Listeria monocytogenes in Ready-To-Eat Foods: Guidance for Industry (Draft)'
+    author: U.S. FDA, CFSAN
+    year: 2017-01（Draft – Not for Implementation）
+    content_type: regulatory-guidance（草案，建议层；正文一律 we recommend）
+    source_id: src-fda-lmono-rte-2017-draft
+    source_file: books/fda-pchf-human-food-guidance/source-lmono.md
+    note: 21 章 + 5 附录，用于补齐 RTE 即食食品李斯特菌专项的卫生程序、环境监测、厂房工程、人员卫生、抑制型/致死型配方、储运与术语；正文出现 must 处均为其引述 Part 117 的法定义务
+  - title: 'What You Need to Know About the FDA Regulation: 21 CFR Part 117 — Small Entity Compliance Guide (Guidance for
+      Industry)'
+    author: U.S. FDA, CFSAN（Office of Food Safety / Office of Analytics and Outreach）
+    year: 2016-10（依 SBREFA § 212 编制；Docket FDA-2011-N-0920）
+    content_type: regulatory-guidance（合规指南，非约束性，代表 FDA current thinking；明确允许满足法规的替代方案）
+    source_id: src-fda-secc-part117-2016
+    source_file: books/fda-pchf-human-food-guidance/source-secg.md
+    note: 15 章，由 WorkBuddy 资料库文档转换而来；XIII 章逐条白话转述 Subpart B 的 § 117.10/.20/.35/.37/.40/.80/.93/.110，XIV 章对应 § 117.95；I 章为效力声明（rule
+      binding / guidance not enforceable / should 非必须）；VI 章 Table 4 的合规日期为 2016 年过渡安排，现已全部生效，不得用作当前时限依据
+  - title: 'Questions and Answers Regarding Food Allergens, Including the Food Allergen Labeling Requirements of the FD&C
+      Act (Edition 5): Guidance for Industry'
+    author: U.S. FDA, Human Foods Program
+    year: 2025-01（Edition 5 修订终版；Docket FDA-2022-D-0099；90 FR 1133）
+    content_type: regulatory-guidance（标签解释，非约束性；Contains Nonbinding Recommendations）
+    source_id: src-fda-allergen-qa-ed5-2025
+    source_file: books/fda-pchf-human-food-guidance/source-allergen-ed5.md
+    note: 27 页 / 68 书签，由用户提供的官方 PDF 经 pdf2md-pro 转换；解释 FD&C Act 201(qq)/403(w) 的标签义务，不是 21 CFR Part 117 的预防控制义务。合并替代 2022-11-30
+      发布的 Ed.5 草案与终版两份文件；仅 Table 1 所列 12 种树坚果按主要食物过敏原处理；milk/eggs 扩展至其他反刍动物/禽类
+  - title: Food Defect Levels Handbook（Levels of natural or unavoidable defects in foods that present no health hazards for
+      humans）
+    author: U.S. FDA, CFSAN（网页版）
+    year: 页面标注 Content current as of 09/07/2018；正文 May 1995，修订 1997-03 / 1998-05，2005-02 两处方法来源更正
+    content_type: enforcement-reference（FDA 汇编的 defect action levels 一览与术语表；执法裁量参考，非法规、非 guidance 建议层）
+    source_id: src-fda-defect-levels-handbook
+    source_file: books/fda-pchf-human-food-guidance/source-defect-levels-handbook.md
+    note: 由用户提供的官方页面 MHTML 存档转出；6 章 + GLOSSARY 27 词条 + COMMODITIES 表（111 个产品 / 173 条行动水平 / 111 条 DEFECT SOURCE-SIGNIFICANCE）+
+      拆出的树坚果容许百分比表。法定对应条款为〔§ 117.110〕（Subpart B）、〔§ 117.3〕定义、〔§ 117.80(b)(3)(4)〕与 FD&C Act 402(a)(3)/(4)。⚠ v4.7 纠错：网页 INTRODUCTION
+      首句仍写 21 CFR 110.110，2015 规则拟于 2018-09-17 删除 part 110 的 amendatory instruction 13 已被 FDA 2018-09-12 最终规则（FR Doc. 2018-19855）撤回，Part
+      110 至今有效；它只是正文本包未收，须标「转引未收」，不得判为过时引用。Part 117 侧对应条款仍是〔§ 117.110〕，且 §110.110(c) 不得标成〔§ 117.110(c)〕；action level 是 FDA
+      执法裁量线，不是合规安全港、不是平均值、不是内控目标
+  - title: Compliance Program Guidance Manual 7303.040 — Preventive Controls and Sanitary Human Food Operations
+    author: U.S. FDA, Human Foods Program (HFP) / Office of Inspections and Investigations (OII)
+    year: 现行版 2025-CPM-HFP-001，Date of Issuance 08/29/2025，IMPLEMENTATION DATE 05/23/2024；50 页 / 91 书签（取代 2020-CPGM-CFSAN-003，10/15/2020，47
+      页）
+    content_type: inspection-program（FDA 给检查员/分部的内部作业指导；非法规、非 Guidance for Industry、不创设企业义务）
+    source_id: src-fda-cpgm-7303-040-2025
+    source_file: books/fda-pchf-human-food-guidance/source-cpgm-7303-040-2025.md
+    note: 由用户提供的官方 508-Compliant PDF 经 pdf2md-pro 转换；已废止的历史对照见 books/fda-pchf-human-food-guidance/source-cpgm-7303-040-2020.md。8
+      个 FDA PAC（03040 / 03040A / 03040L / 03040F / 03040Q / 03040R / 03040T / 03040U）+ 8 个州合同码；PART III 检查类型与取证、PART V 观察项/检查分级与
+      OAI-VAI-NAI 执法阶梯、ATTACHMENT A 卫生运输（属 21 CFR 1 Subpart O，非 Part 117）。⚠ 现行版把 critical/major/minor 挂在『整次检查』，单条观察项在 eNSpect
+      只有 major/minor 且 investigators do not make this categorization；03040U 已从 PCHF Follow-Up 改为 Focused PCHF；483 回复期望 15
+      个工作日并设境外专用邮箱。合规结论仍回〔§ 117.xxx〕；引用用「CPGM 7303.040 PART x」。⚠ FDA 网页列表日期与 PDF 首页 IMPLEMENTATION DATE 不一致，以 PDF 首页为准
+  - title: Compliance Program Guidance Manual 7303.050 — Sampling for Foodborne Biological Hazards and Filth (Domestic and
+      Import)
+    author: U.S. FDA, Human Foods Program / Office of Compliance and Enforcement (HFP/OCE)
+    year: Date of Issuance 06/03/2022；IMPLEMENTATION DATE 06/03/2022；Correction date 09/10/2025；62 页 / 75 书签
+    content_type: sampling-program（FDA 给检查员/分部/实验室的内部抽样作业指导；非法规、非 Guidance for Industry、不创设企业义务）
+    source_id: src-fda-cp-7303-050-2025
+    source_file: books/fda-pchf-human-food-guidance/source-cp-7303-050-2025.md
+    note: 由用户提供的官方 508-Compliant PDF 经 pdf2md-pro 转换。⚠ 文件名 20250915 与 Correction date 09/10/2025 表示 2022 版程序的 2025 年更正本，不是
+      2025 年新签发的 program，不得套用 7303.040 的 2025-CPM-HFP-001 Transmittal 格式。PART III.1.A 明说 Inspections are not planned under
+      this compliance program；PART III.1.C / Table 2、3 给产品样品 subs 数（不含 702(b) 部分）；ATTACHMENT A 给环境拭子 Listeria ≥50（理想 100）/
+      Salmonella ≥100（理想 300）与 Zone 1–3 / 2–3、WGS + GenomeTrakr、三档 Findings；ATTACHMENT B 给污秽/霉变抽样；PART V 表 7/8 是逐案、非穷尽的可能
+      FDA 响应清单，指控为 402(a)(1)/(3)/(4)、801(a)(3)。引用用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」。IOM Chapter 4、eBAM
+      / BAM / AOAC / MPM 方法正文、SOP-001052、SOP-000529 FMD-147、CPG Sec. 527.300、RPM Ch.9 与 Import Alert 正文仍未收
+  - title: 'Investigations Operations Manual (IOM) 2026 — Chapter 5: Inspections'
+    author: U.S. FDA, Office of Inspections and Investigations (OII)
+    year: 2026 版 Chapter 5（PDF creationDate 2026-07-13）；221 页 / 410 书签
+    content_type: investigator-manual（FDA 给调查员的内部作业手册；非法规、非 Guidance for Industry、不创设企业义务）
+    source_id: src-fda-iom-2026-ch5
+    source_file: books/fda-pchf-human-food-guidance/source-iom-ch5-2026.md
+    note: 由用户提供的官方 PDF 经 pdf2md-pro 转换。仅 Chapter 5 单章，含 5.1–5.16 与 Exhibit 5-1…5-23；IOM Ch.3/4/6/7/8/9/10 未收。法定基础 FD&C Act
+      704(a)(1)；国内到场出示 credentials + 签 FDA 482，境外一般不发 482；5.2.7 预告三层口径（医疗器械与部分 BIMO 强制、食品企业一般不预告由 program division 裁量、境外通常提前告知、国内不少于
+      5 个日历日且改期不晚于原日期 +5 天、预告不是预约）；5.5.10 / 5.5.11.3 的 483 措辞纪律——不引法规原文、不纳入标准、不引 policy/guidance 偏离、不写 opinions/violative，仅偏离
+      guidance 属 Category 3 non-reportable observation；5.5.12.3 与 5.5.12.5 给 15 个工作日与 Form FDA 484；5.6 给记录/电子记录/照片的证据固定规则；5.5.2
+      给 301(e)/(f) 与境外 807(b)。引用用「IOM 5.x.x / IOM Exhibit 5-x」
+  - title: Compliance Program Guidance Manual 7303.070 — Acidified and Low-Acid Canned Foods Program (Import & Domestic)
+    author: U.S. FDA, Human Foods Program (HFP) / Office of Inspections and Investigations (OII)
+    year: Date of Issuance 09/26/2024；IMPLEMENTATION DATE 9/26/2024；Correction Date 9/26/2025；61 页 / 40 书签
+    content_type: inspection-program（FDA 给检查员、实验室分析员与合规官的内部作业指导；非法规、非 Guidance for Industry、不创设企业义务）
+    source_id: src-fda-cp-7303-070-2024
+    source_file: books/fda-pchf-human-food-guidance/source-cp-7303-070-2024.md
+    note: 由用户提供的官方 508-Compliant PDF 经 pdf2md-pro 转换。⚠ 文件名 20250929 是 PDF 生成日；本件为 2024-09-26 版程序的 2025-09-26 更正本，不是 2025 年新签发
+      program，与 CP 7303.050（2022 签发 / 2025-09-10 更正）同属更正本形态，也不同于 CPGM 7303.040 的 2025-CPM-HFP-001 新 Transmittal。PART II.2.C(1)
+      官方写明 LACF 受 Part 117 约束、但 subparts C/G 不适用于 part 113 覆盖活动，且〔§ 117.5(d)(2)〕该豁免仅限 part 113 管辖的微生物危害；未被热处理控制且需预防控制的危害（金葡生长产毒、化学、物理）仍归
+      C/G；酸化食品 Acidified foods are subject to the CGMP & PCHF rule，PCHF 覆盖转 7303.040，检查重点仍在 part 108/114。PART II.2.C(2) Products
+      labeled Keep Refrigerated are exempt from 21 CFR 113/114 → 转 7303.050；brites 中央仓报 PAC 03040；PART II.2.B(2) 明确 RRAs are
+      not considered inspections、不满足 704(a)(1) 法定检查场景。PART III.1.A 给酸化判定三步（Maximum Equilibrium pH）、AF/LACF/Aseptic LACF 三类检查目标；PART
+      IV.2 给 795 g/24 罐与 12 罐、pH 4.40/4.65 双分析师触发与 Never average the two analysts' results together、异常罐 4.75 与肉毒毒素/PCR；PART
+      V.2 给 Import Alert 99-37/99-38 与「不得仅因未注册未备案建议 DWPE」。引用用「CP 7303.070 PART x / ATTACHMENT x」。⚠ v4.7 起 21 CFR part 113
+      / 114 法规正文已收（第十一/十二来源，CAP-20）；仍未收的是 part 108（FCE/SID/Emergency Permit/§108.35）、part 110 / 120 / 123、IOM Ch.4 Sample
+      Schedule Chart 2、BAM Ch.13B/14/17/21A/22A-22D、CPG Sec. 520.200/520.300、Import Alert 全文、SOP-001642、RPM Ch.4/9，不得从本 CP
+      反推未收法条
+  - title: 21 CFR Part 113 — Thermally Processed Low-Acid Foods Packaged in Hermetically Sealed Containers (4-1-25 Edition)
+    author: U.S. Government Publishing Office / eCFR, 21 CFR Ch. I (4-1-25 Edition)
+    year: 4–1–25 Edition（CFR 年度编纂版次，修订至 2025-04-01；书页 344–379，36 页 / 10 条款）
+    content_type: regulation（联邦法规正文，最终规则，具法律约束力；本包首次纳入 Part 117 之外的法规正文）
+    source_id: src-fda-cfr-part113-2025
+    source_file: books/fda-pchf-human-food-guidance/source-cfr-part113-2025.md
+    note: 由用户提供的 GPO/eCFR 双栏印刷版 PDF 经本包专用脚本 .cangjie/convert_cfr_part.py 按「页 → 左栏 → 右栏」重排转出（pdf2md-pro 会串栏）。§113.3(n) 给 4.6
+      / 0.85 法定低酸食品定义与番茄 pH <4.7 例外；§113.5 列八个判据条款；§113.10 BPCS 人员；§113.40 设备与 NIST 溯源校准；§113.60 容器；§113.81 产品制备；§113.83 scheduled
+      process 与 critical factors；§113.87 杀菌室规程、product traffic control 与 FDA 调阅权；§113.89 偏差；§113.100 记录（(g) 厂内 ≥1 年 + 另 2
+      年，(h) 电子记录须符合 part 11）。引用用〔§ 113.xxx〕，独立于〔§ 117.xxx〕〔§ 114.xxx〕。
+  - title: 21 CFR Part 114 — Acidified Foods (4-1-25 Edition)
+    author: U.S. Government Publishing Office / eCFR, 21 CFR Ch. I (4-1-25 Edition)
+    year: 4–1–25 Edition（修订至 2025-04-01；书页 379–385，7 页 / 8 条款）
+    content_type: regulation（联邦法规正文，最终规则，具法律约束力）
+    source_id: src-fda-cfr-part114-2025
+    source_file: books/fda-pchf-human-food-guidance/source-cfr-part114-2025.md
+    note: 同一专用双栏脚本转出。§114.3 给 acid foods / acidified foods 定义与 4.6 / 0.85 边界及排除项；§114.5 明文把 §§114.10/114.80/114.83/114.89/114.100
+      与 parts 110 and 117 一并列为掺假判定依据；§114.10 BPCS（课程含 pH controls and critical factors in acidification）；§114.80 成品 pH ≤4.6
+      按时达到并维持 + 热处理杀 vegetative cells + pH >4.0 用电位法；§114.83 scheduled process；§114.89 三条偏差路径（含按 part 113 热处理）；§114.90 方法；§114.100
+      记录（(e) 加工厂或其他合理可及地点整段 3 年，无 1+2 分段、无 part 11 条款）。⚠ 本件还锁死一处纠错：parts 110 and 117 是现行文本、不是笔误——FDA 2018-09-12 最终规则（FR Doc.
+      2018-19855）撤回了 2015 规则拟删除 part 110 的 amendatory instruction 13，Part 110 至今有效但正文本包未收。引用用〔§ 114.xxx〕。
+  - title: Compliance Program 7303.878 - Foreign Supplier Verification Programs Inspections
+    author: U.S. FDA, Human Foods Program (HFP) / Office of Inspections and Investigations (OII)
+    year: Transmittal 2023-CPM-CFSAN-003；Implementation Date 09/27/2023；Date of Issuance 08/28/2025（更正）；33 页 / 20 书签
+    content_type: inspection-program（FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导；非法规、非 Guidance for Industry、不创设企业义务）
+    source_id: src-fda-cp-7303-878-2023
+    source_file: books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md
+    note: '由用户提供的官方 508-Compliant PDF 经 pdf2md-pro 转换并清除 62 行页眉。⚠ 版本判定：Change History 为 2021-10-20 首发 → 2023-09-27 Update（改名
+      FSVP Inspections、补 7303.803A / 7303.080 程序交互、Part V 执法澄清）→ 2024-08-20 Pen/Ink → 2025-08-28 Corrections（仅 POC 与机构名称缩写更新）；故为
+      2023 版程序的 2025 更正版，不是 2025 新 program。法源为 FSMA §301 增订的 FD&C Act §805 与 21 CFR part 1, subpart L（§§1.500-1.514），**该法规正文本包未收，一律标转引未收**。PART
+      II.3.A 给 deemed compliance：进口商同时为 manufacturer/processor 且符合 21 CFR part 117 / 507 供应链要求时视为符合 FSVP，但 except they must
+      comply with section 1.509；不是 receiving facility 的进口商仍须完整 FSVP。PART III.1.C 明写 Samples will not be collected as part
+      of an FSVP inspection、PART IV 四节 Intentionally Left Blank。PART V 给 483a 观察分级、NAI/VAI/OAI、§801(a)(3) / §1.514(a) 拒绝入境与
+      §301(zz) / §1.514(b) 禁止行为、direct reference authority 仅限有限情形、Import Alert 99-41 Red List 按『食品+境外供应商』组合列入与移除流程。⚠ 99-41
+      与 CP 7303.070 的 99-37 / 99-38 不是同一个 Import Alert。引用用「CP 7303.878 PART x」。仍未收：21 CFR part 1 subpart L / 111 / 112 / 120
+      / 123 / 507 正文、Import Alert 99-41 全文、FSVP Guidance for Industry、FSVP Implementation Work Instructions 与 IP guidance
+      tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、SOP-001642'
+entry:
+  name: fda-pchf-food-safety
+  description: FDA 人类食品危害分析与基于风险的预防控制（PCHF / 21 CFR Part 117 / FSMA）技能，融合行业指南方法论与法规正文法定义务。当用户需要：做食品危害分析（六列工作表）、判定法定义务与法定豁免（条款级）、设计或验证热处理/工艺控制、设计过敏原控制与排产、环境病原（李斯特菌/沙门氏菌）与卫生控制策略、化学危害与经济掺假判定、供应商批准与验证活动选择、召回计划与报告食品义务、FDA
+    食品法规适用边界判断、qualified facility 豁免撤销应诉（上诉/听证/时限）、美国食品安全计划（FSP）要素设计时触发。尤其覆盖 RTE 即食食品李斯特菌专项：抑制型（listeristatic）与致死型（listericidal）配方设计及验证、环境监测点位/频次/阳性升级决策树、卫生程序与清洁消毒作业、厂房分区与气流排水及设备卫生设计、人员手套与工服及动线控制、成品抽检与
+    hold and test、储运温度控制。另覆盖 cGMP（21 CFR Part 117 Subpart B）合规资料分层与内审分诊：判断该看哪份官方文件、FDA 行业指南/小企业合规指南/执法口径文件的效力层级、Subpart B
+    九条逐条取证要点、cGMP 与 PCHF 的分层关系、以及指南 should 与法规 must 的主体分流读法。另覆盖过敏原标签口径（FDA 食品过敏原问答 Ed.5，2025-01 修订终版）：Big 9 类别、Table 1 封闭树坚果清单、非牛乳/非鸡蛋的动物来源标注、allergen-free
+    声明与 advisory 声明的互斥判别。另覆盖食品缺陷行动水平（FDA Food Defect Levels Handbook）：虫碎片/鼠毛/霉变等天然不可避免缺陷的 111 个产品阈值与 SIGNIFICANCE 判读、〔§ 117.110〕最低可行水平义务与掺混稀释禁令、110.110
+    引用纠偏（v4.7 更正：Part 110 至今有效、正文未收）、表内无产品时的逐案评估，以及霉菌类缺陷与真菌毒素化学危害的联动分诊。另覆盖 FDA 现场检查迎检（CPGM 7303.040 现行版）：8 类检查与 PAC 码识别、Limited
+    Scope / Full Scope / Focused PCHF 的取证深度与转换条件、〔§ 117.320〕official review 与〔§ 117.315(c)〕FSP 现场/24 小时记录举证矩阵、FDA 483 的 15
+    个工作日回复骨架、eNSpect 观察项与 OAI/VAI/NAI 三层分级、OAI 后 6 个月跟进检查，以及 2020 版旧口径纠偏。另覆盖 FDA 现场取样（CP 7303.050，2022 签发 / 2025-09-10 更正）：PAC/PAF
+    归属识别、Table 2/3 的产品样品 subs 数与 702(b) 部分、ATTACHMENT A 环境拭子 Listeria ≥50 / Salmonella ≥100 与 Zone 1–3 分区、湿干区目标菌选择、WGS 与 GenomeTrakr、ATTACHMENT
+    A Part V 三档 Findings 与 PART V 表 7/8 的逐案执法响应清单、进口状态样品与 ATTACHMENT B 污秽/霉变抽样。另覆盖 FDA 检查员权限与文书（IOM 2026 Chapter 5）：FD&C Act
+    704(a)(1) 与合理时间/合理方式、FDA 482/482c/482d/483/483a/484/4056 表单地图、境内预告 5 个日历日与境外通常提前告知的口径、拒绝入场/拒绝记录与 807(b) 拒绝入境后果、483 只写事实且不引法规原文也不引
+    guidance 偏离的措辞纪律、non-reportable observations、15 个工作日双出处、电子记录与照片的证据固定规则，以及「样品合格不阻碍 cGMP 指控」。另覆盖低酸罐头与酸化食品检查（CP 7303.070，2024
+    签发 / 2025-09-26 更正）：按〔§ 117.5(d)(1)(2)〕把 part 113 管辖的微生物危害与仍需 PCHF 的化学/物理/金葡危害切开、酸化食品不免 Subparts C/G 的分流、〔§ 117.1(c)〕专项
+    CGMP 与 Part 117 并行、Keep Refrigerated 与 brites 的 program 路由、RRA 不是 704(a)(1) inspection 的法定地位、酸化食品判定三步与 Maximum Equilibrium
+    pH、FCE/SID 与 Process Authority 及温度分布/热穿透/卷边/异常罐的取证清单、pH 4.40/4.65 双分析师规则与 4.6 法定边界的三套数字区分、24 罐/12 罐取样量、异常罐 1% 与 pH 4.75
+    肉毒毒素升级、Import Alert 99-37/99-38 与「未备案本身不构成 DWPE」的反直觉限制。另覆盖低酸罐头与酸化食品的条款级法定义务（21 CFR Part 113 / 114 法规正文，4-1-25 Edition）：按〔§
+    113.3(n)〕〔§ 114.3(b)(d)〕的成品平衡 pH 4.6 / aw 0.85 判定 LACF / AF / 酸性食品身份，〔§ 117.1(c)〕专项 CGMP 与 Part 117 并行、〔§ 117.5(d)(1)(2)〕双条件且仅限微生物危害的有限豁免、part
+    114 不在豁免清单内、〔§ 114.5〕并列 parts 110 and 117 的掺假判据，Part 113 的 §113.10/40/60/81/83/87/89/100 与 Part 114 的 §114.10/80/83/89/90/100
+    义务清单，成品 pH >4.0 用电位法〔§ 114.80(a)(2)〕、酸化不等于免除热处理〔§ 114.80(a)(1)〕、§114.89 三条偏差路径、scheduled process 的 FDA 调阅权〔§ 113.87(b)〕、两
+    part 记录保存口径差异（§113.100(g)(h) 1+2 年且可用 part 11 电子记录；§114.100(e) 整段 3 年且无 part 11 条款），以及 4.6/0.85/4.0 法定数字与 CP 7303.070
+    的 4.40/4.65 检查员触发线、L.mono ≤4.4/≤0.92 建议层基准的三层区分。另覆盖 FSVP 进口商检查（CP 7303.878，2023 版 / 2025-08-28 更正）：按 §1.500 判定 FSVPI 身份、FSVP（FD&C
+    Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序的主体分流、deemed compliance 但不免 §1.509 每一 entry line 的 UFI/DUNS
+    申报、§1.501 八类豁免与 standard / modified requirements 分节、FSVP 检查不取样与 PART IV 全空、483a 观察分级与 NAI/VAI/OAI、§801(a)(3) 拒绝入境与 §301(zz)
+    禁止行为、Warning Letter → Import Alert 99-41 Red List 加/删名单与「未上 Red List 仍可进口」等反直觉限制。适用于食品工厂质量/合规人员、采购与供应商管理者、食品工艺研发、跨境食品贸易合规咨询，以及需要准备
+    FDA 现场检查、取样配合、483 回应与低酸/酸化罐头产品管辖判定的团队。
+  core_principles:
+  - 先分层再引用：**法规正文层自 v4.7 起含三套独立编号**——21 CFR Part 117〔§ 117.xxx〕、Part 113〔§ 113.xxx〕、Part 114〔§ 114.xxx〕，均为最终规则、具法律约束力，各管各自义务；FDA
+    行业指南（草案，should 级方法论建议）为另一层。冲突时法规为准，指南只作解释与例证；「Part 117 是唯一判定基准」只能理解为**判定 Part 117 义务**的唯一基准，不能解释成全包唯一法条
+  - 危害分析做错或漏识别，整个 FSP 无效——无论执行得多好；判定必须书面，解释 No 与解释 Yes 同等重要
+  - 危害判定分三层级：hazard → potential hazard（附录 X 标记仅为起点）→ hazard requiring a preventive control，最终责任在每个工厂
+  - 判 No（不构成需控危害）与判 Yes 但不实施预防控制（§ 117.136 五情形出口）是两层不同的事，混层会得出错误结论
+  - 发现点不等于控制点：在识别出危害的步骤之外控制往往是更优解（六列工作表第 6 列）
+  - RTE 食品包装前暴露于环境且包装后无致死处理，必须评估环境病原体（117.130(c)(1)(ii)）；法定'环境病原'明确排除产芽孢菌芽孢
+  - 热处理只杀营养细胞不灭孢子、不消除已形成毒素；控制目标用 D/z 值与 6D 削减倍数表达（L. mono 70°C/2min；非蛋白分解 C. botulinum 90°C/10min）
+  - 监控四问（What/How/How often/Who）；发现偏差应假定自上次合格检查起全部未受控；记录审查是 7 个工作日不是 7 天
+  - correction vs corrective action 的法定分诊是两条并列通道：过敏原交叉接触/卫生控制的条件与实践不一致（及时纠正即可）、轻微且孤立不影响安全的问题
+  - 检测只能作为供应商验证的补充手段（这是指南的保守解读，法规未禁止其作唯一手段）；SAHCODH 危害要求首次使用前 + 每年现场审核，除非书面认定替代方案
+  - 湿/干环境二分法决定环境病原战略：湿区防李斯特菌靠保持干燥，干区防沙门氏菌靠严格控水
+  - FSP 至少每 3 年再分析；变更、新危害信息、意外问题、控制无效均触发（可限于相关部分）；FDA 也可指令再分析
+  - 法定义务常带硬时限与法定出口：豁免日历、15/90/120 日窗口、7 工作日记录审查——答复前先查条款，别凭印象给数
+  - 本技能有三层权威，先分层再引用：21 CFR Part 117 法规正文（最终规则，must 级法定义务，标注〔§ 117.xxx〕）；FDA PCHF 行业指南（草案，should 级方法论）；FDA《Control of Listeria
+    monocytogenes in RTE Foods》(2017-01 Draft，一律 we recommend，建议层)。第三层指南正文出现 must 时，均是该指南在引述 Part 117 的法定义务——不得把建议层内容升格为法定义务
+  - 两套 pH/aw 基准用途不同、不得互相替换：pH 4.6 / aw 0.85 是 Part 117 酸化食品管辖边界与安全水分水平（法定/通用口径）；pH ≤4.4 / aw ≤0.92 是 L.mono 抑制型配方设计基准（2017
+    草案建议层）。同一个 0.92 在芽孢萌发视角与李斯特菌营养细胞生长视角下含义不同
+  - 抑制 ≠ 杀灭：listeristatic 只承诺阻止生长（货架期重复生长研究增幅 <1 log），listericidal 才承诺破坏活菌并使成品达到 <0.04 CFU/g 的不可检出性；两者都不能简化成'pH 低'或'有热处理'一句话
+  - 工艺闭环之外还有环境闭环：listericidal 工艺无法解决工艺后再污染，环境病原防线（工程控制、卫生程序、环境监测、人员卫生）须与工艺控制成对设计
+  - 成品检测与环境监测方向相反：成品应检 L. monocytogenes，环境常规监测检 Listeria spp. 以指示定殖；成品检 spp. 阳性须判定是否 L. mono，否则按 L. mono 污染处理
+  - cGMP 合规资料按四层效力栈使用：Part 117 法规正文（唯一判定基准）＞ FDA 小企业合规指南 SECG（2016-10，白话转述、明确允许替代方案、不创设义务）＞ 专项行业指南（草案建议层）＞ CPG/Compliance
+    Programs（检查视角，非企业义务清单）；合规结论必须能回指〔§ 117.xxx〕，禁止把指南 should 写成 must
+  - cGMP 是观察型结果义务：adequate 的法定定义见〔§ 117.3〕，法规不给数值只给结果；检查看现场状态、实际运行与必要记录，完美的 FSP 不能抵现场卫生失守；cGMP 失守对应 FD&C Act § 402(a)(3)/(4)
+    掺假认定，与 Subparts C–G 的 prohibited act 是两条不同执法钩子
+  - SECG 的合规日期表（2016/2017/2018 分档）是历史过渡安排，现已全部生效；SECG 是 2016 年 10 月而非 11 月；80 FR 55907（发布通知首页）与 80 FR 56145（条文部分首页）属同一份 2015-09-17
+    最终规则，不是两份规则
+  - 过敏原标签问答 Ed.5（2025-01）解释的是 FD&C Act 201(qq)/403(w) 的标签义务，属 guidance 建议层；Part 117 的过敏原预防控制〔117.135(c)(2)〕与防交叉接触 CGMP〔117.20(b)(2)〕不因标签口径收窄而减少，两套法源不得混引
+  - Big 9 的食物类别未变，变的是类别内的物种口径：树坚果以 Ed.5 Table 1 的 12 种封闭清单为准（官方全文未点名 coconut，仅规定未列入表者不得进 Contains、但仍须按通用名列入配料表）；milk 含牛/山羊/绵羊及其他反刍动物，eggs
+    含鸡/鸭/鹅/鹌鹑及其他禽类
+  - 缺陷行动水平是 FDA 依 402(a)(3) 执法的裁量参考，不是法规上限、不是平均值、不是内控目标：法定义务是〔§ 117.110(a)〕must ... reduce natural or unavoidable defects
+    to the lowest level currently feasible；〔§ 117.110(b)〕禁止掺混稀释且终产品检测值不影响掺假认定；低于阈值仍可因 402(a)(4) 卫生失守被判掺假
+  - '**v4.7 实质性纠错：Part 110 至今有效**。Handbook 网页的 21 CFR 110.110 不是过时引用：2015-09-17 PCHF 最终规则（80 FR 56144）的 amendatory instruction
+    13 本拟于 2018-09-17 `remove and reserve part 110`，但 FDA 2018-09-12 最终规则（FR Doc. 2018-19855）撤回该指令（`amendatory instruction
+    13 ... is withdrawn`），因合规日期延长会造成 4–16 个月 CGMP 空档；eCFR 现行版 Part 110 仍列 11 个 sections（含 §110.110），§114.5 并列 `parts 110 and
+    117` 也是现行文本。正确处理是「现行仍有效、但正文本包未收 → 转引未收」；Part 117 侧对应〔§ 117.110〕（仅 (a)(b) 两款）＋〔§ 117.3〕＋〔§ 117.80(b)(3)(4)〕，手册那句『不良生产实践可不论行动水平执法』是
+    §110.110(c) 意译，**仍不得标成〔§ 117.110(c)〕**，但理由是「那是 part 110 的 (c) 款」；SIGNIFICANCE 标 Potential health hazard 的霉菌类缺陷须联动真菌毒素化学危害分析'
+  - 迎检先分三层再谈准备：CPGM 7303.040（2025-CPM-HFP-001）是 FDA 给检查员/分部的内部作业指导，不创设企业义务；单条观察项在 eNSpect 只有 major (significant) / minor (not
+    significant)，整次检查才 categorized as critical / major / minor 且 investigators do not make this categorization，检查分类另为 OAI
+    / VAI / NAI。2020 版把三级挂在观察项上已废止，03040U 也已从 PCHF Follow-Up 改为 Focused PCHF；CPGM 的 6 个月复检、Direct Reference、OCIC 流程不是企业法定时限
+  - 记录举证是迎检硬义务：〔§ 117.320〕口头或书面请求即须 promptly 提供并可供复制；〔§ 117.315(c)〕FSP 必须在现场、其余异地记录须 24 小时内取回现场；〔§ 117.305〕记录须与实际活动同步生成、含实际观测值与签名批号；〔§
+    117.310〕FSP 初次完成与每次修改均须 owner/operator/agent in charge 签字注日期；〔§ 117.190(a)〕六类实施记录。CPGM 的 15 个工作日 483 回复期望不是法定时限，不得与 7
+    工作日记录审核、豁免撤销 15/90/120 日窗口混算
+  - CP 7303.050 是抽样 program 不是检查 program：原文 Inspections are not planned under this compliance program；抽样发生在 7303.040 等检查中。Table
+    2/3 的 subs 数是 FDA 取证量（不含 702(b) 部分），不是企业批放行标准；环境拭子 Listeria 最少 50 subs（理想 100）、Salmonella 最少 100 subs（理想 300），Listeria
+    主要 Zone 1–3、Salmonella 主要 Zone 2–3；确认阳性一律 WGS 并进 GenomeTrakr；PART V 表 7/8 是逐案、非穷尽的可能 FDA 响应清单，不是法定后果表
+  - IOM 2026 Chapter 5 从检查员侧反证效力分层：483 只写事实性、显著观察项，不得引用法规原文、不得纳入标准、不得引用 policy/guidance 偏离，也不得写 opinions 或 characterize conditions
+    as violative；仅偏离官方 guidance 而未违反法规的属 Category 3 non-reportable observation，只能口头讨论并写入 EIR。这证明 Guidance / SECG / Handbook
+    / CPGM / CP 7303.050 都不是可直接开观察项的法定义务——但同一事实若同时构成〔§ 117.xxx〕失守，仍会被写成事实性观察项
+  - 预告口径不得说绝对：IOM 5.2.7 写明医疗器械 surveillance 与部分 BIMO 强制预告、常规 produce farm 检查应预告、食品企业检查 it may be inappropriate to pre-announce（由
+    program division 裁量）、而 the Agency usually announces foreign inspections in advance（签证与成本原因）。国内预告一般不少于 5 个日历日、改期不晚于原日期
+    +5 天，且预告不是预约（It is not to make an appointment for the inspection）。2025 年境外无预告检查扩张属政策层且 FDA 公告原文未收，只作随时可被检查的准备原则
+  - 检查员文书与证据规则：国内到场出示 credentials 并签 FDA 482（境外一般不发 482 但仍须出示证件）；采集任何实体样品必发 Form FDA 484；检查员不得取走企业唯一记录副本、不得亲自登录企业系统查电子记录、照片是
+    exhibit 而非样品且只能用 FDA 配发设备；拒绝提供法规未强制要求的信息（配方、发货清单、生产编码）不构成 inspection refusal，境外拒绝检查可触发 FD&C Act 807(b) 拒绝入境。样品合格不阻碍 cGMP
+    指控（IOM 5.6.4）
+  - LACF/AF 与 Part 117 的管辖按危害类别切分、不做全有全无判断：〔§ 117.5(d)(1)(2)〕只免 part 113 覆盖活动的 Subparts C/G 且仅限其管辖的微生物危害，未被热处理控制且需预防控制的危害（金葡生长产毒、化学、物理）仍归
+    C/G（CP 7303.070 PART II.2.C(1)）；〔§ 117.1(c)〕明定受专项 CGMP 管辖的食品同时受 Part 117 约束。**酸化食品不在该豁免内**——Acidified foods are subject
+    to the CGMP & PCHF rule，PCHF 覆盖转 7303.040，但检查重点仍在 21 CFR part 108/114；**〔§ 117.201〕是 qualified facility 的 modified requirements，不是
+    LACF 条款，不得误引**。Keep Refrigerated 产品免 113/114 并转 7303.050，brites 中央仓报 PAC 03040
+  - 三套 pH/aw 数值用途不同、不可互替：pH 4.6（平衡 pH）/ aw 0.85 是〔§ 117.3〕〔§ 117.80(c)(14)(15)〕的法定边界与持续维持义务；pH 4.40/4.65/4.75、aw 0.90/0.93、异常罐
+    1%、795 g/24 罐与 12 罐是 CP 7303.070 的实验室复测、升级与取证触发线，属检查员作业口径、不是企业放行标准；pH ≤4.4 / aw ≤0.92 是 L.mono 草案抑制型配方基准（建议层）。FDA 实验室另守
+    Never average the two analysts' results together：original analysis 与 check analysis 分别判定
+  - CP 7303.070 依据的 **21 CFR part 113 / 114 法规正文自 v4.7 起已收（CAP-20）**：scheduled process、商业无菌、BPCS、成品 pH、偏差处置、记录保存等法定义务现按〔§
+    113.xxx〕〔§ 114.xxx〕引用，不再标「转引未收」；**仍未收的是 21 CFR part 108**（FCE 注册、SID 定时工艺备案、Emergency Permit、§108.35 BPCS 认可）与 part 110
+    / 120 / 123，一律标「转引未收」，不得从 CP 反推法条或把检查动作写成企业义务。PART II.2.B(2) 给出 RRA 自愿、远程、RRAs are not considered inspections 且不满足 FD&C
+    Act 704 法定检查场景（510(h)/503B(b)），但 FDA 扩大 RRA / 境外无预告检查的政策公告原文仍未收；PART V.2 明写不得仅因未注册/未备案就建议 Import Alert/DWPE
+  - 低酸罐头与酸化食品是**并行法条**，不是二选一：〔§ 117.1(c)〕明定受专项 CGMP 管辖的食品同时受 Part 117 约束；〔§ 117.5(d)(1)〕的 Subparts C/G 豁免须同时满足 `required to
+    comply with` 且 `in compliance with` part 113，〔§ 117.5(d)(2)〕又把它限定在 part 113 管辖的**微生物危害**；**part 114 完全不在 §117.5 豁免清单内**，〔§
+    114.5〕还反向把 parts 110 and 117 拉进掺假判定。输出必须按危害逐条切分，不能给「整厂免检 / 不免检」的二值结论
+  - 21 CFR Part 113 / 114 的义务清单须按条引：〔§ 113.10〕〔§ 114.10〕BPCS 监督（后者课程含 pH controls and critical factors in acidification）、〔§
+    113.40〕NIST 溯源校准、〔§ 113.83〕〔§ 114.83〕scheduled process 由 qualified person 确立、〔§ 113.87(b)〕FDA 有权调阅 scheduled process、〔§
+    114.80(a)(1)〕酸化不等于免除热处理、〔§ 114.80(a)(2)〕成品 pH >4.0 须用电位法、〔§ 114.89〕三条偏差路径（含按 part 113 热处理）。**〔§ 113.100(g)〕是厂内 ≥1 年 +
+    另 2 年且 (h) 允许 part 11 电子记录；〔§ 114.100(e)〕只要求加工厂或合理可及地点整段 3 年，无分段、无 part 11 条款**——两处记录口径不得串用
+  - 三套法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕各自独立编号，与 PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM 2026
+    Ch.5、CP 7303.070 与 CP 7303.878 合计**十三类不可混引**（v4.8 新增第十三来源）；CP 7303.070 的 4.40 / 4.65 / 24 罐是检查员实验室触发线，法规里是 4.6 / 0.85
+    / 4.0，L.mono 草案是 ≤4.4 / ≤0.92，三层数字不得互替
+  - FSVP 与 Part 117 Subpart G 供应链程序是两套法源、两类主体：FD&C Act §805 / 21 CFR part 1 subpart L 管进口商 FSVPI，FD&C Act §418 / 21 CFR part
+    117 Subpart G 管接收设施 receiving facility；CP 7303.878 PART II.3.A 的 deemed compliance 只覆盖前者对进口食品的义务，且原文 `except they must
+    comply with section 1.509`——UFI/DUNS 每一 entry line 电子申报不因此免除。不是 receiving facility 的纯贸易进口商没有该通道
+  - CP 7303.878 是检查员内部作业指导，PART III.1.C 明写 `Samples will not be collected as part of an FSVP inspection.`、PART IV 四节 Intentionally
+    Left Blank；FSVP 检查查的是 FSVP/危害分析/供应商批准评价/验证活动/§1.509/纠正措施记录，不得套 CP 7303.050 的样品量与环境拭子，也不得从 CP 反推 21 CFR part 1 subpart
+    L 条文
+  - Import Alert 99-41（FSVP 不合规进口商）与 CP 7303.070 的 99-37/99-38（LACF/AF 备案与过程控制）不是同一个 Alert：99-41 按『具体食品 + 具体境外供应商组合』或全部食品列入
+    Red List，未列组合在不受其他掺假/误标 Alert 约束时仍可进口；移除须按 99-41 指示提交证据并先于再次进口。direct reference authority 仅在有限情形授予，其余案件须经 CMS 送 Center
+    并取得分类一致；首次违法不默认优先执法；§1.507 disclosure 不能替代 §801(b)/§1.95 整改提案资料
+  out_of_scope:
+  - USDA FSIS 独家管辖的肉、禽与加工蛋制品的独立合规（作为配料时的危害分析除外）
+  - 海产品 HACCP（21 CFR part 123）与果汁 HACCP（21 CFR part 120）的专项要求
+  - 杀菌釜/无菌线工艺设计、F0 与 D/z 值计算、温度分布与热穿透研究设计、卷边解剖判读、商业无菌验证与验证方案审批，以及 21 CFR part 108 的 FCE/SID 备案与 Emergency Permit 程序（**21 CFR
+    Part 113 / 114 法规正文自 v4.7 起已收，条款级义务清单见 CAP-20 `lacf-statutory-requirements`**；CP 7303.070 只给管辖分流与检查员取证口径）
+  - '21 CFR part 1, subpart L（FSVP 法规 §§1.500-1.514）正文、Import Alert 99-41 全文、FSVP Guidance for Industry 与 FSVP Implementation
+    Work Instructions / Inspection Protocol guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、21 CFR part 111/112/120/123/507
+    正文（CP 7303.878 只给检查员作业口径，法条义务一律标「转引未收」，不得从 CP 反推）'
+  - 中国 GB 14881 等非美国法规的直接合规判定（本技能只提供 FDA 方法论与条款，跨体系映射需人工判断）
+  - 虫害防治、分拣筛分等质量缺陷的工程控制方案（defect-action-levels 卡只给〔§ 117.110〕义务边界与 FDA 阈值出处；霉菌类缺陷涉及真菌毒素时仍须转入危害分析）
+  - 具体行政程序文书代写（豁免撤销应诉由 exemption-withdrawal-procedure 卡给出路径与时限，不代写正式法律文书）；FDA 483 回复/警告信答复/进口扣留应诉文书、检查结果预测与保证、制样与显微判读、702(b)
+    分割留样规则（IOM Chapter 4 / RPM / CPG 全套 / Import Alerts / eBAM-BAM-AOAC-MPM 与 BAM Ch.13B/14/17/21A/22A-22D / SOP-001052 /
+    SOP-001642 / FMD-147 未收；CP 7303.050、CP 7303.070 与 IOM Chapter 5 正文已收，给的是抽样量、检查程序与管辖分流，不是实验室方法，也不替代 part 108 的备案条文；113/114
+    条款级义务见 CAP-20）
+  stop_conditions:
+  - 指南为草案（Draft – Not for Implementation）且 6 个章节未发布（Ch7/8/9/10/13/17）：涉及这些主题时明确说明来源缺口，不要编造细节；注意法规正文对这些主题仍有效，可优先引条款
+  - 数值界限（6D 表、a_w、pH、冷却协议）必须注明出处小节并提示'文献极端值，未必适用于具体产品'；禁止凭记忆给数值
+  - 条款引用必须核对原文：三套法规正文分别以〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕标注，PCHF 指南引用以 Ch/小节号标注，L.mono 专项指南引用以该指南章节号（如 IX.A.2、XIII.D.4）标注，SECG
+    引用以 SECG 章号（如 SECG XIII.C）标注，Ed.5 用问答编号（如 C.8、D.13），Food Defect Levels Handbook 用「Handbook 章名 + 产品名」标注，CPGM 7303.040 用「CPGM
+    7303.040 PART x」（附件须带 ATTACHMENT A 前缀）标注，CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」标注（其 ATTACHMENT
+    A Part V 与主文 PART V 同名但不同口径），IOM 用「IOM 5.x.x / IOM Exhibit 5-x」标注，CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」标注，CP
+    7303.878 用「CP 7303.878 PART x」标注；21 CFR part 1 subpart L / 108 / 110 / 120 / 123、IOM Chapter 4、BAM、CPG、Import Alert 等未收正文一律标「转引未收」；**十三类不可混引**，且
+    §114.5 并列 `parts 110 and 117` 不得改写或判为笔误
+  - 用户任务超出 21 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套；LACF/AF 的法规条文级义务先转 CAP-20，检查员侧取证转 CAP-19
+  - 李斯特菌专项指南的附录 4/5/6（例行清洁消毒时间表、环境采样制备方法、纠正措施表）正文未纳入本次蒸馏，涉及具体表格模板时须回原始 PDF 取，不要编造
+  - cGMP 内审结论不得只凭 SECG 白话转述签发：Handbook、CPGM 7303.040、CP 7303.050、CP 7303.070 与 IOM Chapter 5 正文虽已收（CAP-15 / CAP-16 / CAP-17
+    / CAP-19 / CAP-18），但依次给的是缺陷行动水平阈值出处、检查类型与分级口径、检查员抽样量与阳性升级路径、LACF/AF 管辖分流与专门体系取证口径、调查员权限与证据规则，都不是实验室方法或企业内控标准。仍未收：IOM Chapter
+    3/4/6/7/8/9/10（尤其 Ch.4 的 702(b) 分割留样与制样、Sample Schedule Chart 2）、RPM、FMD-86、FMD-147 / SOP-001052 / SOP-000529 / SOP-001642、CPG
+    全套（含 Sec. 527.300、Sec. 130.100、Sec. 520.200/520.300）、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、其他
+    Compliance Programs（7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006 等）、eBAM / BAM / AOAC /
+    MPM 方法正文、21 CFR part 108 / 110 / 120 / 123（Part 113 / 114 正文自 v4.7 起已收）与 21 CFR 2.10 / 133 / 1240.61 / 507 正文、Form FDA
+    484 / 1551 表单细则、21 CFR part 117 citations table、SOFO job aid 与 eNSpect / CAR / CMS 内部系统。制样与显微判读、检验方法检出限、杀菌工艺计算、证据充分性标准与警告信判定阈值须另行复核
+  - CP 7303.050 现行文件是 2022-06-03 签发 / IMPLEMENTATION DATE 06/03/2022 / Correction date 09/10/2025 的更正本（62 页），不是 2025 年新签发
+    program；文件名 20250915 与美国律所快讯里的「2025 DIMS 抽样计划」不得当作版本依据。它不安排检查（Inspections are not planned under this compliance program）；Table
+    2/3 的 subs 数是 FDA 取证量而不是企业放行标准，PART V 表 7/8 是逐案、非穷尽的可能响应清单而不是法定后果表。IOM 只收了 2026 版 Chapter 5 单章，遇文中 IOM 3.2 / 4.x / 6.4
+    / 8.1 等跨章引用一律标注「转引未收」，不得代填
+  - 预告与无预告都不得写成绝对规则：IOM 5.2.7 的原文口径是食品企业检查一般不预告（由 program division 裁量）、境外检查通常提前告知、医疗器械 surveillance 与部分 BIMO 强制预告、国内预告一般不少于
+    5 个日历日且改期不晚于原日期 +5 天、预告不是预约。2025 年 FDA 扩大境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录属政策层且 FDA 公告原文未收，只作准备原则提示，不得写成条款级结论；CP
+    7303.070 PART II.2.B(2) 已给出 RRA 的**程序性定义**（自愿、全程远程、RRAs are not considered inspections、不满足 510(h)/503B(b) 等 704 条法定检查场景），可以据此回答「RRA
+    算不算现场检查」，但**不得**据此推导 FDA 的 RRA 适用政策、扩大范围或取代 IOM 5.2.7 的预告口径；CPGM 7303.040 PART V.1 明说 OCIC/DCC 咨询流程暂不适用于 foreign inspection
+    case routing
+  - 过敏原标签问答 Ed.5 的内容不得标注为〔117.xxx〕；引用须用 Ed.5 问答编号（如 C.8、D.13），并说明其属 FD&C Act 标签解释而非 Part 117 预防控制义务。遇旧口径（Ed.4 把椰子列为树坚果、2022
+    版 Ed.5 或二手摘要）须提示版本已被 2025-01 修订终版替代并回 Table 1 复核
+  - CPGM 7303.040 现行版为 2025-CPM-HFP-001（签发 08/29/2025，IMPLEMENTATION DATE 05/23/2024），2020-CPGM-CFSAN-003 已废止；遇 2020–2024
+    迎检 SOP、律所快讯、或 FDA 网页 Food Compliance Programs 列表日期，一律以 PDF 首页 Transmittal / Date of Issuance / IMPLEMENTATION DATE 为准
+  - CP 7303.070 现行文件是 2024-09-26 签发 / IMPLEMENTATION DATE 9/26/2024 / Correction Date 9/26/2025 的更正本（61 页），文件名 20250929 只是
+    PDF 生成日，不是 2025 年新签发 program，也不得套用 7303.040 的 2025-CPM-HFP-001 Transmittal 格式。它依据的 **21 CFR part 113 / 114 法规正文自 v4.7
+    起已收**（见 CAP-20，涉及 scheduled process、商业无菌、BPCS、成品 pH、偏差与记录保存按〔§ 113.xxx〕〔§ 114.xxx〕引用）；**仍未收** part 108（FCE/SID 备案、Emergency
+    Permit、§108.35）、part 110 / 120 / 123、IOM Ch.4 Sample Schedule Chart 2、BAM 各章、CPG Sec. 520.200/520.300、Import Alert 99-37/99-38
+    全文、Form 2541e 细则：这些内容一律标「转引未收」，F0/D/z 计算与卷边解剖判读仍不得从 CP 反推
+  - LACF/AF 的管辖判定三禁：① 禁止把〔§ 117.5(d)〕的 Subparts C/G 豁免扩到酸化食品（part 114）或扩到化学/物理/金葡等未被热处理控制的危害；② 禁止把〔§ 117.201〕（qualified facility
+    的 modified requirements）当作 LACF 条款；③ 禁止把 CP 7303.070 的 4.40/4.65/4.75、aw 0.90/0.93、异常罐 1%、24 罐/12 罐、3 个月/6 个月/12 个月写成企业法定义务或放行标准。酸化食品是否属
+    AF 由 HFP 依「Maximum Equilibrium pH」判定三步给结论，不得由本包替企业下法定身份结论；Import Alert/DWPE 不得仅因未注册/未备案建议
+  - LACF/AF 记录保存口径不得串用：〔§ 113.100(g)〕是厂内 ≥1 年 + 加工厂或其他合理可及地点再 2 年（合计 3 年，季节包停产可提前转移），〔§ 113.100(h)〕另许符合 part 11 的电子记录；〔§ 114.100(e)〕只有「加工厂或其他合理可及地点自生产日起
+    3 年」一句，**没有分段、没有 (h) 款、没有 part 11 电子记录条款**（Part 114 全文无 electronic / part 11 字样）。回答「两 part 记录怎么存」必须分列，不得合并成一条
+  - 涉及 21 CFR part 110 时不得沿用 v4.3 的旧结论：Part 110 未被删除（FDA 2018-09-12 FR Doc. 2018-19855 撤回 amendatory instruction 13），至今有效但正文本包未收，须标「转引未收」；手册那句是
+    §110.110(c) 意译，仍不得标成〔§ 117.110(c)〕。2018-19855 正文属外部核实、本包未收，引用须注明是 Federal Register 规则而非本包来源
+  - CP 7303.878 的版本口径锁定 2023-09-27 版 / 2025-08-28 更正（Transmittal 2023-CPM-CFSAN-003，Change History 的 2025 条目只改 POC 与机构名称缩写），不得写成「2025
+    版 7303.878」或套用 CPGM 7303.040 的 2025-CPM-HFP-001 Transmittal 形态；CP 7303.819 是 2006 FY06-08 旧程序、已过 COMPLETION DATE 9/30/08
+    而非现行，准确说法不是「法规意义上废止」。FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance Q&A、IP guidance tabs 一律标「转引未收」
+  - 回答 FSVP 问题时不得把 CP 7303.878 的 483a 观察分级、NAI/VAI/OAI、WL / Import Alert 99-41 建议流程写成企业法定义务或必然法律后果；不得把 §117.5(d)（part 113
+    活动的 Subparts C/G 豁免）套到 FSVP 轨道；不得把 Import Alert 99-41 与 99-37 / 99-38 混引
+router_entry:
+  name: fda-pchf-food-safety
+  description: 同 single 入口（本 bundle 采用 single 输出，无独立晋级 Skill）。
+promotion_budget: 8
+capabilities:
+- capability_id: CAP-01
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: hazard-analysis-method
+  title: 危害分析方法
+  importance: core
+  importance_rationale: 全书方法论核心（Ch2）与所有示例厂的共同起点，其他能力的地基；图入度最高
+  one_liner: 用六列工作表把危害从识别到控制落点做成可辩护的书面推演——"No"与"Yes"同等重要，发现点不等于控制点
+  intents:
+  - 给新产品/新产线做危害分析或重建六列工作表
+  - 判断某个危害要不要写进 FSP、要不要设预防控制
+  - 解释附录 1 的 X 标记怎么用、能不能判 No
+  - 把 HACCP 计划升级为 FSP 危害分析
+  - 出现新信息（原料/工艺/暴发通报）后判断危害分析是否要重做
+  - 判断某情形法定是否违法/是否必须设预防控制（条款级判定）
+  keywords:
+  - 危害分析
+  - hazard analysis
+  - 六列工作表
+  - potential hazard
+  - 需预防控制的危害
+  - '117.130'
+  - 危害识别
+  - 危害评估
+  - HACCP 升级 FSP
+  - 危害分析工作表
+  - '117.136'
+  - 法定义务
+  - significantly minimize
+  also_read:
+  - management-components
+  - process-control-validation
+  - reference-tools-discipline
+  card: cards/hazard-analysis-method.md
+  frontmatter:
+    description: 危害分析方法——用六列工作表把危害从识别到控制落点做成可辩护的书面推演——"No"与"Yes"同等重要，发现点不等于控制点（来源：FDA PCHF 指南；成员单元 24 个）
+    tags:
+    - 危害分析
+    - hazard analysis
+    - 六列工作表
+    - potential hazard
+    - 需预防控制的危害
+    - '117.130'
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-01,fA-02,fA-09,fA-11,fB-40,fB-41,fB-43,fB-44,fB-45,fB-46,pV-01,pV-02,pV-04,pV-05,pV-06,pV-07,pV-08,pV-09,pV-10,pV-11,pV-12,pV-14,pV-15,pV-75
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-02
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: management-components
+  title: 预防控制管理组件闭环
+  importance: core
+  importance_rationale: Ch5 贯穿全书、五类控制共用的运行框架；监控/纠正/验证/记录是所有食品企业最高频的日常决策点
+  one_liner: 每个预防控制配"监控→纠正→验证→记录→再分析"闭环——偏差默认自上次合格点起失控，correction 与纠正措施按"是否影响食品×孤立还是反复"分诊
+  intents:
+  - 设计预防控制的监控方案（测什么/怎么测/多久/谁负责）
+  - 发生偏差后判定走 correction 还是 corrective action、隔离多少产品
+  - 设计关键限值与操作限双线、确定校准与记录频次
+  - 区分 validation 与 verification、确定哪些控制可豁免 validation
+  - 用例外记录减负、确定 FSP 再分析触发条件
+  - 法定记录要件与保存期限判定、官方调阅应对、PCQI 职能边界
+  keywords:
+  - 监控
+  - 纠正措施
+  - corrective action
+  - 关键限值
+  - 操作限
+  - validation
+  - verification
+  - 记录审查
+  - exception record
+  - 再分析
+  - '117.165'
+  - '117.305'
+  - '117.315'
+  - 7 working days
+  - validation 90日
+  - PCQI职能
+  also_read:
+  - hazard-analysis-method
+  - process-control-validation
+  - supply-chain-verification
+  card: cards/management-components.md
+  frontmatter:
+    description: 预防控制管理组件闭环——每个预防控制配"监控→纠正→验证→记录→再分析"闭环——偏差默认自上次合格点起失控，correction 与纠正措施按"是否影响食品×孤立还是反复"分诊（来源：FDA PCHF 指南；成员单元
+      21 个）
+    tags:
+    - 监控
+    - 纠正措施
+    - corrective action
+    - 关键限值
+    - 操作限
+    - validation
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-20,fA-42,fA-45,fA-46,fA-47,fA-49,fA-50,fA-51,fA-52,fA-53,pV-30,pV-31,pV-32,pV-33,pV-34,pV-35,pV-36,pV-37,pV-38,pV-39,pV-40
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-03
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: process-control-validation
+  title: 工艺控制与热处理验证
+  importance: core
+  importance_rationale: Ch6 五个完整示例厂全部演示该能力，数值密度最高；工艺研发与安全限值设定的直接工具
+  one_liner: 目标菌由"包装氧环境×储运温度×最耐热"推出，削减倍数查表再用 D/z 换算，文献层+厂内热分布/热穿透取交集才是关键限值
+  intents:
+  - 为热处理/巴杀/酸化/ROP 工艺设定关键限值（温度/时间/pH/a_w）
+  - 判断目标病原菌是谁、该做几 log 削减（6D/5D）
+  - 判断文献参数能否直接用、validation 研究怎么做（热分布/热穿透/EPIPT）
+  - 连续工艺的时间参数怎么监控（泵速/RPM/颗粒尺寸代理）
+  - 附录 3 表格换算、冷却协议、工艺陷阱（毒素不可逆/冷却窗口/再污染）
+  - 屏障参数的法定监测义务（平衡 pH 4.6、安全水分水平、validation 90 日窗）
+  - 判断工艺控制（process control）这一预防控制类别是否适用、法定须含哪些要素
+  keywords:
+  - 工艺控制
+  - process control
+  - 热处理
+  - 关键限值
+  - 目标菌
+  - 6D
+  - D 值 z 值
+  - EPIPT
+  - 热分布 热穿透
+  - a_w 0.85
+  - pH 4.6
+  - 冷却协议
+  - ROP 屏障
+  - 117.80(c)(14)
+  - 117.160(b)(1)
+  - equilibrium pH
+  - 安全水分水平
+  also_read:
+  - management-components
+  - hazard-analysis-method
+  - environmental-pathogen-sanitation
+  - cgmp-compliance-guide
+  - lacf-inspection-program
+  - lacf-statutory-requirements
+  card: cards/process-control-validation.md
+  frontmatter:
+    description: 工艺控制与热处理验证——目标菌由"包装氧环境×储运温度×最耐热"推出，削减倍数查表再用 D/z 换算，文献层+厂内热分布/热穿透取交集才是关键限值（来源：FDA PCHF 指南；成员单元 27 个）
+    tags:
+    - 工艺控制
+    - process control
+    - 热处理
+    - 关键限值
+    - 目标菌
+    - 6D
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-14,fA-15,fA-17,fA-22,fA-23,fA-32,fA-33,fA-34,fA-38,fA-43,fB-51,pV-16,pV-17,pV-18,pV-19,pV-20,pV-21,pV-22,pV-23,pV-24,pV-25,pV-26,pV-27,pV-28,pV-29,nA-B-14,rC-D-07
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-04
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: environmental-pathogen-sanitation
+  title: 环境病原与卫生控制
+  importance: extended
+  importance_rationale: 聚焦 RTE 食品细分场景（Ch3/Ch4 卫生节），受众窄于前三张卡但为 RTE 品类的法定刚需
+  one_liner: 湿区防李斯特靠保持干燥、干区防沙门靠严格控水——同点位反复检出同型菌株即定殖信号，常规清洁无效须强化根除
+  intents:
+  - 判断 RTE 产品要不要做环境病原评估与环境监测
+  - 设计湿区/干区清洁策略与卫生分区
+  - 环境监测检出李斯特菌/沙门氏菌后的处置与升级判定
+  - 区分 transient 与 resident 菌、制定根除方案
+  - 环境病原法定边界判定（芽孢类是否触发 117.130(c) 强制评估）
+  - 干/湿接触面清洁的法定分界（湿洗后彻底干燥、中断后重新清洁）
+  keywords:
+  - 环境病原
+  - 李斯特菌
+  - 沙门氏菌
+  - 环境监测
+  - 卫生控制
+  - 卫生分区
+  - transient resident
+  - 定殖
+  - 湿区 干区
+  - 强化卫生程序
+  - 117.35(d)
+  - 117.165(a)(3)
+  - 环境病原法定边界
+  also_read:
+  - process-control-validation
+  - allergen-program
+  - environmental-engineering-controls
+  - personnel-hygiene-controls
+  - inspection-readiness
+  - inspection-sampling
+  card: cards/environmental-pathogen-sanitation.md
+  frontmatter:
+    description: 环境病原与卫生控制——湿区防李斯特靠保持干燥、干区防沙门靠严格控水——同点位反复检出同型菌株即定殖信号，常规清洁无效须强化根除（来源：FDA PCHF 指南；成员单元 10 个）
+    tags:
+    - 环境病原
+    - 李斯特菌
+    - 沙门氏菌
+    - 环境监测
+    - 卫生控制
+    - 卫生分区
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-18,fA-24,pV-41,pV-42,pV-43,pV-44,nA-B-03,nA-B-12,rC-D-11,nC-D-11
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-05
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: allergen-program
+  title: 食品过敏原程序
+  importance: extended
+  importance_rationale: Ch11 独立成章+2 个完整示例厂，跨境食品与代工场景高频踩坑区，但受众多为多品种共线生产者
+  one_liner: 过敏原按"CGMP 基线→排产/清洁+标签双控制→供应链三选一"三层搭建——清洁等级由相邻产品过敏原谱包含关系决定，may contain 声明只能是被证明的控制极限之出口
+  intents:
+  - 设计多品种共线的过敏原交叉接触控制与排产序列
+  - 判断换产清洁等级（通用清洁 vs 专项过敏原清洁）
+  - 处理供应商 may contain 声明（传递/不传递/阈值论证）
+  - 搭建过敏原标签内容控制与管理控制核对流程
+  - 选择过敏原清洁验证的检测方法
+  - 过敏原 CGMP 法定分离手段核对与标签/交叉接触双控制的程序分界
+  keywords:
+  - 过敏原
+  - allergen
+  - 交叉接触
+  - cross-contact
+  - 排产
+  - like into like
+  - may contain
+  - 咨询声明
+  - 标签控制
+  - ATP 拭子
+  - 过敏原特异性检测
+  - Ed.5
+  - Table 1 树坚果
+  - allergen-free
+  - 117.20(b)(2)
+  - 117.150(c)(1)
+  - 法定分离手段
+  also_read:
+  - environmental-pathogen-sanitation
+  - supply-chain-verification
+  - hazard-analysis-method
+  card: cards/allergen-program.md
+  frontmatter:
+    description: 食品过敏原程序——过敏原按"CGMP 基线→排产/清洁+标签双控制→供应链三选一"三层搭建——清洁等级由相邻产品过敏原谱包含关系决定，may contain 声明只能是被证明的控制极限之出口（来源：FDA PCHF
+      指南；成员单元 13 个）
+    tags:
+    - 过敏原
+    - allergen
+    - 交叉接触
+    - cross-contact
+    - 排产
+    - like into like
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-56,fA-58,fA-59,fB-01,fB-03,fB-06,pV-45,pV-46,pV-47,pV-48,pV-49,pV-50,rA-B-08
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-06
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: chemical-hazard-controls
+  title: 化学危害与食品欺诈控制
+  importance: core
+  importance_rationale: 化学危害归途分流+人群锚定+掺假分诊是本书区别于通用 HACCP 独立价值最高的两块之一，13 个成员单元跨 Ch2/3/11/12/15 五章支撑。
+  one_liner: 化学危害按引入路径分流（设施→CGMP、原料→供应链、工艺→工艺控制），掺假签名一匹配即按欺诈处置、不看数值。
+  intents:
+  - 判断重金属/农药残留/真菌毒素等化学危害该走 CGMP、供应链还是工艺控制
+  - 设计婴幼儿等易感人群产品的毒元素分层控制与检测频次
+  - 检测出异常值（疑似掺假/超标）时决定放行、降级还是断供
+  - 跟踪行动水平/进口警报等监管标准变化并同步采购规格
+  - 为有掺假史的国别或品类（香料/乳制品）做 EMA 危害判定
+  - defect 与掺假的法定分界（掺混稀释是否合法、消杀药剂存放合规）
+  keywords:
+  - 化学危害
+  - 毒元素
+  - 重金属
+  - 农药残留
+  - 真菌毒素
+  - DON
+  - 黄曲霉毒素
+  - EMA
+  - 经济动机掺假
+  - Closer to Zero
+  - 工艺控制
+  - process control
+  - chemical hazard
+  - economically motivated adulteration
+  - '117.110'
+  - 117.35(b)
+  - defect action level
+  - 掺混稀释
+  also_read:
+  - supply-chain-verification
+  - hazard-analysis-method
+  - cgmp-compliance-guide
+  - defect-action-levels
+  card: cards/chemical-hazard-controls.md
+  frontmatter:
+    description: 化学危害与食品欺诈控制——化学危害按引入路径分流（设施→CGMP、原料→供应链、工艺→工艺控制），掺假签名一匹配即按欺诈处置、不看数值。（来源：FDA PCHF 指南；成员单元 18 个）
+    tags:
+    - 化学危害
+    - 毒元素
+    - 重金属
+    - 农药残留
+    - 真菌毒素
+    - DON
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fA-25,fA-58,fA-59,fB-09,fB-10,fB-11,fB-15,pV-59,pV-60,pV-61,pV-62,pV-63,pV-64,pV-65,pV-66,nA-B-10,nA-B-11,rC-D-06
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-07
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: supply-chain-verification
+  title: 供应链验证决策
+  importance: core
+  importance_rationale: 供应链控制是采购与供应商管理的通用框架，SAHCODH 年审/验证独立性/控制主体映射等规则为本书独立价值最高的两块之一。
+  one_liner: 先做控制主体映射定验证对象，再按 SAHCODH 属性×供应商控制结构性程度定验证强度；供应商自审自证零效力。
+  intents:
+  - 设计新供应商批准流程与四类验证活动组合
+  - 确定 SAHCODH 危害的年度现场审核义务及书面豁免
+  - 判断经纪商/分销商/上游第三方场景下验证对象是谁
+  - 评估证书与政府检查能否替代现场审核
+  - 处置供应商不合规、断供与紧急临时采购
+  - 收到保证书/被索保证的合规审查
+  - FSVP 折抵判定
+  - 审核合同条款把关
+  keywords:
+  - 供应链控制
+  - 供应商批准
+  - 供应商验证
+  - SAHCODH
+  - 现场审核
+  - approved supplier
+  - 经纪商
+  - 分销商
+  - COA
+  - qualified facility
+  - 临时供应商
+  - '117.410'
+  - '117.430'
+  - written assurance
+  - FSVP
+  - 12月31日
+  also_read:
+  - chemical-hazard-controls
+  - allergen-program
+  - recall-plan
+  - defect-action-levels
+  - inspection-readiness
+  - fsvp-inspection-program
+  card: cards/supply-chain-verification.md
+  frontmatter:
+    description: 供应链验证决策——先做控制主体映射定验证对象，再按 SAHCODH 属性×供应商控制结构性程度定验证强度；供应商自审自证零效力。（来源：FDA PCHF 指南；成员单元 14 个）
+    tags:
+    - 供应链控制
+    - 供应商批准
+    - 供应商验证
+    - SAHCODH
+    - 现场审核
+    - approved supplier
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fB-07,fB-14,fB-21,fB-29,fB-38,pV-51,pV-52,pV-53,pV-54,pV-55,pV-56,pV-57,pV-58,pV-76
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-08
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: recall-plan
+  title: 召回计划与报告义务
+  importance: extended
+  importance_rationale: 召回计划四程序与 RFR 24 小时规则是法定必备但篇幅占比较小（Ch14 两节），作为危机预案模板有独立场景价值。
+  one_liner: SAHCODH 一次定性三处联动（Class I 召回+24h RFR+供应商年审）；召回后先通知 FDA 再对媒体，有效性核查看"已送达+已行动"。
+  intents:
+  - 编写或审查召回计划（团队/决策人/通讯模板/公众警告标准）
+  - 判断问题产品是否构成 Class I 召回与可报告食品
+  - 处理 RFR 24 小时报告的时序与顺序问题
+  - 供应商召回后评估自家已生产/已出货产品
+  - 区分公众警告义务与 FDA 执法报告公示
+  keywords:
+  - 召回
+  - 召回计划
+  - Class I
+  - RFR
+  - 可报告食品
+  - 24小时报告
+  - 公众警告
+  - 有效性核查
+  - recall
+  - reportable food
+  also_read:
+  - supply-chain-verification
+  - chemical-hazard-controls
+  - management-components
+  - inspection-readiness
+  card: cards/recall-plan.md
+  frontmatter:
+    description: 召回计划与报告义务——SAHCODH 一次定性三处联动（Class I 召回+24h RFR+供应商年审）；召回后先通知 FDA 再对媒体，有效性核查看"已送达+已行动"。（来源：FDA PCHF 指南；成员单元
+      3 个）
+    tags:
+    - 召回
+    - 召回计划
+    - Class I
+    - RFR
+    - 可报告食品
+    - 24小时报告
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fB-26,pV-67,pV-68
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-09
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: regulatory-boundaries
+  title: 双法规与豁免边界
+  importance: extended
+  importance_rationale: 例外与豁免体系是全书的边界条件层（骨架第 7 点），决定"哪些规则对我适用"，但篇幅集中于 Ch16 与附录脚注，场景频率低于核心卡。
+  one_liner: 法规适用性按"对象×危害类别"矩阵逐格判定，两套法规取义务并集（借用不免责）；极强致死工艺可作 No 的科学依据。
+  intents:
+  - 判断产品是否豁免 PCHF（qualified facility/极强致死/研究用途等）
+  - 梳理酸化食品/低酸罐装与 PCHF 双法规的义务并集与专项缺口
+  - 处理供应商受 USDA 等其他机构管辖时的判定责任归属
+  - 多法规交叉产品（食品+非食品组件）的适用性切分
+  - 豁免资格精确判定（数字门槛/清单/日历）与不合规法律后果评估
+  keywords:
+  - 豁免
+  - qualified facility
+  - LACF
+  - 酸化食品
+  - part 114
+  - part 113
+  - 双法规
+  - Form 2541e
+  - USDA
+  - FSIS
+  - 极强致死工艺
+  - '117.5'
+  - '117.201'
+  - 275英里
+  - Form 3942a
+  also_read:
+  - reference-tools-discipline
+  - hazard-analysis-method
+  - exemption-withdrawal-procedure
+  - cgmp-compliance-guide
+  - defect-action-levels
+  - inspection-readiness
+  - investigator-authority-procedure
+  - lacf-inspection-program
+  - lacf-statutory-requirements
+  - fsvp-inspection-program
+  card: cards/regulatory-boundaries.md
+  frontmatter:
+    description: 双法规与豁免边界——法规适用性按"对象×危害类别"矩阵逐格判定，两套法规取义务并集（借用不免责）；极强致死工艺可作 No 的科学依据。（来源：FDA PCHF 指南；成员单元 4 个）
+    tags:
+    - 豁免
+    - qualified facility
+    - LACF
+    - 酸化食品
+    - part 114
+    - part 113
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fB-48,fB-45,pV-69,pV-70
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-10
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: reference-tools-discipline
+  title: 权威参考表与数据使用纪律
+  importance: extended
+  importance_rationale: 附录工具是全书证据体系的输入端，X 标记三问检验/禁内插/模型须验证是高频踩坑点，但依附于危害分析与工艺控制两卡使用。
+  one_liner: 参考表是先验起点不是答案——X 标记过三问检验，数值禁线性内插取更严档，模型输出须自身验证后才可当关键限值。
+  intents:
+  - 判断附录 1 危害表 X 标记能否直接用于自家产品
+  - 评估生长极限表/速查数值能否作为设计依据或关键限值
+  - 处理 PMP/ComBase 等预测模型输出的使用边界
+  - 附录查不到的新原料/特殊配料如何补齐危害评估
+  - 判断危害清单是否随配料状态与下游用途变化
+  - 数据不足时能否以"表里没有"结案、概率评估该不该扣掉现有控制
+  keywords:
+  - 附录 1
+  - X 标记
+  - 危害表
+  - Table 3-A
+  - 生长极限
+  - 水分活度
+  - 预测模型
+  - ComBase
+  - 内插
+  - 用途依赖
+  - TDS
+  - 117.130(a)
+  - 117.160(b)(2)
+  - 平衡 pH
+  also_read:
+  - hazard-analysis-method
+  - regulatory-boundaries
+  - process-control-validation
+  - cgmp-compliance-guide
+  - defect-action-levels
+  - inspection-readiness
+  - investigator-authority-procedure
+  card: cards/reference-tools-discipline.md
+  frontmatter:
+    description: 权威参考表与数据使用纪律——参考表是先验起点不是答案——X 标记过三问检验，数值禁线性内插取更严档，模型输出须自身验证后才可当关键限值。（来源：FDA PCHF 指南；成员单元 11 个）
+    tags:
+    - 附录 1
+    - X 标记
+    - 危害表
+    - Table 3-A
+    - 生长极限
+    - 水分活度
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=fB-52,fB-53,pV-71,pV-72,pV-73,pV-74,nC-D-01,nC-D-02,nC-D-03,nA-B-05,rC-D-07
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-11
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: exemption-withdrawal-procedure
+  title: 豁免撤销应对程序
+  importance: supporting
+  importance_rationale: 程序性防御能力，触发频率低但时限刚性极强——错过 15 日上诉期即丧失该程序救济；Subpart E 在 FDA 行业指南中零覆盖，只能由 21 CFR Part 117 法规正文供给，属指南无法替代的增量。
+  one_liner: 收到 FDA 豁免撤销文书后按 15 日申辩 / 15 日上诉 / 120 日合规三条硬时限走完程序，盯死 FDA 10 日裁决时限并利用逾期自动撤销机制。
+  intents:
+  - 收到 FDA 豁免撤销预告通知或撤销令后怎么办
+  - 判断能否上诉、要不要申请非正式听证、听证门槛是什么
+  - 计算撤销令的合规期限（120 日）与上诉期限（15 日）
+  - 核查撤销令的形式合法性（签发层级、必备内容、期限表述）
+  - 撤销令被维持或撤销后如何恢复豁免
+  - FDA 逾期不裁决时撤销令自动失效的运用
+  keywords:
+  - 豁免撤销
+  - withdrawal of exemption
+  - withdrawal order
+  - 撤销令
+  - 上诉
+  - appeal
+  - 非正式听证
+  - informal hearing
+  - reinstatement
+  - 恢复豁免
+  - '117.251'
+  - '117.257'
+  - '117.264'
+  - '117.280'
+  - 120天
+  - 15日
+  - 10日
+  also_read:
+  - regulatory-boundaries
+  - management-components
+  card: cards/exemption-withdrawal-procedure.md
+  frontmatter:
+    description: 豁免撤销应对程序——收到 FDA 豁免撤销文书后按 15 日申辩 / 15 日上诉 / 120 日合规三条硬时限走完程序，盯死 FDA 10 日裁决时限并利用逾期自动撤销机制。（来源：FDA PCHF 指南；成员单元
+      11 个）
+    tags:
+    - 豁免撤销
+    - withdrawal of exemption
+    - withdrawal order
+    - 撤销令
+    - 上诉
+    - appeal
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=nEFG-01,nEFG-02,nEFG-03,nEFG-04,nEFG-05,nEFG-06,nEFG-07,nEFG-08,nEFG-09,nEFG-10,nEFG-11
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-12
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: environmental-engineering-controls
+  title: 厂房与设备工程控制
+  importance: extended
+  importance_rationale: 面向 RTE 食品厂房新建/改造与设备选型的结构性控制，受众窄于危害分析等核心卡，但工程缺陷无法由清洁与监测弥补，属一次性决策的高价值能力
+  one_liner: 厂房怎么建、设备怎么造决定污染上限——清洁只能维持设计给的水平，气流压差、排水、材质与可清洁性必须在设计阶段一次到位
+  intents:
+  - 新建或改造 RTE 车间时确定物理分区、气流压差与空气过滤规格
+  - 判定排水沟、地漏、冷凝水与给水系统的设计是否会把污染带进 RTE 区
+  - 设备选型与验收：食品接触面材质、密封、可排空、无死端，非 FCS 结构件不得空心
+  - 施工或改造期间的分级污染控制措施
+  - 压缩空气与直接接触食品的气体、托盘与周转容器的专用化要求
+  - 预防性维护程序与维护记录应列明的具体部件清单
+  - 用潜在污染源清单与污染场景推演排查工艺后再污染的工程入口
+  keywords:
+  - 厂房设计
+  - 卫生设计
+  - 气流压差
+  - 正压
+  - 空气过滤
+  - HEPA
+  - ASHRAE 52.2
+  - 排水沟
+  - 地漏
+  - 冷凝控制
+  - 食品接触面
+  - 非食品接触面
+  - 预防性维护
+  - 施工期控制
+  - 藏匿点巡检
+  - 117.20(b)(4)
+  - 117.35(d)
+  also_read:
+  - environmental-pathogen-sanitation
+  - personnel-hygiene-controls
+  - process-control-validation
+  - cgmp-compliance-guide
+  card: cards/environmental-engineering-controls.md
+  frontmatter:
+    description: 厂房与设备工程控制——厂房怎么建、设备怎么造决定污染上限——清洁只能维持设计给的水平，气流压差、排水、材质与可清洁性必须在设计阶段一次到位（来源：FDA PCHF 指南；成员单元 20 个）
+    tags:
+    - 厂房设计
+    - 卫生设计
+    - 气流压差
+    - 正压
+    - 空气过滤
+    - HEPA
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=nB-09,nB-10,nB-11,nB-12,nB-13,nB-14,nB-15,nB-16,nB-17,nB-18,nB-19,nB-20,nB-21,nB-22,nB-23,nB-24,nB-25,nB-26,nB-27,nB-28
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-13
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: personnel-hygiene-controls
+  title: 人员卫生控制
+  importance: extended
+  importance_rationale: 人员是 RTE 食品环境病原最不稳定的一道防线，触发语境（手套/鞋履/工服/动线/承包商）与设备侧完全不同，具备独立意图与独立契约，故单列能力卡
+  one_liner: 手套不是万能——接触非食品接触面即须更换；人员控制的失效不体现为"没人洗手"，而体现为手套戴到污染、工服穿回 RTE 区、泡脚器被绕过去
+  intents:
+  - 制定 RTE 区进入人员的手部与手套更换触发规则
+  - 按干湿环境选型泡脚器/泡沫消毒器/干粉消毒剂，并设计防绕过与失效巡检
+  - 工服分区专用、每日洗涤处置与按任务色码区分
+  - 物理分隔不切实际时用动线环境监测、captive shoe 与进入顺序管理替代
+  - 维修人员、卫生人员与废弃物接触人员的额外卫生要求
+  - 把人员卫生的依从性纳入环境监测与培训矩阵
+  keywords:
+  - 人员卫生
+  - 洗手
+  - 手套更换
+  - 更衣
+  - 工服
+  - 鞋履
+  - 泡脚器
+  - footbath
+  - captive shoe
+  - 干粉消毒剂
+  - 色码
+  - 动线
+  - 承包商
+  - 废弃物接触人员
+  - '117.10'
+  - 117.165(b)(3)
+  also_read:
+  - environmental-pathogen-sanitation
+  - environmental-engineering-controls
+  - allergen-program
+  - cgmp-compliance-guide
+  card: cards/personnel-hygiene-controls.md
+  frontmatter:
+    description: 人员卫生控制——手套不是万能——接触非食品接触面即须更换；人员控制的失效不体现为"没人洗手"，而体现为手套戴到污染、工服穿回 RTE 区、泡脚器被绕过去（来源：FDA PCHF 指南；成员单元 6 个）
+    tags:
+    - 人员卫生
+    - 洗手
+    - 手套更换
+    - 更衣
+    - 工服
+    - 鞋履
+  source_evidence:
+  - source_id: src-main-book
+    location: member_units=nB-04,nB-05,nB-06,nB-07,nB-08,nA-08
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-14
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: cgmp-compliance-guide
+  title: cGMP 合规分诊与内审索引
+  importance: extended
+  importance_rationale: cGMP 是 Part 117 的底层通用义务，覆盖所有注册设施且无规模豁免；但此前全包只把它当法定义务锚点，缺少「找哪份文件、按什么效力层级读、九条逐条看什么」的判定层。SECG 作为 FDA
+    官方白话版规则说明补上这一层，属高频入口型问题，场景频率中等偏高、与多张执行层卡交叉，故定 extended。
+  one_liner: 合规判定基准是法规不是指南；先按主体身份分流文件效力，再用「条款—法规结果义务—现场观察点」三列索引逐条取证，SECG 只作白话转述、不创设义务。
+  intents:
+  - 回答 cGMP 合规有没有官方指南、该看哪份文件、各类资料效力如何分层
+  - 组织 cGMP 内审或迎检准备，按 Subpart B 九条逐条建 GAP 清单与取证要点
+  - 判断一份 FDA 指南里的 should/recommend 对自己是不是必须做，以及能否采用替代方案
+  - 区分 cGMP 与 PCHF 的分层关系，处理「有 FSP / 有 HACCP / 属豁免主体」时是否仍受 Subpart B 约束
+  - 识别 cGMP 失守的法律定性（adulterated）与不遵守 C–G 分部的 prohibited act 两条不同执法钩子
+  - 核对 SECG 事实口径（2016-10、80 FR 55907 与 56145 的关系、合规日期已过期）
+  - 判定 pH 4.6 / a_w 0.85 与 pH ≤ 4.4 / a_w ≤ 0.92 两套基准的用途与不可互替性
+  keywords:
+  - cGMP
+  - CGMP
+  - Subpart B
+  - Small Entity Compliance Guide
+  - SECG
+  - 合规指南
+  - 内审
+  - GAP
+  - 迎检
+  - adequate
+  - current thinking
+  - alternative approach
+  - '117.10'
+  - '117.20'
+  - '117.35'
+  - '117.37'
+  - '117.40'
+  - '117.80'
+  - '117.93'
+  - '117.95'
+  - '117.110'
+  - '117.3'
+  - 80 FR 55907
+  - 80 FR 56145
+  - cross-contact
+  - adulterated
+  - 402(a)(3)
+  - 402(a)(4)
+  also_read:
+  - regulatory-boundaries
+  - environmental-engineering-controls
+  - reference-tools-discipline
+  - process-control-validation
+  - defect-action-levels
+  - inspection-readiness
+  - investigator-authority-procedure
+  - lacf-inspection-program
+  - lacf-statutory-requirements
+  - fsvp-inspection-program
+  card: cards/cgmp-compliance-guide.md
+  frontmatter:
+    description: cGMP 合规分诊与内审索引——合规判定基准是法规不是指南；先按主体身份分流文件效力，再用「条款—法规结果义务—现场观察点」三列索引逐条取证，SECG 只作白话转述、不创设义务。（来源：FDA SECG 2016-10
+      + 21 CFR Part 117 法规正文 + 本包交叉卡；来源定位见卡片 R 段）
+    tags:
+    - cGMP
+    - CGMP
+    - Subpart B
+    - Small Entity Compliance Guide
+    - SECG
+    - 合规指南
+  source_evidence:
+  - source_id: src-main-book
+    location: FDA SECG 2016-10 + 21 CFR Part 117 法规正文 + 本包交叉卡
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-15
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: defect-action-levels
+  title: 食品缺陷行动水平与原料验收判定
+  importance: extended
+  importance_rationale: 缺陷行动水平是 Part 117 Subpart B 的法定条款（§ 117.110），也是原料验收、不合格批处置与内审的高频争议点；此前全包只在 SECG XIII.H 与化学危害卡里间接提到，且明确记为「Handbook
+    正文未纳入」。补入后能同时纠正「action level 等于法规上限」「110.110 仍现行」「表内无产品即无标准」三类高频误读，属入口型判定能力，与多张执行层卡交叉，故定 extended。
+  one_liner: 先分法源再查数字——法定义务是〔§ 117.110(a)〕把天然不可避免缺陷降到当前可行最低水平，Handbook 表只是 FDA 据 402(a)(3) 执法的裁量参考；低于阈值不等于合规，掺混稀释一律禁止，霉菌类缺陷须联动化学危害分析。
+  intents:
+  - 判断虫碎片、鼠毛、霉变、异物等检出值能否放行，以及 FDA 对该产品的 defect action level 是多少
+  - 拆解「action level 是不是法规上限 / 低于阈值是否即合规 / 内控规格该定多少」这类效力层误读
+  - 判定不合格批能否掺混稀释，区分掺混禁令与经证明有效的 reconditioning 返工
+  - 识别 21 CFR 110.110 这一过时引用，回指现行〔§ 117.110〕与 Part 117 Subpart B
+  - 处理产品未列入缺陷表、或缺陷类型不契合表内判据时的逐案评估逻辑
+  - 依据 SIGNIFICANCE 判断美学缺陷是否联动黄曲霉毒素等化学危害与〔§ 117.80(b)(3)(4)〕原料验收
+  - 用 DEFECT SOURCE 的 preharvest / post harvest / processing 定位失控环节与供应商责任
+  - 核对 defect action level 与其他阈值体系（污染物、微生物、过敏原、农残）的边界
+  keywords:
+  - defect action level
+  - Food Defect Levels Handbook
+  - 缺陷行动水平
+  - 天然不可避免缺陷
+  - lowest level currently feasible
+  - '117.110'
+  - '117.80'
+  - '117.3'
+  - '110.110'
+  - 402(a)(3)
+  - 402(a)(4)
+  - adulterated
+  - 掺混稀释
+  - insect fragments
+  - rodent hair
+  - mold
+  - filth
+  - extraneous materials
+  - AOAC
+  - MPM
+  - Howard mold count
+  - SIGNIFICANCE
+  - mycotoxin
+  - 原料验收
+  - reconditioning
+  also_read:
+  - cgmp-compliance-guide
+  - chemical-hazard-controls
+  - supply-chain-verification
+  - hazard-analysis-method
+  - regulatory-boundaries
+  - inspection-readiness
+  - inspection-sampling
+  - lacf-inspection-program
+  - lacf-statutory-requirements
+  card: cards/defect-action-levels.md
+  frontmatter:
+    description: 食品缺陷行动水平与原料验收判定——先分法源再查数字——法定义务是〔§ 117.110(a)〕把天然不可避免缺陷降到当前可行最低水平，Handbook 表只是 FDA 据 402(a)(3) 执法的裁量参考；低于阈值不等于合规，掺混稀释一律禁止，霉菌类缺陷须联动化学危害分析。（来源：21
+      CFR Part 117 法规正文 + FDA Food Defect Levels Handbook（网页版，页面标注 2018-09-07）+ SECG XIII.H 交叉；来源定位见卡片 R 段）
+    tags:
+    - defect action level
+    - Food Defect Levels Handbook
+    - 缺陷行动水平
+    - 天然不可避免缺陷
+    - lowest level currently feasible
+    - '117.110'
+  source_evidence:
+  - source_id: src-main-book
+    location: 21 CFR Part 117 法规正文 + FDA Food Defect Levels Handbook（网页版，页面标注 2018-09-07）+ SECG XIII.H 交叉
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-16
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: inspection-readiness
+  title: FDA 现场检查迎检与记录举证
+  importance: extended
+  importance_rationale: 本包此前 15 张卡全部是「建体系」视角，检查员视角一直挂在 PIPELINE_STATE 的「未纳入」边界里，且 cgmp-compliance-guide 明确写「不提供 FDA 检查程序、警告信答复策略」。CPGM
+    7303.040 现行版（2025-CPM-HFP-001）补齐后，可同时纠正「迎检＝把法规背熟」「critical observation 旧口径」「483 没有时限」「记录放总部就行」四类高频误读，并把 § 117.320 / §
+    117.315(c) / § 117.305 / § 117.310 / § 117.190 落成可执行的记录举证矩阵。属入口型判定能力，与 cgmp-compliance-guide、defect-action-levels、environmental-pathogen-sanitation、supply-chain-verification、regulatory-boundaries
+    多卡交叉，故定 extended。
+  one_liner: 先判检查类型与三层分级，再按〔§ 117.320〕当场调得出记录——FSP 必须在现场、其余记录异地须 24 小时内可取、483 回复 15 个工作日；CPGM 7303.040 是检查员作业指导，不是企业义务清单。
+  intents:
+  - 判断一次 FDA 检查属于哪种类型（03040 / 03040A / 03040L / 03040F / 03040Q / 03040R / 03040T / 03040U）以及覆盖哪些 Subpart
+  - 生成迎检记录举证矩阵，把 § 117.126/130/135/139/145/150/155/160/165/170/180/190/201/305/310/315/320 与 § 117.405–475 映射到具体记录、签署人与保存期
+  - 回答记录能否异地或云端保存、FSP 是否必须在现场、保存期多久、签字与批号要求
+  - 拆解 FDA 483 回复时限、境外投递通道与回复骨架（事实澄清、根因、CAPA、有效性验证、证据附件）
+  - 纠正「critical observation」旧口径，区分 eNSpect 单条观察项 major/minor、整次检查 critical/major/minor 与 OAI/VAI/NAI 分类
+  - 判断 limited scope PCHF 是否审 FSP、何时转为 full scope 或 focused PCHF、环境取样时为何不得做 limited scope
+  - 解释 OAI 后 6 个月跟进检查、OAI 重分类 VAI 后 1 年复检及 NAI/VAI 的 FSMA 复检频率
+  - 识别 2020 版 7303.040 的过时口径（03040U = PCHF Follow-Up、CFSAN/ORA、观察项分三级）并回指现行版
+  - 处理 qualified facility 与仅储存未暴露包装 TCS 食品设施的简化要求检查取证
+  - 给检查当天的陪同、walkthrough、现场纠正、取样与收尾会准备骨架
+  - 提示无预告检查、RRA、检查前索取记录等政策层准备原则，并声明原文未收须复核
+  - 判断哪些迎检事项超出本包覆盖（IOM、RPM、CPG、抽样方法、警告信答复、进口扣留应诉）
+  keywords:
+  - FDA 现场检查
+  - 迎检
+  - 记录举证
+  - CPGM 7303.040
+  - 2025-CPM-HFP-001
+  - 2020-CPGM-CFSAN-003
+  - 03040U
+  - Focused PCHF
+  - Limited Scope PCHF
+  - Full Scope PCHF
+  - PAC
+  - FDA 483
+  - 15 business days
+  - OAI
+  - VAI
+  - NAI
+  - critical
+  - major
+  - minor
+  - eNSpect
+  - SOFO
+  - HFP OCE
+  - OII
+  - Direct Reference Authority
+  - IOM
+  - RPM
+  - Establishment Inspection Report
+  - 环境取样
+  - 无预告检查
+  - 远程监管评估
+  - official review
+  - '117.320'
+  - '117.315'
+  - '117.305'
+  - '117.310'
+  - '117.190'
+  - '117.4'
+  - '117.9'
+  - '117.201'
+  - '117.206'
+  - 24 小时
+  - 2 年
+  - 记录保存
+  - 食品防御
+  also_read:
+  - cgmp-compliance-guide
+  - defect-action-levels
+  - regulatory-boundaries
+  - environmental-pathogen-sanitation
+  - supply-chain-verification
+  - recall-plan
+  - inspection-sampling
+  - investigator-authority-procedure
+  - lacf-inspection-program
+  - fsvp-inspection-program
+  card: cards/inspection-readiness.md
+  frontmatter:
+    description: FDA 现场检查迎检与记录举证——先判检查类型与三层分级，再按〔§ 117.320〕当场调得出记录——FSP 必须在现场、其余记录异地须 24 小时内可取、483 回复 15 个工作日；CPGM 7303.040
+      是检查员作业指导，不是企业义务清单。（来源：21 CFR Part 117 法规正文（Subparts A/B/C/D/F/G）+ FDA CPGM 7303.040 现行版（2025-CPM-HFP-001，08/29/2025）+
+      2020-CPGM-CFSAN-003 历史对照；来源定位见卡片 R 段）
+    tags:
+    - FDA 现场检查
+    - 迎检
+    - 记录举证
+    - CPGM 7303.040
+    - 2025-CPM-HFP-001
+    - 2020-CPGM-CFSAN-003
+  source_evidence:
+  - source_id: src-main-book
+    location: 21 CFR Part 117 法规正文（Subparts A/B/C/D/F/G）+ FDA CPGM 7303.040 现行版（2025-CPM-HFP-001，08/29/2025）+ 2020-CPGM-CFSAN-003
+      历史对照
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-17
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: inspection-sampling
+  title: FDA 现场取样、样品量与阳性结果应对
+  importance: extended
+  importance_rationale: 上一版 inspection-readiness 明确把「抽样量、制样判读、证据充分性」列为未收边界，用户随后提供 CP 7303.050 与 IOM Ch.5 两份正文。补入后可同时纠正「7303.050
+    是一次检查」「样品量等于企业放行标准」「样品合格即 cGMP 合规」「检出致病菌必定导致某一执法后果」四类高频误读，并把 ATTACHMENT A 的 50/100 subs、Zone 1–3、WGS/GenomeTrakr 与三档 Findings
+    落成可执行矩阵。属入口型判定能力，与 inspection-readiness、investigator-authority-procedure、environmental-pathogen-sanitation、defect-action-levels、chemical-hazard-controls
+    多卡交叉，故定 extended。
+  one_liner: 先判这是 7303.040 检查中的哪一类 7303.050 抽样，再按 Table 2/3 与 ATTACHMENT A 看取证量——产品样按 subs、环境拭子 Listeria ≥50 / Salmonella
+    ≥100、确认阳性一律 WGS；PART V 的执法响应是逐案建议清单，不是法定后果表。
+  intents:
+  - 判断一次 FDA 取样属于哪个 program 与哪个 PAC（03037D / 03803D / 03819C / 03050B / 03050E / 03050N / 03S050N）
+  - 回答产品样品要抽多少 subs、每 sub 多少克、多分析物如何取足，以及 702(b) 部分是否计入
+  - 判断哪些 RTE 工厂够格被做环境取样、Listeria 与 Salmonella 分别抽多少拭子、覆盖哪些 Zone
+  - 处理湿区/干区目标菌选择、历史环境阳性厂的点位加密与检查结束前的点位不足处置
+  - 解释确认阳性后的 WGS / GenomeTrakr / 历史与临床株比对，以及为什么环境拭子不做计数
+  - 按 ATTACHMENT A Part V.1 三档 Findings 判断 ZONE 1 与 ZONE 2-3 阳性的升级差别
+  - 拆解 PART V 表 7/8 的可能 FDA 响应与 402(a)(1)/(4)、801(a)(3)、402(a)(3) 指控条款
+  - 处理进口状态样品、DWPE / Import Alert / same-or-similar entry lines 与 FSVP importer 通知
+  - 回答污秽与霉变抽样量、奶酪制样、以及与 Food Defect Levels Handbook 行动水平的分工
+  - 识别 2022 签发 / 2025-09-10 更正的版本形态，避免套用 7303.040 的 Transmittal 口径
+  - 判断哪些问题超出本包（IOM Chapter 4、702(b) 分割留样、eBAM/AOAC/MPM 方法正文、CPG 527.300、SOP-001052、FMD-147）
+  - 纠正「样品全合格就没事」「FDA 只抽 10 个所以内控也抽 10 个」两类效力层误读
+  keywords:
+  - CP 7303.050
+  - '7303.050'
+  - Sampling for Foodborne Biological Hazards and Filth
+  - Correction date 09/10/2025
+  - 06/03/2022
+  - subsamples
+  - subs
+  - 702(b)
+  - 21 CFR 2.10(b)(3)
+  - 704(d)
+  - Table 2
+  - Table 3
+  - Table 4
+  - ATTACHMENT A
+  - ATTACHMENT B
+  - environmental swab
+  - Zone 1
+  - Zone 2
+  - Zone 3
+  - 50 subsamples
+  - 100 subs
+  - 300 subs
+  - Listeria
+  - Salmonella
+  - EHEC
+  - STEC
+  - WGS
+  - GenomeTrakr
+  - No enumeration
+  - Dealer Voluntarily Holding
+  - UPS Next Day Air Early A.M.
+  - 48 ± 2h
+  - CRO
+  - Cannot Rule Out
+  - FDA Form 1551
+  - SOP-001052
+  - SOP-000529
+  - FMD-147
+  - Direct Reference Authority
+  - CPG Sec. 527.300
+  - alkaline phosphatase
+  - PAC
+  - PAF
+  - FACTS
+  - SERIO
+  - OASIS
+  - PREDICT
+  - DWPE
+  - Import Alert
+  - 03050N
+  - 03819C
+  - 03037D
+  - 402(a)(1)
+  - 402(a)(3)
+  - 402(a)(4)
+  - 801(a)(3)
+  - '117.110'
+  - '117.170'
+  - '117.190'
+  - filth
+  - mold/rot
+  - AOAC 994.05
+  - Macroanalytical Procedures Manual
+  - 环境取样
+  - 抽样量
+  - 阳性升级
+  also_read:
+  - inspection-readiness
+  - investigator-authority-procedure
+  - environmental-pathogen-sanitation
+  - defect-action-levels
+  - chemical-hazard-controls
+  - management-components
+  - lacf-inspection-program
+  card: cards/inspection-sampling.md
+  frontmatter:
+    description: FDA 现场取样、样品量与阳性结果应对——先判这是 7303.040 检查中的哪一类 7303.050 抽样，再按 Table 2/3 与 ATTACHMENT A 看取证量——产品样按 subs、环境拭子 Listeria
+      ≥50 / Salmonella ≥100、确认阳性一律 WGS；PART V 的执法响应是逐案建议清单，不是法定后果表。（来源：FDA CP 7303.050（2022-06-03 签发 / 2025-09-10 更正，62 页，含
+      ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文与 FD&C Act 条款 + IOM 2026 Ch.5 交叉；来源定位见卡片 R 段）
+    tags:
+    - CP 7303.050
+    - '7303.050'
+    - Sampling for Foodborne Biological Hazards and Filth
+    - Correction date 09/10/2025
+    - 06/03/2022
+    - subsamples
+  source_evidence:
+  - source_id: src-main-book
+    location: FDA CP 7303.050（2022-06-03 签发 / 2025-09-10 更正，62 页，含 ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文与 FD&C Act 条款 +
+      IOM 2026 Ch.5 交叉
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-18
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: investigator-authority-procedure
+  title: FDA 检查员权限、文书与证据链
+  importance: extended
+  importance_rationale: IOM 是本包此前连续三个版本都挂在「未纳入」边界里的一级缺口。用户提供的 2026 版 Chapter 5 从检查员侧给出制度性反证，可直接纠正「FDA 指南没做到会上 483」「483 可以引法规条款」「FDA
+    从不预告检查」「境外检查一律不预告」「拒绝提供配方构成拒绝检查」「样品合格即 cGMP 合规」六类高频误读，并把 482/483/483a/484/4056 表单地图、15 个工作日双出处、807(b) 拒绝入境后果落成可执行清单。属入口型判定能力，与
+    inspection-readiness、inspection-sampling、regulatory-boundaries、cgmp-compliance-guide 多卡交叉，故定 extended。
+  one_liner: 先分权限层再谈配合——法定基础是 FD&C Act 704(a)(1)，国内到场出示证件并签 FDA 482、境外一般不发；483 只写事实、不引法规原文也不引 guidance 偏离，取任何实体样必发 FDA 484；15
+    个工作日是 IOM 与 CPGM 双出处的程序口径而非法定时限。
+  intents:
+  - 判断 FDA 检查的法定基础与合理时间/合理方式边界（704(a)(1)）
+  - 拆解 Form FDA 482 / 482a / 482b / 482c / 482d / 483 / 483a / 484 / 4056 的签发时机与对象
+  - 回答境外检查是否签发 FDA 482、是否提前预告、无预告检查政策如何与 IOM 口径并存
+  - 判断国内食品企业检查的预告规则、5 个日历日与改期限制，以及「预告不是预约」
+  - 解释 FDA 483 的措辞纪律：不引法规原文、不纳入标准、不引 policy/guidance 偏离、不写 violative
+  - 判断只偏离官方 guidance 是否构成 Category 3 non-reportable observation 以及会写进哪里
+  - 回答 483 回复 15 个工作日的两个出处（IOM 5.5.12.3 / CPGM 7303.040 PART III.1）及非法定时限性质
+  - 处理拒绝入场、拒绝提供或复制记录的后果，区分 301(e)/(f) 与非法定信息拒绝
+  - 判断境外拒绝检查的 807(b) 拒绝入境、Import Alert 与注销注册风险
+  - 回答检查员索取电子记录、拷贝记录、拍照时的证据固定规则与企业配合方式
+  - 纠正「样品合格即 cGMP 合规」「没抽到阳性样就不能开 483」的误读
+  - 判断哪些问题超出本卡（IOM Chapter 3/4/6/7/8、RPM、CPG、警告信答复、检查结果预测）
+  - 用 IOM 5.5.11.3 反证本包九类来源的效力分层，说明 guidance 不是可直接开观察项的法定义务
+  keywords:
+  - IOM
+  - Investigations Operations Manual 2026
+  - Chapter 5
+  - 704(a)(1)
+  - 21 U.S.C. 374
+  - 301(e)
+  - 301(f)
+  - 807(b)
+  - 21 U.S.C. 384c(b)
+  - FDA 482
+  - FDA 482c
+  - FDA 482d
+  - FDA 483
+  - FDA 483a
+  - FDA 484
+  - FDA 4056
+  - Notice of Inspection
+  - Receipt for Samples
+  - Inspectional Observations
+  - OOAC
+  - owner, operator, or agent-in-charge
+  - FDA credentials
+  - 18 U.S.C. 701
+  - Pre-Announcement
+  - five calendar days
+  - appointment to inspect
+  - usually announces foreign inspections in advance
+  - 5.2.7
+  - 5.5.10
+  - 5.5.10.7
+  - 5.5.11
+  - 5.5.11.3
+  - 5.5.12.3
+  - 5.5.12.5
+  - 5.6.4
+  - 5.6.5.1
+  - 5.6.6.1
+  - 5.6.7
+  - 15 business days
+  - Do not cite deviations from policy or guidance documents
+  - do not quote regulations
+  - violative
+  - non-reportable observation
+  - General Discussion with Management
+  - Who What When Where Why
+  - So What?
+  - discussion items
+  - Establishment Inspection Report
+  - EIR
+  - eNSpect
+  - exhibit
+  - chain of evidence
+  - electronic records
+  - trade secret
+  - inspection refusal
+  - inspection warrant
+  - CPG Sec. 130.100
+  - RPM Chapter 10-4
+  - 414(a)
+  - '117.320'
+  - 117.315(c)
+  - 402(a)(4)
+  - 检查权限
+  - 证据链
+  - 无预告检查
+  also_read:
+  - inspection-readiness
+  - inspection-sampling
+  - regulatory-boundaries
+  - cgmp-compliance-guide
+  - reference-tools-discipline
+  - defect-action-levels
+  - lacf-inspection-program
+  - fsvp-inspection-program
+  card: cards/investigator-authority-procedure.md
+  frontmatter:
+    description: FDA 检查员权限、文书与证据链——先分权限层再谈配合——法定基础是 FD&C Act 704(a)(1)，国内到场出示证件并签 FDA 482、境外一般不发；483 只写事实、不引法规原文也不引 guidance
+      偏离，取任何实体样必发 FDA 484；15 个工作日是 IOM 与 CPGM 双出处的程序口径而非法定时限。（来源：FDA Investigations Operations Manual 2026, Chapter 5 – Inspections（221
+      页 / 410 书签，含 Exhibit 5-1…5-23）+ FD&C Act 条款 + 21 CFR Part 117 法规正文；来源定位见卡片 R 段）
+    tags:
+    - IOM
+    - Investigations Operations Manual 2026
+    - Chapter 5
+    - 704(a)(1)
+    - 21 U.S.C. 374
+    - 301(e)
+  source_evidence:
+  - source_id: src-main-book
+    location: FDA Investigations Operations Manual 2026, Chapter 5 – Inspections（221 页 / 410 书签，含 Exhibit 5-1…5-23）+ FD&C
+      Act 条款 + 21 CFR Part 117 法规正文
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-19
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: lacf-inspection-program
+  title: 低酸罐头与酸化食品检查（CP 7303.070）与 Part 117 管辖分流
+  importance: extended
+  importance_rationale: 此前 regulatory-boundaries 只有 PCHF 指南第 16 章的双法规并集概念，检查员侧的 LACF/AF 落地一直列为未收；用户随后提供 CP 7303.070 正文。补入后可同时纠正四类高频误读——①
+    把 AF 与 LACF 一并援引〔§ 117.5(d)〕免掉 Subparts C/G；② 把 CP 的检查动作写成企业法定义务；③ 把 4.40/4.65/4.75/1%/24 罐当成法定放行数值；④ 把 Import Alert 99-37
+    简化成「未备案即自动扣留」。它还首次给出 RRA 不是 704(a)(1) inspection 的官方程序定义，并把 Keep Refrigerated、brites、动物食品、海产品四条路由接到已收的 7303.040/7303.050
+    两卡。属入口型判定能力，与 regulatory-boundaries、inspection-readiness、inspection-sampling、process-control-validation、cgmp-compliance-guide
+    多卡交叉，故定 extended。
+  one_liner: 先判产品进的是 LACF、AF 还是 Keep Refrigerated 轨道，再按〔§ 117.5(d)(1)(2)〕把「part 113 管辖的微生物危害」与「仍需 PCHF 的化学/物理/金葡危害」切开；酸化食品不免
+    C/G；检查查的是 FCE/SID、Process Authority、温度分布与热穿透、运行中 retort、卷边与异常罐；4.40/4.65 是实验室复测触发线、4.6 才是法定边界。
+  intents:
+  - 判断一个产品属于 LACF、酸化食品 AF、酸性食品、Keep Refrigerated 还是不进 7303.070 轨道
+  - 按〔§ 117.5(d)(1)(2)〕判定 LACF 活动免 Subparts C/G 的范围，指出哪些危害仍归 Part 117
+  - 纠正把酸化食品当成 LACF 豁免孪生、或误引〔§ 117.201〕为 LACF 条款的错误
+  - 解释〔§ 117.1(c)〕专项 CGMP 与 Part 117 并行不互斥，及与 regulatory-boundaries 并集矩阵的关系
+  - 回答 Keep Refrigerated 产品为什么归 CP 7303.050、brites 中央仓为什么报 PAC 03040
+  - 说明动物食品 71070 与 21 CFR 507.5(b)、海产品 7303.842 HACCP 的并行路由
+  - 解释 RRA 自愿、远程、不是 704(a)(1) inspection、不满足 510(h)/503B(b) 法定检查要求
+  - 复述酸化食品判定三步与 Maximum Equilibrium pH、ROP 氧透过率阈值、成品至少 6 单元自判
+  - 列出 AF / LACF / Aseptic LACF 三类检查目标与检查员会索取的六组记录
+  - 回答 pH 分析取样量 24 罐/12 罐、4.40 与 4.65 双分析师触发线、禁止合并两位分析师结果
+  - 区分 4.6/0.85 法定边界、4.40/4.65/4.75/0.90/0.93 检查员触发线、4.4/0.92 L.mono 建议层基准
+  - 处理异常罐 1%、14 天 progressive decomp、pH >4.75 与肉毒毒素/PCR、C. botulinum 仅 for-cause
+  - 解释 Import Alert 99-37/99-38 与「不得仅因未注册未备案建议 DWPE」的反直觉限制
+  - 回答 Emergency Permit/OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率、24 小时通电
+  - 识别 2024-09-26 签发 / 2025-09-26 更正本的版本形态，避免套用 7303.040 的 Transmittal 口径
+  - 判断哪些问题超出本包（21 CFR 108/113/114 正文、IOM Ch.4 Chart 2、BAM、CPG 520.200/520.300、Import Alert 全文、F0/D/z 与 TD/HP 研究设计）
+  keywords:
+  - CP 7303.070
+  - '7303.070'
+  - Acidified and Low-Acid Canned Foods Program
+  - 09/26/2024
+  - 9/26/2025
+  - Correction Date
+  - '20250929'
+  - 21 CFR part 108
+  - 21 CFR part 113
+  - 21 CFR part 114
+  - 117.5(d)
+  - 117.1(c)
+  - '117.201'
+  - '117.3'
+  - 117.80(c)(14)
+  - 117.80(c)(15)
+  - '117.110'
+  - LACF
+  - AF
+  - acidified food
+  - low-acid canned food
+  - aseptic LACF
+  - C. botulinum
+  - Clostridium botulinum
+  - botulinum neurotoxin
+  - Staphylococcus aureus
+  - commercial sterility
+  - Emergency Permit Control
+  - FCE
+  - SID
+  - SUP-SID
+  - scheduled process
+  - Process Authority
+  - Better Process Control School
+  - BPCS
+  - FURLS
+  - Center Views
+  - Form 2541e
+  - temperature distribution
+  - heat penetration
+  - retort
+  - crateless retort
+  - container integrity
+  - can seam
+  - abnormal containers
+  - spoilage diagnosis
+  - hard swell
+  - progressive decomp
+  - Maximum Equilibrium pH
+  - equilibrium pH
+  - '4.6'
+  - '4.40'
+  - '4.65'
+  - '4.75'
+  - '0.85'
+  - '0.90'
+  - '0.93'
+  - '0.92'
+  - 795 grams
+  - 24 containers
+  - 12 containers
+  - Never average the two analysts
+  - original analysis
+  - check analysis
+  - pH meter
+  - ROP
+  - oxygen transmission rate
+  - 10,000 cc
+  - Keep Refrigerated
+  - brite
+  - PAC 03040
+  - 03070A
+  - 03070B
+  - 03070C
+  - 03070F
+  - 03070G
+  - 03070J
+  - '71070'
+  - PAC
+  - PAF
+  - ACD
+  - MIC
+  - AFD
+  - ACF
+  - LAF
+  - Import Alert 99-37
+  - Import Alert 99-38
+  - DWPE
+  - DTR
+  - AofC
+  - RRA
+  - Remote Regulatory Assessment
+  - 704(a)(1)
+  - 510(h)
+  - 503B(b)
+  - OAI
+  - VAI
+  - NAI
+  - SOP-001642
+  - IOM Chapter 4
+  - Sample Schedule Chart 2
+  - BAM Chapter 17
+  - BAM Chapter 21A
+  - CPG Sec. 520.200
+  - CPG Sec. 520.300
+  - CMS
+  - HFP/OCE/OCIC/DCC
+  - HFP/OCE/OE/IEB
+  - 21 CFR 507.5(b)
+  - '7303.842'
+  - '7371.000'
+  - '7321.006'
+  - 7304.004A
+  - '7309.006'
+  - 低酸罐头
+  - 酸化食品
+  - 管辖分流
+  - 双法规并集
+  - 定时工艺备案
+  - 商业无菌
+  - 卷边完整性
+  - 异常罐
+  - 进口扣留
+  also_read:
+  - regulatory-boundaries
+  - inspection-readiness
+  - inspection-sampling
+  - investigator-authority-procedure
+  - process-control-validation
+  - cgmp-compliance-guide
+  - defect-action-levels
+  - lacf-statutory-requirements
+  - fsvp-inspection-program
+  card: cards/lacf-inspection-program.md
+  frontmatter:
+    description: 低酸罐头与酸化食品检查（CP 7303.070）与 Part 117 管辖分流——先判产品进的是 LACF、AF 还是 Keep Refrigerated 轨道，再按〔§ 117.5(d)(1)(2)〕把「part
+      113 管辖的微生物危害」与「仍需 PCHF 的化学/物理/金葡危害」切开；酸化食品不免 C/G；检查查的是 FCE/SID、Process Authority、温度分布与热穿透、运行中 retort、卷边与异常罐；4.40/4.65
+      是实验室复测触发线、4.6 才是法定边界。（来源：FDA CP 7303.070（2024-09-26 签发 / 2025-09-26 更正，61 页，含 ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文〔§
+      117.5(d)(1)(2)〕〔§ 117.1(c)〕+ 21 CFR Part 113 / 114 法规正文（v4.7 已收，见 CAP-20）+ 21 CFR part 108 / 110 / 120 / 123（转引未收）+
+      CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 交叉；来源定位见卡片 R 段）
+    tags:
+    - CP 7303.070
+    - '7303.070'
+    - Acidified and Low-Acid Canned Foods Program
+    - 09/26/2024
+    - 9/26/2025
+    - Correction Date
+  source_evidence:
+  - source_id: src-main-book
+    location: FDA CP 7303.070（2024-09-26 签发 / 2025-09-26 更正，61 页，含 ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文〔§ 117.5(d)(1)(2)〕〔§
+      117.1(c)〕+ 21 CFR Part 113 / 114 法规正文（v4.7 已收，见 CAP-20）+ 21 CFR part 108 / 110 / 120 / 123（转引未收）+ CPGM 7303.040 / CP
+      7303.050 / IOM 2026 Ch.5 交叉
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-20
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: lacf-statutory-requirements
+  title: 低酸罐头与酸化食品的法定要求（21 CFR Part 113 / 114 法规正文）与 Part 117 并行接口
+  importance: extended
+  importance_rationale: 本包自 v1 起只有 21 CFR Part 117 一套法规正文，涉及 LACF/AF 的法条一律只能标「转引未收」，v4.6 的 CAP-19 更是靠 CP 7303.070 反推义务。用户随后提供
+    21 CFR Part 113 / 114（4-1-25 Edition）正文，本卡首次把 Part 117 之外的法规正文纳入，直接改变全包效力分层表述（「Part 117 是唯一法定义务基准」须收窄为「判定 Part 117 义务的唯一基准」）。它同时钉死四处高频误读：①
+    把 §117.5(d)(1) 读成「LACF 自动免 PCHF」（实为双条件 + 仅限微生物危害）；② 以为酸化食品有对应豁免（§117.5 清单无 part 114，且 §114.5 反向把 parts 110 and 117 拉进掺假判定）；③
+    把 CP 7303.070 的 4.40/4.65/24 罐实验室触发线当法定放行值；④ 沿用 v4.3「Part 110 已移除、110.110 是过时引用」的错误结论（FDA 2018-09-12 已撤回删除指令）。属入口型法条判定能力，与
+    CAP-19 及 hazard-analysis-method / regulatory-boundaries / cgmp-compliance-guide / defect-action-levels / process-control-validation
+    多卡交叉，故定 extended。
+  one_liner: 先用成品平衡 pH 与 aw 按〔§ 113.3(n)〕〔§ 114.3(b)(d)〕定 LACF / AF 身份，再按〔§ 117.1(c)〕并行 + 〔§ 117.5(d)(1)(2)〕双条件有限豁免切出 PCHF
+    义务并集；酸化食品不免 Subparts C/G；法条里是 4.6 / 0.85 / 4.0 与 1+2 年记录，不是 CP 的 4.40 / 4.65 / 24 罐；Part 108 / 110 正文仍未收。
+  intents:
+  - 按成品平衡 pH 与 aw 判定产品属于 LACF、酸化食品、酸性食品还是 §114.3(b) 排除项
+  - 解释〔§ 117.1(c)〕专项 CGMP 与 Part 117 并行不互斥，纠正「二选一」误读
+  - 按〔§ 117.5(d)(1)〕的 required to comply with 且 in compliance with 双条件判断豁免是否成立
+  - 按〔§ 117.5(d)(2)〕把豁免限定在 part 113 管辖的微生物危害，指出化学/物理/金葡等危害仍归 Subparts C/G
+  - 说明 part 114 不在 §117.5 豁免清单内，酸化食品全程受 Subparts C/G 约束
+  - 解释〔§ 114.5〕并列 parts 110 and 117 用于判定掺假，且该文本现行有效不是笔误
+  - 复述〔§ 113.3(n)〕〔§ 114.3(b)(d)〕的 4.6 / 0.85 法定身份边界与番茄 pH <4.7 例外
+  - 列出 Part 113 的企业义务：§113.5 CGMP 判据、§113.10 人员、§113.40 设备与 NIST 校准、§113.60 容器、§113.81 产品制备、§113.83 scheduled process、§113.87
+    杀菌室、§113.89 偏差、§113.100 记录
+  - 列出 Part 114 的企业义务：§114.5 掺假判据、§114.10 人员、§114.80 成品 pH 与热处理、§114.83 scheduled process、§114.89 三条偏差路径、§114.90 方法、§114.100
+    记录
+  - 回答成品 pH >4.0 必须用 potentiometric method〔§ 114.80(a)(2)〕及 §113.81(e) 回指 §114.90 的关系
+  - 说明酸化不等于免除热处理〔§ 114.80(a)(1)〕及 §114.89(b) 按 part 113 热处理的条文接口
+  - 区分〔§ 113.10〕与〔§ 114.10〕BPCS 课程覆盖领域的差异
+  - 回答 FDA 调阅 scheduled process 的法条依据〔§ 113.87(b)〕，并与 IOM 记录索取程序分层
+  - 分列两 part 的记录保存口径：〔§ 113.100(g)〕厂内 ≥1 年 + 另 2 年且 (h) 允许 part 11 电子记录；〔§ 114.100(e)〕整段 3 年、无分段、无 part 11 条款
+  - 纠正 v4.3「Part 110 已移除 / 110.110 是过时引用」结论，给出 2018-09-12 FR Doc 2018-19855 撤回 instruction 13 的事实链
+  - 说明手册那句是 §110.110(c) 意译而非〔§ 117.110(c)〕，且理由已从「part 110 已删」更正为「那是 part 110 的 (c) 款」
+  - 区分法定数字 4.6/0.85/4.0、CP 7303.070 检查员触发线 4.40/4.65/4.75/0.90/0.93/1%/24 罐、L.mono 建议层 ≤4.4/≤0.92
+  - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规，FR citation 才是修订出处
+  - 判断哪些问题超出本包（part 108 的 FCE/SID/Emergency Permit、part 110/120/123 正文、F0-D-z 计算、BAM、IOM Ch.4、Import Alert 全文）
+  keywords:
+  - 21 CFR part 113
+  - 21 CFR part 114
+  - Part 113
+  - Part 114
+  - 4-1-25 Edition
+  - 21 CFR Ch. I
+  - '113.3'
+  - '113.5'
+  - '113.10'
+  - '113.40'
+  - '113.60'
+  - '113.81'
+  - '113.83'
+  - '113.87'
+  - '113.89'
+  - '113.100'
+  - '114.3'
+  - '114.5'
+  - '114.10'
+  - '114.80'
+  - '114.83'
+  - '114.89'
+  - '114.90'
+  - '114.100'
+  - 117.1(c)
+  - 117.5(d)
+  - 117.5(d)(1)
+  - 117.5(d)(2)
+  - 117.5(b)
+  - 117.5(c)
+  - required to comply with
+  - in compliance with
+  - parts 110 and 117
+  - Part 110
+  - '110.110'
+  - 110.110(c)
+  - '117.110'
+  - amendatory instruction 13
+  - FR Doc. 2018-19855
+  - 80 FR 56144
+  - remove and reserve
+  - is withdrawn
+  - LACF
+  - acidified foods
+  - acid foods
+  - low-acid foods
+  - commercial sterility
+  - hermetically sealed containers
+  - finished equilibrium pH
+  - '4.6'
+  - '0.85'
+  - '4.0'
+  - '4.7'
+  - tomatoes
+  - water activity
+  - scheduled process
+  - critical factor
+  - Process Authority
+  - competent processing authority
+  - Better Process Control School
+  - BPCS
+  - '108.35'
+  - part 108
+  - FCE
+  - SID
+  - Emergency Permit Control
+  - retort
+  - NIST
+  - temperature-indicating device
+  - heat-sensitive indicator
+  - product traffic control
+  - potentiometric method
+  - titratable acidity
+  - colorimetric
+  - vegetative cells
+  - thermal processing
+  - incubation tests
+  - part 11
+  - 3 years
+  - at the time it is observed
+  - shall
+  - should
+  - '4.40'
+  - '4.65'
+  - '4.75'
+  - 24 containers
+  - 低酸罐头
+  - 酸化食品
+  - 法规正文
+  - 并行适用
+  - 条件性豁免
+  - 法条接口
+  - 商业无菌
+  - 定时工艺
+  - 电位法
+  - 偏差处置
+  - 三套数字
+  - 十三类不可混引
+  - 转引未收
+  also_read:
+  - lacf-inspection-program
+  - regulatory-boundaries
+  - cgmp-compliance-guide
+  - defect-action-levels
+  - process-control-validation
+  - hazard-analysis-method
+  card: cards/lacf-statutory-requirements.md
+  frontmatter:
+    description: 低酸罐头与酸化食品的法定要求（21 CFR Part 113 / 114 法规正文）与 Part 117 并行接口——先用成品平衡 pH 与 aw 按〔§ 113.3(n)〕〔§ 114.3(b)(d)〕定 LACF
+      / AF 身份，再按〔§ 117.1(c)〕并行 + 〔§ 117.5(d)(1)(2)〕双条件有限豁免切出 PCHF 义务并集；酸化食品不免 Subparts C/G；法条里是 4.6 / 0.85 / 4.0 与 1+2 年记录，不是
+      CP 的 4.40 / 4.65 / 24 罐；Part 108 / 110 正文仍未收。（来源：21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）+ 21 CFR Part 114（4-1-25
+      Edition，7 页 / 8 条款）+ 21 CFR Part 117 法规正文〔§ 117.1(c)〕〔§ 117.5(d)(1)(2)〕〔§ 117.110〕+ CP 7303.070（检查员侧，见 CAP-19）+ FDA
+      2018-09-12 最终规则 FR Doc. 2018-19855（外部核实、正文未收）；21 CFR part 108 / 110 / 120 / 123 正文一律「转引未收」；来源定位见卡片 R 段）
+    tags:
+    - 21 CFR part 113
+    - 21 CFR part 114
+    - Part 113
+    - Part 114
+    - 4-1-25 Edition
+    - 21 CFR Ch. I
+  source_evidence:
+  - source_id: src-main-book
+    location: 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）+ 21 CFR Part 114（4-1-25 Edition，7 页 / 8 条款）+ 21 CFR Part 117 法规正文〔§
+      117.1(c)〕〔§ 117.5(d)(1)(2)〕〔§ 117.110〕+ CP 7303.070（检查员侧，见 CAP-19）+ FDA 2018-09-12 最终规则 FR Doc. 2018-19855（外部核实、正文未收）；21
+      CFR part 108 / 110 / 120 / 123 正文一律「转引未收」
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-21
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: fsvp-inspection-program
+  title: FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流
+  importance: extended
+  importance_rationale: 此前 supply-chain-verification 只覆盖接收设施在〔§ 117.135〕及 Subpart G 下的企业侧验证决策，进口商侧的 FSVP 轨道一直是明确列出的未收边界；用户随后提供
+    CP 7303.878 正文。补入后可同时纠正五类高频误读——① 把 FSVP 与 Part 117 供应链程序当成同一套义务；② 以为 deemed compliance 连 §1.509 入境标识一起免掉；③ 把 FSVP 检查按
+    CP 7303.050 准备样品；④ 把 Import Alert 99-41 与 LACF/AF 的 99-37/99-38 混为一谈；⑤ 把 CP 的检查动作写成企业法定义务或从 CP 反推 21 CFR part 1 subpart
+    L 条文。它还给出 483a 观察分级、NAI/VAI/OAI、WL→99-41→§801(a)(3) 拒绝入境的执法阶梯与三条反直觉限制，属入口型判定能力，与 supply-chain-verification、regulatory-boundaries、inspection-readiness、inspection-sampling、investigator-authority-procedure、lacf-inspection-program
+    多卡交叉，故定 extended。
+  one_liner: 先判谁是 FSVPI、是不是 receiving facility 可走 deemed compliance（但 §1.509 不免），再按 CP 7303.878 看检查要哪些记录；FSVP 检查不取样、PART IV
+    全空；观察分级后走 483a → NAI/VAI/OAI → WL → Import Alert 99-41 Red List → §801(a)(3) 拒绝入境；21 CFR part 1 subpart L 正文转引未收。
+  intents:
+  - 判断一个主体是不是 §1.500 定义的 FSVPI，以及无美国货主时谁承担进口商义务
+  - 区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）的主体与法源
+  - 解释 deemed compliance 的适用条件与「except they must comply with section 1.509」的例外
+  - 回答不是 receiving facility 的纯贸易进口商、仓储设施为什么仍须完整履行 FSVP
+  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免并指出 part 120 / 123 正文未收
+  - 区分 standard requirements（§1.502/503/504/505/506/508/509/510）与 modified requirements（§1.507/511/512/513）
+  - 回答 §1.509 每一 entry line 的名称、邮箱、UFI（DUNS）电子申报义务
+  - 处理 VSI / 小境外供应商 / 膳食补充剂 §1.511(c) / SRA §1.513 的适用判定与取证
+  - 解释为什么 FSVP 检查不取样、PART IV 全空，不能套 CP 7303.050 的样品量与环境拭子
+  - 复述检查员会索取的六组 FSVP 记录与 FDA 书面索取后及时提供记录的义务
+  - 列出 PART V.1.A 的重大观察与较轻一档观察，并说明首次违法不默认优先执法
+  - 解释 NAI / VAI / OAI 分类依据与 PART V.1.C 的八项执法裁量因素
+  - 说明 §1.507 disclosure 不能替代 §801(b) / §1.95 reconditioning proposal 所需资料
+  - 给出 §801(a)(3) / §1.514(a) 拒绝入境的官方指控措辞与 §301(zz) / §1.514(b) 禁止行为
+  - 解释 direct reference authority 只在有限情形授予、其余案件须经 CMS 送 Center 并取得分类一致
+  - 区分 Import Alert 99-41（FSVP）与 99-37 / 99-38（LACF/AF），说明 Red List 按「食品 + 供应商」组合列入与移除流程
+  - 纠正「上了 99-41 就全部停运」与「未上 Red List 就自动禁运」两种相反误读
+  - 回答 CP 7303.878 是不是 2025 年新规，以及 CP 7303.819 的准确状态
+  - 判断哪些问题超出本包（21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、part
+    111/112/120/123/507 正文）
+  keywords:
+  - CP 7303.878
+  - '7303.878'
+  - Foreign Supplier Verification Programs Inspections
+  - FSVP
+  - FSVPI
+  - 2023-CPM-CFSAN-003
+  - 09/27/2023
+  - 08/28/2025
+  - 08/20/2024
+  - 10/20/2021
+  - Change History
+  - 21 CFR part 1
+  - subpart L
+  - '1.500'
+  - '1.501'
+  - 1.502(a)
+  - '1.503'
+  - '1.504'
+  - '1.505'
+  - '1.506'
+  - '1.507'
+  - '1.508'
+  - '1.509'
+  - '1.510'
+  - '1.511'
+  - '1.512'
+  - '1.513'
+  - '1.514'
+  - section 805
+  - section 801(a)(3)
+  - section 301(zz)
+  - section 418
+  - section 419
+  - FD&C Act
+  - FSMA
+  - importer
+  - U.S. owner or consignee
+  - UFI
+  - DUNS
+  - CBP
+  - entry line
+  - receiving facility
+  - deemed in compliance
+  - supply chain requirements
+  - 21 CFR part 117
+  - 21 CFR part 507
+  - '117.135'
+  - '117.206'
+  - modified requirements
+  - standard requirements
+  - very small importer
+  - VSI
+  - small foreign supplier
+  - SRA
+  - Systems Recognition Arrangement
+  - dietary supplement
+  - 21 CFR part 111
+  - 21 CFR part 112
+  - covered produce
+  - 21 CFR part 120
+  - 21 CFR part 123
+  - juice HACCP
+  - seafood HACCP
+  - USDA
+  - Form FDA 483a
+  - FSVP Observations
+  - eNSpect
+  - CAR
+  - CMS
+  - Inspection Protocol
+  - IP
+  - OP12
+  - OP13
+  - 03878
+  - 03878D
+  - 03878P
+  - '71878'
+  - on-site or remote
+  - RRA
+  - Samples will not be collected
+  - Intentionally Left Blank
+  - No FSVP
+  - SAHCODHA
+  - NAI
+  - VAI
+  - OAI
+  - Warning Letter
+  - Untitled Letter
+  - regulatory meeting
+  - direct reference authority
+  - 'HFP Enforcement Bulletin #13'
+  - Import Alert 99-41
+  - Red List
+  - DWPE
+  - refusal of admission
+  - reconditioning proposal
+  - 21 CFR 1.95
+  - section 801(b)
+  - FSVP Guidance for Industry
+  - Q&A G.8
+  - RPM 4-1-8
+  - SOP-001642
+  - IOM 5.11
+  - IOM 8.1.9
+  - '7303.819'
+  - '7303.080'
+  - 7303.803A
+  - '7321.008'
+  - '7371.000'
+  - '7303.842'
+  - CPGM 7303.040
+  - FSVP handout
+  - FSVPrTAN@fda.hhs.gov
+  - Food Facility Registration
+  - 进口商
+  - 境外供应商验证
+  - 供应链程序分流
+  - 拒绝入境
+  - 扣留无需物理检验
+  - 十三类不可混引
+  - 转引未收
+  also_read:
+  - supply-chain-verification
+  - regulatory-boundaries
+  - inspection-readiness
+  - inspection-sampling
+  - investigator-authority-procedure
+  - lacf-inspection-program
+  - cgmp-compliance-guide
+  card: cards/fsvp-inspection-program.md
+  frontmatter:
+    description: FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流——先判谁是 FSVPI、是不是 receiving facility 可走 deemed compliance（但 §1.509
+      不免），再按 CP 7303.878 看检查要哪些记录；FSVP 检查不取样、PART IV 全空；观察分级后走 483a → NAI/VAI/OAI → WL → Import Alert 99-41 Red List → §801(a)(3)
+      拒绝入境；21 CFR part 1 subpart L 正文转引未收。（来源：FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，Implementation Date 09/27/2023，Date
+      of Issuance 08/28/2025 更正，33 页 / 20 书签）+ 21 CFR Part 117 法规正文〔§ 117.135〕〔§ 117.206〕+ 21 CFR part 1 subpart L §§1.500–1.514（转引未收）+
+      CPGM 7303.040 Program Interaction (15) / CP 7303.050 / CP 7303.070 / IOM 2026 Ch.5 交叉；来源定位见卡片 R 段）
+    tags:
+    - CP 7303.878
+    - '7303.878'
+    - Foreign Supplier Verification Programs Inspections
+    - FSVP
+    - FSVPI
+    - 2023-CPM-CFSAN-003
+  source_evidence:
+  - source_id: src-main-book
+    location: FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，Implementation Date 09/27/2023，Date of Issuance 08/28/2025 更正，33
+      页 / 20 书签）+ 21 CFR Part 117 法规正文〔§ 117.135〕〔§ 117.206〕+ 21 CFR part 1 subpart L §§1.500–1.514（转引未收）+ CPGM 7303.040 Program
+      Interaction (15) / CP 7303.050 / CP 7303.070 / IOM 2026 Ch.5 交叉
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md

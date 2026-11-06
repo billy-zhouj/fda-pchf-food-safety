@@ -1,0 +1,149 @@
+slug: fsvp-inspection-program
+title: FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流
+importance: extended
+importance_rationale: 此前 supply-chain-verification 只覆盖接收设施在〔§ 117.135〕及 Subpart G 下的企业侧验证决策，进口商侧的 FSVP 轨道一直是明确列出的未收边界；用户随后提供 CP 7303.878 正文。补入后可同时纠正五类高频误读——① 把 FSVP 与 Part 117 供应链程序当成同一套义务；② 以为 deemed compliance 连 §1.509 入境标识一起免掉；③ 把 FSVP 检查按 CP 7303.050 准备样品；④ 把 Import Alert 99-41 与 LACF/AF 的 99-37/99-38 混为一谈；⑤ 把 CP 的检查动作写成企业法定义务或从 CP 反推 21 CFR part 1 subpart L 条文。它还给出 483a 观察分级、NAI/VAI/OAI、WL→99-41→§801(a)(3) 拒绝入境的执法阶梯与三条反直觉限制，属入口型判定能力，与 supply-chain-verification、regulatory-boundaries、inspection-readiness、inspection-sampling、investigator-authority-procedure、lacf-inspection-program 多卡交叉，故定 extended。
+one_liner: 先判谁是 FSVPI、是不是 receiving facility 可走 deemed compliance（但 §1.509 不免），再按 CP 7303.878 看检查要哪些记录；FSVP 检查不取样、PART IV 全空；观察分级后走 483a → NAI/VAI/OAI → WL → Import Alert 99-41 Red List → §801(a)(3) 拒绝入境；21 CFR part 1 subpart L 正文转引未收。
+intents:
+  - 判断一个主体是不是 §1.500 定义的 FSVPI，以及无美国货主时谁承担进口商义务
+  - 区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）的主体与法源
+  - 解释 deemed compliance 的适用条件与「except they must comply with section 1.509」的例外
+  - 回答不是 receiving facility 的纯贸易进口商、仓储设施为什么仍须完整履行 FSVP
+  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免并指出 part 120 / 123 正文未收
+  - 区分 standard requirements（§1.502/503/504/505/506/508/509/510）与 modified requirements（§1.507/511/512/513）
+  - 回答 §1.509 每一 entry line 的名称、邮箱、UFI（DUNS）电子申报义务
+  - 处理 VSI / 小境外供应商 / 膳食补充剂 §1.511(c) / SRA §1.513 的适用判定与取证
+  - 解释为什么 FSVP 检查不取样、PART IV 全空，不能套 CP 7303.050 的样品量与环境拭子
+  - 复述检查员会索取的六组 FSVP 记录与 FDA 书面索取后及时提供记录的义务
+  - 列出 PART V.1.A 的重大观察与较轻一档观察，并说明首次违法不默认优先执法
+  - 解释 NAI / VAI / OAI 分类依据与 PART V.1.C 的八项执法裁量因素
+  - 说明 §1.507 disclosure 不能替代 §801(b) / §1.95 reconditioning proposal 所需资料
+  - 给出 §801(a)(3) / §1.514(a) 拒绝入境的官方指控措辞与 §301(zz) / §1.514(b) 禁止行为
+  - 解释 direct reference authority 只在有限情形授予、其余案件须经 CMS 送 Center 并取得分类一致
+  - 区分 Import Alert 99-41（FSVP）与 99-37 / 99-38（LACF/AF），说明 Red List 按「食品 + 供应商」组合列入与移除流程
+  - 纠正「上了 99-41 就全部停运」与「未上 Red List 就自动禁运」两种相反误读
+  - 回答 CP 7303.878 是不是 2025 年新规，以及 CP 7303.819 的准确状态
+  - 判断哪些问题超出本包（21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、part 111/112/120/123/507 正文）
+keywords:
+  - "CP 7303.878"
+  - "7303.878"
+  - "Foreign Supplier Verification Programs Inspections"
+  - FSVP
+  - FSVPI
+  - "2023-CPM-CFSAN-003"
+  - "09/27/2023"
+  - "08/28/2025"
+  - "08/20/2024"
+  - "10/20/2021"
+  - "Change History"
+  - "21 CFR part 1"
+  - "subpart L"
+  - "1.500"
+  - "1.501"
+  - "1.502(a)"
+  - "1.503"
+  - "1.504"
+  - "1.505"
+  - "1.506"
+  - "1.507"
+  - "1.508"
+  - "1.509"
+  - "1.510"
+  - "1.511"
+  - "1.512"
+  - "1.513"
+  - "1.514"
+  - "section 805"
+  - "section 801(a)(3)"
+  - "section 301(zz)"
+  - "section 418"
+  - "section 419"
+  - "FD&C Act"
+  - FSMA
+  - importer
+  - "U.S. owner or consignee"
+  - UFI
+  - DUNS
+  - "CBP"
+  - "entry line"
+  - "receiving facility"
+  - "deemed in compliance"
+  - "supply chain requirements"
+  - "21 CFR part 117"
+  - "21 CFR part 507"
+  - "117.135"
+  - "117.206"
+  - "modified requirements"
+  - "standard requirements"
+  - "very small importer"
+  - VSI
+  - "small foreign supplier"
+  - SRA
+  - "Systems Recognition Arrangement"
+  - "dietary supplement"
+  - "21 CFR part 111"
+  - "21 CFR part 112"
+  - "covered produce"
+  - "21 CFR part 120"
+  - "21 CFR part 123"
+  - "juice HACCP"
+  - "seafood HACCP"
+  - "USDA"
+  - "Form FDA 483a"
+  - "FSVP Observations"
+  - eNSpect
+  - CAR
+  - CMS
+  - "Inspection Protocol"
+  - IP
+  - "OP12"
+  - "OP13"
+  - "03878"
+  - "03878D"
+  - "03878P"
+  - "71878"
+  - "on-site or remote"
+  - RRA
+  - "Samples will not be collected"
+  - "Intentionally Left Blank"
+  - "No FSVP"
+  - "SAHCODHA"
+  - NAI
+  - VAI
+  - OAI
+  - "Warning Letter"
+  - "Untitled Letter"
+  - "regulatory meeting"
+  - "direct reference authority"
+  - "HFP Enforcement Bulletin #13"
+  - "Import Alert 99-41"
+  - "Red List"
+  - DWPE
+  - "refusal of admission"
+  - "reconditioning proposal"
+  - "21 CFR 1.95"
+  - "section 801(b)"
+  - "FSVP Guidance for Industry"
+  - "Q&A G.8"
+  - "RPM 4-1-8"
+  - "SOP-001642"
+  - "IOM 5.11"
+  - "IOM 8.1.9"
+  - "7303.819"
+  - "7303.080"
+  - "7303.803A"
+  - "7321.008"
+  - "7371.000"
+  - "7303.842"
+  - "CPGM 7303.040"
+  - "FSVP handout"
+  - "FSVPrTAN@fda.hhs.gov"
+  - "Food Facility Registration"
+  - 进口商
+  - 境外供应商验证
+  - 供应链程序分流
+  - 拒绝入境
+  - 扣留无需物理检验
+  - 十三类不可混引
+  - 转引未收
+member_units: []
+source_label: FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，Implementation Date 09/27/2023，Date of Issuance 08/28/2025 更正，33 页 / 20 书签）+ 21 CFR Part 117 法规正文〔§ 117.135〕〔§ 117.206〕+ 21 CFR part 1 subpart L §§1.500–1.514（转引未收）+ CPGM 7303.040 Program Interaction (15) / CP 7303.050 / CP 7303.070 / IOM 2026 Ch.5 交叉

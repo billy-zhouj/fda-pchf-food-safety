@@ -1,0 +1,13 @@
+{
+  "case_id": "lacf-02",
+  "runs": 1,
+  "prompt": "我们是低酸罐头厂，肉毒风险由杀菌工艺控制；那化学危害（比如罐头内壁涂层迁移）和物理危害（金属碎屑）还要不要进 PCHF 的危害分析和预防控制？另外 §117.201 是不是就是 LACF 的修改要求？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

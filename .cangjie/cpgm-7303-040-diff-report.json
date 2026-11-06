@@ -1,0 +1,104 @@
+{
+  "task": "CPGM 7303.040 现行版（2025）落为第七来源 / 与 2020 版逐字对比",
+  "current_source": "G:/下载/CP 7303.040 Preventive Controls and Sanitary Human Food Operations 508-Compliant.pdf",
+  "current_output": "source-cpgm-7303-040-2025.md",
+  "historical_source": "G:/下载/CPGM_7303.040_Preventive_Controls_and_Sanitary_Human_Food_Operations.pdf",
+  "historical_output": "source-cpgm-7303-040-2020.md",
+  "current_edition": {
+    "transmittal": "2025-CPM-HFP-001",
+    "date_of_issuance": "08/29/2025",
+    "implementation_date_on_pdf": "05/23/2024",
+    "pages": 50,
+    "bookmarks": 91,
+    "size_bytes": 702698
+  },
+  "historical_edition": {
+    "transmittal": "2020-CPGM-CFSAN-003",
+    "date_of_issuance": "10/15/2020",
+    "implementation_date": "10/15/2020",
+    "pages": 47,
+    "bookmarks": 92
+  },
+  "date_discrepancy": "FDA 网页 Food Compliance Programs 列表对 7303.040 的日期与此 PDF 首页 IMPLEMENTATION DATE 05/23/2024 不一致（曾见 5/7/2025 一类列表值，属页面字段/更新时间）。以 PDF 首页 Transmittal / Date of Issuance / IMPLEMENTATION DATE 为准。",
+  "conversion_quality": {
+    "current": {
+      "output": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/source-cpgm-7303-040-2025.md",
+      "chars": 130222,
+      "lines": 844,
+      "headings": {
+        "H1": 1,
+        "H2": 75,
+        "H3": 14,
+        "H4": 34,
+        "H5": 36,
+        "H6": 0
+      },
+      "total_headings": 160,
+      "table_lines": 91,
+      "bookmarks_used": 91,
+      "bookmarks_dropped": 0,
+      "auto_detected_noise_lines": 3,
+      "residual_standalone_pagenum": 0,
+      "residual_dash_page": 0
+    },
+    "historical": {
+      "output": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/source-cpgm-7303-040.md",
+      "chars": 115212,
+      "lines": 791,
+      "headings": {
+        "H1": 1,
+        "H2": 77,
+        "H3": 14,
+        "H4": 35,
+        "H5": 35,
+        "H6": 0
+      },
+      "total_headings": 162,
+      "table_lines": 97,
+      "bookmarks_used": 92,
+      "bookmarks_dropped": 0,
+      "auto_detected_noise_lines": 3,
+      "residual_standalone_pagenum": 0,
+      "residual_dash_page": 0
+    }
+  },
+  "substantive_changes": [
+    "观察项分级整体改写：2020 版把单条观察项分 Critical/Major/Minor；现行版改为单条观察项在 eNSpect 只有 major(significant)/minor(not significant)，整次检查才分 critical/major/minor 且 investigators do not make this categorization，新增 Table 2 关联表与 OAI/VAI/NAI 三层",
+    "03040U 从 PCHF FOLLOW-UP INSPECTIONS 改为 FOCUSED PCHF INSPECTIONS；PART III.1.A(6) 同步改写并扩为四类触发（for-cause / compliance follow-up / 转换的 limited scope / assignments），只覆盖 subparts C、G 部分要求；州码 03S045 同改",
+    "新增 PAC 03040A（FD&C Act Inspections）与州码 03S040A，2020 版无",
+    "机构改组：CFSAN/ORA → HFP/OII；新增 HFP OCE、OCIC、DCC、CMS、Compliance Intake and Consultation Form、SOFO job aid、eNSpect Inspection Protocols、CAR 系统、trending OAI",
+    "483 回复明文化：15 business days（自检查结束日）、境外邮箱 FDA483responseinternational@fda.hhs.gov、回复影响跟进决定；首次检查须提供 FDA Firms Resources Handout，兼进口商须提供 FSVP handout",
+    "Direct Reference Authority：现行版明确 HFP 尚未对 21 CFR part 117 授予，所有 advisory actions 须 HFP OCE review and concurrence",
+    "Program Interactions 由 7303.803/7303.803A/7303.037 等重排为 17 项现行 program，明确 7303.070、7303.050(DIMS)、7303.878(FSVP)、7303.080(Produce Safety)、7304.019、7321.005 等",
+    "Follow-Up：OAI + 重大 CGMP/PCHF 不符合或显著环境病原污染 → 6 个月内国内跟进检查；OAI 重分类 VAI → 1 年内复检；NAI/VAI 按 FSMA 频率；附件 A 仍为卫生运输（21 CFR 1 Subpart O）"
+  ],
+  "additional_findings": [
+    "PART V.1 原文明确 OCIC/DCC 咨询流程 does not apply to foreign inspection case routing",
+    "PART III.1.A(2)：limited scope 不审 FSP/实施记录、不在 Subpart C/G 出书面观察项；FDA 环境取样时不得做 limited scope，须 full scope 或 focused",
+    "PART III.1.A(4) 有笔误 quality facility（应为 qualified facility），§117.5(a) 豁免判定以法规正文为准",
+    "ATTACHMENT A 内同名 1.Findings / 2.Charges / 3.Actions / 4.Follow-Up 属卫生运输规则，引用须带 ATTACHMENT A 前缀",
+    "PDF 跨行连字符转录丢失（domestic follow-up → domestic followup），按逐字引用保留并加注"
+  ],
+  "card_created": "inspection-readiness (CAP-16)",
+  "verbatim_quote_check": {
+    "quote_blocks": 20,
+    "fragments_hit": 20,
+    "fragments_miss": 0,
+    "method": "滑窗 65 字符/步长 50 覆盖整句，squash 去空白与版式符号"
+  },
+  "still_not_collected": [
+    "IOM",
+    "RPM",
+    "FMD-86",
+    "CPG 全套",
+    "其他 Compliance Programs（7303.050/7303.878/7303.080/7303.070/7304.019 等）",
+    "Import Alerts",
+    "AOAC/MPM 方法正文",
+    "Form FDA 483 数据库",
+    "Inspections Database",
+    "21 CFR part 117 citations table",
+    "SOFO job aid",
+    "eNSpect/CAR/CMS 内部系统",
+    "FDA 境外无预告检查与 RRA 政策原文"
+  ]
+}

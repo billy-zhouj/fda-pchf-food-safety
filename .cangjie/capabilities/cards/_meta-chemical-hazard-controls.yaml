@@ -1,0 +1,32 @@
+slug: chemical-hazard-controls
+title: 化学危害与食品欺诈控制
+importance: core
+importance_rationale: 化学危害归途分流+人群锚定+掺假分诊是本书区别于通用 HACCP 独立价值最高的两块之一，13 个成员单元跨 Ch2/3/11/12/15 五章支撑。
+one_liner: 化学危害按引入路径分流（设施→CGMP、原料→供应链、工艺→工艺控制），掺假签名一匹配即按欺诈处置、不看数值。
+intents:
+  - 判断重金属/农药残留/真菌毒素等化学危害该走 CGMP、供应链还是工艺控制
+  - 设计婴幼儿等易感人群产品的毒元素分层控制与检测频次
+  - 检测出异常值（疑似掺假/超标）时决定放行、降级还是断供
+  - 跟踪行动水平/进口警报等监管标准变化并同步采购规格
+  - 为有掺假史的国别或品类（香料/乳制品）做 EMA 危害判定
+  - defect 与掺假的法定分界（掺混稀释是否合法、消杀药剂存放合规）
+keywords:
+  - 化学危害
+  - 毒元素
+  - 重金属
+  - 农药残留
+  - 真菌毒素
+  - DON
+  - 黄曲霉毒素
+  - EMA
+  - 经济动机掺假
+  - Closer to Zero
+  - 工艺控制
+  - process control
+  - chemical hazard
+  - economically motivated adulteration
+  - "117.110"
+  - "117.35(b)"
+  - defect action level
+  - 掺混稀释
+member_units: [fA-25, fA-58, fA-59, fB-09, fB-10, fB-11, fB-15, pV-59, pV-60, pV-61, pV-62, pV-63, pV-64, pV-65, pV-66, nA-B-10, nA-B-11, rC-D-06]
