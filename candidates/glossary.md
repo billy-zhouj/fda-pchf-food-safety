@@ -1461,7 +1461,7 @@
   source_quote: |
     "Date of Issuance: 09/26/2024" / "IMPLEMENTATION DATE: 9/26/2024" / "Correction Date: 9/26/2025"
   summary: 用户提供的 61 页 508-Compliant PDF 首页为 **Date of Issuance 09/26/2024、IMPLEMENTATION DATE 9/26/2024、Correction Date 9/26/2025**；PDF title 亦写 `(Implementation Date 09/26/2024)`，creationDate 2025-09-29。文件名 `20250929` 是 **PDF 生成日，不是签发日**；本件是 **2024 版程序的 2025 更正本**，与 CP 7303.050（2022 签发 / 2025-09-10 更正）同属更正本形态，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal、08/29/2025 签发）。引用写「CP 7303.070（2024 签发 / 2025-09-26 更正）」，不要写成「2025 版 7303.070」。首页 PAC `03070A/B/C`（境内 AF / LACF / 无菌 LACF）、`03070F/G/J`（进口）、`71070`（动物食品）；PAF `ACD`（常规）、`MIC`（仅 C. botulinum for-cause）；Problem Codes `AFD / ACF / LAF`。
-  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十四类不可混引]
+  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十五类不可混引]
 
 - id: t136
   title: §117.5(d)(1)(2) 的 LACF 管辖分流与 AF 不豁免（CP 7303.070 官方细化）
@@ -1623,7 +1623,7 @@
   tags: [114.89, 114.83, 三条路径, part 113 热处理, competent processing authority, 偏差处置]
 
 - id: t152
-  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十四类不可混引
+  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十五类不可混引
   type: term
   source_chapter: 21 CFR Part 114 §114.3(a) 定义；21 CFR Part 113 / 114（4-1-25 Edition）FR citation；全包引用规范
   source_quote: |
@@ -1697,7 +1697,7 @@
   tags: [99-41, Red List, 99-37, 99-38, DWPE, 移除流程, v4.8]
 
 - id: t162
-  title: CP 7303.878 版本口径、CP 7303.819 状态与十四类不可混引
+  title: CP 7303.878 版本口径、CP 7303.819 状态与十五类不可混引
   type: term
   source_chapter: CP 7303.878 首页 / Change History p4 / 全包引用规范
   summary: 本件是 Transmittal 2023-CPM-CFSAN-003、Implementation Date 09/27/2023 的 2023 版程序，Date of Issuance 08/28/2025 对应 Change History 的 Corrections（仅重组后 POC 与机构名称缩写更新），不是 2025 新 program；与 7303.050（2022/2025-09-10 更正）、7303.070（2024/2025-09-26 更正）同型。CP 7303.819 是 2006 FY06/07/08 旧程序、已过 COMPLETION DATE 9/30/08 而非现行，准确说法不是「法规意义上废止」。全包自 v4.8 起十三类、**v4.9 起十四类不可混引**：四套法规正文〔§ 117/113/114/123.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook 五类参考指南层 ＋ CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878 五类检查员作业层；检查员作业指导不创设企业义务。
@@ -1792,6 +1792,103 @@
     不覆盖 §123.12。版本口径：4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规，SOURCE 为 60 FR 65197 (1995-12-18)；
     CP 7303.842 海产品检查程序与 part 120、1240、108、110 正文仍未收，一律标转引未收；
     全包口径由 v4.8 十三类升为 v4.9 十四类不可混引。
+- id: t173
+  title: should 是术语级的强制程度标记（非 required）
+  summary: >-
+    指南在开篇专门定义：Agency guidance 中出现的 should 一律表示建议或推荐，而非要求；
+    只有在明确转引法规或法条时才产生法定义务。指南正文宣称自身不设立可依法强制执行的责任，
+    控制策略与做法只是推荐，除非被法规或法令要求。判定链上必须把「§123.6 强制的 HACCP 计划与危害分析」
+    与「指南用 should 表述的表单、书面化、限值示例」分层，否则会把建议误升格为法定义务。
+  tags: [指南自定义, 效力层级, 高频误读, 判定链]
+
+- id: t174
+  title: hazard analysis 与 HACCP plan 是两个法定动作，书面化义务不对称
+  summary: >-
+    §123.6(a) 要求所有海产品加工者进行或委托进行危害分析，判定是否存在 reasonably likely to occur 的
+    食品安全危害并识别可施加的预防措施；§123.6(b) 要求危害分析显示存在此类危害时必须拥有并实施书面 HACCP 计划。
+    但指南明说：法规不要求危害分析以书面形式保存，也不要求使用附录 1 的表格；FDA 只是期望有书面危害分析，
+    理由是便于强制复审与应监管要求举证某危害为何被纳入或未纳入计划。切勿把 Part 117 的书面危害分析义务套到 Part 123。
+  tags: [法定定义, 指南自定义, 判定链, 高频误读]
+
+- id: t175
+  title: species-related hazard 与 process-related hazard 按引入地点二分
+  summary: >-
+    分类轴是危害被引入的环节而非危害种类：在厂区外、收获前中后随原料带来的称 species-related hazard
+    （查 Table 3-2 脊椎动物、Table 3-3 无脊椎动物）；在厂区环境内由加工方式带来的称 process-related hazard
+    （查 Table 3-4，由成品形态、包装类型、储运方式三者决定）。查表所得潜在物种相关危害须记入 Worksheet 第 2 栏，
+    且每一个加工步骤都要记。process-related 不是「某工序出错」，而是产品与流通设计的结果，例如真空包装带来的
+    肉毒梭菌风险。PCHF 按与设施或食品相关联识别危害，不设此二分。
+  tags: [指南自定义, 危害层级, 判定链, 易混术语]
+
+- id: t176
+  title: reasonably likely to occur 的三要素与「无控制假设态」（§123.6(a)）
+  summary: >-
+    法规定义为：一个审慎加工者会据经验、疾病数据、科学报告或其他信息，断定在缺乏那些控制措施的情况下，
+    该危害在所加工的特定鱼或渔产品中有合理发生可能性，因而会为其设立控制。三个不可拆的限定是：
+    判定主体为假想的 prudent processor、证据基础为四类信息、判定基准为 in the absence of those controls 的假设态。
+    它不是统计概率阈值，而是规范性判断；若在已有控制有效的前提下去评估，会错判为不显著并跳过整条 CCP 链。
+    Ch.3 与各章表格仅辅助判断普通情形下的显著性，且不得单独使用。
+  tags: [法定定义, 判定链, 核心概念, 高频误读]
+
+- id: t177
+  title: significant hazard 等价于 reasonably likely to occur，且不等于本步骤必须控制
+  summary: >-
+    Step 10 把第 2 栏潜在危害清单收敛为 significant hazards，作者用 in other words 直接等同于
+    reasonably likely to occur。因此 significant 与危害严重程度无关，只是「是否进入 HACCP 控制链」的二分开关，
+    输出落在第 3 栏 Yes 或 No 与第 4 栏理由。指南特别强调：某加工步骤判显著并不意味着必须在该步骤实施控制，
+    CCP 位置由 Step 11 另定。把查表得到的潜在危害直接当成必须设 CCP 的显著危害，是最常见的误读。
+  tags: [法定定义, 判定链, 核心概念, 高频误读]
+
+- id: t178
+  title: Hazard Analysis Worksheet 六栏是危害分析判定链的书面载体
+  summary: >-
+    第 1 栏加工步骤、第 2 栏潜在危害（查表所得，每一步都记）、第 3 栏是否显著、第 4 栏判定理由、
+    第 5 栏预防措施或控制策略、第 6 栏是否 CCP。Step 6 至 Step 11 全在这张表上完成：第 3 栏答 No 的步骤
+    可跳过 Steps 11 至 18，第 6 栏答 No 的步骤可跳过 Steps 12 至 18；Step 12 再把第 6 栏为 Yes 的步骤
+    搬进 HACCP Plan Form。第 4 栏理由是后续复审与监管质询的唯一举证位，呼应 FDA 对书面危害分析的期望。
+    PCHF 表单不设是否 CCP 一栏，套用会漏掉这条接口。
+  tags: [指南自定义, 判定链, 表单结构, 核心概念]
+
+- id: t179
+  title: control strategy example：同一危害多条策略，CCP 位置随之改变
+  summary: >-
+    Ch.4 至 7、9、11 至 21 每章对同一危害给出一条或多条控制策略示例，并各带 Set Critical Limits、
+    Establish Monitoring Procedures、Identify CCPs 分节。作者刻意用 example 而非 requirement：控制同一危害
+    往往不止一种方式，选哪条策略决定 CCP 落在哪个加工步骤，也决定关键限值与监控参数。
+    因此 CCP 不是危害的固有属性。误读风险是把某章示例限值当成法定限值抄进计划，
+    忽略选用其他控制策略或限值须科学论证其充分性这一要求。
+  tags: [指南自定义, 判定链, 控制策略, 高频误读]
+
+- id: t180
+  title: CCP 是加工步骤，每个显著危害至少一个（§123.6(c)(2) / §123.3(b)）
+  summary: >-
+    CCP 被定义为流程中的点，即加工步骤，而非设备或参数。每个显著危害必须至少有一个 CCP 加以控制，
+    但可多于一个 CCP；一个加工步骤也可同时是多个危害的 CCP。CCP 上的控制活动须能有效预防、消除危害，
+    或将其降低到可接受水平。判定用 Appendix 3 的 CCP 判定树。显著危害所在的步骤不等于 CCP 所在的步骤，
+    这正是 Step 11 独立存在的原因。PCHF 不用 CCP 作核心范畴，改用 process preventive control 加管理组件，
+    两套框架不可互引。
+  tags: [法定定义, 判定链, 核心概念, 易混术语]
+
+- id: t181
+  title: critical limit 须对应被监控参数，替换示例限值须科学论证
+  summary: >-
+    Step 13 定义为：为控制危害，某工艺参数必须被控制到的最大或最小值。限值须直接对应将被监控的参数，
+    例如监控水浴温度与传送带速度就把这两项写成限值，而不是写无法连续监控的产品中心温度。
+    限值过严会在并无安全问题时触发纠正措施，过松会放行不安全品；可另设更严的 operating limit 提前调整。
+    最关键的是：加工者可选用其他控制策略或关键限值，但须科学论证其充分性，且须符合适用食品安全法律法规。
+    本指南各章限值只是示例，不是 FDA 规定的固定数字。
+  tags: [指南自定义, 判定链, 控制策略, 高频误读]
+
+- id: t182
+  title: HACCP Plan Form 监控四问 What / How / Frequency / Who
+  summary: >-
+    Step 14 要求完整描述监控程序须回答四问：监控什么、如何监控、多久监控一次、由谁监控，
+    分别落入 HACCP Plan Form 第 4、5、6、7 栏；第 1 至 3 栏由 Step 12 至 13 填入 CCP 步骤、危害与关键限值。
+    监控须直接测量已设限值的参数，连续监控总是可取但非必需，频率取决于正常波动与测量值贴近限值的程度，
+    连续监控记录至少每日复核。四问中 How 与 Who 与 What 或 Frequency 同等必答，缺一即程序不完整。
+    PCHF 另要求 PCQI 监督，本指南的 Who 只指执行监控者，不可凭空加人。
+  tags: [法定定义, 判定链, 表单结构, 监控]
+
 ```
 
 ## 自检记录
@@ -1815,3 +1912,5 @@
 - [x] 第十三来源 FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，2023-09-27 版 / 2025-08-28 更正，33 页 / 20 书签）术语 t153–t162 共 10 条已并入（FSVPI 定义、FSVP 与 Part 117 Subpart G 双法源、deemed compliance 与 §1.509 例外、每一 entry line 的 UFI/DUNS、§1.501 豁免与 standard/modified 分节、FSVP 检查不取样、483a 观察分级与 NAI/VAI/OAI、§801(a)(3)/§301(zz) 与 direct reference、Import Alert 99-41 与 99-37/99-38 区分、版本口径与十三类不可混引）；原文标「CP 7303.878 PART x」，21 CFR part 1 subpart L 正文一律标『转引未收』。全库 162 条，v4.8。
 
 - [x] 第十四来源 **21 CFR Part 123**（Fish and Fishery Products，4-1-25 Edition，9 页 / 13 条款）法规正文已并入，术语 t163–t172 共 10 条（fish 与 fishery product 范围、processing 三项排除、§123.5(a) 默认适用与 §117.5(b) 双向锁定、§117.5(b) 无限缩款、augments 语义与 §123.16 例外范围、九项危害考虑清单、纠正措施三条路径与隔离扣留顺序、1 周复审与每年复审、三套记录期口径不可串用、§123.12 与 FSVP 双轨及版本口径）；引文取自 CAP-22 R 段已逐字核验的 33 个英文引用块（32 条 Part 123 + 1 条 §117.5(b)）。原文标〔§ 123.xxx〕，CP 7303.842 与 part 120/1240/108/110 一律标『转引未收』。全库 **172 条**，v4.9。
+
+- [x] 第十五来源 **FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版（June 2022，SGR 129）** 技术指南已并入，术语 t173–t182 共 10 条，围绕**完整危害分析判定链**排布：should 的效力层级 → hazard analysis 与 HACCP plan 书面化义务不对称 → species/process-related 二分 → reasonably likely to occur 与无控制假设态 → significant hazard 等价且不等于本步设 CCP → Worksheet 六栏 → control strategy example 与 CCP 漂移 → CCP 至少一个 → critical limit 与替代限值论证 → 监控四问。引文取自 CAP-23 R 段经 `.cangjie/verify_v4_10_quotes.py` 逐字核验的 **37 个英文引用块**（37/37 命中源文件正文区，0 超 100 词，0 表格引用）。原文标「Seafood Hazards Guide 第 4 版 Ch.x / L####」，法条标〔§ 123.xxx〕，两者不可混引；CP 7303.842、NSSP Guide、part 120/1240/108/110/507、Appendix 5 回指的 CPG 与 CFR 外部法源一律标『转引未收』。全库 **182 条**，v4.10，**十五类来源不可混引**。

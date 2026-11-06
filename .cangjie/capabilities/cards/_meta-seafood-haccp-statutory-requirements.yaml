@@ -32,7 +32,7 @@ intents:
   - 区分 §123.12 进口商验证与 FSVP 是两套法源两套结构，deemed compliance 不覆盖 §123.12
   - 判断水产品同时属 LACF/AF 时如何切 §123.16 例外与 Subpart A 义务
   - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规
-  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、HACCP 模型计划指南、Import Alert 全文）
+  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、Import Alert 全文）；FDA 海产品危害与控制指南自 v4.10 起已收，危害分析判定链转 CAP-23
 keywords:
   - "21 CFR part 123"
   - "Part 123"
@@ -104,7 +104,7 @@ keywords:
   - "法规正文"
   - "条件性豁免"
   - "叠加适用"
-  - "十四类不可混引"
+  - "十五类不可混引"
   - "转引未收"
 member_units: []
-source_label: 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part 117 法规正文〔§ 117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；CP 7303.842 海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance 一律「转引未收」
+source_label: 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part 117 法规正文〔§ 117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；CP 7303.842 海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 一律「转引未收」；FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23），全包十五类不可混引

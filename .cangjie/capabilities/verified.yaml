@@ -155,8 +155,21 @@ book:
       and are in compliance with, part 123` 的条件性豁免 —— 与 part 113 的 §117.5(d)(1) 同构，但 §117.5(b) 没有 §117.5(d)(2) 那样的『仅限微生物危害』限缩款，两个方向的误读都要纠正。Subpart
       B/C 是 augments subpart A 的叠加而非替代。§123.16 的 except part 113/114 只排除该条、不排整 part。§123.12 进口商验证与 FSVP 是两套法源，deemed compliance
       不覆盖 §123.12。§123.9(b)(1) 记录期为冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，与 Part 113 的 1+2 年、Part 114 的整段 3 年是三套口径。仍未收：CP 7303.842 海产品检查程序、21
-      CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance。引用用〔§
-      123.xxx〕。
+      CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide（FDA《Fish and Fishery Products Hazards and Controls Guidance》自 v4.10
+      起已收，见 CAP-23）。引用用〔§ 123.xxx〕。
+  - title: Fish and Fishery Products Hazards and Controls Guidance (4th ed., June 2022) — Seafood Hazards Guide
+    author: U.S. FDA, HHS / PHS / CFSAN / Office of Food Safety, Division of Seafood Safety
+    year: June 2022 第 4 版（SGR 129）；正文多章页脚仍为 June 2021，Appendix 3 / 5 为 A3-1 / A5-1 (June 2021)，Ch.19 书目 August 2019，属分章滚动修订
+    content_type: regulatory-guidance（Guidance for Industry，非约束性；should 仅为建议，可用替代控制策略但须科学论证其充分性）
+    source_id: src-fda-seafood-hazards-guide-2022
+    source_file: books/fda-pchf-human-food-guidance/source-seafood-hazards-guide-2022.md
+    note: 由 WorkBuddy 资料库节点 XMsRyrFL0wM1hesg8X6K9u 导出，1,709,446 字节 / 31,321 行；正文 21 章 + 12 附录 + 2 份附加法规全文转录。本件是 21 CFR Part
+      123 的配套**技术指南层**（how to 判定），与 CAP-22 的**法条义务层**配对而非合并：Ch.2 的 18 步 HACCP 计划开发流程、Ch.3 三张潜在危害表（品种相关 Table 3-2 / 3-3、工艺相关
+      Table 3-4）与 Ch.4–21 联动、Step 10 在无控制条件下按 `reasonably likely to occur` 逐步判显著性且 Yes/No 都要写第 4 栏理由、Step 11 用 Appendix 3
+      判定树定 CCP、控制策略示例的 CCP 漂移、关键限值与监控四问。⚠ 三项红线：① 表不得单独使用、指南不替代危害分析、须警觉新出现危害与物种替换；② Appendix 5 的组胺 50/500 ppm 等数值回指 CPG / 21
+      CFR 556 / 40 CFR 180 / NSSP Guide，是外部法源快照而非本指南新设限值，一律标转引未收；③ 导出件表格列头连写、词条粘连、字符丢失、页码混入、Appendix 3 的 CCP 判定树塌陷成残表，逐字引用只能取散文段落（CAP-23
+      R 段 37 块经 .cangjie/verify_v4_10_quotes.py 核验 37/37 命中）。引用用「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条用〔§
+      123.xxx〕，不可混引。仍未收：CP 7303.842、NSSP Guide、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、Import Alert 16-xx、BAM 海产品章节
 entry:
   name: fda-pchf-food-safety
   description: FDA 人类食品危害分析与基于风险的预防控制（PCHF / 21 CFR Part 117 / FSMA）技能，融合行业指南方法论与法规正文法定义务。当用户需要：做食品危害分析（六列工作表）、判定法定义务与法定豁免（条款级）、设计或验证热处理/工艺控制、设计过敏原控制与排产、环境病原（李斯特菌/沙门氏菌）与卫生控制策略、化学危害与经济掺假判定、供应商批准与验证活动选择、召回计划与报告食品义务、FDA
@@ -187,7 +200,10 @@ entry:
     §123.12 与 FSVP 双轨互不替代、三套记录期口径不可串用。另覆盖 FSVP 进口商检查（CP 7303.878，2023 版 / 2025-08-28 更正）：按 §1.500 判定 FSVPI 身份、FSVP（FD&C Act
     §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序的主体分流、deemed compliance 但不免 §1.509 每一 entry line 的 UFI/DUNS 申报、§1.501
     八类豁免与 standard / modified requirements 分节、FSVP 检查不取样与 PART IV 全空、483a 观察分级与 NAI/VAI/OAI、§801(a)(3) 拒绝入境与 §301(zz) 禁止行为、Warning
-    Letter → Import Alert 99-41 Red List 加/删名单与「未上 Red List 仍可进口」等反直觉限制。适用于食品工厂质量/合规人员、采购与供应商管理者、食品工艺研发、跨境食品贸易合规咨询，以及需要准备
+    Letter → Import Alert 99-41 Red List 加/删名单与「未上 Red List 仍可进口」等反直觉限制。另覆盖海产品危害分析与控制的完整判定链（FDA《Fish and Fishery Products
+    Hazards and Controls Guidance》第 4 版 June 2022，技术指南层）：18 步 HACCP 计划开发流程、Ch.3 品种相关与工艺相关危害三表与 Ch.4–21 联动、在**无控制条件下**按 reasonably
+    likely to occur 逐步判定显著性且 Yes/No 均须书面写理由、显著不等于本步设 CCP、Appendix 3 判定树定 CCP、control strategy example 的 CCP 位置漂移、关键限值可替代但须科学论证充分性、监控四问
+    What/How/Frequency/Who，以及组胺与寄生虫等建议参数适用边界和『指南非强制 vs Part 123 法定义务』双向分流。适用于食品工厂质量/合规人员、采购与供应商管理者、食品工艺研发、跨境食品贸易合规咨询，以及需要准备
     FDA 现场检查、取样配合、483 回应与低酸/酸化罐头产品管辖判定的团队。
   core_principles:
   - 先分层再引用：**法规正文层自 v4.9 起含四套独立编号**——21 CFR Part 117〔§ 117.xxx〕、Part 113〔§ 113.xxx〕、Part 114〔§ 114.xxx〕、Part 123〔§ 123.xxx〕，均为最终规则、具法律约束力，各管各自义务；FDA
@@ -265,8 +281,8 @@ entry:
     114.80(a)(1)〕酸化不等于免除热处理、〔§ 114.80(a)(2)〕成品 pH >4.0 须用电位法、〔§ 114.89〕三条偏差路径（含按 part 113 热处理）。**〔§ 113.100(g)〕是厂内 ≥1 年 +
     另 2 年且 (h) 允许 part 11 电子记录；〔§ 114.100(e)〕只要求加工厂或合理可及地点整段 3 年，无分段、无 part 11 条款**——两处记录口径不得串用
   - 四套法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 123.xxx〕各自独立编号，与 PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM
-    2026 Ch.5、CP 7303.070 与 CP 7303.878 合计**十四类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123）；CP 7303.070 的 4.40 / 4.65
-    / 24 罐是检查员实验室触发线，法规里是 4.6 / 0.85 / 4.0，L.mono 草案是 ≤4.4 / ≤0.92，三层数字不得互替
+    2026 Ch.5、CP 7303.070 与 CP 7303.878 合计**十五类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123、v4.10 新增第十五来源 FDA 海产品危害与控制指南）；CP
+    7303.070 的 4.40 / 4.65 / 24 罐是检查员实验室触发线，法规里是 4.6 / 0.85 / 4.0，L.mono 草案是 ≤4.4 / ≤0.92，三层数字不得互替
   - 海产品 part 123 与 Part 117 的接口是双向锁定：〔§ 123.5(a)〕明文 `Except as provided by § 117.5(b), parts 110 and 117 of this chapter apply`（默认适用），〔§
     117.5(b)〕给 `required to comply with, and are in compliance with, part 123` 的条件性豁免；但 §117.5(b) 没有 part 113〔§ 117.5(d)(2)〕那样的『仅限微生物危害』限缩款——既不得把
     part 113 口径搬来低估豁免，也不得因无限缩就推成整厂免检，边界是〔§ 123.3(k)〕的 processing 及其 (k)(2) 三项排除
@@ -282,6 +298,12 @@ entry:
   - Import Alert 99-41（FSVP 不合规进口商）与 CP 7303.070 的 99-37/99-38（LACF/AF 备案与过程控制）不是同一个 Alert：99-41 按『具体食品 + 具体境外供应商组合』或全部食品列入
     Red List，未列组合在不受其他掺假/误标 Alert 约束时仍可进口；移除须按 99-41 指示提交证据并先于再次进口。direct reference authority 仅在有限情形授予，其余案件须经 CMS 送 Center
     并取得分类一致；首次违法不默认优先执法；§1.507 disclosure 不能替代 §801(b)/§1.95 整改提案资料
+  - 海产品危害分析判定链以『无控制条件』为闸门：指南要求 The likelihood of a hazard occurring should be judged in the absence of controls——已有控制有效恰恰可能证明该危害
+    reasonably likely to occur 且控制须纳入 HACCP 计划；把『没出过事』当成『不显著』会跳过整条 CCP 链
+  - Ch.3 的 Table 3-2 / 3-3 / 3-4 只列潜在危害且明文不得单独使用，必须叠加 Ch.4–21 的 Understand the Potential Hazard 与自身/外部专家判断；Worksheet 第 3 栏
+    Yes/No **都**要在第 4 栏写理由，第 3 栏 No 可跳过 Steps 11–18、第 6 栏 No 可跳过 Steps 12–18；显著≠必须在该步控制，CCP 由 Step 11 判定树另定
+  - 第十五来源 FDA 海产品危害与控制指南是**非约束性技术指南层**：should 仅为建议、可另选控制策略与关键限值但须科学论证充分性；Appendix 5 的 50/500 ppm 等数值回指 CPG / CFR / NSSP 外部法源（转引未收），不是新设法定限值；它与
+    CAP-22 的 Part 123 `shall` 法定义务配对，既不得把指南当法规，也不得因指南非强制把法条义务稀释成可选
   out_of_scope:
   - USDA FSIS 独家管辖的肉、禽与加工蛋制品的独立合规（作为配料时的危害分析除外）
   - 果汁 HACCP（21 CFR part 120）的专项要求正文、海产品检查程序 CP 7303.842 正文与 NSSP Guide（海产品企业义务已由 CAP-22 覆盖〔§ 123.xxx〕正文，但检查员侧取证口径与贝类州际销售许可仍属未收）
@@ -304,8 +326,8 @@ entry:
     7303.040 PART x」（附件须带 ATTACHMENT A 前缀）标注，CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」标注（其 ATTACHMENT
     A Part V 与主文 PART V 同名但不同口径），IOM 用「IOM 5.x.x / IOM Exhibit 5-x」标注，CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」标注，CP
     7303.878 用「CP 7303.878 PART x」标注；21 CFR part 1 subpart L / 108 / 110 / 120（part 123 自 v4.9 起已收）、IOM Chapter 4、BAM、CPG、Import
-    Alert 等未收正文一律标「转引未收」；**十四类不可混引**，且 §114.5 并列 `parts 110 and 117` 不得改写或判为笔误
-  - 用户任务超出 22 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套；LACF/AF 的法规条文级义务先转 CAP-20，检查员侧取证转 CAP-19
+    Alert 等未收正文一律标「转引未收」；**十五类不可混引**，且 §114.5 并列 `parts 110 and 117` 不得改写或判为笔误
+  - 用户任务超出 23 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套；LACF/AF 的法规条文级义务先转 CAP-20，检查员侧取证转 CAP-19
   - 李斯特菌专项指南的附录 4/5/6（例行清洁消毒时间表、环境采样制备方法、纠正措施表）正文未纳入本次蒸馏，涉及具体表格模板时须回原始 PDF 取，不要编造
   - cGMP 内审结论不得只凭 SECG 白话转述签发：Handbook、CPGM 7303.040、CP 7303.050、CP 7303.070 与 IOM Chapter 5 正文虽已收（CAP-15 / CAP-16 / CAP-17
     / CAP-19 / CAP-18），但依次给的是缺陷行动水平阈值出处、检查类型与分级口径、检查员抽样量与阳性升级路径、LACF/AF 管辖分流与专门体系取证口径、调查员权限与证据规则，都不是实验室方法或企业内控标准。仍未收：IOM Chapter
@@ -339,8 +361,8 @@ entry:
     Subparts C/G——边界是受 part 123 管辖的 activities，〔§ 123.3(k)(2)〕三项排除（纯捕捞或运输、船上暂存处理、零售）不在内，且豁免不含 Part 117 Subpart B 的 CGMP；③
     禁止把〔§ 123.16〕的 `except those subject to part 113 or 114` 读成『属 LACF/AF 就免 part 123』——排除的只是该条，Subpart A 全套仍适用
   - Part 123 记录期不得写成统一 3 年：〔§ 123.9(b)(1)〕按产品类型分冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，(b)(2) 适宜性记录 2 年且起算点是其对产品的适用性；与〔§ 113.100(g)〕的 1+2
-    分段、〔§ 114.100(e)〕的整段 3 年是三套口径。另 CP 7303.842 海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA Fish and
-    Fishery Products Hazards and Controls Guidance 均未收，凡涉检查员取证量、贝类生长区分类、组胺与河豚毒素限值一律标『转引未收』，不得从 Part 123 反推
+    分段、〔§ 114.100(e)〕的整段 3 年是三套口径。另 CP 7303.842 海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 仍未收，凡涉检查员取证量、贝类生长区分类一律标『转引未收』；FDA
+    海产品危害与控制指南自 v4.10 起已收（见 CAP-23），其建议参数与限值回指的外部法源仍须标『转引未收』，不得从 Part 123 反推
   - LACF/AF 记录保存口径不得串用：〔§ 113.100(g)〕是厂内 ≥1 年 + 加工厂或其他合理可及地点再 2 年（合计 3 年，季节包停产可提前转移），〔§ 113.100(h)〕另许符合 part 11 的电子记录；〔§ 114.100(e)〕只有「加工厂或其他合理可及地点自生产日起
     3 年」一句，**没有分段、没有 (h) 款、没有 part 11 电子记录条款**（Part 114 全文无 electronic / part 11 字样）。回答「两 part 记录怎么存」必须分列，不得合并成一条
   - 涉及 21 CFR part 110 时不得沿用 v4.3 的旧结论：Part 110 未被删除（FDA 2018-09-12 FR Doc. 2018-19855 撤回 amendatory instruction 13），至今有效但正文本包未收，须标「转引未收」；手册那句是
@@ -350,6 +372,12 @@ entry:
     而非现行，准确说法不是「法规意义上废止」。FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance Q&A、IP guidance tabs 一律标「转引未收」
   - 回答 FSVP 问题时不得把 CP 7303.878 的 483a 观察分级、NAI/VAI/OAI、WL / Import Alert 99-41 建议流程写成企业法定义务或必然法律后果；不得把 §117.5(d)（part 113
     活动的 Subparts C/G 豁免）套到 FSVP 轨道；不得把 Import Alert 99-41 与 99-37 / 99-38 混引
+  - Seafood Hazards Guide 第 4 版的引用须写「Ch.x / Appendix x / L####」，不得写成〔§ 123.xxx〕；法条义务一律回 CAP-22。导出件表格列头连写、词条粘连、`fsh`/`Pufer`
+    字符丢失、页码混入单元格、Appendix 3 的 CCP 判定树塌陷成残表——**逐字引用只能取散文段落**，判定树仅可复原逻辑，须回查 PDF 原版。封面 June 2022 但多章页脚 June 2021 属分章滚动修订，不得写成
+    2022 新规
+  - 回答海产品危害分析问题时不得把 Ch.3 勾选表、控制策略示例的关键限值、Appendix 5 的 50/500 ppm 或寄生虫冻结三条件写成法定限值或合规清单；也不得因指南非强制就免除〔§ 123.6〕的危害分析与书面 HACCP
+    计划义务。CP 7303.842、NSSP Guide、21 CFR part 120 / 1240 / 108 / 110 / 507、Import Alert 16-xx、BAM 海产品章节、CPG Sec. 540.525 / 555.300
+    / 575.100 与 Appendix 5 回指的外部法源一律标「转引未收」；全包自 v4.10 起**十五类不可混引**，当前为 23 张能力卡
 router_entry:
   name: fda-pchf-food-safety
   description: 同 single 入口（本 bundle 采用 single 输出，无独立晋级 Skill）。
@@ -393,6 +421,7 @@ capabilities:
   - process-control-validation
   - reference-tools-discipline
   - seafood-haccp-statutory-requirements
+  - seafood-hazards-controls-guide
   card: cards/hazard-analysis-method.md
   frontmatter:
     description: 危害分析方法——用六列工作表把危害从识别到控制落点做成可辩护的书面推演——"No"与"Yes"同等重要，发现点不等于控制点（来源：FDA PCHF 指南；成员单元 24 个）
@@ -523,6 +552,7 @@ capabilities:
   - cgmp-compliance-guide
   - lacf-inspection-program
   - lacf-statutory-requirements
+  - seafood-hazards-controls-guide
   card: cards/process-control-validation.md
   frontmatter:
     description: 工艺控制与热处理验证——目标菌由"包装氧环境×储运温度×最耐热"推出，削减倍数查表再用 D/z 换算，文献层+厂内热分布/热穿透取交集才是关键限值（来源：FDA PCHF 指南；成员单元 27 个）
@@ -648,6 +678,7 @@ capabilities:
   - environmental-pathogen-sanitation
   - supply-chain-verification
   - hazard-analysis-method
+  - seafood-hazards-controls-guide
   card: cards/allergen-program.md
   frontmatter:
     description: 食品过敏原程序——过敏原按"CGMP 基线→排产/清洁+标签双控制→供应链三选一"三层搭建——清洁等级由相邻产品过敏原谱包含关系决定，may contain 声明只能是被证明的控制极限之出口（来源：FDA PCHF
@@ -715,6 +746,7 @@ capabilities:
   - cgmp-compliance-guide
   - defect-action-levels
   - seafood-haccp-statutory-requirements
+  - seafood-hazards-controls-guide
   card: cards/chemical-hazard-controls.md
   frontmatter:
     description: 化学危害与食品欺诈控制——化学危害按引入路径分流（设施→CGMP、原料→供应链、工艺→工艺控制），掺假签名一匹配即按欺诈处置、不看数值。（来源：FDA PCHF 指南；成员单元 18 个）
@@ -908,6 +940,7 @@ capabilities:
   - lacf-statutory-requirements
   - fsvp-inspection-program
   - seafood-haccp-statutory-requirements
+  - seafood-hazards-controls-guide
   card: cards/regulatory-boundaries.md
   frontmatter:
     description: 双法规与豁免边界——法规适用性按"对象×危害类别"矩阵逐格判定，两套法规取义务并集（借用不免责）；极强致死工艺可作 No 的科学依据。（来源：FDA PCHF 指南；成员单元 4 个）
@@ -972,6 +1005,7 @@ capabilities:
   - defect-action-levels
   - inspection-readiness
   - investigator-authority-procedure
+  - seafood-hazards-controls-guide
   card: cards/reference-tools-discipline.md
   frontmatter:
     description: 权威参考表与数据使用纪律——参考表是先验起点不是答案——X 标记过三问检验，数值禁线性内插取更严档，模型输出须自身验证后才可当关键限值。（来源：FDA PCHF 指南；成员单元 11 个）
@@ -1566,6 +1600,7 @@ capabilities:
   - management-components
   - lacf-inspection-program
   - seafood-haccp-statutory-requirements
+  - seafood-hazards-controls-guide
   card: cards/inspection-sampling.md
   frontmatter:
     description: FDA 现场取样、样品量与阳性结果应对——先判这是 7303.040 检查中的哪一类 7303.050 抽样，再按 Table 2/3 与 ATTACHMENT A 看取证量——产品样按 subs、环境拭子 Listeria
@@ -2055,7 +2090,7 @@ capabilities:
   - 电位法
   - 偏差处置
   - 三套数字
-  - 十四类不可混引
+  - 十五类不可混引
   - 转引未收
   also_read:
   - lacf-inspection-program
@@ -2252,7 +2287,7 @@ capabilities:
   - 供应链程序分流
   - 拒绝入境
   - 扣留无需物理检验
-  - 十四类不可混引
+  - 十五类不可混引
   - 转引未收
   also_read:
   - supply-chain-verification
@@ -2339,7 +2374,7 @@ capabilities:
   - 区分 §123.12 进口商验证与 FSVP 是两套法源两套结构，deemed compliance 不覆盖 §123.12
   - 判断水产品同时属 LACF/AF 时如何切 §123.16 例外与 Subpart A 义务
   - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规
-  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、HACCP 模型计划指南、Import Alert 全文）
+  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、Import Alert 全文）；FDA 海产品危害与控制指南自 v4.10 起已收，危害分析判定链转 CAP-23
   keywords:
   - 21 CFR part 123
   - Part 123
@@ -2411,7 +2446,7 @@ capabilities:
   - 法规正文
   - 条件性豁免
   - 叠加适用
-  - 十四类不可混引
+  - 十五类不可混引
   - 转引未收
   also_read:
   - lacf-statutory-requirements
@@ -2423,14 +2458,15 @@ capabilities:
   - cgmp-compliance-guide
   - inspection-readiness
   - inspection-sampling
+  - seafood-hazards-controls-guide
   card: cards/seafood-haccp-statutory-requirements.md
   frontmatter:
     description: 海产品 HACCP 的法定要求（21 CFR Part 123 法规正文）与 Part 117 条件性豁免接口——先按〔§ 123.3(d)(e)(k)〕定 fish / fishery product 与 processing
       范围，再按〔§ 123.5(a)〕默认适用 + 〔§ 117.5(b)〕双条件豁免切出义务并集；Subpart B/C 是 augments 叠加；§123.16 的例外只排一条不排整 part；§123.12 与 FSVP 是双轨互不替代；记录期是
       1 年 / 2 年而非统一 3 年；CP 7303.842 与 part 120/1240/NSSP 正文仍未收。（来源：21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py
       重排）+ 21 CFR Part 117 法规正文〔§ 117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；CP 7303.842
-      海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance
-      一律「转引未收」；来源定位见卡片 R 段）
+      海产品检查程序、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 一律「转引未收」；FDA《Fish and Fishery Products Hazards and Controls
+      Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23），全包十五类不可混引；来源定位见卡片 R 段）
     tags:
     - 21 CFR part 123
     - Part 123
@@ -2442,7 +2478,227 @@ capabilities:
   - source_id: src-main-book
     location: 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part 117 法规正文〔§
       117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；CP 7303.842 海产品检查程序、21 CFR part
-      120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance 一律「转引未收」
+      120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 一律「转引未收」；FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4
+      版自 v4.10 起已收（第十五来源，见 CAP-23），全包十五类不可混引
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-23
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: seafood-hazards-controls-guide
+  title: 海产品危害分析与控制的完整判定链（FDA 第 4 版技术指南层，与 21 CFR Part 123 法条层配对）
+  importance: extended
+  importance_rationale: 本卡是第 15 类来源的入口型方法判定能力：把「具体鱼种 + 具体加工包装储运方式」映射到 Ch.3 三表、Ch.4–21 四段式、无控制条件下 reasonably likely to occur
+    显著性判定、六栏 Hazard Analysis Worksheet、Step 11 CCP 判定树、关键限值与监控四问、到 HACCP Plan Form 签名的端到端完整危害分析判定链，是用户问「怎么判、怎么填表、怎么定 CCP」时唯一承接卡。
+    它与 CAP-22 seafood-haccp-statutory-requirements 的 21 CFR Part 123 法条义务层构成 指南层与法条层配对而非合并，并与 hazard-analysis-method、chemical-hazard-controls、
+    process-control-validation、allergen-program、inspection-sampling、inspection-readiness 多卡交叉分流。它同时纠正两类最高频误读：① 把指南当法规、把 should
+    读成 shall、把 控制策略示例与 Appendix 5 数值当合规清单；② 因指南非强制把 Part 123 的 shall 义务 稀释成可选。且须守住 Ch.3 表不可单独用、显著性须在无控制条件下判定、显著不等于该步 控制、CCP
+    随控制策略漂移、替代关键限值须科学论证、Appendix 5 数值外部法源回指转引 未收、June 2022 封面与多章 June 2021 页脚的分章滚动修订口径、导出件表格与判定树 残表不可逐字引用等边界，故定 extended。
+  one_liner: 按「产品描述与流程图 → Ch.3 三表识别品种相关与工艺相关潜在危害 → Ch.4–21 理解危害 → 在无控制条件下逐步判 reasonably likely to occur → Column 3/4 的 Yes/No
+    都写理由 → Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」 走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十五类来源不可混引，Appendix
+    5 数值一律标转引未收。
+  intents:
+  - 复述从产品描述到 HACCP 计划签名的 18 步完整危害分析判定链
+  - 按 STEP 1 至 5 填写产品描述、分销储存、预期用途与消费者并绘制流程图
+  - 用 Table 3-2 与 Table 3-3 识别品种相关潜在危害并区分脊椎与无脊椎物种
+  - 用 Table 3-4 按成品形态、包装类型与储运方式识别工艺相关潜在危害
+  - 处理同一产品同时命中 Table 3-4 多个成品类别时的危害并集登记
+  - 判断 Ch.3 三张表能否单独用于 reasonably likely to occur 判定并给出正确用法
+  - 用自身或外部专家补出表外、区域特有、厂房特有与新出现危害
+  - 以 Column 2 潜在危害为检索键查阅 Ch.4–21 四段式章节
+  - 在无控制条件下按审慎加工者标准判定 reasonably likely to occur
+  - 区分 scombrotoxin 未观察到的两种归因并给出相反判定结论
+  - 按每个加工步骤独立评估显著性并套用引入、增长、可降低三情形
+  - 把分销储存方式、预期用途与消费者、跨步骤累积滥用纳入显著性判定
+  - 填写 Hazard Analysis Worksheet 六栏并在 Yes 与 No 时都写出 Column 4 理由
+  - 应用 Column 3 为 No 与 Column 6 为 No 的两道剪枝闸门
+  - 区分显著危害判定与 CCP 定位两个不同步骤
+  - 用 Appendix 3 CCP 判定树逻辑复原定位控制点并说明不可完全依赖
+  - 解释同一危害不同控制策略示例导致 CCP 位置漂移的原因
+  - 确认每个显著危害至少一个 CCP 并把条款级判定转 CAP-22
+  - 为关键限值界定最大最小值并使其对应将被监控的参数
+  - 判断控制策略示例或 Appendix 5 数值能否直接用作关键限值
+  - 论证替代关键限值或替代控制策略时的科学充分性要求
+  - 按 What、How、Frequency、Who 四问填写 HACCP Plan Form 监控四栏
+  - 列出纠正措施、记录系统与验证程序并对应 Plan Form 第 8 至 10 栏
+  - 完成 STEP 18 签名与日期并做两表逐行反向追溯
+  - 给每条输出标注法定层、指南建议层或外部法源转引未收层标签
+  - 纠正把指南当法规、把 should 读成 shall 的误读
+  - 纠正因指南非强制而把 Part 123 法定义务稀释成可选的反向误读
+  - 分流法定义务、法定时限与条款级判定至 CAP-22 与〔§ 123.xxx〕
+  - 分流 PCHF 危害分析至 hazard-analysis-method 并说明两套判定体系不可互套
+  - 分流组胺与化学危害限值至 chemical-hazard-controls、取样至 inspection-sampling
+  - 分流工艺验证与科学论证方法至 process-control-validation、过敏原程序至 allergen-program
+  - 回答寄生虫冻结三条件、6 英寸例外与盐渍醋渍不杀虫的参数边界
+  - 区分组胺 50 ppm 分解指示与 500 ppm 毒性水平并说明分解即掺假
+  - 说明 Appendix 5 数值的外部法源回指与转引未收标注
+  - 解释 June 2022 封面与多章 June 2021 页脚的分章滚动修订版本口径
+  - 标识导出件表格、页眉页脚与 Appendix 3 残表为不可逐字引用区
+  - 说明主体范围不含消费者零售、不含 retorting、市场名称归 Seafood List
+  - 拒绝代写 HACCP 计划、不判法定身份与不出合规结论
+  keywords:
+  - reasonably likely to occur
+  - in the absence of controls
+  - prudent processor
+  - significant hazard
+  - species-related hazard
+  - process-related hazard
+  - Table 3-1
+  - Table 3-2
+  - Table 3-3
+  - Table 3-4
+  - species substitution
+  - Hazard Analysis Worksheet
+  - HACCP Plan Form
+  - Column 1
+  - Column 2
+  - Column 3
+  - Column 4
+  - Column 5
+  - Column 6
+  - 18 steps
+  - STEP 10
+  - STEP 11
+  - STEP 13
+  - STEP 14
+  - flow diagram
+  - Figure A-1
+  - CCP decision tree
+  - Figure A-2
+  - critical control point
+  - CCP
+  - control strategy example
+  - critical limit
+  - operating limit
+  - monitoring
+  - What How Frequency Who
+  - corrective action
+  - recordkeeping
+  - verification
+  - reassessment
+  - hazard analysis
+  - HACCP plan
+  - should
+  - shall
+  - recommendations
+  - scientifically establish their adequacy
+  - histamine
+  - scombrotoxin
+  - scombrotoxin poisoning
+  - 50 ppm
+  - 500 ppm
+  - decomposed
+  - guidance level
+  - parasites
+  - freezing
+  - -20°C
+  - -35°C
+  - 7 days
+  - 15 hours
+  - 24 hours
+  - 6 inches
+  - ambient temperature
+  - brining
+  - pickling
+  - ceviche
+  - aquaculture drugs
+  - water phase salt
+  - Clostridium botulinum
+  - cold-smoked fish
+  - natural toxins
+  - ciguatera
+  - allergen
+  - sulfiting agents
+  - Appendix 1
+  - Appendix 2
+  - Appendix 3
+  - Appendix 4
+  - Appendix 5
+  - fish and fishery products
+  - processor
+  - FDA
+  - 21 CFR Part 123
+  - Seafood List
+  - retorting
+  - LACF
+  - NSSP Guide
+  - CPG Sec. 540.525
+  - 40 CFR 180
+  - Import Tolerance
+  - FD&C Act
+  - Ch.3
+  - Ch.4–21
+  - Ch.5
+  - Ch.7
+  - Ch.13
+  - Ch.19
+  - intended use and consumer
+  - cumulative effect
+  - potential hazard
+  - Yes No
+  - 十五类不可混引
+  - 转引未收
+  - 指南建议层
+  - 法条义务层
+  - 非约束性
+  - 第 4 版 June 2022
+  - June 2021
+  - 分章滚动修订
+  - 导出件转换质量
+  - 判定树塌陷
+  - 危害分析判定链
+  - CAP-22
+  - CAP-23
+  - 完整危害分析判定链
+  - 六栏工作表
+  - 外部法源回指
+  also_read:
+  - seafood-haccp-statutory-requirements
+  - hazard-analysis-method
+  - chemical-hazard-controls
+  - process-control-validation
+  - allergen-program
+  - regulatory-boundaries
+  - inspection-sampling
+  - cgmp-compliance-guide
+  - reference-tools-discipline
+  card: cards/seafood-hazards-controls-guide.md
+  frontmatter:
+    description: 海产品危害分析与控制的完整判定链（FDA 第 4 版技术指南层，与 21 CFR Part 123 法条层配对）——按「产品描述与流程图 → Ch.3 三表识别品种相关与工艺相关潜在危害 → Ch.4–21 理解危害
+      → 在无控制条件下逐步判 reasonably likely to occur → Column 3/4 的 Yes/No 都写理由 → Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」
+      走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十五类来源不可混引，Appendix 5 数值一律标转引未收。（来源：第 15 类来源：FDA《Fish and Fishery
+      Products Hazards and Controls Guidance》 第 4 版 June 2022（SGR 129，U.S. FDA / HHS / PHS / CFSAN / Office of Food Safety,
+      Division of Seafood Safety），本地文件 source-seafood-hazards-guide-2022.md， 导出全文 1,709,446 字节 / 约 31,321 行。属非约束性 Guidance
+      for Industry： should 只表示建议或推荐、不设可依法强制执行的责任，可另选控制策略与关键限值但须 科学论证其充分性，Ch.3 三表不得单独使用、指南不替代加工者自行实施的危害分析。 它是 21 CFR Part 123
+      与 Part 1240 的配套技术指南层，与 CAP-22 的 21 CFR Part 123 法条义务层配对而非合并。仍未收清单：CP 7303.842 海产品检查程序、NSSP Guide、 21 CFR part 120 /
+      1240 / 108 / 110 / 507 正文、Import Alert 16-xx 系列、 BAM 海产品章节，以及 Appendix 5 回指的 CPG Sec. 540.525 / 555.300 / 575.100、 21
+      CFR 556 系列、40 CFR 180 系列、Import Tolerance 等外部法源 —— 一律标转引未收。；来源定位见卡片 R 段）
+    tags:
+    - reasonably likely to occur
+    - in the absence of controls
+    - prudent processor
+    - significant hazard
+    - species-related hazard
+    - process-related hazard
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 15 类来源：FDA《Fish and Fishery Products Hazards and Controls Guidance》 第 4 版 June 2022（SGR 129，U.S. FDA / HHS
+      / PHS / CFSAN / Office of Food Safety, Division of Seafood Safety），本地文件 source-seafood-hazards-guide-2022.md， 导出全文 1,709,446
+      字节 / 约 31,321 行。属非约束性 Guidance for Industry： should 只表示建议或推荐、不设可依法强制执行的责任，可另选控制策略与关键限值但须 科学论证其充分性，Ch.3 三表不得单独使用、指南不替代加工者自行实施的危害分析。
+      它是 21 CFR Part 123 与 Part 1240 的配套技术指南层，与 CAP-22 的 21 CFR Part 123 法条义务层配对而非合并。仍未收清单：CP 7303.842 海产品检查程序、NSSP Guide、
+      21 CFR part 120 / 1240 / 108 / 110 / 507 正文、Import Alert 16-xx 系列、 BAM 海产品章节，以及 Appendix 5 回指的 CPG Sec. 540.525 / 555.300
+      / 575.100、 21 CFR 556 系列、40 CFR 180 系列、Import Tolerance 等外部法源 —— 一律标转引未收。
   promotion:
     destination: router
     gate:

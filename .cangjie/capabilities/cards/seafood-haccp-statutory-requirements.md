@@ -2,7 +2,7 @@
 
 *来源分层：本卡取用**四套法规正文**，均具法律约束力。① **21 CFR Part 123**〔§ 123.xxx〕（Fish and Fishery Products，4-1-25 Edition，9 页 / 13 条款）；② **21 CFR Part 117**〔§ 117.xxx〕（CGMP & PCHF，本包主来源，本卡用其〔§ 117.5(b)〕豁免条款）；③ **21 CFR Part 113**〔§ 113.xxx〕（LACF，本卡只用其与 §123.16 的交叉）；④ **21 CFR Part 114**〔§ 114.xxx〕（酸化食品，同上）。四者是**并行法条**，接口是〔§ 123.5(a)〕`Except as provided by § 117.5(b)` 与〔§ 117.5(b)〕的**条件性豁免**。*
 
-*⚠ **本卡使全包效力分层再扩一层**：「法规正文层」现含 Part 117 / 113 / 114 / 123 **四套独立编号**。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」。与 CP 7303.842（海产品检查程序，**正文本包未收**）、CP 7303.070、CP 7303.050、IOM 2026 Ch.5、PCHF 指南、SECG、Ed.5、Handbook、L.mono、CPGM 7303.040、CP 7303.878 合计 **十四类不可混引**。*
+*⚠ **本卡使全包效力分层再扩一层**：「法规正文层」现含 Part 117 / 113 / 114 / 123 **四套独立编号**。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」。与 CP 7303.842（海产品检查程序，**正文本包未收**）、CP 7303.070、CP 7303.050、IOM 2026 Ch.5、PCHF 指南、SECG、Ed.5、Handbook、L.mono、CPGM 7303.040、CP 7303.878 与第十五来源 FDA 海产品危害与控制指南合计 **十五类不可混引**。*
 
 *⚠ **正文本包仍未收**：21 CFR **part 120**（果汁 HACCP）、**part 1240**（贝类卫生，§123.28(d) 回指 `§ 1240.60(c)`）、**part 108 / 110**、**NSSP Guide**、**CP 7303.842**。一律标「转引未收」，不得从 Part 123 反推。*
 
@@ -194,6 +194,7 @@
 23. 用户问「贝类生长区分类 / NSSP / 州际销售许可怎么弄」→ 正文与 NSSP Guide 未收，明确转出，不给条款级结论。
 24. 用户问「海关扣货说掺假拒入境，怎么申诉」→ 〔§ 123.12(d)〕给法律后果，但申诉与 §801 程序超出本卡，转 `regulatory-boundaries` / FSVP 相关卡。
 25. 用户要「代写 HACCP 计划或出法定身份结论」→ 超出本包，转出（B8）。
+26. 用户问「某个鱼种该考虑哪些危害 / 怎么判显著 / CCP 设在哪 / 关键限值怎么定」→ 转 CAP-23 `seafood-hazards-controls-guide`（指南层判定链）；本卡只回答 Part 123 的**法条义务**，不代替危害分析判定。
 
 ## E — 执行要点
 
@@ -224,7 +225,7 @@
 
 **Step 6 — 数字与期限分层标注。** 法定层：1 年 / 2 年（〔§ 123.9(b)(1)〕）、1 周复审（〔§ 123.8(a)(3)(i)(ii)〕）、至少每年复审（〔§ 123.8(a)(1)〕）、9 项危害清单。检查员层：CP 7303.842 的取样与判定（**正文本包未收，不得引用其数值**）。建议层：HACCP 模型计划、NSSP Guide。任何输出必须带层标签。
 
-**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者标未收）；涉及 part 120 / 1240 / 108 / 110 / NSSP / BAM / CPG / Import Alert 全文一律标「转引未收」。**十四类不可混引。**
+**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者标未收）；涉及 part 120 / 1240 / 108 / 110 / NSSP / BAM / CPG / Import Alert 全文一律标「转引未收」。指南层的危害分析判定链转 CAP-23 `seafood-hazards-controls-guide`，引用写「Seafood Hazards Guide 第 4 版 Ch.x / L####」，不得改写成条款号。**十五类不可混引。**
 
 ## B — 边界
 
@@ -246,8 +247,8 @@
 
 **B9 — 版本与转换口径。** `4–1–25 Edition` 是 CFR 年度编纂版次（修订至 2025-04-01），**不是 2025 新规**；SOURCE `60 FR 65197, Dec. 18, 1995, unless otherwise noted`；§123.5 / §123.11 的 `[60 FR 65197 ... as amended at 80 FR 56167, Sept. 17, 2015]` 是 PCHF conforming amendment。本件由 `.cangjie/convert_cfr_part.py` 双栏重排，保留印刷断词连字符（`proc- essing` / `im- ported`），逐字引证按 NFKC 归一化核对，**检索以 § 编号为准**。
 
-**B10 — 引用规范（全包统一，十四类不可混引）。** 〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 123.xxx〕四套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x」；CP 7303.070 用「CP 7303.070 PART x」；CP 7303.878 用「CP 7303.878 PART x」；IOM 用「IOM 5.x.x / Exhibit 5-x」。**part 120 / 1240 / 108 / 110 / 507 与 CP 7303.842、NSSP Guide 一律标「转引未收」。**
+**B10 — 引用规范（全包统一，十五类不可混引；v4.9 时为十四类）。** 〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 123.xxx〕四套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x」；CP 7303.070 用「CP 7303.070 PART x」；CP 7303.878 用「CP 7303.878 PART x」；IOM 用「IOM 5.x.x / Exhibit 5-x」。**part 120 / 1240 / 108 / 110 / 507 与 CP 7303.842、NSSP Guide 一律标「转引未收」。**
 
 **B11 — 与其他卡的分工。** 本卡＝水产品法条义务层。问「LACF/AF 法条」→ CAP-20 `lacf-statutory-requirements`；问「LACF/AF 检查」→ CAP-19 `lacf-inspection-program`；问「FSVP 进口商检查」→ CAP-21 `fsvp-inspection-program`；问「Part 117 供应链程序」→ CAP-07 `supply-chain-verification`；问「危害分析怎么做」→ CAP-05 `hazard-analysis-method`；问「组胺/化学危害限值」→ `chemical-hazard-controls`；问「取样」→ CAP-17 `inspection-sampling`；问「483 措辞与权限」→ CAP-18 `investigator-authority-procedure`；问「产品边界与豁免」→ CAP-03 `regulatory-boundaries`。
 
-**B12 — 本卡不覆盖的内容。** 21 CFR part 120 / 1240 / 108 / 110 / 507 正文、CP 7303.842 正文、NSSP Guide 全文、BAM 海产品章节、组胺/河豚毒素/雪卡毒素的具体限值与检测方法、HACCP 模型计划（FDA Fish and Fishery Products Hazards and Controls Guidance 4th ed.）、感官检验与分解判定细则、Import Alert 16-xx 系列全文、以及 HACCP 计划的具体撰写 —— 均须另行复核或由〔§ 123.10〕合格者 / 具备资质第三方判断。
+**B12 — 本卡不覆盖的内容。** 21 CFR part 120 / 1240 / 108 / 110 / 507 正文、CP 7303.842 正文、NSSP Guide 全文、BAM 海产品章节、组胺/河豚毒素/雪卡毒素的具体限值与检测方法、危害分析判定链与 HACCP 计划表单方法（FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收，见 CAP-23 `seafood-hazards-controls-guide`）、感官检验与分解判定细则、Import Alert 16-xx 系列全文、以及 HACCP 计划的具体撰写 —— 均须另行复核或由〔§ 123.10〕合格者 / 具备资质第三方判断。

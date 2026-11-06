@@ -1,0 +1,298 @@
+{
+  "version": "v4.10",
+  "generated_at": "2026-11-06T20:10:43+08:00",
+  "files_touched": 12,
+  "actions": 42,
+  "quote_verification": {
+    "tool": ".cangjie/verify_v4_10_quotes.py",
+    "quotes": 37,
+    "verbatim_hits": 37,
+    "over_100_words": 0,
+    "table_quotes": 0,
+    "body_only": true
+  },
+  "audit": [
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "BASE 相对化",
+      "old": "BASE = Path(\"E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance\")",
+      "new": "BASE = Path(__file__).resolve().parents[1]  # v4.10：改为脚本相对推导，原硬编码原开发机路径在本机不可用"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "docstring 卡数 22→23",
+      "old": "\"\"\"assemble_bundle.py — 从 22 张 _meta-*.yaml 汇总构造 Capability Bundle（verified.yaml + destinations.json",
+      "new": "\"\"\"assemble_bundle.py — 从 23 张 _meta-*.yaml 汇总构造 Capability Bundle（verified.yaml + destinations.json"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "SLUGS 追加 CAP-23",
+      "old": "         \"seafood-haccp-statutory-requirements\"]",
+      "new": "         \"seafood-haccp-statutory-requirements\",\n         \"seafood-hazards-controls-guide\"]"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "insert",
+      "label": "ALSO_READ 双向链"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "insert",
+      "label": "additional_sources 第十五来源"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "insert",
+      "label": "entry.description 追加 CAP-23 段"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "insert",
+      "label": "core_principles +3（42→45）"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "insert",
+      "label": "stop_conditions +2（18→20）"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "core_principles 来源阶梯",
+      "old": "合计**十四类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123）",
+      "new": "合计**十五类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123、v4.10 新增第十五来源 FDA 海产品危害与控制指南）"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "stop_conditions 引用规范",
+      "old": "**十四类不可混引**，且 §114.5 并列",
+      "new": "**十五类不可混引**，且 §114.5 并列"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "stop_conditions 卡数",
+      "old": "用户任务超出 22 张能力卡路由范围时",
+      "new": "用户任务超出 23 张能力卡路由范围时"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "Part 123 来源 note 移除未收",
+      "old": "NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance。引用用〔§ 123.xxx〕。",
+      "new": "NSSP Guide（FDA《Fish and Fishery Products Hazards and Controls Guidance》自 v4.10 起已收，见 CAP-23）。引用用〔§ 1"
+    },
+    {
+      "file": ".cangjie/assemble_bundle.py",
+      "action": "exact_replace",
+      "label": "stop_conditions 移除指南未收",
+      "old": "NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance 均未收，凡涉检查员取证量、贝类生长区分类、组胺与河豚毒素限",
+      "new": "NSSP Guide 仍未收，凡涉检查员取证量、贝类生长区分类一律标『转引未收』；FDA 海产品危害与控制指南自 v4.10 起已收（见 CAP-23），其建议参数与限值回指的外部法源仍须标『转引未收"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "action": "exact_replace",
+      "label": "CAP-22 开头口径",
+      "old": "、CP 7303.878 合计 **十四类不可混引**。*",
+      "new": "、CP 7303.878 与第十五来源 FDA 海产品危害与控制指南合计 **十五类不可混引**。*"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "action": "exact_replace",
+      "label": "CAP-22 E 段收尾声明",
+      "old": "**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者标未收）；",
+      "new": "**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者标未收）；"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "action": "exact_replace",
+      "label": "CAP-22 B10",
+      "old": "**B10 — 引用规范（全包统一，十四类不可混引）。**",
+      "new": "**B10 — 引用规范（全包统一，十五类不可混引；v4.9 时为十四类）。**"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "action": "exact_replace",
+      "label": "CAP-22 B12 移除指南未收",
+      "old": "HACCP 模型计划（FDA Fish and Fishery Products Hazards and Controls Guidance 4th ed.）、感官检验与分解判定细则",
+      "new": "危害分析判定链与 HACCP 计划表单方法（FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收，见"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "action": "exact_replace",
+      "label": "CAP-22 A2 追加分流",
+      "old": "25. 用户要「代写 HACCP 计划或出法定身份结论」→ 超出本包，转出（B8）。",
+      "new": "25. 用户要「代写 HACCP 计划或出法定身份结论」→ 超出本包，转出（B8）。\n26. 用户问「某个鱼种该考虑哪些危害 / 怎么判显著 / CCP 设在哪 / 关键限值怎么定」→ 转 CAP-2"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "action": "exact_replace",
+      "label": "CAP-22 meta intents",
+      "old": "  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、HACCP 模型计划指南、Import Alert 全文）",
+      "new": "  - 判断哪些问题超出本包（CP 7303.842、part 120/1240/108/110/507、NSSP、BAM、Import Alert 全文）；FDA 海产品危害与控制指南自 v4.10"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "action": "exact_replace",
+      "label": "CAP-22 meta keyword",
+      "old": "  - \"十四类不可混引\"",
+      "new": "  - \"十五类不可混引\""
+    },
+    {
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "action": "exact_replace",
+      "label": "CAP-22 meta source_label",
+      "old": "NSSP Guide、FDA Fish and Fishery Products Hazards and Controls Guidance 一律「转引未收」",
+      "new": "NSSP Guide 一律「转引未收」；FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收（第十五"
+    },
+    {
+      "file": ".cangjie/capabilities/book/glossary.md",
+      "action": "line_replace",
+      "line": 1464,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/book/glossary.md",
+      "action": "line_replace",
+      "line": 1626,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/book/glossary.md",
+      "action": "line_replace",
+      "line": 1700,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/_meta-fsvp-inspection-program.yaml",
+      "action": "line_replace",
+      "line": 146,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/_meta-lacf-statutory-requirements.yaml",
+      "action": "line_replace",
+      "line": 124,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+      "action": "line_replace",
+      "line": 3,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+      "action": "line_replace",
+      "line": 263,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "action": "line_replace",
+      "line": 191,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": ".cangjie/capabilities/cards/lacf-statutory-requirements.md",
+      "action": "line_replace",
+      "line": 171,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "candidates/glossary.md",
+      "action": "line_replace",
+      "line": 1464,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "candidates/glossary.md",
+      "action": "line_replace",
+      "line": 1626,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "candidates/glossary.md",
+      "action": "line_replace",
+      "line": 1700,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "GLOSSARY.md",
+      "action": "line_replace",
+      "line": 1464,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "GLOSSARY.md",
+      "action": "line_replace",
+      "line": 1626,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "GLOSSARY.md",
+      "action": "line_replace",
+      "line": 1700,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "line_replace",
+      "line": 466,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "line_replace",
+      "line": 522,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "line_replace",
+      "line": 606,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "line_replace",
+      "line": 613,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "line_replace",
+      "line": 662,
+      "old": "十四类不可混引",
+      "new": "十五类不可混引"
+    },
+    {
+      "file": "test-prompts.json",
+      "action": "exact_replace",
+      "label": "version 恢复纯数字格式"
+    }
+  ]
+}

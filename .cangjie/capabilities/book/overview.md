@@ -270,6 +270,18 @@
 
 **另钉两处**：〔§ 123.11(a)〕SSOP 是 `should`、(b)(c) 监测记录是 `shall`（原文措辞，不得升格也不得说可以不做）；〔§ 123.12〕进口商验证与 FSVP 是**两套法源**，deemed compliance 不覆盖 §123.12。
 
-**规模**：22 张能力卡 / 172 条术语 / 105 条测试用例 / **十四类来源**（v4.9）。
+**规模（v4.9 历史快照）**：22 张能力卡 / 172 条术语 / 105 条测试用例 / **十四类来源**（v4.9）。**当前 v4.10 为 23 张能力卡 / 182 条术语 / 115 条测试用例 / 十五类来源 / dist-v14**，见文末 v4.10 节。
 
 **本版未重跑评测**：v4.7 的 F1 1.000 / 0.994、输出 10/10、路由 40/40 均为历史结论，不得冒用；10 条 `seafood-*` 与新卡路由待测。
+
+
+## v4.10 追加：第十五来源与第 23 张卡
+
+> 本节是 v4.10 增量记录；上文各节的 v4.x 规模与「十四类不可混引」为**历史口径**，保留不改。
+
+- **当前规模**：23 张能力卡 / 182 条术语 / 115 条测试用例 / **十五类来源** / `dist-v14`。
+- **第十五来源**：FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版 June 2022（SGR 129），`source-seafood-hazards-guide-2022.md`。它是**非约束性技术指南层**，与第十四来源 21 CFR Part 123（法条义务层，CAP-22）配对而非合并：前者给「怎么判定」，后者给「必须做什么」。
+- **新增能力卡 CAP-23 `seafood-hazards-controls-guide`**：完整危害分析判定链（Ch.3 三表识别 → Ch.4–21 理解危害 → 无控制条件下判 `reasonably likely to occur` → 六栏工作表 Yes/No 理由 → Step 11 判定树定 CCP → 控制策略示例 → 关键限值与监控四问）。R 段 37 个英文引用块经 `.cangjie/verify_v4_10_quotes.py` 逐字核验 37/37 命中。
+- **十五类不可混引（v4.10 口径；v4.9 时为十四类）**：在上文十四类清单之外，增加 **FDA 海产品危害与控制指南第 4 版**。层次仍为：法规正文 ＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序（仅检查员视角）。指南内引用写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，不可互换。
+- **仍未收**：CP 7303.842、NSSP Guide、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、Import Alert 16-xx、BAM 海产品章节，以及 Appendix 5 回指的 CPG / 21 CFR 556 / 40 CFR 180 / Import Tolerance 等外部法源。涉及具体数值的条款级结论一律标「转引未收」。
+- 阶段 0 整书理解见 `BOOK_OVERVIEW-seafood-hazards-guide-2022.md`；阶段 1 五路候选见 `candidates/v4-10-*.md`；完整变更与校验记录见 `PIPELINE_STATE.md` v4.10 段。
