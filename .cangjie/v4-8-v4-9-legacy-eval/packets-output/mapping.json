@@ -1,0 +1,82 @@
+{
+  "fsvp-out-01": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-02": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-03": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "fsvp-out-04": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-05": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-06": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-07": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-08": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "fsvp-out-09": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "fsvp-out-10": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-01": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-02": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-03": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-04": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-05": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-06": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-07": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "sf-out-08": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sf-out-09": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "sf-out-10": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  }
+}

@@ -115,3 +115,12 @@ python3 <cangjie-skill>/scripts/run_output_evals.py score output-suite.json \
   --outputs packets-output --mapping packets-output/mapping.json --out output-eval-report.md
 python3 .cangjie/score_v4_10_routing.py
 ```
+
+## 6. 后续更新（2026-11-06 晚，回指注记）
+
+本节第 4 节「仍未关闭」中「**v4.8 的 10 条 `fsvp-*` 与 v4.9 的 10 条 `seafood-*`（CAP-22）用例仍未补测**」是**本报告撰写当时**的状态，现已被后续补测关闭，故在此追加回指、不改写当时的结论：
+
+- 用户随后要求「顺手把那 20 条历史用例也用同一框架跑掉」。已按本报告的同一框架（官方 `run_trigger_evals.py` / `run_output_evals.py` + 同型路由判分器、干净 sub-agent 盲判、5-skill catalog、`v410_skill` / `without_skill`）完成补测。
+- 结果：静态登记 **23/23 PASS**；触发 38 条 ×3 = 114 判 **F1 1.000**（20 条历史用例 60/60）；输出主套件 **`v410_skill 20/20` / `without_skill 11/20`**（严格化敏感性套件 20/20 vs 7/20）；路由 46 条 ×3 = **138/138 = 1.000**，**CAP-21 33/33、CAP-22 33/33、CAP-23 12/12、三卡交叉错判 0**。
+- 完整报告：`.cangjie/v4-8-v4-9-legacy-eval-report.md`；产物目录：`.cangjie/v4-8-v4-9-legacy-eval/`；`PIPELINE_STATE.md` 的 v4.8 / v4.9 状态行与「历史欠账」表述已同步回补。
+- 本报告其余结论（尤其输出 **6/10** 及其不可与历史用例 20/20 横向比较的说明）依然有效；A/B 盲评、人工复核、端到端激活日志等仍未关闭。

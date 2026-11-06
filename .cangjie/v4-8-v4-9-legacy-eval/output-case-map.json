@@ -1,0 +1,82 @@
+{
+  "fsvp-out-01": {
+    "source_case": "fsvp-01",
+    "prompt": "我们公司既做进口也是加工厂，已经按 21 CFR Part 117 做了完整的供应链验证，是不是就不用单独建 FSVP 了？"
+  },
+  "fsvp-out-02": {
+    "source_case": "fsvp-02",
+    "prompt": "FDA 通知下周来做 FSVP 检查，我们要按 CP 7303.050 准备多少 subs 样品、环境拭子怎么布点？"
+  },
+  "fsvp-out-03": {
+    "source_case": "fsvp-03",
+    "prompt": "报关时那个 UFI 到底填什么？是每家企业报一次还是每次进口都要报？"
+  },
+  "fsvp-out-04": {
+    "source_case": "fsvp-04",
+    "prompt": "我们进口果汁、水产品、酒精饮料，还有一批只过境转运的货，哪些可以不做 FSVP？"
+  },
+  "fsvp-out-05": {
+    "source_case": "fsvp-05",
+    "prompt": "我们符合极小进口商 VSI 的条件，是不是就必须走 modified requirements？standard 那套还能选吗？"
+  },
+  "fsvp-out-06": {
+    "source_case": "fsvp-06",
+    "prompt": "刚收到 FSVP 检查的 Form FDA 483a，哪些观察项算最严重、会怎么升级？"
+  },
+  "fsvp-out-07": {
+    "source_case": "fsvp-07",
+    "prompt": "第一次 FSVP 检查被开了缺陷，是不是马上会收到警告信、货也会被扣？"
+  },
+  "fsvp-out-08": {
+    "source_case": "fsvp-08",
+    "prompt": "公司被列进 Import Alert 99-41 了，是不是所有进口食品都进不来？要怎么才能移除？"
+  },
+  "fsvp-out-09": {
+    "source_case": "fsvp-09",
+    "prompt": "Import Alert 99-41 和做低酸罐头时说的 99-37/99-38 是一回事吗？没备案是不是就自动 DWPE？"
+  },
+  "fsvp-out-10": {
+    "source_case": "fsvp-10",
+    "prompt": "CP 7303.878 首页写着 2025 年签发，是新规吧？顺便把 21 CFR 1.505 原文、Import Alert 99-41 全文和 FSVP Guidance Q&A G.8 列出来。"
+  },
+  "sf-out-01": {
+    "source_case": "seafood-01",
+    "prompt": "我们做烟熏三文鱼，厂长说按 21 CFR 123.16 控制肉毒就够，不用做完整 HACCP。这样对吗？"
+  },
+  "sf-out-02": {
+    "source_case": "seafood-02",
+    "prompt": "水产品厂是不是只要符合 part 123 就免了 PCHF 的 Subparts C 和 G？"
+  },
+  "sf-out-03": {
+    "source_case": "seafood-03",
+    "prompt": "part 113 的豁免只限微生物危害，那水产品的 117.5(b) 是不是也只限微生物危害？"
+  },
+  "sf-out-04": {
+    "source_case": "seafood-04",
+    "prompt": "21 CFR 123.9 的 HACCP 记录要保存几年？冷藏和冷冻一样吗？"
+  },
+  "sf-out-05": {
+    "source_case": "seafood-05",
+    "prompt": "进口冷冻虾，我们拿到了境外厂的 HACCP 计划副本，是不是 123.12 和 FSVP 都算满足了？"
+  },
+  "sf-out-06": {
+    "source_case": "seafood-06",
+    "prompt": "生食牡蛎的 shellstock 容器上那个 tag 要写哪些内容？要不要保存记录？"
+  },
+  "sf-out-07": {
+    "source_case": "seafood-07",
+    "prompt": "CCP 监控记录最晚多久要有人复核签字？"
+  },
+  "sf-out-08": {
+    "source_case": "seafood-08",
+    "prompt": "烟熏鱼偏离了关键限值，我们组长直接把产品放行了，说反正后面还要检。合规吗？"
+  },
+  "sf-out-09": {
+    "source_case": "seafood-09",
+    "prompt": "21 CFR 123 里 SSOP 写的是 should，是不是可以不建立？"
+  },
+  "sf-out-10": {
+    "source_case": "seafood-10",
+    "prompt": "我们厂既做烟熏鱼又做低酸罐头，HACCP 计划要不要分两套？肉毒控制按哪个法条？"
+  }
+}
