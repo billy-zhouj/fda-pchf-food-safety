@@ -1,0 +1,11 @@
+# 先看 Table 1 排产品风险，进口商检查数量由 OII Workplan 定
+
+**结论：用来给产品／工艺风险排优先级的是 Table 1；进口商检查（及进口监督取样）的数量由 OII 每财年 Workplan 规定，不是由 Table 1 或 Table 2 决定。**
+
+**一、先看 Table 1（CP 7303.842 PART II / Table 1 / L159）。** 原文：`Table 1 prioritizes in descending order specific seafood commodities for inspection based on the hazards associated with the products and industry compliance with FDA requirements. These should be used as a guide when identifying the focus of a seafood HACCP inspection.` 即 Table 1 是**产品／工艺风险降序表**，用来定一次海产品 HACCP 检查的焦点；取样风险判定同样用 Table 1（L334）。对你们厂的意义：减氧包装（ROP）的熏制水产品因涉及肉毒梭菌毒素形成、李斯特菌等危害，通常排在普通冷冻鱼之前；检查须聚焦最高风险产品、并在企业已知处于生产时进行（PART III.C / HACCP Program Evaluations / L275）。法条侧对应〔§ 123.16〕（熏制水产品须在 HACCP 计划中说明 C. botulinum 毒素形成的控制、至少覆盖整个货架期）与〔§ 123.6〕的危害分析义务。注意 Table 1 非穷尽（`Table 1 is not all inclusive`），同一产品跨多个类别时取**最高风险**类别，表外产品须查 Seafood Hazards Guide 第 4 版 Ch.3；不能拿它当危害清单或合规清单。这两类产品具体各排 Table 1 第几行，本包未逐行收录原表，须回 PDF 核对，如实说明不确定。
+
+**二、别把 Table 2 当产品优先级表或数量依据。** 原文（PART II / Table 2 / L196）：`Table 2 is for work planning purposes and further builds upon the product risk ranking... based on their individual compliance history.` Table 2 按企业／进口商各自的**合规史**降序排「先查谁」，配合 90%/10%、`<100 entry line items`、OAI 复检待整改等规则，是 work planning 用，不是产品风险表，也不是检查数量依据。把 Table 1 与 Table 2 对调是高频误用。
+
+**三、进口商检查数量怎么定。** CP 7303.842 PART III.F / Imported Surveillance Sampling / L330 逐字：`The OII Workplan for each fiscal year for the Import Seafood Products Compliance Program specifies the number of Import Sample Collections for each Division. OII's automated surveillance system will flag processors and products for sampling; however, the field staff will also be able to manually select products.` 即每财年 OII Workplan 给各 Division 规定进口样品采集数，OII 自动监测系统标记加工商与产品，现场人员亦可手动选择；既往有安全缺陷的条目优先、多数取自高风险产品。进口商 HACCP 检查依〔§ 123.12〕，用 Table 2 选人、Table 1 选产品（PART III.D / L311）。
+
+**四、效力层与误读防护（三层必须分开）。** 法规正文〔§ 123.xxx〕（CAP-22，`shall`）＞ FDA 技术指南（CAP-23，Seafood Hazards Guide 第 4 版 Ch.x 的 `should`）＞ CP 7303.842 检查程序作业层（CAP-24，给 field staff、不创设企业义务）。Table 1/2、Workplan 数量、国产官方样品仅 `for cause only` 都是检查员排程／取证工具：既不能写成企业义务或放行标准，也不能因 CP 非强制把 Part 123 的 `shall` 义务稀释成可选。引用写「CP 7303.842 PART II / Table 1 / Lxxx」，不与〔§ 123.xxx〕或指南 Ch.x 混引；通用产品样品 subs 数与环境拭子属另一 program CP 7303.050，不得混用；全包自 v4.11 起**十六类来源不可混引**。CPG、BAM、NSSP Guide、Import Alert、21 CFR part 120 等未收正文一律标「转引未收」。

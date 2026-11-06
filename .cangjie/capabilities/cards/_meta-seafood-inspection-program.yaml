@@ -1,0 +1,266 @@
+slug: seafood-inspection-program
+title: CP 7303.842 海产品检查程序整书导航与完整检查判定链（检查员作业层，与 Part 123 法条层、危害指南层配对）
+importance: extended
+importance_rationale: >-
+  本卡是第 16 类来源的入口型程序导航能力：把「检查优先级 → 检查类型分流 → HACCP 计划评价
+  → 取样与 PAC 上报 → PART IV 实验室判据 → PART V 执法分级 → FIELD REPORTING」串成完整判定链，
+  是用户问「FDA 海产品检查怎么查、查哪张表、报哪个码、会不会升级」时唯一承接卡。它与
+  CAP-22 的 21 CFR Part 123 法条义务层、CAP-23 的海产品危害分析技术指南层构成三层配对而非合并，
+  并与 inspection-sampling、fsvp-inspection-program、lacf-inspection-program、inspection-readiness、
+  investigator-authority-procedure、chemical-hazard-controls、defect-action-levels 双向分流。
+  它同时纠正三类最高频误读：① 把 CP 的检查动作、Table 1/2 优先级、PART IV 触发值写成企业
+  法定义务或产品放行标准；② 把 Table 4 的 Major/Minor 当 §123.6 显著性判定或自动执法结论；
+  ③ 因 CP 非强制而把 Part 123 的 shall 义务稀释成可选。还须守住 7303.844 已合并但 PAC 仍分
+  进口/国产、03842H 同名不同义、documentary samples 只报 03842、ATTACHMENT A 样品量仅用于
+  surveillance and audit、Table 4 case-by-case、执法须 HFP OCE concurrence、物种误标 403(b)
+  与危害判定分离、2023 版 / 2025-09-30 更正的版本口径、转换件标题交错与表格不可逐字引用等
+  边界，故定 extended。
+one_liner: >-
+  按「Table 1 产品/工艺风险 + Table 2 企业/进口商优先级 → 六类检查分流 → HACCP Program
+  Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G 实验室分流与 CPG 判据出口 → PART V
+  Table 4 分级与裁量 → FIELD REPORTING 收口」走完检查判定链；但全链只是给 field staff 的
+  内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十六类来源
+  不可混引，CPG / BAM / NSSP / Import Alert 等未收正文一律标转引未收。
+intents:
+  - 复述 CP 7303.842 从检查优先级到报告上报的完整检查判定链
+  - 说明 CP 7303.842 与 CP 7303.844 已合并为单一程序但 PAC 仍分进口国产
+  - 判定某产品或工艺在 Table 1 的风险位置并处理表外产品
+  - 判断产品跨 Table 1 多个类别时取最高风险类别
+  - 用 Table 2 排检查先后并说明 90/10 与 100 entry line items 规则
+  - 区分 Table 1 与 Table 2 的适用域并指出取样风险用哪张表
+  - 分流 Processor Importer Vessels Foreign Establishment NSSP EMA 六类检查
+  - 说明同一加工商同时适用多个 compliance program 时的处理顺序
+  - 说明 HACCP Program Evaluations 须聚焦最高风险产品且在生产时进行
+  - 说明未在生产时的替代取证与 OAI VAI 复检规则
+  - 解释 Part 117 subparts C 与 G 不能替代 Part 123 的法定义务
+  - 区分 significant observations 与自愿纠正项及 483 与 EIR 的列示顺序
+  - 判断国产官方样品何时可采并解释 for cause only
+  - 判断进口监督取样数量由谁决定及哪些条目优先
+  - 处理 documentary samples 的 PAC 归属与 workplan 计数
+  - 分辨取样分析 PAC 与检查报告 PAC 两套码表
+  - 解释 03842H 在取样表与报告表中同名不同义
+  - 说明 HACCP Verification PAC 进口列 Not applicable 的含义
+  - 按 PART IV A 至 G Project 分流实验室分析并给出判据出口编号
+  - 判断组胺 500 50 35 ppm 各自触发什么动作
+  - 判断 Indole 15 25 微克每 100 克与感官 unanimous decision 的角色
+  - 说明 RTE 活虫零容忍与 fish in the round 及 dried fish 排除项
+  - 说明 pH 小于 4.6 与大于等于 4.6 在腌渍海产品追加分析中的作用
+  - 说明天然毒素超限后的通知路径与 action level 出处
+  - 说明净重过镀冰 48 subs 与 AOAC 963.18 及 CPG 562.300 的关系
+  - 解释物种鉴定 Table 3 的 Lab Class 1 与 3 及 8 subs per lot
+  - 判断某个 CP 阈值能否写成法规限值放行标准或 BAM 方法全文
+  - 用 Table 4 定位 Deficiency Citation Ranking 并说明 case by case
+  - 说明 Warning Letters DWPE judicial actions 的裁量与 HFP OCE concurrence
+  - 区分 Import Alert 16-74 16-20 与 99-41 99-37 99-38
+  - 说明物种误标 403(b) 的法律定性与额外安全危害的转介
+  - 定位 FIELD REPORTING REQUIREMENTS 各结果类型的上报出口
+  - 判断 ATTACHMENT A 样品量能否用于 reconditioning 或 DWPE 放行
+  - 说明 702(b) duplicate 与 Filth for cause 及 CFP 疾病响应的取样限制
+  - 标注结论属于法条义务层指南建议层检查程序层或转引未收层
+  - 分流条款级判定至 CAP-22 与危害判定至 CAP-23
+  - 分流 FSVP 至 fsvp-inspection-program 与通用取样至 inspection-sampling
+  - 纠正把 CP 检查动作写成企业法定义务的误读
+  - 纠正把 CP 优先级表或违规分级当合规清单的误读
+  - 纠正因 CP 非强制而把 Part 123 shall 义务稀释成可选的反向误读
+  - 说明 2023 版程序 2025-09-30 更正的版本判定与文件名 20250929 的含义
+  - 说明转换件标题交错与表格不可逐字引用的红线
+  - 拒绝代填 FDA 3501 3502 或代写 483 回复与警告信答复
+  - 拒绝预测检查分类不判法定身份不出合规结论
+keywords:
+  - CP 7303.842
+  - CP 7303.844
+  - Seafood Processor Products and Importer Inspection Program
+  - 7303.842 合并
+  - 2023 版程序
+  - 2025-09-30 更正
+  - 文件名 20250929
+  - IMPLEMENTATION DATE 11/01/2023
+  - Correction date
+  - Date of Issuance 09/30/025
+  - Compliance Program Guidance Manual
+  - PROGRAM 7303.842
+  - CHAPTER 03 FOODBORNE HAZARDS
+  - PART I BACKGROUND
+  - PART II IMPLEMENTATION
+  - PART III INSPECTIONAL
+  - PART IV ANALYTICAL
+  - PART V REGULATORY ADMINISTRATIVE STRATEGY
+  - PART VI REFERENCES
+  - PART VII CENTER RESPONSIBILITIES
+  - FIELD REPORTING REQUIREMENTS
+  - ATTACHMENT A
+  - Table A-1
+  - Table A-2
+  - Table 1
+  - Product and Process Priority Ranking
+  - Table 2
+  - Priorities for Establishment and Importer Inspections
+  - Table 3 Lab Classifications
+  - Table 4
+  - Seafood HACCP Enforcement Strategy
+  - Ranking of violation
+  - Major Minor
+  - case-by-case
+  - Significance must be determined on a case-by-case basis
+  - 90 percent 10 percent
+  - 100 entry line items
+  - OII Workplan
+  - work planning purposes
+  - not all inclusive
+  - highest risk category
+  - HIGHER RISK POTENTIAL
+  - LOWER RISK POTENTIAL
+  - ROP
+  - reduced oxygen packaging
+  - Clostridium botulinum
+  - uneviscerated fish
+  - 5 inches
+  - molluscan shellfish
+  - NSSP
+  - shellfish standardized inspector
+  - ISSC Form 93-01(A)
+  - NSSP Model Ordinance
+  - Processor Inspections
+  - Importer Inspections
+  - Vessels
+  - Foreign Establishment Inspections
+  - HACCP Program Evaluations
+  - Economically Motivated Adulteration
+  - food fraud
+  - species substitution
+  - Species Misbranding
+  - FD&C Act 403(b)
+  - 21 U.S.C. 343(b)
+  - MARCS-CMS
+  - Special HACCP Reporting
+  - FDA 3501
+  - FDA 3502
+  - National Seafood HACCP Inspection Database
+  - FDA 483
+  - narrative EIR
+  - eNSpect
+  - CMS
+  - FACTS
+  - PAF
+  - PAC
+  - 03842
+  - 03842H
+  - 03844H
+  - 03844A
+  - 03842A
+  - 03844C
+  - 03842C
+  - 03844D
+  - 07842
+  - 07844
+  - PAC 21842
+  - PAC 21844
+  - PAC 03040
+  - HACCP Verification sample
+  - documentary samples
+  - Domestic For Cause Sampling
+  - for cause only
+  - Imported Seafood Surveillance Sampling
+  - surveillance and audit samples
+  - 702(b) duplicate
+  - reconditioning
+  - DWPE
+  - detention without physical examination
+  - Warning Letters
+  - judicial actions
+  - HFP OCE concurrence
+  - NMFS
+  - MOU
+  - FMD#-029
+  - Import Alert 16-74
+  - Import Alert 16-20
+  - Import Alert 99-41
+  - Import Alert 99-37
+  - Import Alert 99-38
+  - histamine
+  - scombrotoxin
+  - 500 ppm
+  - 50 ppm
+  - 35 ppm
+  - indole
+  - 15 microgram per 100 gram
+  - 25 microgram per 100 gram
+  - organoleptic
+  - unanimous decision
+  - National Seafood Sensory Expert
+  - CPG Sec. 540.525
+  - CPG Sec. 540.370
+  - CPG Sec. 555.600
+  - CPG Sec. 562.300
+  - CPG Sec. 540.250
+  - CPG Sec. 540.590
+  - AOAC 963.18
+  - AOAC 980.16
+  - BAM Chapter 19
+  - water phase salt
+  - WPS
+  - nitrite 100 ppm
+  - pH 4.6
+  - water activity
+  - Listeria monocytogenes
+  - Salmonella
+  - Vibrio
+  - Staphylococcus aureus
+  - natural toxins
+  - PSP
+  - DSP
+  - ASP
+  - NSP
+  - AZP
+  - CFP
+  - TTX
+  - 寄生虫零容忍
+  - live actively moving worms
+  - fish in the round
+  - dried fish
+  - net weight overglazing
+  - 48 subsamples
+  - RSSL
+  - 98 percent
+  - 8 subs per lot
+  - 21 CFR Part 123
+  - 21 CFR 123.12
+  - 21 CFR 123.6
+  - Part 117 Subparts A B F
+  - FSVP
+  - 21 CFR part 1 subpart L
+  - Seafood Hazards Guide
+  - Hazards Guide Chapter 3
+  - Chapter 6 action levels
+  - CAP-21
+  - CAP-22
+  - CAP-23
+  - CAP-24
+  - 十六类不可混引
+  - 转引未收
+  - 检查程序作业层
+  - 法条义务层
+  - 技术指南层
+  - field staff
+  - 内部作业指导
+  - 不创设企业义务
+  - 标题层级交错
+  - 表格不可逐字引用
+  - 完整检查判定链
+  - HFP concurrence
+  - every fourth year
+member_units: []
+source_label: >-
+  第 16 类来源：FDA《Compliance Program Guidance Manual 7303.842 — Seafood Processor,
+  Products, and Importer Inspection Program》，2023-11-01 版程序的 2025-09-30 更正本，
+  本地文件 source-cp-7303-842-2023.md（用户提供的官方 508-Compliant PDF，80 物理页 /
+  148 书签 / 首页标 Page 1 of 86，经用户级技能 pdf2md-pro 转换，正文 179,812 字节 /
+  1,334 行）。属给 FDA 检查员、进口分区、分部合规官与实验室的**内部作业指导层**：
+  非法规、非 Guidance for Industry、不创设企业义务；文件名 20250929 只是 PDF 生成日。
+  CP 7303.842 与 CP 7303.844 已合并为单一程序，但 PAC 仍分进口与国产。它是 21 CFR Part 123
+  法条义务层（CAP-22）与 Fish and Fishery Products Hazards and Controls Guidance 第 4 版
+  技术指南层（CAP-23）之外的第三层。仍未收清单：CPG Sec. 540.525 / 540.370 / 555.600 /
+  562.300 / 540.250 / 540.590 全文、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、
+  NSSP Guide 与 Model Ordinance、BAM / AOAC / LIB / MPM 方法全文、Import Alert 16-74 /
+  16-20 / 99-41 全文、21 CFR part 1 subpart L、IOM Chapter 4、FDA 3501 / 3502 表单全文、
+  Seafood List、eNSpect / CMS / FACTS 内部系统、FDA 与 NMFS 的 MOU —— 一律标转引未收。

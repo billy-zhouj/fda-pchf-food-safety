@@ -1,0 +1,498 @@
+{
+  "version": "v4.11",
+  "files_touched": [
+    ".cangjie/assemble_bundle.py",
+    ".cangjie/capabilities/cards/_meta-fsvp-inspection-program.yaml",
+    ".cangjie/capabilities/cards/_meta-lacf-statutory-requirements.yaml",
+    ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+    ".cangjie/capabilities/cards/_meta-seafood-hazards-controls-guide.yaml",
+    ".cangjie/capabilities/cards/cgmp-compliance-guide.md",
+    ".cangjie/capabilities/cards/defect-action-levels.md",
+    ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+    ".cangjie/capabilities/cards/inspection-readiness.md",
+    ".cangjie/capabilities/cards/inspection-sampling.md",
+    ".cangjie/capabilities/cards/investigator-authority-procedure.md",
+    ".cangjie/capabilities/cards/lacf-inspection-program.md",
+    ".cangjie/capabilities/cards/lacf-statutory-requirements.md",
+    ".cangjie/capabilities/cards/regulatory-boundaries.md",
+    ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+    ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+    "BOOK_OVERVIEW.md",
+    "DIGEST.md",
+    "PIPELINE_STATE.md",
+    "candidates/glossary.md",
+    "test-prompts.json"
+  ],
+  "actions": [
+    {
+      "label": "docstring 23 → 24",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "SLUGS 追加 CAP-24",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "CAP-24 ALSO_READ 双向链",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "additional_sources 追加第十六来源",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "entry.description 追加 CAP-24 段",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "core_principles +3",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "out_of_scope 第 2 条移除 CP 7303.842 未收",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "stop_conditions +2",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 合计**十五类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: ；**十五类不可混引**，且 §114.5",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 用户任务超出 23 张能力卡路由范围时",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 仍未收：CP 7303.842 海产品检查程序、21 CFR part 120",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 仍未收：CP 7303.842、NSSP Guide、21 CFR part 120",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 其他 Compliance Programs（7303.080 / 7303.842",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: 另 CP 7303.842 海产品检查程序、21 CFR part 120 / 12",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "AB 口径: CP 7303.842、NSSP Guide、21 CFR part 120 / 1",
+      "file": ".cangjie/assemble_bundle.py",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: v4.10 起全包统一「十五类不可混引」（v4.8 时为十三",
+      "file": ".cangjie/capabilities/cards/cgmp-compliance-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: 全包自 v4.7 起**十五类不可混引**",
+      "file": ".cangjie/capabilities/cards/inspection-sampling.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: 全包自 v4.7 起**十五类不可混引**",
+      "file": ".cangjie/capabilities/cards/investigator-authority-procedure.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: *全包自 v4.10 起「**十五类来源不可混引**」。",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: **B11 — 导出件转换质量红线与十五类不可混引引用规范。",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: 全包自 v4.10 起**十五类来源不可混引**：",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "版本归属: 第 4 版自 v4.10 起已收（第十五来源，见 CAP-2",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "rep_once"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/cgmp-compliance-guide.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/defect-action-levels.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+      "lines": 2,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/inspection-readiness.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/inspection-sampling.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/investigator-authority-procedure.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "lines": 3,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/lacf-statutory-requirements.md",
+      "lines": 3,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/regulatory-boundaries.md",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "lines": 3,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "lines": 3,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/_meta-fsvp-inspection-program.yaml",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/_meta-lacf-statutory-requirements.yaml",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "lines": 1,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-hazards-controls-guide.yaml",
+      "lines": 2,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": "candidates/glossary.md",
+      "lines": 3,
+      "kind": "phrase"
+    },
+    {
+      "label": "当前口径短语",
+      "file": "test-prompts.json",
+      "lines": 9,
+      "kind": "phrase"
+    },
+    {
+      "label": "notes 追加 v4.11 演进句",
+      "file": "test-prompts.json",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: PIPELINE_STATE.md / - **当前版本**: v4.10 ✅ 编译校验并安装完成（23 张卡 / ",
+      "file": "PIPELINE_STATE.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: seafood-haccp-statutory-requirements.md / 与 CP 7303.842（海产品检查程序，**正文本包未收**）、",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: seafood-haccp-statutory-requirements.md / **NSSP Guide**、**CP 7303.842**。一律标「转引未",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: seafood-hazards-controls-guide.md / *正文本包**仍未收**：CP 7303.842（海产品检查程序）、NSSP",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: seafood-hazards-controls-guide.md / CP 7303.842 **正文本包未收**。",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: _meta-seafood-hazards-controls-guide.yaml / 法条义务层配对而非合并。仍未收清单：CP 7303.842 海产品检查程序、",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-hazards-controls-guide.yaml",
+      "kind": "rep_once"
+    },
+    {
+      "label": "精确: _meta-seafood-haccp-statutory-requirements.yaml /   - 判断哪些问题超出本包（CP 7303.842、part 120/12",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "rep_once"
+    },
+    {
+      "label": "当前版本说明行",
+      "file": "PIPELINE_STATE.md",
+      "hits": 1,
+      "kind": "version-line"
+    },
+    {
+      "label": "当前版本说明行",
+      "file": "DIGEST.md",
+      "hits": 1,
+      "kind": "version-line"
+    },
+    {
+      "label": "FSVP B10 未收清单",
+      "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "迎检 B5 已收/未收清单",
+      "file": ".cangjie/capabilities/cards/inspection-readiness.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "迎检 B10 相邻 program 正文",
+      "file": ".cangjie/capabilities/cards/inspection-readiness.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF 海产品分流表",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF B2 转引未收清单",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF B10 只收前两者",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 A2 路由",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 Step 6 数字分层",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 Step 7 收尾声明",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B1 最大缺口（整段改写）",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B10 引用规范",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B12 不覆盖清单",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 开头仍未收清单（重写）",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 Step 8 三层标签",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B7 Appendix 5 回指",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B11 引用规范尾部",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B12 仍未收清单",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 meta one_liner",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 meta source_label",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "cp842_residue"
+    }
+  ],
+  "quote_verification": {
+    "quotes": 36,
+    "verbatim_hits": 36,
+    "over_100_words": 0,
+    "table_quotes": 0,
+    "body_only": true,
+    "strip_md": true
+  },
+  "policy": "历史陈述中的十五类/23 张/CP 7303.842 未收按 v4.10 先例保留；仅改确定性当前口径；第二轮清除「CP 7303.842 未收」当前断言，历史陈述保留",
+  "residue_fixes": [
+    {
+      "label": "FSVP B10 未收清单",
+      "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "迎检 B5 已收/未收清单",
+      "file": ".cangjie/capabilities/cards/inspection-readiness.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "迎检 B10 相邻 program 正文",
+      "file": ".cangjie/capabilities/cards/inspection-readiness.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF 海产品分流表",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF B2 转引未收清单",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "LACF B10 只收前两者",
+      "file": ".cangjie/capabilities/cards/lacf-inspection-program.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 A2 路由",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 Step 6 数字分层",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 Step 7 收尾声明",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B1 最大缺口（整段改写）",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B10 引用规范",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 B12 不覆盖清单",
+      "file": ".cangjie/capabilities/cards/seafood-haccp-statutory-requirements.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 开头仍未收清单（重写）",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 Step 8 三层标签",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B7 Appendix 5 回指",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B11 引用规范尾部",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-23 B12 仍未收清单",
+      "file": ".cangjie/capabilities/cards/seafood-hazards-controls-guide.md",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 meta one_liner",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "cp842_residue"
+    },
+    {
+      "label": "CAP-22 meta source_label",
+      "file": ".cangjie/capabilities/cards/_meta-seafood-haccp-statutory-requirements.yaml",
+      "kind": "cp842_residue"
+    }
+  ]
+}

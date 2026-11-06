@@ -1,0 +1,28 @@
+{"case_id": "neg-01", "run": 2, "selected_skill": "none", "reason": "股票行情查询，与所有技能无关"}
+{"case_id": "neg-02", "run": 2, "selected_skill": "none", "reason": "编程题，与所有技能无关"}
+{"case_id": "neg-03", "run": 2, "selected_skill": "none", "reason": "药品cGMP非食品PCHF域"}
+{"case_id": "neg-04", "run": 2, "selected_skill": "none", "reason": "USDA肉类法规非FDA海产品"}
+{"case_id": "neg-05", "run": 2, "selected_skill": "none", "reason": "中国国标非FDA法规"}
+{"case_id": "neg-06", "run": 2, "selected_skill": "none", "reason": "欧盟法规非FDA法规"}
+{"case_id": "neg-07", "run": 2, "selected_skill": "none", "reason": "化妆品GMP非食品域"}
+{"case_id": "neg-08", "run": 2, "selected_skill": "none", "reason": "合同拟写与技能无关"}
+{"case_id": "neg-09", "run": 2, "selected_skill": "none", "reason": "天气查询与技能无关"}
+{"case_id": "neg-10", "run": 2, "selected_skill": "none", "reason": "翻译任务与技能无关"}
+{"case_id": "seafood-inspection-01", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "CP7303.842海产品检查程序版本"}
+{"case_id": "seafood-inspection-02", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "CP7303.842/844合并与PAC码"}
+{"case_id": "seafood-inspection-03", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "FDA海产品检查优先级与抽样"}
+{"case_id": "seafood-inspection-04", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "海产品HACCP检查类型与对象"}
+{"case_id": "seafood-inspection-05", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "海产品HACCP检查官方取样"}
+{"case_id": "seafood-inspection-06", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "documentary sample与PAC码"}
+{"case_id": "seafood-inspection-07", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "CP7303.842组胺限量判定"}
+{"case_id": "seafood-inspection-08", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "123.6缺陷分级与Warning Letter"}
+{"case_id": "seafood-inspection-09", "run": 2, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP与海产品进口商HACCP检查"}
+{"case_id": "seafood-inspection-10", "run": 2, "selected_skill": "none", "reason": "中欧法规及承诺函非FDA PCHF域"}
+{"case_id": "sib-01", "run": 2, "selected_skill": "pdf2md-pro", "reason": "PDF高保真转md保留表格书签"}
+{"case_id": "sib-02", "run": 2, "selected_skill": "brand-ip", "reason": "Logo做IP吉祥物角色设定"}
+{"case_id": "sib-03", "run": 2, "selected_skill": "cangjie-skill", "reason": "书籍蒸馏成可复用skill"}
+{"case_id": "sib-04", "run": 2, "selected_skill": "officecli1098", "reason": "Excel排序与生成柱状图"}
+{"case_id": "sib-05", "run": 2, "selected_skill": "pdf2md-pro", "reason": "批量PDF转md含书签与自检"}
+{"case_id": "sib-06", "run": 2, "selected_skill": "brand-ip", "reason": "宠物IP形象与表情包"}
+{"case_id": "sib-07", "run": 2, "selected_skill": "cangjie-skill", "reason": "文字稿拆成技能包"}
+{"case_id": "sib-08", "run": 2, "selected_skill": "officecli1098", "reason": "csv加公式与合并单元格"}

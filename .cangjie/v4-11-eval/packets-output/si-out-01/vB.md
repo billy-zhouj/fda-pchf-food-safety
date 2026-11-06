@@ -1,0 +1,9 @@
+# 这不是 2025 年新发布的程序，也不是 7303.040 那种版本形态
+
+**结论：两个判断都是否定的。** 你手上这份是 **CP 7303.842（2023-11-01 版 / 2025-09-30 更正本）**，即一份旧程序的更正本，不是 2025 年新签发的海产品检查程序；它与 CPGM 7303.040 的 `2025-CPM-HFP-001` 也不属于同一种版本形态。
+
+**一、文件名与首页日期为什么不能当版本依据。** 文件名里的 `20250929` 只是 PDF 生成／导出日；封面 `Date of Issuance: 09/30/025` 是文本层转录残缺（应读作 09/30/2025 的更正日期），不能据此断成「2025 新规」。本件真正的版本口径是 IMPLEMENTATION DATE `11/01/2023` ＋ Correction date `09/30/2025`，正文页脚一律 `11/1/2023`。引用 issuance 日期时必须说明取自哪一出处。文件名尾部的「508-Compliant」只是 Section 508 无障碍可访问性标记，与版本判定无关。首页 NOTE 与 CP 7303.842 PART I / L142 还写明，现行 CP 7303.842 是原「Seafood Processor Inspection Program（7303.842）」与「Imported Seafood Inspection Program（7303.844）」合并后的单一程序。
+
+**二、与 CPGM 7303.040 不是同一种版本形态。** CP 7303.842 与 CP 7303.050（2022-06-03 签发 / 2025-09-10 更正）、CP 7303.070（2024-09-26 签发 / 2025-09-26 更正）、CP 7303.878（Transmittal 2023-CPM-CFSAN-003，2023-09-27 版 / 2025-08-28 更正）同属「旧程序 + 更正本」形态，没有新的 CPM Transmittal 编号。而 CPGM 7303.040 现行版是带新 Transmittal 编号的 `2025-CPM-HFP-001`（Date of Issuance 08/29/2025、IMPLEMENTATION DATE 05/23/2024；2020-CPGM-CFSAN-003 已废止），属于 2025 年以新 transmittal 形态发布的现行检查程序。因此既不能把 7303.842 写成「2025 版 7303.842」，也不能套用 7303.040 的 `2025-CPM-HFP-001` Transmittal 口径去推断它的版本。版本判定一律以 PDF 首页 Transmittal / Date of Issuance / IMPLEMENTATION DATE / Correction date 为准，文件名日期与网页列表日期都不作数。
+
+**三、效力层与引用纪律。** 法规正文层是〔§ 123.xxx〕（CAP-22，Part 123 的 `shall` 法定义务，如〔§ 123.6〕危害分析与书面 HACCP 计划）；其下是 FDA 技术指南层（CAP-23，Seafood Hazards Guide 第 4 版 Ch.x 的 `should` 建议层）；CP 7303.842 是检查程序作业层（CAP-24，`provides instruction to field staff`，给检查员/进口分区/分部的内部作业指导，不创设企业义务，也不是法规或 Guidance for Industry）。要同时防两个方向：既不能把 CP 的 Table 1/2 优先级、PART IV 触发值写成企业义务或放行标准；也不能因「CP 非强制」就把 Part 123 的 `shall` 义务稀释成可选。本件引用按「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」定位；转换件存在书签伪标题导致 PART 各出现两次、表格列头连写、页码混入单元格，检索以 PART 号／小节号／表号为准，表格与页眉页脚不可逐字引用；全包自 v4.11 起十六类来源不可混引。CPG Sec. 540.525、BAM、NSSP Guide、Import Alert、21 CFR part 120 等未收正文一律标「转引未收」。本答复只判版本形态，不预测检查分类、不判法定身份、不出合规结论。

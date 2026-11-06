@@ -1,6 +1,6 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.10",
+  "version": "4.11",
   "source_book": "Hazard Analysis and Risk-Based Preventive Controls for Human Food: Guidance for Industry (Draft) + 21 CFR Part 117 (2025) 法规正文 + Control of Listeria monocytogenes in Ready-To-Eat Foods: Guidance for Industry (Draft, 2017-01)",
   "darwin_compatible": true,
   "test_cases": [
@@ -463,7 +463,7 @@
       "id": "iom-04",
       "type": "should_trigger",
       "prompt": "FDA 483 回复的 15 个工作日到底是哪里规定的？CPGM 里有，IOM 里有没有？482、483、484、4056 分别什么时候给谁？",
-      "expected_behavior": "应给出双出处与表单地图。① 15 个工作日：CPGM 7303.040 PART III.1 写 FDA expects to receive a facility's FDA 483 response within 15 business days of the end date of the inspection（境外另有 FDA483responseinternational@fda.hhs.gov）；IOM 5.5.12.3 是通用程序出处——15 个工作日内的充分回复 may impact FDA's determination of the need for subsequent action。两者都是 FDA 期望/程序口径，不是法定时限，不得与〔§ 117.145〕7 个工作日记录审核、豁免撤销 15/90/120 日窗口混算，也不得说逾期即违法。② 表单：482 国内到场检查前发 OOAC（境外一般不发）、482d FSVP 记录索取、482c 检查前索取记录、483 收尾会签发已签署版本（不得展示草稿）、483a FSVP、4056 农场、484 取任何实体样必发且一般在结束时；须用 OOAC 与企业法定名称。③ 引用分别用「CPGM 7303.040 PART x」与「IOM 5.x.x」，全包十五类不可混引",
+      "expected_behavior": "应给出双出处与表单地图。① 15 个工作日：CPGM 7303.040 PART III.1 写 FDA expects to receive a facility's FDA 483 response within 15 business days of the end date of the inspection（境外另有 FDA483responseinternational@fda.hhs.gov）；IOM 5.5.12.3 是通用程序出处——15 个工作日内的充分回复 may impact FDA's determination of the need for subsequent action。两者都是 FDA 期望/程序口径，不是法定时限，不得与〔§ 117.145〕7 个工作日记录审核、豁免撤销 15/90/120 日窗口混算，也不得说逾期即违法。② 表单：482 国内到场检查前发 OOAC（境外一般不发）、482d FSVP 记录索取、482c 检查前索取记录、483 收尾会签发已签署版本（不得展示草稿）、483a FSVP、4056 农场、484 取任何实体样必发且一般在结束时；须用 OOAC 与企业法定名称。③ 引用分别用「CPGM 7303.040 PART x」与「IOM 5.x.x」，全包十六类不可混引",
       "notes": "v4.5 第九来源：15 工作日双出处 + 表单地图"
     },
     {
@@ -519,7 +519,7 @@
       "id": "lacf-07",
       "type": "should_trigger",
       "prompt": "FDA 通知要对我们做 RRA（远程监管评估），这是不是就等于检查完了？我们是不是可以不给记录？2025 年不是扩大无预告检查了吗，帮我们把政策依据列一下。",
-      "expected_behavior": "分层回答，不编造政策条文。① CP 7303.070 PART II.2.B(2) 给**程序性定义**：RRA 自愿、全程远程，用于常规境内外监督无法开展或远程更合适时；`RRAs are not considered inspections, conducted pursuant to section 704(a)(1) of the FD&C Act`，且 `RRAs do not satisfy statutory requirements that specify inspection under section 704 of the FD&C Act (e.g., section 510(h) or 503B(b))`。**可以替代监督动作，不能替代法定检查**；因此「等于检查完了」不成立。② 记录义务不因远程而消失：〔§ 117.320〕口头或书面请求即须 promptly 提供并可供复制、〔§ 117.315(c)〕FSP 在现场/异地记录 24 小时内取回现场（记录举证矩阵见 CAP-16）。③ 预告口径仍以 IOM 5.2.7 为准：食品企业一般不预告（program division 裁量）、境外通常提前告知、国内预告一般不少于 5 个日历日、预告不是预约；**2025 年境外无预告检查扩张、RRA 适用范围与 704(a)(4) 检查前索取记录属 FDA 政策公告层，本包未收原文**，只作准备原则，不得写成条款级结论或编造公告编号。④ 引用用「CP 7303.070 PART II.2.B(2)」与「IOM 5.2.7」，十五类不可混引",
+      "expected_behavior": "分层回答，不编造政策条文。① CP 7303.070 PART II.2.B(2) 给**程序性定义**：RRA 自愿、全程远程，用于常规境内外监督无法开展或远程更合适时；`RRAs are not considered inspections, conducted pursuant to section 704(a)(1) of the FD&C Act`，且 `RRAs do not satisfy statutory requirements that specify inspection under section 704 of the FD&C Act (e.g., section 510(h) or 503B(b))`。**可以替代监督动作，不能替代法定检查**；因此「等于检查完了」不成立。② 记录义务不因远程而消失：〔§ 117.320〕口头或书面请求即须 promptly 提供并可供复制、〔§ 117.315(c)〕FSP 在现场/异地记录 24 小时内取回现场（记录举证矩阵见 CAP-16）。③ 预告口径仍以 IOM 5.2.7 为准：食品企业一般不预告（program division 裁量）、境外通常提前告知、国内预告一般不少于 5 个日历日、预告不是预约；**2025 年境外无预告检查扩张、RRA 适用范围与 704(a)(4) 检查前索取记录属 FDA 政策公告层，本包未收原文**，只作准备原则，不得写成条款级结论或编造公告编号。④ 引用用「CP 7303.070 PART II.2.B(2)」与「IOM 5.2.7」，十六类不可混引",
       "notes": "v4.6 第十来源：RRA 程序性定义 + 预告口径不被替换 + 政策原文未收"
     },
     {
@@ -603,14 +603,14 @@
       "id": "fsvp-01",
       "type": "should_trigger",
       "prompt": "我们公司既做进口也是加工厂，已经按 21 CFR Part 117 做了完整的供应链验证，是不是就不用单独建 FSVP 了？",
-      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 supply-chain-verification）：① 先按 §1.500 判 FSVPI 身份，再区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）是两套法源、两类主体；② 引用 CP 7303.878 PART II.3.A 与 CPGM 7303.040 PART III 的 deemed compliance 原文，说明制造商/加工商符合 part 117（或 507）供应链要求时视为符合 FSVP；③ **必须点出括号例外** `except they must comply with section 1.509`，即每一 entry line 的 UFI/DUNS 电子申报不免除；④ 补反向口径：不是 receiving facility 的进口商仍须完整 FSVP；⑤ 21 CFR part 1 subpart L 正文转引未收，全包十五类不可混引。",
+      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 supply-chain-verification）：① 先按 §1.500 判 FSVPI 身份，再区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）是两套法源、两类主体；② 引用 CP 7303.878 PART II.3.A 与 CPGM 7303.040 PART III 的 deemed compliance 原文，说明制造商/加工商符合 part 117（或 507）供应链要求时视为符合 FSVP；③ **必须点出括号例外** `except they must comply with section 1.509`，即每一 entry line 的 UFI/DUNS 电子申报不免除；④ 补反向口径：不是 receiving facility 的进口商仍须完整 FSVP；⑤ 21 CFR part 1 subpart L 正文转引未收，全包十六类不可混引。",
       "notes": "v4.8：deemed compliance 与 §1.509 例外"
     },
     {
       "id": "fsvp-02",
       "type": "should_trigger",
       "prompt": "FDA 通知下周来做 FSVP 检查，我们要按 CP 7303.050 准备多少 subs 样品、环境拭子怎么布点？",
-      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 inspection-sampling）：① 明确纠正串轨——CP 7303.878 PART III.1.C 原文 `Samples will not be collected as part of an FSVP inspection.`，PART IV – ANALYTICAL 四节全部 `Intentionally Left Blank`；② CP 7303.050 的 subs 数、环境拭子 50/100、Zone 1–3、WGS/GenomeTrakr、PAF 代码属于另一个 program，不得套用；③ 给 FSVP 检查真正要备的六组记录（按食品建立的 FSVP、书面危害分析与他方分析审阅、供应商批准评价、验证活动、§1.509 入境标识、纠正措施与 483a 回复）；④ 检查可 on-site 或 remote，纠正措施记 EIR 与 CAR；⑤ 全包十五类不可混引。",
+      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 inspection-sampling）：① 明确纠正串轨——CP 7303.878 PART III.1.C 原文 `Samples will not be collected as part of an FSVP inspection.`，PART IV – ANALYTICAL 四节全部 `Intentionally Left Blank`；② CP 7303.050 的 subs 数、环境拭子 50/100、Zone 1–3、WGS/GenomeTrakr、PAF 代码属于另一个 program，不得套用；③ 给 FSVP 检查真正要备的六组记录（按食品建立的 FSVP、书面危害分析与他方分析审阅、供应商批准评价、验证活动、§1.509 入境标识、纠正措施与 483a 回复）；④ 检查可 on-site 或 remote，纠正措施记 EIR 与 CAR；⑤ 全包十六类不可混引。",
       "notes": "v4.8：FSVP 检查不取样，反串轨纠偏"
     },
     {
@@ -659,7 +659,7 @@
       "id": "fsvp-09",
       "type": "edge_case",
       "prompt": "Import Alert 99-41 和做低酸罐头时说的 99-37/99-38 是一回事吗？没备案是不是就自动 DWPE？",
-      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 lacf-inspection-program）：① 99-41 属 CP 7303.878，针对 FSVP 不合规的进口商，依 §801(a)(3) 对食品作 DWPE；99-37（无 filed scheduled process）与 99-38（过程控制不足）属 CP 7303.070，针对 LACF/AF 轨道；② 列名对象不同：99-41 是 FSVPI / 食品 / 境外供应商组合，99-37/99-38 是企业与产品；③ **不得仅因未注册/未备案建议 DWPE** 是 CP 7303.070 PART V.2 的原文限制，须先查 FURLS / Center Views 的 FCE 与 SID；④ 两者法律 hook 与触发条件不同，不得混引；⑤ Import Alert 全文、part 108 正文均转引未收，全包十五类不可混引。",
+      "expected_behavior": "应激活本技能并加载 fsvp-inspection-program 卡（辅读 lacf-inspection-program）：① 99-41 属 CP 7303.878，针对 FSVP 不合规的进口商，依 §801(a)(3) 对食品作 DWPE；99-37（无 filed scheduled process）与 99-38（过程控制不足）属 CP 7303.070，针对 LACF/AF 轨道；② 列名对象不同：99-41 是 FSVPI / 食品 / 境外供应商组合，99-37/99-38 是企业与产品；③ **不得仅因未注册/未备案建议 DWPE** 是 CP 7303.070 PART V.2 的原文限制，须先查 FURLS / Center Views 的 FCE 与 SID；④ 两者法律 hook 与触发条件不同，不得混引；⑤ Import Alert 全文、part 108 正文均转引未收，全包十六类不可混引。",
       "notes": "v4.8：99-41 vs 99-37/99-38，反 DWPE 陷阱"
     },
     {
@@ -733,7 +733,7 @@
       "id": "seafood-hazards-01",
       "type": "should_trigger",
       "prompt": "我们做冷冻金枪鱼排，查了 Ch.3 的 Table 3-2，表里这个鱼种组胺那栏没打勾，是不是危害分析里就可以直接写「组胺不显著」？",
-      "expected_behavior": "应激活本技能并加载 seafood-hazards-controls-guide 卡：① Ch.3 三张表只列**潜在**危害，指南明文 `the tables should not be used separately for this purpose`，必须结合 Ch.4–21 各章与自身/外部专家判断；② 显著性闸门是 `reasonably likely to occur`，且须在**无控制条件下**判定；③ 表未打勾不等于该危害在本厂工艺下不发生，新出现危害与物种替换由加工者自行警觉；④ 结论落在 Worksheet 第 3 栏 Yes/No，且**第 4 栏无论 Yes/No 都要写理由**；⑤ 法定义务回〔§ 123.6〕/CAP-22，不得把指南表当合规清单。全包十五类不可混引。",
+      "expected_behavior": "应激活本技能并加载 seafood-hazards-controls-guide 卡：① Ch.3 三张表只列**潜在**危害，指南明文 `the tables should not be used separately for this purpose`，必须结合 Ch.4–21 各章与自身/外部专家判断；② 显著性闸门是 `reasonably likely to occur`，且须在**无控制条件下**判定；③ 表未打勾不等于该危害在本厂工艺下不发生，新出现危害与物种替换由加工者自行警觉；④ 结论落在 Worksheet 第 3 栏 Yes/No，且**第 4 栏无论 Yes/No 都要写理由**；⑤ 法定义务回〔§ 123.6〕/CAP-22，不得把指南表当合规清单。全包十六类不可混引。",
       "notes": "v4.10：表不可单独用 + 潜在危害≠显著危害"
     },
     {
@@ -754,7 +754,7 @@
       "id": "seafood-hazards-04",
       "type": "should_trigger",
       "prompt": "危害分析工作表第 3 栏填了 No 的那些步骤，第 4 栏还要写理由吗？后面 18 步是不是都得走完？",
-      "expected_behavior": "应激活并加载 seafood-hazards-controls-guide 卡：① 第 4 栏理由对 `Yes` 与 `No` **同等必填**，是后续强制复审与监管质询的唯一举证位；② 第 3 栏答 No 的步骤**可跳过 Steps 11–18**，第 6 栏答 No 的步骤可跳过 Steps 12–18；③ 六栏工作表（步骤/潜在危害/是否显著/理由/预防措施/是否 CCP）与 HACCP Plan Form 十栏的映射要说清；④ 法规〔§ 123.6〕不要求危害分析书面化，但 FDA 期望书面化以便举证——不得把 PCHF 的书面危害分析义务套到 Part 123；⑤ 全包十五类不可混引。",
+      "expected_behavior": "应激活并加载 seafood-hazards-controls-guide 卡：① 第 4 栏理由对 `Yes` 与 `No` **同等必填**，是后续强制复审与监管质询的唯一举证位；② 第 3 栏答 No 的步骤**可跳过 Steps 11–18**，第 6 栏答 No 的步骤可跳过 Steps 12–18；③ 六栏工作表（步骤/潜在危害/是否显著/理由/预防措施/是否 CCP）与 HACCP Plan Form 十栏的映射要说清；④ 法规〔§ 123.6〕不要求危害分析书面化，但 FDA 期望书面化以便举证——不得把 PCHF 的书面危害分析义务套到 Part 123；⑤ 全包十六类不可混引。",
       "notes": "v4.10：六栏工作表、理由必填与步骤跳过规则"
     },
     {
@@ -782,14 +782,14 @@
       "id": "seafood-hazards-08",
       "type": "edge_case",
       "prompt": "既然这份指南自己说没有法律约束力、可以用别的控制策略，那我们是不是连 Part 123 要求的书面 HACCP 计划和危害分析都可以不做？",
-      "expected_behavior": "必须同时纠正**两个方向**的误读：① 指南非强制（不设 legally enforceable responsibilities、should 只是建议、可替代控制策略）——所以不能把指南的示例表单/限值/表格当合规清单；② **但** 21 CFR Part 123 的 `shall` 义务（〔§ 123.6(a)〕危害分析、〔§ 123.6(b)〕书面 HACCP 计划、〔§ 123.7〕纠正措施、〔§ 123.8〕验证、〔§ 123.9〕记录、〔§ 123.10〕培训）是法条层，不因指南非强制而变成可选，转 CAP-22；③ 指南内凡出现 must / require 多为回指法规，其强制力来自法规；④ 「可用替代控制策略」的前提是 `as long as they comply with the requirements of the applicable food safety laws and regulations` 且 `scientifically establish their adequacy`；⑤ 十五类不可混引。",
+      "expected_behavior": "必须同时纠正**两个方向**的误读：① 指南非强制（不设 legally enforceable responsibilities、should 只是建议、可替代控制策略）——所以不能把指南的示例表单/限值/表格当合规清单；② **但** 21 CFR Part 123 的 `shall` 义务（〔§ 123.6(a)〕危害分析、〔§ 123.6(b)〕书面 HACCP 计划、〔§ 123.7〕纠正措施、〔§ 123.8〕验证、〔§ 123.9〕记录、〔§ 123.10〕培训）是法条层，不因指南非强制而变成可选，转 CAP-22；③ 指南内凡出现 must / require 多为回指法规，其强制力来自法规；④ 「可用替代控制策略」的前提是 `as long as they comply with the requirements of the applicable food safety laws and regulations` 且 `scientifically establish their adequacy`；⑤ 十六类不可混引。",
       "notes": "v4.10：双向误读——把指南当法规 / 把法条义务稀释成可选"
     },
     {
       "id": "seafood-hazards-09",
       "type": "edge_case",
       "prompt": "2022 年 6 月第 4 版是新规吧？麻烦把 Appendix 3 的 CCP 判定树逐字原文、CPG 540.525 全文、以及 NSSP 贝类生长区分类都列出来。",
-      "expected_behavior": "必须分清可答与转引未收：① **版本口径**——封面 June 2022 第 4 版，但 Ch.3 页脚 `3 - 1 (June 2021)`、Appendix 3 为 `A3-1 (June 2021)`、Appendix 5 为 `A5-1 (June 2021)`、Ch.19 书目为 August 2019，属**分章滚动修订**，不是 2022 新规则；② **转换质量红线**——Appendix 3 的 CCP 判定树在导出件里塌陷成残缺表格，Q1/Q2/Q3 与分支框无法逐字复原，只能给逻辑、须回查 PDF 原版，表格列头连写/页码混入/字符丢失也不得作逐字引用；③ CPG Sec. 540.525 / 555.300 / 575.100、NSSP Guide、21 CFR part 120 / 1240 / 108 / 110 / 507、CP 7303.842、Import Alert 16-xx、BAM 海产品章节**一律标转引未收**；④ 可给的是本指南内的判定方法与出处；⑤ 十五类不可混引。",
+      "expected_behavior": "必须分清可答与转引未收：① **版本口径**——封面 June 2022 第 4 版，但 Ch.3 页脚 `3 - 1 (June 2021)`、Appendix 3 为 `A3-1 (June 2021)`、Appendix 5 为 `A5-1 (June 2021)`、Ch.19 书目为 August 2019，属**分章滚动修订**，不是 2022 新规则；② **转换质量红线**——Appendix 3 的 CCP 判定树在导出件里塌陷成残缺表格，Q1/Q2/Q3 与分支框无法逐字复原，只能给逻辑、须回查 PDF 原版，表格列头连写/页码混入/字符丢失也不得作逐字引用；③ CPG Sec. 540.525 / 555.300 / 575.100、NSSP Guide、21 CFR part 120 / 1240 / 108 / 110 / 507、CP 7303.842、Import Alert 16-xx、BAM 海产品章节**一律标转引未收**；④ 可给的是本指南内的判定方法与出处；⑤ 十六类不可混引。",
       "notes": "v4.10：版本陷阱 + 转换质量红线 + 转引未收边界"
     },
     {
@@ -798,8 +798,78 @@
       "prompt": "按中国 GB 2733 帮我判定这批鲜冻动物性水产品的组胺限量和感官要求，顺便写一份出口欧盟的卫生证书。",
       "expected_behavior": "不应激活本技能给出条款级结论：本包只覆盖 FDA 方法论与 21 CFR 条款，不做中国 GB 标准或欧盟法规的直接合规判定，也不代写官方卫生证书（跨体系映射与文书代写属 out_of_scope / stop_conditions）。应明确说明超出覆盖范围并建议咨询对应法域的专业机构；若用户改问 FDA 海产品危害分析判定链，再转 seafood-hazards-controls-guide 卡。",
       "notes": "v4.10：跨法域与文书代写负例（来源路由互斥）"
+    },
+    {
+      "id": "seafood-inspection-01",
+      "type": "should_trigger",
+      "prompt": "我手上这份 FDA 文件名叫 20250929_CP 7303.842 ... 508-Compliant.pdf，首页还写 Date of Issuance 09/30/025，请问这是 2025 年新发布的海产品检查程序吗？和 CPGM 7303.040 的 2025-CPM-HFP-001 是同一种版本形态吗？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：明确文件名 20250929 只是 PDF 生成日（creationDate 2025-09-29），本件是 IMPLEMENTATION DATE 11/01/2023 的 2023 版程序 + Correction date 09/30/2025 的更正本，不是 2025 新签发 program；与 CP 7303.050 / 7303.070 / 7303.878 同属旧程序更正本形态，不同于 CPGM 7303.040 的新 Transmittal 2025-CPM-HFP-001。并说明 Date of Issuance 09/30/025 是文本层残缺、正文页脚为 11/1/2023，引用 issuance 日期须注明出处。",
+      "notes": "v4.11：版本判定与文件名陷阱"
+    },
+    {
+      "id": "seafood-inspection-02",
+      "type": "should_trigger",
+      "prompt": "CP 7303.842 和 CP 7303.844 现在合并了吗？合并后进口和国产样品是不是都报同一个 PAC 码？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：首页 NOTE 与 PART I 写明两程序已合并为单一 CP 7303.842（Seafood Processor and Products Inspection Program），但 PAC codes for sampling and analysis 仍区分进口 03844x / 国产 03842x；并区分取样/分析 PAC 与检查报告 PAC 两套码表（03842 / 03842H / 03844H / 03040），提示 03842H 同名不同义。不得回答为「码表已统一」。",
+      "notes": "v4.11：程序合并 ≠ PAC 码合并"
+    },
+    {
+      "id": "seafood-inspection-03",
+      "type": "should_trigger",
+      "prompt": "我们厂做减氧包装的熏制水产品和普通冷冻鱼，FDA 来检查时会先看哪张表排优先级？进口商检查数量怎么定？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：Table 1 按产品/工艺风险降序（ROP / C. botulinum 属 HIGHER RISK POTENTIAL），用于确定 HACCP 检查焦点与取样风险，且 not all inclusive、跨类取最高风险类别、表外查 Hazards Guide 第 3 章；Table 2 仅用于 work planning 按企业/进口商合规史排序，进口商数量由 OII workplan 定并受 90% / 10% 与 <100 entry line items 约束。两块不可对调，也不得把优先级表写成企业合规清单。",
+      "notes": "v4.11：Table 1 / Table 2 分工"
+    },
+    {
+      "id": "seafood-inspection-04",
+      "type": "should_trigger",
+      "prompt": "海产品 HACCP 检查有哪些类型？加工船、境外加工商、NSSP 贝类企业和进口商各有什么特别要求？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：给出 PART III 六类分流；至少写明 HACCP Program Evaluations 聚焦最高风险产品且在企业已知在生产时进行、Part 117 C/G 不能替代 Part 123、Vessels 通常靠港非作业检查、Foreign Establishments 只覆盖输美产品且选点看产品风险 + 合规史、NSSP 须 standardized inspector 与 ISSC Form 93-01(A)、Importer 依〔§ 123.12〕且境外加工商 HACCP 计划缺陷不得上 483 而转 HFP。条款级义务须转 CAP-22。",
+      "notes": "v4.11：六类检查分流"
+    },
+    {
+      "id": "seafood-inspection-05",
+      "type": "should_trigger",
+      "prompt": "国内海产品厂的常规 HACCP 检查，是不是每次都要取官方样品送检？取样量按 ATTACHMENT A 的 Table A-1 就行了吗？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：国产官方样品仅 for cause，不必常规采国产样支持 HACCP 违规监管行动；控制明显不足时不取样而在 483 说明控制缺失、EIR 描述条件，确需取样须先联系 HFP。ATTACHMENT A 的 subs 数仅适用于 surveillance and audit samples，不能用于 reconditioning 验证、DWPE 放行或 Domestic HACCP Verification，702(b) duplicate 也不含在表列 subs 内。",
+      "notes": "v4.11：for cause only 与取样量适用域"
+    },
+    {
+      "id": "seafood-inspection-06",
+      "type": "should_trigger",
+      "prompt": "为支持州际贸易开了一份 documentary sample，PAC 该报 03842H 还是 03842？算不算 Division Workplan 的取样任务？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：documentary samples 只报 PAC 03842，不得使用以 H 结尾的 HACCP 验证 PAC，也不计入 Division Workplan 义务；并说明 03842H 在取样表是 HACCP Verification（进口列 Not applicable）、在报告表是 Processor HACCP Inspection 的同名不同义。",
+      "notes": "v4.11：documentary samples 硬约束"
+    },
+    {
+      "id": "seafood-inspection-07",
+      "type": "should_trigger",
+      "prompt": "CP 7303.842 里写组胺 500 ppm / 50 ppm / 35 ppm，是不是 FDA 对金枪鱼的法定组胺限量？我们成品按 50 ppm 放行合规吗？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡并纠正误读：这些是 PART IV.C 对初始 6 subs 的追加分析 / check analysis 触发规则，属检查员作业口径，不是法规限值、不是产品放行标准、不是 BAM 方法全文；判据出口为 CPG Sec. 540.525（本包未收，标转引未收）。不得与 CAP-23 的 50 ppm 分解指示 / 500 ppm 毒性水平混为一谈；企业合规结论须回〔§ 123.xxx〕/ CAP-22。",
+      "notes": "v4.11：阈值性质反例"
+    },
+    {
+      "id": "seafood-inspection-08",
+      "type": "should_trigger",
+      "prompt": "只要 Table 4 把某条 123.6 缺陷标成 Major，是不是就自动发 Warning Letter 并列入 DWPE？这个 Major 和危害分析里的 significant hazard 是一回事吗？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡：Table 4 只是 ranking 工具且原文 Significance must be determined on a case-by-case basis；Major/Minor 针对 HACCP 系统完整性与食品安全风险，不是〔§ 123.6〕的 reasonably likely to occur / significant hazard 判定；Warning Letters 是 should be considered，DWPE 放行/移出须 HFP OCE concurrence，judicial actions 须 Center 评估同意并经 CMS。不得写成自动触发，也不得把表内 Citation 当成法条原文展开（转 CAP-22）。",
+      "notes": "v4.11：Table 4 与执法裁量反例"
+    },
+    {
+      "id": "seafood-inspection-09",
+      "type": "should_trigger",
+      "prompt": "FSVP 检查明确不取样、PART IV 全空，那海产品进口商的 HACCP 检查是不是也不取样？两套检查能互相套用吗？",
+      "expected_behavior": "应激活 seafood-inspection-program 卡并分流到 fsvp-inspection-program：CP 7303.878 的 Samples will not be collected as part of an FSVP inspection / PART IV 空白只适用于 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）；本 CP 的进口商 HACCP 检查依〔§ 123.12〕，有 Imported Seafood Surveillance Sampling 与 03844H 报告 PAC。两套法源、两套动作，不得反向套用；FSVP 法规条文标转引未收。",
+      "notes": "v4.11：FSVP 与 §123.12 双轨反例"
+    },
+    {
+      "id": "seafood-inspection-10",
+      "type": "should_not_trigger",
+      "prompt": "按中国 GB 2733 帮我判定这批水产品的组胺限量，顺便按欧盟法规写一份海产品出口卫生证书和 FDA 检查应对承诺函。",
+      "expected_behavior": "不应激活本技能给出条款级结论或代写文书：本包只覆盖 FDA 方法论与 21 CFR 条款，不做中国 GB 标准或欧盟法规的直接合规判定，也不代写官方卫生证书或承诺函（out_of_scope / stop_conditions）。应明确说明超出覆盖范围并建议咨询对应法域专业机构；若用户改问 FDA 海产品检查程序判定链，再转 seafood-inspection-program 卡。",
+      "notes": "v4.11：跨法域与文书代写负例"
     }
   ],
   "minimum_pass_rate": 0.8,
-  "notes": "single 模式：所有能力卡经唯一入口路由，'兄弟混淆'体现在能力卡路由层（edge 用例验证卡选择）。should_not_trigger 容错为 0。本套件可直接接入 darwin-skill 自动进化。v2.0 新增 7 条法规层用例（cfr-*）。v2.1 术语统一：全库'过程控制'→'工艺控制'，glossary 新增 t27 process control（工艺控制）中英对照锚点；新增 term-rename-01 验证中英双语触发。v3.0 并入第三来源 FDA《Control of Listeria monocytogenes in RTE Foods》(2017-01 Draft)：能力卡 11→13 张（新增 environmental-engineering-controls 厂房与设备工程控制、personnel-hygiene-controls 人员卫生控制），glossary 85→100 条；新增 12 条 lmono-* 用例，覆盖两张新卡独立触发、抑制型配方验证、阳性升级决策树、以及五条关键边界——pH 4.6/4.4 两套基准、成品检测与环境监测方向相反、Draft 建议层 vs 法规 must 层、0.04 CFU/g 方法灵敏度、4°C/5°C 冷藏双基准。v3.0 当时记的「盲测尚未运行」已于 v4.7 安装后补跑完成：适配器套件 85 条，3 个干净 sub-agent 盲判，官方 score 得 TP 80 / FP 0 / FN 0 / TN 5、F1 1.000；方法与 6 条解读限制见 .cangjie/v4-7-trigger-eval-report.md。 | v4.0 追加 9 条 SECG/cGMP 合规分诊用例（6 正例、2 边界、1 反例），覆盖四层效力栈、九条索引、替代方案、豁免分层、掺混禁令、事实纠错与跨体系边界；第四来源为 FDA《Small Entity Compliance Guide》(2016-10)。 | v4.2 追加 3 条 Ed.5 用例（Table 1 封闭树坚果清单、milk/eggs 物种扩展、free-from 与 advisory 互斥），并验证『标签法源 ≠ Part 117 预防控制义务』；第五来源为 FDA 食品过敏原问答 Ed.5（2025-01 修订终版）。 | v4.3 追加 3 条缺陷行动水平用例（阈值非安全港、110.110 过时引用与不存在的 117.110(c)、表内无产品的逐案评估与 SIGNIFICANCE 真菌毒素联动）；新增第 15 张卡 defect-action-levels，第六来源为 FDA《Food Defect Levels Handbook》网页正文。 | v4.4 追加 4 条迎检用例（三层分级旧口径纠错与 483 回复 15 工作日、Limited Scope 取证边界与环境取样强制转换、official review 记录举证矩阵、2020 旧 SOP 版本陷阱与 OAI 后续及境外 routing）；新增第 16 张卡 inspection-readiness，第七来源为 FDA CPGM 7303.040 现行版（2025-CPM-HFP-001），旧版 2020-CPGM-CFSAN-003 留作已废止的历史对照。 | v4.5 追加 8 条用例（3 条 sampling-* + 5 条 iom-*）：CP 7303.050 样品量与 702(b)、Zone 1 阳性与样品合格不阻碍 cGMP、2025 文件名版本陷阱与 PART V 表非穷尽、IOM 483 措辞纪律与 non-reportable observation、预告三层与境外 482、拒绝边界与电子记录/484/807(b)、15 工作日双出处与表单地图、照片证据地位与 IOM 只收 Ch.5；新增第 17 张卡 inspection-sampling（第八来源 CP 7303.050，2022 签发 / 2025-09-10 更正）与第 18 张卡 investigator-authority-procedure（第九来源 IOM 2026 Chapter 5），全包九类不可混引。 | v4.6 追加 8 条用例（lacf-01..08）：酸化食品不免 Subparts C/G 的头号误读、残余危害与 §117.201 误引纠正、Keep Refrigerated / brites 路由、酸化判定三步与 HFP 判定权、三套 pH/aw 数字与 Never average、Import Alert 99-37 反直觉限制与 FCE/SID 核验、RRA 程序性定义与政策原文未收、版本陷阱与 108/113/114 转引未收；新增第 19 张卡 lacf-inspection-program（第十来源 CP 7303.070，2024 签发 / 2025-09-26 更正），全包十类不可混引；并把既有 1 处「九类不可混引」同步为十类。 | v4.7 追加 10 条用例（stat-01..10）：专项 CGMP 与 Part 117 并行、§117.5(d) 双条件有限豁免且 part 114 不豁免、§114.5 的 parts 110 and 117 与 Part 110 至今有效（推翻 v4.3 旧结论）、三套 pH/aw 数字与 4.0 电位法、两 part 记录保存口径差异（§113.100(g)(h) 1+2 年 + part 11 vs §114.100(e) 整段 3 年）、酸化不等于免热处理、§114.89 三条偏差路径、BPCS 与 §113.87(b) FDA 调阅权、4-1-25 Edition 版次与 shall/should、Part 113/114 已收 vs part 108/BAM/备案流程未收；新增第 20 张卡 lacf-statutory-requirements，第十一来源 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）与第十二来源 21 CFR Part 114（7 页 / 8 条款），全包十二类不可混引；同步改写 defect-level-02 / lacf-08 两处旧结论，并把既有「十类不可混引」同步为十二类。 | v4.8 追加 10 条 fsvp-* 用例（deemed compliance 与 §1.509、FSVP 检查不取样、UFI/DUNS、§1.501 豁免、standard/modified 可选关系、483a 观察分级、首次违法裁量、99-41 Red List 与移除、99-41 vs 99-37/99-38、版本陷阱与转引未收）；新增第 21 张卡 fsvp-inspection-program，第十三来源为 FDA CP 7303.878（2023 版 / 2025-08-28 更正），全包十三类不可混引。v4.7 的触发盲测与补充质量评测结果见 .cangjie/v4-7-output-routing-eval-report.md，本版未重跑评测。 | v4.9 追加 10 条 seafood-* 用例（seafood-01..10：fish 与 fishery product 的法定范围、§123.5(a) 默认适用与 §117.5(b) 双向锁定、§123.6(c)(1)(i)–(ix) 九项危害考虑清单、§123.8 验证与 1 周/年度复审、§123.9 记录 1 年/2 年、§123.12 与 FSVP 双轨、§1240.60(c) 转引未收、CP 7303.842 未收、4-1-25 Edition 版本口径与十四类不可混引）；新增第 22 张卡 seafood-haccp-statutory-requirements，第十四来源为 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款），全包十四类不可混引，全库 172 条术语 / 105 条用例。 | v4.10 追加 10 条 seafood-hazards-* 用例（Ch.3 表不可单独用、无控制条件判定与组胺二选一、显著≠该步控制与 CCP 判定树、六栏工作表与 Yes/No 理由、完整 18 步判定链、建议参数≠法定限值与外部法源回指、control strategy example 与 CCP 漂移、双向误读边界、版本陷阱与转引未收、跨法域负例）；新增第 23 张卡 seafood-hazards-controls-guide，第十五来源为 FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版 June 2022（技术指南层，与 CAP-22 法条层配对），全包十五类不可混引，全库 182 条术语 / 115 条用例。本版未重跑触发/输出/路由评测。"
+  "notes": "single 模式：所有能力卡经唯一入口路由，'兄弟混淆'体现在能力卡路由层（edge 用例验证卡选择）。should_not_trigger 容错为 0。本套件可直接接入 darwin-skill 自动进化。v2.0 新增 7 条法规层用例（cfr-*）。v2.1 术语统一：全库'过程控制'→'工艺控制'，glossary 新增 t27 process control（工艺控制）中英对照锚点；新增 term-rename-01 验证中英双语触发。v3.0 并入第三来源 FDA《Control of Listeria monocytogenes in RTE Foods》(2017-01 Draft)：能力卡 11→13 张（新增 environmental-engineering-controls 厂房与设备工程控制、personnel-hygiene-controls 人员卫生控制），glossary 85→100 条；新增 12 条 lmono-* 用例，覆盖两张新卡独立触发、抑制型配方验证、阳性升级决策树、以及五条关键边界——pH 4.6/4.4 两套基准、成品检测与环境监测方向相反、Draft 建议层 vs 法规 must 层、0.04 CFU/g 方法灵敏度、4°C/5°C 冷藏双基准。v3.0 当时记的「盲测尚未运行」已于 v4.7 安装后补跑完成：适配器套件 85 条，3 个干净 sub-agent 盲判，官方 score 得 TP 80 / FP 0 / FN 0 / TN 5、F1 1.000；方法与 6 条解读限制见 .cangjie/v4-7-trigger-eval-report.md。 | v4.0 追加 9 条 SECG/cGMP 合规分诊用例（6 正例、2 边界、1 反例），覆盖四层效力栈、九条索引、替代方案、豁免分层、掺混禁令、事实纠错与跨体系边界；第四来源为 FDA《Small Entity Compliance Guide》(2016-10)。 | v4.2 追加 3 条 Ed.5 用例（Table 1 封闭树坚果清单、milk/eggs 物种扩展、free-from 与 advisory 互斥），并验证『标签法源 ≠ Part 117 预防控制义务』；第五来源为 FDA 食品过敏原问答 Ed.5（2025-01 修订终版）。 | v4.3 追加 3 条缺陷行动水平用例（阈值非安全港、110.110 过时引用与不存在的 117.110(c)、表内无产品的逐案评估与 SIGNIFICANCE 真菌毒素联动）；新增第 15 张卡 defect-action-levels，第六来源为 FDA《Food Defect Levels Handbook》网页正文。 | v4.4 追加 4 条迎检用例（三层分级旧口径纠错与 483 回复 15 工作日、Limited Scope 取证边界与环境取样强制转换、official review 记录举证矩阵、2020 旧 SOP 版本陷阱与 OAI 后续及境外 routing）；新增第 16 张卡 inspection-readiness，第七来源为 FDA CPGM 7303.040 现行版（2025-CPM-HFP-001），旧版 2020-CPGM-CFSAN-003 留作已废止的历史对照。 | v4.5 追加 8 条用例（3 条 sampling-* + 5 条 iom-*）：CP 7303.050 样品量与 702(b)、Zone 1 阳性与样品合格不阻碍 cGMP、2025 文件名版本陷阱与 PART V 表非穷尽、IOM 483 措辞纪律与 non-reportable observation、预告三层与境外 482、拒绝边界与电子记录/484/807(b)、15 工作日双出处与表单地图、照片证据地位与 IOM 只收 Ch.5；新增第 17 张卡 inspection-sampling（第八来源 CP 7303.050，2022 签发 / 2025-09-10 更正）与第 18 张卡 investigator-authority-procedure（第九来源 IOM 2026 Chapter 5），全包九类不可混引。 | v4.6 追加 8 条用例（lacf-01..08）：酸化食品不免 Subparts C/G 的头号误读、残余危害与 §117.201 误引纠正、Keep Refrigerated / brites 路由、酸化判定三步与 HFP 判定权、三套 pH/aw 数字与 Never average、Import Alert 99-37 反直觉限制与 FCE/SID 核验、RRA 程序性定义与政策原文未收、版本陷阱与 108/113/114 转引未收；新增第 19 张卡 lacf-inspection-program（第十来源 CP 7303.070，2024 签发 / 2025-09-26 更正），全包十类不可混引；并把既有 1 处「九类不可混引」同步为十类。 | v4.7 追加 10 条用例（stat-01..10）：专项 CGMP 与 Part 117 并行、§117.5(d) 双条件有限豁免且 part 114 不豁免、§114.5 的 parts 110 and 117 与 Part 110 至今有效（推翻 v4.3 旧结论）、三套 pH/aw 数字与 4.0 电位法、两 part 记录保存口径差异（§113.100(g)(h) 1+2 年 + part 11 vs §114.100(e) 整段 3 年）、酸化不等于免热处理、§114.89 三条偏差路径、BPCS 与 §113.87(b) FDA 调阅权、4-1-25 Edition 版次与 shall/should、Part 113/114 已收 vs part 108/BAM/备案流程未收；新增第 20 张卡 lacf-statutory-requirements，第十一来源 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）与第十二来源 21 CFR Part 114（7 页 / 8 条款），全包十二类不可混引；同步改写 defect-level-02 / lacf-08 两处旧结论，并把既有「十类不可混引」同步为十二类。 | v4.8 追加 10 条 fsvp-* 用例（deemed compliance 与 §1.509、FSVP 检查不取样、UFI/DUNS、§1.501 豁免、standard/modified 可选关系、483a 观察分级、首次违法裁量、99-41 Red List 与移除、99-41 vs 99-37/99-38、版本陷阱与转引未收）；新增第 21 张卡 fsvp-inspection-program，第十三来源为 FDA CP 7303.878（2023 版 / 2025-08-28 更正），全包十三类不可混引。v4.7 的触发盲测与补充质量评测结果见 .cangjie/v4-7-output-routing-eval-report.md，本版未重跑评测。 | v4.9 追加 10 条 seafood-* 用例（seafood-01..10：fish 与 fishery product 的法定范围、§123.5(a) 默认适用与 §117.5(b) 双向锁定、§123.6(c)(1)(i)–(ix) 九项危害考虑清单、§123.8 验证与 1 周/年度复审、§123.9 记录 1 年/2 年、§123.12 与 FSVP 双轨、§1240.60(c) 转引未收、CP 7303.842 未收、4-1-25 Edition 版本口径与十四类不可混引）；新增第 22 张卡 seafood-haccp-statutory-requirements，第十四来源为 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款），全包十四类不可混引，全库 172 条术语 / 105 条用例。 | v4.10 追加 10 条 seafood-hazards-* 用例（Ch.3 表不可单独用、无控制条件判定与组胺二选一、显著≠该步控制与 CCP 判定树、六栏工作表与 Yes/No 理由、完整 18 步判定链、建议参数≠法定限值与外部法源回指、control strategy example 与 CCP 漂移、双向误读边界、版本陷阱与转引未收、跨法域负例）；新增第 23 张卡 seafood-hazards-controls-guide，第十五来源为 FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版 June 2022（技术指南层，与 CAP-22 法条层配对），全包十五类不可混引，全库 182 条术语 / 115 条用例。本版未重跑触发/输出/路由评测。 | v4.11 追加 10 条 seafood-inspection-* 用例（CP 7303.842 版本判定与 7303.844 合并、Table 1/2 分工与 90/10、六类检查分流、PAC 双码表与 03842H 同名不同义、Sampling 三类与国产 for cause only、PART IV 触发值性质与 CPG 判据出口、Table 4 ranking 与 §123.6 显著性分离、WL/DWPE 的 HFP OCE concurrence、ATTACHMENT A 适用域、十六类不可混引与版本陷阱）；新增第 24 张卡 seafood-inspection-program，第十六来源为 FDA CP 7303.842（2023-11-01 版 / 2025-09-30 更正，检查程序作业层），与 CAP-22 法条层 / CAP-23 指南层三层配对，全包十六类不可混引，全库 192 条术语 / 125 条用例。"
 }

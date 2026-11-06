@@ -1,0 +1,9 @@
+{
+  "case_id": "si-out-08",
+  "variant_label": "vA",
+  "prompt": "只要 Table 4 把某条 123.6 缺陷标成 Major，是不是就自动发 Warning Letter 并列入 DWPE？这个 Major 和危害分析里的 significant hazard 是一回事吗？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-11-eval/packets-output/si-out-08/vA.md"
+}

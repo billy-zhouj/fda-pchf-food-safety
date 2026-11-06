@@ -16,7 +16,7 @@
 - **第十二来源**: books/fda-pchf-human-food-guidance/source-cfr-part114-2025.md（**21 CFR Part 114 — Acidified Foods，4-1-25 Edition**，7 页 / 8 条款；同一双栏脚本转出，标〔§ 114.xxx〕。文件头锁死「parts 110 and 117 不是过时引用、Part 110 至今有效」的纠错）
 - **第十三来源**: books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md（FDA CP 7303.878《Foreign Supplier Verification Programs Inspections》，**Transmittal 2023-CPM-CFSAN-003 / Implementation Date 09/27/2023 / Date of Issuance 08/28/2025 更正**，33 页 / 20 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。是 2023 版程序的 2025 更正本，不是 2025 新 program；其依据的 **21 CFR part 1, subpart L（§§1.500–1.514）法规正文仍未收**，一律标「转引未收」，见 CAP-21 `fsvp-inspection-program`）
 - **输出模式**: single（用户已确认，全书均衡提取；十四次来源合并均沿用 single，未改变产物形态）
-- **当前版本**: v4.10 ✅ 编译校验并安装完成（23 张卡 / 182 术语 / 115 用例 / 十五类来源 / dist-v14）
+- **当前版本**: v4.11 ✅ 编译校验并安装完成，10 条新用例与 CAP-24 路由已补测（24 张卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15）
 - **开始时间**: 2026-11-04；最后更新 2026-11-06
 
 ## 阶段进度
@@ -32,7 +32,7 @@
 | 4 压力测试 | done | test-prompts.json v4.0（28 正例 + 5 负例诱饵 + 12 边界用例 = 45 条，darwin 兼容；盲测待补跑） |
 | 5 编译交付 | done | DIGEST.md + dist-v4/fda-pchf-food-safety（validate 0 errors / 0 warnings） |
 
-> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.10：23 张卡 / 182 术语 / 115 用例 / 十五类来源 / dist-v14**，见本文件顶部与末尾 v4.9 节；v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
+> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.11：24 张卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15**，见本文件顶部与末尾 v4.9 节；v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
 
 ## 第二至第四来源合并记录
 
@@ -285,3 +285,28 @@
 - **④ 能力卡路由评测**：46 条（23 卡各 1 条 + 20 条历史 prompt 直接作定向题 + 3 条 CAP-23 对照）× 3 轮 = **138 判**，**top-1 138/138 = 1.000**、重复一致 46/46、非法 slug 0；**CAP-21 33/33、CAP-22 33/33、CAP-23 12/12、三卡交叉错判 0**。`seafood-10` 的 notes 明说分流 CAP-22 与 CAP-20、top-1 本无唯一解，已单独披露 3 轮选卡分布并给出**不含该条的稳健数字 135/135**。结论：CAP-21（FSVP 检查程序层）与 CAP-22（Part 123 法条层）均稳定命中，互不吞噬，也未被 CAP-23 抢走。
 - **局限（随数字一起读）**：judge 为同一底座模型的干净 sub-agent，非宿主端到端激活日志；路由 `instruction` 已点名 CAP-21/22/23 三层分工（沿用 v4.7 / v4.10 做法，为可比性保留），会高估真实口语场景；词面代理 9/20 即反证；用例为原型化 prompt、judge 只看能力索引；5-skill catalog 沿用 v4.7 评测设定（`brand-ip` / `pdf2md-pro` 本机未安装）；输出只跑机械断言，无 A/B 偏好盲评、人工复核、工具调用审计；触发未作统计非劣声明；未测 also_read 辅读链。
 - **历史欠账结论：已关闭。** 完整报告与复现命令见 `.cangjie/v4-8-v4-9-legacy-eval-report.md`。
+
+## v4.11 — CP 7303.842 落为第十六来源 + 海产品检查判定链（24 张卡）
+
+- **触发与范围**：用户先安装用户级技能 `pdf2md-pro`，随后提供官方 508-Compliant PDF `20250929_CP 7303.842 Seafood Processor, Products, And Importer Inspection Program 508-Compliant.pdf`。该件是 `PIPELINE_STATE.md` v4.10 段「仍未收」清单的**第一项**，且 v4.6 / v4.7 / v4.8 三次明确暂缓未纳入。经选项确认，用户选择「纳入为第十六来源 + 1 张卡」，继续 single 输出、不另起技能包。
+- **版本判定（第四次同型纠错）**：封面 `IMPLEMENTATION DATE 11/01/2023`、`Correction date: 09/30/2025`、`Date of Issuance: 09/30/025`（PDF 文本层残缺），正文页脚 `11/1/2023`，PDF creationDate `2025-09-29` → 文件名 `20250929` **只是生成日**，本件是 **2023-11-01 版程序的 2025-09-30 更正本**，与 CP 7303.050 / 7303.070 / 7303.878 同形态，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`。首页 NOTE 与 PART I 另写明 **CP 7303.842 与 CP 7303.844 已合并为单一程序**，但 PAC 仍分进口 `03844x` / 国产 `03842x`。
+- **转换**：为跑技能第 0 步，在 `python3`（3.13.14）安装 `pymupdf4llm 2.1` / `pymupdf 2.1`；`PYTHONUTF8=1` 下转出 179,812 字节 / 1,334 行 / 203 表格行 / 148 书签全命中 / 0 残留页码。正式来源 `source-cp-7303-842-2023.md`（194,080 字节 / 1,373 行）= 文件头（版本、效力层级、与既有来源接口、关键口径、转换局限、十六类引用规范）+ `## 正文（转换原文，未改写）` + 原文。已知局限与 `source-cp-7303-878-2023.md` 同型：书签标题与 `# **…**` 伪标题并存导致 PART 各出现两次、H1 虚高 133，检索以 PART / 小节 / 表号为准；`UnicodeDecodeError` 与 RapidOCR 提示不影响文本层输出。
+- **阶段 0–5**：并行产出 `candidates/v4-11-framework.md`（整书理解 / 完整检查判定链 / 阈值清单）、`v4-11-quotes.md`（36 段逐字引用候选）、`v4-11-counter-examples.md`（14 条反例 + 9 张卡 also_read 建议）；阶段 1.6 决定只新增 1 张卡、不晋级独立 Skill。
+- **CAP-24 `seafood-inspection-program`**（33,921 字节 / 294 行 / 36 个引用块 + 44 intents / 182 keywords）：主题是**完整检查判定链**——Table 1 产品/工艺风险 + Table 2 work planning → 六类检查分流 → HACCP Program Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G 与 CPG 判据出口 → PART V Table 4 ranking（case-by-case）→ FIELD REPORTING 收口；并给出三层配对（CAP-22 法条层 / CAP-23 指南层 / 本卡检查程序层）、双向误读防护、PAC 双码表与 `03842H` 同名不同义、阈值性质、ATTACHMENT A 适用域、十六类不可混引与转换质量红线。
+- **引文核验**：`.cangjie/verify_v4_11_quotes.py` 用 `body_only()` 只取正文分界之后、先 `strip_md()` 剥离 `**`、`<u>`、`<br>`、`#`、行首 `o` / `•` 等转换标记再归一化比对，避免文件头自我验证循环。结果 **36/36 逐字命中正文区**，0 超 100 词、0 表格管道引用 → `RESULT: PASS`。
+- **规模变化**：23 → **24 张卡**；182 → **192 条术语**（t183–t192）；115 → **125 条用例**（`seafood-inspection-01..10`）；十五类 → **十六类来源**；core_principles 45 → **48**；stop_conditions 20 → **22**；additional_sources +1；`verified.yaml` / `destinations.json` / `book/` 由 `.cangjie/assemble_bundle.py` 重生成，未手改生成物。
+- **两轮口径回补策略**：`apply_v4_11_revisions.py`（21 文件 / 50 动作）用 `rep_once()` 唯一性断言 + 内存暂存 + 备份 + 末尾一次性落盘；**禁止「十五类 → 十六类」全局替换**（「第十五类」含该子串），`notes` 演进行、术语自检行与带 `v4.10` 版本注记的历史陈述整行跳过，只改确定性当前口径短语与明确点名的当前版本行，并补写 `test-prompts.json` 的 v4.11 演进句。第二轮 `apply_v4_11_cp842_residue.py`（6 文件 / 19 处）专清既有卡片中约 20 处把 CP 7303.842 写成「正文本包未收 / 请提供后纳入 / 转引未收」的**当前断言**（含 CAP-22 B1「本卡最大缺口」整段改写、CAP-23 开头仍未收清单、LACF / FSVP / 迎检卡的相邻 program 已收清单），统一改成「自 v4.11 起已收（CAP-24，检查程序作业层）+ 双向误读防护」；明确带「在 v4.8 及以前」「本包此前」的历史陈述原样保留。全库复扫只剩这 2 处历史句含「未收」。
+- **评测状态**：（当时）本版**未重跑**触发 / 输出 / 路由评测，10 条 `seafood-inspection-*` 用例与 CAP-24 路由正确性待后续补测，v4.7 / v4.10 / 历史补测的既有结论不得冒用 —— **11-07 已补测完成**：静态登记 20/20 PASS、触发 F1 0.964（84 判，2 个 FP 全来自一条跨法域边界题）、输出 `v411_skill 10/10 / without_skill 4/10`（严格套件 3/10）、路由 top-1 **111/111**（CAP-24 定向 **24/24**、三层交叉错判 0），详见下方「v4.11 补充质量评测」小节与 `.cangjie/v4-11-eval-report.md`。
+- **仍未收**：CPG Sec. 540.525 / 540.370 / 555.600 / 562.300 / 540.250 / 540.590 全文、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 与 Model Ordinance、BAM / AOAC / LIB / MPM 方法全文、Import Alert 16-74 / 16-20 / 99-41 全文、21 CFR part 1 subpart L、IOM Chapter 4、FDA 3501 / 3502 表单全文、Seafood List、eNSpect / CMS / FACTS / MARCS-CMS 内部系统、FDA–NMFS MOU / FMD#-029。
+- **编译与安装（已完成）**：`assemble_bundle.py` 重生成事实源 → `compile_single.py --bundle .cangjie/capabilities --out dist-v15 --variant single` 产出 **29 个 .md / 24 张卡**（SKILL.md description 4827 字符）；`validate_skill_pack.py dist-v15` **0 errors + 1 warning**（`name-dir` 产物目录名固有提示）；`.cangjie/install_v11.py` 覆盖安装到工作区级 `.workbuddy/skills/fda-pchf-food-safety/`，旧版备份 `backups/fda-pchf-food-safety-v4.10-20261107-005244`；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **29/29 文件、逐文件 sha256 差异 0**，glossary 5 份副本 hash 全同（`e468e517717c9c6f…`）、严格 `yaml.safe_load` 192 条 id 唯一。完整审计见 `.cangjie/v4-11-sources-qa-report.json`。
+
+## v4.11 补充质量评测（10 条用例 + CAP-24 路由；只做评测，未改正式套件 / 产物 / 安装）
+
+- **触发与范围**：v4.11 发布时写明「10 条 `seafood-inspection-*` 用例与 CAP-24 路由待补测」，按 v4.10 / 历史补测的同一框架补跑。只做评测：正式 `test-prompts.json`、`SKILL.md`、`dist-v15`、已安装技能一律未改动，评测后复核产物与安装目录仍 29 文件、hash 差异 0。全部产物隔离在 `.cangjie/v4-11-eval/`（新增脚本 `build_v4_11_eval_suites.py` / `check_v4_11_routing.py` / `score_v4_11_routing.py`）。
+- **方法与口径**：官方 `run_trigger_evals.py` / `run_output_evals.py` 判分 + 自建 `score_v4_11_routing.py`；3 个干净 sub-agent 独立盲判；5-skill catalog、`edge_case → should_trigger`、v4.7 的 8 sibling + 10 负例原文不改写；新增 1 份「只加不减」的严格化输出套件（每条追加 1 条卡片独占锚点）。
+- **① 静态登记核对**（`.cangjie/check_v4_11_routing.py`）：**20/20 PASS** —— 24 卡 / CAP-24 `active`·`extended`·also_read 9 条、48 principles / 22 stops、15 个 additional_sources 且末条为 `src-fda-cp-7303-842-2023`、24 去向、能力索引 / cheatsheet / 路由表主行各 1 行、双向辅读 10 行、SKILL.md 无「十五类」残留、两份卡片一致且含 36 个引用块、产物与安装目录 hash 差异 0。**词面代理只判对 12/26**（CAP-24 定向 8/18），反证语义盲判必要。
+- **② 触发评测**：28 条（10 新 + 8 sibling + 10 负例）× 3 轮 = **84 判**，官方 score **TP 27 / FP 2 / FN 0 / TN 55，precision 0.931 / recall 1.000 / F1 0.964，兄弟混淆率 0.000（0/24）**；9 条 should_trigger 新用例 27/27 全中。**2 个 FP 全部来自 `seafood-inspection-10`**（跨法域负例里夹了「FDA 检查应对承诺函」，3 位判官 2:1 分歧），主结果按 0.964 如实保留，不改 prompt 或放宽判据；剔除该边界题的敏感性数字为 81 判 F1 1.000，与 v4.7 `secg-edge-02` 同属跨法域边界的 should_not_trigger 语义分歧。
+- **③ 输出质量评测**：10 条 × 2 变体 = 20 份答案，主套件 40 条机械断言 → **`v411_skill 10/10（40/40）` / `without_skill 4/10（27/40）`**，逐例 4 平 6 胜 0 负；严格套件 50 条断言 → **`v411_skill 10/10（50/50）` / `without_skill 3/10（32/50）`**，3 平 7 胜 0 负。卡片独占锚点覆盖 `IMPLEMENTATION DATE`、`03842H 同名不同义`、`HIGHER RISK`、`ISSC / 483 / HFP`、`702(b)`、`Not applicable`、`PART IV · 6 subs`、`Significance must be determined / CMS`、`part 1 subpart L / §805`、`out_of_scope`。**防泄漏复核**：首次技能组答题指令过细、疑似镜像断言，已用中性指令（只读参考材料 + 完整回答子问）重跑覆盖 10 份答案，重判结果完全一致，排除提示词泄漏导致的虚高。仍有 4 条（严格 3 条）两变体都过，属描述性断言，区分度主要由技能独占通过的 6 / 7 条提供；10/10 不与 v4.10 的 6/10、历史补测的 20/20 横比。
+- **④ 能力卡路由评测**：37 条（24 卡各 1 + CAP-24 定向 7 + CAP-23 定向 3 + CAP-22 定向 3）× 3 轮 = **111 判**，**top-1 111/111 = 1.000**、重复一致 37/37、非法 slug 0；**CAP-24 定向/基础 24/24**、CAP-23 12/12、CAP-22 12/12；**三层配对交叉错判全 0**（CAP-24↔CAP-23、CAP-24↔CAP-22、CAP-23↔CAP-22 六个方向均为 0）。
+- **局限（随数字一起读）**：judge 为同一底座模型的干净 sub-agent，非宿主端到端激活日志；路由 `instruction` 已点名 CAP-22/23/24 三层分工（沿用 v4.7 / v4.10 为可比性保留），会高估真实口语场景；5-skill catalog 是评测设定而非本机实际安装清单；用例为原型化 prompt、judge 只看能力索引；输出只有机械断言，无 A/B 偏好盲评、分歧样本人工复核、工具调用审计，未测 `also_read` 辅读链；触发未作统计非劣声明；2 个 FP 集中在 1 条边界题，样本小，不推断总体误触发率。
+- **结论：v4.11 评测欠账已关闭。** 完整报告与复现命令见 `.cangjie/v4-11-eval-report.md`。

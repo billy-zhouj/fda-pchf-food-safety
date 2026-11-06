@@ -1,0 +1,94 @@
+# 触发评测判分 — fda-pchf-food-safety
+
+- runs: 84（TP 27 / FP 2 / FN 0 / TN 55）
+- precision 0.931 / recall 1.000 / **F1 0.964**
+- 兄弟混淆率: 0.000（0/24）
+
+| case | expected | selected | 判定 |
+|---|---|---|---|
+| neg-01#r1 | should_not_trigger | none | TN |
+| neg-02#r1 | should_not_trigger | none | TN |
+| neg-03#r1 | should_not_trigger | none | TN |
+| neg-04#r1 | should_not_trigger | none | TN |
+| neg-05#r1 | should_not_trigger | none | TN |
+| neg-06#r1 | should_not_trigger | none | TN |
+| neg-07#r1 | should_not_trigger | none | TN |
+| neg-08#r1 | should_not_trigger | none | TN |
+| neg-09#r1 | should_not_trigger | none | TN |
+| neg-10#r1 | should_not_trigger | none | TN |
+| seafood-inspection-01#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-02#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-03#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-04#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-05#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-06#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-07#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-08#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-09#r1 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-10#r1 | should_not_trigger | fda-pchf-food-safety | FP |
+| sib-01#r1 | sibling | pdf2md-pro | OK |
+| sib-02#r1 | sibling | brand-ip | OK |
+| sib-03#r1 | sibling | cangjie-skill | OK |
+| sib-04#r1 | sibling | officecli1098 | OK |
+| sib-05#r1 | sibling | pdf2md-pro | OK |
+| sib-06#r1 | sibling | brand-ip | OK |
+| sib-07#r1 | sibling | cangjie-skill | OK |
+| sib-08#r1 | sibling | officecli1098 | OK |
+| neg-01#r2 | should_not_trigger | none | TN |
+| neg-02#r2 | should_not_trigger | none | TN |
+| neg-03#r2 | should_not_trigger | none | TN |
+| neg-04#r2 | should_not_trigger | none | TN |
+| neg-05#r2 | should_not_trigger | none | TN |
+| neg-06#r2 | should_not_trigger | none | TN |
+| neg-07#r2 | should_not_trigger | none | TN |
+| neg-08#r2 | should_not_trigger | none | TN |
+| neg-09#r2 | should_not_trigger | none | TN |
+| neg-10#r2 | should_not_trigger | none | TN |
+| seafood-inspection-01#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-02#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-03#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-04#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-05#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-06#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-07#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-08#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-09#r2 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-10#r2 | should_not_trigger | none | TN |
+| sib-01#r2 | sibling | pdf2md-pro | OK |
+| sib-02#r2 | sibling | brand-ip | OK |
+| sib-03#r2 | sibling | cangjie-skill | OK |
+| sib-04#r2 | sibling | officecli1098 | OK |
+| sib-05#r2 | sibling | pdf2md-pro | OK |
+| sib-06#r2 | sibling | brand-ip | OK |
+| sib-07#r2 | sibling | cangjie-skill | OK |
+| sib-08#r2 | sibling | officecli1098 | OK |
+| neg-01#r3 | should_not_trigger | none | TN |
+| neg-02#r3 | should_not_trigger | none | TN |
+| neg-03#r3 | should_not_trigger | none | TN |
+| neg-04#r3 | should_not_trigger | none | TN |
+| neg-05#r3 | should_not_trigger | none | TN |
+| neg-06#r3 | should_not_trigger | none | TN |
+| neg-07#r3 | should_not_trigger | none | TN |
+| neg-08#r3 | should_not_trigger | none | TN |
+| neg-09#r3 | should_not_trigger | none | TN |
+| neg-10#r3 | should_not_trigger | none | TN |
+| seafood-inspection-01#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-02#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-03#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-04#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-05#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-06#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-07#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-08#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-09#r3 | should_trigger | fda-pchf-food-safety | TP |
+| seafood-inspection-10#r3 | should_not_trigger | fda-pchf-food-safety | FP |
+| sib-01#r3 | sibling | pdf2md-pro | OK |
+| sib-02#r3 | sibling | brand-ip | OK |
+| sib-03#r3 | sibling | cangjie-skill | OK |
+| sib-04#r3 | sibling | officecli1098 | OK |
+| sib-05#r3 | sibling | pdf2md-pro | OK |
+| sib-06#r3 | sibling | brand-ip | OK |
+| sib-07#r3 | sibling | cangjie-skill | OK |
+| sib-08#r3 | sibling | officecli1098 | OK |
+
+> 本报告只给原始配对计数与比率；统计非劣需预注册界值 + McNemar/配对 Bootstrap（§10.3），不在此自动宣布。

@@ -1,0 +1,42 @@
+{
+  "si-out-01": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-02": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-03": {
+    "vA": "v411_skill",
+    "vB": "without_skill"
+  },
+  "si-out-04": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-05": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-06": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-07": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-08": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  },
+  "si-out-09": {
+    "vA": "v411_skill",
+    "vB": "without_skill"
+  },
+  "si-out-10": {
+    "vB": "v411_skill",
+    "vA": "without_skill"
+  }
+}

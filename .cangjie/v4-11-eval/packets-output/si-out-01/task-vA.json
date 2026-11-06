@@ -1,0 +1,9 @@
+{
+  "case_id": "si-out-01",
+  "variant_label": "vA",
+  "prompt": "我手上这份 FDA 文件名叫 20250929_CP 7303.842 ... 508-Compliant.pdf，首页还写 Date of Issuance 09/30/025，这是 2025 年新发布的海产品检查程序吗？和 CPGM 7303.040 的 2025-CPM-HFP-001 是同一种版本形态吗？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-11-eval/packets-output/si-out-01/vA.md"
+}
