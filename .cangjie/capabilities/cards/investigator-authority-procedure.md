@@ -1,6 +1,6 @@
 # FDA 检查员权限、文书与证据链（investigator-authority-procedure）
 
-*来源分层：本卡取用两类权威，引用前先分层。① **FD&C Act**（`704(a)(1)`、`301(e)/(f)`、`807(b)`、`414(a)`、`402(a)(4)`）与 **21 CFR Part 117 法规正文**〔§ 117.xxx〕——只有这一层创设企业义务（Part 113 / 114 法规正文另见 CAP-20〔§ 113.xxx〕〔§ 114.xxx〕）；② **FDA Investigations Operations Manual 2026, Chapter 5 – Inspections**（221 页 / 410 书签，含 5.1–5.16 与 Exhibit 5-1…5-23），是 **FDA 给调查员的内部作业手册**，标注「IOM 5.x.x / IOM Exhibit 5-x」，规定到场、表单、取证、写 EIR 与签发 FDA 483 的规则，**不是法规、不是 Guidance for Industry、不创设企业义务**。全包自 v4.7 起**十三类不可混引**。⚠ CP 7303.070 PART II.2.B(2) 补上 RRA 的官方程序性定义（`RRAs are not considered inspections`），见 CAP-19；它不改变 IOM 5.2.7 的预告三层口径。*
+*来源分层：本卡取用两类权威，引用前先分层。① **FD&C Act**（`704(a)(1)`、`301(e)/(f)`、`807(b)`、`414(a)`、`402(a)(4)`）与 **21 CFR Part 117 法规正文**〔§ 117.xxx〕——只有这一层创设企业义务（Part 113 / 114 法规正文另见 CAP-20〔§ 113.xxx〕〔§ 114.xxx〕）；② **FDA Investigations Operations Manual 2026, Chapter 5 – Inspections**（221 页 / 410 书签，含 5.1–5.16 与 Exhibit 5-1…5-23），是 **FDA 给调查员的内部作业手册**，标注「IOM 5.x.x / IOM Exhibit 5-x」，规定到场、表单、取证、写 EIR 与签发 FDA 483 的规则，**不是法规、不是 Guidance for Industry、不创设企业义务**。全包自 v4.7 起**十四类不可混引**。⚠ CP 7303.070 PART II.2.B(2) 补上 RRA 的官方程序性定义（`RRAs are not considered inspections`），见 CAP-19；它不改变 IOM 5.2.7 的预告三层口径。*
 
 *⚠ **收录范围**：本包只有 **IOM 2026 的 Chapter 5 单章**。IOM Ch.3（权限 3.2）、Ch.4（Sampling）、Ch.6（Imports）、Ch.7（Recalls）、Ch.8（Investigations）、Ch.9、Ch.10，以及 RPM、CPG 全文均未收。IOM 正文大量交叉引用这些章节，本卡遇到时只标注「转引未收」，不代填内容。*
 
@@ -223,4 +223,4 @@
 
 **B9 — 不代写文书、不承诺结果、不代替法律意见。** 本卡给权限边界、表单地图与证据固定规则，不代写 483 回复、EIR 异议、警告信答复或进口扣留应诉；不预测 OAI/VAI/NAI；遇到具体拒绝、商业秘密争议或刑事调查迹象（IOM 5.6.2）须转具资质的法律顾问。
 
-**B10 — 引用规范（十三类不可混引，v4.8）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FD&C Act 用 `704(a)(1)` / `301(f)` / `807(b)` / `402(a)(4)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A`）；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；**IOM 用「IOM 5.x.x」或「IOM Exhibit 5-x」**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。十三类不可混引；IOM 的 Exhibit 编号与 IOM 正文小节号也不同层，勿把 Exhibit 5-5 写成 IOM 5.5.5。
+**B10 — 引用规范（十四类不可混引，v4.8）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FD&C Act 用 `704(a)(1)` / `301(f)` / `807(b)` / `402(a)(4)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A`）；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；**IOM 用「IOM 5.x.x」或「IOM Exhibit 5-x」**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。十四类不可混引；IOM 的 Exhibit 编号与 IOM 正文小节号也不同层，勿把 Exhibit 5-5 写成 IOM 5.5.5。

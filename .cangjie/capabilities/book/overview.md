@@ -212,11 +212,11 @@
 
 **与已收三卡的官方分工**：`Products labeled "Keep Refrigerated" are exempt from 21 CFR 113/114. These products should be covered under Compliance Program 7303.050.`；未贴标 AF/LACF「brites」运至中央仓贴标装箱的检查报 `PAC 03040`；CGMP & PCHF 覆盖工时按 7303.040 的 PART II.2.C(3) 报 PAC；动物食品 `71070` 联动 7371.000 /〔21 CFR 507.5(b)〕、海产品并做 7303.842 HACCP。`PART II.2.B(2)` 明确 **RRA 自愿、全程远程、`RRAs are not considered inspections`、不满足 FD&C Act 704 条要求现场 inspection 的法定场景（510(h) / 503B(b)）**——这是程序性定义，不是 FDA 扩大 RRA / 境外无预告检查的政策公告原文（后者仍未收），也不改变 IOM 5.2.7 的预告三层口径。
 
-**其余口径**：判定合规的法源三角为 **21 CFR part 108（FCE 注册 / SID 定时工艺备案 / Emergency Permit）、part 113、part 114**，⚠ **v4.7 更正**：其中 **part 113 / 114 两套法规正文已收**（第十一/十二来源，CAP-20，按〔§ 113.xxx〕〔§ 114.xxx〕引用）；**仍未收的是 part 108**（FCE 注册 / SID 定时工艺备案 / Emergency Permit / §108.35），以及 part 110（至今有效但正文未收）、part 120 / 123。以下 CP 内涉及 113/114 法条义务的表述已可回法条核对，其余一律标「转引未收」；`PART III.1.A` 给酸化判定三步（酸成分+水 → 加低酸成分研磨测 `Maximum Equilibrium pH` → 送 HFP 邮箱判 significant difference；ROP 阈值 OTR <10,000 cc/m²/24h at 24°C；企业自判至少 6 个成品单元；**法定身份由 HFP 判定**）、AF / LACF / Aseptic LACF 三类检查目标与六组取证记录；`PART IV.2` 给 ≤795 g 取 24 罐 / 其余 12 罐、pH **4.40 / 4.65** 双分析师触发线与 `Never average the two analysts' results together`、异常罐 **>1%** 与 pH **>4.75** 肉毒毒素/PCR、14 天 progressive decomp、C. botulinum 仅 for-cause（PAF `MIC`）；`PART V.2` 给 Import Alert 99-37 / 99-38 与 `Do not recommend firm/products for an Import Alert/DWPE solely based on firm/product not registered and/or filed processes with FDA` 的**反直觉限制**、FCE/SID 在 FURLS / Center Views 核验与 DTR；`PART II.2.B(1)` 给 Emergency Permit / OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率、24 小时通电。引用用「CP 7303.070 PART x / ATTACHMENT x」。
+**其余口径**：判定合规的法源三角为 **21 CFR part 108（FCE 注册 / SID 定时工艺备案 / Emergency Permit）、part 113、part 114**，⚠ **v4.7 更正**：其中 **part 113 / 114 两套法规正文已收**（第十一/十二来源，CAP-20，按〔§ 113.xxx〕〔§ 114.xxx〕引用）；**仍未收的是 part 108**（FCE 注册 / SID 定时工艺备案 / Emergency Permit / §108.35），以及 part 110（至今有效但正文未收）、part 120（**part 123 自 v4.9 起已收，见 CAP-22**）。以下 CP 内涉及 113/114 法条义务的表述已可回法条核对，其余一律标「转引未收」；`PART III.1.A` 给酸化判定三步（酸成分+水 → 加低酸成分研磨测 `Maximum Equilibrium pH` → 送 HFP 邮箱判 significant difference；ROP 阈值 OTR <10,000 cc/m²/24h at 24°C；企业自判至少 6 个成品单元；**法定身份由 HFP 判定**）、AF / LACF / Aseptic LACF 三类检查目标与六组取证记录；`PART IV.2` 给 ≤795 g 取 24 罐 / 其余 12 罐、pH **4.40 / 4.65** 双分析师触发线与 `Never average the two analysts' results together`、异常罐 **>1%** 与 pH **>4.75** 肉毒毒素/PCR、14 天 progressive decomp、C. botulinum 仅 for-cause（PAF `MIC`）；`PART V.2` 给 Import Alert 99-37 / 99-38 与 `Do not recommend firm/products for an Import Alert/DWPE solely based on firm/product not registered and/or filed processes with FDA` 的**反直觉限制**、FCE/SID 在 FURLS / Center Views 核验与 DTR；`PART II.2.B(1)` 给 Emergency Permit / OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率、24 小时通电。引用用「CP 7303.070 PART x / ATTACHMENT x」。
 
-**⚠ 三套 pH/aw 数字不可互替**：4.6 / 0.85 是〔§ 117.3〕〔§ 117.80(c)(14)(15)〕的**法定**平衡 pH 边界与持续维持义务；4.40 / 4.65 / 4.75 / 0.90 / 0.93 / 异常罐 1% / 24 罐是 CP 的**检查员与实验室触发线**；≤4.4 / ≤0.92 是 L.mono 草案**建议层**的抑制型配方基准。CP 的取样量与触发线**不是企业放行标准**。全包 v4.6 时为「十类不可混引」、v4.7 扩为「十二类不可混引」（新增两套法规正文）、**v4.8 起扩为「十三类不可混引」**（新增 CP 7303.878 检查程序，见文末节）；21 CFR part 108 / 110 / 120 / 123、IOM Ch.4 Sample Schedule Chart 2、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200/520.300、Import Alert 全文、SOP-001642、RPM Ch.4/9 等未收正文一律标「转引未收」。
+**⚠ 三套 pH/aw 数字不可互替**：4.6 / 0.85 是〔§ 117.3〕〔§ 117.80(c)(14)(15)〕的**法定**平衡 pH 边界与持续维持义务；4.40 / 4.65 / 4.75 / 0.90 / 0.93 / 异常罐 1% / 24 罐是 CP 的**检查员与实验室触发线**；≤4.4 / ≤0.92 是 L.mono 草案**建议层**的抑制型配方基准。CP 的取样量与触发线**不是企业放行标准**。全包 v4.6 时为「十类不可混引」、v4.7 扩为「十二类不可混引」（新增两套法规正文）、v4.8 扩为「十三类不可混引」（新增 CP 7303.878 检查程序）、**v4.9 起扩为「十四类不可混引」**（新增 21 CFR Part 123 法规正文，见文末节）；21 CFR part 108 / 110 / 120、IOM Ch.4 Sample Schedule Chart 2、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200/520.300、Import Alert 全文、SOP-001642、RPM Ch.4/9 等未收正文一律标「转引未收」。
 
-**仍未收（v4.6 当时记录，v4.7 收窄）**：IOM 其余章节（尤其 Ch.4 的 702(b) 分割留样与制样、Sample Schedule Chart 2）、21 CFR part 108 / 110 / 120 / 123（**part 113 / 114 正文自 v4.7 起已收**）与 21 CFR 2.10 / 133 / 1240.61 / 507 正文、eBAM / BAM / AOAC / MPM 方法正文、FMD-86 / FMD-147 / SOP-001052 / SOP-000529 / SOP-001642、CPG 全套（含 Sec. 130.100 / 527.300 / 520.200 / 520.300）、RPM、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、其他 Compliance Programs（7303.878 / 7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006）、FDA 483/484/1551 数据库、21 CFR part 117 citations table、SOFO job aid 与 eNSpect / CAR / CMS 内部系统；以及 FDA 境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的政策公告原文。
+**仍未收（v4.6 当时记录，v4.7 收窄）**：IOM 其余章节（尤其 Ch.4 的 702(b) 分割留样与制样、Sample Schedule Chart 2）、21 CFR part 108 / 110 / 120（**part 113 / 114 正文自 v4.7 起已收、part 123 自 v4.9 起已收**）与 21 CFR 2.10 / 133 / 1240.61 / 507 正文、eBAM / BAM / AOAC / MPM 方法正文、FMD-86 / FMD-147 / SOP-001052 / SOP-000529 / SOP-001642、CPG 全套（含 Sec. 130.100 / 527.300 / 520.200 / 520.300）、RPM、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、其他 Compliance Programs（7303.878 / 7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006）、FDA 483/484/1551 数据库、21 CFR part 117 citations table、SOFO job aid 与 eNSpect / CAR / CMS 内部系统；以及 FDA 境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的政策公告原文。
 
 **当时规模**：19 张能力卡 / 142 条术语 / 75 条测试用例（v4.6）；**当前规模见文末 v4.8 节**。
 
@@ -233,7 +233,7 @@
 
 **三套数字仍不可互替**：4.6 / 0.85 / 4.0（法条层）｜4.40 / 4.65 / 4.75 / 0.90 / 0.93 / 1% / 24 罐（CP 7303.070 检查员实验室触发线）｜≤4.4 / ≤0.92（L.mono 草案建议层）。全包 v4.7 时统一「十二类不可混引」、**v4.8 起统一「十三类不可混引」**；检查员作业指导（CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878）不创设企业义务，与 CAP-19 分工为「本卡＝法条义务层，CAP-19＝检查员作业层」。
 
-**仍未收**：21 CFR part 108 / 110 / 120 / 123 正文、F0/D/z 计算与温度分布/热穿透研究设计、卷边解剖判读、商业无菌验证方案审批、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2、CPG 全套、Import Alert 全文、其余 Compliance Programs（7303.842 / 7303.847 / 7303.819 等；**7303.878 已由 v4.8 收入**）、Form 2541e 细则。
+**仍未收**：21 CFR part 108 / 110 / 120 正文（part 123 自 v4.9 起已收，见 CAP-22）、F0/D/z 计算与温度分布/热穿透研究设计、卷边解剖判读、商业无菌验证方案审批、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2、CPG 全套、Import Alert 全文、其余 Compliance Programs（7303.842 / 7303.847 / 7303.819 等；**7303.878 已由 v4.8 收入**）、Form 2541e 细则。
 
 **当时规模**：20 张能力卡 / 152 条术语 / 85 条测试用例（v4.7）；**当前规模见下节 v4.8**。
 
@@ -248,8 +248,28 @@
 
 **检查口径与执法阶梯**：§1.502(a) 对每一种食品 develop, maintain, and follow FSVP；standard requirements（§1.502/1.503/1.504/1.505/1.506/1.508/1.509/1.510）与 modified requirements（§1.507/1.511/1.512/1.513）是**可选关系**（满足 modified 条件者仍可选择 standard），不是「少做一套」；§1.501(b)–(h) 八类豁免。CP PART III.1.C 明写 **`Samples will not be collected as part of an FSVP inspection.`**、PART IV 四节 Intentionally Left Blank——FSVP 检查查 FSVP、危害分析、供应商批准评价、验证活动、§1.509 与纠正措施**记录**，不得套 CP 7303.050 的 subs 样品量与环境拭子。PART V 给 483a 观察分级 → NAI/VAI/OAI → Warning Letter / **Import Alert 99-41** / FD&C Act §801(a)(3) 拒绝入境（§301(zz) 禁止行为）。⚠ **99-41 是 FSVP 不合规进口商名单，不是 CP 7303.070 的 99-37 / 99-38**（LACF/AF 备案与过程控制）；99-41 按「具体食品 + 具体境外供应商组合」列 Red List，未列组合在不受其他 Alert 约束时仍可进口，移除须按指示提交证据并先于再次进口；direct reference authority 仅在有限情形授予，首次违法不默认优先执法；§1.507 disclosure 不能替代 §801(b)/§1.95 整改提案资料。
 
-**十三类不可混引**：21 CFR Part 117 / PCHF 行业指南 / L.mono Draft Guidance / SECG / 过敏原 Ed.5 / Food Defect Levels Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / 21 CFR Part 113 / 21 CFR Part 114 / **CP 7303.878**。检查员作业指导一律不创设企业义务；shall/must 的法定义务只回法规正文。
+**十四类不可混引（v4.9 口径；v4.8 时为十三类）**：21 CFR Part 117 / PCHF 行业指南 / L.mono Draft Guidance / SECG / 过敏原 Ed.5 / Food Defect Levels Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / 21 CFR Part 113 / 21 CFR Part 114 / CP 7303.878 / **21 CFR Part 123**。检查员作业指导一律不创设企业义务；shall/must 的法定义务只回法规正文。
 
-**仍未收**：21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、CP 7303.819 / 7303.842 / 7303.847 正文、21 CFR part 108 / 110 / 120 / 123 / 507 正文、IOM Ch.4、BAM / CPG 全套。v4.8 **未重跑**触发 / 输出 / 路由评测，v4.7 的评测结论不得冒用。
+**仍未收**：21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、CP 7303.819 / 7303.842 / 7303.847 正文、21 CFR part 108 / 110 / 120 / 507 正文（part 123 自 v4.9 起已收）、IOM Ch.4、BAM / CPG 全套。v4.8 **未重跑**触发 / 输出 / 路由评测，v4.7 的评测结论不得冒用。
 
-**当前规模**：21 张能力卡 / 162 条术语 / 95 条测试用例 / 十三类来源（v4.8，dist-v12）。
+**当时规模**：21 张能力卡 / 162 条术语 / 95 条测试用例 / 十三类来源（v4.8）；**当前规模见文末 v4.9 节**。
+
+
+## v4.9 — 海产品 HACCP 法条层（21 CFR Part 123）
+
+**第十四来源**：`source-cfr-part123-2025.md` — 21 CFR Part 123《Fish and Fishery Products》，4-1-25 Edition（9 页 / 13 条款）。用户提供的 `CFR-2025-title21-vol2-part123.pdf` 经 `.cangjie/convert_cfr_part.py` 双栏重排转出；13/13 条款命中、页眉页码残留 0、卷首目录区裁 34 行、串栏 0。
+
+**新增 CAP-22 `seafood-haccp-statutory-requirements`**：把水产品企业义务从「只能靠 CP 7303.842 反推」升级为条款级法定义务。B1–B12 边界、A2 25 条触发、R 段 33 个引用块逐字核验（32 条 Part 123 + 1 条 §117.5(b)）。
+
+**五处高频误读已钉死**：
+1. **默认适用，例外只有一扇门**：〔§ 123.5(a)〕`Except as provided by § 117.5(b), parts 110 and 117 ... apply`；不是「做水产品就只按 part 123 管」。
+2. **§117.5(b) 无限缩款**：part 113 有〔§ 117.5(d)(2)〕把豁免限缩到微生物危害，**part 123 没有**。搬前者口径会低估豁免；因「没限缩」推成整厂免检会高估。边界是受 part 123 管辖的 activities（〔§ 123.3(k)(2)〕三项排除不在内），且豁免不含 Part 117 Subpart B 的 CGMP。
+3. **Subpart B/C 是 augments 叠加**：〔§ 123.15〕〔§ 123.20〕原文 `augments subpart A`，漏 Subpart A 即漏项。
+4. **§123.16 例外只排一条**：`except those subject to part 113 or 114` 只排除该条；Subpart A 全套仍适用（与〔§ 123.20〕整体不适用 Subpart C 不同）。
+5. **记录期三套口径不可串**：〔§ 123.9(b)(1)〕冷藏 1 年 / 冷冻-保藏-货架稳定 2 年；Part 113〔§ 113.100(g)〕1+2 分段；Part 114〔§ 114.100(e)〕整段 3 年。
+
+**另钉两处**：〔§ 123.11(a)〕SSOP 是 `should`、(b)(c) 监测记录是 `shall`（原文措辞，不得升格也不得说可以不做）；〔§ 123.12〕进口商验证与 FSVP 是**两套法源**，deemed compliance 不覆盖 §123.12。
+
+**规模**：22 张能力卡 / 172 条术语 / 105 条测试用例 / **十四类来源**（v4.9）。
+
+**本版未重跑评测**：v4.7 的 F1 1.000 / 0.994、输出 10/10、路由 40/40 均为历史结论，不得冒用；10 条 `seafood-*` 与新卡路由待测。

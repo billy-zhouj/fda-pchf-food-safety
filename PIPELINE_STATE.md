@@ -11,12 +11,12 @@
 - **第七来源**: books/fda-pchf-human-food-guidance/source-cpgm-7303-040-2025.md（FDA CPGM 7303.040 现行版 `2025-CPM-HFP-001`，签发 08/29/2025，IMPLEMENTATION DATE 05/23/2024，50 页 / 91 书签；用户提供 508-Compliant PDF 经 `pdf2md-pro` 转换）。已废止的 `2020-CPGM-CFSAN-003`（47 页）留作历史对照：source-cpgm-7303-040-2020.md
 - **第八来源**: books/fda-pchf-human-food-guidance/source-cp-7303-050-2025.md（FDA CP 7303.050《Sampling for Foodborne Biological Hazards and Filth – Domestic and Import》，**Date of Issuance 06/03/2022 / IMPLEMENTATION DATE 06/03/2022 / Correction date 09/10/2025**，62 页 / 75 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。是 2022 版程序的 2025 更正本，不是 2025 新 program）
 - **第九来源**: books/fda-pchf-human-food-guidance/source-iom-ch5-2026.md（FDA《Investigations Operations Manual 2026》**Chapter 5 – Inspections 单章**，221 页 / 410 书签 / 450 标题；用户提供的官方 PDF 经 `pdf2md-pro` 转换。IOM 其余章节未收）
-- **第十来源**: books/fda-pchf-human-food-guidance/source-cp-7303-070-2024.md（FDA CP 7303.070《Acidified and Low-Acid Canned Foods Program – Import & Domestic》，**Date of Issuance 09/26/2024 / IMPLEMENTATION DATE 9/26/2024 / Correction Date 9/26/2025**，61 页 / 40 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。文件名 `20250929` 只是生成日，是 2024 版程序的 2025 更正本，不是 2025 新 program；其依据的 21 CFR part 113 / 114 法规正文自 v4.7 起已收；part 108 / 110 / 120 / 123 正文仍未收）
+- **第十来源**: books/fda-pchf-human-food-guidance/source-cp-7303-070-2024.md（FDA CP 7303.070《Acidified and Low-Acid Canned Foods Program – Import & Domestic》，**Date of Issuance 09/26/2024 / IMPLEMENTATION DATE 9/26/2024 / Correction Date 9/26/2025**，61 页 / 40 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。文件名 `20250929` 只是生成日，是 2024 版程序的 2025 更正本，不是 2025 新 program；其依据的 21 CFR part 113 / 114 法规正文自 v4.7 起已收；part 108 / 110 / 120 正文仍未收、part 123 自 v4.9 起已收，见 CAP-22）
 - **第十一来源**: books/fda-pchf-human-food-guidance/source-cfr-part113-2025.md（**21 CFR Part 113 — Thermally Processed Low-Acid Foods Packaged in Hermetically Sealed Containers，4-1-25 Edition**，GPO/eCFR 双栏印刷版 36 页 / 10 条款；经本包专用 `.cangjie/convert_cfr_part.py` 按「页→左栏→右栏」重排转出。首次纳入 Part 117 之外的法规正文，标〔§ 113.xxx〕）
 - **第十二来源**: books/fda-pchf-human-food-guidance/source-cfr-part114-2025.md（**21 CFR Part 114 — Acidified Foods，4-1-25 Edition**，7 页 / 8 条款；同一双栏脚本转出，标〔§ 114.xxx〕。文件头锁死「parts 110 and 117 不是过时引用、Part 110 至今有效」的纠错）
 - **第十三来源**: books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md（FDA CP 7303.878《Foreign Supplier Verification Programs Inspections》，**Transmittal 2023-CPM-CFSAN-003 / Implementation Date 09/27/2023 / Date of Issuance 08/28/2025 更正**，33 页 / 20 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。是 2023 版程序的 2025 更正本，不是 2025 新 program；其依据的 **21 CFR part 1, subpart L（§§1.500–1.514）法规正文仍未收**，一律标「转引未收」，见 CAP-21 `fsvp-inspection-program`）
-- **输出模式**: single（用户已确认，全书均衡提取；十三次来源合并均沿用 single，未改变产物形态）
-- **当前版本**: v4.8 ✅ 全部完成，已安装到用户级技能目录（21 张卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12）
+- **输出模式**: single（用户已确认，全书均衡提取；十四次来源合并均沿用 single，未改变产物形态）
+- **当前版本**: v4.9 ✅ 编译校验并安装完成（22 张卡 / 172 术语 / 105 用例 / 十四类来源 / dist-v13）
 - **开始时间**: 2026-11-04；最后更新 2026-11-06
 
 ## 阶段进度
@@ -32,7 +32,7 @@
 | 4 压力测试 | done | test-prompts.json v4.0（28 正例 + 5 负例诱饵 + 12 边界用例 = 45 条，darwin 兼容；盲测待补跑） |
 | 5 编译交付 | done | DIGEST.md + dist-v4/fda-pchf-food-safety（validate 0 errors / 0 warnings） |
 
-> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.8：21 张卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12**，见本文件顶部与末尾 v4.8 节；v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
+> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.9：22 张卡 / 172 术语 / 105 用例 / 十四类来源 / dist-v13**，见本文件顶部与末尾 v4.9 节；v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
 
 ## 第二至第四来源合并记录
 
@@ -108,7 +108,7 @@
 - SECG 为 2016-10 的 Guidance for Industry：不创设义务、不是认证、不是可直接签发的逐条内审清单；其 Table 4 合规日期为过渡安排、现已全部生效，不得用作当前时限依据
 - IOM **2026 Chapter 5 正文已作为第九来源纳入**（CAP-18），给的是检查员权限、表单、483 措辞纪律与证据固定规则，**不是抽样方法或实验室方法**；**IOM 其余章节仍未收**，尤其 Chapter 4（Sampling，含 702(b) 分割留样、4.2.5 FDA 484、4.3.6.6 环境/产品取样、4.6 报告、4.7 运输）、Ch.3（3.2 权限）、Ch.6（6.4 进口取样 / 6.8.1.4 FSVP）、Ch.7/8/9/10
 - **CP 7303.050 正文已作为第八来源纳入**（CAP-17），给的是抽样量、环境拭子、WGS 与逐案执法阶梯，**不是检验方法正文**；eBAM / BAM / AOAC OMA / MPM / Macroanalytical Procedures Manual 方法正文、SOP-001052（原 Field Bulletin 30）、SOP-000529 / FMD-147、CPG Sec. 527.300 与 CPG Ch.5 全套、CPG Sec. 130.100、RPM Ch.6/9/10-4、FMD-86、其他 Compliance Programs（**7303.878 FSVP 正文自 v4.8 起已收（CAP-21），但其依据的 21 CFR part 1 subpart L 与 Import Alert 99-41 全文仍未收** / 7303.080 Produce Safety / 7304.019 / 7303.842 海产品 / 7371.000 动物食品 / 7321.006 婴儿配方等）、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、21 CFR 2.10 / 133 / 1240.61 正文、FDA 483/484/1551 数据库、Inspections Database、21 CFR part 117 citations table、SOFO job aid、Human Food By-Products GFI #239 全文、eNSpect / CAR / CMS 内部系统仍未纳入
-- **CP 7303.070 正文已作为第十来源纳入**（CAP-19），给的是 LACF/AF 管辖分流、酸化判定、FCE/SID 与 Process Authority 取证、pH/aw 实验室判读与 Import 升级，**不是法规正文**：它依据的 **21 CFR part 113 / 114 两套法规正文自 v4.7 起已收（CAP-20，第十一/十二来源，按〔§ 113.xxx〕〔§ 114.xxx〕引用）**；**仍未收的是 part 108（FCE/SID/Emergency Permit/§108.35）、part 110（至今有效但正文未收）、part 120 / 123、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200 / 520.300、IOM Ch.4 Sample Schedule Chart 2、SOP-001642、RPM Ch.4/9、Form 2541e 细则**，相关内容一律标「转引未收」；F0/D/z 计算、温度分布与热穿透研究设计、卷边解剖判读、商业无菌验证不在本包内
+- **CP 7303.070 正文已作为第十来源纳入**（CAP-19），给的是 LACF/AF 管辖分流、酸化判定、FCE/SID 与 Process Authority 取证、pH/aw 实验室判读与 Import 升级，**不是法规正文**：它依据的 **21 CFR part 113 / 114 两套法规正文自 v4.7 起已收（CAP-20，第十一/十二来源，按〔§ 113.xxx〕〔§ 114.xxx〕引用）**；**仍未收的是 part 108（FCE/SID/Emergency Permit/§108.35）、part 110（至今有效但正文未收）、part 120（part 123 自 v4.9 起已收，见 CAP-22）、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200 / 520.300、IOM Ch.4 Sample Schedule Chart 2、SOP-001642、RPM Ch.4/9、Form 2541e 细则**，相关内容一律标「转引未收」；F0/D/z 计算、温度分布与热穿透研究设计、卷边解剖判读、商业无菌验证不在本包内
 - 因此**制样与显微判读、检验方法检出限、702(b) 分割留样规则、杀菌工艺计算、证据充分性标准、警告信判定阈值、进口扣留应诉、检查结果预测**仍须另行复核
 - **境外无预告检查 / RRA 政策**：IOM 5.2.7 正文口径已收（`the Agency usually announces foreign inspections in advance`、食品企业一般不预告由 program division 裁量、国内预告不少于 5 个日历日、预告不是预约）；**CP 7303.070 PART II.2.B(2) 另给出 RRA 的官方程序性定义**（自愿、全程远程、`RRAs are not considered inspections`、不满足 510(h)/503B(b) 等 FD&C Act 704 条法定检查场景），可作条款级引用；但 2025 年 FDA 扩大境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的**政策公告原文仍未收**，只作准备原则提示，不得据 CP 反推政策
 - `source-secg.md` 由资料库在线文档转换，存在两处 PDF 分页导入错位与个别连字残留（见文件头与卡片 B7）；引用以章节标题与条款号为准，可疑英文回法规正文核对
@@ -209,3 +209,36 @@
 - **仍未收**：21 CFR part 1 subpart L（§§1.500–1.514）正文、Import Alert 99-41 全文、FSVP Guidance for Industry、IP guidance tabs / Implementation Work Instructions、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、CP 7303.819 / 7303.842 / 7303.847 正文、21 CFR part 108 / 110 / 120 / 123 / 507 正文、IOM Ch.4、BAM / CPG 全套、F0/D/z 计算与卷边解剖判读。本次关闭的是「FSVP 轨道与 Part 117 供应链程序分流、进口商检查取证清单、483a 分级与 99-41 阶梯」，**不是** FSVP 法规条文级义务。
 - **评测状态**：本版**未重跑**触发 / 输出 / 路由评测；v4.7 的 F1 1.000（首次盲测）、F1 0.994（增强触发 103×3）、输出 10/10、路由 40/40 均为上一版本结论，10 条 `fsvp-*` 用例与 CAP-21 的路由正确性待后续补测。
 - **编译产物**：`dist-v12`（run `run-20261106-151203-02dd78`，single / 21 卡 / 27 个发布文件 / 26 个 .md）；暂存目录校验 `0 errors + 1 warning`（`name-dir`，产物目录名固有提示）；安装后官方 `validate_skill_pack.py` **0 errors / 0 warnings**；旧版备份 `backups/fda-pchf-food-safety-v4.7-20261106-151259`；已安装到 `C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety`（`.cangjie/install_v9.py`），产物与安装目录逐文件 sha256 差异 **0**，5 份 glossary 副本 hash 全同（1b455fd004919712…），安装目录 `21 卡 / 162 术语 / 95 用例 / 十三类`。完整记录见 `.cangjie/v4-8-sources-qa-report.json`。
+
+## GitHub 同步
+- 私有仓库：`https://github.com/billy-zhouj/fda-pchf-food-safety`（默认分支 `main`，首次提交 `ec7b0f4`）。
+- 工作目录已 `git init`，仓库级身份 `billy-zhouj <billy-zhouj@users.noreply.github.com>`，`.gitignore` 排除编译产物/备份/缓存、保留 `dist-v12` 与全部源码。
+- 后续更新：改文件后 `git add -A && git commit -m "..." && git push`；本仓库因企业代理 MITM 设了 `http.sslVerify=false`（仅本仓库生效）。
+
+
+## v4.9 — 海产品 HACCP 法条层（21 CFR Part 123）与 Part 117 条件性豁免接口
+
+- **新增来源（第十四类）**：`source-cfr-part123-2025.md` — 21 CFR Part 123《Fish and Fishery Products》，**4–1–25 Edition**（修订至 2025-04-01，书页 456–464，9 页 / **13 条款**）。用户提供的 `CFR-2025-title21-vol2-part123.pdf`（170 KB）经 `.cangjie/convert_cfr_part.py` 双栏重排转出。自检：13/13 条款命中（123.3 / .5 / .6 / .7 / .8 / .9 / .10 / .11 / .12 / .15 / .16 / .20 / .28）、页眉与独立页码残留 0、卷首 Sec. 目录区裁 34 行（13 条目录条目）、尾部 Part 124 残段裁 19 段、串栏 0、最终 41,669 chars。
+- **转换脚本两处缺陷与修复（本轮工程发现）**：
+  1. **假 H2**：§123.8(b) 正文里的跨条引用 `§ 123.7 whenever any verification procedure ... reveals the need` 被 `start_patterns` 误判为条款标题，产出多余 H2。修法：§ 起点要求条号后同行接**大写起首**标题词，或**条号独占一行**（GPO 印刷版常见「§ 123.3 / Definitions.」两行式）。Part 113 / 114 回归测试条款数仍为 10 / 8，无回归。
+  2. **卷首目录并段**：`Sec.` 后的目录条目不是段起点，被 `^\d{3}\.\d+\s+[A-Z]` 与 Subpart 规则反复拼接，产出 `### Subpart B—… 123.15 General. 123.16 Process controls.` 残行。新增 `drop_toc()` 整体裁掉 PART 行到 AUTHORITY/SOURCE 之间的目录区。
+- **版本口径**：`4–1–25 Edition` 是 CFR **年度编纂版次**，**不是** 2025 新规则；SOURCE `60 FR 65197, Dec. 18, 1995`，§123.5 与 §123.11 经 `80 FR 56167 (2015-09-17)` 修订（PCHF conforming amendment）。本件**不是** CP 7303.842。
+- **核心法条接口（双向锁定，逐字核对）**：
+  - 〔§ 123.5(a)〕`Except as provided by § 117.5(b), parts 110 and 117 of this chapter apply in determining whether ...` —— Part 110/117 **默认适用**，§117.5(b) 是**唯一**例外出口。
+  - 〔§ 117.5(b)〕`Subparts C and G of this part do not apply with respect to activities that are subject to part 123 ... if you are required to comply with, and are in compliance with, part 123 of this chapter with respect to such activities.` —— 与 part 113〔§ 117.5(d)(1)〕**同构**的条件性豁免。
+  - ⚠ **关键差异**：part 113 有〔§ 117.5(d)(2)〕把豁免限缩到「part 113 管辖的微生物危害」；**§117.5(b) 没有对应限缩款**。故两向误读都会错：搬 part 113 口径 → 低估豁免；因无限缩就推成整厂免检 → 高估豁免（边界是受 part 123 管辖的 **activities**，〔§ 123.3(k)(2)〕三项排除不在内，且豁免不含 Part 117 **Subpart B** 的 CGMP）。
+- **其它已钉死的口径**：〔§ 123.15〕〔§ 123.20〕`augments subpart A` 是**叠加非替代**；〔§ 123.16〕的 `except those subject to part 113 or 114` **只排该条**、Subpart A 全套仍适用（与〔§ 123.20〕整体不适用 Subpart C 的处理不同）；〔§ 123.6(c)(1)〕危害考虑清单为 **(i)–(ix) 九项**且措辞是 `Consideration should be given`（非强制穷举，但漏考虑属危害分析缺陷）；〔§ 123.7(c)(1)〕**先隔离扣留**再评审；〔§ 123.8(a)(3)(i)(ii)〕CCP 与纠正措施记录**1 周内**复审、(a)(1) 变更时及**至少每年**复审且不足时须立即改；〔§ 123.9(b)(1)〕记录期**冷藏 1 年 / 冷冻-保藏-货架稳定 2 年**；〔§ 123.11(a)〕SSOP 用 `should` 而 (b)(c) 监测记录用 `shall`（原文措辞，非转换错误）；〔§ 123.12〕进口商二选一 + affirmative steps (A)–(F)，competent third party 可代写程序，无等效保证即视为掺假并**拒绝入境**；〔§ 123.28〕贝类须来自 approved growing waters、shellstock 须附 tag 五要素、shucked 标签须符合 §1240.60(c)。
+- **与 FSVP 的分工（易混点）**：§123.12 法源为 Part 123 + FD&C Act，FSVP 法源为 FD&C Act §805 + 21 CFR part 1 subpart L；两套可共用证据但**互不替代**；FSVP 的 deemed compliance 明文只免 FSVP 且保留 §1.509，**不覆盖 §123.12**。
+- **新增能力卡 CAP-22**：`seafood-haccp-statutory-requirements`，importance `extended`，also_read 9 条，B1–B12 边界，A2 25 条触发。R 段 **33 个英文引用块全部逐字命中**（32 条 Part 123 + 1 条 §117.5(b)）。
+- **引文核对脚本的自我验证缺陷（本轮重要发现）**：`verify_seafood_quotes.py` 初版直接对整份源文件做归一化匹配，而**文件头里我自己转述了 §117.5(b) 原文**，导致该条引文在「自己的文件头」里命中，形成自我验证循环。修法：`body_only()` 只取第一个 `## § ` 之后的正文区。修后第 2 条正确标为 `Part117`，其余 32 条 `Part123`，33/33 全中。同步核查了 `verify_fsvp_quotes.py`：它以第二个 H1 定位正文区，且 CP 878 文件头不含被核对引文，历史结论不受影响。
+- **规模变化**：21 → **22 张卡**；162 → **172 条术语**（t163–t172）；95 → **105 条用例**（v4.9，`seafood-01..10`）；十三类 → **十四类来源**；core_principles 40 → **42**；out_of_scope 7 条（原「海产品 part 123 专项要求」条目已改为「CP 7303.842 正文 / NSSP Guide / part 120」）；stop_conditions 16 → **18**。
+- **仍未收**：CP 7303.842 海产品检查程序正文、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide、FDA《Fish and Fishery Products Hazards and Controls Guidance》4th ed.、Import Alert 16-xx 系列、BAM 海产品章节、组胺/河豚毒素/雪卡毒素限值。
+- **评测状态**：本版**未重跑**触发 / 输出 / 路由评测；v4.7 的 F1 1.000 / 0.994、输出 10/10、路由 40/40 均为历史版本结论，**不得冒用**；10 条 `seafood-*` 用例与 CAP-22 路由待补测。
+- **口径回补（4 个脚本，全部带唯一性断言 + 内存暂存 + 末尾一次性落盘）**：`apply_v4_9_revisions.py`（SLUGS / ALSO_READ / 索引与描述）、`apply_v4_9_residue.py`、`apply_v4_9_residue2.py`、`apply_v4_9_residue3.py`、`apply_v4_9_bundle_arrays.py`、`apply_v4_9_docs.py`。范围：**8 张既有卡 + 3 份 meta yaml + 2 份 overview + 3 份 glossary + 3 个来源文件头 + `assemble_bundle.py` + 三份状态文档**。回补前快照 `.cangjie/backup-v4-9-pre-revisions/`（29 文件）与 `.cangjie/backup-v4-9-pre-residue/`（52 文件）。
+- **本轮发现的两类真实缺陷（不是措辞问题）**：
+  1. **v4.8 的批量替换污染了 v4.7 的历史陈述**：v4.8 用全局 `十二类→十三类` 回补时，把 t152 里「v4.7 起十二类不可混引：三套法规正文 + 九类＝12」也改成了「十三类」，出现「十三类：列 12 项」的自相矛盾。v4.9 按版本复原为十二类并补完整阶梯（十→十二→十三→十四）。
+  2. **Part 123 已收但全包仍在说「未收」**：除 `lacf-*` 三卡外，`cgmp-compliance-guide` / `defect-action-levels` / `inspection-sampling` / `reference-tools-discipline` / `regulatory-boundaries` / `inspection-readiness` / `fsvp-inspection-program` 与 3 份 meta、overview、glossary、`test-prompts.json` 共约 40 处仍写「part 108 / 110 / 120 / 123 未收」或「part 120 / 123 正文本包未收」。已逐处改为「part 120 未收、part 123 自 v4.9 起已收（见 CAP-22）」，并把「三套独立编号」统一为四套。
+- **教训：`verified.yaml` 是 `assemble_bundle.py` 的生成物，不是手改对象。**本轮先手改了 `verified.yaml` 的 7 处来源注记，重跑组装后被脚本内硬编码文本覆盖回旧值；正确做法是改 `assemble_bundle.py` 里的 `additional_sources` / `entry` 文本，再重新组装。已据此修 10 处（含核心原则第 37 条「三套→四套」与引用纪律段的 part 123 括注位置）。
+- **编译产物**：`dist-v13`（`compile_single.py --bundle .cangjie/capabilities --out dist-v13 --variant single`，Bundle 原生确定性编译，无 run id；27 个文件 / 26 个 .md / 22 张卡）；暂存目录校验 `0 errors + 1 warning`（`name-dir`：`dist-v13` 与 `SKILL.md` 的 `name` 不一致，属产物目录名固有提示）。
+- **安装**：旧版备份 `backups/fda-pchf-food-safety-v4.8-20261106-161843`；已安装到 `C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety`（`.cangjie/install_v10.py`）；安装后官方 `validate_skill_pack.py` **0 errors / 0 warnings**；产物与安装目录逐文件 sha256 差异 **0**；5 份 glossary 副本 hash 全同（`9e366adcb39daa2e…`，172 条严格 `yaml.safe_load` 通过）；安装目录 `22 卡 / 172 术语 / 105 用例 / 十四类来源`。完整记录见 `.cangjie/v4-9-sources-qa-report.json`。
+- **产物残留自查**：`dist-v13` 全量扫描，`SKILL.md` 内「十三类」= 0、「四套法规正文」= 2；`glossary.md` 6 处「十三类」全部是版本阶梯或 v4.7/v4.8 changelog（属历史记录，按 v4.8 同类口径保留）；「part 120 / 123 + 未收」的 2 处命中均为「供应商符合 part 120 / 123」这类**法规原文引用**，不是未收声明。

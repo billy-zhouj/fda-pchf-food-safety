@@ -75,9 +75,61 @@ def extract_lines(pdf: Path) -> tuple[list[str], dict]:
 
 def start_patterns(part: str | None):
     """§ 条款起点只认目标 part 的条款号；跨 part 引用（如 § 114.90 of this
-    chapter should be used.）必须保持为续行，否则会被误提升成条款标题。"""
-    sec = rf"^§\s*{re.escape(part)}\.\d+" if part else r"^§\s*\d+\.\d+"
+    chapter should be used.）必须保持为续行，否则会被误提升成条款标题。
+
+    条号后若同行有标题词，须大写起首（CFR 条款标题一律首字母大写）；若条号
+    独占一行（GPO 印刷版常见「§ 123.3 / Definitions.」两行式），也视为条款
+    起点。仅排除「§ 123.7 whenever ...」这类正文小写续接的跨条引用。
+    """
+    num = re.escape(part) if part else r"\d+"
+    sec = rf"^§\s*{num}\.\d+\s*(?:$|[A-Z(])"
     return [re.compile(sec)] + START[1:]
+
+
+def drop_toc(raw: list[str]) -> tuple[list[str], dict]:
+    """裁掉卷首的 Sec. 目录区。
+
+    GPO 印刷版的 part 首页会先列出全 part 的条款目录：
+        PART 123—FISH AND FISHERY PRODUCTS
+        Subpart A—General Provisions
+        Sec.
+        123.3
+        Definitions.
+        ...
+        Subpart B—Smoked and Smoke-Flavored Fishery Products
+        123.15
+        General.
+        AUTHORITY: ...
+    目录条目被 `^\\d{3}\\.\\d+\\s+[A-Z]` 与 Subpart 规则反复拼接，会产出
+    `### Subpart B—... 123.15 General. 123.16 Process controls.` 这类残行。
+    目录信息与正文条款标题重复，整体裁掉即可。
+    """
+    idx_sec = next((i for i, s in enumerate(raw) if re.fullmatch(r"Sec\.", s)), None)
+    if idx_sec is None:
+        return raw, {"toc_dropped": False}
+    # 向前找最近的 PART 行（限 80 行内，避免误伤正文深处的 Sec.）
+    idx_part = None
+    for j in range(idx_sec, max(-1, idx_sec - 80), -1):
+        if re.match(r"^PART\s+\d+", raw[j]):
+            idx_part = j
+            break
+    # 向后找 AUTHORITY: / SOURCE:
+    idx_auth = None
+    for j in range(idx_sec, min(len(raw), idx_sec + 200)):
+        if re.match(r"^(AUTHORITY:|SOURCE:)", raw[j]):
+            idx_auth = j
+            break
+    if idx_part is None or idx_auth is None:
+        return raw, {"toc_dropped": False, "toc_reason": "part or authority anchor missing"}
+    removed = idx_auth - idx_part - 1
+    kept = raw[: idx_part + 1] + raw[idx_auth:]
+    return kept, {
+        "toc_dropped": True,
+        "toc_start_index": idx_part,
+        "toc_lines_removed": removed,
+        "toc_entries_removed": sum(1 for s in raw[idx_part + 1 : idx_auth]
+                                   if re.fullmatch(r"\d{3}\.\d+", s)),
+    }
 
 
 def compose(raw: list[str], part: str | None = None) -> tuple[list[str], int]:
@@ -166,6 +218,7 @@ def main() -> None:
 
     src = Path(args.input)
     raw, meta = extract_lines(src)
+    raw, toc = drop_toc(raw)
     paragraphs, dropped = compose(raw, args.part)
     trim = {}
     if args.part:
@@ -180,6 +233,7 @@ def main() -> None:
         "output": str(dst),
         "method": "page → left column → right column clip; paragraph recombination; hyphenated line breaks preserved",
         **meta,
+        "toc": toc,
         "raw_lines": len(raw),
         "paragraphs_before_trim": len(raw) and len(paragraphs) + trim.get("trim_start", 0) + trim.get("trim_end", 0),
         "paragraphs_kept": len(paragraphs),

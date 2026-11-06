@@ -1461,7 +1461,7 @@
   source_quote: |
     "Date of Issuance: 09/26/2024" / "IMPLEMENTATION DATE: 9/26/2024" / "Correction Date: 9/26/2025"
   summary: 用户提供的 61 页 508-Compliant PDF 首页为 **Date of Issuance 09/26/2024、IMPLEMENTATION DATE 9/26/2024、Correction Date 9/26/2025**；PDF title 亦写 `(Implementation Date 09/26/2024)`，creationDate 2025-09-29。文件名 `20250929` 是 **PDF 生成日，不是签发日**；本件是 **2024 版程序的 2025 更正本**，与 CP 7303.050（2022 签发 / 2025-09-10 更正）同属更正本形态，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal、08/29/2025 签发）。引用写「CP 7303.070（2024 签发 / 2025-09-26 更正）」，不要写成「2025 版 7303.070」。首页 PAC `03070A/B/C`（境内 AF / LACF / 无菌 LACF）、`03070F/G/J`（进口）、`71070`（动物食品）；PAF `ACD`（常规）、`MIC`（仅 C. botulinum for-cause）；Problem Codes `AFD / ACF / LAF`。
-  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十三类不可混引]
+  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十四类不可混引]
 
 - id: t136
   title: §117.5(d)(1)(2) 的 LACF 管辖分流与 AF 不豁免（CP 7303.070 官方细化）
@@ -1518,13 +1518,13 @@
   tags: [Import Alert 99-37, Import Alert 99-38, DWPE, FCE, SID, DTR, 反直觉陷阱]
 
 - id: t142
-  title: RRA 程序性定义、Keep Refrigerated / brites 路由与十三类不可混引（v4.7 更新）
+  title: RRA 程序性定义、Keep Refrigerated / brites 路由与十四类不可混引（v4.7 定稿 / v4.9 口径）
   type: term
   source_chapter: CP 7303.070 PART II.2.B(2)、PART II.2.C(1)(2)；FD&C Act 704(a)(1)
   source_quote: |
     "RRAs are not considered inspections, conducted pursuant to section 704(a)(1) of the FD&C Act" / "Products labeled “Keep Refrigerated” are exempt from 21 CFR 113/114. These products should be covered under Compliance Program 7303.050."
-  summary: 程序定义与两条路由。**RRA（Remote Regulatory Assessment）**：FDA 可对 AF/LACF 企业开展**自愿、全程远程**的记录/设施评估；CP 明确 `RRAs are not considered inspections`，不满足 FD&C Act 704 条要求现场 inspection 的法定场景（如 510(h)、503B(b)）。这是 **CP 内的程序性定义**，可据此回答「RRA 算不算检查」，但 **FDA 扩大 RRA 适用范围 / 境外无预告检查的政策公告原文仍未收**，不得据此推导政策，也不能替换 IOM 5.2.7 的预告三层口径。**两条路由**：`Keep Refrigerated` 产品免 21 CFR 113/114 → 归 **CP 7303.050（CAP-17）**；未贴标 AF/LACF「brites」运至中央仓贴标装箱的检查报 **`PAC 03040`（CAP-16）**。另：动物食品 LACF 用 `71070` 并联动 7371.000 / 21 CFR 507.5(b)；海产品 LACF 并做 7303.842 HACCP。**收录边界（v4.7 更新）**：第十来源 CP 7303.070 已收（CAP-19）；**第十一、十二来源 21 CFR Part 113 / 114 法规正文亦已收（CAP-20）**，全包口径为 v4.6 十类 → v4.7 十二类 → **v4.8 十三类不可混引**。仍未收：21 CFR part 108（FCE/SID/Emergency Permit）、**part 110（旧 CGMP，至今有效但正文未收）**、part 120 / 123、IOM Ch.4 Chart 2、BAM、CPG、Import Alert 全文、其余 Compliance Programs，一律标「转引未收」。
-  tags: [RRA, Keep Refrigerated, brites, 7303.050, 7303.040, 十三类不可混引, 收录边界, v4.6, v4.7]
+  summary: 程序定义与两条路由。**RRA（Remote Regulatory Assessment）**：FDA 可对 AF/LACF 企业开展**自愿、全程远程**的记录/设施评估；CP 明确 `RRAs are not considered inspections`，不满足 FD&C Act 704 条要求现场 inspection 的法定场景（如 510(h)、503B(b)）。这是 **CP 内的程序性定义**，可据此回答「RRA 算不算检查」，但 **FDA 扩大 RRA 适用范围 / 境外无预告检查的政策公告原文仍未收**，不得据此推导政策，也不能替换 IOM 5.2.7 的预告三层口径。**两条路由**：`Keep Refrigerated` 产品免 21 CFR 113/114 → 归 **CP 7303.050（CAP-17）**；未贴标 AF/LACF「brites」运至中央仓贴标装箱的检查报 **`PAC 03040`（CAP-16）**。另：动物食品 LACF 用 `71070` 并联动 7371.000 / 21 CFR 507.5(b)；海产品 LACF 并做 7303.842 HACCP。**收录边界（v4.7 更新）**：第十来源 CP 7303.070 已收（CAP-19）；**第十一、十二来源 21 CFR Part 113 / 114 法规正文亦已收（CAP-20）**，全包口径为 v4.6 十类 → v4.7 十二类 → v4.8 十三类 → **v4.9 十四类不可混引**。仍未收：21 CFR part 108（FCE/SID/Emergency Permit）、**part 110（旧 CGMP，至今有效但正文未收）**、part 120（**part 123 自 v4.9 起已收，见 CAP-22**）、IOM Ch.4 Chart 2、BAM、CPG、Import Alert 全文、其余 Compliance Programs，一律标「转引未收」。
+  tags: [RRA, Keep Refrigerated, brites, 7303.050, 7303.040, 十四类不可混引, 收录边界, v4.6, v4.7]
 
 - id: t143
   title: 〔§ 117.1(c)〕专项 CGMP 法规与 Part 117 并行适用（不是二选一）
@@ -1532,8 +1532,8 @@
   source_chapter: 21 CFR Part 117 §117.1(c)；21 CFR Part 113 / 114（4-1-25 Edition）文件头
   source_quote: |
     "Food covered by specific current good manufacturing practice regulations also is subject to the requirements of those regulations."
-  summary: 受专项 CGMP 法规（part 113 / 114 等）管辖的食品**同时**受 Part 117 约束，所以「做 LACF 就不归 Part 117 管」「做了 PCHF 就不用管 part 113」都错。v4.7 起本包有三套独立编号的法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕，彼此并行、不是上下位、不是新旧替代；`regulatory-boundaries` 里「Part 117 是唯一判定基准」只能理解为**判定 Part 117 义务**的唯一基准。CP 7303.070 的检查动作仍属检查员作业指导（CAP-19），企业义务清单见 CAP-20。
-  tags: [117.1(c), 并行适用, 三套法规正文, LACF, 酸化食品, v4.7]
+  summary: 受专项 CGMP 法规（part 113 / 114 等）管辖的食品**同时**受 Part 117 约束，所以「做 LACF 就不归 Part 117 管」「做了 PCHF 就不用管 part 113」都错。v4.7 起本包有三套独立编号的法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕（**v4.9 增为四套：加〔§ 123.xxx〕，见 CAP-22**），彼此并行、不是上下位、不是新旧替代；`regulatory-boundaries` 里「Part 117 是唯一判定基准」只能理解为**判定 Part 117 义务**的唯一基准。CP 7303.070 的检查动作仍属检查员作业指导（CAP-19），企业义务清单见 CAP-20。
+  tags: [117.1(c), 并行适用, 四套法规正文, LACF, 酸化食品, v4.7]
 
 - id: t144
   title: 〔§ 117.5(d)(1)(2)〕条件性、有限豁免（双条件 + 仅限微生物危害）
@@ -1623,14 +1623,14 @@
   tags: [114.89, 114.83, 三条路径, part 113 热处理, competent processing authority, 偏差处置]
 
 - id: t152
-  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十三类不可混引
+  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十四类不可混引
   type: term
   source_chapter: 21 CFR Part 114 §114.3(a) 定义；21 CFR Part 113 / 114（4-1-25 Edition）FR citation；全包引用规范
   source_quote: |
     "Shall is used to state mandatory requirements."
     "Should is used to state recommended or advisory procedures or to identify recommended equipment."
-  summary: Part 113 / 114 正文用 shall 表强制要求、should 表推荐或建议性程序/设备——与 FDA 指南里的 should / we recommend 不同，法规正文的 shall 是企业法定义务。⚠ `4–1–25 Edition` 是 CFR 年度编纂版次（修订至 2025-04-01），不是 2025 年新规则；条文末尾的 FR citation 才是修订出处（§114.5 为 `[80 FR 56144, Sept. 17, 2015]`，§113.100 为 `[44 FR 16215 ... as amended at 76 FR 11923, Mar. 3, 2011]`）。两份 PDF 是 GPO 双栏印刷版连续页截取，按「页 → 左栏 → 右栏」重排并保留印刷断词连字符，检索以 § 编号为准。v4.7 起**十三类不可混引**：三套法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070；检查员作业指导不创设企业义务。
-  tags: [shall, should, 4-1-25 Edition, FR citation, 双栏转换, 十三类不可混引, v4.7]
+  summary: Part 113 / 114 正文用 shall 表强制要求、should 表推荐或建议性程序/设备——与 FDA 指南里的 should / we recommend 不同，法规正文的 shall 是企业法定义务。⚠ `4–1–25 Edition` 是 CFR 年度编纂版次（修订至 2025-04-01），不是 2025 年新规则；条文末尾的 FR citation 才是修订出处（§114.5 为 `[80 FR 56144, Sept. 17, 2015]`，§113.100 为 `[44 FR 16215 ... as amended at 76 FR 11923, Mar. 3, 2011]`）。两份 PDF 是 GPO 双栏印刷版连续页截取，按「页 → 左栏 → 右栏」重排并保留印刷断词连字符，检索以 § 编号为准。v4.7 起**十二类不可混引**（v4.8 增至十三类、v4.9 增至十四类）：三套法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070；检查员作业指导不创设企业义务。
+  tags: [shall, should, 4-1-25 Edition, FR citation, 双栏转换, 十四类不可混引, v4.7]
 
 
 - id: t153
@@ -1665,7 +1665,7 @@
   title: §1.501 八类 FSVP 豁免与 modified requirements 分节
   type: term
   source_chapter: CP 7303.878 PART I.1 / PART I.2
-  summary: 豁免见 §1.501(b)–(h)：符合 part 120 / 123 的果汁与水产及其原料、研究评估用、个人消费、酒精饮料相关、转运过境、进口加工后复出口且不在美销售、美国出口后未再境外加工而退回、进口时受 USDA 管辖的特定肉禽蛋制品。FSVP 条款又分 standard（§1.502/503/504/505/506/508/509/510）与 modified（§1.507 危害进口后受控、§1.511 膳食补充剂、§1.512 VSI 或小境外供应商、§1.513 SRA）；原文明确符合 modified 条件者**可以选择**走 standard。part 120 / 123 正文本包未收。
+  summary: 豁免见 §1.501(b)–(h)：符合 part 120 / 123 的果汁与水产及其原料、研究评估用、个人消费、酒精饮料相关、转运过境、进口加工后复出口且不在美销售、美国出口后未再境外加工而退回、进口时受 USDA 管辖的特定肉禽蛋制品。FSVP 条款又分 standard（§1.502/503/504/505/506/508/509/510）与 modified（§1.507 危害进口后受控、§1.511 膳食补充剂、§1.512 VSI 或小境外供应商、§1.513 SRA）；原文明确符合 modified 条件者**可以选择**走 standard。part 120 正文本包未收、**part 123 自 v4.9 起已收（见 CAP-22）**。
   tags: [1.501, 豁免, standard requirements, modified requirements, 1.512, 1.513, v4.8]
 
 - id: t158
@@ -1697,11 +1697,101 @@
   tags: [99-41, Red List, 99-37, 99-38, DWPE, 移除流程, v4.8]
 
 - id: t162
-  title: CP 7303.878 版本口径、CP 7303.819 状态与十三类不可混引
+  title: CP 7303.878 版本口径、CP 7303.819 状态与十四类不可混引
   type: term
   source_chapter: CP 7303.878 首页 / Change History p4 / 全包引用规范
-  summary: 本件是 Transmittal 2023-CPM-CFSAN-003、Implementation Date 09/27/2023 的 2023 版程序，Date of Issuance 08/28/2025 对应 Change History 的 Corrections（仅重组后 POC 与机构名称缩写更新），不是 2025 新 program；与 7303.050（2022/2025-09-10 更正）、7303.070（2024/2025-09-26 更正）同型。CP 7303.819 是 2006 FY06/07/08 旧程序、已过 COMPLETION DATE 9/30/08 而非现行，准确说法不是「法规意义上废止」。全包自 v4.8 起为**十三类不可混引**：三套法规正文〔§ 117/113/114.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook 五类参考指南层 ＋ CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878 五类检查员作业层；检查员作业指导不创设企业义务。
-  tags: [7303.878, 版本陷阱, 7303.819, 十三类不可混引, 收录边界, v4.8]
+  summary: 本件是 Transmittal 2023-CPM-CFSAN-003、Implementation Date 09/27/2023 的 2023 版程序，Date of Issuance 08/28/2025 对应 Change History 的 Corrections（仅重组后 POC 与机构名称缩写更新），不是 2025 新 program；与 7303.050（2022/2025-09-10 更正）、7303.070（2024/2025-09-26 更正）同型。CP 7303.819 是 2006 FY06/07/08 旧程序、已过 COMPLETION DATE 9/30/08 而非现行，准确说法不是「法规意义上废止」。全包自 v4.8 起十三类、**v4.9 起十四类不可混引**：四套法规正文〔§ 117/113/114/123.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook 五类参考指南层 ＋ CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878 五类检查员作业层；检查员作业指导不创设企业义务。
+  tags: [7303.878, 版本陷阱, 7303.819, 十四类不可混引, 收录边界, v4.8]
+
+- id: t163
+  title: fish 与 fishery product 的法定范围（§123.3(d)(e)）
+  summary: >-
+    〔§ 123.3(d)〕fish 含淡水与海水真骨鱼、甲壳类、其他水生动物（明列鳄鱼、蛙、水龟、水母、海参、海胆及其卵），
+    明确不含鸟与哺乳动物，且包含全部软体动物，前提是供人食用；〔§ 123.3(e)〕fishery product 指以鱼为特征配料的
+    任何人类食品。边界意义：鳄鱼、蛙腿、水龟等边缘物种属 part 123 管辖而非普通食品；但 birds 与 mammals
+    （如养殖兔、鳄梨除外）不属 fish。判定顺序是先看物种是否落入 (d)、再看成品是否以鱼为特征配料。
+
+- id: t164
+  title: processing 的三项法定排除（§123.3(k)(2)）
+  summary: >-
+    〔§ 123.3(k)〕把 processing 定义为 handling、storing、preparing、heading、eviscerating、shucking、freezing、
+    改变市场形态、manufacturing、preserving、packing、labeling、码头卸货与 holding 等；(k)(2) 明列三项不适用本 part：
+    (i) 不从事其他加工的捕捞或运输、(ii) 仅为在捕捞船上暂存而进行的去头、去内脏或冷冻、(iii) 零售经营。
+    这三项同时也是 §117.5(b) 豁免的边界之外——不在 processing 内的活动不属 part 123 管辖，因而不能主张
+    「受 part 123 管辖所以免 Subparts C/G」，须回到 Part 117 自行判定。
+
+- id: t165
+  title: §123.5(a) 默认适用与 §117.5(b) 双向锁定
+  summary: >-
+    两处法条构成双向锁定：〔§ 123.5(a)〕原文 Except as provided by § 117.5(b), parts 110 and 117 of this chapter
+    apply，即 Part 110 / 117 是默认适用、§117.5(b) 是唯一例外出口；〔§ 117.5(b)〕则规定 Subparts C and G 对受
+    part 123 管辖的 activities 不适用，条件是 required to comply with 且 in compliance with part 123。
+    推论：做水产品不等于只按 part 123 管；也不能因为「我们做 HACCP」就认为 PCHF 整体不适用。
+
+- id: t166
+  title: §117.5(b) 无限缩款——不得套用 part 113 的微生物限制
+  summary: >-
+    part 113 的豁免有〔§ 117.5(d)(2)〕追加限制：仅适用于 part 113 管辖的微生物危害。part 123 的〔§ 117.5(b)〕
+    没有对应条款。因此两个方向都错：把 part 113 的「仅限微生物危害」搬过来会低估豁免范围（误以为化学、物理危害
+    仍须 PCHF）；因为「没限缩」就推成整厂免检会高估豁免范围（忽略 activities 限定与 Subpart B 不在豁免内）。
+    正确口径是「受 part 123 管辖的 activities 范围内的 Subparts C/G」。
+
+- id: t167
+  title: Subpart B / C 的 augments 语义与 §123.16 的例外只排一条
+  summary: >-
+    〔§ 123.15〕与〔§ 123.20〕都用 This subpart augments subpart A of this part 表述，即熏制熏味水产品与
+    新鲜冷冻双壳软体动物的专项要求是叠加在 Subpart A 之上，不是另一套替代体系；漏 Subpart A 的 HACCP 计划、
+    纠正措施、验证、记录、培训即为漏项。另需区分两种例外范围：〔§ 123.16〕的 except those subject to part 113 or 114
+    只排除该条自身，Subpart A 全套义务仍适用；〔§ 123.20〕则是对「含足以杀灭公众健康意义微生物繁殖体处理的加工」
+    整体不适用 Subpart C。
+
+- id: t168
+  title: HACCP 计划的九项危害考虑清单（§123.6(c)(1)）
+  summary: >-
+    〔§ 123.6(c)(1)〕要求列出按 (a) 识别的、须对每种水产品控制的 RTL 危害，并以 Consideration should be given to
+    whether any food safety hazards are reasonably likely to occur as a result of the following 引出 (i)–(ix) 共 9 项：
+    自然毒素、微生物污染、化学污染、农药、兽药残留、鲭鱼毒素种或其他种的分解、寄生虫、未经批准的直接或间接食品
+    或着色添加剂使用、物理危害。措辞是 should be given 的考虑清单而非强制穷举，但漏考虑属危害分析缺陷；
+    寄生虫项有三个触发条件（已知或应知将不经足以灭虫的工艺食用、声称、标示或意图如此食用）。
+
+- id: t169
+  title: 纠正措施三条路径与隔离扣留顺序（§123.7）
+  summary: >-
+    〔§ 123.7(a)〕给两个入口：(1) 按预先制定的纠正措施计划，或 (2) 按 (c) 程序。〔§ 123.7(b)〕的纠正措施计划
+    须确保 No product enters commerce that is either injurious to health or is otherwise adulterated as a result of
+    the deviation，并纠正偏差原因。〔§ 123.7(c)〕的顺序是：先按 (c)(1) Segregate and hold 隔离扣留 → (c)(2) 由
+    具备适当培训或经验者评审可接受性（该培训 may or may not include §123.10 培训）→ (c)(3)(4) 必要时纠正产品与
+    原因 → (c)(5) 由按 §123.10 培训者及时复审并必要时修改 HACCP 计划。跳过隔离直接放行是最常见的违规形态。
+
+- id: t170
+  title: 验证的两个时间硬指标——1 周复审与至少每年复审（§123.8）
+  summary: >-
+    〔§ 123.8(a)(3)(i)〕要求 CCP 监控记录的复审须在记录形成后 1 周内完成（This review shall occur within 1 week
+    of the day that the records are made），(a)(3)(ii) 对纠正措施记录给同一时限；两项复审均须由按 §123.10 培训者
+    签名并注明日期。(a)(1) 另要求 HACCP 计划在可能影响危害分析或改动计划的变更发生时及至少每年一次复审，
+    且复审显示计划不再满足 §123.6(c) 时须立即修改。1 周是法条明文，不是内部 SOP 自定的建议值。
+
+- id: t171
+  title: 三套记录保存口径不可串用（§123.9 / §113.100 / §114.100）
+  summary: >-
+    part 123 按产品类型分档：〔§ 123.9(b)(1)〕冷藏产品自记录形成日起至少 1 年、冷冻保藏或货架稳定产品至少 2 年，
+    存于加工场所或进口商美国营业地；(b)(2) 设备或工艺总体适宜性记录（含科学研究与评价结果）至少 2 年，起算点
+    是从其对该产品的适用性；(b)(3) 季节性停产或船上偏远加工点存储受限时可在季末转移至其他合理可及地点，
+    但须应要求立即归还；(f) 电子记录可接受但须有适当控制确保数据与签名完整性。对照：Part 113〔§ 113.100(g)〕
+    是厂内至少 1 年加另存 2 年（1+2 分段）且 (h) 引 part 11；Part 114〔§ 114.100(e)〕是自生产日起整段 3 年、
+    无分段、无 part 11 条款。三套写法互推即错，不得统一写成「法规要求 3 年」。
+
+- id: t172
+  title: §123.12 进口商验证与 FSVP 是双轨，及 Part 123 版本口径
+  summary: >-
+    〔§ 123.12〕是 part 123 自带的进口商义务：二选一为 (a)(1) 从与 FDA 有现行有效 MOU 的国家采购（须覆盖该产品、
+    证明检查体系等效、准确反映现状、整体可执行）或 (a)(2) 建立并实施书面验证程序，程序至少列产品规格与
+    (a)(2)(ii)(A)–(F) 中至少一项 affirmative step；(b) 可聘 competent third party 协助或代为执行、包括代写程序；
+    (c) 保存英文记录；(d) 无等效保证即视为掺假并拒绝入境。该轨与 FSVP（21 CFR part 1 subpart L，法源 FD&C Act §805）
+    是两套法源两套结构，可共用证据但互不替代；FSVP 的 deemed compliance 明文只免 FSVP 且保留 §1.509 义务，
+    不覆盖 §123.12。版本口径：4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规，SOURCE 为 60 FR 65197 (1995-12-18)；
+    CP 7303.842 海产品检查程序与 part 120、1240、108、110 正文仍未收，一律标转引未收；
+    全包口径由 v4.8 十三类升为 v4.9 十四类不可混引。
 ```
 
 ## 自检记录
@@ -1719,7 +1809,9 @@
 - [x] 第七来源 FDA CPGM 7303.040 现行版（`2025-CPM-HFP-001`）术语 t118–t122 已并入（三层分级、Focused PCHF / 03040U 改义、official review 记录举证、483 回复 15 工作日、Limited Scope 取证边界）；CPGM 原文标「CPGM 7303.040 PART x」，法规标〔§ 117.xxx〕，检查员作业指导不升格为企业义务；2020 版旧口径单列为版本陷阱
 - [x] 第八来源 FDA CP 7303.050（2022 签发 / 2025-09-10 更正）术语 t123–t127 已并入（版本形态与『非检查 program』、subs 与 702(b)、环境拭子 50/100 与 Zone、WGS/GenomeTrakr 与拭子不计数、三档 Findings 与 Direct Reference）；原文标「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」，subs 数一律注明为 FDA 取证量而非放行标准
 - [x] 第九来源 FDA IOM 2026 Chapter 5 术语 t128–t134 已并入（483 措辞纪律与 Category 3 non-reportable observation、表单地图、预告三层、拒绝边界与 807(b)、样品合格不阻碍 cGMP 指控与证据固定、九类不可混引与 IOM 收录范围、PAC/PAF 与报样系统）；原文标「IOM 5.x.x / IOM Exhibit 5-x」，遇跨章引用标『转引未收』
-- [x] 第十来源 FDA CP 7303.070（2024 签发 / 2025-09-26 更正）术语 t135–t142 已并入（版本形态、§117.5(d)(1)(2) 管辖分流与 AF 不豁免、法源三角转引未收、酸化判定三步与 Maximum Equilibrium pH、三套 pH/aw 数字、异常罐 1% 与 24 罐/12 罐、Import Alert 99-37/99-38 与 DWPE 陷阱、RRA 程序性定义与 Keep Refrigerated / brites 路由）；原文标「CP 7303.070 PART x / ATTACHMENT x」，21 CFR part 108 / 110 / 120 / 123 等未收正文一律标『转引未收』（Part 113 / 114 正文自 v4.7 起已收）；全包口径 v4.6 十类 → v4.7 十二类 → **v4.8 十三类不可混引**，全库 **162 条**
-- [x] 第十一来源 **21 CFR Part 113**（4-1-25 Edition，36 页 / 10 条款）与第十二来源 **21 CFR Part 114**（7 页 / 8 条款）法规正文已并入，术语 t143–t152 共 10 条（并行适用、条件性有限豁免、§114.5 与 Part 110 纠错、4.6/0.85 法定身份、BPCS 与 §113.5、scheduled process 与 FDA 调阅权、**两 part 记录保存口径差异**、§114.80 热处理与电位法、§114.89 三条偏差路径、shall/should 与十三类不可混引）；引文全部取自 CAP-20 R 段已逐字核验的 26 个英文引用块；原文标〔§ 113.xxx〕〔§ 114.xxx〕，与〔§ 117.xxx〕并列但互不混引。**v4.7 同步更正 t116（Part 110 至今有效、正文未收）与 CAP-20 草稿把两 part 记录合并为「都是 1+2 年」的错误**
+- [x] 第十来源 FDA CP 7303.070（2024 签发 / 2025-09-26 更正）术语 t135–t142 已并入（版本形态、§117.5(d)(1)(2) 管辖分流与 AF 不豁免、法源三角转引未收、酸化判定三步与 Maximum Equilibrium pH、三套 pH/aw 数字、异常罐 1% 与 24 罐/12 罐、Import Alert 99-37/99-38 与 DWPE 陷阱、RRA 程序性定义与 Keep Refrigerated / brites 路由）；原文标「CP 7303.070 PART x / ATTACHMENT x」，21 CFR part 108 / 110 / 120 等未收正文一律标『转引未收』（其中 Part 113 / 114 正文自 v4.7 起已收、Part 123 自 v4.9 起已收）；全包口径 v4.6 十类 → v4.7 十二类 → **v4.8 十三类不可混引**，全库 **162 条**
+- [x] 第十一来源 **21 CFR Part 113**（4-1-25 Edition，36 页 / 10 条款）与第十二来源 **21 CFR Part 114**（7 页 / 8 条款）法规正文已并入，术语 t143–t152 共 10 条（并行适用、条件性有限豁免、§114.5 与 Part 110 纠错、4.6/0.85 法定身份、BPCS 与 §113.5、scheduled process 与 FDA 调阅权、**两 part 记录保存口径差异**、§114.80 热处理与电位法、§114.89 三条偏差路径、shall/should 与十二类不可混引）；引文全部取自 CAP-20 R 段已逐字核验的 26 个英文引用块；原文标〔§ 113.xxx〕〔§ 114.xxx〕，与〔§ 117.xxx〕并列但互不混引。**v4.7 同步更正 t116（Part 110 至今有效、正文未收）与 CAP-20 草稿把两 part 记录合并为「都是 1+2 年」的错误**
 
 - [x] 第十三来源 FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，2023-09-27 版 / 2025-08-28 更正，33 页 / 20 书签）术语 t153–t162 共 10 条已并入（FSVPI 定义、FSVP 与 Part 117 Subpart G 双法源、deemed compliance 与 §1.509 例外、每一 entry line 的 UFI/DUNS、§1.501 豁免与 standard/modified 分节、FSVP 检查不取样、483a 观察分级与 NAI/VAI/OAI、§801(a)(3)/§301(zz) 与 direct reference、Import Alert 99-41 与 99-37/99-38 区分、版本口径与十三类不可混引）；原文标「CP 7303.878 PART x」，21 CFR part 1 subpart L 正文一律标『转引未收』。全库 162 条，v4.8。
+
+- [x] 第十四来源 **21 CFR Part 123**（Fish and Fishery Products，4-1-25 Edition，9 页 / 13 条款）法规正文已并入，术语 t163–t172 共 10 条（fish 与 fishery product 范围、processing 三项排除、§123.5(a) 默认适用与 §117.5(b) 双向锁定、§117.5(b) 无限缩款、augments 语义与 §123.16 例外范围、九项危害考虑清单、纠正措施三条路径与隔离扣留顺序、1 周复审与每年复审、三套记录期口径不可串用、§123.12 与 FSVP 双轨及版本口径）；引文取自 CAP-22 R 段已逐字核验的 33 个英文引用块（32 条 Part 123 + 1 条 §117.5(b)）。原文标〔§ 123.xxx〕，CP 7303.842 与 part 120/1240/108/110 一律标『转引未收』。全库 **172 条**，v4.9。

@@ -12,7 +12,7 @@
 - **酸化食品与 Part 117 的接口**：〔§ 117.1(c)〕`Food covered by specific current good manufacturing practice regulations also is subject to the requirements of those regulations.` 给并行依据；〔§ 117.5〕的豁免清单列的是 part 123（(b)）、part 120（(c)）、**part 113（(d)）**，**part 114 不在其中** —— 酸化食品全程受 Part 117 Subparts C/G 约束（与 CP 7303.070 `PART II.2.C(1)` 的 `Acidified foods are subject to the CGMP & PCHF rule` 一致）。§114.5 又从酸化食品侧明文把 parts 110 and 117 拉进来判掺假，构成**双向并行**。
 - ⚠ **21 CFR part 108 正文仍未收**：FCE 注册、SID / scheduled process 备案、Emergency Permit Control、§108.35 BPCS 课程认可均出自 part 108（§114.10 明文回指 `§ 108.35 and part 113 ... before March 16, 1979`）；本包只有 CP 7303.070 的转引，凡涉及注册/备案/许可证的法条级结论须标「转引未收」。
 - **与 CP 7303.070 的分工**：本件给企业法定义务（shall），CP 给检查员取证口径。pH 4.6 / aw 0.85 是本件与 §113.3 的**法定身份边界**；CP 的 4.40 / 4.65 / 4.75 / 0.90 / 0.93 是实验室触发线；L.mono 草案的 ≤4.4 / ≤0.92 是建议层抑制型配方基准 —— 三套数字用途不同、不得互替。
-- 引用规范：本件标〔§ 114.xxx〕，Part 113 标〔§ 113.xxx〕，Part 117 标〔§ 117.xxx〕；CP 7303.070 的检查动作标「CP 7303.070 PART x」。全包自 v4.7 起十二类、v4.8 起「**十三类不可混引**」。
+- 引用规范：本件标〔§ 114.xxx〕，Part 113 标〔§ 113.xxx〕，Part 117 标〔§ 117.xxx〕；CP 7303.070 的检查动作标「CP 7303.070 PART x」。全包自 v4.7 起十二类、v4.8 起「**十四类不可混引**」。
 
 ## 条款地图（逐字核对，勿沿用二手摘要）
 

@@ -1,4 +1,4 @@
-# ===== 编译产物（dist-v12 为已发布产物，单独保留）=====
+# ===== 编译产物（dist-v12 / dist-v13 为已发布产物，单独保留）=====
 dist/
 dist-update/
 dist-v3/
@@ -14,9 +14,7 @@ dist-v11/
 
 # ===== 历史备份 =====
 backups/
-.cangjie/backup-v4-7-pre-revisions/
-.cangjie/backup-v4-8-pre-revisions/
-.cangjie/backup-v4-8-pre-docs/
+.cangjie/backup-*/
 
 # ===== 中间缓存 / 临时 / 探针 =====
 __pycache__/
