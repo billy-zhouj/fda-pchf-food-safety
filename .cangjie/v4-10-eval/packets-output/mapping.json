@@ -1,0 +1,42 @@
+{
+  "sh-out-01": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-02": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-03": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "sh-out-04": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-05": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-06": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-07": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-08": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  },
+  "sh-out-09": {
+    "vA": "v410_skill",
+    "vB": "without_skill"
+  },
+  "sh-out-10": {
+    "vB": "v410_skill",
+    "vA": "without_skill"
+  }
+}

@@ -1,0 +1,33 @@
+{"case_id": "cap22-a", "run": 3, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "问§123.9记录保存期限，法条义务层"}
+{"case_id": "cap22-b", "run": 3, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "问§117.5(b)豁免双条件，法条层"}
+{"case_id": "cap22-c", "run": 3, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "问§123.11 should/shall措辞，法条层"}
+{"case_id": "cap23-a", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "走完整18步判定链，指南层怎么判"}
+{"case_id": "cap23-b", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "Table 3-4怎么查，指南层"}
+{"case_id": "cap23-c", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "六栏表格第3/4栏填写与剪枝，指南层"}
+{"case_id": "cap23-d", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "组胺是否显著危害的判定，指南层"}
+{"case_id": "cap23-e", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "控制策略变更致CCP重判，指南层"}
+{"case_id": "cap23-f", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "Appendix 5数值能否作关键限值"}
+{"case_id": "cap23-g", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "第4版版本口径与判定树逐字引用"}
+{"case_id": "route-01", "run": 3, "selected_capability": "hazard-analysis-method", "reason": "六列工作表危害分析与FSP预防控制"}
+{"case_id": "route-02", "run": 3, "selected_capability": "management-components", "reason": "偏差纠正、隔离与7工作日记录"}
+{"case_id": "route-03", "run": 3, "selected_capability": "process-control-validation", "reason": "巴杀关键限值与D值validation研究"}
+{"case_id": "route-04", "run": 3, "selected_capability": "environmental-pathogen-sanitation", "reason": "李斯特菌环境监测与transient区分"}
+{"case_id": "route-05", "run": 3, "selected_capability": "allergen-program", "reason": "过敏原共线排产与换产清洁等级"}
+{"case_id": "route-06", "run": 3, "selected_capability": "chemical-hazard-controls", "reason": "婴幼儿无机砷化学危害与Closer to Zero"}
+{"case_id": "route-07", "run": 3, "selected_capability": "supply-chain-verification", "reason": "SAHCODH供应商验证与年度审核"}
+{"case_id": "route-08", "run": 3, "selected_capability": "recall-plan", "reason": "Class I召回通讯与RFR 24小时"}
+{"case_id": "route-09", "run": 3, "selected_capability": "regulatory-boundaries", "reason": "酸化食品与PCHF双法规义务并集"}
+{"case_id": "route-10", "run": 3, "selected_capability": "reference-tools-discipline", "reason": "附录1 X标记与配料状态变化重判"}
+{"case_id": "route-11", "run": 3, "selected_capability": "exemption-withdrawal-procedure", "reason": "豁免撤销申辩上诉期限"}
+{"case_id": "route-12", "run": 3, "selected_capability": "environmental-engineering-controls", "reason": "厂房排水冷凝水与设备布局设计"}
+{"case_id": "route-13", "run": 3, "selected_capability": "personnel-hygiene-controls", "reason": "手部卫生疾病报告与手套首饰管理"}
+{"case_id": "route-14", "run": 3, "selected_capability": "cgmp-compliance-guide", "reason": "cGMP内审与SECG分诊索引"}
+{"case_id": "route-15", "run": 3, "selected_capability": "defect-action-levels", "reason": "缺陷行动水平与掺混稀释判定"}
+{"case_id": "route-16", "run": 3, "selected_capability": "inspection-readiness", "reason": "迎检接待与FSP记录举证"}
+{"case_id": "route-17", "run": 3, "selected_capability": "inspection-sampling", "reason": "取样样品量与阳性结果应对"}
+{"case_id": "route-18", "run": 3, "selected_capability": "investigator-authority-procedure", "reason": "检查员拍照复印权限与482/483"}
+{"case_id": "route-19", "run": 3, "selected_capability": "lacf-inspection-program", "reason": "CP7303.070管辖分流与RRA"}
+{"case_id": "route-20", "run": 3, "selected_capability": "lacf-statutory-requirements", "reason": "113/114记录保存期限与part11"}
+{"case_id": "route-21", "run": 3, "selected_capability": "fsvp-inspection-program", "reason": "CP7303.878 FSVP PART IV不取样"}
+{"case_id": "route-22", "run": 3, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "§123.12进口商验证两路径，法条层"}
+{"case_id": "route-23", "run": 3, "selected_capability": "seafood-hazards-controls-guide", "reason": "Table 3-2未打勾能否判不显著"}

@@ -1,0 +1,229 @@
+{
+  "suite_id": "fda-pchf-v4-10-routing-v1",
+  "target": "fda-pchf-food-safety",
+  "candidate_capabilities": [
+    "allergen-program",
+    "cgmp-compliance-guide",
+    "chemical-hazard-controls",
+    "defect-action-levels",
+    "environmental-engineering-controls",
+    "environmental-pathogen-sanitation",
+    "exemption-withdrawal-procedure",
+    "fsvp-inspection-program",
+    "hazard-analysis-method",
+    "inspection-readiness",
+    "inspection-sampling",
+    "investigator-authority-procedure",
+    "lacf-inspection-program",
+    "lacf-statutory-requirements",
+    "management-components",
+    "personnel-hygiene-controls",
+    "process-control-validation",
+    "recall-plan",
+    "reference-tools-discipline",
+    "regulatory-boundaries",
+    "seafood-haccp-statutory-requirements",
+    "seafood-hazards-controls-guide",
+    "supply-chain-verification"
+  ],
+  "routing_cases": [
+    {
+      "case_id": "route-01",
+      "capability_id": "CAP-01",
+      "prompt": "新上一条坚果烘焙线，帮我按六列工作表做危害分析，判断哪些危害必须写进 FSP、哪些要设预防控制。",
+      "expected_capability": "hazard-analysis-method"
+    },
+    {
+      "case_id": "route-02",
+      "capability_id": "CAP-02",
+      "prompt": "杀菌温度监控记录发现偏离，怎么判定走 correction 还是 corrective action？隔离范围、记录审查和 7 working days 怎么落？",
+      "expected_capability": "management-components"
+    },
+    {
+      "case_id": "route-03",
+      "capability_id": "CAP-03",
+      "prompt": "巴杀工艺关键限值怎么定？文献里的 D 值能直接拿来用吗，validation 研究（热分布/热穿透）要怎么做？",
+      "expected_capability": "process-control-validation"
+    },
+    {
+      "case_id": "route-04",
+      "capability_id": "CAP-04",
+      "prompt": "RTE 车间湿区检出李斯特菌，环境监测要怎么升级？transient 与 resident 菌株怎么区分和根除？",
+      "expected_capability": "environmental-pathogen-sanitation"
+    },
+    {
+      "case_id": "route-05",
+      "capability_id": "CAP-05",
+      "prompt": "共线生产含花生与不含花生的产品，排产顺序怎么排？换产清洁等级怎么判，什么时候要专项过敏原清洁？",
+      "expected_capability": "allergen-program"
+    },
+    {
+      "case_id": "route-06",
+      "capability_id": "CAP-06",
+      "prompt": "婴幼儿米粉的无机砷风险怎么在供应链端控制？Closer to Zero 的进展要不要持续查新？",
+      "expected_capability": "chemical-hazard-controls"
+    },
+    {
+      "case_id": "route-07",
+      "capability_id": "CAP-07",
+      "prompt": "供应商原料存在 SAHCODH 危害，验证活动怎么选？年度审查是默认权利吗，检测能不能当唯一手段？",
+      "expected_capability": "supply-chain-verification"
+    },
+    {
+      "case_id": "route-08",
+      "capability_id": "CAP-08",
+      "prompt": "Class I 召回时书面通讯要包含哪些要素？Reportable Food Registry 的 24 小时报告怎么联动？",
+      "expected_capability": "recall-plan"
+    },
+    {
+      "case_id": "route-09",
+      "capability_id": "CAP-09",
+      "prompt": "我们做酸化食品，还要不要遵守 21 CFR Part 117 的 Subparts C/G？哪些法定义务是绝对不能免的？",
+      "expected_capability": "regulatory-boundaries"
+    },
+    {
+      "case_id": "route-10",
+      "capability_id": "CAP-10",
+      "prompt": "附录 1 Table 1K 打了 X，是不是就直接写进 FSP？干配料水合之后要不要重新判，书面 No 理由怎么写？",
+      "expected_capability": "reference-tools-discipline"
+    },
+    {
+      "case_id": "route-11",
+      "capability_id": "CAP-11",
+      "prompt": "FDA 要撤销我们的 qualified facility 豁免，申辩和上诉各有多少天？什么情况下逾期自动生效？",
+      "expected_capability": "exemption-withdrawal-procedure"
+    },
+    {
+      "case_id": "route-12",
+      "capability_id": "CAP-12",
+      "prompt": "厂房地面排水坡度与天花板冷凝水怎么设计才符合 cGMP？设备布局要留多大检修与清洁空间？",
+      "expected_capability": "environmental-engineering-controls"
+    },
+    {
+      "case_id": "route-13",
+      "capability_id": "CAP-13",
+      "prompt": "员工手部卫生与疾病报告制度怎么写？戴手套能不能替代洗手，首饰和假睫毛怎么管？",
+      "expected_capability": "personnel-hygiene-controls"
+    },
+    {
+      "case_id": "route-14",
+      "capability_id": "CAP-14",
+      "prompt": "做一次 cGMP 内审，SECG 按主题的分诊索引怎么查？哪些内容仍是旧 part 110 的、哪些已经是 117 法条？",
+      "expected_capability": "cgmp-compliance-guide"
+    },
+    {
+      "case_id": "route-15",
+      "capability_id": "CAP-15",
+      "prompt": "一批冷冻菠菜检出蚜虫数量偏高，Food Defect Levels Handbook 的行动水平怎么判？能不能靠混合稀释达标？",
+      "expected_capability": "defect-action-levels"
+    },
+    {
+      "case_id": "route-16",
+      "capability_id": "CAP-16",
+      "prompt": "FDA 明天来现场检查，前台接待、FSP 与记录举证怎么准备？PCQI 不在场怎么办？",
+      "expected_capability": "inspection-readiness"
+    },
+    {
+      "case_id": "route-17",
+      "capability_id": "CAP-17",
+      "prompt": "检查员现场要取样，样品量与份数怎么定？阳性结果出来后的应对与申诉流程是什么？",
+      "expected_capability": "inspection-sampling"
+    },
+    {
+      "case_id": "route-18",
+      "capability_id": "CAP-18",
+      "prompt": "检查员要求进生产线拍照并复印记录，权限边界在哪？Form 482/483 该怎么签收与回应？",
+      "expected_capability": "investigator-authority-procedure"
+    },
+    {
+      "case_id": "route-19",
+      "capability_id": "CAP-19",
+      "prompt": "CP 7303.070 对低酸/酸化罐头企业的检查怎么分流到 Part 117 或专项程序？RRA 算不算一次 inspection？",
+      "expected_capability": "lacf-inspection-program"
+    },
+    {
+      "case_id": "route-20",
+      "capability_id": "CAP-20",
+      "prompt": "§ 113.100(g) 和 § 114.100(e) 的记录保存期限到底有什么不同？part 11 电子记录条款适用于哪一部？",
+      "expected_capability": "lacf-statutory-requirements"
+    },
+    {
+      "case_id": "route-21",
+      "capability_id": "CAP-21",
+      "prompt": "CP 7303.878 检查 FSVP 进口商时，PART IV 为什么全空、不取样？§1.509 每 entry line 要申报什么？",
+      "expected_capability": "fsvp-inspection-program"
+    },
+    {
+      "case_id": "route-22",
+      "capability_id": "CAP-22",
+      "prompt": "21 CFR Part 123 的 §123.12 进口商验证有哪两条可选路径？affirmative steps 列在哪一款？",
+      "expected_capability": "seafood-haccp-statutory-requirements"
+    },
+    {
+      "case_id": "route-23",
+      "capability_id": "CAP-23",
+      "prompt": "我们做冷冻金枪鱼排，Ch.3 的 Table 3-2 里组胺那栏没打勾，危害分析能不能直接写「不显著」？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-a",
+      "capability_id": "CAP-23",
+      "prompt": "从描述产品、画流程图一直到定监控频率，帮我把海产品 HACCP 危害分析完整判定链走一遍。",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-b",
+      "capability_id": "CAP-23",
+      "prompt": "Table 3-4 是按成品形态、包装类型和储运方式来识别工艺相关潜在危害的吗？要怎么查？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-c",
+      "capability_id": "CAP-23",
+      "prompt": "Hazard Analysis Worksheet 第 3 栏填 No 的步骤，第 4 栏理由还要不要写？后面哪些步骤能跳过？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-d",
+      "capability_id": "CAP-23",
+      "prompt": "船上一直有时间温度控制、几年没检出组胺，这样能不能判定组胺不是显著危害？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-e",
+      "capability_id": "CAP-23",
+      "prompt": "同一个组胺危害换一条 Ch.7 的 Control Strategy Example，CCP 位置要不要重跑判定树？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-f",
+      "capability_id": "CAP-23",
+      "prompt": "指南 Appendix 5 的 50 ppm / 500 ppm 能不能直接抄进 HACCP 计划当关键限值？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap23-g",
+      "capability_id": "CAP-23",
+      "prompt": "June 2022 第 4 版是不是新规？Appendix 3 的 CCP 判定树逐字原文能给吗？",
+      "expected_capability": "seafood-hazards-controls-guide"
+    },
+    {
+      "case_id": "cap22-a",
+      "capability_id": "CAP-22",
+      "prompt": "〔§ 123.9(b)(1)〕冷藏与冷冻、保藏、货架稳定水产品的 HACCP 记录各要保存多久？",
+      "expected_capability": "seafood-haccp-statutory-requirements"
+    },
+    {
+      "case_id": "cap22-b",
+      "capability_id": "CAP-22",
+      "prompt": "按〔§ 117.5(b)〕，水产品加工厂要满足哪两个条件才免 Part 117 的 Subparts C/G？",
+      "expected_capability": "seafood-haccp-statutory-requirements"
+    },
+    {
+      "case_id": "cap22-c",
+      "capability_id": "CAP-22",
+      "prompt": "〔§ 123.11(a)〕SSOP 的 should 与 (b)(c) 监测记录的 shall，法条上的措辞区别是什么？",
+      "expected_capability": "seafood-haccp-statutory-requirements"
+    }
+  ]
+}

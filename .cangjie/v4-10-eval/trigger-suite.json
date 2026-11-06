@@ -1,0 +1,184 @@
+{
+  "suite_id": "fda-pchf-v4-10-trigger-seafood-hazards",
+  "target": "fda-pchf-food-safety",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "seafood-hazards-01",
+      "prompt": "我们做冷冻金枪鱼排，查了 Ch.3 的 Table 3-2，表里这个鱼种组胺那栏没打勾，是不是危害分析里就可以直接写「组胺不显著」？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-02",
+      "prompt": "我们船上一直有时间温度控制，这几年从没检出过组胺，是不是就能判定组胺不是显著危害、不用写进 HACCP 计划？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-03",
+      "prompt": "接收步骤判定组胺显著，是不是 CCP 就必须设在接收这一步？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-04",
+      "prompt": "危害分析工作表第 3 栏填了 No 的那些步骤，第 4 栏还要写理由吗？后面 18 步是不是都得走完？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-05",
+      "prompt": "帮我把海产品 HACCP 危害分析从头到尾走一遍：从描述产品到定监控频率，完整判定链是什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-06",
+      "prompt": "指南里写了组胺 50 ppm / 500 ppm、寄生虫 -20°C 7 天，我们直接把这些数抄进 HACCP 计划当关键限值，检查员是不是就认了？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-07",
+      "prompt": "同一个组胺危害，Ch.7 给了好几条 Control Strategy Example，我们换一条控制策略，CCP 和关键限值要不要跟着改？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-08",
+      "prompt": "既然这份指南自己说没有法律约束力、可以用别的控制策略，那我们是不是连 Part 123 要求的书面 HACCP 计划和危害分析都可以不做？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-09",
+      "prompt": "2022 年 6 月第 4 版是新规吧？麻烦把 Appendix 3 的 CCP 判定树逐字原文、CPG 540.525 全文、以及 NSSP 贝类生长区分类都列出来。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "seafood-hazards-10",
+      "prompt": "按中国 GB 2733 帮我判定这批鲜冻动物性水产品的组胺限量和感官要求，顺便写一份出口欧盟的卫生证书。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-01",
+      "prompt": "这份 GPO 出的双栏 CFR PDF，用 markitdown 转出来表格全丢了，帮我高保真转成 Markdown，表格要保留、书签标题层级要还原、页眉页脚要清掉。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "pdf2md-pro"
+    },
+    {
+      "case_id": "sib-02",
+      "prompt": "把这个品牌 Logo 做成一套 IP 吉祥物角色设定卡，要一张主视觉，再配性格设定和三视图。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "brand-ip"
+    },
+    {
+      "case_id": "sib-03",
+      "prompt": "我想把手里这本食品法规指南蒸馏成一个可复用的 skill，按 cangjie 的流程该怎么做？",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "cangjie-skill"
+    },
+    {
+      "case_id": "sib-04",
+      "prompt": "打开我桌面那份 Excel，把 B 列按数值降序排，再基于 C 列生成一个柱状图。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "officecli1098"
+    },
+    {
+      "case_id": "sib-05",
+      "prompt": "一份 300 页的扫描版法规 PDF，帮我批量转 md，要求按 PDF 内置书签重建标题层级并附转换质量自检报告。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "pdf2md-pro"
+    },
+    {
+      "case_id": "sib-06",
+      "prompt": "给我家柯基设计一套宠物 IP 形象，含表情包和角色设定卡。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "brand-ip"
+    },
+    {
+      "case_id": "sib-07",
+      "prompt": "把这段课程录像的文字稿拆成若干条可执行 skill，做成技能包。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "cangjie-skill"
+    },
+    {
+      "case_id": "sib-08",
+      "prompt": "帮我在这个 csv 里加一列求和公式，并把前两行合并单元格。",
+      "expected": "sibling",
+      "runs": 3,
+      "sibling_target": "officecli1098"
+    },
+    {
+      "case_id": "neg-01",
+      "prompt": "帮我查一下今天上证指数收盘点位和涨跌幅。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-02",
+      "prompt": "用 Python 写一个快速排序，并解释它的平均时间复杂度。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-03",
+      "prompt": "21 CFR 210/211 药品 cGMP 对洁净区相邻房间的压差有什么要求？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-04",
+      "prompt": "9 CFR 416/417 对肉类屠宰厂的 SSOP 与 HACCP 计划分别要求写哪些内容？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-05",
+      "prompt": "GB 2763-2021 里茶叶的农药最大残留限量是多少？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-06",
+      "prompt": "欧盟 Regulation (EC) No 852/2004 对食品经营者的注册义务怎么规定？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-07",
+      "prompt": "化妆品 GMP（ISO 22716）对灌装车间微生物监控频次的要求是什么？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-08",
+      "prompt": "帮我拟一份设备采购合同模板，含交货期与违约责任条款。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-09",
+      "prompt": "明天上海天气怎么样，需要带伞吗？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-10",
+      "prompt": "把这段产品介绍翻译成日语，语气要正式。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    }
+  ]
+}

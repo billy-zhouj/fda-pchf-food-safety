@@ -1,0 +1,9 @@
+{
+  "case_id": "sh-out-03",
+  "variant_label": "vA",
+  "prompt": "接收步骤判定组胺显著，是不是 CCP 就必须设在接收这一步？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "可用参考材料（请先读取再作答）：C:/Users/周至/WorkBuddy/美国食品安全法规技能/.workbuddy/skills/fda-pchf-food-safety/SKILL.md 与其 references/ 下的能力卡、capability-index.md、glossary.md。遇到判定链步骤、栏目编号、来源分层、转引未收等问题请以材料为准。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-10-eval/packets-output/sh-out-03/vA.md"
+}
