@@ -19,7 +19,7 @@ intents:
   - 解释 Import Alert 99-37/99-38 与「不得仅因未注册未备案建议 DWPE」的反直觉限制
   - 回答 Emergency Permit/OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率、24 小时通电
   - 识别 2024-09-26 签发 / 2025-09-26 更正本的版本形态，避免套用 7303.040 的 Transmittal 口径
-  - 判断哪些问题超出本包（21 CFR 108/113/114 正文、IOM Ch.4 Chart 2、BAM、CPG 520.200/520.300、Import Alert 全文、F0/D/z 与 TD/HP 研究设计）
+  - 判断哪些问题超出本卡（IOM Ch.4 Chart 2、BAM、CPG 520.200/520.300、Import Alert 全文、F0/D/z 与 TD/HP 研究设计）；113/114 正文转 CAP-20、108 正文转 CAP-25
 keywords:
   - "CP 7303.070"
   - "7303.070"

@@ -279,7 +279,7 @@
 
 > 本节是 v4.10 增量记录；上文各节的 v4.x 规模与「十四类不可混引」为**历史口径**，保留不改。
 
-- **v4.10 当时规模**：23 张能力卡 / 182 条术语 / 115 条测试用例 / **十五类来源** / `dist-v14`。（当前 v4.11 为 24 张 / 192 条 / 125 条 / 十六类 / `dist-v15`，见文末 v4.11 节。）
+- **v4.10 当时规模**：23 张能力卡 / 182 条术语 / 115 条测试用例 / **十五类来源** / `dist-v14`。（v4.11 时为 24 张 / 192 条 / 125 条 / 十六类 / `dist-v15`；**v4.12 现为 25 张 / 202 条 / 135 条 / 十七类 / `dist-v16`**，见文末 v4.12 节。）
 - **第十五来源**：FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版 June 2022（SGR 129），`source-seafood-hazards-guide-2022.md`。它是**非约束性技术指南层**，与第十四来源 21 CFR Part 123（法条义务层，CAP-22）配对而非合并：前者给「怎么判定」，后者给「必须做什么」。
 - **新增能力卡 CAP-23 `seafood-hazards-controls-guide`**：完整危害分析判定链（Ch.3 三表识别 → Ch.4–21 理解危害 → 无控制条件下判 `reasonably likely to occur` → 六栏工作表 Yes/No 理由 → Step 11 判定树定 CCP → 控制策略示例 → 关键限值与监控四问）。R 段 37 个英文引用块经 `.cangjie/verify_v4_10_quotes.py` 逐字核验 37/37 命中。
 - **十五类不可混引（v4.10 口径；v4.9 时为十四类）**：在上文十四类清单之外，增加 **FDA 海产品危害与控制指南第 4 版**。层次仍为：法规正文 ＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序（仅检查员视角）。指南内引用写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，不可互换。
@@ -288,6 +288,19 @@
 
 ## v4.11 追加：第十六来源 CP 7303.842（海产品检查程序）
 
-- 上表与各节「仍未收 CP 7303.842」为 **v4.10 及以前**的当时口径，自 v4.11 起该件已纳入为**第十六来源**，见 `source-cp-7303-842-2023.md` 与 CAP-24 `seafood-inspection-program`。当前全包 **十六类来源不可混引**、24 张能力卡 / 192 术语 / 125 用例 / `dist-v15`。
+- 上表与各节「仍未收 CP 7303.842」为 **v4.10 及以前**的当时口径，自 v4.11 起该件已纳入为**第十六来源**，见 `source-cp-7303-842-2023.md` 与 CAP-24 `seafood-inspection-program`。v4.11 时为 **十六类来源不可混引**、24 张能力卡 / 192 术语 / 125 用例 / `dist-v15`（**v4.12 现为十七类 / 25 张 / 202 条 / 135 条 / `dist-v16`**，见文末 v4.12 节）。
 - 该件是 **2023-11-01 版程序的 2025-09-30 更正本**（文件名 `20250929` 只是 PDF 生成日），CP 7303.842 与 CP 7303.844 已合并但 PAC 仍分进口/国产。层次为**检查程序作业层**：法规正文〔§ 123.xxx〕（CAP-22）＞ 技术指南（CAP-23）＞ 本 CP 的 field staff 指令（CAP-24）；CP 不创设企业义务，其 PART IV 触发值也不是法规限值。
-- 历史「仍未收」清单中除 CP 7303.842 外的项目（part 120 / 1240 / 108 / 110 / 507、NSSP Guide、CPG 与 Import Alert 全文、BAM 方法、IOM Ch.4 等）**仍然未收**。
+- 历史「仍未收」清单中除 CP 7303.842 外的项目（part 120 / 1240 / 110 / 507、NSSP Guide、CPG 与 Import Alert 全文、BAM 方法、IOM Ch.4 等）**仍然未收**；**21 CFR part 108 自 v4.12 起已收**（第十七来源，CAP-25），不再属未收项。
+
+## v4.12 追加：第十七来源 21 CFR Part 108（紧急许可控制）
+
+> 本节是 v4.12 增量记录；上文各节的 v4.x 规模与「十六类不可混引」为**历史口径**，保留不改。
+
+- **v4.12 当时规模**：**25 张能力卡 / 202 条术语 / 135 条测试用例 / 十七类来源 / `dist-v16`**。
+- **第十七来源**：**21 CFR Part 108《Emergency Permit Control》**（4-1-25 Edition，11 页 / 9 条款，书页 248–257），`source-cfr-part108-2025.md`。它是 **FD&C Act §404 的实施细则**（AUTHORITY `21 U.S.C. 342, 344, 371`），属**法规正文层**，与已收的 Part 113 / 114 / 117 / 123 并列而成**第五套独立编号体系**〔§ 108.xxx〕。
+- **新增能力卡 CAP-25 `emergency-permit-control`**：这是全包被点名最久的一处缺口——CAP-20 的 B1 曾明写「21 CFR part 108 正文仍未收，这是本卡最大缺口」。卡内把「**手续层**」与「**实体层**」切开：Subpart A（108.3/.5/.6/.7/.10/.12/.19）给许可裁定、撤销、签发、中止与恢复、无证生产的产品放行闸门、许可豁免；Subpart B（108.25 酸化食品 / 108.35 LACF）给注册（Form FDA 2541）、工艺备案（2541e / 2541d / 2541f / 2541g）、停业通知、腐败与偏差报告、召回程序文件、BPCS 受训主管与记录保存。R 段 27 个英文引用块经 `.cangjie/verify_v4_12_quotes.py` 逐字核验 **27/27 命中正文区，0 超 100 词、0 表格引用**。
+- **核心纠偏（本版最重要的一条）**：**紧急许可不是 LACF／酸化食品企业的常态义务**。108.25(a) / 108.35(a) 用的都是 `may be required whenever the Commissioner finds, after investigation, that the commercial processor has failed to fulfill all the requirements of this section`，未履行义务只构成 `prima facie basis`（初步依据），仍须走 Subpart A 的裁定—通知—异议—听证—裁定链条；108.6(a) 另限定 `A permit shall be required only during such temporary period as is necessary to protect the public health.` 因此「LACF 企业必须持紧急许可证」是错误陈述。
+- **其余四处高频误读**：① Subpart A 全是 **working days**（3/5/10/20），Subpart B 全是**日历天**（10/30/60/90），不可互换；② 记录保存**四套口径**（108.25(g) 整段 3 年｜108.35(h) 1+2 年｜113.100(g) 1+2 年且可用 part 11 电子记录｜114.100(e) 整段 3 年无 part 11 条款）不得合并成「3 年」；③ 国内企业走紧急许可、**外国加工者走 §801 拒绝入境**（108.25(j) / 108.35(k)），两条路方向相反；④ 108.35 独有的 FSIS 连续检验豁免 (i)、加州视为合规 (j)(2)、FOIA 豁免 (l) 不得套到酸化食品。
+- **十七类不可混引（v4.12 口径；v4.11 时为十六类）**：在十六类之外增加 **21 CFR Part 108 法规正文**。层次仍为：法规正文（五套编号）＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序。Part 108 引用写〔§ 108.xxx〕，且 `§§ 114.10, 114.80(a) (1) and (2), and (b), 114.83, 114.89, and 114.100 (b), (c), and (d)` 这类交叉引用清单不得简写。
+- **仍未收**：2541 系列表单栏目细则、FURLS / Center Views 实际操作、21 CFR part 110 / 120 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2。
+- 转换链路：`.cangjie/convert_cfr_part.py`（页 → 左栏 → 右栏重排）→ `.cangjie/fix_part108_reflow.py`（定点修 **6 处**重排缺陷：1 处正文句被误升为条款标题、4 处句中断段、1 处两编号项并段，逐条断言）。自检：9/9 条款命中、页眉与独立页码残留 0、裁掉首部 Part 107 残段 9 段与尾部 Part 109 残段 14 段、串栏 0。完整变更与校验记录见 `PIPELINE_STATE.md` v4.12 段。

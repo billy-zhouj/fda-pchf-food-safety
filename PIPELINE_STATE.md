@@ -310,3 +310,24 @@
 - **④ 能力卡路由评测**：37 条（24 卡各 1 + CAP-24 定向 7 + CAP-23 定向 3 + CAP-22 定向 3）× 3 轮 = **111 判**，**top-1 111/111 = 1.000**、重复一致 37/37、非法 slug 0；**CAP-24 定向/基础 24/24**、CAP-23 12/12、CAP-22 12/12；**三层配对交叉错判全 0**（CAP-24↔CAP-23、CAP-24↔CAP-22、CAP-23↔CAP-22 六个方向均为 0）。
 - **局限（随数字一起读）**：judge 为同一底座模型的干净 sub-agent，非宿主端到端激活日志；路由 `instruction` 已点名 CAP-22/23/24 三层分工（沿用 v4.7 / v4.10 为可比性保留），会高估真实口语场景；5-skill catalog 是评测设定而非本机实际安装清单；用例为原型化 prompt、judge 只看能力索引；输出只有机械断言，无 A/B 偏好盲评、分歧样本人工复核、工具调用审计，未测 `also_read` 辅读链；触发未作统计非劣声明；2 个 FP 集中在 1 条边界题，样本小，不推断总体误触发率。
 - **结论：v4.11 评测欠账已关闭。** 完整报告与复现命令见 `.cangjie/v4-11-eval-report.md`。
+
+## v4.12 — 21 CFR Part 108 落为第十七来源 + 紧急许可控制卡（25 张卡）
+
+> 上文 v4.11 及更早各节中「21 CFR part 108 仍未收」均为**当时口径**，自 v4.12 起该件已纳入，见 `source-cfr-part108-2025.md` 与 CAP-25 `emergency-permit-control`。
+
+- **第十七来源**：**21 CFR Part 108《Emergency Permit Control》**（`CFR-2025-title21-vol2-part108.pdf`，175 KB / 11 页，GPO 印刷版 4-1-25 Edition，书页 248–258）。它是 **FD&C Act §404 的实施细则**（AUTHORITY `21 U.S.C. 342, 344, 371`），属法规正文层，为全包**第五套独立编号体系**〔§ 108.xxx〕。结构：Subpart A（108.3 定义 / 108.5 许可裁定 / 108.6 撤销 / 108.7 签发或拒绝 / 108.10 中止与恢复 / 108.12 无证生产 / 108.19 豁免要求）+ Subpart B（108.25 酸化食品 / 108.35 LACF 热处理）。
+- **转换链路**：`.cangjie/convert_cfr_part.py`（页 → 左栏 → 右栏重排）产出 `.cangjie/tmp-part108.md`，再由新增 `.cangjie/fix_part108_reflow.py` 定点修 **6 处**重排缺陷 —— §108.3(a) 跨页丢句号、§108.6(b)/§108.7(a)/§108.12(b) 三处句中断段、§108.7(b) 句中 `§ 108.5 (b) and (c) as to whether...` 被误升为 H2 条款标题、§108.25(b) 与 (c)(1) 两个编号项并段。所有修复走逐条断言（命中数必须为 1），原文措辞未改。自检：**9/9 条款命中**、页眉与独立页码残留 0、裁掉首部 Part 107 残段 9 段与尾部 Part 109 残段 14 段、串栏 0；复扫剩余可疑断句 0。
+- **新增能力卡 CAP-25 `emergency-permit-control`**（`.cangjie/capabilities/cards/emergency-permit-control.md` + `_meta-emergency-permit-control.yaml`，49 intents / 139 keywords）。R 段 **27 个英文引用块**经新增 `.cangjie/verify_v4_12_quotes.py` 核验：**27/27 命中正文区、0 超 100 词、0 表格引用，RESULT: PASS**。
+- **本版五条实质纠偏**：
+  1. **紧急许可不是常态义务**——108.25(a)/108.35(a) 均为 `may be required whenever the Commissioner finds ... that the commercial processor has failed to fulfill all the requirements of this section`，未履行只构成 `prima facie basis`，仍须走 Subpart A 程序；108.6(a) 另限 `A permit shall be required only during such temporary period`。「LACF 企业必须持紧急许可证」为错误陈述。
+  2. **两种「日」不可互换**——Subpart A 全为 working days（3/5/10/20），Subpart B 全为日历天（10/30/60/90）。
+  3. **记录保存四套口径**——108.25(g) 整段 3 年｜108.35(h) 1+2 年｜113.100(g) 1+2 年且可用 part 11｜114.100(e) 整段 3 年无 part 11 条款。
+  4. **进出口两条路方向相反**——国内走紧急许可，外国加工者走 §801 拒绝入境（108.25(j) / 108.35(k)）。
+  5. **108.35 三个专属例外不适用于 108.25**——FSIS 连续检验 (i)、加州视为合规 (j)(2)、FOIA 豁免 (l)。
+- **Bundle 回补**：`assemble_bundle.py` 24 → **25 卡**（SLUGS 追加、ALSO_READ 新增 9 条正向链 + 11 张卡反向链）、`additional_sources` 15 → **16 条**（末条 `src-21-cfr-part-108-2025`）、core_principles 48 → **50**、stop_conditions 22 → **24**。全包当前口径统一为「**十七类不可混引 / 25 张卡 / 五套法规正文编号**」；清除既有条文中把 part 108 写成「未收」的当前断言（`21 CFR part 120 / 1240 / 108 / 110 / 507` 5 处批量移除 108、CP 7303.070 与 CP 7303.842 相关未收清单、out_of_scope 改为「表单细则超出覆盖」）。所有替换走 `rep_once` 唯一性断言，dry-run 全过后 --apply。
+- **术语与用例**：`candidates/glossary.md` 192 → **202 条**（t193–t202：emergency permit、FCE registration 2541、process filing 2541e/d/f/g、prima facie basis、working days 与日历天、retained product 与 advance written approval、§801 拒绝入境、BPCS 类受训主管、记录保存四套口径、intentional change 与升参数边界），严格 `yaml.safe_load` 通过、id 唯一。`test-prompts.json` 125 → **135 条**（`emergency-permit-01..10`：6 should_trigger / 3 edge_case / 1 should_not_trigger），version → **4.12**。
+- **编译与安装（已完成）**：`compile_single.py --bundle .cangjie/capabilities --out dist-v16 --variant single` 产出 **30 个 .md / 25 张卡**（SKILL.md 147 行 / 94,112 字节）；`validate_skill_pack.py dist-v16` **0 errors + 1 warning**（`name-dir` 产物目录名固有）；`.cangjie/install_v12.py` 覆盖安装到工作区级 `.workbuddy/skills/fda-pchf-food-safety/`，旧版备份 `backups/fda-pchf-food-safety-v4.11-20261107-111540`；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **30/30 文件、逐文件 sha256 差异 0**，glossary 5 份副本 hash 全同（`c8ef306c3acb1d83…`）、严格 `yaml.safe_load` 202 条 id 唯一。
+- **静态登记核对**：`.cangjie/check_v4_12_routing.py` **34/34 PASS** —— 25 卡 / 50 principles / 24 stops / 16 additional_sources（末条 `src-21-cfr-part-108-2025`）、CAP-25 `active`·`extended`·also_read 9 条、反向辅读链 8 张、能力索引主行 1 行、SKILL.md 无「十六类」残留且含「十七类」、CAP-25 27 个引用块且 8 个条款全覆盖、meta 49 intents / 139 keywords、产物与安装目录 hash 差异 0。
+- **口径回补**：`.cangjie/apply_v4_12_residue.py` 两阶段执行 —— 阶段 1 逐行改写 22 处「part 108 未收」当前断言（含 CAP-20 的 B1「本卡最大缺口」整段改写为「缺口已闭合」、CAP-19 的 B2、CAP-22/23 头注与 Step 收尾、CAP-15/参考工具卡未收清单、四处「四套 → 五套」编号表述、两处过期「21 张能力卡」）；阶段 2 全局「十六类 → 十七类」（卡内 28 处 + meta 8 处 + 术语条目 7 处），并把紧邻的 `v4.11 起` 校为 `v4.12 起`（7 处）；卡目录已无「十六类」残留，「第十六来源」历史自检行原样保留。
+- **评测**：本版尚未重跑触发 / 输出 / 路由评测，v4.7 / v4.10 / v4.11 的既有结论不得冒用。
+- **仍未收**：2541 系列表单栏目细则、FURLS / Center Views 实际操作、21 CFR part 110 / 120 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2。

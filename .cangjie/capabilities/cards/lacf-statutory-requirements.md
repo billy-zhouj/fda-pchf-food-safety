@@ -2,9 +2,9 @@
 
 *来源分层：本卡取用**三套法规正文**，均具法律约束力。① **21 CFR Part 113**〔§ 113.xxx〕（Thermally Processed Low-Acid Foods Packaged in Hermetically Sealed Containers，4-1-25 Edition，36 页）；② **21 CFR Part 114**〔§ 114.xxx〕（Acidified Foods，4-1-25 Edition，7 页）；③ **21 CFR Part 117**〔§ 117.xxx〕（CGMP & PCHF，本包主来源）。三者是**并行法条**，不是上下位、也不是新旧替代关系；接口是〔§ 117.1(c)〕并行条款与〔§ 117.5(d)(1)(2)〕**条件性、有限**豁免。*
 
-*⚠ **本卡改变了全包效力分层表述**：自此「法规正文层」含 Part 117 / 113 / 114 三套独立编号（**v4.9 增为四套：加 Part 123〔§ 123.xxx〕，见 CAP-22 `seafood-haccp-statutory-requirements`**）。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」，不能解释成「全包唯一法条」。与 CP 7303.070（检查员作业指导，CAP-19）、PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM 2026 Ch.5 合计 **十六类不可混引**。*
+*⚠ **本卡改变了全包效力分层表述**：自此「法规正文层」含 Part 117 / 113 / 114 三套独立编号（**v4.9 增为四套：加 Part 123〔§ 123.xxx〕，见 CAP-22 `seafood-haccp-statutory-requirements`**）。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」，不能解释成「全包唯一法条」。与 CP 7303.070（检查员作业指导，CAP-19）、PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM 2026 Ch.5 合计 **十七类不可混引**。*
 
-*⚠ **正文本包仍未收**：21 CFR **part 108**（FCE 注册 / SID 定时工艺备案 / Emergency Permit Control / §108.35 BPCS 认可）与 **part 110**（旧 CGMP，含 §110.110）。两者在本卡里一律标「转引未收」，不得从 Part 113/114 或 CP 反推条文。*
+*⚠ **part 108 自 v4.12 起已收**（第十七来源，CAP-25 `emergency-permit-control`）：FCE 注册 / SID 定时工艺备案 / Emergency Permit Control / §108.35 BPCS 认可现按〔§ 108.xxx〕引用，不再标「转引未收」。**仍未收的是 part 110**（旧 CGMP，含 §110.110，正文未收）——涉及 §110.110 一律标「转引未收」，不得从 Part 113/114 或 CP 反推条文。*
 
 *本卡定位：CAP-19 `lacf-inspection-program` 给的是**检查员会查什么、什么数值触发升级**；本卡给的是**企业法定义务写在哪些条、怎样与 Part 117 衔接**。两张卡必须并用，不得拿其中一张的数字或结论替代另一张。*
 
@@ -133,14 +133,14 @@
 6. 用户问「4.40 / 4.65 / 4.75 是不是法定限值」→ 不是，CP 7303.070 实验室触发线，转 CAP-19；法条里是 4.6 / 4.0。
 7. 用户问「成品 pH >4.0 用什么方法测」→ 〔§ 114.80(a)(2)〕电位法；方法清单〔§ 114.90〕；§113.81(e) 回指 §114.90。
 8. 用户问「酸化食品要不要热处理」→ 〔§ 114.80(a)(1)〕要，杀灭 vegetative cells。
-9. 用户问「scheduled process 谁能定 / Process Authority 是法条要求吗」→ 〔§ 113.83〕〔§ 114.83〕；FCE/SID 备案在 part 108，**转引未收**。
-10. 用户问「BPCS 证书 / Better Process Control School 是哪个法条」→ 〔§ 113.10〕〔§ 114.10〕；§108.35 与 part 110 正文未收。
+9. 用户问「scheduled process 谁能定 / Process Authority 是法条要求吗」→ 〔§ 113.83〕〔§ 114.83〕；FCE 注册与工艺备案（SID）在〔§ 108.25(c)〕〔§ 108.35(c)〕，**转 CAP-25**（v4.12 起已收）。
+10. 用户问「BPCS 证书 / Better Process Control School 是哪个法条」→ 〔§ 113.10〕〔§ 114.10〕，另〔§ 108.25(f)〕〔§ 108.35(g)〕的 `school approved by the Commissioner`（CAP-25）；part 110 正文仍未收。
 11. 用户问「FDA 来要 scheduled process 能不能不给」→ 〔§ 113.87(b)〕明文 must be made readily available to ... any duly authorized employee of the FDA；表单与证据链转 CAP-18。
 12. 用户问「偏差批怎么处置」→ LACF 走〔§ 113.89〕，AF 走〔§ 114.89〕（三条路径含按 part 113 处理）。
 13. 用户问「记录保存几年 / 能不能电子记录」→ **两 part 口径不同，不要串用**：〔§ 113.100(g)〕是「厂内 ≥1 年 + 加工厂或其他合理可及地点再 2 年」（合计 3 年，且季节包停产时可提前转移），〔§ 113.100(h)〕另许电子记录但须符合 part 11；〔§ 114.100(e)〕只写「在加工厂或其他合理可及地点自生产日起保存 3 年」，**(a)–(e) 无分段、无 part 11 电子记录条款**（Part 114 全文无 electronic / part 11 字样）。
 14. 用户问「21 CFR 110.110 是不是作废了 / 手册引用是不是过时」→ **v4.7 纠错**，见 B2 与案例 3，同步 `defect-action-levels` / `cgmp-compliance-guide`。
 15. 用户问「§114.5 为什么写 parts 110 and 117，是不是笔误」→ 不是，是现行文本；给 2018 撤回指令的事实与「part 110 正文未收」。
-16. 用户问「21 CFR part 108 的 FCE 注册 / SID / Emergency Permit 具体怎么备案」→ 正文未收，明确转出，不给条款级结论。
+16. 用户问「21 CFR part 108 的 FCE 注册 / SID / Emergency Permit 具体怎么备案」→ **转 CAP-25 `emergency-permit-control`**（v4.12 起已收），给〔§ 108.xxx〕条款级时限与表单；2541 系列表单栏目细则仍超本包。
 17. 用户问「4-1-25 Edition 是不是 2025 新规」→ 不是，是 CFR 年度编纂版次，FR citation 才是修订出处。
 18. 用户问「Part 120 / 123 是不是也有豁免」→ 〔§ 117.5(b)(c)〕有同类**条件性**豁免，但 part 120 正文本包未收、**part 123 自 v4.9 起已收（见 CAP-22）**，后者给条款、前者只给接口不展开。
 19. 用户问「把 CP 7303.070 的 24 罐 / 双分析师写进内控 SOP 合不合规」→ 那是 FDA 取证量，不是企业放行标准；企业义务回〔§ 113.xxx〕〔§ 114.xxx〕。
@@ -168,11 +168,11 @@
 
 **Step 5 — 检查员侧交叉。** 法定义务清单落定后，用 CAP-19 `lacf-inspection-program` 反查 FCE/SID、Process Authority、温度分布/热穿透、运行中 retort、卷边与异常罐六组取证；用 CAP-16 / CAP-17 / CAP-18 补检查类型、取样量、表单与 483 措辞。
 
-**Step 6 — 收尾声明。** 每条结论标〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕或「CP 7303.070 PART x」；涉及 part 108 / part 110 / part 120 / BAM / IOM Ch.4 / CPG / Import Alert 全文一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕）。**十六类不可混引。**
+**Step 6 — 收尾声明。** 每条结论标〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 108.xxx〕或「CP 7303.070 PART x」；涉及 part 110 / part 120 / BAM / IOM Ch.4 / CPG / Import Alert 全文一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕；part 108 自 v4.12 起已收，写〔§ 108.xxx〕转 CAP-25）。**十七类不可混引。**
 
 ## B — 边界
 
-**B1 — 21 CFR part 108 正文仍未收，这是本卡最大缺口。** FCE（Food Canning Establishment）注册、SID / scheduled process 备案、Emergency Permit Control、§108.35 的 BPCS 认可都在 part 108；§114.10 明文回指 `§ 108.35 and part 113 of this chapter before March 16, 1979`，CP 7303.070 PART I/II 也反复援引。本包只有 CP 的转引，**不给备案流程、表单编号、时限或许可证结论**。用户已下载的 `CFR-2025-title21-vol2-part123.pdf` 已于 v4.9 纳入（见 CAP-22）；`part120.pdf` 正文本版仍未纳入。
+**B1 — 21 CFR part 108 的缺口已于 v4.12 闭合（本卡此前的最大缺口）。** FCE（Food Canning Establishment）注册、SID / scheduled process 备案、Emergency Permit Control、§108.35 的 BPCS 认可都在 part 108；§114.10 明文回指 `§ 108.35 and part 113 of this chapter before March 16, 1979`，CP 7303.070 PART I/II 也反复援引。该件自 v4.12 起已作为**第十七来源**纳入（`source-cfr-part108-2025.md`），条款级手续义务见 **CAP-25 `emergency-permit-control`**〔§ 108.xxx〕——含注册（Form FDA 2541，10 天内／外国加工者报检前）、工艺备案（2541e/2541d/2541f/2541g，60 天内）、许可裁定与中止恢复、无证生产的产品放行闸门。仍不给的是 2541 系列**表单栏目细则**与 FURLS / Center Views 操作。⚠ 本卡与 CAP-25 的分工：本卡＝实体工艺法条层（Part 113/114），CAP-25＝手续与程序法条层（Part 108），**不得互相反推**。`part120.pdf` 正文本版仍未纳入。
 
 **B2 — Part 110 至今有效；v4.3 的「110.110 过时引用」结论须更正（本轮实质性纠错）。** 事实链：2015-09-17 PCHF 最终规则（80 FR 55908）的 **amendatory instruction 13**（56144 页）指示 Federal Register 于 **2018-09-17 remove and reserve part 110**；FDA 在 **2018-09-12 最终规则（FR Doc. 2018-19855，同日生效）撤回该指令**，官方措辞 `amendatory instruction 13 in the third column on page 56144 is withdrawn` 与 `Retaining the Human Food CGMP regulation will maintain the status quo ... and will avoid an unintended gap in public health protection`——因部分小/极小微企业 part 117 合规日期延长至 2020-01-27，若删除会有 4–16 个月 CGMP 空档；FDA 并称将在所有企业达到 part 117 CGMP 合规日后另案移除。**eCFR 现行版 Part 110 仍列 11 个 sections（含 §110.110），§114.5 并列 `parts 110 and 117` 也是现行文本**，不是笔误或过时引用。由此：① Handbook 引言的 `21 CFR 110.110` 指向**仍有效但正文未收**的旧 CGMP 条款；② 手册 "Poor manufacturing practices may result in enforcement action without regard to the action level" 是 **§110.110(c)** 的意译，**仍不得标成〔§ 117.110(c)〕**，但理由是「那是 part 110 的 (c) 款」，不再是「part 110 已删」；③ 〔§ 117.110〕只有 (a)(b) 两款、`lowest level currently feasible` + 掺混稀释禁令的结论**不变**；④ 本包未收 part 110 正文，讨论时一律标「转引未收」。⚠ 2018-19855 正文属**外部核实、本包未收**，引用须注明是 Federal Register 规则而非本包来源；`defect-action-levels` B2 / `cgmp-compliance-guide` B11 与 test-prompts 中的对应用例已按本条同步。
 
@@ -186,8 +186,8 @@
 
 **B7 — 版本与转换口径。** `4–1–25 Edition` 是 CFR 年度编纂版次，不是 2025 新规；条文修订出处看末尾 FR citation（§114.5 为 `[80 FR 56144, Sept. 17, 2015]`，§113.100 为 `[44 FR 16215 ... as amended at 76 FR 11923, Mar. 3, 2011]`）。两份 PDF 是 GPO 双栏印刷版连续页截取，已按「页 → 左栏 → 右栏」重排、裁掉首尾相邻 part 残段、保留印刷断词连字符（Part 113 933 处 / Part 114 210 处）；逐字引证按归一化口径（去换行、空格、连字符）核对，**检索以 § 编号为准**；§114.3(b) 的 `''pickled ______.''` 是 PDF 文本层的下划线填空，照录但不得推定省略词。
 
-**B8 — 引用规范（全包统一，十六类不可混引）。** 〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 123.xxx〕四套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。part 108 / 110 / 120 与其他未收正文一律标「转引未收」（part 123 自 v4.9 起已收）。**尤其不得把 §114.5 的 `parts 110 and 117` 改写成「parts 117」或标成笔误。**
+**B8 — 引用规范（全包统一，十七类不可混引）。** 〔§ 108.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 123.xxx〕五套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。part 108 / 110 / 120 与其他未收正文一律标「转引未收」（part 123 自 v4.9 起已收）。**尤其不得把 §114.5 的 `parts 110 and 117` 改写成「parts 117」或标成笔误。**
 
 **B9 — 与 CAP-19 的分工。** 本卡＝法条义务层；CAP-19＝检查员作业层。用户问「合规要做什么」走本卡，问「FDA 来查什么 / 什么数值会升级」走 CAP-19，问「检查类型与记录举证」走 CAP-16，问「取样量与环境拭子」走 CAP-17，问「权限/表单/483 措辞」走 CAP-18。四张迎检卡与本卡合起来才回答 LACF/AF 的完整合规与迎检问题。
 
-**B10 — 本卡不覆盖的内容。** 21 CFR part 108 / 110 / 120 正文（part 123 见 CAP-22）、F0/D/z 值与温度分布/热穿透研究设计、BAM / AOAC / MPM 方法正文、IOM Chapter 4 Sample Schedule Chart 2、CPG 全套、Import Alert 99-37/99-38 全文、FURLS / Center Views 系统操作、Form 2541e 表单细则、以及杀菌工艺计算与验证方案审批 —— 均须另行复核或由具备资质的 Process Authority / PCQI 判断。
+**B10 — 本卡不覆盖的内容。** 21 CFR part 110 / 120 正文（part 123 见 CAP-22；part 108 自 v4.12 起已收、手续义务见 CAP-25）、F0/D/z 值与温度分布/热穿透研究设计、BAM / AOAC / MPM 方法正文、IOM Chapter 4 Sample Schedule Chart 2、CPG 全套、Import Alert 99-37/99-38 全文、FURLS / Center Views 系统操作、2541 系列表单栏目细则、以及杀菌工艺计算与验证方案审批 —— 均须另行复核或由具备资质的 Process Authority / PCQI 判断。

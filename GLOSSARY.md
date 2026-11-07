@@ -1461,7 +1461,7 @@
   source_quote: |
     "Date of Issuance: 09/26/2024" / "IMPLEMENTATION DATE: 9/26/2024" / "Correction Date: 9/26/2025"
   summary: 用户提供的 61 页 508-Compliant PDF 首页为 **Date of Issuance 09/26/2024、IMPLEMENTATION DATE 9/26/2024、Correction Date 9/26/2025**；PDF title 亦写 `(Implementation Date 09/26/2024)`，creationDate 2025-09-29。文件名 `20250929` 是 **PDF 生成日，不是签发日**；本件是 **2024 版程序的 2025 更正本**，与 CP 7303.050（2022 签发 / 2025-09-10 更正）同属更正本形态，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal、08/29/2025 签发）。引用写「CP 7303.070（2024 签发 / 2025-09-26 更正）」，不要写成「2025 版 7303.070」。首页 PAC `03070A/B/C`（境内 AF / LACF / 无菌 LACF）、`03070F/G/J`（进口）、`71070`（动物食品）；PAF `ACD`（常规）、`MIC`（仅 C. botulinum for-cause）；Problem Codes `AFD / ACF / LAF`。
-  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十六类不可混引]
+  tags: [CP 7303.070, 版本陷阱, 更正本, PAC, PAF, 十七类不可混引]
 
 - id: t136
   title: §117.5(d)(1)(2) 的 LACF 管辖分流与 AF 不豁免（CP 7303.070 官方细化）
@@ -1623,7 +1623,7 @@
   tags: [114.89, 114.83, 三条路径, part 113 热处理, competent processing authority, 偏差处置]
 
 - id: t152
-  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十六类不可混引
+  title: Shall / Should 的法定语义、4-1-25 Edition 版次与十七类不可混引
   type: term
   source_chapter: 21 CFR Part 114 §114.3(a) 定义；21 CFR Part 113 / 114（4-1-25 Edition）FR citation；全包引用规范
   source_quote: |
@@ -1697,7 +1697,7 @@
   tags: [99-41, Red List, 99-37, 99-38, DWPE, 移除流程, v4.8]
 
 - id: t162
-  title: CP 7303.878 版本口径、CP 7303.819 状态与十六类不可混引
+  title: CP 7303.878 版本口径、CP 7303.819 状态与十七类不可混引
   type: term
   source_chapter: CP 7303.878 首页 / Change History p4 / 全包引用规范
   summary: 本件是 Transmittal 2023-CPM-CFSAN-003、Implementation Date 09/27/2023 的 2023 版程序，Date of Issuance 08/28/2025 对应 Change History 的 Corrections（仅重组后 POC 与机构名称缩写更新），不是 2025 新 program；与 7303.050（2022/2025-09-10 更正）、7303.070（2024/2025-09-26 更正）同型。CP 7303.819 是 2006 FY06/07/08 旧程序、已过 COMPLETION DATE 9/30/08 而非现行，准确说法不是「法规意义上废止」。全包自 v4.8 起十三类、**v4.9 起十四类不可混引**：四套法规正文〔§ 117/113/114/123.xxx〕＋ PCHF 指南 / L.mono 指南 / SECG / Ed.5 / Handbook 五类参考指南层 ＋ CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878 五类检查员作业层；检查员作业指导不创设企业义务。
@@ -1900,7 +1900,7 @@
     新 Transmittal。首页 NOTE 与 PART I 写明 CP 7303.842（Seafood Processor Inspection Program）
     与 CP 7303.844（Imported Seafood Inspection Program）**已合并为单一程序**，但 PAC codes for
     sampling and analysis 仍区分进口与国产 —— 合并的是程序，不是码表。
-  tags: [CP 7303.842, 版本判定, 更正本, CP 7303.844, 程序合并, 十六类不可混引]
+  tags: [CP 7303.842, 版本判定, 更正本, CP 7303.844, 程序合并, 十七类不可混引]
 
 - id: t184
   title: 检查程序作业层的效力边界（非法规、非 Guidance for Industry、不创设义务）
@@ -1992,9 +1992,9 @@
   tags: [Warning Letters, DWPE, HFP OCE, judicial actions, 403(b), Species Misbranding, Import Alert 16-74]
 
 - id: t192
-  title: 十六类不可混引、引用规范、仍未收清单与转换质量红线
+  title: 十七类不可混引、引用规范、仍未收清单与转换质量红线
   summary: >-
-    自 v4.11 起全包 **十六类来源不可混引**。CP 7303.842 引用写「CP 7303.842 PART x / Table x /
+    自 v4.12 起全包 **十七类来源不可混引**。CP 7303.842 引用写「CP 7303.842 PART x / Table x /
     ATTACHMENT A #x / Lxxx」；法条写〔§ 123.xxx〕〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；指南写
     「Seafood Hazards Guide 第 4 版 Ch.x」；其它 CP / IOM / Handbook / SECG / Ed.5 各用其自身编号。
     仍未收：CPG 540.525 / 540.370 / 555.600 / 562.300 / 540.250 / 540.590 全文、21 CFR part 120 /
@@ -2002,7 +2002,115 @@
     21 CFR part 1 subpart L、IOM Ch.4、FDA 3501 / 3502 表单全文、eNSpect / CMS / FACTS 内部系统。
     转换件存在书签标题与正文伪标题交错（PART 各出现两次、H1 虚高 133）、`<u>` / `<br>` 标签、
     表格列头连写与页码混入，**检索以 PART / 小节 / 表号为准**，逐字引用只取散文段落且须剥离标记。
-  tags: [十六类不可混引, 引用规范, 转引未收, 转换质量红线, 标题层级交错, v4.11]
+  tags: [十七类不可混引, 引用规范, 转引未收, 转换质量红线, 标题层级交错, v4.11]
+# ============ 十七、21 CFR Part 108 紧急许可控制词族（v4.12）============
+
+- id: t193
+  title: emergency permit（紧急许可）
+  type: term
+  source_chapter: 21 CFR 108.3(d)；108.6(a)；108.25(a)；108.35(a)
+  source_quote: |
+    "Permit means an emergency permit issued by the Commissioner pursuant to section 404 of the act for such
+    temporary period of time as may be necessary to protect the public health."
+    —— 〔§ 108.3(d)〕
+  summary: 依 FD&C Act §404 签发、附条件、临时性的许可。**最大的常识差异：它不是 LACF／酸化食品企业的常态义务**。108.25(a)／108.35(a) 用的都是 `may be required whenever the Commissioner finds ... that the commercial processor has failed to fulfill all the requirements of this section`，108.6(a) 再加 `A permit shall be required only during such temporary period`。也就是说：注册、备案、报告、BPCS 主管、记录是 **shall 级常态义务**；许可本身是**未履行义务后的救济手段**。凡输出「LACF 企业必须持紧急许可证」即为定性错误。
+  tags: [法定定义, 核心概念, 高频误读, 十七来源]
+
+- id: t194
+  title: FCE registration（罐头企业注册，Form FDA 2541）
+  type: term
+  source_chapter: 21 CFR 108.25(c)(1)；108.35(c)(1)
+  source_quote: |
+    "shall, not later than 10 days after first so engaging, register and file with the Food and Drug Administration
+    on Form FDA 2541 (food canning establishment registration) information"
+  summary: 首次在任一州从事酸化食品或 LACF 的制造/加工/包装后 **10 个日历日**内，以 **Form FDA 2541** 注册。内容含企业名称、主营业地、各加工场所、加工方式（酸化食品按酸度与 pH 控制；LACF 按所用加工设备类型）与各场所食品清单。**外国加工者的时点更早**：`Foreign processors shall register before any offering of foods for import into the United States`（报检前，不受 10 天约束）。停业须在 90 天内通知，季节性停产与劳资纠纷/火灾/天灾等临时情形除外。注册是 FCE（Food Canning Establishment）编号的来源，与「许可」无关。
+  tags: [手续义务, 时限, 十七来源]
+
+- id: t195
+  title: process filing（工艺备案）与 Form 2541e / 2541d / 2541f / 2541g
+  type: term
+  source_chapter: 21 CFR 108.25(c)(2)；108.35(c)(2)
+  source_quote: |
+    "shall, not later than 60 days after registration, and before packing any new product, provide the Food and
+    Drug Administration information on the scheduled processes"
+  summary: 注册后 **60 个日历日**内、且**包装任何新产品之前**，按每个食品每个容器规格分别备案 scheduled process。表单按形态分流：酸化食品 **2541e**（Acidified Method）；LACF **2541d**（Low-Acid Retorted）、**2541f**（Water Activity/Formulation Control）、**2541g**（Low-Acid Aseptic）。LACF 备案须含加工方法、设备类型、最低初温、时间温度、**杀菌值 Fo** 或其他等效科学证据、影响热穿透的关键因子。**关键区别**：备案 `Filing of this information does not constitute approval`——不是「等 FDA 批准才能生产」；所报工艺信息属 21 U.S.C. 331(j) / 18 U.S.C. 1905 意义的商业秘密。这套东西旧称 SID（Scheduled Process Information filing），现行法条只写 process filing。
+  tags: [手续义务, 时限, 表单, 高频误读, 十七来源]
+
+- id: t196
+  title: prima facie basis（初步依据）
+  type: term
+  source_chapter: 21 CFR 108.25(a)；108.35(a)
+  source_quote: |
+    "Failure to meet these requirements shall constitute a prima facie basis for the immediate application of the
+    emergency permit control provisions of section 404 of the act to that establishment, under the procedures
+    established in subpart A of this part."
+  summary: 未履行 108.25／108.35 义务（含注册与工艺备案）构成 FDA **立即适用** §404 紧急许可控制的「初步依据」。注意层级：「初步依据」是**启动 Subpart A 程序的理由**，不等于许可已生效——仍须走裁定 → 通知 → 3 个工作日异议 → 5 个工作日听证 → 裁定的完整链条。把 prima facie basis 读成「自动被要求持证」是常见越级误读。
+  tags: [法定概念, 程序层级, 十七来源]
+
+- id: t197
+  title: working days 与日历天（Part 108 的两种时限）
+  type: term
+  source_chapter: 21 CFR 108.5(a)(1)；108.7(b)；108.10(b)；108.25(c)(1)；108.35(c)(2)
+  source_quote: |
+    "shall have 3 working days after receipt of such order within which to file objections."
+    —— 〔§ 108.5(a)(1)〕
+  summary: Part 108 混用两种日，**不可互换**。Subpart A 的**程序时限**全是 `working days`：3 个工作日提异议、听证 5 个工作日、听证后 5 个工作日裁定、许可申请 10 个工作日（可再延 10）、恢复申请 10 个工作日、无证产品放行 20 个工作日、工艺资料延期批复 30 个工作日。Subpart B 的**申报时限**全是日历天：注册 10 天、备案 60 天、停业通知 90 天、工艺变更报送 30 天。把「10 个工作日」写成「10 天」会让企业错过窗口，反之会让企业误以为还有余量。
+  tags: [时限, 高频误读, 十七来源]
+
+- id: t198
+  title: retained product 与 advance written approval（无证生产的扣留与放行）
+  type: term
+  source_chapter: 21 CFR 108.12(a)
+  source_quote: |
+    "All food so manufactured, processed, or packed during such period without a permit shall be retained by the
+    manufacturer, processor, or packer and may not be introduced or delivered for introduction into interstate
+    commerce without the advance written approval of the Food and Drug Administration."
+  summary: 企业被裁定需要许可但尚未取得时，可 `at his own risk` 继续生产，但该期间产品**必须由企业扣留**，未经 FDA **事先书面**批准不得进入州际贸易。放行的唯一实体门槛是 `an adequate showing that such food is free from microorganisms of public health significance`；FDA 须在收到书面请求后 20 个工作日内答复。企业可另交 competent authority 的公共卫生意义评估作为举证材料，但那不是放行依据。**注意这不是「无证生产即违法」**，而是「无证生产 + 产品不得自由流通」。108.12(b) 的合并仓库例外只覆盖「运到自有仓库」这一段。
+  tags: [法定义务, 产品放行, 高频误读, 十七来源]
+
+- id: t199
+  title: refuse admission（拒绝入境，§801）
+  type: term
+  source_chapter: 21 CFR 108.25(j)；108.35(k)(1)
+  source_quote: |
+    "in lieu of providing for the issuance of an emergency permit under paragraph (a) of this section, the
+    Commissioner will request the Secretary of the Treasury to refuse admission into the United States, pursuant to
+    section 801 of the act"
+  summary: 对外国商业加工者**不发紧急许可**，改为由 Commissioner 请求财政部长依 FD&C Act §801 拒绝入境。被拒产品须待 Commissioner 认定该加工者已合规且食品不致害方可入境，为此 FDA **保留现场检查权**〔§ 108.35(k)(2)〕。因此「外国 LACF 加工者会被要求办紧急许可」是错的——国内走许可、境外走拒绝入境，两条路方向相反。
+  tags: [法定义务, 进口, 高频误读, 十七来源]
+
+- id: t200
+  title: school approved by the Commissioner（BPCS 类受训主管）
+  type: term
+  source_chapter: 21 CFR 108.25(f)；108.35(g)
+  source_quote: |
+    "shall be under the operating supervision of a person who has attended a school approved by the Commissioner"
+  summary: 酸化工序人员（酸化、pH 控制、热处理等关键工序）与 LACF 的杀菌锅／热处理／无菌系统操作者**以及容器封口检查员**，须在参加过 Commissioner 批准学校并 `satisfactorily completed` 规定课程者监督下作业。108.25(f) 的课程内容法定列明（food-handling techniques、food protection principles、personal hygiene、plant sanitation practices、pH controls、critical factors in acidification）；108.35(g) 覆盖 retort / aseptic / container closure inspection，**加州除外**。1979-03-16 前完成 §108.35 / part 113 相应课程者视为已完成。BPCS 是行业对该类课程的通行称谓，法条本身只写 `school approved by the Commissioner`。
+  tags: [法定义务, 人员培训, 十七来源]
+
+- id: t201
+  title: Part 108 记录保存（四套口径不可合并）
+  type: term
+  source_chapter: 21 CFR 108.25(g)；108.35(h)；113.100(g)；114.100(e)
+  source_quote: |
+    "shall prepare, review, and retain at the processing plant for a period of not less than one year, and at the
+    processing plant or other reasonably accessible location for an additional two years, all records of processing,
+    deviations in processing, container closure inspections, and other records specified in part 113 of this chapter."
+    —— 〔§ 108.35(h)〕
+  summary: 四套口径分别成立：① 〔§ 108.25(g)〕酸化食品**整段 3 年**（自生产日）；② 〔§ 108.35(h)〕LACF **厂内 ≥1 年 + 另 2 年**（合计 3 年，第一年季节性长停可季末转移）；③ 〔§ 113.100(g)〕厂内 ≥1 年 + 另 2 年，且 (h) 允许符合 part 11 的电子记录；④ 〔§ 114.100(e)〕整段 3 年，**无分段、无 part 11 条款**。起算点与存放地点要求各不相同，把四者合并成「3 年」一句交付即为错答。依 §704 检查时均须允许 FDA 授权雇员查阅复制。
+  tags: [法定义务, 记录保存, 高频误读, 十七来源]
+
+- id: t202
+  title: intentional change 与「升参数不算变更」
+  type: term
+  source_chapter: 21 CFR 108.35(c)(2)(ii)
+  source_quote: |
+    "Any intentional change of a previously filed scheduled process or modification thereof in which the change
+    consists solely of a higher initial temperature, a higher retort temperature, or a longer processing time, shall
+    not be considered a change subject to this paragraph"
+  summary: 所谓「降参数」——降低初温／杀菌温度、缩短时间、改配方／容器／其他基本条件——是法条意义上的故意变更：须**使用前**取得 qualified scientific authority 对充分性的证实，证实可先电话取得但须立即记录、书面确认并存档，且**首次使用后 30 天内**向 LACF Registration Coordinator 报送变更描述与证实记录。**升参数**（更高初温／更高杀菌温度／更长时间）**不算**本条变更，但若将定期采用仍须及时重新备案。另〔§ 108.35(c)(2)(iii)〕的「operating process」（操作者按高于 scheduled process 的参数运行）**也不构成**对 scheduled process 的修改——这两处常被反向误读成「任何工艺调整都无需报告」。
+  tags: [法定义务, 工艺变更, 高频误读, 十七来源]
+
 ```
 
 ## 自检记录
@@ -2030,3 +2138,6 @@
 - [x] 第十五来源 **FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版（June 2022，SGR 129）** 技术指南已并入，术语 t173–t182 共 10 条，围绕**完整危害分析判定链**排布：should 的效力层级 → hazard analysis 与 HACCP plan 书面化义务不对称 → species/process-related 二分 → reasonably likely to occur 与无控制假设态 → significant hazard 等价且不等于本步设 CCP → Worksheet 六栏 → control strategy example 与 CCP 漂移 → CCP 至少一个 → critical limit 与替代限值论证 → 监控四问。引文取自 CAP-23 R 段经 `.cangjie/verify_v4_10_quotes.py` 逐字核验的 **37 个英文引用块**（37/37 命中源文件正文区，0 超 100 词，0 表格引用）。原文标「Seafood Hazards Guide 第 4 版 Ch.x / L####」，法条标〔§ 123.xxx〕，两者不可混引；CP 7303.842、NSSP Guide、part 120/1240/108/110/507、Appendix 5 回指的 CPG 与 CFR 外部法源一律标『转引未收』。全库 **182 条**，v4.10，**十五类来源不可混引**。
 
 - [x] 第十六来源 **FDA CP 7303.842**（2023-11-01 版 / 2025-09-30 更正，80 物理页 / 148 书签）检查程序已并入，术语 t183–t192 共 10 条（版本判定与 7303.844 合并、内部作业指导层效力边界、Table 1/2 分工与 90/10、六类检查分流、PAC 双码表与 03842H 同名不同义、Sampling 三类与 for cause only、PART IV 阈值性质与 CPG 判据出口、Table 4 ranking 与 §123.6 显著性分离、执法裁量与 403(b) 误标定性、十六类不可混引与转换质量红线）。引文取自 CAP-24 R 段经 `.cangjie/verify_v4_11_quotes.py` 核验的 **36 个英文引用块**（36/36 命中正文区，0 超 100 词、0 表格引用）。原文标「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」，法条标〔§ 123.xxx〕，指南标「Seafood Hazards Guide 第 4 版 Ch.x」，三者不可混引；CPG / BAM / NSSP / Import Alert / part 1 subpart L 等未收正文一律标『转引未收』。全库 **192 条**，v4.11，**十六类来源不可混引**。
+
+- [x] 第十七来源 **21 CFR Part 108**（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款）法规正文已并入，术语 t193–t202 共 10 条，围绕「手续层 vs 实体层」与「许可=救济不是常态」排布：emergency permit 的法定定义与临时性 → FCE 注册（2541，10 天/报检前）→ 工艺备案（2541e/2541d/2541f/2541g，60 天）与「备案≠批准」→ prima facie basis → working days 与日历天两种时限 → 无证生产的扣留与事先书面批准 → §801 拒绝入境 → BPCS 受训主管 → 记录保存四套口径 → 故意变更的边界（升参数不算）。引文取自 CAP-25 R 段经 `.cangjie/verify_v4_12_quotes.py` 核验的 **27 个英文引用块**（27/27 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 108.xxx〕，与〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；2541 系列表单栏目细则、FURLS / Center Views 操作、part 110/120 等未收正文一律标『转引未收』。全库 **202 条**，v4.12，**十七类来源不可混引**。
+

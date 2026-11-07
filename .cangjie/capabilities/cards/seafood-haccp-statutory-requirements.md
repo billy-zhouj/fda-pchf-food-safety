@@ -2,9 +2,9 @@
 
 *来源分层：本卡取用**四套法规正文**，均具法律约束力。① **21 CFR Part 123**〔§ 123.xxx〕（Fish and Fishery Products，4-1-25 Edition，9 页 / 13 条款）；② **21 CFR Part 117**〔§ 117.xxx〕（CGMP & PCHF，本包主来源，本卡用其〔§ 117.5(b)〕豁免条款）；③ **21 CFR Part 113**〔§ 113.xxx〕（LACF，本卡只用其与 §123.16 的交叉）；④ **21 CFR Part 114**〔§ 114.xxx〕（酸化食品，同上）。四者是**并行法条**，接口是〔§ 123.5(a)〕`Except as provided by § 117.5(b)` 与〔§ 117.5(b)〕的**条件性豁免**。*
 
-*⚠ **本卡使全包效力分层再扩一层**：「法规正文层」现含 Part 117 / 113 / 114 / 123 **四套独立编号**。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」。与 CAP-24 的 CP 7303.842（第十六来源，检查程序作业层）、CP 7303.070、CP 7303.050、IOM 2026 Ch.5、PCHF 指南、SECG、Ed.5、Handbook、L.mono、CPGM 7303.040、CP 7303.878 与第十五来源 FDA 海产品危害与控制指南合计 **十六类不可混引**。*
+*⚠ **本卡使全包效力分层再扩一层**：「法规正文层」现含 Part 117 / 113 / 114 / 123 **四套独立编号**（**v4.12 起为五套：加 Part 108〔§ 108.xxx〕，见 CAP-25 `emergency-permit-control`**）。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」。与 CAP-24 的 CP 7303.842（第十六来源，检查程序作业层）、CP 7303.070、CP 7303.050、IOM 2026 Ch.5、PCHF 指南、SECG、Ed.5、Handbook、L.mono、CPGM 7303.040、CP 7303.878 与第十五来源 FDA 海产品危害与控制指南合计 **十七类不可混引**。*
 
-*⚠ **正文本包仍未收**：21 CFR **part 120**（果汁 HACCP）、**part 1240**（贝类卫生，§123.28(d) 回指 `§ 1240.60(c)`）、**part 108 / 110**、**NSSP Guide**。一律标「转引未收」；CP 7303.842 自 v4.11 起已收（CAP-24），但仍是检查程序层、不得反推法条，不得从 Part 123 反推。*
+*⚠ **正文本包仍未收**：21 CFR **part 120**（果汁 HACCP）、**part 1240**（贝类卫生，§123.28(d) 回指 `§ 1240.60(c)`）、**part 110**、**NSSP Guide**。一律标「转引未收」；part 108 自 v4.12 起已收（CAP-25），CP 7303.842 自 v4.11 起已收（CAP-24），但仍是检查程序层、不得反推法条，不得从 Part 123 反推。*
 
 *本卡定位：CAP-19 `lacf-inspection-program` 讲 LACF/AF 的检查，CAP-21 `fsvp-inspection-program` 讲 FSVP 进口商检查；本卡讲**水产品企业自己的法定义务**。三者法源不同，不得互相替代。*
 
@@ -225,7 +225,7 @@
 
 **Step 6 — 数字与期限分层标注。** 法定层：1 年 / 2 年（〔§ 123.9(b)(1)〕）、1 周复审（〔§ 123.8(a)(3)(i)(ii)〕）、至少每年复审（〔§ 123.8(a)(1)〕）、9 项危害清单。检查员层：CP 7303.842 的取样与判定（自 v4.11 起已收，转 CAP-24；其 500/50/35 ppm 等是检查员触发值，不是法规限值，不得写成本卡的法条数字）。建议层：HACCP 模型计划、NSSP Guide。任何输出必须带层标签。
 
-**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者自 v4.11 起已收，转 CAP-24）；涉及 part 120 / 1240 / 108 / 110 / NSSP / BAM / CPG / Import Alert 全文一律标「转引未收」。指南层的危害分析判定链转 CAP-23 `seafood-hazards-controls-guide`，引用写「Seafood Hazards Guide 第 4 版 Ch.x / L####」，不得改写成条款号。**十六类不可混引。**
+**Step 7 — 收尾声明。** 每条结论标〔§ 123.xxx〕/〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕或「CP 7303.842 PART x」（后者自 v4.11 起已收，转 CAP-24）；涉及 part 120 / 1240 / 110 / NSSP / BAM / CPG / Import Alert 全文一律标「转引未收」（part 108 自 v4.12 起已收，写〔§ 108.xxx〕转 CAP-25）。指南层的危害分析判定链转 CAP-23 `seafood-hazards-controls-guide`，引用写「Seafood Hazards Guide 第 4 版 Ch.x / L####」，不得改写成条款号。**十七类不可混引。**
 
 ## B — 边界
 
@@ -247,7 +247,7 @@
 
 **B9 — 版本与转换口径。** `4–1–25 Edition` 是 CFR 年度编纂版次（修订至 2025-04-01），**不是 2025 新规**；SOURCE `60 FR 65197, Dec. 18, 1995, unless otherwise noted`；§123.5 / §123.11 的 `[60 FR 65197 ... as amended at 80 FR 56167, Sept. 17, 2015]` 是 PCHF conforming amendment。本件由 `.cangjie/convert_cfr_part.py` 双栏重排，保留印刷断词连字符（`proc- essing` / `im- ported`），逐字引证按 NFKC 归一化核对，**检索以 § 编号为准**。
 
-**B10 — 引用规范（全包统一，十六类不可混引；v4.9 时为十四类）。** 〔§ 117.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 123.xxx〕四套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x」；CP 7303.070 用「CP 7303.070 PART x」；CP 7303.878 用「CP 7303.878 PART x」；IOM 用「IOM 5.x.x / Exhibit 5-x」。**part 120 / 1240 / 108 / 110 / 507 与 NSSP Guide 一律标「转引未收」；CP 7303.842 自 v4.11 起已收（CAP-24），按「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」引用，不得改写成条款号，也不得与本卡的〔§ 123.xxx〕混引。**
+**B10 — 引用规范（全包统一，十七类不可混引；v4.9 时为十四类）。** 〔§ 108.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 123.xxx〕五套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x」；CP 7303.070 用「CP 7303.070 PART x」；CP 7303.878 用「CP 7303.878 PART x」；IOM 用「IOM 5.x.x / Exhibit 5-x」。**part 120 / 1240 / 108 / 110 / 507 与 NSSP Guide 一律标「转引未收」；CP 7303.842 自 v4.11 起已收（CAP-24），按「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」引用，不得改写成条款号，也不得与本卡的〔§ 123.xxx〕混引。**
 
 **B11 — 与其他卡的分工。** 本卡＝水产品法条义务层。问「LACF/AF 法条」→ CAP-20 `lacf-statutory-requirements`；问「LACF/AF 检查」→ CAP-19 `lacf-inspection-program`；问「FSVP 进口商检查」→ CAP-21 `fsvp-inspection-program`；问「Part 117 供应链程序」→ CAP-07 `supply-chain-verification`；问「危害分析怎么做」→ CAP-05 `hazard-analysis-method`；问「组胺/化学危害限值」→ `chemical-hazard-controls`；问「取样」→ CAP-17 `inspection-sampling`；问「483 措辞与权限」→ CAP-18 `investigator-authority-procedure`；问「产品边界与豁免」→ CAP-03 `regulatory-boundaries`。
 

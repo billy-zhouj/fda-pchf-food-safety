@@ -1,0 +1,197 @@
+slug: emergency-permit-control
+title: 紧急许可控制与 LACF／酸化食品注册备案（21 CFR Part 108 法规正文）
+importance: extended
+importance_rationale: 本包自 v1 起就把 21 CFR part 108 标为「转引未收」，v4.7 纳入 Part 113/114 后 CAP-20 的 B1 更直接写明「part 108 正文仍未收，这是本卡最大缺口」——FCE 注册、SID 工艺备案、Emergency Permit、BPCS 认可全在这一部，而全包只能靠 CP 7303.070 的检查员动作反推。用户于 v4.12 提供 Part 108（4-1-25 Edition，11 页 / 9 条款）正文，本卡首次把「手续与程序层」从转引升为法条级。它钉死五处高频误读：① 把紧急许可读成 LACF／酸化食品企业的常态义务（实为 `may be required` 的救济手段，触发前提是未履行 108.25／108.35）；② 把 Subpart A 的 working days（3/5/10/20）与 Subpart B 的日历天（10/30/60/90）混用；③ 把记录保存统一写成「3 年」（实为 108.25(g) 整段 3 年、108.35(h) 1+2 年、113.100(g) 1+2、114.100(e) 整段 3 年四套口径）；④ 把外国加工者的「拒绝入境」路径（§801）与国内企业的「紧急许可」路径混答；⑤ 以为 108.25 也有 108.35 的 FSIS／加州／FOIA 三个专属例外。属入口型法条判定能力，与 CAP-20（实体工艺）、CAP-19（检查员侧）构成三层分工，并与 regulatory-boundaries / inspection-readiness / process-control-validation 交叉，故定 extended。
+one_liner: 先按 CAP-20 定 LACF／酸化食品轨道，再分工：注册（Form FDA 2541，首次从事后 10 天内／外国加工者报检前）与工艺备案（2541e／2541d／2541f／2541g，注册后 60 天内且包装新产品前）是无条件义务，紧急许可是未履行后的救济手段而非常态；Subpart A 全是工作日、Subpart B 全是日历日；国内走许可、外国走 §801 拒绝入境；记录保存四套口径不得合并。
+intents:
+  - 回答 LACF／酸化食品企业是否需要办理紧急许可，并纠正「必须持紧急许可证」的误述
+  - 解释〔§ 108.25(a)〕〔§ 108.35(a)〕的 may be required 与 failed to fulfill 结构，说明许可的触发前提
+  - 说明「未履行义务构成紧急许可控制的 prima facie basis」不等于许可自动生效
+  - 拆解「无条件义务（注册/备案/报告/召回程序/BPCS/记录）」与「救济手段（许可）」两条义务线
+  - 回答 FCE 注册的法定时限与表单：Form FDA 2541，首次从事后 10 天内
+  - 回答外国加工者注册时点：向美国报检前注册〔§ 108.25(c)(1)〕
+  - 回答停业通知义务：停业后 90 天内，季节性停产与劳资纠纷／火灾／天灾等临时情形除外
+  - 回答工艺备案时限：注册后 60 天内且包装任何新产品之前
+  - 区分四张备案表单：2541e 酸化食品／2541d 低酸 retorted／2541f water activity-formulation control／2541g 低酸 aseptic
+  - 说明备案不等于批准：Filing of this information does not constitute approval
+  - 说明备案信息属 21 U.S.C. 331(j) / 18 U.S.C. 1905 意义的商业秘密
+  - 回答问题：「需要许可的裁定」如何作出、裁定令须载明什么（未符合项清单）
+  - 回答异议时限：收到裁定令后 3 个工作日内可提异议，提出即中止裁定
+  - 回答听证时限：提出异议后 5 个工作日内举行；听证中享有交叉询问 FDA 证人权
+  - 回答裁定时限：听证后 5 个工作日内作出是否需要许可的书面裁定并说明理由
+  - 回答紧急性健康危害情形：裁定立即生效，pending an expedited hearing
+  - 回答许可申请处理时限：10 个工作日，必要时可再延 10 个工作日，三选一（签发／拒绝／给听证）
+  - 说明许可可附加 subpart B 之外的额外条件以保护公众健康
+  - 回答许可中止：违反许可条件即立即中止，无过渡期
+  - 回答恢复申请时限：10 个工作日内答复；听证在收到请求后 5 个工作日内举行
+  - 回答无证生产是否违法：可 at his own risk 继续，但产品须企业扣留
+  - 回答无证生产产品的放行条件：事先书面批准 + free from microorganisms of public health significance
+  - 回答 FDA 对放行请求的答复时限：20 个工作日
+  - 回答合并仓库例外：从生产点运至自有仓库不违反，但不得从该处再引入州际贸易
+  - 回答豁免条件：仅当满足 subpart B 全部强制要求与条件时才豁免「许可要求」〔§ 108.19(b)〕
+  - 说明豁免的是许可要求，不豁免注册与备案义务
+  - 回答许可期限的法定上限：仅以保护公众健康所需的临时期间为限〔§ 108.6(a)〕
+  - 回答许可撤销：合规且将继续合规时主动或依申请撤销，撤销不妨碍日后重启程序
+  - 回答工艺故意变更：降低初温／杀菌温度、缩短时间、改配方或容器须事前取得合格科学权威证实
+  - 回答工艺变更报送时限：首次使用后 30 天内向 LACF Registration Coordinator 报送
+  - 回答何种变更不需事前证实：仅提高初温／杀菌温度或延长时间
+  - 解释 operating process 不构成对 scheduled process 的修改〔§ 108.35(c)(2)(iii)〕
+  - 回答工艺资料不全时的延期申请：书面申请，FDA 须在 30 个工作日内书面准驳
+  - 回答腐败／工艺偏差报告义务：立即报告〔§ 108.25(d)〕〔§ 108.35(d)〕
+  - 区分 LACF 的两项独立报告义务：腐败或偏差（(d)）与微生物污染（(e)）分别成立
+  - 回答召回程序文件要求：Be ready with 现行程序供经销商遵循，含识别／收集／仓储／控制／有效性判定／通知 FDA
+  - 回答 BPCS 受训主管要求：〔§ 108.25(f)〕〔§ 108.35(g)〕，课程内容法定列明，须圆满完成
+  - 说明 108.35(g) 覆盖容器封口检查员，108.25(f) 覆盖酸化工序人员
+  - 回答记录保存：〔§ 108.25(g)〕整段 3 年自生产日；〔§ 108.35(h)〕厂内 ≥1 年 + 另 2 年
+  - 说明记录保存四套口径与 CAP-20 的〔§ 113.100(g)〕〔§ 114.100(e)〕如何分列，不得合并
+  - 回答外国加工者被查出问题时的处置：请求财政部长依 §801 拒绝入境，不发紧急许可
+  - 说明被拒入境产品的入境条件与 FDA 保留的现场检查权
+  - 回答 FSIS 连续检验管辖的肉类禽类是否适用 part 108：〔§ 108.35(i)〕不适用本条
+  - 回答加州罐头检验法的效力：视为符合 part 113，但本条仍适用、注册备案仍要做
+  - 回答 108.35(l) 的 FOIA 豁免：制造方法工艺、生产销售配送数据、定量或半定量配方
+  - 区分 acidified foods 的州法规等效条款（108.25(i)）与 LACF 的加州专属条款（108.35(j)(2)）
+  - 解释「in any locality」的管辖单位：单厂／同一管理下的一组厂／一个行业或地区
+  - 回答 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规
+  - 判断哪些问题超出本卡（scheduled process 确立、F0 计算、2541 表单栏目、FURLS 操作）
+keywords:
+  - "21 CFR part 108"
+  - "Part 108"
+  - "108.3"
+  - "108.5"
+  - "108.6"
+  - "108.7"
+  - "108.10"
+  - "108.12"
+  - "108.19"
+  - "108.25"
+  - "108.35"
+  - "Emergency Permit Control"
+  - "emergency permit"
+  - "permit"
+  - "Subpart A"
+  - "Subpart B"
+  - "section 404"
+  - "404"
+  - "FCE"
+  - "Food Canning Establishment"
+  - "food canning establishment registration"
+  - "Form FDA 2541"
+  - "2541"
+  - "2541e"
+  - "2541d"
+  - "2541f"
+  - "2541g"
+  - "SID"
+  - "scheduled process filing"
+  - "process filing"
+  - "LACF Registration Coordinator"
+  - "HFS-303"
+  - "HFS-565"
+  - "HFS-618"
+  - "registration"
+  - "10 days"
+  - "60 days"
+  - "90 days"
+  - "3 working days"
+  - "5 working days"
+  - "10 working days"
+  - "20 working days"
+  - "30 working days"
+  - "working days"
+  - "objections"
+  - "hearing"
+  - "cross-examine"
+  - "imminent hazard"
+  - "expedited hearing"
+  - "final agency action"
+  - "stay"
+  - "revocation"
+  - "suspension"
+  - "reinstatement"
+  - "denial of permit"
+  - "issuance of permit"
+  - "advance written approval"
+  - "retained by the manufacturer"
+  - "free from microorganisms of public health significance"
+  - "competent authority"
+  - "consolidation warehouse"
+  - "at his own risk"
+  - "interstate commerce"
+  - "exempt from the requirement for a permit"
+  - "acidified foods"
+  - "acidified"
+  - "pH control"
+  - "acidity"
+  - "thermally processed low-acid foods"
+  - "hermetically sealed containers"
+  - "retort"
+  - "Fo"
+  - "initial temperature"
+  - "retort temperature"
+  - "sterilizing value"
+  - "critical control factors"
+  - "heat penetration"
+  - "aseptic"
+  - "water activity"
+  - "formulation control"
+  - "operating process"
+  - "qualified scientific authority"
+  - "substantiation"
+  - "intentional change"
+  - "modification"
+  - "spoilage"
+  - "process deviation"
+  - "contamination with microorganisms"
+  - "promptly report"
+  - "recall"
+  - "recall program"
+  - "Better Process Control School"
+  - "BPCS"
+  - "school approved by the Commissioner"
+  - "container closure inspection"
+  - "records"
+  - "3 years"
+  - "one year"
+  - "additional two years"
+  - "retain"
+  - "section 704"
+  - "factory inspection"
+  - "FSIS"
+  - "continuous inspection"
+  - "Federal Meat Inspection Act"
+  - "Poultry Products Inspection Act"
+  - "California"
+  - "cannery inspection"
+  - "deemed to comply"
+  - "State regulations"
+  - "imports"
+  - "refuse admission"
+  - "section 801"
+  - "Secretary of the Treasury"
+  - "FOIA"
+  - "trade secrets"
+  - "21 U.S.C. 331(j)"
+  - "18 U.S.C. 1905"
+  - "42 FR 14334"
+  - "81 FR 46831"
+  - "4-1-25 Edition"
+  - "21 CFR Ch. I"
+  - 紧急许可
+  - 紧急许可控制
+  - 罐头企业注册
+  - 定时工艺备案
+  - 工艺备案
+  - 许可中止
+  - 许可恢复
+  - 无证生产
+  - 事先书面批准
+  - 产品扣留
+  - 工作日
+  - 日历日
+  - 拒绝入境
+  - 州法规等效
+  - 商业秘密
+  - 十七类不可混引
+  - 转引未收
+member_units: []
+source_label: 21 CFR Part 108（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款，书页 248–257）法规正文〔§ 108.xxx〕；与 CAP-20 的 21 CFR Part 113〔§ 113.xxx〕/ Part 114〔§ 114.xxx〕构成「手续层 + 实体层」同一监管链条；检查员侧见 CAP-19 的 CP 7303.070。仍属「转引未收」：21 CFR part 110 / 120 正文、2541 系列表单栏目细则、FURLS / Center Views 操作、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4

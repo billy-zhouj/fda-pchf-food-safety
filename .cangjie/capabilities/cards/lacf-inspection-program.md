@@ -1,6 +1,6 @@
 # 低酸罐头与酸化食品检查（CP 7303.070）与 Part 117 管辖分流（lacf-inspection-program）
 
-*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，是判定 **Part 117 义务**的唯一基准）——关键接口为〔§ 117.5(d)(1)(2)〕「part 113 活动的 Subparts C/G 豁免、且仅限其管辖的微生物危害」与〔§ 117.1(c)〕「受专项 CGMP 法规管辖的食品同时受 Part 117 约束」；② **FDA Compliance Program Guidance Manual 7303.070**（**Date of Issuance 09/26/2024，IMPLEMENTATION DATE 9/26/2024，Correction Date 9/26/2025**，61 页），是 **FDA 给检查员、实验室分析员与合规官的内部作业指导**，标注「CP 7303.070 PART x / ATTACHMENT x」，**不创设企业义务**；③ **21 CFR Part 113 / 114 法规正文**（〔§ 113.xxx〕〔§ 114.xxx〕，4-1-25 Edition）——**v4.7 已由 CAP-20 `lacf-statutory-requirements` 收入**，本卡涉及法条义务时须转该卡；**21 CFR part 108 / 110 / 120 正文本包仍未收**（**part 123 自 v4.9 起已收，见 CAP-22 `seafood-haccp-statutory-requirements`**），一律标「转引未收」；④ IOM 2026 Ch.5（表单与证据链，见 `investigator-authority-procedure`）。与其余各类合计**十六类不可混引**。*
+*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，是判定 **Part 117 义务**的唯一基准）——关键接口为〔§ 117.5(d)(1)(2)〕「part 113 活动的 Subparts C/G 豁免、且仅限其管辖的微生物危害」与〔§ 117.1(c)〕「受专项 CGMP 法规管辖的食品同时受 Part 117 约束」；② **FDA Compliance Program Guidance Manual 7303.070**（**Date of Issuance 09/26/2024，IMPLEMENTATION DATE 9/26/2024，Correction Date 9/26/2025**，61 页），是 **FDA 给检查员、实验室分析员与合规官的内部作业指导**，标注「CP 7303.070 PART x / ATTACHMENT x」，**不创设企业义务**；③ **21 CFR Part 113 / 114 法规正文**（〔§ 113.xxx〕〔§ 114.xxx〕，4-1-25 Edition）——**v4.7 已由 CAP-20 `lacf-statutory-requirements` 收入**，本卡涉及法条义务时须转该卡；**21 CFR part 108 / 110 / 120 正文本包仍未收**（**part 123 自 v4.9 起已收，见 CAP-22 `seafood-haccp-statutory-requirements`**），一律标「转引未收」；④ IOM 2026 Ch.5（表单与证据链，见 `investigator-authority-procedure`）。与其余各类合计**十七类不可混引**。*
 
 *⚠ **版本陷阱**：文件名 `20250929` 是 PDF 生成日；首页 `Date of Issuance: 09/26/2024` / `IMPLEMENTATION DATE: 9/26/2024` / `Correction Date: 9/26/2025` 说明这是 **2024 版程序的 2025 更正本**，不是「2025 版 7303.070」，也与 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal）不是同一种版本形态；与 CP 7303.050（2022 签发 / 2025-09-10 更正）同属更正本形态。*
 
@@ -14,7 +14,7 @@
 > —— CP 7303.070 PART I（PDF p4）
 
 > "In addition, 21 CFR part 108 “Emergency Permit Control” requires manufacturers of AF or LACF to register their processing plants, file their scheduled processes with FDA and to adhere to the mandatory requirements expressed in the GMPs."
-> —— CP 7303.070 PART I（PDF p4；`21 CFR part 108` 正文未收）
+> —— CP 7303.070 PART I（PDF p4；`21 CFR part 108` 正文自 v4.12 起已收，见 CAP-25）
 
 > "Determine, by inspections and/or sample collections (and analyses), if AF and LACF manufacturers comply with 21 CFR part 108 “Emergency Permit Control”, 21 CFR part 113 “Thermally Processed Low-Acid Foods Packaged in Hermetically Sealed Containers”, 21 CFR part 114 “Acidified Foods”, and other requirements of the Food, Drug and Cosmetic (FD&C) Act, as applicable."
 > —— CP 7303.070 PART II.1 Objectives（PDF p6）
@@ -188,13 +188,13 @@
 
 **Step 6 — 每条结论标来源层级**
 
-法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕（后两套转 CAP-20）；CP 内容写「CP 7303.070 PART x」；`21 CFR part 108 / 110 / 120` 只能写「转引未收」（part 123 已收，写〔§ 123.xxx〕转 CAP-22）；IOM 写「IOM 5.x.x」；其余各类按各自编号。**十六类不可混引**。遇到需要 part 108/110 条文、BAM 方法、IOM Ch.4 抽样表、CPG 520.200/520.300、Import Alert 全文的具体问题，直接转出本包；遇到需要 113/114 条文的问题，**转 CAP-20 而非转出本包**。
+法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕（后两套转 CAP-20）；CP 内容写「CP 7303.070 PART x」；`21 CFR part 110 / 120` 只能写「转引未收」（part 123 已收，写〔§ 123.xxx〕转 CAP-22；part 108 自 v4.12 起已收，写〔§ 108.xxx〕转 CAP-25）；IOM 写「IOM 5.x.x」；其余各类按各自编号。**十七类不可混引**。遇到需要 part 110 条文、BAM 方法、IOM Ch.4 抽样表、CPG 520.200/520.300、Import Alert 全文的具体问题，直接转出本包；遇到需要 113/114 条文的问题**转 CAP-20**、需要 108 的手续与许可程序**转 CAP-25**，而非转出本包。
 
 ## B — 边界
 
 **B1 — 检查员作业指导 ≠ 企业义务。** CP 7303.070 规范 FDA 检查员/实验室/合规官查什么、抽多少、怎么上报与建议执法。企业义务与合规结论只能回〔§ 117.xxx〕与 FD&C Act；**禁止**把 24 罐/12 罐、4.40、1%、3 个月写成「法规要求」，也不要把 PART V 的可能响应写成法定后果表。
 
-**B2 — 21 CFR Part 113 / 114 正文已收（v4.7）、part 123 已收（v4.9，CAP-22），part 108 / 110 / 120 仍未收。** 本卡所有涉及 FCE 注册、SID 备案、Emergency Permit 的内容，都是 **CP 里的转引**（法源 part 108，正文未收）；涉及 scheduled process、商业无菌、人员培训、记录保存、偏差处置等**法条义务**的内容，现应转 **CAP-20 `lacf-statutory-requirements`** 并按〔§ 113.xxx〕〔§ 114.xxx〕引用，不得再标「转引未收」。⚠ 仍需标「转引未收」的：21 CFR part 108（含 §108.35 BPCS 认可）、part 110（旧 CGMP，含 §110.110；**至今有效**、见 CAP-20 B2 纠错）、part 120（果汁 HACCP）、IOM Chapter 4（Sample Schedule Chart 2）、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200/520.300、Import Alert 99-37/99-38 全文、SOP-001642、RPM Ch.4/9、21 CFR part 507 正文（CP 7303.842 自 v4.11 起已收，见 CAP-24；但它回指的 CPG / BAM 判据全文仍未收）。不得从 CP 的检查动作反推法条，也不得用 CP 的检查动作替代法规要求。
+**B2 — 21 CFR Part 113 / 114 正文已收（v4.7）、part 123 已收（v4.9，CAP-22）、part 108 已收（v4.12，CAP-25），part 110 / 120 仍未收。** 本卡涉及 FCE 注册、SID 备案、Emergency Permit 的内容，此前只能作 **CP 里的转引**；**v4.12 起法源 part 108 正文已纳入**，这一类问题应给〔§ 108.xxx〕条款级时限与表单（CAP-25），不再标「转引未收」；涉及 scheduled process、商业无菌、人员培训、记录保存、偏差处置等**法条义务**的内容，转 **CAP-20 `lacf-statutory-requirements`** 并按〔§ 113.xxx〕〔§ 114.xxx〕引用。⚠ 仍需标「转引未收」的：part 110（旧 CGMP，含 §110.110；**至今有效**、见 CAP-20 B2 纠错）、part 120（果汁 HACCP）、IOM Chapter 4（Sample Schedule Chart 2）、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200/520.300、Import Alert 99-37/99-38 全文、SOP-001642、RPM Ch.4/9、21 CFR part 507 正文、2541 系列表单栏目细则（CP 7303.842 自 v4.11 起已收，见 CAP-24；但它回指的 CPG / BAM 判据全文仍未收）。不得从 CP 的检查动作反推法条，也不得用 CP 的检查动作替代法规要求。
 
 **B3 — 不要把 AF 当成 LACF 的豁免孪生。** 〔§ 117.5(d)〕字面只写 part 113 活动且仅限其管辖的微生物危害；CP 明写 `Acidified foods are subject to the CGMP & PCHF rule`。把 AF 一并免掉 Subparts C/G 是本卡要纠正的头号误读。同理，**〔§ 117.201〕是 qualified facility 的 modified requirements，不是 LACF 条款**。
 
@@ -212,6 +212,6 @@
 
 **B10 — 「相邻 program 并行」的边界要留白。** PART II.2.C 列 7303.040、7303.050、7371.000、7303.842、7321.002、7321.005、7321.006、7304.004A、7309.006 等交互 program，本包已收其中的 7303.040 / 7303.050 / 7303.842（分别 CAP-16 / CAP-17 / CAP-24，其中 7303.842 自 v4.11 起），另已收 7303.070（CAP-19）与 7303.878（CAP-21），其余 7371.000 / 7321.002 / 7321.005 / 7321.006 / 7304.004A / 7309.006 等仍未收；`regulatory-boundaries` 卡能判边界，但不能替代其余 program 正文。海产品 LACF 的 histamine、动物食品 507.5(b) 的残余危害、婴儿配方 106/107 并行等只作分流提示。
 
-**B11 — 引用规范（十六类不可混引，v4.9 时为十四类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 123.xxx〕；PCHF 指南 Ch/小节号；L.mono 指南其章节号；SECG 章号；Ed.5 问答编号；Handbook「章名 + 产品名」；CPGM 7303.040「PART x」（附件带 `ATTACHMENT A`）；CP 7303.050「PART x / ATTACHMENT A Part x / Table x」；IOM 2026 Ch.5「IOM 5.x.x / Exhibit 5-x」；**CP 7303.070「PART x / ATTACHMENT x」**。`21 CFR part 108 / 110 / 120` 与 IOM Ch.4、BAM、CPG、Import Alert 一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕）。⚠〔§ 114.5〕现行原文并列 `parts 110 and 117`，不得改写或判为笔误。
+**B11 — 引用规范（十七类不可混引，v4.9 时为十四类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 123.xxx〕；PCHF 指南 Ch/小节号；L.mono 指南其章节号；SECG 章号；Ed.5 问答编号；Handbook「章名 + 产品名」；CPGM 7303.040「PART x」（附件带 `ATTACHMENT A`）；CP 7303.050「PART x / ATTACHMENT A Part x / Table x」；IOM 2026 Ch.5「IOM 5.x.x / Exhibit 5-x」；**CP 7303.070「PART x / ATTACHMENT x」**。`21 CFR part 108 / 110 / 120` 与 IOM Ch.4、BAM、CPG、Import Alert 一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕）。⚠〔§ 114.5〕现行原文并列 `parts 110 and 117`，不得改写或判为笔误。
 
-**B12 — 超出 21 张能力卡路由范围时明确告知。** 用户要 **LACF/AF 的法规条文级义务清单 → 转 CAP-20 `lacf-statutory-requirements`**（v4.7 已收 Part 113/114 正文，不再转出本包）；但商业无菌计算、F0/D 值/z 值验证、TD/HP 研究设计、卷边解剖判读、BAM 培养步骤、part 108 备案流程、进口扣留应诉策略仍**超出本包覆盖**，应说明缺口并建议由具备资质的 Process Authority / PCQI / 审核员与法规正文核对，不要硬套 CP 的检查动作。
+**B12 — 超出 25 张能力卡路由范围时明确告知。** 用户要 **LACF/AF 的法规条文级义务清单 → 转 CAP-20 `lacf-statutory-requirements`**（v4.7 已收 Part 113/114 正文，不再转出本包）；要**注册备案与紧急许可程序 → 转 CAP-25 `emergency-permit-control`**（v4.12 已收 Part 108 正文）；但商业无菌计算、F0/D 值/z 值验证、TD/HP 研究设计、卷边解剖判读、BAM 培养步骤、2541 表单栏目细则、进口扣留应诉策略仍**超出本包覆盖**，应说明缺口并建议由具备资质的 Process Authority / PCQI / 审核员与法规正文核对，不要硬套 CP 的检查动作。

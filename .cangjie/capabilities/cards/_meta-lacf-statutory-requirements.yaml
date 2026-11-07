@@ -2,7 +2,7 @@ slug: lacf-statutory-requirements
 title: 低酸罐头与酸化食品的法定要求（21 CFR Part 113 / 114 法规正文）与 Part 117 并行接口
 importance: extended
 importance_rationale: 本包自 v1 起只有 21 CFR Part 117 一套法规正文，涉及 LACF/AF 的法条一律只能标「转引未收」，v4.6 的 CAP-19 更是靠 CP 7303.070 反推义务。用户随后提供 21 CFR Part 113 / 114（4-1-25 Edition）正文，本卡首次把 Part 117 之外的法规正文纳入，直接改变全包效力分层表述（「Part 117 是唯一法定义务基准」须收窄为「判定 Part 117 义务的唯一基准」）。它同时钉死四处高频误读：① 把 §117.5(d)(1) 读成「LACF 自动免 PCHF」（实为双条件 + 仅限微生物危害）；② 以为酸化食品有对应豁免（§117.5 清单无 part 114，且 §114.5 反向把 parts 110 and 117 拉进掺假判定）；③ 把 CP 7303.070 的 4.40/4.65/24 罐实验室触发线当法定放行值；④ 沿用 v4.3「Part 110 已移除、110.110 是过时引用」的错误结论（FDA 2018-09-12 已撤回删除指令）。属入口型法条判定能力，与 CAP-19 及 hazard-analysis-method / regulatory-boundaries / cgmp-compliance-guide / defect-action-levels / process-control-validation 多卡交叉，故定 extended。
-one_liner: 先用成品平衡 pH 与 aw 按〔§ 113.3(n)〕〔§ 114.3(b)(d)〕定 LACF / AF 身份，再按〔§ 117.1(c)〕并行 + 〔§ 117.5(d)(1)(2)〕双条件有限豁免切出 PCHF 义务并集；酸化食品不免 Subparts C/G；法条里是 4.6 / 0.85 / 4.0 与 1+2 年记录，不是 CP 的 4.40 / 4.65 / 24 罐；Part 108 / 110 正文仍未收。
+one_liner: 先用成品平衡 pH 与 aw 按〔§ 113.3(n)〕〔§ 114.3(b)(d)〕定 LACF / AF 身份，再按〔§ 117.1(c)〕并行 + 〔§ 117.5(d)(1)(2)〕双条件有限豁免切出 PCHF 义务并集；酸化食品不免 Subparts C/G；法条里是 4.6 / 0.85 / 4.0 与 1+2 年记录，不是 CP 的 4.40 / 4.65 / 24 罐；Part 108 自 v4.12 起已收（手续层见 CAP-25），part 110 正文仍未收。
 intents:
   - 按成品平衡 pH 与 aw 判定产品属于 LACF、酸化食品、酸性食品还是 §114.3(b) 排除项
   - 解释〔§ 117.1(c)〕专项 CGMP 与 Part 117 并行不互斥，纠正「二选一」误读
@@ -22,7 +22,7 @@ intents:
   - 说明手册那句是 §110.110(c) 意译而非〔§ 117.110(c)〕，且理由已从「part 110 已删」更正为「那是 part 110 的 (c) 款」
   - 区分法定数字 4.6/0.85/4.0、CP 7303.070 检查员触发线 4.40/4.65/4.75/0.90/0.93/1%/24 罐、L.mono 建议层 ≤4.4/≤0.92
   - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规，FR citation 才是修订出处
-  - 判断哪些问题超出本包（part 108 的 FCE/SID/Emergency Permit、part 110/120 正文（part 123 自 v4.9 起已收）、F0-D-z 计算、BAM、IOM Ch.4、Import Alert 全文）
+  - 判断哪些问题超出本卡（part 110/120 正文、F0-D-z 计算、BAM、IOM Ch.4、Import Alert 全文）；part 108 的 FCE 注册/SID 备案/Emergency Permit 自 v4.12 起已收，转 CAP-25
 keywords:
   - "21 CFR part 113"
   - "21 CFR part 114"
@@ -121,7 +121,7 @@ keywords:
   - 电位法
   - 偏差处置
   - 三套数字
-  - 十六类不可混引
+  - 十七类不可混引
   - 转引未收
 member_units: []
-source_label: 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）+ 21 CFR Part 114（4-1-25 Edition，7 页 / 8 条款）+ 21 CFR Part 117 法规正文〔§ 117.1(c)〕〔§ 117.5(d)(1)(2)〕〔§ 117.110〕+ CP 7303.070（检查员侧，见 CAP-19）+ FDA 2018-09-12 最终规则 FR Doc. 2018-19855（外部核实、正文未收）；21 CFR part 108 / 110 / 120 正文一律「转引未收」（part 123 自 v4.9 起已收，见 CAP-22）
+source_label: 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）+ 21 CFR Part 114（4-1-25 Edition，7 页 / 8 条款）+ 21 CFR Part 117 法规正文〔§ 117.1(c)〕〔§ 117.5(d)(1)(2)〕〔§ 117.110〕+ CP 7303.070（检查员侧，见 CAP-19）+ FDA 2018-09-12 最终规则 FR Doc. 2018-19855（外部核实、正文未收）；21 CFR part 110 / 120 正文一律「转引未收」（part 108 自 v4.12 起已收，见 CAP-25；part 123 自 v4.9 起已收，见 CAP-22）
