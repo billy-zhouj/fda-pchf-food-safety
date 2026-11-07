@@ -1,6 +1,6 @@
 # FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流（fsvp-inspection-program）
 
-*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文本包未收，一律标「转引未收」**，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**十七类不可混引**。*
+*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文本包未收，一律标「转引未收」**，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**十八类不可混引**。*
 
 *⚠ **版本陷阱**：首页 `Date of Issuance: 08/28/2025` 是**更正版签发日**，不是新程序年份。Change History（PDF p4）为 Initial Issuance 10/20/2021 → Update 09/27/2023（改名为 FSVP Inspections、补程序交互、Part V 澄清）→ Pen/Ink 08/20/2024 → **Corrections 08/28/2025（仅 POC 与机构名称/缩写更新）**。故本件是 **2023-09-27 版程序的 2025-08-28 更正版**，与 CP 7303.050（2022 / 2025-09-10 更正）、CP 7303.070（2024 / 2025-09-26 更正）同型，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal）。引用写「CP 7303.878（2023 版 / 2025-08-28 更正）」。*
 
@@ -58,7 +58,7 @@
 > —— PART I.2；§1.501 豁免总起
 
 > "Juice and fish and fishery products provided the supplier is in compliance with 21 CFR part 120, or 123, respectively (1.501(b)(1))."
-> —— PART I.2；**part 120 正文本包未收（标「转引未收」）、part 123 自 v4.9 起已收（见 CAP-22）**
+> —— PART I.2；**part 120 自 v4.13 起已收（见 CAP-26）、part 123 自 v4.9 起已收（见 CAP-22）**
 
 **③ 与本包既有来源最关键的分流（CP 7303.878 PART II.3.A，逐字）**：
 
@@ -212,7 +212,7 @@
 | 美国货主/收货人（或签署同意书的美国代理）进口食品 | **FSVPI / CP 7303.878** | 本卡 + 〔§ 117.xxx〕交叉 |
 | 进口商同时是 manufacturer/processor 且符合 part 117/507 供应链要求 | **deemed compliance**（不免 §1.509） | 本卡 + `supply-chain-verification` |
 | 不是 receiving facility 的纯贸易进口商、仅受 Subpart B 的仓储设施 | **完整 FSVP，单独接受 FSVP 检查** | 本卡 PART II.3.A |
-| 果汁 / 水产且供应商符合 part 120 / 123 | **§1.501(b) 豁免** | 本卡（part 120 转引未收；part 123 见 CAP-22） |
+| 果汁 / 水产且供应商符合 part 120 / 123 | **§1.501(b) 豁免** | 本卡（part 120 见 CAP-26；part 123 见 CAP-22） |
 | 低酸罐头 / 酸化食品进口 | 7303.878 与 7303.070 的接口（§1.502(a)-(b)） | 本卡 + CAP-19 / CAP-20 |
 | 农产品 / 膳食补充剂 / 动物食品 | 7303.080 / 7321.008 / 7371.000 与 03878P / 03878D / 71878 | 本卡（仅分流，各 program 正文未收） |
 | 检查员要取样或送实验室 | **不是 FSVP 检查**（PART III.1.C / PART IV 全空） | 转 `inspection-sampling`（CP 7303.050） |
@@ -260,7 +260,7 @@
 
 **Step 6 — 每条结论标来源层级**
 
-法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写「21 CFR part 1 subpart L §1.5xx（转引未收）」；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 写「IOM 5.x.x」。**十七类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
+法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写「21 CFR part 1 subpart L §1.5xx（转引未收）」；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 写「IOM 5.x.x」。**十八类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
 
 ## B — 边界
 
@@ -286,4 +286,4 @@
 
 **B11 — 十四类来源不可混引**：21 CFR Part 117 法规正文 / FDA PCHF 行业指南 / L.mono Draft Guidance / SECG / 过敏原 Ed.5 / Food Defect Levels Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / 21 CFR Part 113 法规正文 / 21 CFR Part 114 法规正文 / CP 7303.878 / **FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版 June 2022（第十五来源，CAP-23）**。检查员作业指导一律不创设企业义务；shall/must 的法定义务只回法规正文。
 
-**B12 — 超出 25 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套。** FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance for Industry、FSVP Implementation Work Instructions 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、SOP-001642、21 CFR part 111 / 112 / 120 / 507 正文（part 123 已收，见 CAP-22）、FSVP 检查结论预测与具体案件法律意见，均不在本包内；企业侧供应商验证活动设计转 `supply-chain-verification`，检查员表单与证据链转 `investigator-authority-procedure`，迎检准备转 `inspection-readiness`。
+**B12 — 超出 26 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套。** FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance for Industry、FSVP Implementation Work Instructions 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、SOP-001642、21 CFR part 111 / 112 / 120 / 507 正文（part 123 已收，见 CAP-22）、FSVP 检查结论预测与具体案件法律意见，均不在本包内；企业侧供应商验证活动设计转 `supply-chain-verification`，检查员表单与证据链转 `investigator-authority-procedure`，迎检准备转 `inspection-readiness`。

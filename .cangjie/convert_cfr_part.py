@@ -43,6 +43,12 @@ START = [
     re.compile(r"^\d{3}\.\d+\s+[A-Z]"),
 ]
 
+# ⚠ v4.13 修订：`^\d{2,4}$` 这条原本是兜底页码，但对数字密集的法规有害——
+# Part 120 §120.25(c)(4)(i) 被 GPO 排成「juice / into / 90 / mL / of」，
+# 独占一行的 "90" 会被当页码丢掉，产出 "into mL of"。页眉页脚已由 clip 的
+# y0=170 排除，故该规则改为按需启用（--keep-standalone-numbers）。
+NOISE_KEEP_NUMBERS = [p for p in NOISE if p.pattern != r"^\d{2,4}\s*$"]
+
 SECTION = re.compile(r"^(§\s*\d+\.\d+)\s+(.*)$")
 
 
@@ -113,7 +119,20 @@ def drop_toc(raw: list[str]) -> tuple[list[str], dict]:
         if re.match(r"^PART\s+\d+", raw[j]):
             idx_part = j
             break
-    # 向后找 AUTHORITY: / SOURCE:
+    # ⚠ v4.13 修订：多行 part 标题的续行正好落在目录区 [idx_part, idx_sec) 内，
+    # 例如 PART 120 在印刷版是
+    #   PART 120—HAZARD ANALYSIS AND / CRITICAL / CONTROL / POINT / (HACCP) SYSTEMS
+    # 整段裁目录会把 CRITICAL…SYSTEMS 一起吞掉，产出的 H2 只剩前半句。
+    # 先在裁切前把续行接回 PART 行（遇到 Subpart / Sec. 视为标题结束）。
+    title_parts: list[str] = []
+    k = idx_part + 1 if idx_part is not None else idx_sec
+    while k < idx_sec and not re.match(r"^(Subpart|Sec\.)", raw[k]):
+        title_parts.append(raw[k])
+        k += 1
+    if title_parts and idx_part is not None:
+        raw = raw[:idx_part] + [raw[idx_part] + " " + " ".join(title_parts)] + raw[k:]
+        idx_sec -= len(title_parts)
+    # 向后找 AUTHORITY: / SOURCE:（必须在标题接回之后，否则索引会错位）
     idx_auth = None
     for j in range(idx_sec, min(len(raw), idx_sec + 200)):
         if re.match(r"^(AUTHORITY:|SOURCE:)", raw[j]):
@@ -132,12 +151,14 @@ def drop_toc(raw: list[str]) -> tuple[list[str], dict]:
     }
 
 
-def compose(raw: list[str], part: str | None = None) -> tuple[list[str], int]:
+def compose(raw: list[str], part: str | None = None,
+            keep_numbers: bool = False) -> tuple[list[str], int]:
     out: list[str] = []
     dropped = 0
     pats = start_patterns(part)
+    noise = NOISE_KEEP_NUMBERS if keep_numbers else NOISE
     for s in raw:
-        if any(p.match(s) for p in NOISE):
+        if any(p.match(s) for p in noise):
             dropped += 1
             continue
         is_start = any(p.match(s) for p in pats)
@@ -214,12 +235,14 @@ def main() -> None:
     ap.add_argument("--title", required=True)
     ap.add_argument("--part", help="目标 part 号，用于裁掉连续页截取带入的相邻 part 残段")
     ap.add_argument("--report")
+    ap.add_argument("--keep-standalone-numbers", action="store_true",
+                    help="保留独占一行的 2-4 位数字（数字密集法规必需，如 Part 120 的 90 mL）")
     args = ap.parse_args()
 
     src = Path(args.input)
     raw, meta = extract_lines(src)
     raw, toc = drop_toc(raw)
-    paragraphs, dropped = compose(raw, args.part)
+    paragraphs, dropped = compose(raw, args.part, args.keep_standalone_numbers)
     trim = {}
     if args.part:
         paragraphs, trim = trim_to_part(paragraphs, args.part)

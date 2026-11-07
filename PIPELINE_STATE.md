@@ -331,3 +331,28 @@
 - **口径回补**：`.cangjie/apply_v4_12_residue.py` 两阶段执行 —— 阶段 1 逐行改写 22 处「part 108 未收」当前断言（含 CAP-20 的 B1「本卡最大缺口」整段改写为「缺口已闭合」、CAP-19 的 B2、CAP-22/23 头注与 Step 收尾、CAP-15/参考工具卡未收清单、四处「四套 → 五套」编号表述、两处过期「21 张能力卡」）；阶段 2 全局「十六类 → 十七类」（卡内 28 处 + meta 8 处 + 术语条目 7 处），并把紧邻的 `v4.11 起` 校为 `v4.12 起`（7 处）；卡目录已无「十六类」残留，「第十六来源」历史自检行原样保留。
 - **评测**：本版尚未重跑触发 / 输出 / 路由评测，v4.7 / v4.10 / v4.11 的既有结论不得冒用。
 - **仍未收**：2541 系列表单栏目细则、FURLS / Center Views 实际操作、21 CFR part 110 / 120 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2。
+
+## v4.13 — 21 CFR Part 120 落为第十八来源 + 果汁 HACCP 卡（26 张卡）
+
+> 上文 v4.12 及更早各节中「21 CFR part 120 未收」均为**当时口径**，自 v4.13 起该件已纳入，见 `source-cfr-part120-2025.md` 与 CAP-26 `juice-haccp`。
+
+- **第十八来源**：**21 CFR Part 120《Hazard Analysis and Critical Control Point (HACCP) Systems》**（`CFR-2025-title21-vol2-part120.pdf`，176 KB / 10 页，GPO 4-1-25 Edition，书页 439–448）。它是**独立的果汁 HACCP 体系法规**（不是「果汁版 Part 117」），属法规正文层，为全包**第六套独立编号体系**〔§ 120.xxx〕。结构：Subpart A（120.1 适用范围 / .3 定义 / .5 CGMP / .6 SSOP / .7 危害分析 / .8 HACCP 计划 / .9 法律基础 / .10 纠正措施 / .11 验证与确认 / .12 记录 / .13 培训 / .14 进口）+ Subpart B（120.20 通则 / .24 工艺控制 5-log / .25 特定加工者工艺验证）。
+- **⚠ 转换器本轮修了两处「内容级」缺陷（已回写 `.cangjie/convert_cfr_part.py`，非本件特有）**：
+  1. **多行 part 标题的续行被目录裁剪吞掉**。`drop_toc()` 删除 `[PART 行, AUTHORITY 行)` 区间，而印刷版 part 标题常跨行（`PART 120—HAZARD ANALYSIS AND / CRITICAL / CONTROL / POINT / (HACCP) SYSTEMS`），续行落在该区间内被一并删除，产出 H2 只剩前半句。现改为**裁切前先把续行接回 PART 行**（遇 `Subpart` / `Sec.` 视为标题结束）。⚠ 同一缺陷让 Part 108 的标题缺了 `CONTROL`（写成 `PART 108—EMERGENCY PERMIT`），但那份已定稿发布，**不回改**，只在其来源文件的转换局限里注明。
+  2. **NOISE 的 `^\d{2,4}$` 把独占一行的数字当页码丢掉**。§120.25(c)(4)(i) 被 GPO 排成 `juice / into / 90 / mL / of`，`90` 单独成行被丢弃，产出 `into mL of`。新增 `--keep-standalone-numbers` 开关（**默认关闭**，保持前四份来源文件的可复现性；Part 120 用该开关转出）。页眉页脚已由 clip 的 `y0=170` 排除，开关开启后 `residual_standalone_pagenum` 仍为 0。
+- **段界修复**：`.cangjie/fix_part120_reflow.py` 修 **11 处**（§120.24(b) 一处句中断段——`as defined in` / `§ 120.3(a) and (f)` 因同 part 号 § 引用被误判为条款起点；另 10 处编号项被并进上一段：§120.3(j)(1)、§120.8(b)(6)、§120.10(b)(5)、§120.12(c)(1)、§120.12(d)(1)(2)、§120.12(f)(1)、§120.13(a)(3)、§120.25(c)(4)(iv)、§120.25(d)(2)）。脚本**幂等**（已应用则 SKIP），原文措辞未改。自检：15/15 条款命中、页眉与独立页码残留 0、裁掉首部 Part 119 残段 3 段与尾部 Part 121 残段 6 段、串栏 0；复扫段内合并与句中断段**均为 0**。
+- **新增能力卡 CAP-26 `juice-haccp`**（`.cangjie/capabilities/cards/juice-haccp.md` + `_meta-juice-haccp.yaml`，67 intents / 127 keywords）。R 段 **26 个英文引用块**经 `.cangjie/verify_v4_13_quotes.py` 核验：**26/26 命中正文区、0 超 100 词、0 表格引用，RESULT: PASS**。
+- **本版五条实质纠偏**：
+  1. **5-log 是法定要求**——〔§ 120.24(a)〕`shall include in their HACCP plans control measures that will consistently produce, at a minimum, a 5 log (i.e., 10⁵) reduction`，须**持续**、覆盖**货架期**、在**正常与中度滥用条件**下成立。目标菌 `pertinent microorganism` = `the most resistant microorganism of public health significance that is likely to occur in the juice`（三条件同时成立），**不是**沙门氏菌或 O157。
+  2. **§120.25 只适用果面处理者**——`relies on treatments that do not come into direct contact with all parts of the juice`；靠热力杀菌的厂，成品检验在〔§ 120.11(a)(1)(iii)〕下是 `At the option of the processor`。取样 20 mL（2×10 mL）/1,000 加仑/生产日，日产量不足时不少于每 5 个工作日一次；**7 次 2 阳性 → `shall be deemed to be inadequate`**，须立即改用压榨后达成 5-log 的替代工艺。
+  3. **两处豁免对象不同**——〔§ 120.24(a)(1)(2)〕免 **5-log 指标**（(a)(2) 附条件：热力工艺副本须入〔§ 120.7〕危害分析）；〔§ 120.7(e)〕免「part 113/114 已控制的微生物与微生物毒素」**危害的计划处理**，只到微生物类。
+  4. **记录复审是 7 日历天**——〔§ 120.11(a)(1)(iv)(A)(B)〕`within 1 week (7 days)`，与 Part 117 的工作日口径不同；同部内〔§ 120.25(a)〕又用 `working days`，两种日并存。
+  5. **记录期是第六套口径**——〔§ 120.12(d)(1)〕易腐/冷藏 ≥1 年、冷冻/保藏/货架稳定 2 年或货架期**孰长**，起算点**产品制备日**；〔§ 120.12(d)(2)〕异地存放须监测后 6 个月 + 请求后 24 小时内到现场。
+- **接口逐字锁定**：〔§ 120.5〕`Except as provided by § 117.5(c), parts 110 and 117 of this chapter apply ...`——Part 117 **默认适用**，〔§ 117.5(c)〕是唯一且**条件性**的出口。⚠ **§ 117.5(c) 逐字文本不在本包**，引用其措辞一律标「转引未收」，不得据 §120.5 反推、也不得套用 §117.5(b)/(d) 写法。
+- **Bundle 回补**：`assemble_bundle.py` 25 → **26 卡**（SLUGS 追加、ALSO_READ 新增 11 条正向链 + 13 张卡反向链）、`additional_sources` 16 → **17 条**（末条 `src-21-cfr-part-120-2025`）、core_principles 50 → **52**、stop_conditions 24 → **26**。全包当前口径统一为「**十八类不可混引 / 26 张卡 / 六套法规正文编号**」；清除既有条文中把 part 120 写成「未收 / 超出覆盖」的当前断言（12 处逐行改写 + 两批列表清理 + 7 处「五套 → 六套」）。所有替换走 `rep_once` 唯一性断言，dry-run 全过后 --apply。
+- **术语与用例**：`candidates/glossary.md` 202 → **212 条**（t203–t212：juice 管辖、5-log 法定性、pertinent microorganism、HACCP 计划七要素、RTL 判定、SSOP 八项、7 日历天复审、第六套记录期、果面处理 E. coli 验证、两处豁免对象），严格 `yaml.safe_load` 通过、id 唯一。`test-prompts.json` 135 → **145 条**（`juice-haccp-01..10`：5 should_trigger / 4 edge_case / 1 should_not_trigger），version → **4.13**。
+- **编译与安装（已完成）**：`compile_single.py --out dist-v17` 产出 **31 个 .md / 26 张卡**（SKILL.md 152 行 / 105,034 字节）；`validate_skill_pack.py dist-v17` **0 errors + 1 warning**（`name-dir` 固有）；`.cangjie/install_v13.py` 覆盖安装，旧版备份 `backups/fda-pchf-food-safety-v4.12-20261107-114745`；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **31/31 文件、逐文件 sha256 差异 0**，glossary 5 份副本 hash 全同（`0f76c8efc3f17e59…`）、严格解析 212 条 id 唯一。
+- **静态登记核对**：`.cangjie/check_v4_13_routing.py` **37/37 PASS** —— 26 卡 / 52 principles / 26 stops / 17 additional_sources（末条 `src-21-cfr-part-120-2025`）、CAP-26 `active`·`extended`·also_read 11 条、反向辅读链 9 张、能力索引主行 1 行、SKILL.md 无「十七类」残留且含「十八类」、CAP-26 26 个引用块、覆盖 120.1/.3/.5/.7/.8/.9/.11/.12/.14/.24/.25、meta 67 intents / 127 keywords、产物与安装目录 hash 差异 0。
+- **评测**：本版尚未重跑触发 / 输出 / 路由评测，v4.7–v4.12 的既有结论不得冒用。
+- **仍未收**：〔§ 117.5(c)〕逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 全套、Import Alert 全文、BAM / AOAC 方法全文。
+

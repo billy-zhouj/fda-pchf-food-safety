@@ -19,7 +19,7 @@ one_liner: >-
   按「Table 1 产品/工艺风险 + Table 2 企业/进口商优先级 → 六类检查分流 → HACCP Program
   Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G 实验室分流与 CPG 判据出口 → PART V
   Table 4 分级与裁量 → FIELD REPORTING 收口」走完检查判定链；但全链只是给 field staff 的
-  内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十七类来源
+  内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十八类来源
   不可混引，CPG / BAM / NSSP / Import Alert 等未收正文一律标转引未收。
 intents:
   - 复述 CP 7303.842 从检查优先级到报告上报的完整检查判定链
@@ -236,7 +236,7 @@ keywords:
   - CAP-22
   - CAP-23
   - CAP-24
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   - 检查程序作业层
   - 法条义务层

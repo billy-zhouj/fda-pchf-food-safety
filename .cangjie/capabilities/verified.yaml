@@ -154,9 +154,8 @@ book:
       as provided by § 117.5(b), parts 110 and 117 of this chapter apply`，§117.5(b) 则给 `if you are required to comply with,
       and are in compliance with, part 123` 的条件性豁免 —— 与 part 113 的 §117.5(d)(1) 同构，但 §117.5(b) 没有 §117.5(d)(2) 那样的『仅限微生物危害』限缩款，两个方向的误读都要纠正。Subpart
       B/C 是 augments subpart A 的叠加而非替代。§123.16 的 except part 113/114 只排除该条、不排整 part。§123.12 进口商验证与 FSVP 是两套法源，deemed compliance
-      不覆盖 §123.12。§123.9(b)(1) 记录期为冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，与 Part 113 的 1+2 年、Part 114 的整段 3 年是三套口径。仍未收：21 CFR part 120 /
-      1240 / 110 / 507 正文、NSSP Guide（FDA《Fish and Fishery Products Hazards and Controls Guidance》自 v4.10 起已收，见 CAP-23）。引用用〔§
-      123.xxx〕。
+      不覆盖 §123.12。§123.9(b)(1) 记录期为冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，与 Part 113 的 1+2 年、Part 114 的整段 3 年是三套口径。仍未收：21 CFR part 1240 /
+      110 / 507 正文、NSSP Guide（FDA《Fish and Fishery Products Hazards and Controls Guidance》自 v4.10 起已收，见 CAP-23）。引用用〔§ 123.xxx〕。
   - title: Fish and Fishery Products Hazards and Controls Guidance (4th ed., June 2022) — Seafood Hazards Guide
     author: U.S. FDA, HHS / PHS / CFSAN / Office of Food Safety, Division of Seafood Safety
     year: June 2022 第 4 版（SGR 129）；正文多章页脚仍为 June 2021，Appendix 3 / 5 为 A3-1 / A5-1 (June 2021)，Ch.19 书目 August 2019，属分章滚动修订
@@ -169,7 +168,7 @@ book:
       判定树定 CCP、控制策略示例的 CCP 漂移、关键限值与监控四问。⚠ 三项红线：① 表不得单独使用、指南不替代危害分析、须警觉新出现危害与物种替换；② Appendix 5 的组胺 50/500 ppm 等数值回指 CPG / 21
       CFR 556 / 40 CFR 180 / NSSP Guide，是外部法源快照而非本指南新设限值，一律标转引未收；③ 导出件表格列头连写、词条粘连、字符丢失、页码混入、Appendix 3 的 CCP 判定树塌陷成残表，逐字引用只能取散文段落（CAP-23
       R 段 37 块经 .cangjie/verify_v4_10_quotes.py 核验 37/37 命中）。引用用「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条用〔§
-      123.xxx〕，不可混引。仍未收：NSSP Guide、21 CFR part 120 / 1240 / 110 / 507 正文、Import Alert 16-xx、BAM 海产品章节
+      123.xxx〕，不可混引。仍未收：NSSP Guide、21 CFR part 1240 / 110 / 507 正文、Import Alert 16-xx、BAM 海产品章节
   - title: Compliance Program Guidance Manual 7303.842 - Seafood Processor, Products, and Importer Inspection Program
     author: U.S. FDA, Human Foods Program (HFP) / Office of Inspections and Investigations (OII)
     year: IMPLEMENTATION DATE 11/01/2023；Correction date 09/30/2025；80 物理页 / 148 书签（首页标 Page 1 of 86）
@@ -184,8 +183,8 @@ book:
       CPG 540.525 / 540.370 / 562.300 等（未收）；PART V Table 4 是 ranking 且 case-by-case，WL / DWPE / judicial actions 须 HFP OCE
       concurrence；FIELD REPORTING 用 FACTS / CMS / FDA 3501·3502；ATTACHMENT A 样品量仅 surveillance and audit。引用用「CP 7303.842 PART
       x / Table x / ATTACHMENT A #x / Lxxx」，逐字引证以原文字符串为准。⚠ 转换件存在书签标题与正文伪标题交错（PART 各出现两次、H1 虚高 133），检索以 PART / 小节 / 表号为准，表格与页眉不可逐字引用。仍未收：CPG
-      全文、21 CFR part 120 / 1240 / 110 / 507、NSSP Guide、BAM / AOAC / MPM 方法全文、Import Alert 16-xx 全文、21 CFR part 1 subpart L、IOM
-      Ch.4、FDA 3501/3502 表单全文与 eNSpect / CMS / FACTS 内部系统 —— 一律标转引未收'
+      全文、21 CFR part 1240 / 110 / 507、NSSP Guide、BAM / AOAC / MPM 方法全文、Import Alert 16-xx 全文、21 CFR part 1 subpart L、IOM Ch.4、FDA
+      3501/3502 表单全文与 eNSpect / CMS / FACTS 内部系统 —— 一律标转引未收'
   - title: 21 CFR Part 108（2025 版）法规正文 — Emergency Permit Control
     author: U.S. FDA（eCFR/GPO 现行文本）
     year: '2025'
@@ -201,6 +200,23 @@ book:
       `may be required` 的救济手段而非常态义务，触发前提是未履行 108.25/108.35 的义务（prima facie basis）；Subpart A 全是 working days（3/5/10/20），Subpart
       B 全是日历天（10/30/60/90），不可互换；记录保存 108.25(g) 整段 3 年 vs 108.35(h) 1+2 年，与 113.100(g)/114.100(e) 共四套口径；外国加工者走 §801 拒绝入境而非紧急许可。仍未收：2541
       系列表单栏目细则、FURLS / Center Views 操作、21 CFR part 110 / 120 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4
+  - title: 21 CFR Part 120（2025 版）法规正文 — Hazard Analysis and Critical Control Point (HACCP) Systems
+    author: U.S. FDA（eCFR/GPO 现行文本）
+    year: '2025'
+    content_type: regulation（最终规则，具法律约束力）
+    source_id: src-21-cfr-part-120-2025
+    source_file: source-cfr-part120-2025.md
+    note: 由用户提供的 GPO 印刷版 CFR-2025-title21-vol2-part120.pdf（176 KB，10 页，书页 439–448）经本包专用脚本 .cangjie/convert_cfr_part.py 双栏重排转出，再用
+      fix_part120_reflow.py 定点修 11 处段界缺陷（1 处句中断段 + 10 处编号项并段）。自检：15/15 条款命中（120.1/.3/.5/.6/.7/.8/.9/.10/.11/.12/.13/.14/.20/.24/.25）、页眉与独立页码残留
+      0、裁掉首部 Part 119 残段 3 段与尾部 Part 121 残段 6 段、串栏 0；逐字引用核对 26/26 命中、0 超 100 词、0 表格引用。⚠ 4–1–25 Edition 是 CFR 年度编纂版次（修订至 2025-04-01），不是
+      2025 新规；SOURCE 为 66 FR 6197, Jan. 19, 2001, unless otherwise noted，§120.5/§120.6 的 80 FR 56167（2015-09-17）是 PCHF 最终规则的
+      conforming amendment。**法条定位**：Part 120 是独立的果汁 HACCP 体系法规（不是「果汁版 Part 117」）；〔§ 120.5〕一句话锁定接口——`Except as provided by
+      § 117.5(c), parts 110 and 117 ... apply`，即 Part 117 默认适用、§117.5(c) 为唯一条件性出口（**该款全文未收**，不得反推措辞）。**最易错五处**：① 5-log 是〔§
+      120.24(a)〕的 shall（须持续、覆盖货架期、正常与中度滥用条件），不是指南建议；② 目标菌是 pertinent microorganism（最耐热＋具公共卫生意义＋可能出现于该果汁），不是沙门氏菌/O157；③ §120.25
+      的 biotype I E. coli 检测只适用于果面处理者（20 mL/1,000 加仑/生产日，7 次 2 阳性即视为不足），非通用出厂检验；④ 两处豁免对象不同——120.24(a)(1)(2) 免 5-log 指标、120.7(e)
+      免「part 113/114 已控制的微生物与微生物毒素」危害的计划处理；⑤ 记录复审是 `within 1 week (7 days)`（日历天，非 7 个工作日），记录期为易腐/冷藏 ≥1 年、冷冻/保藏/货架稳定 2 年或货架期孰长、起算点产品制备日，是独立第六套口径。⚠
+      文本层缺陷：`5 log (i.e., 105)` 的 `105` 实为 10⁵ 上标丢失，引用须还原并注明。仍未收：§117.5(c) 逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG
+      与 Import Alert 全文、BAM / AOAC 方法全文
 entry:
   name: fda-pchf-food-safety
   description: FDA 人类食品危害分析与基于风险的预防控制（PCHF / 21 CFR Part 117 / FSMA）技能，融合行业指南方法论与法规正文法定义务。当用户需要：做食品危害分析（六列工作表）、判定法定义务与法定豁免（条款级）、设计或验证热处理/工艺控制、设计过敏原控制与排产、环境病原（李斯特菌/沙门氏菌）与卫生控制策略、化学危害与经济掺假判定、供应商批准与验证活动选择、召回计划与报告食品义务、FDA
@@ -238,14 +254,20 @@ entry:
     更正，检查程序作业层）：CP 7303.842 与 7303.844 已合并但 PAC 仍分进口/国产、Table 1 产品/工艺风险与 Table 2 企业/进口商 work planning 的分工及 90/10 规则、六类检查分流（Processor
     / Importer / Vessels / Foreign Establishment / NSSP / EMA）与 HACCP Program Evaluations、Sampling 三类与国产 for cause only、PAC
     双码表与 03842H 同名不同义、PART IV A–G 实验室分流与『触发值不是法规限值』、Table 4 违规分级与 case-by-case、WL / DWPE / judicial actions 的 HFP OCE concurrence、Species
-    misbranding 的 FD&C Act 403(b) 定性、FIELD REPORTING 的 FACTS / CMS / FDA 3501·3502 出口、ATTACHMENT A 样品量适用域，以及十七类来源不可混引与三层配对（法条
-    CAP-22 / 指南 CAP-23 / 检查程序 CAP-24）。另覆盖 LACF／酸化食品的紧急许可控制与注册备案（21 CFR Part 108 法规正文，4-1-25 Edition，11 页 / 9 条款）：把「手续层」与「实体层」分开——Subpart
-    A（§108.3/.5/.6/.7/.10/.12/.19）给许可裁定（3 个工作日异议、5 个工作日听证、听证后 5 个工作日裁定）、紧急性健康危害下的立即生效、许可签发或拒绝（10 个工作日可再延 10）、中止与恢复（立即中止 +
-    10 个工作日答复）、无证生产的产品扣留与事先书面批准（须证明 free from microorganisms of public health significance，20 个工作日答复）、以及「全部满足才豁免」的许可豁免；Subpart
-    B 给注册（Form FDA 2541，首次从事后 10 天内，外国加工者报检前）与工艺备案（酸化食品 2541e / LACF 2541d·2541f·2541g，注册后 60 天内且包装新产品前）、停业 90 天通知、腐败与偏差报告、LACF
-    独立的微生物污染报告、召回程序文件、BPCS 受训主管、记录保存（108.25(g) 整段 3 年 vs 108.35(h) 1+2 年）。**核心纠偏：紧急许可不是常态义务**——108.25(a)/108.35(a) 均为 `may
-    be required`，未履行义务只构成 `prima facie basis`；Subpart A 全是 working days、Subpart B 全是日历天，不可互换；外国加工者走 §801 拒绝入境而非紧急许可；108.35
-    独有的 FSIS 连续检验豁免、加州视为合规与 FOIA 豁免不得套到酸化食品。适用于食品工厂质量/合规人员、采购与供应商管理者、食品工艺研发、跨境食品贸易合规咨询，以及需要准备 FDA 现场检查、取样配合、483 回应与低酸/酸化罐头产品管辖判定的团队。
+    misbranding 的 FD&C Act 403(b) 定性、FIELD REPORTING 的 FACTS / CMS / FDA 3501·3502 出口、ATTACHMENT A 样品量适用域，以及十八类来源不可混引与三层配对（法条
+    CAP-22 / 指南 CAP-23 / 检查程序 CAP-24）。另覆盖果汁 HACCP 体系的完整法定义务链（21 CFR Part 120 法规正文，4-1-25 Edition，10 页 / 15 条款）：先按〔§ 120.1(a)〕定义
+    juice（含浓缩物与果泥、作饮料配料也算）并用〔§ 120.3(j)(2)〕排除采收采摘运输与零售经营、〔§ 120.3(l)〕判零售 establishment，再按〔§ 120.5〕确认 **Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（该款全文未收）**；Subpart
+    A 给 SSOP 八项、书面危害分析五项与 prudent processor 判定、九项应考虑危害、HACCP 计划七要素（厂内/厂外 CCP 分列）、纠正措施五步（隔离扣留优先）、六类验证活动与 12 个月/每年确认、五类记录与通用要素、培训四职能、进口商二选一
+    + 六项 affirmative steps；Subpart B 给 **5-log（10⁵）法定削减**（持续、覆盖货架期、正常与中度滥用条件，目标菌为 pertinent microorganism）与**果面处理者专项的 biotype
+    I E. coli 验证**（20 mL/1,000 加仑/生产日，7 次 2 阳性即视为控制措施不足）。**核心纠偏**：5-log 是 shall 不是建议；§120.25 只适用于果面处理者；120.24(a) 免的是 5-log
+    指标、120.7(e) 免的是 113/114 已控制的微生物类危害，两者对象不同；记录复审是 1 周（7 日历天）而非 7 个工作日；记录期为易腐 1 年 / 冷冻-保藏-货架稳定 2 年或货架期孰长，起算点为产品制备日另覆盖 LACF／酸化食品的紧急许可控制与注册备案（21
+    CFR Part 108 法规正文，4-1-25 Edition，11 页 / 9 条款）：把「手续层」与「实体层」分开——Subpart A（§108.3/.5/.6/.7/.10/.12/.19）给许可裁定（3 个工作日异议、5 个工作日听证、听证后
+    5 个工作日裁定）、紧急性健康危害下的立即生效、许可签发或拒绝（10 个工作日可再延 10）、中止与恢复（立即中止 + 10 个工作日答复）、无证生产的产品扣留与事先书面批准（须证明 free from microorganisms of
+    public health significance，20 个工作日答复）、以及「全部满足才豁免」的许可豁免；Subpart B 给注册（Form FDA 2541，首次从事后 10 天内，外国加工者报检前）与工艺备案（酸化食品 2541e
+    / LACF 2541d·2541f·2541g，注册后 60 天内且包装新产品前）、停业 90 天通知、腐败与偏差报告、LACF 独立的微生物污染报告、召回程序文件、BPCS 受训主管、记录保存（108.25(g) 整段 3 年 vs
+    108.35(h) 1+2 年）。**核心纠偏：紧急许可不是常态义务**——108.25(a)/108.35(a) 均为 `may be required`，未履行义务只构成 `prima facie basis`；Subpart A
+    全是 working days、Subpart B 全是日历天，不可互换；外国加工者走 §801 拒绝入境而非紧急许可；108.35 独有的 FSIS 连续检验豁免、加州视为合规与 FOIA 豁免不得套到酸化食品。适用于食品工厂质量/合规人员、采购与供应商管理者、食品工艺研发、跨境食品贸易合规咨询，以及需要准备
+    FDA 现场检查、取样配合、483 回应与低酸/酸化罐头产品管辖判定的团队。
   core_principles:
   - 先分层再引用：**法规正文层自 v4.9 起含四套独立编号**——21 CFR Part 117〔§ 117.xxx〕、Part 113〔§ 113.xxx〕、Part 114〔§ 114.xxx〕、Part 123〔§ 123.xxx〕，均为最终规则、具法律约束力，各管各自义务；FDA
     行业指南（草案，should 级方法论建议）为另一层。冲突时法规为准，指南只作解释与例证；「Part 117 是唯一判定基准」只能理解为**判定 Part 117 义务**的唯一基准，不能解释成全包唯一法条
@@ -311,9 +333,9 @@ entry:
     Never average the two analysts' results together：original analysis 与 check analysis 分别判定
   - CP 7303.070 依据的 **21 CFR part 113 / 114 法规正文自 v4.7 起已收（CAP-20）**：scheduled process、商业无菌、BPCS、成品 pH、偏差处置、记录保存等法定义务现按〔§
     113.xxx〕〔§ 114.xxx〕引用，不再标「转引未收」；**21 CFR part 108 自 v4.12 起已收（见 CAP-25）**：FCE 注册、SID 定时工艺备案、Emergency Permit、§108.35 BPCS
-    认可现按〔§ 108.xxx〕引用；**仍未收的是** part 110 / 120（part 123 自 v4.9 起已收，见 CAP-22）与 2541 系列表单栏目细则，一律标「转引未收」，不得从 CP 反推法条或把检查动作写成企业义务。PART
-    II.2.B(2) 给出 RRA 自愿、远程、RRAs are not considered inspections 且不满足 FD&C Act 704 法定检查场景（510(h)/503B(b)），但 FDA 扩大 RRA / 境外无预告检查的政策公告原文仍未收；PART
-    V.2 明写不得仅因未注册/未备案就建议 Import Alert/DWPE
+    认可现按〔§ 108.xxx〕引用；**仍未收的是** part 110 与 §117.5(c) 逐字文本（part 123 自 v4.9 起已收，见 CAP-22；part 120 自 v4.13 起已收，见 CAP-26）以及 2541
+    系列表单栏目细则，一律标「转引未收」，不得从 CP 反推法条或把检查动作写成企业义务。PART II.2.B(2) 给出 RRA 自愿、远程、RRAs are not considered inspections 且不满足 FD&C Act
+    704 法定检查场景（510(h)/503B(b)），但 FDA 扩大 RRA / 境外无预告检查的政策公告原文仍未收；PART V.2 明写不得仅因未注册/未备案就建议 Import Alert/DWPE
   - 低酸罐头与酸化食品是**并行法条**，不是二选一：〔§ 117.1(c)〕明定受专项 CGMP 管辖的食品同时受 Part 117 约束；〔§ 117.5(d)(1)〕的 Subparts C/G 豁免须同时满足 `required to
     comply with` 且 `in compliance with` part 113，〔§ 117.5(d)(2)〕又把它限定在 part 113 管辖的**微生物危害**；**part 114 完全不在 §117.5 豁免清单内**，〔§
     114.5〕还反向把 parts 110 and 117 拉进掺假判定。输出必须按危害逐条切分，不能给「整厂免检 / 不免检」的二值结论
@@ -321,10 +343,10 @@ entry:
     113.40〕NIST 溯源校准、〔§ 113.83〕〔§ 114.83〕scheduled process 由 qualified person 确立、〔§ 113.87(b)〕FDA 有权调阅 scheduled process、〔§
     114.80(a)(1)〕酸化不等于免除热处理、〔§ 114.80(a)(2)〕成品 pH >4.0 须用电位法、〔§ 114.89〕三条偏差路径（含按 part 113 热处理）。**〔§ 113.100(g)〕是厂内 ≥1 年 +
     另 2 年且 (h) 允许 part 11 电子记录；〔§ 114.100(e)〕只要求加工厂或合理可及地点整段 3 年，无分段、无 part 11 条款**——两处记录口径不得串用
-  - 五套法规正文〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕各自独立编号，与 PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP
-    7303.050、IOM 2026 Ch.5、CP 7303.070 与 CP 7303.878 合计**十七类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123、v4.10 新增第十五来源
-    FDA 海产品危害与控制指南、v4.11 新增第十六来源 CP 7303.842、v4.12 新增第十七来源 21 CFR Part 108）；CP 7303.070 的 4.40 / 4.65 / 24 罐是检查员实验室触发线，法规里是
-    4.6 / 0.85 / 4.0，L.mono 草案是 ≤4.4 / ≤0.92，三层数字不得互替
+  - 六套法规正文〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕各自独立编号，与 PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM
+    7303.040、CP 7303.050、IOM 2026 Ch.5、CP 7303.070 与 CP 7303.878 合计**十八类不可混引**（v4.8 新增第十三来源、v4.9 新增第十四来源 21 CFR Part 123、v4.10
+    新增第十五来源 FDA 海产品危害与控制指南、v4.11 新增第十六来源 CP 7303.842、v4.12 新增第十七来源 21 CFR Part 108、v4.13 新增第十八来源 21 CFR Part 120）；CP 7303.070
+    的 4.40 / 4.65 / 24 罐是检查员实验室触发线，法规里是 4.6 / 0.85 / 4.0，L.mono 草案是 ≤4.4 / ≤0.92，三层数字不得互替
   - 海产品 part 123 与 Part 117 的接口是双向锁定：〔§ 123.5(a)〕明文 `Except as provided by § 117.5(b), parts 110 and 117 of this chapter apply`（默认适用），〔§
     117.5(b)〕给 `required to comply with, and are in compliance with, part 123` 的条件性豁免；但 §117.5(b) 没有 part 113〔§ 117.5(d)(2)〕那样的『仅限微生物危害』限缩款——既不得把
     part 113 口径搬来低估豁免，也不得因无限缩就推成整厂免检，边界是〔§ 123.3(k)〕的 processing 及其 (k)(2) 三项排除
@@ -361,10 +383,17 @@ entry:
   - Part 108 的时限有两种「日」，混用即答错：Subpart A 程序时限全是 working days（3 个工作日提异议、5 个工作日听证、听证后 5 个工作日裁定、许可申请 10 个工作日可再延 10、恢复申请 10 个工作日、无证产品放行
     20 个工作日）；Subpart B 申报时限全是日历天（注册 10 天、备案 60 天、停业通知 90 天、工艺变更报送 30 天、延期批复 30 个工作日）。记录保存四套口径不得合并：108.25(g) 整段 3 年自生产日、108.35(h)
     厂内 ≥1 年 + 另 2 年、113.100(g) 1+2 且可用 part 11 电子记录、114.100(e) 整段 3 年无 part 11 条款
+  - 果汁 HACCP 必须先分层再引条款：21 CFR Part 120〔§ 120.xxx〕是**独立 HACCP 体系法规**，与 Part 117〔§ 117.xxx〕的关系由〔§ 120.5〕一句话锁定——`Except as provided
+    by § 117.5(c), parts 110 and 117 ... apply`，即 **Part 117 默认适用**、〔§ 117.5(c)〕为唯一且**条件性**的出口（该款全文未收，不得据 §120.5 反推其措辞，也不得套用
+    §117.5(b)/(d) 的写法）。受 Part 120 管辖只换出口不换默认；违反 §120.6/§120.7/§120.8 由〔§ 120.9〕**直接**构成 FD&C Act 402(a)(4) 掺假，不经「不符合 CGMP」中转
+  - 果汁的 5-log 是法定指标，两处豁免对象不同且都极窄：〔§ 120.24(a)〕`shall ... consistently produce, at a minimum, a 5 log (i.e., 10⁵) reduction`，须覆盖
+    **货架期**、在**正常与中度滥用条件**下成立，目标菌为 `pertinent microorganism`（最耐热＋具公共卫生意义＋可能出现在该果汁中）。豁免 (a)(1) 是受 part 113/114 管辖者、豁免 (a)(2)
+    是单次热力达货架稳定或含全部配料热处理的浓缩工艺（须把热力工艺副本放进〔§ 120.7〕危害分析）——**两者免的都只是 5-log 这一指标**，另有〔§ 120.7(e)〕免的是「part 113/114 已控制的微生物与微生物毒素」危害的计划处理，不减化学/物理/过敏原危害。§120.25
+    的 biotype I E. coli 检测只适用果面处理者（20 mL/1,000 加仑/生产日），不是通用出厂检验
   out_of_scope:
   - USDA FSIS 独家管辖的肉、禽与加工蛋制品的独立合规（作为配料时的危害分析除外）
-  - 果汁 HACCP（21 CFR part 120）的专项要求正文与 NSSP Guide（海产品企业义务已由 CAP-22 覆盖〔§ 123.xxx〕正文、检查员侧程序自 v4.11 起由 CAP-24 覆盖 CP 7303.842；但
-    CPG / BAM / Import Alert 全文与贝类州际销售许可仍属未收）
+  - 果汁 HACCP 的检查员取证口径（CP 7303.047 未收，法条义务见 CAP-26）与 NSSP Guide（海产品企业义务已由 CAP-22 覆盖〔§ 123.xxx〕正文、检查员侧程序自 v4.11 起由 CAP-24 覆盖
+    CP 7303.842；但 CPG / BAM / Import Alert 全文与贝类州际销售许可仍属未收）
   - 杀菌釜/无菌线工艺设计、F0 与 D/z 值计算、温度分布与热穿透研究设计、卷边解剖判读、商业无菌验证与验证方案审批，以及 2541 系列表单的栏目细则填写、FURLS / Center Views 的实际提交操作与许可申请举证材料组织（**21
     CFR Part 113 / 114 法规正文自 v4.7 起已收，条款级义务清单见 CAP-20 `lacf-statutory-requirements`；21 CFR Part 108 自 v4.12 起已收，注册备案与紧急许可程序见
     CAP-25 `emergency-permit-control`**；CP 7303.070 只给管辖分流与检查员取证口径）
@@ -380,13 +409,14 @@ entry:
   stop_conditions:
   - 指南为草案（Draft – Not for Implementation）且 6 个章节未发布（Ch7/8/9/10/13/17）：涉及这些主题时明确说明来源缺口，不要编造细节；注意法规正文对这些主题仍有效，可优先引条款
   - 数值界限（6D 表、a_w、pH、冷却协议）必须注明出处小节并提示'文献极端值，未必适用于具体产品'；禁止凭记忆给数值
-  - 条款引用必须核对原文：五套法规正文分别以〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕标注，PCHF 指南引用以 Ch/小节号标注，L.mono 专项指南引用以该指南章节号（如
+  - 条款引用必须核对原文：六套法规正文分别以〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕标注，PCHF 指南引用以 Ch/小节号标注，L.mono 专项指南引用以该指南章节号（如
     IX.A.2、XIII.D.4）标注，SECG 引用以 SECG 章号（如 SECG XIII.C）标注，Ed.5 用问答编号（如 C.8、D.13），Food Defect Levels Handbook 用「Handbook 章名
     + 产品名」标注，CPGM 7303.040 用「CPGM 7303.040 PART x」（附件须带 ATTACHMENT A 前缀）标注，CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A
     Part x / Table x」标注（其 ATTACHMENT A Part V 与主文 PART V 同名但不同口径），IOM 用「IOM 5.x.x / IOM Exhibit 5-x」标注，CP 7303.070 用「CP 7303.070
-    PART x / ATTACHMENT x」标注，CP 7303.878 用「CP 7303.878 PART x」标注；21 CFR part 1 subpart L / 110 / 120（part 123 自 v4.9 起已收、part
-    108 自 v4.12 起已收）、IOM Chapter 4、BAM、CPG、Import Alert 等未收正文一律标「转引未收」；**十七类不可混引**，且 §114.5 并列 `parts 110 and 117` 不得改写或判为笔误
-  - 用户任务超出 25 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套；LACF/AF 的实体工艺法条义务先转 CAP-20，注册备案与紧急许可程序转 CAP-25，检查员侧取证转 CAP-19
+    PART x / ATTACHMENT x」标注，CP 7303.878 用「CP 7303.878 PART x」标注；21 CFR part 1 subpart L / 110、§117.5(c) 逐字文本（part 123 自 v4.9
+    起已收、part 108 自 v4.12 起已收、part 120 自 v4.13 起已收）、IOM Chapter 4、BAM、CPG、Import Alert 等未收正文一律标「转引未收」；**十八类不可混引**，且 §114.5
+    并列 `parts 110 and 117` 不得改写或判为笔误
+  - 用户任务超出 26 张能力卡路由范围时，明确告知超出本包覆盖，不要硬套；LACF/AF 的实体工艺法条义务先转 CAP-20，注册备案与紧急许可程序转 CAP-25，果汁 HACCP 转 CAP-26，检查员侧取证转 CAP-19
   - 李斯特菌专项指南的附录 4/5/6（例行清洁消毒时间表、环境采样制备方法、纠正措施表）正文未纳入本次蒸馏，涉及具体表格模板时须回原始 PDF 取，不要编造
   - cGMP 内审结论不得只凭 SECG 白话转述签发：Handbook、CPGM 7303.040、CP 7303.050、CP 7303.070 与 IOM Chapter 5 正文虽已收（CAP-15 / CAP-16 / CAP-17
     / CAP-19 / CAP-18），但依次给的是缺陷行动水平阈值出处、检查类型与分级口径、检查员抽样量与阳性升级路径、LACF/AF 管辖分流与专门体系取证口径、调查员权限与证据规则，都不是实验室方法或企业内控标准。仍未收：IOM Chapter
@@ -410,9 +440,9 @@ entry:
     迎检 SOP、律所快讯、或 FDA 网页 Food Compliance Programs 列表日期，一律以 PDF 首页 Transmittal / Date of Issuance / IMPLEMENTATION DATE 为准
   - CP 7303.070 现行文件是 2024-09-26 签发 / IMPLEMENTATION DATE 9/26/2024 / Correction Date 9/26/2025 的更正本（61 页），文件名 20250929 只是
     PDF 生成日，不是 2025 年新签发 program，也不得套用 7303.040 的 2025-CPM-HFP-001 Transmittal 格式。它依据的 **21 CFR part 113 / 114 法规正文自 v4.7
-    起已收**（见 CAP-20，涉及 scheduled process、商业无菌、BPCS、成品 pH、偏差与记录保存按〔§ 113.xxx〕〔§ 114.xxx〕引用）；**仍未收** part 110 / 120（part 123
-    自 v4.9 起已收，见 CAP-22；part 108 自 v4.12 起已收，见 CAP-25）、IOM Ch.4 Sample Schedule Chart 2、BAM 各章、CPG Sec. 520.200/520.300、Import
-    Alert 99-37/99-38 全文、Form 2541e 细则：这些内容一律标「转引未收」，F0/D/z 计算与卷边解剖判读仍不得从 CP 反推
+    起已收**（见 CAP-20，涉及 scheduled process、商业无菌、BPCS、成品 pH、偏差与记录保存按〔§ 113.xxx〕〔§ 114.xxx〕引用）；**仍未收** part 110（part 123 自 v4.9
+    起已收，见 CAP-22；part 108 自 v4.12 起已收，见 CAP-25；part 120 自 v4.13 起已收，见 CAP-26）、IOM Ch.4 Sample Schedule Chart 2、BAM 各章、CPG
+    Sec. 520.200/520.300、Import Alert 99-37/99-38 全文、Form 2541e 细则：这些内容一律标「转引未收」，F0/D/z 计算与卷边解剖判读仍不得从 CP 反推
   - LACF/AF 的管辖判定三禁：① 禁止把〔§ 117.5(d)〕的 Subparts C/G 豁免扩到酸化食品（part 114）或扩到化学/物理/金葡等未被热处理控制的危害；② 禁止把〔§ 117.201〕（qualified facility
     的 modified requirements）当作 LACF 条款；③ 禁止把 CP 7303.070 的 4.40/4.65/4.75、aw 0.90/0.93、异常罐 1%、24 罐/12 罐、3 个月/6 个月/12 个月写成企业法定义务或放行标准。酸化食品是否属
     AF 由 HFP 依「Maximum Equilibrium pH」判定三步给结论，不得由本包替企业下法定身份结论；Import Alert/DWPE 不得仅因未注册/未备案建议
@@ -420,8 +450,8 @@ entry:
     Subparts C/G——边界是受 part 123 管辖的 activities，〔§ 123.3(k)(2)〕三项排除（纯捕捞或运输、船上暂存处理、零售）不在内，且豁免不含 Part 117 Subpart B 的 CGMP；③
     禁止把〔§ 123.16〕的 `except those subject to part 113 or 114` 读成『属 LACF/AF 就免 part 123』——排除的只是该条，Subpart A 全套仍适用
   - Part 123 记录期不得写成统一 3 年：〔§ 123.9(b)(1)〕按产品类型分冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，(b)(2) 适宜性记录 2 年且起算点是其对产品的适用性；与〔§ 113.100(g)〕的 1+2
-    分段、〔§ 114.100(e)〕的整段 3 年是三套口径。另 21 CFR part 120 / 1240 / 110 / 507 正文与 NSSP Guide 仍未收（part 108 自 v4.12 起已收，见 CAP-25）；CP
-    7303.842 自 v4.11 起已收（见 CAP-24），凡涉检查员取证量、贝类生长区分类一律标『转引未收』；FDA 海产品危害与控制指南自 v4.10 起已收（见 CAP-23），其建议参数与限值回指的外部法源仍须标『转引未收』，不得从
+    分段、〔§ 114.100(e)〕的整段 3 年是三套口径。另 21 CFR part 1240 / 110 / 507 正文与 NSSP Guide 仍未收（part 108 自 v4.12 起、part 120 自 v4.13 起已收，见
+    CAP-25 / CAP-26）；CP 7303.842 自 v4.11 起已收（见 CAP-24），凡涉检查员取证量、贝类生长区分类一律标『转引未收』；FDA 海产品危害与控制指南自 v4.10 起已收（见 CAP-23），其建议参数与限值回指的外部法源仍须标『转引未收』，不得从
     Part 123 反推
   - LACF/AF 记录保存口径不得串用：〔§ 113.100(g)〕是厂内 ≥1 年 + 加工厂或其他合理可及地点再 2 年（合计 3 年，季节包停产可提前转移），〔§ 113.100(h)〕另许符合 part 11 的电子记录；〔§ 114.100(e)〕只有「加工厂或其他合理可及地点自生产日起
     3 年」一句，**没有分段、没有 (h) 款、没有 part 11 电子记录条款**（Part 114 全文无 electronic / part 11 字样）。回答「两 part 记录怎么存」必须分列，不得合并成一条
@@ -436,13 +466,13 @@ entry:
     字符丢失、页码混入单元格、Appendix 3 的 CCP 判定树塌陷成残表——**逐字引用只能取散文段落**，判定树仅可复原逻辑，须回查 PDF 原版。封面 June 2022 但多章页脚 June 2021 属分章滚动修订，不得写成
     2022 新规
   - 回答海产品危害分析问题时不得把 Ch.3 勾选表、控制策略示例的关键限值、Appendix 5 的 50/500 ppm 或寄生虫冻结三条件写成法定限值或合规清单；也不得因指南非强制就免除〔§ 123.6〕的危害分析与书面 HACCP
-    计划义务。NSSP Guide、21 CFR part 120 / 1240 / 110 / 507、Import Alert 16-xx、BAM 海产品章节、CPG Sec. 540.525 / 555.300 / 575.100 与
-    Appendix 5 回指的外部法源一律标「转引未收」；CP 7303.842 自 v4.11 起已收（见 CAP-24）；全包自 v4.12 起**十七类不可混引**，当前为 25 张能力卡
+    计划义务。NSSP Guide、21 CFR part 1240 / 110 / 507、Import Alert 16-xx、BAM 海产品章节、CPG Sec. 540.525 / 555.300 / 575.100 与 Appendix
+    5 回指的外部法源一律标「转引未收」；CP 7303.842 自 v4.11 起已收（见 CAP-24）；全包自 v4.13 起**十八类不可混引**，当前为 26 张能力卡
   - '回答 CP 7303.842 相关问题时不得把 Table 1/2 优先级、PART IV 的 500/50/35 ppm 与 15/25 µg/100g、48 subs、pH 4.6、98% RSSL 等检查员触发值写成法规限值、产品放行标准或
     BAM 方法全文；Table 4 的 Major/Minor 只作 case-by-case ranking，不是〔§ 123.6〕的 significant hazard 判定；WL / DWPE / judicial actions
-    须 HFP OCE concurrence 而非自动触发。CPG 540.525 / 540.370 / 562.300 / 555.600、21 CFR part 120 / 1240 / 110 / 507、NSSP Guide、BAM
-    / AOAC / MPM、Import Alert 16-xx 与 99-41 全文、21 CFR part 1 subpart L、IOM Ch.4、FDA 3501/3502 表单全文一律标「转引未收」；引用写「CP 7303.842
-    PART x / Table x / ATTACHMENT A #x / Lxxx」，不得与〔§ 123.xxx〕或 Seafood Hazards Guide Ch.x 混引'
+    须 HFP OCE concurrence 而非自动触发。CPG 540.525 / 540.370 / 562.300 / 555.600、21 CFR part 1240 / 110 / 507、NSSP Guide、BAM / AOAC
+    / MPM、Import Alert 16-xx 与 99-41 全文、21 CFR part 1 subpart L、IOM Ch.4、FDA 3501/3502 表单全文一律标「转引未收」；引用写「CP 7303.842 PART
+    x / Table x / ATTACHMENT A #x / Lxxx」，不得与〔§ 123.xxx〕或 Seafood Hazards Guide Ch.x 混引'
   - CP 7303.842 的版本口径锁定 2023-11-01 版 / 2025-09-30 更正，文件名 20250929 只是 PDF 生成日，封面 Date of Issuance 09/30/025 为文本层残缺，正文页脚 11/1/2023；与
     CP 7303.050 / 7303.070 / 7303.878 同属旧程序更正本，不得套 CPGM 7303.040 的 2025-CPM-HFP-001 Transmittal 形态。转换件书签标题与正文伪标题交错（PART 各出现两次、H1
     虚高 133），检索以 PART / 小节 / 表号为准，表格、页码、页眉不可逐字引用；凡法条义务转 CAP-22、危害技术判定转 CAP-23、FSVP 转 CAP-21、通用取样转 CAP-17
@@ -454,6 +484,13 @@ entry:
     and (2), and (b), 114.83, 114.89, and 114.100 (b), (c), and (d)` 不得简写成「§§ 114.10–114.100」（印刷版括号内空格是原文形态，简写即失去逐字性）；备案 `Filing
     of this information does not constitute approval` 不得读成「等 FDA 批准才能生产」；108.35(c)(2)(ii) 的「升参数不算变更」与 (c)(2)(iii) 的「operating
     process 不算修改」不得反推为「任何工艺调整都无需报告」——降初温／降杀菌温度／缩短时间／改配方仍须事前证实 + 30 天内报送
+  - 回答果汁 HACCP 问题不得把 5-log 降格为建议层（〔§ 120.24(a)〕是 shall，且须持续、覆盖货架期、正常与中度滥用条件）；不得把目标菌答成沙门氏菌或大肠杆菌 O157（应为 pertinent microorganism，三条件同时成立）；不得把〔§
+    120.25〕的 biotype I E. coli 检测写成所有果汁厂的强制出厂检验（仅果面处理者适用），也不得把果面处理厂的检测写成可选；不得据〔§ 120.5〕反推〔§ 117.5(c)〕的条文措辞；不得把两处豁免合并成「受 113/114
+    管辖就不用做果汁 HACCP」；不得把记录复审写成 7 个工作日（果汁是 1 week / 7 日历天）；不得把果汁记录期套成 3 年或统一 2 年（易腐/冷藏 ≥1 年、冷冻/保藏/货架稳定 2 年或货架期孰长，起算点产品制备日）；不得把〔§
+    120.14〕与 FSVP 互相替代
+  - 果汁 HACCP 的引用写「〔§ 120.xxx〕」并与〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列，六套编号互不混引；`5 log (i.e., 105)` 的 `105`
+    是 PDF 文本层上标丢失，逐字引用须还原为 10⁵ 并注明是文本层缺陷，不得照抄成「105 倍」；〔§ 117.5(c)〕逐字文本、part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert
+    全文、BAM/AOAC 方法全文一律标「转引未收」；〔§ 120.24(a)(2)〕的豁免以「热力工艺副本已纳入书面危害分析」为条件，答豁免时不得省略该条件
 router_entry:
   name: fda-pchf-food-safety
   description: 同 single 入口（本 bundle 采用 single 输出，无独立晋级 Skill）。
@@ -499,6 +536,7 @@ capabilities:
   - seafood-haccp-statutory-requirements
   - seafood-hazards-controls-guide
   - emergency-permit-control
+  - juice-haccp
   card: cards/hazard-analysis-method.md
   frontmatter:
     description: 危害分析方法——用六列工作表把危害从识别到控制落点做成可辩护的书面推演——"No"与"Yes"同等重要，发现点不等于控制点（来源：FDA PCHF 指南；成员单元 24 个）
@@ -631,6 +669,7 @@ capabilities:
   - lacf-statutory-requirements
   - seafood-hazards-controls-guide
   - emergency-permit-control
+  - juice-haccp
   card: cards/process-control-validation.md
   frontmatter:
     description: 工艺控制与热处理验证——目标菌由"包装氧环境×储运温度×最耐热"推出，削减倍数查表再用 D/z 换算，文献层+厂内热分布/热穿透取交集才是关键限值（来源：FDA PCHF 指南；成员单元 27 个）
@@ -757,6 +796,7 @@ capabilities:
   - supply-chain-verification
   - hazard-analysis-method
   - seafood-hazards-controls-guide
+  - juice-haccp
   card: cards/allergen-program.md
   frontmatter:
     description: 食品过敏原程序——过敏原按"CGMP 基线→排产/清洁+标签双控制→供应链三选一"三层搭建——清洁等级由相邻产品过敏原谱包含关系决定，may contain 声明只能是被证明的控制极限之出口（来源：FDA PCHF
@@ -826,6 +866,7 @@ capabilities:
   - seafood-haccp-statutory-requirements
   - seafood-hazards-controls-guide
   - seafood-inspection-program
+  - juice-haccp
   card: cards/chemical-hazard-controls.md
   frontmatter:
     description: 化学危害与食品欺诈控制——化学危害按引入路径分流（设施→CGMP、原料→供应链、工艺→工艺控制），掺假签名一匹配即按欺诈处置、不看数值。（来源：FDA PCHF 指南；成员单元 18 个）
@@ -894,6 +935,7 @@ capabilities:
   - inspection-readiness
   - fsvp-inspection-program
   - seafood-haccp-statutory-requirements
+  - juice-haccp
   card: cards/supply-chain-verification.md
   frontmatter:
     description: 供应链验证决策——先做控制主体映射定验证对象，再按 SAHCODH 属性×供应商控制结构性程度定验证强度；供应商自审自证零效力。（来源：FDA PCHF 指南；成员单元 14 个）
@@ -951,6 +993,7 @@ capabilities:
   - management-components
   - inspection-readiness
   - emergency-permit-control
+  - juice-haccp
   card: cards/recall-plan.md
   frontmatter:
     description: 召回计划与报告义务——SAHCODH 一次定性三处联动（Class I 召回+24h RFR+供应商年审）；召回后先通知 FDA 再对媒体，有效性核查看"已送达+已行动"。（来源：FDA PCHF 指南；成员单元
@@ -1022,6 +1065,7 @@ capabilities:
   - seafood-haccp-statutory-requirements
   - seafood-hazards-controls-guide
   - emergency-permit-control
+  - juice-haccp
   card: cards/regulatory-boundaries.md
   frontmatter:
     description: 双法规与豁免边界——法规适用性按"对象×危害类别"矩阵逐格判定，两套法规取义务并集（借用不免责）；极强致死工艺可作 No 的科学依据。（来源：FDA PCHF 指南；成员单元 4 个）
@@ -1363,6 +1407,7 @@ capabilities:
   - fsvp-inspection-program
   - seafood-haccp-statutory-requirements
   - emergency-permit-control
+  - juice-haccp
   card: cards/cgmp-compliance-guide.md
   frontmatter:
     description: cGMP 合规分诊与内审索引——合规判定基准是法规不是指南；先按主体身份分流文件效力，再用「条款—法规结果义务—现场观察点」三列索引逐条取证，SECG 只作白话转述、不创设义务。（来源：FDA SECG 2016-10
@@ -1446,6 +1491,7 @@ capabilities:
   - lacf-statutory-requirements
   - seafood-inspection-program
   - emergency-permit-control
+  - juice-haccp
   card: cards/defect-action-levels.md
   frontmatter:
     description: 食品缺陷行动水平与原料验收判定——先分法源再查数字——法定义务是〔§ 117.110(a)〕把天然不可避免缺陷降到当前可行最低水平，Handbook 表只是 FDA 据 402(a)(3) 执法的裁量参考；低于阈值不等于合规，掺混稀释一律禁止，霉菌类缺陷须联动化学危害分析。（来源：21
@@ -1556,6 +1602,7 @@ capabilities:
   - seafood-haccp-statutory-requirements
   - seafood-inspection-program
   - emergency-permit-control
+  - juice-haccp
   card: cards/inspection-readiness.md
   frontmatter:
     description: FDA 现场检查迎检与记录举证——先判检查类型与三层分级，再按〔§ 117.320〕当场调得出记录——FSP 必须在现场、其余记录异地须 24 小时内可取、483 回复 15 个工作日；CPGM 7303.040
@@ -2182,7 +2229,7 @@ capabilities:
   - 电位法
   - 偏差处置
   - 三套数字
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   also_read:
   - lacf-inspection-program
@@ -2193,6 +2240,7 @@ capabilities:
   - hazard-analysis-method
   - seafood-haccp-statutory-requirements
   - emergency-permit-control
+  - juice-haccp
   card: cards/lacf-statutory-requirements.md
   frontmatter:
     description: 低酸罐头与酸化食品的法定要求（21 CFR Part 113 / 114 法规正文）与 Part 117 并行接口——先用成品平衡 pH 与 aw 按〔§ 113.3(n)〕〔§ 114.3(b)(d)〕定 LACF
@@ -2244,7 +2292,7 @@ capabilities:
   - 区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）的主体与法源
   - 解释 deemed compliance 的适用条件与「except they must comply with section 1.509」的例外
   - 回答不是 receiving facility 的纯贸易进口商、仓储设施为什么仍须完整履行 FSVP
-  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免并指出 part 120 正文未收（part 123 自 v4.9 起已收）
+  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免；其中 part 120 自 v4.13 起已收（转 CAP-26）、part 123 自 v4.9 起已收（转 CAP-22）
   - 区分 standard requirements（§1.502/503/504/505/506/508/509/510）与 modified requirements（§1.507/511/512/513）
   - 回答 §1.509 每一 entry line 的名称、邮箱、UFI（DUNS）电子申报义务
   - 处理 VSI / 小境外供应商 / 膳食补充剂 §1.511(c) / SRA §1.513 的适用判定与取证
@@ -2380,7 +2428,7 @@ capabilities:
   - 供应链程序分流
   - 拒绝入境
   - 扣留无需物理检验
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   also_read:
   - supply-chain-verification
@@ -2437,8 +2485,8 @@ capabilities:
     把记录期写成统一 3 年（实为〔§ 123.9(b)(1)〕冷藏 1 年 / 冷冻-保藏-货架稳定 2 年，与 Part 113 的 1+2、Part 114 的整段 3 年是三套口径）。属入口型法条判定能力，与 CAP-20 / CAP-19
     / CAP-21 / CAP-07 / hazard-analysis-method / regulatory-boundaries / chemical-hazard-controls 多卡交叉，故定 extended。
   one_liner: 先按〔§ 123.3(d)(e)(k)〕定 fish / fishery product 与 processing 范围，再按〔§ 123.5(a)〕默认适用 + 〔§ 117.5(b)〕双条件豁免切出义务并集；Subpart
-    B/C 是 augments 叠加；§123.16 的例外只排一条不排整 part；§123.12 与 FSVP 是双轨互不替代；记录期是 1 年 / 2 年而非统一 3 年；part 120/1240/NSSP 正文仍未收；CP 7303.842
-    自 v4.11 起已收（检查程序层，转 CAP-24），仍不得反推法条。
+    B/C 是 augments 叠加；§123.16 的例外只排一条不排整 part；§123.12 与 FSVP 是双轨互不替代；记录期是 1 年 / 2 年而非统一 3 年；part 1240 / NSSP 正文与 §117.5(c)
+    逐字文本仍未收（part 120 自 v4.13 起已收，见 CAP-26）；CP 7303.842 自 v4.11 起已收（检查程序层，转 CAP-24），仍不得反推法条。
   intents:
   - 判定某产品是否属〔§ 123.3(d)〕fish 或〔§ 123.3(e)〕fishery product，以及某活动是否属〔§ 123.3(k)〕processing
   - 列举〔§ 123.3(k)(2)〕三项排除（纯捕捞或运输、船上暂存处理、零售经营）
@@ -2468,8 +2516,8 @@ capabilities:
   - 区分 §123.12 进口商验证与 FSVP 是两套法源两套结构，deemed compliance 不覆盖 §123.12
   - 判断水产品同时属 LACF/AF 时如何切 §123.16 例外与 Subpart A 义务
   - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规
-  - 判断哪些问题超出本包（part 120/1240/108/110/507、NSSP、BAM、Import Alert 全文；CP 7303.842 自 v4.11 起已收，转 CAP-24）；FDA 海产品危害与控制指南自 v4.10
-    起已收，危害分析判定链转 CAP-23
+  - 判断哪些问题超出本包（part 1240/110/507、NSSP、BAM、Import Alert 全文；CP 7303.842 自 v4.11 起已收，转 CAP-24）；FDA 海产品危害与控制指南自 v4.10 起已收，危害分析判定链转
+    CAP-23
   keywords:
   - 21 CFR part 123
   - Part 123
@@ -2541,7 +2589,7 @@ capabilities:
   - 法规正文
   - 条件性豁免
   - 叠加适用
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   also_read:
   - lacf-statutory-requirements
@@ -2556,16 +2604,17 @@ capabilities:
   - seafood-hazards-controls-guide
   - seafood-inspection-program
   - emergency-permit-control
+  - juice-haccp
   card: cards/seafood-haccp-statutory-requirements.md
   frontmatter:
     description: 海产品 HACCP 的法定要求（21 CFR Part 123 法规正文）与 Part 117 条件性豁免接口——先按〔§ 123.3(d)(e)(k)〕定 fish / fishery product 与 processing
       范围，再按〔§ 123.5(a)〕默认适用 + 〔§ 117.5(b)〕双条件豁免切出义务并集；Subpart B/C 是 augments 叠加；§123.16 的例外只排一条不排整 part；§123.12 与 FSVP 是双轨互不替代；记录期是
-      1 年 / 2 年而非统一 3 年；part 120/1240/NSSP 正文仍未收；CP 7303.842 自 v4.11 起已收（检查程序层，转 CAP-24），仍不得反推法条。（来源：21 CFR Part 123（4-1-25
-      Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part 117 法规正文〔§ 117.5(b)〕〔§ 117.1(c)〕（本包主来源）+
-      21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；21 CFR part 120 / 1240 / 108 / 110 / 507 正文、NSSP Guide 与 CP 7303.842
-      回指的 CPG / BAM 判据全文一律「转引未收」（CP 7303.842 检查程序正文自 v4.11 起已收于 CAP-24，但不得反推法条）；FDA《Fish and Fishery Products Hazards and
-      Controls Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23）；CP 7303.842 自 v4.11 起已收（第十六来源，见 CAP-24）；全包自 v4.12 起十七类不可混引（v4.10
-      时为十五类）；来源定位见卡片 R 段）
+      1 年 / 2 年而非统一 3 年；part 1240 / NSSP 正文与 §117.5(c) 逐字文本仍未收（part 120 自 v4.13 起已收，见 CAP-26）；CP 7303.842 自 v4.11 起已收（检查程序层，转
+      CAP-24），仍不得反推法条。（来源：21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part
+      117 法规正文〔§ 117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；21 CFR part 1240 / 110
+      / 507（part 108 自 v4.12 起、part 120 自 v4.13 起已收） 正文、NSSP Guide 与 CP 7303.842 回指的 CPG / BAM 判据全文一律「转引未收」（CP 7303.842 检查程序正文自
+      v4.11 起已收于 CAP-24，但不得反推法条）；FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23）；CP
+      7303.842 自 v4.11 起已收（第十六来源，见 CAP-24）；全包自 v4.13 起十八类不可混引（v4.10 时为十五类）；来源定位见卡片 R 段）
     tags:
     - 21 CFR part 123
     - Part 123
@@ -2576,10 +2625,10 @@ capabilities:
   source_evidence:
   - source_id: src-main-book
     location: 21 CFR Part 123（4-1-25 Edition，9 页 / 13 条款，GPO 双栏印刷版经 .cangjie/convert_cfr_part.py 重排）+ 21 CFR Part 117 法规正文〔§
-      117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；21 CFR part 120 / 1240 / 108 / 110
-      / 507 正文、NSSP Guide 与 CP 7303.842 回指的 CPG / BAM 判据全文一律「转引未收」（CP 7303.842 检查程序正文自 v4.11 起已收于 CAP-24，但不得反推法条）；FDA《Fish
-      and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23）；CP 7303.842 自 v4.11 起已收（第十六来源，见
-      CAP-24）；全包自 v4.12 起十七类不可混引（v4.10 时为十五类）
+      117.5(b)〕〔§ 117.1(c)〕（本包主来源）+ 21 CFR Part 113 / 114 法规正文（仅用于 §123.16 例外交叉，见 CAP-20）；21 CFR part 1240 / 110 / 507（part
+      108 自 v4.12 起、part 120 自 v4.13 起已收） 正文、NSSP Guide 与 CP 7303.842 回指的 CPG / BAM 判据全文一律「转引未收」（CP 7303.842 检查程序正文自 v4.11
+      起已收于 CAP-24，但不得反推法条）；FDA《Fish and Fishery Products Hazards and Controls Guidance》第 4 版自 v4.10 起已收（第十五来源，见 CAP-23）；CP
+      7303.842 自 v4.11 起已收（第十六来源，见 CAP-24）；全包自 v4.13 起十八类不可混引（v4.10 时为十五类）
   promotion:
     destination: router
     gate:
@@ -2606,7 +2655,7 @@ capabilities:
     读成 shall、把 控制策略示例与 Appendix 5 数值当合规清单；② 因指南非强制把 Part 123 的 shall 义务 稀释成可选。且须守住 Ch.3 表不可单独用、显著性须在无控制条件下判定、显著不等于该步 控制、CCP
     随控制策略漂移、替代关键限值须科学论证、Appendix 5 数值外部法源回指转引 未收、June 2022 封面与多章 June 2021 页脚的分章滚动修订口径、导出件表格与判定树 残表不可逐字引用等边界，故定 extended。
   one_liner: 按「产品描述与流程图 → Ch.3 三表识别品种相关与工艺相关潜在危害 → Ch.4–21 理解危害 → 在无控制条件下逐步判 reasonably likely to occur → Column 3/4 的 Yes/No
-    都写理由 → Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」 走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十七类来源不可混引，Appendix
+    都写理由 → Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」 走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十八类来源不可混引，Appendix
     5 数值一律标转引未收。
   intents:
   - 复述从产品描述到 HACCP 计划签名的 18 步完整危害分析判定链
@@ -2747,7 +2796,7 @@ capabilities:
   - cumulative effect
   - potential hazard
   - Yes No
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   - 指南建议层
   - 法条义务层
@@ -2778,7 +2827,7 @@ capabilities:
   frontmatter:
     description: 海产品危害分析与控制的完整判定链（FDA 第 4 版技术指南层，与 21 CFR Part 123 法条层配对）——按「产品描述与流程图 → Ch.3 三表识别品种相关与工艺相关潜在危害 → Ch.4–21 理解危害
       → 在无控制条件下逐步判 reasonably likely to occur → Column 3/4 的 Yes/No 都写理由 → Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」
-      走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十七类来源不可混引，Appendix 5 数值一律标转引未收。（来源：第 15 类来源：FDA《Fish and Fishery
+      走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回 〔§ 123.xxx〕/ CAP-22，十八类来源不可混引，Appendix 5 数值一律标转引未收。（来源：第 15 类来源：FDA《Fish and Fishery
       Products Hazards and Controls Guidance》 第 4 版 June 2022（SGR 129，U.S. FDA / HHS / PHS / CFSAN / Office of Food Safety,
       Division of Seafood Safety），本地文件 source-seafood-hazards-guide-2022.md， 导出全文 1,709,446 字节 / 约 31,321 行。属非约束性 Guidance
       for Industry： should 只表示建议或推荐、不设可依法强制执行的责任，可另选控制策略与关键限值但须 科学论证其充分性，Ch.3 三表不得单独使用、指南不替代加工者自行实施的危害分析。 它是 21 CFR Part 123
@@ -2828,7 +2877,7 @@ capabilities:
     边界，故定 extended。
   one_liner: 按「Table 1 产品/工艺风险 + Table 2 企业/进口商优先级 → 六类检查分流 → HACCP Program Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G
     实验室分流与 CPG 判据出口 → PART V Table 4 分级与裁量 → FIELD REPORTING 收口」走完检查判定链；但全链只是给 field staff 的 内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回
-    CAP-23，十七类来源 不可混引，CPG / BAM / NSSP / Import Alert 等未收正文一律标转引未收。
+    CAP-23，十八类来源 不可混引，CPG / BAM / NSSP / Import Alert 等未收正文一律标转引未收。
   intents:
   - 复述 CP 7303.842 从检查优先级到报告上报的完整检查判定链
   - 说明 CP 7303.842 与 CP 7303.844 已合并为单一程序但 PAC 仍分进口国产
@@ -3044,7 +3093,7 @@ capabilities:
   - CAP-22
   - CAP-23
   - CAP-24
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   - 检查程序作业层
   - 法条义务层
@@ -3071,7 +3120,7 @@ capabilities:
   frontmatter:
     description: CP 7303.842 海产品检查程序整书导航与完整检查判定链（检查员作业层，与 Part 123 法条层、危害指南层配对）——按「Table 1 产品/工艺风险 + Table 2 企业/进口商优先级 → 六类检查分流
       → HACCP Program Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G 实验室分流与 CPG 判据出口 → PART V Table 4 分级与裁量 → FIELD REPORTING
-      收口」走完检查判定链；但全链只是给 field staff 的 内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十七类来源 不可混引，CPG / BAM / NSSP / Import
+      收口」走完检查判定链；但全链只是给 field staff 的 内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十八类来源 不可混引，CPG / BAM / NSSP / Import
       Alert 等未收正文一律标转引未收。（来源：第 16 类来源：FDA《Compliance Program Guidance Manual 7303.842 — Seafood Processor, Products, and Importer
       Inspection Program》，2023-11-01 版程序的 2025-09-30 更正本， 本地文件 source-cp-7303-842-2023.md（用户提供的官方 508-Compliant PDF，80 物理页
       / 148 书签 / 首页标 Page 1 of 86，经用户级技能 pdf2md-pro 转换，正文 179,812 字节 / 1,334 行）。属给 FDA 检查员、进口分区、分部合规官与实验室的**内部作业指导层**： 非法规、非
@@ -3312,7 +3361,7 @@ capabilities:
   - 拒绝入境
   - 州法规等效
   - 商业秘密
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
   also_read:
   - lacf-statutory-requirements
@@ -3324,6 +3373,7 @@ capabilities:
   - recall-plan
   - cgmp-compliance-guide
   - seafood-haccp-statutory-requirements
+  - juice-haccp
   card: cards/emergency-permit-control.md
   frontmatter:
     description: 紧急许可控制与 LACF／酸化食品注册备案（21 CFR Part 108 法规正文）——先按 CAP-20 定 LACF／酸化食品轨道，再分工：注册（Form FDA 2541，首次从事后 10 天内／外国加工者报检前）与工艺备案（2541e／2541d／2541f／2541g，注册后
@@ -3343,6 +3393,260 @@ capabilities:
     location: 21 CFR Part 108（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款，书页 248–257）法规正文〔§ 108.xxx〕；与 CAP-20 的 21
       CFR Part 113〔§ 113.xxx〕/ Part 114〔§ 114.xxx〕构成「手续层 + 实体层」同一监管链条；检查员侧见 CAP-19 的 CP 7303.070。仍属「转引未收」：21 CFR part 110
       / 120 正文、2541 系列表单栏目细则、FURLS / Center Views 操作、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: 输出模式为 single（用户确认）：全部能力经唯一入口路由，不设独立可发现入口；五判据评审记录见卡片 A2/E 段与 PIPELINE_STATE.md
+- capability_id: CAP-26
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: juice-haccp
+  title: 果汁 HACCP 体系（21 CFR Part 120 法规正文）与 Part 117 条件性接口
+  importance: extended
+  importance_rationale: 本包自 v4.7 起就反复引用〔§ 117.5(c)〕为「果汁有同类条件性豁免」，却始终拿不到 Part 120 条文本身——CAP-20 的 B10、CAP-22 的 A2 第 22 条、CAP-23
+    头注、CAP-25 的 B10、CAP-15 未收清单、reference-tools-discipline 第 12 条，六处都只能标「part 120 正文未收」。用户于 v4.13 提供 Part 120（4-1-25 Edition，10
+    页 / 15 条款）正文，本卡把果汁从「靠接口结论倒推」升级为条款级。它钉死五处高频误读：① 把 5-log 说成 FDA 建议（实为〔§ 120.24(a)〕的 shall，且须持续、覆盖货架期、在正常与中度滥用条件下成立）；② 把目标菌答成沙门氏菌/O157（实为
+    pertinent microorganism＝最耐热、具公共卫生意义、可能出现在该果汁中的微生物）；③ 把 §120.25 的 biotype I E. coli 检测当成所有果汁厂的强制出厂检验（实为果面处理者专项）；④ 把两处豁免混为一谈（120.24(a)(1)(2)
+    免 5-log 指标；120.7(e) 免「part 113/114 已控制的微生物与微生物毒素」危害的计划处理）；⑤ 记录复审写成 7 个工作日（果汁是 1 week / 7 日历天）或记录期套用 3 年（果汁是 1 年 / 2 年或货架期孰长，起算点为产品制备日）。属入口型法条判定能力，与
+    Part 117 / 108 / 113 / 114 / 123 五套编号交叉但各自独立，故定 extended。
+  one_liner: 先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认 Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（全文未收）；果汁专项叠加 Subpart
+    A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7 日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。
+  intents:
+  - 判定某产品是否受 21 CFR Part 120 管辖（juice 定义、饮料配料用途、浓缩物/果泥）
+  - 说明生鲜农原料不适用本 part〔§ 120.1(a)〕及其与〔§ 120.3(j)(2)〕排除项的配套关系
+  - 按〔§ 120.3(j)(2)〕排除采收/采摘/运输与零售经营两类活动
+  - 按〔§ 120.3(l)〕判定是否属零售 establishment（同时向其他企业销售则不属）
+  - 解释〔§ 120.5〕Part 117 默认适用与〔§ 117.5(c)〕唯一条件性出口
+  - 说明〔§ 117.5(c)〕全文未收，不得据 §120.5 反推该款措辞
+  - 回答果汁企业是否同时受 Part 117 CGMP 与 PCHF 约束
+  - 回答果汁 HACCP 何时必须建立（危害分析显示合理可能发生的危害）
+  - 说明 have and implement 是两份义务（有书面文件 + 在运行）
+  - 按〔§ 120.7(a)(1)–(5)〕拆解书面危害分析的五项组成
+  - 解释〔§ 120.7(a)(2)〕prudent processor + reasonable possibility + 特定产品的判定基准
+  - 说明危害分析须覆盖厂内与厂外、含采收前中后危害
+  - 列出〔§ 120.7(c)〕九项应考虑危害
+  - 回答果汁 HACCP 是否须管过敏原（要，属九项之一）
+  - 解释〔§ 120.7(e)〕豁免只到微生物与微生物毒素，其余危害仍须控制
+  - 按〔§ 120.8(b)(1)–(7)〕列出 HACCP 计划七要素（含厂内/厂外两类 CCP 分列）
+  - 回答多产品可否共用一份 HACCP 计划（可分组，条件为本质相同 + 独有要素清楚界定）
+  - 说明〔§ 120.8(a)(1)(2)〕按场所与按果汁种类分别制定
+  - 回答 SSOP 与 HACCP 计划的关系〔§ 120.6(d)〕
+  - 列出〔§ 120.6(a)〕SSOP 八项卫生条件
+  - 说明 SSOP 监测频次的法定下限与及时纠正义务
+  - 回答违反 Part 120 的法律后果：〔§ 120.9〕直接构成 FD&C Act 402(a)(4) 掺假
+  - 按〔§ 120.10(a)〕说明预设纠正行动计划的两项目的
+  - 按〔§ 120.10(b)〕说明无适用计划时的五步顺序（隔离扣留优先）
+  - 说明纠正措施须完整记录并受 §120.11(a)(1)(iv)(B) 验证
+  - 按〔§ 120.11(a)(1)(i)–(vi)〕列出六类验证活动
+  - 回答成品/在制品检验何时为强制（柑橘果面处理者按 §120.25）
+  - 说明记录复审时限为 1 周（7 日历天），与 Part 117 的工作日口径不同
+  - 说明校准与检验记录复审只需合理时间
+  - 回答 HACCP 计划确认的频次与起算点（实施后 12 个月内 ≥1 次，此后 ≥每年）
+  - 列出触发重新确认的六类变化（原料、配方、加工方法/系统含软件、包装、分销系统、预期用途或消费者）
+  - 说明确认显示计划不足时须立即修改
+  - 回答无 HACCP 计划时危害分析的重新评估义务〔§ 120.11(c)〕
+  - 按〔§ 120.12(a)〕列出五类必存记录
+  - 说明记录通用要素与「观测当时录入」义务
+  - 回答 (a)(2)(3)(5) 三类记录可不含时间
+  - 说明 (a)(2)(3) 须由现场最高负责人签字并注明日期，及三处签字时点
+  - 回答记录保存期：易腐/冷藏 ≥1 年；冷冻/保藏/货架稳定 2 年或货架期孰长
+  - 说明记录保存起算点是产品制备日而非记录形成日
+  - 回答异地存放条件（监测后 6 个月起 + 24 小时内到现场）
+  - 说明符合 part 11 的电子记录可视同在场
+  - 回答季节性长停时的记录转移与立即归还义务
+  - 说明记录须在合理时间可供审查与复制
+  - 回答电子记录可接受性〔§ 120.12(g)〕
+  - 按〔§ 120.13(a)(1)–(4)〕列出须由受训者承担的四类职能
+  - 说明受训资格的两条路径（标准化课程等效 / 岗位经验）与可外聘
+  - 按〔§ 120.14(a)〕说明进口商二选一义务
+  - 列出〔§ 120.14(a)(2)(ii)〕六项 affirmative steps
+  - 说明合格第三方可代办验证（含代写程序）
+  - 说明进口记录须为英文
+  - 回答无法提供等效保证的后果（视为掺假、拒绝入境）
+  - 区分〔§ 120.14〕与 FSVP 两套并行义务
+  - 说明〔§ 120.20〕Subpart B 是 augments 增量而非替代
+  - 回答 5-log 是法定要求而非建议〔§ 120.24(a)〕
+  - 解释 5-log 的三个限定（持续、货架期、正常与中度滥用）
+  - 解释 pertinent microorganism 的三个条件
+  - 区分 pertinent microorganism 与 §120.25 的 biotype I E. coli
+  - 按〔§ 120.24(a)(1)(2)〕列出两处 5-log 豁免及 (a)(2) 的材料条件
+  - 回答受 part 113/114 管辖是否免做果汁 HACCP（否，只免 5-log 与微生物类危害处理）
+  - 判定某厂是否属〔§ 120.25〕的果面处理者
+  - 回答 E. coli 取样量、频次与子样来源
+  - 回答日产量不足 1,000 加仑时的最低频次
+  - 说明检测方法（AOAC 992.30 modified / ColiComplete）与等效方法要求
+  - 回答单次阳性的处置（记阳性 + 复审记录 + 可选加测病原）
+  - 回答 7 次 2 次阳性的法定后果与三步立即措施
+  - 区分果汁记录期与 Part 108/113/114/123 的五套口径
+  - 判断哪些问题超出本卡（CP 7303.047、BAM 方法、CPG、Import Alert、F0 计算）
+  keywords:
+  - 21 CFR part 120
+  - Part 120
+  - '120.1'
+  - '120.3'
+  - '120.5'
+  - '120.6'
+  - '120.7'
+  - '120.8'
+  - '120.9'
+  - '120.10'
+  - '120.11'
+  - '120.12'
+  - '120.13'
+  - '120.14'
+  - '120.20'
+  - '120.24'
+  - '120.25'
+  - HACCP
+  - juice HACCP
+  - juice
+  - juice products
+  - fruit juice
+  - vegetable juice
+  - concentrate
+  - puree
+  - ingredient in beverages
+  - raw agricultural ingredients
+  - processing
+  - processor
+  - retail establishment
+  - shelf-stable product
+  - food hazard
+  - critical control point
+  - critical limit
+  - control measure
+  - monitor
+  - validation
+  - verification
+  - reasonably likely to occur
+  - prudent processor
+  - hazard analysis
+  - written hazard analysis
+  - HACCP plan
+  - SSOP
+  - sanitation standard operating procedure
+  - corrective action
+  - corrective action plan
+  - segregate and hold
+  - record review
+  - 7 days
+  - 1 week
+  - 12 months
+  - annually
+  - records
+  - record retention
+  - 1 year
+  - 2 years
+  - shelf life
+  - 6 months
+  - 24 hours
+  - onsite
+  - offsite storage
+  - part 11
+  - training
+  - standardized curriculum
+  - job experience
+  - importer
+  - MOU
+  - affirmative steps
+  - competent third party
+  - denied entry
+  - 402(a)(4)
+  - adulterated
+  - 5 log
+  - 5-log reduction
+  - 10^5
+  - pertinent microorganism
+  - most resistant microorganism
+  - moderate abuse conditions
+  - thermal processing step
+  - shelf-stability
+  - thermal concentration
+  - part 113
+  - part 114
+  - E. coli
+  - biotype I
+  - Escherichia coli
+  - AOAC 992.30
+  - ColiComplete
+  - 20 mL
+  - 10 mL
+  - 1,000 gallons
+  - production day
+  - 5 working days
+  - seven tests
+  - two samples
+  - surface treatment
+  - citrus
+  - 117.5(c)
+  - part 117
+  - part 110
+  - augments
+  - 66 FR 6197
+  - 80 FR 56167
+  - 4-1-25 Edition
+  - 21 CFR Ch. I
+  - 果汁
+  - 果汁HACCP
+  - 五对数削减
+  - 目标菌
+  - 危害分析
+  - 危害分析计划
+  - 关键控制点
+  - 关键限值
+  - 卫生标准操作程序
+  - 纠正措施
+  - 隔离扣留
+  - 验证与确认
+  - 记录复审
+  - 记录保存期
+  - 果面处理
+  - 大肠埃希菌
+  - 进口商验证
+  - 拒绝入境
+  - 掺假
+  - 十八类不可混引
+  - 转引未收
+  also_read:
+  - hazard-analysis-method
+  - process-control-validation
+  - cgmp-compliance-guide
+  - lacf-statutory-requirements
+  - seafood-haccp-statutory-requirements
+  - emergency-permit-control
+  - allergen-program
+  - recall-plan
+  - supply-chain-verification
+  - regulatory-boundaries
+  - inspection-readiness
+  card: cards/juice-haccp.md
+  frontmatter:
+    description: 果汁 HACCP 体系（21 CFR Part 120 法规正文）与 Part 117 条件性接口——先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认
+      Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（全文未收）；果汁专项叠加 Subpart A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7
+      日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。（来源：21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§
+      120.5〕回指 §117.5(c)（**全文未收**）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c)
+      逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文；来源定位见卡片 R 段）
+    tags:
+    - 21 CFR part 120
+    - Part 120
+    - '120.1'
+    - '120.3'
+    - '120.5'
+    - '120.6'
+  source_evidence:
+  - source_id: src-main-book
+    location: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（**全文未收**）与
+      parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CP
+      7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文
   promotion:
     destination: router
     gate:

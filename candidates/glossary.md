@@ -2111,6 +2111,113 @@
   summary: 所谓「降参数」——降低初温／杀菌温度、缩短时间、改配方／容器／其他基本条件——是法条意义上的故意变更：须**使用前**取得 qualified scientific authority 对充分性的证实，证实可先电话取得但须立即记录、书面确认并存档，且**首次使用后 30 天内**向 LACF Registration Coordinator 报送变更描述与证实记录。**升参数**（更高初温／更高杀菌温度／更长时间）**不算**本条变更，但若将定期采用仍须及时重新备案。另〔§ 108.35(c)(2)(iii)〕的「operating process」（操作者按高于 scheduled process 的参数运行）**也不构成**对 scheduled process 的修改——这两处常被反向误读成「任何工艺调整都无需报告」。
   tags: [法定义务, 工艺变更, 高频误读, 十七来源]
 
+# ============ 十八、21 CFR Part 120 果汁 HACCP 词族（v4.13）============
+
+- id: t203
+  title: juice 与 Part 120 的管辖边界
+  type: term
+  source_chapter: 21 CFR 120.1(a)；120.3(j)(2)；120.3(l)
+  source_quote: |
+    "Any juice sold as such or used as an ingredient in beverages shall be processed in accordance with the
+    requirements of this part."
+    —— 〔§ 120.1(a)〕
+  summary: juice 包括水果蔬菜榨取的水性液体、其可食部分果泥、或该液体/果泥的浓缩物；**作饮料配料也算**（`as an ingredient in beverages`），且不论是否曾进入州际贸易均适用。三层排除：① `Raw agricultural ingredients of juice are not subject to the requirements of this part`（〔§ 120.1(a)〕）；② 〔§ 120.3(j)(2)〕processing 不含「不从事其他加工的采收/采摘/运输」与「零售经营」；③ 〔§ 120.3(l)〕零售 establishment 若同时向其他企业销售或分销果汁则**不属**零售。常见误读：以为「浓缩汁复配」或「作配料卖给饮料厂」能跳出 Part 120——两者都在管辖内。
+  tags: [法定定义, 管辖边界, 高频误读, 十八来源]
+
+- id: t204
+  title: 5-log reduction（果汁的法定削减指标）
+  type: term
+  source_chapter: 21 CFR 120.24(a)
+  source_quote: |
+    "a 5 log (i.e., 105) reduction, for a period at least as long as the shelf life of the product when stored
+    under normal and moderate abuse conditions, in the pertinent microorganism"
+  summary: 这是**法定要求**（`shall` 级），不是 FDA 建议。三个限定缺一不可：① **持续**（`consistently produce`）；② 覆盖**至少整个货架期**；③ 在**正常与中度滥用条件**下仍成立。⚠ 原文 `105` 是 PDF 文本层上标丢失，应为 10 的 5 次方（10⁵），引用须还原并注明。把它说成「指南建议 5-log」是最常见的效力误判。
+  tags: [法定要求, 高频误读, 十八来源]
+
+- id: t205
+  title: pertinent microorganism（目标菌）
+  type: term
+  source_chapter: 21 CFR 120.24(a)
+  source_quote: |
+    "the most resistant microorganism of public health significance that is likely to occur in the juice"
+  summary: 三条件同时成立：**最耐热** + **具公共卫生意义** + **在该果汁中可能出现**。果汁种类不同，目标菌可能不同，因此不存在「果汁 HACCP 一律针对沙门氏菌」或「一律针对大肠杆菌 O157」这种答案。⚠ 与〔§ 120.25〕的 **biotype I E. coli** 不是同一概念——后者是**果面处理专项验证的指示菌**，不得与 5-log 的目标菌互换。
+  tags: [法定定义, 高频误读, 十八来源]
+
+- id: t206
+  title: HACCP 计划的七要素与「have and implement」
+  type: term
+  source_chapter: 21 CFR 120.8(a)(1)(2)；(b)(1)–(7)
+  source_quote: |
+    "Each processor shall have and implement a written HACCP plan whenever a hazard analysis reveals one or more
+    food hazards that are reasonably likely to occur during processing"
+  summary: 法条用的是「have and implement」，即**两份义务**——有书面计划 + 在运行，只写不做即违反。计划须**按加工场所**与**按果汁种类**分别制定；可对危害/CCP/关键限值/程序本质相同的产品分组，但**特定产品或工艺独有的要素**须在计划中清楚界定并在实践中遵守。七要素：(1) 列出须控制危害；(2) 列出各危害的 CCP，含 (i) 厂内引入与 (ii) 厂外（含采收前中后）引入两类；(3) 关键限值；(4) 监控程序与频次；(5) 按 §120.10(a) 的纠正行动计划；(6) 验证与确认程序及频次；(7) 记录系统（须载明监控的**实际值与观察**）。
+  tags: [法定义务, 计划要素, 十八来源]
+
+- id: t207
+  title: reasonably likely to occur（果汁版的判定基准）
+  type: term
+  source_chapter: 21 CFR 120.7(a)(2)
+  source_quote: |
+    "A food hazard that is reasonably likely to occur is one for which a prudent processor would establish controls
+    because experience, illness data, scientific reports, or other information provide a basis to conclude that there
+    is a reasonable possibility that, in the absence of those controls, the food hazard will occur in the particular
+    type of product being processed."
+  summary: 判定基准是 **prudent processor 会不会设控制**，证据来源为经验、疾病数据、科学报告等；落脚点是 `in the particular type of product being processed`——**同一危害在不同果汁里结论可以不同**。评估还须含**严重性**判断〔§ 120.7(a)(2)〕。⚠ 危害分析须覆盖**厂内与厂外**、含**采收前中后**〔§ 120.7(b)〕，并列出〔§ 120.7(c)〕九项应考虑危害——注意 (c) 用 `should be given`，是**考虑清单**而非强制穷举，但漏考虑属分析缺陷。
+  tags: [法定概念, 判定方法, 十八来源]
+
+- id: t208
+  title: SSOP 八项与 HACCP 计划的关系
+  type: term
+  source_chapter: 21 CFR 120.6(a)(1)–(8)；(b)；(d)
+  source_quote: |
+    "Sanitation standard operating procedure controls may be included in the HACCP plan required under § 120.8(b).
+    However, to the extent that they are implemented in accordance with this section, they need not be included in
+    the HACCP plan."
+  summary: SSOP 须覆盖加工**前、中、后**的卫生条件与操作，至少含八项：接触食品/食品接触面/制冰用水安全；食品接触面（含器具、手套、外衣）状况与清洁；防不洁物与生熟交叉污染；洗手/手消毒/厕所设施；防润滑剂燃料农药清洁剂消毒剂冷凝水污染；有毒化合物标示储存使用；员工健康状况控制；防虫害进入。监测频次须至少确保符合 part 110 与 part 117 subpart B 中**既适合本厂又适合所加工食品**的条件，不符**及时**纠正。**两者关系是「可选纳入」而非「必须纳入」**：按 §120.6 监测的卫生控制不必进 HACCP 计划；反之亦然。
+  tags: [法定义务, 卫生控制, 十八来源]
+
+- id: t209
+  title: 果汁的记录复审是「1 周（7 天）」而非「7 个工作日」
+  type: term
+  source_chapter: 21 CFR 120.11(a)(1)(iv)(A)(B)(C)
+  source_quote: |
+    "This review shall occur within 1 week (7 days) of the day that the records are made"
+  summary: CCP 监控记录与纠正措施记录的复审须在**记录形成后 1 周（7 日历天）内**由按 §120.13 受训者**签字并注明日期**完成；校准与成品/在制品检验记录的复审只要求 `within a reasonable time`。⚠ 与 Part 117 的记录复审**工作日**口径不同，两套不可混用。另：计划确认（validation）须在**实施后 12 个月内至少一次**、此后**至少每年一次**，或工艺发生六类变化时（原料/来源、配方、加工方法或系统含软件、包装、分销系统、预期用途或消费者）；确认显示计划不足须**立即修改**〔§ 120.11(b)〕。
+  tags: [法定义务, 时限, 高频误读, 十八来源]
+
+- id: t210
+  title: 果汁记录保存期（第六套口径）
+  type: term
+  source_chapter: 21 CFR 120.12(d)(1)(2)
+  source_quote: |
+    "in the case of perishable or refrigerated juices, at least 1 year after the date that such products were
+    prepared, and for, in the case of frozen, preserved, or shelf stable products, 2 years or the shelf life of the
+    product, whichever is greater"
+  summary: 易腐或冷藏果汁 **≥1 年**；冷冻／保藏／货架稳定产品 **2 年或货架期，孰长**。**起算点是产品制备日**（`after the date that such products were prepared`），不是记录形成日、不是出厂日。异地存放：`(a)(1)` 与 `(a)(4)` 类记录在**监测发生后 6 个月**起允许，条件是**请求官方审查后 24 小时内可调取并提供到现场**；符合 (g) 的 part 11 电子记录**可视同在场**。这是全包第六套记录期口径——另有〔§ 108.25(g)〕3 年、〔§ 108.35(h)〕1+2、〔§ 113.100(g)〕1+2、〔§ 114.100(e)〕3 年、〔§ 123.9(b)(1)〕1 年/2 年，互不通用。
+  tags: [法定义务, 记录保存, 高频误读, 十八来源]
+
+- id: t211
+  title: 果面处理与 biotype I E. coli 专项验证
+  type: term
+  source_chapter: 21 CFR 120.25
+  source_quote: |
+    "Each juice processor that relies on treatments that do not come into direct contact with all parts of the juice
+    to achieve the requirements of § 120.24 shall analyze the finished product for biotype I Escherichia coli as
+    follows"
+  summary: 本条**只适用于果面处理者**（处理未接触果汁全部部分），不是所有果汁厂的常规出厂检验；靠热力杀菌达成 5-log 的厂，成品/在制品检验在〔§ 120.11(a)(1)(iii)〕下是 `At the option of the processor`。取样：**20 mL（两个 10 mL 子样）／每 1,000 加仑／每生产日**，子样随机取自**已可分销给消费者**的包装；日产量不足 1,000 加仑时按每 1,000 加仑取但**不少于每 5 个工作日一次**（注意这里是 `working days`）。方法为 AOAC 992.30 modified（ColiComplete）或等效。判读：任一子样阳性即 20 mL 记为阳性；**7 次检测中 2 次阳性 → 5-log 控制措施 `shall be deemed to be inadequate`**，须立即改用**压榨后**达成 5-log 的替代工艺 + 复审监控记录 + 按 §120.10 纠正。
+  tags: [法定义务, 取样验证, 高频误读, 十八来源]
+
+- id: t212
+  title: Part 120 的两处豁免（对象不同，不可合并）
+  type: term
+  source_chapter: 21 CFR 120.24(a)(1)(2)；120.7(e)
+  source_quote: |
+    "HACCP plans for juice need not address the food hazards associated with microorganisms and microbial toxins
+    that are controlled by the requirements of part 113 or part 114 of this chapter."
+    —— 〔§ 120.7(e)〕
+  summary: 两处豁免的**对象不同**：① 〔§ 120.24(a)(1)〕受 part 113 / 114 管辖者、〔§ 120.24(a)(2)〕单次热力步骤达货架稳定或含全部配料热处理的浓缩工艺——免的是 **5-log 这一工艺控制指标**，且 (a)(2) 以「把热力工艺副本纳入〔§ 120.7〕书面危害分析」为条件；② 〔§ 120.7(e)〕免的是 **HACCP 计划中对「part 113/114 已控制的微生物与微生物毒素」危害的处理**——范围**只到微生物类**，化学/物理/过敏原危害仍须控制。两者可同时成立也可只成立其一；把二者混成「受 113/114 管辖就不用做果汁 HACCP」是双重错误。另〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 是 Part 117 默认适用的接口，而〔§ 117.5(c)〕逐字文本**本包未收**，不得反推。
+  tags: [法定豁免, 法条接口, 高频误读, 十八来源]
+
 ```
 
 ## 自检记录
@@ -2140,4 +2247,7 @@
 - [x] 第十六来源 **FDA CP 7303.842**（2023-11-01 版 / 2025-09-30 更正，80 物理页 / 148 书签）检查程序已并入，术语 t183–t192 共 10 条（版本判定与 7303.844 合并、内部作业指导层效力边界、Table 1/2 分工与 90/10、六类检查分流、PAC 双码表与 03842H 同名不同义、Sampling 三类与 for cause only、PART IV 阈值性质与 CPG 判据出口、Table 4 ranking 与 §123.6 显著性分离、执法裁量与 403(b) 误标定性、十六类不可混引与转换质量红线）。引文取自 CAP-24 R 段经 `.cangjie/verify_v4_11_quotes.py` 核验的 **36 个英文引用块**（36/36 命中正文区，0 超 100 词、0 表格引用）。原文标「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」，法条标〔§ 123.xxx〕，指南标「Seafood Hazards Guide 第 4 版 Ch.x」，三者不可混引；CPG / BAM / NSSP / Import Alert / part 1 subpart L 等未收正文一律标『转引未收』。全库 **192 条**，v4.11，**十六类来源不可混引**。
 
 - [x] 第十七来源 **21 CFR Part 108**（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款）法规正文已并入，术语 t193–t202 共 10 条，围绕「手续层 vs 实体层」与「许可=救济不是常态」排布：emergency permit 的法定定义与临时性 → FCE 注册（2541，10 天/报检前）→ 工艺备案（2541e/2541d/2541f/2541g，60 天）与「备案≠批准」→ prima facie basis → working days 与日历天两种时限 → 无证生产的扣留与事先书面批准 → §801 拒绝入境 → BPCS 受训主管 → 记录保存四套口径 → 故意变更的边界（升参数不算）。引文取自 CAP-25 R 段经 `.cangjie/verify_v4_12_quotes.py` 核验的 **27 个英文引用块**（27/27 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 108.xxx〕，与〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；2541 系列表单栏目细则、FURLS / Center Views 操作、part 110/120 等未收正文一律标『转引未收』。全库 **202 条**，v4.12，**十七类来源不可混引**。
+
+- [x] 第十八来源 **21 CFR Part 120**（HACCP Systems，4-1-25 Edition，10 页 / 15 条款）法规正文已并入，术语 t203–t212 共 10 条，围绕「独立 HACCP 体系 + 与 Part 117 的条件性接口」排布：juice 管辖与三项排除 → 5-log 的法定性 → pertinent microorganism → HACCP 计划七要素 → reasonably likely to occur 的 prudent processor 判定 → SSOP 八项与计划的关系 → 记录复审 1 周（7 日历天） → 记录保存第六套口径 → 果面处理的 biotype I E. coli 专项验证 → 两处豁免的对象差异。引文取自 CAP-26 R 段经 `.cangjie/verify_v4_13_quotes.py` 核验的 **26 个英文引用块**（26/26 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 120.xxx〕，与〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；〔§ 117.5(c)〕逐字文本、part 110 正文、CP 7303.047、CPG / Import Alert / BAM 全文一律标『转引未收』。全库 **212 条**，v4.13，**十八类来源不可混引**。
+
 

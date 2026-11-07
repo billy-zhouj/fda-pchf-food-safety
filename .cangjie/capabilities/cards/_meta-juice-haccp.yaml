@@ -1,0 +1,203 @@
+slug: juice-haccp
+title: 果汁 HACCP 体系（21 CFR Part 120 法规正文）与 Part 117 条件性接口
+importance: extended
+importance_rationale: 本包自 v4.7 起就反复引用〔§ 117.5(c)〕为「果汁有同类条件性豁免」，却始终拿不到 Part 120 条文本身——CAP-20 的 B10、CAP-22 的 A2 第 22 条、CAP-23 头注、CAP-25 的 B10、CAP-15 未收清单、reference-tools-discipline 第 12 条，六处都只能标「part 120 正文未收」。用户于 v4.13 提供 Part 120（4-1-25 Edition，10 页 / 15 条款）正文，本卡把果汁从「靠接口结论倒推」升级为条款级。它钉死五处高频误读：① 把 5-log 说成 FDA 建议（实为〔§ 120.24(a)〕的 shall，且须持续、覆盖货架期、在正常与中度滥用条件下成立）；② 把目标菌答成沙门氏菌/O157（实为 pertinent microorganism＝最耐热、具公共卫生意义、可能出现在该果汁中的微生物）；③ 把 §120.25 的 biotype I E. coli 检测当成所有果汁厂的强制出厂检验（实为果面处理者专项）；④ 把两处豁免混为一谈（120.24(a)(1)(2) 免 5-log 指标；120.7(e) 免「part 113/114 已控制的微生物与微生物毒素」危害的计划处理）；⑤ 记录复审写成 7 个工作日（果汁是 1 week / 7 日历天）或记录期套用 3 年（果汁是 1 年 / 2 年或货架期孰长，起算点为产品制备日）。属入口型法条判定能力，与 Part 117 / 108 / 113 / 114 / 123 五套编号交叉但各自独立，故定 extended。
+one_liner: 先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认 Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（全文未收）；果汁专项叠加 Subpart A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7 日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。
+intents:
+  - 判定某产品是否受 21 CFR Part 120 管辖（juice 定义、饮料配料用途、浓缩物/果泥）
+  - 说明生鲜农原料不适用本 part〔§ 120.1(a)〕及其与〔§ 120.3(j)(2)〕排除项的配套关系
+  - 按〔§ 120.3(j)(2)〕排除采收/采摘/运输与零售经营两类活动
+  - 按〔§ 120.3(l)〕判定是否属零售 establishment（同时向其他企业销售则不属）
+  - 解释〔§ 120.5〕Part 117 默认适用与〔§ 117.5(c)〕唯一条件性出口
+  - 说明〔§ 117.5(c)〕全文未收，不得据 §120.5 反推该款措辞
+  - 回答果汁企业是否同时受 Part 117 CGMP 与 PCHF 约束
+  - 回答果汁 HACCP 何时必须建立（危害分析显示合理可能发生的危害）
+  - 说明 have and implement 是两份义务（有书面文件 + 在运行）
+  - 按〔§ 120.7(a)(1)–(5)〕拆解书面危害分析的五项组成
+  - 解释〔§ 120.7(a)(2)〕prudent processor + reasonable possibility + 特定产品的判定基准
+  - 说明危害分析须覆盖厂内与厂外、含采收前中后危害
+  - 列出〔§ 120.7(c)〕九项应考虑危害
+  - 回答果汁 HACCP 是否须管过敏原（要，属九项之一）
+  - 解释〔§ 120.7(e)〕豁免只到微生物与微生物毒素，其余危害仍须控制
+  - 按〔§ 120.8(b)(1)–(7)〕列出 HACCP 计划七要素（含厂内/厂外两类 CCP 分列）
+  - 回答多产品可否共用一份 HACCP 计划（可分组，条件为本质相同 + 独有要素清楚界定）
+  - 说明〔§ 120.8(a)(1)(2)〕按场所与按果汁种类分别制定
+  - 回答 SSOP 与 HACCP 计划的关系〔§ 120.6(d)〕
+  - 列出〔§ 120.6(a)〕SSOP 八项卫生条件
+  - 说明 SSOP 监测频次的法定下限与及时纠正义务
+  - 回答违反 Part 120 的法律后果：〔§ 120.9〕直接构成 FD&C Act 402(a)(4) 掺假
+  - 按〔§ 120.10(a)〕说明预设纠正行动计划的两项目的
+  - 按〔§ 120.10(b)〕说明无适用计划时的五步顺序（隔离扣留优先）
+  - 说明纠正措施须完整记录并受 §120.11(a)(1)(iv)(B) 验证
+  - 按〔§ 120.11(a)(1)(i)–(vi)〕列出六类验证活动
+  - 回答成品/在制品检验何时为强制（柑橘果面处理者按 §120.25）
+  - 说明记录复审时限为 1 周（7 日历天），与 Part 117 的工作日口径不同
+  - 说明校准与检验记录复审只需合理时间
+  - 回答 HACCP 计划确认的频次与起算点（实施后 12 个月内 ≥1 次，此后 ≥每年）
+  - 列出触发重新确认的六类变化（原料、配方、加工方法/系统含软件、包装、分销系统、预期用途或消费者）
+  - 说明确认显示计划不足时须立即修改
+  - 回答无 HACCP 计划时危害分析的重新评估义务〔§ 120.11(c)〕
+  - 按〔§ 120.12(a)〕列出五类必存记录
+  - 说明记录通用要素与「观测当时录入」义务
+  - 回答 (a)(2)(3)(5) 三类记录可不含时间
+  - 说明 (a)(2)(3) 须由现场最高负责人签字并注明日期，及三处签字时点
+  - 回答记录保存期：易腐/冷藏 ≥1 年；冷冻/保藏/货架稳定 2 年或货架期孰长
+  - 说明记录保存起算点是产品制备日而非记录形成日
+  - 回答异地存放条件（监测后 6 个月起 + 24 小时内到现场）
+  - 说明符合 part 11 的电子记录可视同在场
+  - 回答季节性长停时的记录转移与立即归还义务
+  - 说明记录须在合理时间可供审查与复制
+  - 回答电子记录可接受性〔§ 120.12(g)〕
+  - 按〔§ 120.13(a)(1)–(4)〕列出须由受训者承担的四类职能
+  - 说明受训资格的两条路径（标准化课程等效 / 岗位经验）与可外聘
+  - 按〔§ 120.14(a)〕说明进口商二选一义务
+  - 列出〔§ 120.14(a)(2)(ii)〕六项 affirmative steps
+  - 说明合格第三方可代办验证（含代写程序）
+  - 说明进口记录须为英文
+  - 回答无法提供等效保证的后果（视为掺假、拒绝入境）
+  - 区分〔§ 120.14〕与 FSVP 两套并行义务
+  - 说明〔§ 120.20〕Subpart B 是 augments 增量而非替代
+  - 回答 5-log 是法定要求而非建议〔§ 120.24(a)〕
+  - 解释 5-log 的三个限定（持续、货架期、正常与中度滥用）
+  - 解释 pertinent microorganism 的三个条件
+  - 区分 pertinent microorganism 与 §120.25 的 biotype I E. coli
+  - 按〔§ 120.24(a)(1)(2)〕列出两处 5-log 豁免及 (a)(2) 的材料条件
+  - 回答受 part 113/114 管辖是否免做果汁 HACCP（否，只免 5-log 与微生物类危害处理）
+  - 判定某厂是否属〔§ 120.25〕的果面处理者
+  - 回答 E. coli 取样量、频次与子样来源
+  - 回答日产量不足 1,000 加仑时的最低频次
+  - 说明检测方法（AOAC 992.30 modified / ColiComplete）与等效方法要求
+  - 回答单次阳性的处置（记阳性 + 复审记录 + 可选加测病原）
+  - 回答 7 次 2 次阳性的法定后果与三步立即措施
+  - 区分果汁记录期与 Part 108/113/114/123 的五套口径
+  - 判断哪些问题超出本卡（CP 7303.047、BAM 方法、CPG、Import Alert、F0 计算）
+keywords:
+  - "21 CFR part 120"
+  - "Part 120"
+  - "120.1"
+  - "120.3"
+  - "120.5"
+  - "120.6"
+  - "120.7"
+  - "120.8"
+  - "120.9"
+  - "120.10"
+  - "120.11"
+  - "120.12"
+  - "120.13"
+  - "120.14"
+  - "120.20"
+  - "120.24"
+  - "120.25"
+  - "HACCP"
+  - "juice HACCP"
+  - "juice"
+  - "juice products"
+  - "fruit juice"
+  - "vegetable juice"
+  - "concentrate"
+  - "puree"
+  - "ingredient in beverages"
+  - "raw agricultural ingredients"
+  - "processing"
+  - "processor"
+  - "retail establishment"
+  - "shelf-stable product"
+  - "food hazard"
+  - "critical control point"
+  - "critical limit"
+  - "control measure"
+  - "monitor"
+  - "validation"
+  - "verification"
+  - "reasonably likely to occur"
+  - "prudent processor"
+  - "hazard analysis"
+  - "written hazard analysis"
+  - "HACCP plan"
+  - "SSOP"
+  - "sanitation standard operating procedure"
+  - "corrective action"
+  - "corrective action plan"
+  - "segregate and hold"
+  - "record review"
+  - "7 days"
+  - "1 week"
+  - "12 months"
+  - "annually"
+  - "records"
+  - "record retention"
+  - "1 year"
+  - "2 years"
+  - "shelf life"
+  - "6 months"
+  - "24 hours"
+  - "onsite"
+  - "offsite storage"
+  - "part 11"
+  - "training"
+  - "standardized curriculum"
+  - "job experience"
+  - "importer"
+  - "MOU"
+  - "affirmative steps"
+  - "competent third party"
+  - "denied entry"
+  - "402(a)(4)"
+  - "adulterated"
+  - "5 log"
+  - "5-log reduction"
+  - "10^5"
+  - "pertinent microorganism"
+  - "most resistant microorganism"
+  - "moderate abuse conditions"
+  - "thermal processing step"
+  - "shelf-stability"
+  - "thermal concentration"
+  - "part 113"
+  - "part 114"
+  - "E. coli"
+  - "biotype I"
+  - "Escherichia coli"
+  - "AOAC 992.30"
+  - "ColiComplete"
+  - "20 mL"
+  - "10 mL"
+  - "1,000 gallons"
+  - "production day"
+  - "5 working days"
+  - "seven tests"
+  - "two samples"
+  - "surface treatment"
+  - "citrus"
+  - "117.5(c)"
+  - "part 117"
+  - "part 110"
+  - "augments"
+  - "66 FR 6197"
+  - "80 FR 56167"
+  - "4-1-25 Edition"
+  - "21 CFR Ch. I"
+  - 果汁
+  - 果汁HACCP
+  - 五对数削减
+  - 目标菌
+  - 危害分析
+  - 危害分析计划
+  - 关键控制点
+  - 关键限值
+  - 卫生标准操作程序
+  - 纠正措施
+  - 隔离扣留
+  - 验证与确认
+  - 记录复审
+  - 记录保存期
+  - 果面处理
+  - 大肠埃希菌
+  - 进口商验证
+  - 拒绝入境
+  - 掺假
+  - 十八类不可混引
+  - 转引未收
+member_units: []
+source_label: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（**全文未收**）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文

@@ -8,7 +8,7 @@ intents:
   - 区分 FSVP（FD&C Act §805 / 21 CFR part 1 subpart L）与 Part 117 Subpart G 供应链程序（FD&C Act §418）的主体与法源
   - 解释 deemed compliance 的适用条件与「except they must comply with section 1.509」的例外
   - 回答不是 receiving facility 的纯贸易进口商、仓储设施为什么仍须完整履行 FSVP
-  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免并指出 part 120 正文未收（part 123 自 v4.9 起已收）
+  - 列出 §1.501(b)–(h) 的八类 FSVP 豁免；其中 part 120 自 v4.13 起已收（转 CAP-26）、part 123 自 v4.9 起已收（转 CAP-22）
   - 区分 standard requirements（§1.502/503/504/505/506/508/509/510）与 modified requirements（§1.507/511/512/513）
   - 回答 §1.509 每一 entry line 的名称、邮箱、UFI（DUNS）电子申报义务
   - 处理 VSI / 小境外供应商 / 膳食补充剂 §1.511(c) / SRA §1.513 的适用判定与取证
@@ -143,7 +143,7 @@ keywords:
   - 供应链程序分流
   - 拒绝入境
   - 扣留无需物理检验
-  - 十七类不可混引
+  - 十八类不可混引
   - 转引未收
 member_units: []
 source_label: FDA CP 7303.878（Transmittal 2023-CPM-CFSAN-003，Implementation Date 09/27/2023，Date of Issuance 08/28/2025 更正，33 页 / 20 书签）+ 21 CFR Part 117 法规正文〔§ 117.135〕〔§ 117.206〕+ 21 CFR part 1 subpart L §§1.500–1.514（转引未收）+ CPGM 7303.040 Program Interaction (15) / CP 7303.050 / CP 7303.070 / IOM 2026 Ch.5 交叉
