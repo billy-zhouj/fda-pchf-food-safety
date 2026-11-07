@@ -71,7 +71,7 @@ intents:
   - 回答单次阳性的处置（记阳性 + 复审记录 + 可选加测病原）
   - 回答 7 次 2 次阳性的法定后果与三步立即措施
   - 区分果汁记录期与 Part 108/113/114/123 的五套口径
-  - 判断哪些问题超出本卡（CP 7303.047、BAM 方法、CPG、Import Alert、F0 计算）
+  - 判断哪些问题超出本卡（BAM 方法、CPG、Import Alert、F0 计算）；检查员取证口径自 v4.15 起转 CAP-27（CP 7303.847）
 keywords:
   - "21 CFR part 120"
   - "Part 120"
@@ -198,7 +198,7 @@ keywords:
   - 进口商验证
   - 拒绝入境
   - 掺假
-  - 十八类不可混引
+  - 十九类不可混引
   - 转引未收
 member_units: []
-source_label: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（原文 v4.14 起在包内：双条件 + 无限缩款）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文
+source_label: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（原文 v4.14 起在包内：双条件 + 无限缩款）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CPG 与 Import Alert 全文、BAM / AOAC 方法全文（果汁检查程序 CP 7303.847 自 v4.15 起已收，见 CAP-27）

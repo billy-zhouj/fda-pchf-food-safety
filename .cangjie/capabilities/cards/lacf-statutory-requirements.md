@@ -2,7 +2,7 @@
 
 *来源分层：本卡取用**三套法规正文**，均具法律约束力。① **21 CFR Part 113**〔§ 113.xxx〕（Thermally Processed Low-Acid Foods Packaged in Hermetically Sealed Containers，4-1-25 Edition，36 页）；② **21 CFR Part 114**〔§ 114.xxx〕（Acidified Foods，4-1-25 Edition，7 页）；③ **21 CFR Part 117**〔§ 117.xxx〕（CGMP & PCHF，本包主来源）。三者是**并行法条**，不是上下位、也不是新旧替代关系；接口是〔§ 117.1(c)〕并行条款与〔§ 117.5(d)(1)(2)〕**条件性、有限**豁免。*
 
-*⚠ **本卡改变了全包效力分层表述**：自此「法规正文层」含 Part 117 / 113 / 114 三套独立编号（**v4.9 增为四套：加 Part 123〔§ 123.xxx〕，见 CAP-22 `seafood-haccp-statutory-requirements`**）。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」，不能解释成「全包唯一法条」。与 CP 7303.070（检查员作业指导，CAP-19）、PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM 2026 Ch.5 合计 **十八类不可混引**。*
+*⚠ **本卡改变了全包效力分层表述**：自此「法规正文层」含 Part 117 / 113 / 114 三套独立编号（**v4.9 增为四套：加 Part 123〔§ 123.xxx〕，见 CAP-22 `seafood-haccp-statutory-requirements`**）。`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」只能理解为「判定 **Part 117 义务**的唯一基准」，不能解释成「全包唯一法条」。与 CP 7303.070（检查员作业指导，CAP-19）、PCHF 指南、L.mono 指南、SECG、Ed.5、Handbook、CPGM 7303.040、CP 7303.050、IOM 2026 Ch.5 合计 **十九类不可混引**。*
 
 *⚠ **part 108 自 v4.12 起已收**（第十七来源，CAP-25 `emergency-permit-control`）：FCE 注册 / SID 定时工艺备案 / Emergency Permit Control / §108.35 BPCS 认可现按〔§ 108.xxx〕引用，不再标「转引未收」。**仍未收的是 part 110**（旧 CGMP，含 §110.110，正文未收）——涉及 §110.110 一律标「转引未收」，不得从 Part 113/114 或 CP 反推条文。*
 
@@ -168,7 +168,7 @@
 
 **Step 5 — 检查员侧交叉。** 法定义务清单落定后，用 CAP-19 `lacf-inspection-program` 反查 FCE/SID、Process Authority、温度分布/热穿透、运行中 retort、卷边与异常罐六组取证；用 CAP-16 / CAP-17 / CAP-18 补检查类型、取样量、表单与 483 措辞。
 
-**Step 6 — 收尾声明。** 每条结论标〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 108.xxx〕或「CP 7303.070 PART x」；涉及 part 110 / BAM / IOM Ch.4 / CPG / Import Alert 全文一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕；part 108 自 v4.12 起已收，写〔§ 108.xxx〕转 CAP-25；part 120 自 v4.13 起已收，写〔§ 120.xxx〕转 CAP-26）。**十八类不可混引。**
+**Step 6 — 收尾声明。** 每条结论标〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 108.xxx〕或「CP 7303.070 PART x」；涉及 part 110 / BAM / IOM Ch.4 / CPG / Import Alert 全文一律标「转引未收」（part 123 已收，写〔§ 123.xxx〕；part 108 自 v4.12 起已收，写〔§ 108.xxx〕转 CAP-25；part 120 自 v4.13 起已收，写〔§ 120.xxx〕转 CAP-26）。**十九类不可混引。**
 
 ## B — 边界
 
@@ -186,7 +186,7 @@
 
 **B7 — 版本与转换口径。** `4–1–25 Edition` 是 CFR 年度编纂版次，不是 2025 新规；条文修订出处看末尾 FR citation（§114.5 为 `[80 FR 56144, Sept. 17, 2015]`，§113.100 为 `[44 FR 16215 ... as amended at 76 FR 11923, Mar. 3, 2011]`）。两份 PDF 是 GPO 双栏印刷版连续页截取，已按「页 → 左栏 → 右栏」重排、裁掉首尾相邻 part 残段、保留印刷断词连字符（Part 113 933 处 / Part 114 210 处）；逐字引证按归一化口径（去换行、空格、连字符）核对，**检索以 § 编号为准**；§114.3(b) 的 `''pickled ______.''` 是 PDF 文本层的下划线填空，照录但不得推定省略词。
 
-**B8 — 引用规范（全包统一，十八类不可混引）。** 〔§ 108.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 120.xxx〕/〔§ 123.xxx〕六套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。part 108 / 110 / 120 与其他未收正文一律标「转引未收」（part 123 自 v4.9 起已收）。**尤其不得把 §114.5 的 `parts 110 and 117` 改写成「parts 117」或标成笔误。**
+**B8 — 引用规范（全包统一，十九类不可混引）。** 〔§ 108.xxx〕/〔§ 113.xxx〕/〔§ 114.xxx〕/〔§ 117.xxx〕/〔§ 120.xxx〕/〔§ 123.xxx〕六套法条各自独立；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。part 108 / 110 / 120 与其他未收正文一律标「转引未收」（part 123 自 v4.9 起已收）。**尤其不得把 §114.5 的 `parts 110 and 117` 改写成「parts 117」或标成笔误。**
 
 **B9 — 与 CAP-19 的分工。** 本卡＝法条义务层；CAP-19＝检查员作业层。用户问「合规要做什么」走本卡，问「FDA 来查什么 / 什么数值会升级」走 CAP-19，问「检查类型与记录举证」走 CAP-16，问「取样量与环境拭子」走 CAP-17，问「权限/表单/483 措辞」走 CAP-18。四张迎检卡与本卡合起来才回答 LACF/AF 的完整合规与迎检问题。
 

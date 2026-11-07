@@ -373,3 +373,24 @@
 - **评测**：本版未重跑触发 / 输出 / 路由评测；v4.7–v4.13 的既有结论不得冒用。
 - **仍未收**：21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 全套、Import Alert 全文、BAM / AOAC 方法全文。
 
+## v4.15 — FDA CP 7303.847 落为第十九来源 + 果汁检查程序卡（27 张卡）
+
+> 上文 v4.14 及更早各节中「CP 7303.047 果汁 program 未收」均为**当时口径**，自 v4.15 起该件已纳入（且程序号订正为 **7303.847**），见 `source-cp-7303-847-2025.md` 与 CAP-27 `juice-inspection-program`。
+
+- **第十九来源**：**FDA Compliance Program Guidance Manual, PROGRAM 7303.847《Juice HACCP Inspection Program (Processor and Importer Inspections)》**（Chapter 03，`20250922_CP 7303.847 Juice HACCP  508-Compliant.pdf`，26 页 / 35 书签）。封面锁定版本口径：`Date of Issuance 11/02/2010` / `IMPLEMENTATION DATE 11/02/2010` / `Correction date 09/18/2025`——本件是 **2010-11-02 版程序的 2025-09-18 更正本**，文件名 `20250922` 只是 PDF 生成日（creationDate 2025-09-22）。属**检查程序作业层**：非法规、非 Guidance for Industry、**不创设企业义务**。
+- **⚠ 订正 v4.13 的一处硬错**：果汁检查程序号是 **CP 7303.847**，v4.13 在 CAP-26（头注 / 案例 / Step / B 段）与 `_meta-juice-haccp.yaml` 里误写为 `7303.047` 共 **7 处**。本版全部订正，并在正文保留「v4.13 曾误写」的勘误说明（残留检查脚本据此放行这 3 类勘误语境：`误写` / `曾把` / `不得把`）。
+- **转换方式变更（本轮未用 pdf2md-pro）**：pdf2md-pro 的书签注入把 7 个书签标题**插进段落中间**、且把大纲块前置乱序（H2 虚高到 60 个），修补成本高于重建。改用新增 `.cangjie/convert_cp847.py`：按「固定 3 行页眉 + `— Page N` 页标记 + 全加粗且字号 ≥11 判标题 + 行距 >1.55×行高断段」从 PDF 直接重建。产出 7 个 PART / 66 个小节 / 605 行。两处标题在文本层无字（PART II 的 `1. Objective`、PART VI 的 `1. References` / `2. Attachments`），已用书签补回，卡内注明**这三处不可当逐字原文引**。
+- **新增能力卡 CAP-27 `juice-inspection-program`**（`.cangjie/capabilities/cards/juice-inspection-program.md` + `_meta-juice-inspection-program.yaml`，56 intents / 129 keywords）。R 段 **29 个英文引用块**经 `.cangjie/verify_v4_15_quotes.py` 核验：**29/29 命中正文区、0 超 100 词、0 表格引用，RESULT: PASS**。
+- **本版四条实质纠偏**：
+  1. **「没取样」不能反推「没问题」**——三条独立理由：进口商检查 `No samples are to be collected`；验证样品 `only when the investigator expects the inspection to be either NAI or VAI`；原文自陈 `Most deficiencies of the Juice HACCP regulation do not require a physical sample to confirm or document them`。
+  2. **PAC 分流是硬错高发区**——`847H` 系列只服务实物验证样品；文档性样品**只报 `03847`**、不得占用 `847H`、且**不计入分区工作计划**；有因样品 PAC 限 `03847`/`04847`/`07847`/`09847` 且 `not to be routinely collected`；进口商报 `03847H` 且 Establishment Type 必须用 **A**。
+  3. **铅的 10/20 ppb 是「拟议行动水平」**——出处 FDA 2022-04 草案指南，`proposed action levels`，非法规限值、非安全港；苹果汁 10 ppb、其他果蔬汁 20 ppb 两档不可对调；超值由 **HFP 逐案审查**。
+  4. **CPGM 不创设企业义务**——检查动作不得写成企业义务，也不得从 CP 反推法条；企业义务一律回 CAP-26 的〔§ 120.xxx〕。
+- **B10 补 PART VII 覆盖**：PART VII 只有 References（10 件文献）/ Attachments（**仅 Attachment A**）/ Program Contact 三块，属行政信息；用法边界为「References 只用于给未收文献定位名称与年份，不得据标题反推内容；联系人信息会失效，不得作为答复依据；附件仅 A 一件」。
+- **Bundle 回补**：`assemble_bundle.py` 26 → **27 卡**（SLUGS 追加、ALSO_READ 新增 11 条正向链 + 12 张卡反向链）、`additional_sources` 17 → **18 条**（末条 `src-fda-cp-7303-847-2010`）、core_principles 52 → **54**、stop_conditions 26 → **28**。全包当前口径统一为「**十九类不可混引 / 27 张卡**」；清除既有条文中把 CP 7303.047 写成「未收」的当前断言（卡内 4 处 + meta 2 处）与「十八类」计数（23 个文件）。所有替换走唯一性断言，dry-run 全过后 --apply。
+- **术语与用例**：`candidates/glossary.md` 213 → **223 条**（t214–t223：版本口径、CPGM 效力层级、三类样品与 PAC、没取样三理由、双检查组件、进口商 MOU 与 affirmative steps、ATTACHMENT A 采样量、铅拟议行动水平、60 天复检与升级路径、检查员不代写）。⚠ 本轮踩到 YAML 坑：`summary:` 值以 `**` 开头会被解析成别名，批量去掉行首那对粗体标记后 223 条严格通过、id 唯一。`test-prompts.json` 147 → **157 条**（`juice-inspection-01..10`：4 should_trigger / 5 edge_case / 1 should_not_trigger），version → **4.15**。
+- **编译与安装（已完成）**：`compile_single.py --out dist-v19` 产出 **32 个 .md / 27 张卡**（SKILL.md 157 行 / 114,626 字节）；`validate_skill_pack.py dist-v19` **0 errors + 1 warning**（`name-dir` 固有）；`.cangjie/install_v15.py` 覆盖安装，**真 v4.14 备份为 `fda-pchf-food-safety-v4.14-20261107-130147`（26 卡）**——因中断后重跑安装产生 5 个「名为 v4.14、实为 v4.15」的重复副本，已改名加 `-dup-of-v4.15` 后缀纠正，未删文件；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **32/32 文件、逐文件 sha256 差异 0**，glossary 5 份副本 hash 全同（`70ffad4572fe5071…`）、严格解析 223 条 id 唯一。
+- **静态登记核对**：`.cangjie/check_v4_15_routing.py` **39/39 PASS** —— 27 卡 / 54 principles / 28 stops / 18 additional_sources（末条 `src-fda-cp-7303-847-2010`）、CAP-27 `active`·`extended`·also_read 11 条、反向辅读链 12 张、能力索引主行 1 行、SKILL.md 无「十八类」残留且含「十九类」、CAP-27 **29 个引用块**且 PART I–VII 与 ATTACHMENT A 全覆盖、7303.047 仅存于勘误说明、meta 56 intents / 129 keywords 无重复、产物与安装目录 hash 差异 0。
+- **评测**：本版尚未重跑触发 / 输出 / 路由评测，v4.7–v4.14 的既有结论不得冒用。
+- **仍未收**：CPG 510.150 / 555.425 全文、CP 7307.001 / 7304.019 / 7309.006 / 7321.005 全文、BAM / AOAC 方法全文、Import Alert 全文、FACTS / eNSpect / CMS 内部操作、21 CFR part 110 正文。
+

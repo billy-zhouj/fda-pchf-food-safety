@@ -2230,6 +2230,105 @@
   summary: 四款结构同构、**范围不同**，不可互套：(a) qualified facility → 转〔§ 117.201〕modified requirements；**(b) part 123 水产品** 与 **(c) part 120 果汁** 都是「双条件 + **无限缩款**」——`required to comply with, and are in compliance with` 两个并列条件，不合规即豁免不成立，而豁免范围内 Subparts C/G 的要求**全部**移出（含非微生物危害）；**(d) part 113 低酸罐头** 有 (d)(1) 双条件豁免 + **(d)(2) 限缩**：`applicable only with respect to the microbiological hazards that are regulated under part 113`，其余危害仍归 C/G；(e) 膳食补充剂按 part 111 + FD&C Act §761；(f) 受 §419 produce safety 管辖的活动；(g) farm mixed-type facility 的特定 pack/hold 情形。⚠ 关键判读：**不要因为 (d) 有限缩就以为 (c) 也有**，也不要因为 (c) 无限缩就以为「整厂免 PCHF」——边界止于「受该 part 管辖的 activities」，且豁免不含 Part 117 Subpart B 的 CGMP。
   tags: [法定豁免, 条款结构, 高频误读, 第二来源补齐]
 
+# ============ 十九、CP 7303.847 果汁检查程序词族（v4.15）============
+
+- id: t214
+  title: CP 7303.847 的版本口径（文件名≠版本日）
+  type: term
+  source_chapter: CP 7303.847 封面
+  source_quote: |
+    "Date of Issuance: 11/02/2010"
+    —— CP 7303.847 封面；同页另有 `IMPLEMENTATION DATE: 11/02/2010` 与 `Correction date: 09/18/2025`
+  summary: 本件是 **2010-11-02 版程序的 2025-09-18 更正本**。⚠ 文件名 `20250922` 只是 PDF 生成日（creationDate 2025-09-22），**不是 2025 年新版 program**；与 CP 7303.050 / 7303.070 / 7303.842 / 7303.878 同属「旧程序 + 近期更正」形态，**不得套用 CPGM 7303.040 的 `2025-CPM-HFP-001` Transmittal 写法**。引用写「CP 7303.847（2010-11-02 版 / 2025-09-18 更正）」。
+  tags: [版本口径, 高频误读, 十九来源]
+
+- id: t215
+  title: CPGM 的效力层级（不创设企业义务）
+  type: term
+  source_chapter: CP 7303.847 全文性质
+  source_quote: |
+    "A HACCP inspection is not a stand-alone part of the Juice HACCP Inspection Program but is one part of a larger
+    system of control procedures."
+  summary: Compliance Program Guidance Manual 是 FDA 给**检查员与分区**的内部作业指导：**非法规、非 Guidance for Industry、不创设企业义务**。它只回答「查什么、怎么取样、什么数值触发升级、文书怎么开」。企业义务回 21 CFR Part 120〔§ 120.xxx〕（CAP-26）。**不得用 CP 的检查动作反推法条，也不得把 CP 的取证量写成企业放行标准**——这是全包对 LACF（CAP-19）、海产品（CAP-24）一以贯之的纪律。
+  tags: [效力层级, 核心概念, 十九来源]
+
+- id: t216
+  title: 三类样品的分流（验证／有因／文档性）与 PAC
+  type: term
+  source_chapter: CP 7303.847 PART III.4；封面 PAC 表
+  source_quote: |
+    "“Verification” samples are to be collected only when the investigator expects the inspection to be either NAI or
+    VAI."
+  summary: PAC 混用是本件最容易犯的硬错。① **验证（Verification）**：只在检查员**预期结果为 NAI 或 VAI** 时取，PAC 限 `847H` 系列（`03847H`/`04847H`/`07847H`/`09847H`/`21847H`），须分析 HACCP 计划中**全部相关安全危害**；② **有因（For Cause）**：**非常规**，仅在需判定安全问题范围时取，PAC 限 `03847`/`04847`/`07847`/`09847`；③ **文档性（Documentary）**：**只报 `03847`**，不得占用 `847H`，**且不计入分区工作计划**；④ 进口商报 `03847H` 且 Establishment Type 必须用 **A**（Importer/Broker）。
+  tags: [手续义务, PAC, 高频误读, 十九来源]
+
+- id: t217
+  title: 「没取样」不能反推「没问题」的三条理由
+  type: term
+  source_chapter: CP 7303.847 PART II.2.A.2；PART III.4
+  source_quote: |
+    "Most deficiencies of the Juice HACCP regulation do not require a physical sample to confirm or document them."
+  summary: 三条**独立**理由，任一成立即可解释「没取样」：① **进口商检查根本不取样**（`No samples are to be collected`）；② 验证样品**只在预期 NAI/VAI 时取**——检查员已倾向 OAI 时就不取；③ 原文自己写的：**多数法规缺陷不需要实物样品**（记录与执行面即可坐实）。因此「没取样」既可能是预期结果偏好，也可能只是本次属记录类缺陷；把它读成「合规」或「被放过」都是错的。反向也成立：**被取样不能证明被怀疑**。
+  tags: [判定方法, 高频误读, 十九来源]
+
+- id: t218
+  title: HACCP 与非 HACCP 双检查组件
+  type: term
+  source_chapter: CP 7303.847 PART II.1；PART III.3
+  source_quote: |
+    "It is important to remember that the primary component of a juice inspection is HACCP, but also includes
+    sanitation monitoring."
+  summary: 加工者检查 = ① **HACCP 系统检查**（独立做一遍危害分析与 CCP 判定，再评企业的计划、关键限值、监控与记录）；② **非 HACCP 覆盖**（彻底 GMP 检查，含发网、安全照明等；污秽须记录蝇类数量类型与在产品上的时间、门窗破损路线、与粪便/垃圾/尸体的距离；标签违规；**经济欺诈**迹象）。进口商检查则是**纯记录审查**（§120.14 规格与 affirmative steps）。把果汁检查等同于"HACCP 一项"会漏掉一半取证面。
+  tags: [检查流程, 取证, 十九来源]
+
+- id: t219
+  title: 进口商审查：先查 MOU，再查 affirmative steps
+  type: term
+  source_chapter: CP 7303.847 PART III.B；PART V
+  source_quote: |
+    "A HACCP plan from a foreign processor is an inadequate affirmative step under 21 CFR 120.14(a)(2) if the plan
+    fails to list a hazard that is reasonably likely to occur."
+  summary: 顺序是：482 → 定境外来源 → **查该国是否有适用于 juice HACCP 的 MOU**（HFP 主页列示；有则记录并**另选非 MOU 果汁**受检）→ 非 MOU 者审书面程序（产品规格 + affirmative steps）→ 审规格是否覆盖生物/物理/化学危害 → 审验证记录 → 缺陷按 **21 CFR 120.14** 用 eNSpect 引文开 483。**可据以开 483 的实体判据**：境外 HACCP 计划**漏列合理可能发生的危害**时，该计划**不构成充分的 affirmative step**。
+  tags: [法定义务, 进口商, 判据, 十九来源]
+
+- id: t220
+  title: ATTACHMENT A 采样量（与触发值是两回事）
+  type: term
+  source_chapter: CP 7303.847 ATTACHMENT A
+  source_quote: |
+    "Collect ten (10) subsamples (Retail Containers) with a minimum sub- sample size of 32 fl oz."
+  summary: 微生物 10 子样 × ≥32 fl oz（946 ml），零售容器——足够覆盖 E. coli O157:H7 / Listeria monocytogenes / Salmonella 三项；零售容器 >½ 加仑（1893 ml）须通知 Program Monitor。**铅** 12 随机子样 × ≥4 oz。**巴氏毒素**（仅苹果汁/苹果酒）：冷冻浓缩 6 子样 × ≥400 ml；单倍浓度 6 子样 × ≥500 ml。**污秽**：非 HACCP 6 子样、HACCP 硬/锐物 12 子样，且 `Analyze each subsample individually (no compositing)`。非 HACCP 与部分专项样品**双份供 702(b)**（`Please collect in duplicate to provide for the 702(b) portion.`）。⚠ 这些是**检查员取证量**，不是企业出厂检验标准。
+  tags: [取样验证, 采样量, 十九来源]
+
+- id: t221
+  title: 铅的「拟议行动水平」不是法规限值
+  type: term
+  source_chapter: CP 7303.847 PART V 样品后续
+  source_quote: |
+    "proposed action levels of 0.010 mg/kg (10 ppb) in apple juice and 0.020 mg/kg (20 ppb) for other fruit and
+    vegetable juices"
+  summary: 出处是 **FDA 2022-04 铅草案指南**，性质是 **`proposed action levels`（拟议行动水平）**——不是法规限值、不是合规安全港。**苹果汁 10 ppb、其他果蔬汁 20 ppb**，两档不可对调。程序上：`Analyzing laboratories should refer any results above the proposed action levels to HFP for review`，由 **HFP 逐案审查**决定后续（需产品类型、检出值、采样时间地点、批次收货人）。⚠ 与 LACF 的 4.40/4.65（CP 7303.070 实验室触发线）、果汁的 5-log（〔§ 120.24(a)〕法定）分属三层，不得互替。
+  tags: [数值分层, 高频误读, 十九来源]
+
+- id: t222
+  title: 升级路径与 60 天复检口径
+  type: term
+  source_chapter: CP 7303.847 PART V
+  source_quote: |
+    "the division should re-inspect the firm no later than 60 days from the last correspondence date"
+  summary: 分层升级：**高风险**（暴发关联/未巴氏杀菌）且 CCP 有缺陷 → 走 CMS + RPM Ch.4 提合规行动建议；**巴氏杀菌企业** CCP 缺陷未及时纠正、企业不回应或不配合 → **最后通信日后 60 天内**复检（进口商同口径）；复检仍有原缺陷 → 联系 HFP/OCE/OCIC/DCC；**仅州内企业** → 优先借州/地方当局，无管辖权由 OII 与 HFP 商。病原阳性另走：州际判定 → 拟召回联系 HFP/Recalls → 拒不撤回联系 HFP/OCE/OCIC/DCC → 不涉州际则通报州官员。
+  tags: [监管升级, 时限, 十九来源]
+
+- id: t223
+  title: 检查员不代写计划（检查纪律的出处）
+  type: term
+  source_chapter: CP 7303.847 PART III.1.A.1
+  source_quote: |
+    "this should not be interpreted to mean that either the flow chart or the HACCP plan will be prepared for the
+    firm by the investigator"
+  summary: 遇到无 HACCP 计划或计划不充分的企业，检查员**仍须做完整 HACCP 检查**，但**不得替企业编制流程图或 HACCP 计划**。这条既是检查纪律，也是本包「一律拒绝代写 HACCP 计划／代填表单／判法定身份」的规范出处之一（另见通用水产品卡与 Part 108 卡的同类边界）。配套：SSOP 相关 GMP 缺陷按〔§ 120.6〕引，其余 GMP 缺陷按 GMP 引并在 EIR 说明显著性；引文一律用 **eNSpect**。
+  tags: [检查纪律, 边界, 十九来源]
+
 ```
 
 ## 自检记录
@@ -2263,6 +2362,9 @@
 - [x] 第十八来源 **21 CFR Part 120**（HACCP Systems，4-1-25 Edition，10 页 / 15 条款）法规正文已并入，术语 t203–t212 共 10 条，围绕「独立 HACCP 体系 + 与 Part 117 的条件性接口」排布：juice 管辖与三项排除 → 5-log 的法定性 → pertinent microorganism → HACCP 计划七要素 → reasonably likely to occur 的 prudent processor 判定 → SSOP 八项与计划的关系 → 记录复审 1 周（7 日历天） → 记录保存第六套口径 → 果面处理的 biotype I E. coli 专项验证 → 两处豁免的对象差异。引文取自 CAP-26 R 段经 `.cangjie/verify_v4_13_quotes.py` 核验的 **26 个英文引用块**（26/26 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 120.xxx〕，与〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；〔§ 117.5(c)〕逐字文本、part 110 正文、CP 7303.047、CPG / Import Alert / BAM 全文一律标『转引未收』。全库 **212 条**，v4.13，**十八类来源不可混引**。
 
 - [x] **第二来源 21 CFR Part 117 全文自 v4.14 起随仓库分发**（`books/_inbox/21-CFR-Part-117-2025.md`，160,825 字节 / 3,577 行）。该件自 v1 起就在 metadata 里声明为「第二来源」，但文件从未入库，导致全包〔§ 117.xxx〕引文长期无法在本仓库内复核——v4.13 的 CAP-26 因此把 §117.5(c) 标为「转引未收」。本轮补入后新增术语 **t213**（§117.5 四款豁免的结构差异），并对全包 **23 处**〔§ 117.xxx〕引文做追溯核验（`.cangjie/verify_v4_14_part117_quotes.py`，**23/23 命中**，含 2 处带省略号的节引按段核验）。全库 **213 条**，v4.14。
+
+- [x] 第十九来源 **FDA CP 7303.847《Juice HACCP Inspection Program》**（2010-11-02 版 / 2025-09-18 更正，26 页 / 35 书签）检查程序已并入，术语 t214–t223 共 10 条，围绕「检查员侧取证」排布：版本口径与 CPGM 效力 → 三类样品分流（验证/有因/文档性）与 PAC → 「没取样」的三条理由 → HACCP 与非 HACCP 双组件 → 进口商 MOU 与 affirmative steps 判据 → ATTACHMENT A 采样量 → 铅拟议行动水平 → 60 天复检与升级路径 → 检查员不代写计划 → 与法条层 CAP-26 的分工。引文取自 CAP-27 R 段经 `.cangjie/verify_v4_15_quotes.py` 核验的 **28 个英文引用块**（28/28 命中正文区，0 超 100 词、0 表格引用）。原文标「CP 7303.847 PART x / ATTACHMENT A」，企业义务标〔§ 120.xxx〕；⚠ v4.13 曾把本程序误写为 `CP 7303.047`，v4.15 订正为 **7303.847**。全库 **223 条**，v4.15，**十九类来源不可混引**。
+
 
 
 

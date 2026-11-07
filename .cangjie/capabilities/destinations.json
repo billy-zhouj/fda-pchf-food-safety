@@ -78,6 +78,9 @@
     },
     "CAP-26": {
       "served_by": "fda-pchf-food-safety"
+    },
+    "CAP-27": {
+      "served_by": "fda-pchf-food-safety"
     }
   }
 }

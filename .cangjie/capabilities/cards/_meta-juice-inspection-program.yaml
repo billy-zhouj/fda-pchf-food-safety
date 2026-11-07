@@ -1,0 +1,194 @@
+slug: juice-inspection-program
+title: 果汁 HACCP 检查程序（FDA CP 7303.847，2010-11-02 版 / 2025-09-18 更正）
+importance: extended
+importance_rationale: CAP-26（v4.13）把果汁的企业义务落到〔§ 120.xxx〕后，检查员侧仍是空白——CAP-26 的 B10、A2 第 30 条、Step 6 三处都只能把 CP 7303.847 标「未收」。用户于 v4.15 提供该程序（26 页 / 35 书签），本卡补齐 LACF（CAP-20/CAP-19）与海产品（CAP-22/23/24）之外的最后一条「法条层 + 检查程序层」配对。它钉死四类高频误读：① 把「没取样」读成「没问题」（进口商检查根本不取样、验证样品只在预期 NAI/VAI 时取、多数法规缺陷不需实物样品）；② 混用三类样品的 PAC（`847H` 只服务实物验证样品、文档性样品只报 `03847` 且不计工作计划、进口商报 `03847H` 且 Establishment Type 必须用 A）；③ 把铅的 10/20 ppb「拟议行动水平」当成法规限值或安全港；④ 把本件检查动作写成企业义务（CPGM 不创设企业义务，企业义务回 CAP-26）。另锁定版本口径：Date of Issuance / IMPLEMENTATION DATE 均为 11/02/2010，Correction date 09/18/2025，文件名 20250922 只是 PDF 生成日。属入口型检查程序能力，与 CAP-26 强配对、与 CAP-15/16/17/18 通用迎检链交叉，故定 extended。
+one_liner: 先分主体（加工者＝HACCP 检查＋非 HACCP 覆盖；进口商＝纯记录审查且不取样），再分样品（验证仅限预期 NAI/VAI 走 847H／有因非常规／文档性只报 03847 且不计工作计划），采样量按 ATTACHMENT A 逐项对表，数值必须带层标签（5-log 法定／10·20 ppb 草案拟议／4.40·4.65 是 LACF 触发线与果汁无关），升级路径按高风险→CMS、巴氏不回应→60 天复检、病原阳性→州际判定。
+intents:
+  - 判定 CP 7303.847 的版本口径（2010-11-02 签发 / 2025-09-18 更正 / 文件名 20250922 只是生成日）
+  - 说明本件是检查员侧内部作业指导、不创设企业义务，企业义务回 CAP-26
+  - 引封面注说明 part 120 食品豁免 part 117 subparts C 与 G，并指出该表述未提条件性
+  - 说明 cGMP（subpart B）问题按 21 CFR 120 引而非按 Part 117 引
+  - 说明 subparts A/B/F 的检查工时报 PAC 03040
+  - 列出本 program 的 PAC：03847H / 03847 / 03S004
+  - 列出验证样品 PAC（847H 系列：03847H / 04847H / 07847H / 09847H / 21847H）
+  - 列出有因样品 PAC（03847 / 04847 / 07847 / 09847）
+  - 说明行业码 20-22 / 24 / 25
+  - 回答已不再要求填报 Juice HACCP Questionnaire
+  - 解释 HACCP 检查不是独立环节、非 HACCP 区域也要查
+  - 说明加工者检查由 HACCP 系统检查与非 HACCP（GMP）覆盖两部分组成
+  - 说明进口商检查本质是记录审查、法源为 21 CFR 120.14
+  - 列出加工者检查优先级四档（暴发关联 / 未巴氏 / OAI / 未检查 / NAI-VAI）
+  - 列出进口商检查优先级四档（未巴氏 / 违规史 / entry line 数 / NAI-VAI）
+  - 回答进口商检查是否取样：不取（No samples are to be collected）
+  - 回答验证样品何时取：仅在预期 NAI 或 VAI 时
+  - 说明验证样品须分析 HACCP 计划中全部相关安全危害，并在 FACTS 的 Reason for Collection 列明
+  - 回答巴氏毒素与微生物同时分析时如何分样与分号
+  - 回答有因样品的适用情形（仅需判定安全问题范围时，非常规）
+  - 引原文说明多数法规缺陷不需要实物样品坐实
+  - 回答文档性样品报哪个 PAC（仅 03847，且不计工作计划）
+  - 回答 847H 系列 PAC 的专属用途（实物验证样品）
+  - 回答 702(b) 留样如何采集（双份）
+  - 说明非 HACCP 缺陷样品的采集条件与项目码
+  - 列出 ATTACHMENT A 微生物采样量（10 子样 × ≥32 fl oz）
+  - 说明零售容器 >½ 加仑时须通知 Program Monitor
+  - 列出铅采样量（12 子样 × ≥4 oz）
+  - 列出巴氏毒素采样量（冷冻浓缩 6×≥400 ml；单倍浓度 6×≥500 ml）
+  - 说明污秽与硬锐物样品逐子样单独分析（no compositing）
+  - 说明留样冷藏至分析完成、之后冷冻至获准销毁
+  - 回答「用最新法定方法」的口径
+  - 列出分析项目码 03/04/07/09/21 的对应内容
+  - 回答铅 10 ppb / 20 ppb 的性质（2022-04 草案拟议行动水平，非法规限值）
+  - 回答超拟议行动水平的处理（实验室报 HFP 逐案审查）
+  - 回答巴氏毒素适用产品与 CPG 引用（CPG 510.150）
+  - 回答异物判据出处（CPG 555.425）
+  - 回答病原阳性的后续路径（州际判定 → HFP/Recalls 或 HFP/OCE/OCIC/DCC → 州官员）
+  - 说明 HACCP 要求自 2004-01-20 起对所有果汁企业强制
+  - 回答巴氏企业缺陷未纠正的复检时限（最后通信日后 60 天内）
+  - 回答仅州内企业的处理（借州/地方当局，无管辖权由 OII 与 HFP 商）
+  - 回答进口商 affirmative step 是否充分的判据（漏列 RTL 危害的境外计划不充分）
+  - 回答 MOU 国家的处理（HFP 主页列示，记录并另选非 MOU 果汁）
+  - 说明进口商检查报 03847H 且 Establishment Type 用 A
+  - 说明检查员须独立做一遍危害分析与 CCP 判定再评企业的
+  - 说明无 HACCP 计划或不充分仍须做完整检查
+  - 引原文说明检查员不得替企业编制流程图或 HACCP 计划
+  - 说明 SSOP 缺陷按 21 CFR 120.6 引、其余 GMP 按 GMP 引并在 EIR 说明显著性
+  - 说明危害合理可能发生存疑时的三类补证
+  - 说明检查员培训要求（Juice HACCP and Conducting Juice Inspections 课程）
+  - 说明州合同检查的一致性要求与 SMG 8076 监督
+  - 回答 IMS 名单企业的检查处理
+  - 回答巴氏毒素监测样品能否在本检查中顺手采（一般不得，归 CP 7307.001）
+  - 回答铅监测样品（CP 7304.019 项下不采）
+  - 回答标签覆盖与 PAC 21005 的用法
+  - 判断哪些问题超出本卡（企业义务、HACCP 计划编制、BAM 方法、CPG 全文、系统操作）
+keywords:
+  - "CP 7303.847"
+  - "7303.847"
+  - "Juice HACCP Inspection Program"
+  - "juice HACCP"
+  - "Compliance Program Guidance Manual"
+  - "CPGM"
+  - "PART I"
+  - "PART II"
+  - "PART III"
+  - "PART IV"
+  - "PART V"
+  - "PART VI"
+  - "PART VII"
+  - "ATTACHMENT A"
+  - "03847H"
+  - "03847"
+  - "03S004"
+  - "04847H"
+  - "07847H"
+  - "09847H"
+  - "21847H"
+  - "04847"
+  - "07847"
+  - "09847"
+  - "21005"
+  - "03040"
+  - "PAC"
+  - "PAF"
+  - "Establishment Type A"
+  - "Processor Inspection Component"
+  - "Importer Inspection Component"
+  - "verification sample"
+  - "For Cause"
+  - "documentary sample"
+  - "official sample"
+  - "NAI"
+  - "VAI"
+  - "OAI"
+  - "inspectional priority"
+  - "high risk"
+  - "unpasteurized"
+  - "MOU"
+  - "memorandum of understanding"
+  - "affirmative steps"
+  - "120.14"
+  - "120.6"
+  - "120.8"
+  - "120.24"
+  - "critical control point"
+  - "hazard analysis"
+  - "HACCP plan"
+  - "flow chart"
+  - "FDA 483"
+  - "eNSpect"
+  - "EIR"
+  - "FACTS"
+  - "LST"
+  - "NSD locator"
+  - "SAM"
+  - "701(b)"
+  - "702(b)"
+  - "split sample"
+  - "compositing"
+  - "subsamples"
+  - "32 fl oz"
+  - "946 ml"
+  - "400 ml"
+  - "500 ml"
+  - "4 oz"
+  - "retail container"
+  - "E. coli O157:H7"
+  - "Listeria monocytogenes"
+  - "Salmonella"
+  - "patulin"
+  - "apple juice"
+  - "apple cider"
+  - "lead"
+  - "toxic elements"
+  - "10 ppb"
+  - "20 ppb"
+  - "0.010 mg/kg"
+  - "0.020 mg/kg"
+  - "proposed action levels"
+  - "filth"
+  - "mold"
+  - "foreign objects"
+  - "CPG 510.150"
+  - "CPG 555.425"
+  - "CP 7307.001"
+  - "CP 7304.019"
+  - "CP 7309.006"
+  - "CP 7321.005"
+  - "CP 7303.040"
+  - "CP 7303.070"
+  - "CP 7303.878"
+  - "IMS"
+  - "Interstate Milk Shippers"
+  - "RMS"
+  - "state contract"
+  - "SOW"
+  - "SMG 8076"
+  - "CMS"
+  - "CIC form"
+  - "RPM Chapter 4"
+  - "60 days"
+  - "January 20, 2004"
+  - "January 19, 2001"
+  - "66 FR 6137"
+  - "reserve sample"
+  - "compendial method"
+  - "11/02/2010"
+  - "09/18/2025"
+  - "Correction date"
+  - "20250922"
+  - 果汁检查
+  - 果汁HACCP检查
+  - 检查程序
+  - 验证样品
+  - 有因样品
+  - 文档性样品
+  - 采样量
+  - 子样
+  - 拟议行动水平
+  - 铅
+  - 巴氏毒素
+  - 进口商审查
+  - 复检时限
+  - 版本口径
+  - 十九类不可混引
+member_units: []
+source_label: FDA CP 7303.847《Juice HACCP Inspection Program (Processor and Importer Inspections)》（Chapter 03，Date of Issuance 11/02/2010 / Correction date 09/18/2025，26 页 / 35 书签，检查程序作业层）；企业义务侧见 CAP-26 的 21 CFR Part 120〔§ 120.xxx〕法规正文；程序交互见 CP 7303.040 / 7303.070 / 7303.878 / 7307.001 / 7304.019 / 7309.006 / 7321.005（均为 CP 号，非本包来源）。仍属「转引未收」：CPG 510.150 / 555.425 全文、上述各 CP 全文、BAM / AOAC 方法全文、Import Alert 全文、FACTS / eNSpect / CMS 内部操作
