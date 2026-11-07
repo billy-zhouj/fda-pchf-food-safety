@@ -71,6 +71,17 @@ SECG XIII 章标题及 A–H 小节标题清单如下（**并列摘录，非连�
 > "(b) The mixing of a food containing defects at levels that render that food adulterated with another lot of food is not permitted and renders the final food adulterated, regardless of the defect level of the final food."
 > —— 〔§ 117.110(b)〕；SECG XIII.H 用白话复述了同一条，并指向 *Defect Levels Handbook*
 
+**⑥ 记录口径的两条「不必」**——Subpart F 里最常被误读为「要为 PCHF 另建一套记录」的两处：
+
+> "(a) Existing records (e.g., records that are kept to comply with other Federal, State, or local regulations, or for any other reason) do not need to be duplicated if they contain all of the required information and satisfy the requirements of this subpart. Existing records may be supplemented as necessary to include all of the required information and satisfy the requirements of this subpart."
+> —— 〔§ 117.330(a)〕；既有记录**不必复制**，缺什么补什么
+
+> "(b) The requirements of § 117.310 apply only to the written food safety plan."
+> —— 〔§ 117.301(b)〕
+
+> "(c) The requirements of § 117.305(b), (d), (e), and (f) do not apply to the records required by § 117.201."
+> —— 〔§ 117.301(c)〕；qualified facility 的 modified requirements 记录不受「实际值/同步记录/详细程度/签署与批号」四项约束
+
 **中文大意**：判定 cGMP 合规的基准是法规，不是指南。SECG 的价值是「把法规讲清楚」，它自己反复声明不创设义务、允许替代方案；而法规的 `adequate` 是一个**结果义务**——「足以按良好公共卫生实践达成预期目的」，解释权不在企业手里。做不到时，食品依 FD&C Act § 402(a)(3)/(a)(4) 被认定为 adulterated，而不是仅仅「扣个分」。
 
 ## I — 自述
@@ -184,7 +195,11 @@ SECG Table 4 列出分档合规日期（qualified facilities 2018-09-17、small 
 
 **B4 — 草案不可当现行法定义务引用。** PCHF 行业指南为 Draft 且 Ch7/8/9/10/13/17 未发布；L.mono 指南为 2017-01 Draft – Not for Implementation，通篇 `we recommend`，正文出现 `must` 处均为其引述 Part 117 的法定义务。XIII.D.4 的频次数值、5+5 点位下限、Zone 划分均为**指南建议（should）**，〔§ 117.165〕只要求「足以判定有效性」（must）——不得把建议层数值升格为法定义务。本卡沿用全包的「should 与 must 分层阅读」原则。
 
-**B5 — 两套基准不得互替，且不得用指南的「年度复审」覆盖法定记录保存期限。** pH 4.6 / a_w 0.85 与 pH ≤ 4.4 / a_w ≤ 0.92 用途不同（见 Step 7）；同一份 FSP 里须标明每个数字的用途。Part 117 Subpart F 的记录保存期限是法定义务，任何指南中的「至少每年复审更新一次」都是再加一层，不是替代。
+**B5 — 两套基准不得互替，且不得用指南的「年度复审」覆盖法定记录保存期限。** pH 4.6 / a_w 0.85 与 pH ≤ 4.4 / a_w ≤ 0.92 用途不同（见 Step 7）；同一份 FSP 里须标明每个数字的用途。Part 117 Subpart F 的记录保存期限是法定义务，任何指南中的「至少每年复审更新一次」都是再加一层，不是替代。三条配套边界：
+
+1. **不必为 PCHF 另建一套记录**。〔§ 117.330(a)〕明写既有记录只要**含全部所需信息且满足本子部分要求**就 `do not need to be duplicated`，缺的部分 `may be supplemented` 补进去即可；(b) 进一步规定信息**不必集中在同一套记录里**。企业为其他联邦/州/地方要求保存的记录可以复用——这是最常见的问法，也是被指南反复暗示「另建体系」造成的误解。
+2. **但「不必复制」≠「可以不满足」**。复用是**格式与载体**的豁免，不是**内容**的豁免：所需信息一项都不能少，只是允许分散、允许补充。三条通用要求对全部记录仍然成立——原件/真实副本/电子记录〔§ 117.305(a)〕；准确、不可擦除、清晰〔§ 117.305(c)〕；电子记录若**仅为满足本部分**而建且符合 § 11.3(b)(6) 定义则**免于 part 11**，但**兼为其他法规要求**的记录**仍受 part 11 约束**〔§ 117.305(g)〕。
+3. **qualified facility 的记录负担确实更轻，但轻在四款、不是全免**。〔§ 117.301(c)〕把 § 117.305 的 (b)(d)(e)(f) 从 § 117.201 要求的记录中排除——即不要求记**监控的实际值与观察**、不要求**与活动同步创建**、不要求**详细到能还原工作史**、不要求列**设施标识/日期/签署/批号**；但 (a)(c)(g) 仍在，所以「准确、清晰、不擦除」照样要求。另〔§ 117.301(b)〕把 § 117.310 的额外要求**限定在书面食品安全计划**上，不外溢到其他记录。
 
 **B6 — 不做跨体系合规判定。** 药品 cGMP 是 21 CFR Parts 210/211；食品专项另有 Part 111（膳食补充剂）、106（婴儿配方）、113（LACF）、114（酸化食品）、129（瓶装水）、123（海产品）、120（果汁）；中国 GB 14881 功能上大致对应 Subpart B，但条款体系与法定口径不同。本卡只提供 FDA 口径，跨体系映射需人工判断。**低酸罐头 / 酸化食品与 Part 117 的具体管辖分流（〔§ 117.5(d)(1)(2)〕、〔§ 117.1(c)〕、Keep Refrigerated 路由、酸化食品不免 Subparts C/G）见 CAP-19 `lacf-inspection-program`**；注意〔§ 117.201〕是 qualified facility 的 modified requirements，不是 LACF 条款。GFSI/BRCGS/FSSC 22000/SQF 的 PRP 与 cGMP 有重叠，但属私人标准，不能替代法定义务。
 

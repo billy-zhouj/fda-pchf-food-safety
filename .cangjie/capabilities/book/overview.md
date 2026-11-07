@@ -330,7 +330,7 @@
 
 - **v4.15 当时规模**：**27 张能力卡 / 223 条术语 / 157 条测试用例 / 十九类来源 / `dist-v19`**。
 - **第十九来源**：**FDA Compliance Program Guidance Manual, PROGRAM 7303.847《Juice HACCP Inspection Program (Processor and Importer Inspections)》**（Chapter 03，**2010-11-02 版 / 2025-09-18 更正**，26 页 / 35 书签），`source-cp-7303-847-2025.md`。属**检查程序作业层**：非法规、非 Guidance for Industry、**不创设企业义务**。
-- **新增能力卡 CAP-27 `juice-inspection-program`**：与 CAP-26（Part 120 法条层）配对，补齐 LACF（CAP-20/CAP-19）与海产品（CAP-22/23/24）之外的最后一条「法条层 + 检查程序层」链路。R 段 28 个英文引用块经 `.cangjie/verify_v4_15_quotes.py` **28/28 命中**。
+- **新增能力卡 CAP-27 `juice-inspection-program`**：与 CAP-26（Part 120 法条层）配对，补齐 LACF（CAP-20/CAP-19）与海产品（CAP-22/23/24）之外的最后一条「法条层 + 检查程序层」链路。R 段 29 个英文引用块经 `.cangjie/verify_v4_15_quotes.py` **29/29 命中**（含 33 字符短句 `No samples are to be collected.`，核验阈值已由 40 降至 20）。
 - **四类实质纠偏**：① **「没取样」不能反推「没问题」**——进口商检查根本不取样、验证样品只在预期 NAI/VAI 时取、且原文写「多数法规缺陷不需实物样品」；② **PAC 分流是硬错高发区**——`847H` 只服务实物验证样品、文档性样品只报 `03847` 且不计工作计划、进口商报 `03847H` 且 Establishment Type 用 A；③ **铅的 10/20 ppb 是 2022-04 草案拟议行动水平**，非法规限值；④ **CPGM 不创设企业义务**，检查动作不得写成企业义务。
 - **⚠ 订正 v4.13 的一处硬错**：果汁检查程序号是 **CP 7303.847**，v4.13 在 CAP-26 与 meta 里误写为 `7303.047`（7 处）。本版全部订正，并在正文保留勘误说明。
 - **转换方式变更**：本件**未用 pdf2md-pro**——其书签注入把 7 个书签标题插进段落中间、并把大纲块前置乱序（H2 虚高到 60）。改用 `.cangjie/convert_cp847.py` 按「固定 3 行页眉 + `— Page N` 页标记 + 全加粗标题 + 字号 ≥11」重建，行距 >1.55×行高断段；7 个 PART / 66 个小节 / 605 行。两处标题在文本层无字（PART II `1. Objective`、PART VI `1. References`/`2. Attachments`），已用书签补回，卡内注明**不可当逐字原文引**。
