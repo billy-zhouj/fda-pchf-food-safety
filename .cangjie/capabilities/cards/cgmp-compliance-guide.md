@@ -167,7 +167,7 @@ SECG Table 4 列出分档合规日期（qualified facilities 2018-09-17、small 
 - 所有数值须注明出处小节并提示「文献极端值，未必适用于具体产品」；**禁止凭记忆给数**。
 
 **Step 8 — 资料清单与缺口（按四层栈点名）。**
-- 已收（本包可逐字核对）：`books/_inbox/21-CFR-Part-117-2025.md`（Subpart B 全文）、`source-secg.md`（2016-10 SECG 全章，由资料库文档转换）、`source.md`（PCHF 指南，Introduction 的 Table 3–8 是 FDA 配套资源总目录）、`source-lmono.md`（L.mono 指南，II.A 的 Table 1 逐条列出它涉及的 7 条 CGMP 要求）。
+- 已收（**本仓库**可逐字核对，v4.14 起该文件随仓库分发）：`books/_inbox/21-CFR-Part-117-2025.md`（Subparts A–G 全文）、`source-secg.md`（2016-10 SECG 全章，由资料库文档转换）、`source.md`（PCHF 指南，Introduction 的 Table 3–8 是 FDA 配套资源总目录）、`source-lmono.md`（L.mono 指南，II.A 的 Table 1 逐条列出它涉及的 7 条 CGMP 要求）。
 - 已收（补）：`source-defect-levels-handbook.md`（Food Defect Levels Handbook 网页正文，第六来源，见 CAP-15）、`source-allergen-ed5.md`（过敏原 Q&A Ed.5 2025-01 修订终版，替代 2022 草案/终版）。注意 Handbook 给的是阈值出处，不是抽样与检验作业指导。
 - 已收（补，第七来源）：`source-cpgm-7303-040-2025.md`（CPGM 7303.040 现行版 `2025-CPM-HFP-001`，签发 08/29/2025，50 页；见 CAP-16 `inspection-readiness`）与 `source-cpgm-7303-040-2020.md`（`2020-CPGM-CFSAN-003`，**已废止的历史对照**）。注意 CPGM 是 FDA 给检查员的内部作业指导，给的是检查类型、分级口径与记录举证路径，不是抽样与制样作业指导。
 - 已收（检查视角）：CPGM 7303.040 现行版（CAP-16）、CP 7303.050 抽样 program（CAP-17）、IOM 2026 Chapter 5（CAP-18）。

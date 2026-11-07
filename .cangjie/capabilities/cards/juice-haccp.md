@@ -1,8 +1,8 @@
 # 果汁 HACCP 体系（21 CFR Part 120 法规正文）（juice-haccp）
 
-*来源分层：本卡取用**单套法规正文**——**21 CFR Part 120**〔§ 120.xxx〕（Hazard Analysis and Critical Control Point (HACCP) Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）。它是**独立的 HACCP 体系法规**，不是「果汁版的 Part 117」，也不是 Part 117 的子集；与 Part 117 的关系由〔§ 120.5〕一句话锁定（Part 117 默认适用，〔§ 117.5(c)〕为唯一例外出口）。*
+*来源分层：本卡取用**单套法规正文**——**21 CFR Part 120**〔§ 120.xxx〕（Hazard Analysis and Critical Control Point (HACCP) Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）。它是**独立的 HACCP 体系法规**，不是「果汁版的 Part 117」，也不是 Part 117 的子集；与 Part 117 的关系由〔§ 120.5〕一句话锁定（Part 117 默认适用，〔§ 117.5(c)〕为唯一例外出口），而〔§ 117.5(c)〕的条文原话**自 v4.14 起已在包内**（`books/_inbox/21-CFR-Part-117-2025.md`，Part 117 全文 160,825 字节 / 3,577 行）。*
 
-*⚠ **本卡补的是全包最后一处「成熟法规但只有转引」的缺口**：`seafood-haccp-statutory-requirements`（CAP-22）的 A2 第 22 条、`seafood-hazards-controls-guide`（CAP-23）头注、`lacf-statutory-requirements`（CAP-20）B10、`emergency-permit-control`（CAP-25）B10、`cgmp-compliance-guide`（CAP-15）未收清单、`reference-tools-discipline` 第 12 条，此前一律把 **part 120 正文**标为「转引未收」。自 v4.13 起改为正向引用〔§ 120.xxx〕。仍属「转引未收」的是：**〔§ 117.5(c)〕逐字文本**（本包只有 Part 117 的接口结论，无该款原文）、part 110 正文、CP 7303.047 果汁 program 全文、CPG / Import Alert 全文、BAM 方法全文。*
+*⚠ **本卡补的是全包最后一处「成熟法规但只有转引」的缺口**：`seafood-haccp-statutory-requirements`（CAP-22）的 A2 第 22 条、`seafood-hazards-controls-guide`（CAP-23）头注、`lacf-statutory-requirements`（CAP-20）B10、`emergency-permit-control`（CAP-25）B10、`cgmp-compliance-guide`（CAP-15）未收清单、`reference-tools-discipline` 第 12 条，此前一律把 **part 120 正文**标为「转引未收」。自 v4.13 起改为正向引用〔§ 120.xxx〕。仍属「转引未收」的是：part 110 正文、CP 7303.047 果汁 program 全文、CPG / Import Alert 全文、BAM 方法全文。⚠ v4.13 曾把〔§ 117.5(c)〕也列为「转引未收」——那是因为第二来源（Part 117 正文）在 metadata 里声明了却**从未随仓库分发**；v4.14 该文件已入库，全包 21 处〔§ 117.xxx〕引文经 `.cangjie/verify_v4_14_part117_quotes.py` 追溯核验 **21/21 命中**，此处不再标未收。*
 
 *本卡定位：给**果汁 HACCP 的实体法定义务**——适用边界、危害分析、计划七要素、纠正措施、验证与确认、记录、培训、进口商义务，以及 Subpart B 的 **5-log** 与 **E. coli 专项验证**。不覆盖：检查员取证口径（CP 7303.047 未收）、F0/D/z 计算、BAM 检测方法全文、以及基于 GC/MS 的香气成分等质量指标。*
 
@@ -34,6 +34,16 @@
 
 > "Except as provided by § 117.5(c), parts 110 and 117 of this chapter apply in determining whether the facilities, methods, practices, and controls used to process juice are safe, and whether the food has been processed under sanitary conditions."
 > —— 〔§ 120.5〕；**Part 117 是默认适用**，`Except as provided by § 117.5(c)` 是唯一例外出口，且是条件性的
+
+**③b 该出口的条文原话（§117.5(c)，v4.14 起可逐字核对）**：
+
+> "Subparts C and G of this part do not apply with respect to activities that are subject to part 120 of this chapter (Hazard Analysis and Critical Control Point (HACCP) Systems) at a facility if you are required to comply with, and are in compliance with, part 120 of this chapter with respect to such activities."
+> —— 〔§ 117.5(c)〕；`required to comply with, and are in compliance with` 是**两个并列条件**——企业未遵守 Part 120 时豁免不成立
+
+**③c 与 (d) 的关键差异：(c) 没有范围限缩款（逐字对照）**：
+
+> "The exemption in paragraph (d)(1) of this section is applicable only with respect to the microbiological hazards that are regulated under part 113 of this chapter."
+> —— 〔§ 117.5(d)(2)〕；(c) **没有**对应条款，故 part 120 活动范围内的 Subparts C/G 要求**全部**被豁免（含非微生物危害），但**仅限**受 part 120 管辖的 activities
 
 **④ 危害分析（§120.7）**：
 
@@ -113,18 +123,18 @@
 我最想钉死的是**四件事**：
 
 1. **5-log 是法定要求，不是建议**。〔§ 120.24(a)〕的 `shall include ... a 5 log (i.e., 10⁵) reduction` 是 `shall`，而且要求覆盖**货架期**与**正常及中度滥用条件**。目标菌是 `pertinent microorganism` = 果汁中可能出现的**最耐热、具公共卫生意义**的微生物。凡答「FDA 建议 5-log」「目标是沙门氏菌」「做一次验证即可」都是错的。
-2. **Part 117 默认适用，不要因为「有 Part 120」就整厂脱离 PCHF**。〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 说明：受 Part 120 管辖只换出口，不换默认。而 **〔§ 117.5(c)〕的逐字文本不在本包**，所以我只能给「该款是条件性豁免」这个结论，**不能替它编措辞**——需要引用该款原文时一律标「转引未收」。
+2. **Part 117 默认适用，不要因为「有 Part 120」就整厂脱离 PCHF**。〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 说明：受 Part 120 管辖只换出口，不换默认。而〔§ 117.5(c)〕的原文（v4.14 起可逐字核对）是两个**并列条件**：`if you are required to comply with, and are in compliance with, part 120` —— 企业不合规时豁免不成立。更关键的是它**没有 (d)(2) 那样的范围限缩**：part 120 管辖活动范围内的 Subparts C/G 要求全部被豁免（含非微生物危害），但豁免边界止于「受 part 120 管辖的 activities」——纯采收、运输、零售仍在 Part 117 内自判。
 3. **两处豁免范围极窄，且豁免的对象不同**：〔§ 120.24(a)(1)(2)〕豁免的是 **5-log 这个工艺控制指标**；〔§ 120.7(e)〕豁免的是 **HACCP 计划中对「part 113/114 已控制的微生物与微生物毒素」危害的处理**。前者不减 Subpart A 义务，后者不减化学/物理/过敏原危害。把两处混成「受 113/114 管辖就不用做果汁 HACCP」是双重错误。
 4. **文档时限是「日历 7 天」，不是「7 个工作日」**。〔§ 120.11(a)(1)(iv)(A)(B)〕写的是 `within 1 week (7 days)`；(C) 的校准与检验记录才放宽到 `within a reasonable time`。同时〔§ 120.25(a)〕里又出现 `working days`——**同一部法规里两种日并存，不可互换**。
 
 第三件是**记录保存的第六套口径**：〔§ 120.12(d)(1)〕易腐/冷藏 ≥1 年、冷冻/保藏/货架稳定 2 年或货架期孰长，起算点是**产品制备日**。加上已有的〔§ 108.25(g)〕3 年、〔§ 108.35(h)〕1+2、〔§ 113.100(g)〕1+2、〔§ 114.100(e)〕3 年、〔§ 123.9(b)(1)〕1 年/2 年，全包现在有**六套记录期**，任何「一般保存 3 年」的笼统答法都不成立。
 
-我拒绝四件事：把 5-log 说成建议层；把 §120.25 的 E. coli 检测说成所有果汁厂的常规出厂检验；据 §120.5 反推 §117.5(c) 的条文措辞；把六套记录期合并成一句话。
+我拒绝四件事：把 5-log 说成建议层；把 §120.25 的 E. coli 检测说成所有果汁厂的常规出厂检验；用 (b)/(d) 的措辞替 (c) 编原话（现在有原文，直接引）；把六套记录期合并成一句话。
 
 ## A1 — 书中案例
 
 **案例 1：客户问「我们做 NFC 橙汁，是走 Part 117 还是 Part 120？」**
-两者都走，但层次不同。〔§ 120.5〕规定 `Except as provided by § 117.5(c), parts 110 and 117 of this chapter apply`——Part 117 是默认适用的 CGMP + PCHF 底座；Part 120 在此之上叠加果汁专属的 HACCP 体系（SSOP、危害分析、计划、纠正措施、验证、记录、培训）与 Subpart B 的 5-log。若企业符合〔§ 117.5(c)〕的条件，可获得 Subparts C/G 的**条件性**豁免，但 CGMP（Subpart B）仍在。**正确答法是把「默认适用 + 条件性出口 + 果汁专项叠加」三层讲清**，而不是二选一。
+两者都走，但层次不同。〔§ 120.5〕规定 `Except as provided by § 117.5(c), parts 110 and 117 of this chapter apply`——Part 117 是默认适用的 CGMP + PCHF 底座；Part 120 在此之上叠加果汁专属的 HACCP 体系（SSOP、危害分析、计划、纠正措施、验证、记录、培训）与 Subpart B 的 5-log。若企业满足〔§ 117.5(c)〕的**双条件**（`required to comply with, and are in compliance with, part 120`），可获得 Subparts C/G 的**条件性**豁免，且该款**没有 (d)(2) 式的微生物限缩**——part 120 活动范围内的要求全部移出 C/G；但 CGMP（Subpart B）仍在，且边界止于受 part 120 管辖的 activities。**正确答法是把「默认适用 + 条件性出口 + 果汁专项叠加」三层讲清**，而不是二选一。
 
 **案例 2：厂里说「我们的 5-log 是照着 FDA 指南做的，不是硬性要求」。**
 这是效力误判。〔§ 120.24(a)〕原文是 `shall include in their HACCP plans control measures that will consistently produce, at a minimum, a 5 log (i.e., 10⁵) reduction`，是 `shall`；且须覆盖**货架期**、在**正常与中度滥用条件**下成立。目标菌按同款定义为 `the most resistant microorganism of public health significance that is likely to occur in the juice`。所以「做了 5-log 验证」不够，还要证明**持续性**（consistently）与**货架期覆盖**。若该厂同时是 LACF 或酸化食品（受 part 113/114 管辖），才可能落入〔§ 120.24(a)(1)〕的豁免——但豁免的只是 5-log，不是整套 HACCP。
@@ -170,6 +180,8 @@
 28. 用户问「SSOP 要不要写进 HACCP 计划」→ 可不写，〔§ 120.6(d)〕按 §120.6 监测的部分不必纳入计划。
 29. 用户问「违反 Part 120 的法律后果」→ 〔§ 120.9〕直接构成 FD&C Act 402(a)(4) 掺假。
 30. 用户问「CP 7303.047 果汁 program 查什么」→ 未收，转出本包（只给「检查员取证口径不在本卡」）。
+31. 用户问「果汁企业能不能免 Subparts C/G / 免到什么程度」→ 〔§ 117.5(c)〕：**双条件**（合规才成立）+ **无限缩款**（区别于 (d)(2) 的「仅限微生物」），故 part 120 活动范围内的 C/G 全部豁免，但纯采收/运输/零售不在内。
+32. 用户问「§117.5(b)(c)(d) 是不是一回事」→ 结构同构、范围不同：(b) part 123 与 (c) part 120 **都无**范围限缩款，(d) part 113 有 (d)(2) 把豁免限定在微生物危害；三者条款号与 scope 各自独立，不得互套。
 
 ## E — 执行要点
 
@@ -179,7 +191,7 @@
 
 | 层 | 内容 | 法条 |
 |---|---|---|
-| 底座（默认适用） | CGMP + PCHF；出口仅〔§ 117.5(c)〕且条件性 | 〔§ 120.5〕（§117.5(c) 全文**转引未收**） |
+| 底座（默认适用） | CGMP + PCHF；出口仅〔§ 117.5(c)〕，**双条件且无限缩款** | 〔§ 120.5〕〔§ 117.5(c)〕（v4.14 起可逐字核对） |
 | 果汁专项（Subpart A） | SSOP 八项〔§ 120.6〕、书面危害分析〔§ 120.7〕、HACCP 计划七要素〔§ 120.8〕、纠正措施〔§ 120.10〕、验证与确认〔§ 120.11〕、记录〔§ 120.12〕、培训〔§ 120.13〕、进口商〔§ 120.14〕 | 〔§ 120.xxx〕 |
 | 专项增量（Subpart B） | 5-log〔§ 120.24〕；果面处理者的 E. coli 验证〔§ 120.25〕 | 〔§ 120.xxx〕 |
 
@@ -202,7 +214,7 @@
 
 **Step 5 — 与其余五套法规正文（Part 108 / 113 / 114 / 117 / 123）交叉时，先判轨道再引条款。** LACF（Part 113）、酸化食品（Part 114）、海产品（Part 123）、紧急许可（Part 108）各有独立编号与独立豁免结构；果汁只是**又一轨**。交叉点只有三处：〔§ 120.24(a)(1)〕（113/114 管辖者免 5-log）、〔§ 120.7(e)〕（113/114 已控制的微生物与毒素危害免于计划处理）、〔§ 120.5〕（Part 117 默认适用）。
 
-**Step 6 — 收尾声明。** 每条结论标〔§ 120.xxx〕或「CP 7303.047（转引未收）」；〔§ 117.5(c)〕措辞、part 110 正文、BAM 方法、CPG / Import Alert 全文一律标「转引未收」。⚠ `5 log (i.e., 105)` 是 PDF 文本层上标丢失，引用时须还原为 10⁵ 并注明。**全包自 v4.13 起十八类不可混引，当前为 26 张能力卡。**
+**Step 6 — 收尾声明。** 每条结论标〔§ 120.xxx〕或「CP 7303.047（转引未收）」；part 110 正文、BAM 方法、CPG / Import Alert 全文一律标「转引未收」。⚠ `5 log (i.e., 105)` 是 PDF 文本层上标丢失，引用时须还原为 10⁵ 并注明。**全包自 v4.13 起十八类不可混引，当前为 26 张能力卡。**
 
 ## B — 边界
 
@@ -212,7 +224,7 @@
 
 **B3 — §120.25 只适用于果面处理者，不是通用出厂检验。** 适用条件是 `relies on treatments that do not come into direct contact with all parts of the juice`。靠热力杀菌达成 5-log 的厂，成品/在制品检验在〔§ 120.11(a)(1)(iii)〕下是 `At the option of the processor`。把 E. coli 检测写成「所有果汁厂的强制出厂检验」是超范围适用；反过来，把果面处理厂的检测写成「可选」则是漏掉强制项。
 
-**B4 — Part 117 是默认适用；〔§ 117.5(c)〕是唯一且条件性的出口，但其全文未收。** 〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 只告诉我们「有一个出口」，不告诉我们出口的条件原文。**不得据 §120.5 反推 §117.5(c) 的措辞**，也不得把 §117.5(b)（part 123）或 §117.5(d)（part 113）的写法套到 (c) 上——三者虽同构，但条款号与适用范围各自独立。需引用该款原文时标「转引未收」。
+**B4 — Part 117 是默认适用；〔§ 117.5(c)〕是唯一出口，且是「双条件 + 无限缩」。** 〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 定默认；〔§ 117.5(c)〕定出口，原文（v4.14 起在包内，`books/_inbox/21-CFR-Part-117-2025.md`）是 `if you are required to comply with, and are in compliance with, part 120 of this chapter with respect to such activities`——**两个并列条件**，不合规即豁免不成立，不得写成「果汁自动免 PCHF」。⚠ 与 (d) 的差异是实质性的：(d)(2) 把豁免限定在 part 113 管辖的**微生物危害**，(c) **没有**对应限缩款，所以 part 120 活动范围内 Subparts C/G 的全部要求（含非微生物危害）都被豁免——但边界止于「受 part 120 管辖的 activities」，纯采收/运输/零售不在内，仍回 Part 117 自判；且豁免不含 Part 117 Subpart B 的 CGMP（〔§ 120.5〕的 `parts 110 and 117 ... apply` 只在 (c) 范围内被替换）。不得把 (d)(2) 的「仅限微生物」口径套到 (c) 上，反之亦然。
 
 **B5 — 两处豁免对象不同，不得合并。** 〔§ 120.24(a)(1)(2)〕免 **5-log 这一工艺控制指标**；〔§ 120.7(e)〕免 **HACCP 计划中对「part 113/114 已控制的微生物与微生物毒素危害」的处理**。前者的豁免对象是「一项控制要求」，后者是「一类危害的计划处理」；两者可以同时成立，也可以只成立其一。
 
@@ -224,4 +236,4 @@
 
 **B9 — 法律后果由法条直接给。** 〔§ 120.9〕：未建立并实施符合 §§120.6/120.7/120.8 的 HACCP 体系，或未按本 part 运行 → 产品**依 FD&C Act 402(a)(4) 构成掺假**。这与「不符合 CGMP 因而可能被认定掺假」的间接路径不同，不要绕道论证。
 
-**B10 — 引用规范与未收清单。** 本卡标〔§ 120.xxx〕；Part 117 标〔§ 117.xxx〕。⚠ **〔§ 117.5(c)〕逐字文本未收**、part 110 正文未收、CP 7303.047（果汁 program）未收、CPG 与 Import Alert 全文未收、BAM / AOAC 检测方法全文未收——凡涉这些内容一律标「转引未收」。⚠ `5 log (i.e., 105)` 的 `105` 是 PDF 文本层上标丢失，引用须还原为 10⁵ 并注明。**十八类不可混引，当前 26 张能力卡。**
+**B10 — 引用规范与未收清单。** 本卡标〔§ 120.xxx〕；Part 117 标〔§ 117.xxx〕（〔§ 117.5(c)〕原文 v4.14 起在包内，可逐字引）。⚠ part 110 正文未收、CP 7303.047（果汁 program）未收、CPG 与 Import Alert 全文未收、BAM / AOAC 检测方法全文未收——凡涉这些内容一律标「转引未收」。⚠ `5 log (i.e., 105)` 的 `105` 是 PDF 文本层上标丢失，引用须还原为 10⁵ 并注明。**十八类不可混引，当前 26 张能力卡。**

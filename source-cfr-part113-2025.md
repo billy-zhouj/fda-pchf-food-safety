@@ -6,7 +6,7 @@
 ## 效力层级与使用边界（导入说明，非原文）
 
 - 本件是 **联邦法规正文**，具法律约束力，与已收的 21 CFR Part 117 同级。这是本包**首次纳入 Part 117 之外的法规正文**；自此「法规正文层」含〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕三套**独立编号体系**，`regulatory-boundaries` 里「Part 117 是唯一法定义务判定基准」须理解为「判定 **Part 117 义务**的唯一基准」，不再能解释为「全包唯一法条」。
-- **与 Part 117 的接口（三处，逐字核对 `../_inbox/21-CFR-Part-117-2025.md`）**：
+- **与 Part 117 的接口（三处，逐字核对 `books/_inbox/21-CFR-Part-117-2025.md`——该文件自 v4.14 起随仓库分发，160,825 字节 / 3,577 行）**：
   - 〔§ 117.1(c)〕`Food covered by specific current good manufacturing practice regulations also is subject to the requirements of those regulations.` —— 受专项 CGMP 管辖的食品**同时**受 Part 117 约束，是并行而非替代。
   - 〔§ 117.5(d)(1)〕Subparts C/G 对 part 113 覆盖的活动不适用，**但条件是** `if you are required to comply with, and are in compliance with, part 113 of this chapter with respect to such activities` —— 这是**条件性豁免**，企业未遵守 part 113 时豁免不成立；不得写成「LACF 自动豁免 PCHF」。
   - 〔§ 117.5(d)(2)〕`The exemption in paragraph (d)(1) of this section is applicable only with respect to the microbiological hazards that are regulated under part 113 of this chapter.` —— 仅限 part 113 管辖的微生物危害；其余需预防控制的危害仍归 Subparts C/G。

@@ -3,7 +3,7 @@
 - **书名**: Draft Guidance for Industry: Hazard Analysis and Risk-Based Preventive Controls for Human Food (Full Guidance)
 - **作者**: U.S. FDA, Center for Food Safety and Applied Nutrition (Office of Food Safety)
 - **主来源**: books/fda-pchf-human-food-guidance/source.md (1.66MB, 19461 行)
-- **第二来源**: books/_inbox/21-CFR-Part-117-2025.md（21 CFR Part 117 法规正文，2025）
+- **第二来源**: books/_inbox/21-CFR-Part-117-2025.md（21 CFR Part 117 法规正文，2025；**v4.14 起随仓库分发**，此前仅声明路径）
 - **第三来源**: books/fda-pchf-human-food-guidance/source-lmono.md（FDA《Control of Listeria monocytogenes in Ready-To-Eat Foods》Draft, 2017-01，212KB / 3128 行，21 章 + 5 附录）
 - **第四来源**: books/fda-pchf-human-food-guidance/source-secg.md（FDA《What You Need to Know About the FDA Regulation: 21 CFR Part 117 — Small Entity Compliance Guide》, **October 2016**, Docket FDA-2011-N-0920；由 WorkBuddy 资料库文档转换，15 章 / 107KB）
 - **第五来源**: books/fda-pchf-human-food-guidance/source-allergen-ed5.md（FDA 食品过敏原标签问答 Ed.5，2025-01 修订终版；27 页 / 68 书签）
@@ -355,4 +355,21 @@
 - **静态登记核对**：`.cangjie/check_v4_13_routing.py` **37/37 PASS** —— 26 卡 / 52 principles / 26 stops / 17 additional_sources（末条 `src-21-cfr-part-120-2025`）、CAP-26 `active`·`extended`·also_read 11 条、反向辅读链 9 张、能力索引主行 1 行、SKILL.md 无「十七类」残留且含「十八类」、CAP-26 26 个引用块、覆盖 120.1/.3/.5/.7/.8/.9/.11/.12/.14/.24/.25、meta 67 intents / 127 keywords、产物与安装目录 hash 差异 0。
 - **评测**：本版尚未重跑触发 / 输出 / 路由评测，v4.7–v4.12 的既有结论不得冒用。
 - **仍未收**：〔§ 117.5(c)〕逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 全套、Import Alert 全文、BAM / AOAC 方法全文。
+
+## v4.14 — 第二来源 Part 117 正文补入仓库 + §117.5(c) 升为条款级（26 张卡不变）
+
+> 本节修的是**出处可复核性**，不是新增来源类别：全包仍 **十八类不可混引 / 26 张卡**。
+
+- **问题（v1–v4.13 一直存在）**：`additional_sources[0]` 自 v1 起就声明第二来源是 21 CFR Part 117 全量条文（`books/_inbox/21-CFR-Part-117-2025.md`，声称 160KB / 3577 行），但该文件**从未随仓库分发**——`git log --all -- "*_inbox*"` 为空、`.gitignore` 无相关规则、整个工作区树内无 `_inbox` 目录。后果：`cgmp-compliance-guide` 写着「本包可逐字核对」、`source-cfr-part113-2025.md` 写着「逐字核对 `../_inbox/...`」，而全包〔§ 117.xxx〕引文在本仓库内**都无法复核**；v4.13 的 CAP-26 只能把〔§ 117.5(c)〕标为「转引未收」。
+- **修复**：用户提供 `21-CFR-Part-117-2025.md`（**160,825 字节 / 3,577 行**，与 metadata 声称的规模完全一致），落到 `books/_inbox/21-CFR-Part-117-2025.md`，sha256 `dad643170e0c871d…`，与用户原文件逐字节一致。
+- **追溯核验（本轮新增脚本）**：`.cangjie/verify_v4_14_part117_quotes.py` 对全包所有「引文块 + 紧接归属行 `> —— 〔§ 117.xxx〕`」做归一化核验 —— **23/23 命中**。设计上有三处防假差异：① 带省略号的**节引**按 `...` / `…` 切段、逐段按顺序命中；② `[url](url)` 形式的重复链接先折叠（源文件把同一 URL 写两遍，卡片转录时去重）；③ 归属行必须**紧跟 § 编号**，排除「引 CP / 指南、注释里提到 117」的误配。首版脚本曾报 26 处未命中，全部为上述三类假差异，逐类修掉后清零 —— **历史引文无一处措辞错误**。
+- **实质升级：〔§ 117.5(c)〕由「转引未收」变为条款级**。原文：`Subparts C and G of this part do not apply with respect to activities that are subject to part 120 of this chapter (Hazard Analysis and Critical Control Point (HACCP) Systems) at a facility if you are required to comply with, and are in compliance with, part 120 of this chapter with respect to such activities.` 新增两点判定：
+  1. **双条件**：`required to comply with` **且** `in compliance with` —— Part 120 不合规时豁免不成立（与 (b)(d) 同构，此前只能推断，现在有原文）。
+  2. **无范围限缩款**：对照〔§ 117.5(d)(2)〕`The exemption in paragraph (d)(1) of this section is applicable only with respect to the microbiological hazards that are regulated under part 113 of this chapter.` —— (c) **没有**对应条款，故 part 120 活动范围内 Subparts C/G 的要求**全部**移出（含非微生物危害）；(b) part 123 同样无限缩款。边界仍止于「受该 part 管辖的 activities」，且豁免不含 Part 117 Subpart B 的 CGMP。
+- **改动清单（11 个文件）**：`juice-haccp.md`（头注 + R 段新增 §117.5(c) 与 (d)(2) 两个引用块 + I 段 + 案例 1 + A2 新增第 31/32 条 + 执行表 + Step 6 + B4 重写 + B10）、`_meta-juice-haccp.yaml`（intents 67 → 68）、`lacf-statutory-requirements.md`（A2-18 与 Step 6）、`cgmp-compliance-guide.md`（「本仓库可逐字核对」+ Subparts A–G 全文）、`source-cfr-part120-2025.md`（接口段 ③ 重写）、`source-cfr-part113-2025.md`（`../_inbox/` → `books/_inbox/` 并注明已随仓库分发）、`assemble_bundle.py`（第二来源 note 补 §117.5(c) 分析）、`BOOK_OVERVIEW.md` / `PIPELINE_STATE.md` / `DIGEST.md`、`candidates/glossary.md`（新增 t213 与「第二来源补齐」自检行）、`test-prompts.json`（+2 条 `part117-exemption-*`）。
+- **术语与用例**：`candidates/glossary.md` 212 → **213 条**（t213：§117.5 四款豁免的结构差异，含 (b)(c) 无限缩 vs (d) 有限缩）；严格 `yaml.safe_load` 通过、id 唯一。`test-prompts.json` 145 → **147 条**，version → **4.14**。
+- **编译与安装**：`compile_single.py --out dist-v18` 产出 **31 个 .md / 26 张卡**；`validate_skill_pack.py dist-v18` **0 errors + 1 warning**（`name-dir` 固有）；`.cangjie/install_v14.py` 覆盖安装，旧版备份 `backups/fda-pchf-food-safety-v4.13-<stamp>`；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **31/31 文件 hash 差异 0**，glossary 5 份副本同 hash（`437b5bb58f11984b…`）、严格解析 213 条 id 唯一。
+- **静态登记核对**：`.cangjie/check_v4_14_routing.py` **38/38 PASS** —— 26 卡 / 52 principles / 26 stops / 17 sources、CAP-26 `also_read` 11 条、反向链 9 张、CAP-26 **28 个引用块**（新增 §117.5(c) 与 (d)(2) 对照）、SKILL.md 无「十七类」残留、产物与安装目录 hash 差异 0。
+- **评测**：本版未重跑触发 / 输出 / 路由评测；v4.7–v4.13 的既有结论不得冒用。
+- **仍未收**：21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 全套、Import Alert 全文、BAM / AOAC 方法全文。
 

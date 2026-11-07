@@ -44,12 +44,16 @@ def main() -> int:
     lines = CARD.read_text(encoding="utf-8").split("\n")
 
     quotes: list[tuple[int, str]] = []
-    for n, ln in enumerate(lines, 1):
+    raw = CARD.read_text(encoding="utf-8").split("\n")
+    for n, ln in enumerate(raw, 1):
         s = ln.strip()
         if not s.startswith("> "):
             continue
         q = s[2:].strip()
         if q.startswith("——") or len(q) < 40:
+            continue
+        # 归属为〔§ 117.xxx〕的引文由 verify_v4_14_part117_quotes.py 负责，此处跳过
+        if n < len(raw) and raw[n].strip().startswith("> —— 〔§ 117."):
             continue
         quotes.append((n, q))
 

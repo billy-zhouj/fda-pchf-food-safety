@@ -2218,6 +2218,18 @@
   summary: 两处豁免的**对象不同**：① 〔§ 120.24(a)(1)〕受 part 113 / 114 管辖者、〔§ 120.24(a)(2)〕单次热力步骤达货架稳定或含全部配料热处理的浓缩工艺——免的是 **5-log 这一工艺控制指标**，且 (a)(2) 以「把热力工艺副本纳入〔§ 120.7〕书面危害分析」为条件；② 〔§ 120.7(e)〕免的是 **HACCP 计划中对「part 113/114 已控制的微生物与微生物毒素」危害的处理**——范围**只到微生物类**，化学/物理/过敏原危害仍须控制。两者可同时成立也可只成立其一；把二者混成「受 113/114 管辖就不用做果汁 HACCP」是双重错误。另〔§ 120.5〕的 `Except as provided by § 117.5(c), parts 110 and 117 ... apply` 是 Part 117 默认适用的接口，而〔§ 117.5(c)〕逐字文本**本包未收**，不得反推。
   tags: [法定豁免, 法条接口, 高频误读, 十八来源]
 
+- id: t213
+  title: §117.5 四款豁免的结构差异（(b)(c) 无限缩款 vs (d) 有限缩）
+  type: term
+  source_chapter: 21 CFR 117.5(a)–(g)（Part 117 全文，v4.14 起随仓库分发）
+  source_quote: |
+    "Subparts C and G of this part do not apply with respect to activities that are subject to part 120 of this
+    chapter (Hazard Analysis and Critical Control Point (HACCP) Systems) at a facility if you are required to comply
+    with, and are in compliance with, part 120 of this chapter with respect to such activities."
+    —— 〔§ 117.5(c)〕
+  summary: 四款结构同构、**范围不同**，不可互套：(a) qualified facility → 转〔§ 117.201〕modified requirements；**(b) part 123 水产品** 与 **(c) part 120 果汁** 都是「双条件 + **无限缩款**」——`required to comply with, and are in compliance with` 两个并列条件，不合规即豁免不成立，而豁免范围内 Subparts C/G 的要求**全部**移出（含非微生物危害）；**(d) part 113 低酸罐头** 有 (d)(1) 双条件豁免 + **(d)(2) 限缩**：`applicable only with respect to the microbiological hazards that are regulated under part 113`，其余危害仍归 C/G；(e) 膳食补充剂按 part 111 + FD&C Act §761；(f) 受 §419 produce safety 管辖的活动；(g) farm mixed-type facility 的特定 pack/hold 情形。⚠ 关键判读：**不要因为 (d) 有限缩就以为 (c) 也有**，也不要因为 (c) 无限缩就以为「整厂免 PCHF」——边界止于「受该 part 管辖的 activities」，且豁免不含 Part 117 Subpart B 的 CGMP。
+  tags: [法定豁免, 条款结构, 高频误读, 第二来源补齐]
+
 ```
 
 ## 自检记录
@@ -2249,5 +2261,8 @@
 - [x] 第十七来源 **21 CFR Part 108**（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款）法规正文已并入，术语 t193–t202 共 10 条，围绕「手续层 vs 实体层」与「许可=救济不是常态」排布：emergency permit 的法定定义与临时性 → FCE 注册（2541，10 天/报检前）→ 工艺备案（2541e/2541d/2541f/2541g，60 天）与「备案≠批准」→ prima facie basis → working days 与日历天两种时限 → 无证生产的扣留与事先书面批准 → §801 拒绝入境 → BPCS 受训主管 → 记录保存四套口径 → 故意变更的边界（升参数不算）。引文取自 CAP-25 R 段经 `.cangjie/verify_v4_12_quotes.py` 核验的 **27 个英文引用块**（27/27 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 108.xxx〕，与〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；2541 系列表单栏目细则、FURLS / Center Views 操作、part 110/120 等未收正文一律标『转引未收』。全库 **202 条**，v4.12，**十七类来源不可混引**。
 
 - [x] 第十八来源 **21 CFR Part 120**（HACCP Systems，4-1-25 Edition，10 页 / 15 条款）法规正文已并入，术语 t203–t212 共 10 条，围绕「独立 HACCP 体系 + 与 Part 117 的条件性接口」排布：juice 管辖与三项排除 → 5-log 的法定性 → pertinent microorganism → HACCP 计划七要素 → reasonably likely to occur 的 prudent processor 判定 → SSOP 八项与计划的关系 → 记录复审 1 周（7 日历天） → 记录保存第六套口径 → 果面处理的 biotype I E. coli 专项验证 → 两处豁免的对象差异。引文取自 CAP-26 R 段经 `.cangjie/verify_v4_13_quotes.py` 核验的 **26 个英文引用块**（26/26 命中正文区，0 超 100 词、0 表格引用）。原文标〔§ 120.xxx〕，与〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 123.xxx〕并列但互不混引；〔§ 117.5(c)〕逐字文本、part 110 正文、CP 7303.047、CPG / Import Alert / BAM 全文一律标『转引未收』。全库 **212 条**，v4.13，**十八类来源不可混引**。
+
+- [x] **第二来源 21 CFR Part 117 全文自 v4.14 起随仓库分发**（`books/_inbox/21-CFR-Part-117-2025.md`，160,825 字节 / 3,577 行）。该件自 v1 起就在 metadata 里声明为「第二来源」，但文件从未入库，导致全包〔§ 117.xxx〕引文长期无法在本仓库内复核——v4.13 的 CAP-26 因此把 §117.5(c) 标为「转引未收」。本轮补入后新增术语 **t213**（§117.5 四款豁免的结构差异），并对全包 **23 处**〔§ 117.xxx〕引文做追溯核验（`.cangjie/verify_v4_14_part117_quotes.py`，**23/23 命中**，含 2 处带省略号的节引按段核验）。全库 **213 条**，v4.14。
+
 
 

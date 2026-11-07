@@ -14,7 +14,9 @@ book:
     content_type: regulation（最终规则，具法律约束力）
     source_id: src-21-cfr-part-117-2025
     source_file: books/_inbox/21-CFR-Part-117-2025.md
-    note: Subparts A–G 全量条文，用于提供法定义务、法定例外与时限的权威出处；卡内以〔§ 117.xxx〕标注
+    note: Subparts A–G 全量条文（160,825 字节 / 3,577 行），用于提供法定义务、法定例外与时限的权威出处；卡内以〔§ 117.xxx〕标注。⚠ 该文件此前只在 metadata 里声明、**未随仓库分发**（v1–v4.13），致全包〔§
+      117.xxx〕引文无法在本仓库内复核；v4.14 已入库并经 `.cangjie/verify_v4_14_part117_quotes.py` 追溯核验 23/23 命中。其中〔§ 117.5(c)〕是 Part 120 的豁免出口：**双条件（required
+      to comply with 且 in compliance with）+ 无限缩款**，与 (d)(2) 的『仅限微生物危害』不同；§117.5(b)（part 123）同样无限缩款。
   - title: 'Control of Listeria monocytogenes in Ready-To-Eat Foods: Guidance for Industry (Draft)'
     author: U.S. FDA, CFSAN
     year: 2017-01（Draft – Not for Implementation）
@@ -3418,15 +3420,16 @@ capabilities:
     pertinent microorganism＝最耐热、具公共卫生意义、可能出现在该果汁中的微生物）；③ 把 §120.25 的 biotype I E. coli 检测当成所有果汁厂的强制出厂检验（实为果面处理者专项）；④ 把两处豁免混为一谈（120.24(a)(1)(2)
     免 5-log 指标；120.7(e) 免「part 113/114 已控制的微生物与微生物毒素」危害的计划处理）；⑤ 记录复审写成 7 个工作日（果汁是 1 week / 7 日历天）或记录期套用 3 年（果汁是 1 年 / 2 年或货架期孰长，起算点为产品制备日）。属入口型法条判定能力，与
     Part 117 / 108 / 113 / 114 / 123 五套编号交叉但各自独立，故定 extended。
-  one_liner: 先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认 Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（全文未收）；果汁专项叠加 Subpart
-    A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7 日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。
+  one_liner: 先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认 Part 117 默认适用、〔§ 117.5(c)〕为唯一出口（**双条件 + 无限缩款**，原文 v4.14
+    起在包内）；果汁专项叠加 Subpart A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7 日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。
   intents:
   - 判定某产品是否受 21 CFR Part 120 管辖（juice 定义、饮料配料用途、浓缩物/果泥）
   - 说明生鲜农原料不适用本 part〔§ 120.1(a)〕及其与〔§ 120.3(j)(2)〕排除项的配套关系
   - 按〔§ 120.3(j)(2)〕排除采收/采摘/运输与零售经营两类活动
   - 按〔§ 120.3(l)〕判定是否属零售 establishment（同时向其他企业销售则不属）
-  - 解释〔§ 120.5〕Part 117 默认适用与〔§ 117.5(c)〕唯一条件性出口
-  - 说明〔§ 117.5(c)〕全文未收，不得据 §120.5 反推该款措辞
+  - 解释〔§ 120.5〕Part 117 默认适用与〔§ 117.5(c)〕唯一出口（双条件 + 无限缩款）
+  - 对比〔§ 117.5(b)(c)(d)〕四款的结构与范围差异：(b)(c) 无限缩款、(d) 有 (d)(2) 仅限微生物危害
+  - 引〔§ 117.5(c)〕原文说明其「required to comply with 且 in compliance with」双条件，并指出该款无 (d)(2) 式微生物限缩
   - 回答果汁企业是否同时受 Part 117 CGMP 与 PCHF 约束
   - 回答果汁 HACCP 何时必须建立（危害分析显示合理可能发生的危害）
   - 说明 have and implement 是两份义务（有书面文件 + 在运行）
@@ -3631,10 +3634,11 @@ capabilities:
   card: cards/juice-haccp.md
   frontmatter:
     description: 果汁 HACCP 体系（21 CFR Part 120 法规正文）与 Part 117 条件性接口——先用〔§ 120.1(a)〕〔§ 120.3(j)(2)(l)〕定果汁管辖与三项排除，再按〔§ 120.5〕确认
-      Part 117 默认适用、〔§ 117.5(c)〕为唯一条件性出口（全文未收）；果汁专项叠加 Subpart A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是 7
-      日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。（来源：21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§
-      120.5〕回指 §117.5(c)（**全文未收**）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c)
-      逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文；来源定位见卡片 R 段）
+      Part 117 默认适用、〔§ 117.5(c)〕为唯一出口（**双条件 + 无限缩款**，原文 v4.14 起在包内）；果汁专项叠加 Subpart A 全套与 Subpart B 的 5-log／果面处理 E. coli 验证；两处豁免对象不同不可合并；记录复审是
+      7 日历天、记录期 1 年／2 年或货架期孰长，与其余六套口径互不通用。（来源：21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§
+      120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（原文 v4.14 起在包内：双条件 + 无限缩款）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E.
+      coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC
+      方法全文；来源定位见卡片 R 段）
     tags:
     - 21 CFR part 120
     - Part 120
@@ -3644,9 +3648,9 @@ capabilities:
     - '120.6'
   source_evidence:
   - source_id: src-main-book
-    location: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（**全文未收**）与
-      parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c) 逐字文本、21 CFR part 110 正文、CP
-      7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文
+    location: 21 CFR Part 120（HACCP Systems，4-1-25 Edition，10 页 / 15 条款，书页 439–448）法规正文〔§ 120.xxx〕；接口侧〔§ 120.5〕回指 §117.5(c)（原文
+      v4.14 起在包内：双条件 + 无限缩款）与 parts 110 / 117；专项增量 Subpart B 的 5-log〔§ 120.24〕与果面处理 E. coli 验证〔§ 120.25〕。仍属「转引未收」：§117.5(c)
+      逐字文本、21 CFR part 110 正文、CP 7303.047 果汁 program、CPG 与 Import Alert 全文、BAM / AOAC 方法全文
   promotion:
     destination: router
     gate:

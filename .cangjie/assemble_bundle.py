@@ -193,7 +193,7 @@ bundle = {
                 "content_type": "regulation（最终规则，具法律约束力）",
                 "source_id": "src-21-cfr-part-117-2025",
                 "source_file": "books/_inbox/21-CFR-Part-117-2025.md",
-                "note": "Subparts A–G 全量条文，用于提供法定义务、法定例外与时限的权威出处；卡内以〔§ 117.xxx〕标注",
+                "note": "Subparts A–G 全量条文（160,825 字节 / 3,577 行），用于提供法定义务、法定例外与时限的权威出处；卡内以〔§ 117.xxx〕标注。⚠ 该文件此前只在 metadata 里声明、**未随仓库分发**（v1–v4.13），致全包〔§ 117.xxx〕引文无法在本仓库内复核；v4.14 已入库并经 `.cangjie/verify_v4_14_part117_quotes.py` 追溯核验 23/23 命中。其中〔§ 117.5(c)〕是 Part 120 的豁免出口：**双条件（required to comply with 且 in compliance with）+ 无限缩款**，与 (d)(2) 的『仅限微生物危害』不同；§117.5(b)（part 123）同样无限缩款。",
             },
             {
                 "title": "Control of Listeria monocytogenes in Ready-To-Eat Foods: Guidance for Industry (Draft)",
