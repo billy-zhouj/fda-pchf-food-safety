@@ -1,10 +1,10 @@
 # FDA 现场取样、样品量与阳性结果应对（inspection-sampling）
 
-*来源分层：本卡取用三类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，是判定 **Part 117 义务**的唯一判定基准；Part 113 / 114 法条另见 CAP-20）与 **FD&C Act**（`402(a)(1)/(3)/(4)`、`801(a)(3)`、`704(d)`、`702(b)`）；② **FDA Compliance Program Guidance Manual 7303.050**《Sampling for Foodborne Biological Hazards and Filth – Domestic and Import》（**Date of Issuance 06/03/2022，IMPLEMENTATION DATE 06/03/2022，Correction date 09/10/2025**，62 页），是 **FDA 给检查员/分部/实验室的内部抽样作业指导**，标注「CP 7303.050 PART x / ATTACHMENT x / Table x」，不创设企业义务；③ **IOM 2026 Chapter 5**（取样时的表单与证据链，标注「IOM 5.x.x」，见 `investigator-authority-procedure` 卡）。全包自 v4.15 起**十九类不可混引**（v4.7 时为十二类）（法规正文层新增〔§ 113.xxx〕〔§ 114.xxx〕）。⚠ CP 7303.070 PART II.2.C(2) 把标 `Keep Refrigerated` 的产品（免 21 CFR 113/114）路由到本 program，分流细节见 CAP-19，法条依据见 CAP-20。*
+*来源分层：本卡取用三类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，是判定 **Part 117 义务**的唯一判定基准；Part 113 / 114 法条另见 CAP-20）与 **FD&C Act**（`402(a)(1)/(3)/(4)`、`801(a)(3)`、`704(d)`、`702(b)`）；② **FDA Compliance Program Guidance Manual 7303.050**《Sampling for Foodborne Biological Hazards and Filth – Domestic and Import》（**Date of Issuance 06/03/2022，IMPLEMENTATION DATE 06/03/2022，Correction date 09/10/2025**，62 页），是 **FDA 给检查员/分部/实验室的内部抽样作业指导**，标注「CP 7303.050 PART x / ATTACHMENT x / Table x」，不创设企业义务；③ **IOM 2026 Chapter 5**（取样时的表单与证据链，标注「IOM 5.x.x」，见 `investigator-authority-procedure` 卡）。全包自 v4.16 起**二十类不可混引**（v4.7 时为十二类）（法规正文层新增〔§ 113.xxx〕〔§ 114.xxx〕）。⚠ CP 7303.070 PART II.2.C(2) 把标 `Keep Refrigerated` 的产品（免 21 CFR 113/114）路由到本 program，分流细节见 CAP-19，法条依据见 CAP-20。*
 
 *⚠ **版本陷阱**：文件名 `20250915_...` 与首页 `Correction date: 09/10/2025` 指的是 **2022 版程序的 2025 年更正本**，不是 2025 年新签发的 program；不要套用 CPGM 7303.040 的 `2025-CPM-HFP-001` Transmittal 格式，也不要写成「2025 版 7303.050」。*
 
-*本卡定位：上一版 `inspection-readiness` 关闭了「检查类型、分级口径、记录举证」，但明确把「抽样量、制样判读、证据充分性」列为未收。本卡补上**抽样逻辑与阳性后升级路径**：判这是不是 7303.050 的样 → 查样品量/分区 → 现场配合与留样 → 送检与 WGS → 阳性后的执法阶梯。给的是检查员作业口径与出处，**不是企业内控抽样标准，也不替代 IOM Chapter 4 / eBAM / AOAC / MPM 方法正文**。*
+*本卡定位：上一版 `inspection-readiness` 关闭了「检查类型、分级口径、记录举证」，但明确把「抽样量、制样判读、证据充分性」列为未收。本卡补上**抽样逻辑与阳性后升级路径**：判这是不是 7303.050 的样 → 查样品量/分区 → 现场配合与留样 → 送检与 WGS → 阳性后的执法阶梯。给的是检查员作业口径与出处，**不是企业内控抽样标准，也不替代 eBAM / AOAC / MPM 方法正文**。⚠ **IOM 2026 Chapter 4 自 v4.16 起已收（第二十来源，CAP-28 `iom-sampling-procedure`）**：本卡管「某 program 抽样时用哪张 Table、报哪个 PAC、阳性后走哪条升级路径」，CAP-28 管「样品作为证据成立的形式要件」，二者是同一件事的两层，不得互替。*
 
 ## R — 原文
 
@@ -68,7 +68,7 @@
 
 1. **先分清「谁在抽」**。同为 FDA 现场取样，可能是 7303.050 的 surveillance / for-cause 微生物与污秽样、也可能是 7303.040 检查中触发的环境取样。`Inspections are not planned under this compliance program` 意味着：没有「7303.050 检查」这回事；企业收到的是某次 7303.040（或其他 program）检查，抽样是其中的动作。判断依据是 Collection Report 上的 **PAC**（`03037D` 奶酪微生物 / `03803D` 国内食品微生物 / `03819C` 进口食品微生物 / `03050B` 污秽 / `03050E` 设施 exhibit / `03050N` 国内环境 / `03S050N` 州合同环境）与 **PAF**。
 2. **样品量是「检查员取证量」，不是「企业放行标准」**。Table 2 / Table 3 给的是 FDA 为完成分析所需的最小 subs 数与每 sub 最小量（例：叶菜/greens 做 Salmonella 30 subs × 100 g；RTE 做 L. mono 10 subs × 200 g；散装奶酪按零售单元重量分档 10 / 2 / 1 subs）。企业不能用「FDA 只抽 10 个」反推自己的批放行抽样计划，也不能把「样品合格」当成 cGMP 合规证明（IOM 5.6.4 明说样品合格不阻碍 cGMP 指控）。
-3. **702(b) 是留样/分割部分，不计入样品量**。原文 `The sample size does not include 702(b) portions`；且**易腐产品、进口状态样品不取 702(b) 部分**（参 21 CFR 2.10(b)(3)）。企业常问「能不能要一份平行样」——法定分割留样规则在 IOM Chapter 4 与 21 CFR 2.10，本包未收其正文，只能给出「向检查员索取 Form FDA 484 并自行做内部平行留样」的准备原则。
+3. **702(b) 是留样/分割部分，不计入样品量**。原文 `The sample size does not include 702(b) portions`；且**易腐产品、进口状态样品不取 702(b) 部分**（参 21 CFR 2.10(b)(3)）。企业常问「能不能要一份平行样」——**自 v4.16 起法定分割留样规则已有原文出处**：`IOM 4.3.2.2` 的 `702(b)` 七项豁免（含「可采量不足分析量两倍」「两倍量成本超 $150」「无法以可行手段保存，明列 fresh produce / water / environmental swabs」「进口样品」等）、`IOM 4.3.2.3` 的 `at least twice` 留样量，以及 **污秽样品 `Regardless of the exemptions ... collect the 702(b) portion for filth samples` 这一反向例外**，一律转 **CAP-28**。⚠ 但索取 Form FDA 484 与 `702(b)` 是两件事：484 是取样凭证，且不发 DOC sample、不发 induced/undercover/online（IOM 4.2.5）。
 4. **环境拭子先看「够不够格被抽」**。ATTACHMENT A 的两项前提：① 生产**包装前暴露于环境**的 RTE 食品，且厂内无后续致死处理/无抑制型配方控制；② 检查期间**正在加工** RTE 食品（最好在加工时擦拭）。历史环境阳性的厂，检查员会在原阳性 Zone 及其附近加密。这与 `environmental-pathogen-sanitation` 卡的 Zone 1–4 定义、`cgmp-compliance-guide` 的〔§ 117.20(b)〕/`adequate` 结果义务是同一条线。
 5. **干湿分区决定目标菌**：湿区偏 L. monocytogenes、偶发受潮的干区偏 Salmonella——与全包既有的「湿/干二分法」一致，但这里给的是**检查员选择 swab 目标**的依据，不是企业的环境监测频次标准（后者见 L.mono 2017 Draft 建议层与 `environmental-pathogen-sanitation`）。
 6. **阳性之后的三层动作**：实验室确认 → WGS + GenomeTrakr + 与历史/临床分离株比对 → 由分部会同 HFP/OCE、OII/HFPEB（及州伙伴）讨论执法。ATTACHMENT A Part V.1 给出阶梯：无显著条件且无环境病原＝无需行动；Zone 2–3 阳性但无直接污染路径＝视厂方响应；**Zone 1 阳性**或 Zone 2/3 且观察到直接交叉污染＝预期采取监管行动。纠正须在检查结束前验证并留证。
@@ -90,7 +90,7 @@
 
 1. 用户问「FDA 来取样要抽多少 / 抽几个 subs / 每份多少克」→ Step 2 样品量表，并声明这是检查员取证量。
 2. 用户问「环境拭子抽多少、抽 Zone 几、湿区干区查什么」→ Step 3 环境取样矩阵。
-3. 用户问「我们被抽了，能要一份平行样吗 / 702(b) 是什么」→ 来源与边界说明 + IOM Chapter 4 未收。
+3. 用户问「我们被抽了，能要一份平行样吗 / 702(b) 是什么」→ **转 CAP-28**（IOM 2026 Ch.4 自 v4.16 起已收）：`702(b)` 是 FD&C Act 的法定分割留样请求权（`upon request, provide a part of such official sample`）；默认留分析量两倍，七项豁免逐条排除，污秽样品反向仍须留；21 CFR 2.10 三条件与 official/DOC/INV 类别判定亦在 CAP-28。
 4. 用户问「样品检出 L. mono / Salmonella 之后会怎样、要不要召回」→ Step 5 三层升级 + PART V 表 7/8 的非穷尽性。
 5. 用户问「WGS / GenomeTrakr / 历史菌株比对是什么、为什么要做」→ PART IV.5 / ATTACHMENT A Part IV.3.C。
 6. 用户问「Zone 1 阳性是不是一定 OAI / 一定 warning letter」→ 逐案判断、Direct Reference 未授予、分类属 CPGM 口径。
@@ -178,7 +178,7 @@
 
 **B3 — 7303.050 不安排检查。** `Inspections are not planned under this compliance program`。说「7303.050 检查」「7303.050 分级」「7303.050 出 483」都是错的；检查类型、观察项分级、OAI/VAI/NAI 属 `inspection-readiness`（CPGM 7303.040）与 `investigator-authority-procedure`（IOM Ch.5）。
 
-**B4 — 仍未收的方法与程序正文。** 已收：CP 7303.050 全文（含 ATTACHMENT A/B/C）、IOM 2026 Ch.5 全文、CPGM 7303.040 现行版与 2020 历史对照。**未收**：IOM Chapter 4（Sampling，含 702(b) 与 IOM 4.2.5 / 4.3.6.6 / 4.6 / 4.7）、IOM Ch.3/6/7/8/9/10、eBAM / BAM 各章、AOAC OMA / PTM 方法正文、Macroanalytical & Microanalytical Procedures Manual、SOP-001052（原 Field Bulletin 30）、SOP-000529 / FMD-147、CPG Sec. 527.300 与 CPG Ch.5 全套、RPM Ch.6/9/10-4、Import Alerts / Import Bulletins 正文、21 CFR 2.10 / 133 / 1240.61 正文、Form FDA 484 / 1551 表单细则。故**制样与显微判读、702(b) 分割留样规则、分析方法的检出限与确认流程、证据充分性标准、进口扣留应诉**仍须另行复核。
+**B4 — 仍未收的方法与程序正文。** 已收：CP 7303.050 全文（含 ATTACHMENT A/B/C）、IOM 2026 Ch.5 全文、CPGM 7303.040 现行版与 2020 历史对照。**已收（v4.16）**：IOM 2026 Chapter 4（Sampling，含 702(b) 与 IOM 4.2.5 / 4.3.6.6 / 4.6 / 4.7 / Sample Schedule Chart 2），见 **CAP-28**。**未收**：IOM Ch.2/3/6/7/8/9/10、eBAM / BAM 各章、AOAC OMA / PTM 方法正文、Macroanalytical & Microanalytical Procedures Manual、SOP-001052（原 Field Bulletin 30）、SOP-000529 / FMD-147、CPG Sec. 527.300 与 CPG Ch.5 全套、RPM Ch.6/9/10-4、Import Alerts / Import Bulletins 正文、21 CFR 2.10 / 133 / 1240.61 正文、Form FDA 484 / 1551 表单细则。故**制样与显微判读、分析方法的检出限与确认流程、证据充分性标准、进口扣留应诉**仍须另行复核；**702(b) 分割留样规则自 v4.16 起已有原文出处，转 CAP-28**。
 
 **B5 — 样品量是取证量，不是放行标准；样品合格 ≠ cGMP 合规。** 见 IOM 5.6.4 与 ATTACHMENT A Part V.1；企业批放行与成品/环境监控方案须另依危害分析、验证与 L.mono 指南建议层设计。
 
@@ -190,4 +190,4 @@
 
 **B9 — 不代写文书、不承诺结果、不预测分类。** 给取样应对路径与出处，不代写 483 回复、召回通知、进口扣留应诉或实验室申诉；不预测 OAI/VAI/NAI，也不代替 PCQI 签字或实验室判定。
 
-**B10 — 引用规范（十九类不可混引，v4.9 时为十四类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 123.xxx〕；FD&C Act 用 `402(a)(4)` / `801(a)(3)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A` 前缀）；**CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」**；**IOM 用「IOM 5.x.x」**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。十四类不可混引；21 CFR part 108 / 110 / 120 正文未收，标「转引未收」（part 123 已收，写〔§ 123.xxx〕）；PD 文件内部还有 `PART V`（主文）与 `ATTACHMENT A Part V`（环境取样）同名不同口径，引用须带附件前缀。
+**B10 — 引用规范（二十类不可混引，v4.9 时为十四类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 123.xxx〕；FD&C Act 用 `402(a)(4)` / `801(a)(3)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A` 前缀）；**CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」**；**IOM 按章号：Ch.5 用「IOM 5.x.x」、Ch.4 用「IOM 4.x.x / IOM Exhibit 4-xx / IOM Sample Schedule Chart x」（自 v4.16 起已收，转 CAP-28）**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。二十类不可混引；21 CFR part 110 正文未收，标「转引未收」（part 108 自 v4.12、part 120 自 v4.13、part 123 自 v4.9 已收）；PD 文件内部还有 `PART V`（主文）与 `ATTACHMENT A Part V`（环境取样）同名不同口径，引用须带附件前缀。

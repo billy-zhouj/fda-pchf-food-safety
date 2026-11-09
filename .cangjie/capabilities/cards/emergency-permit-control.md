@@ -2,7 +2,7 @@
 
 *来源分层：本卡取用**单套法规正文**——**21 CFR Part 108**〔§ 108.xxx〕（Emergency Permit Control，4-1-25 Edition，11 页 / 9 条款，书页 248–257）。它与 **CAP-20** 的 Part 113 / 114 是**同一监管链条的两段**：Part 108 管「登记、备案、许可与时限」，Part 113 / 114 管「工艺、操作、记录的实体要求」。二者**不互相替代**，也不构成上下位关系。*
 
-*⚠ **本卡补上的是全包被点名最多的缺口**：CAP-20 的 B1 曾写「21 CFR part 108 正文仍未收，这是本卡最大缺口」，`lacf-inspection-program`、`regulatory-boundaries`、`seafood-inspection-program` 等卡亦多处标「part 108 转引未收」。自 v4.12 起这些标注一律改为正向引用〔§ 108.xxx〕；仍属「转引未收」的只剩 part 110 / 120、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4 与 FURLS 系操作系统。*
+*⚠ **本卡补上的是全包被点名最多的缺口**：CAP-20 的 B1 曾写「21 CFR part 108 正文仍未收，这是本卡最大缺口」，`lacf-inspection-program`、`regulatory-boundaries`、`seafood-inspection-program` 等卡亦多处标「part 108 转引未收」。自 v4.12 起这些标注一律改为正向引用〔§ 108.xxx〕；仍属「转引未收」的只剩 part 110 / 120、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文与 FURLS 系操作系统（**IOM Ch.4 自 v4.16 起已收，见 CAP-28**）。*
 
 *本卡定位：给**手续层法定义务**——谁要注册、几天内注册、用什么表单、备案什么工艺参数、什么情形才触发紧急许可、许可被中止后怎么恢复、无证生产的产品能不能发货、外国加工者走哪条路。实体工艺问题（scheduled process 怎么确立、商业无菌怎么判、偏差批怎么处置）**不在本卡**，回 CAP-20。*
 
@@ -213,7 +213,7 @@
 
 **Step 5 — 交叉到检查员侧。** 法条手续清单落定后，用 CAP-19 `lacf-inspection-program`（CP 7303.070）反查 FCE／SID 核验动作与触发线；实体工艺问题转 CAP-20；检查类型与取样转 CAP-16／CAP-17；权限与 483 措辞转 CAP-18。**不得用 CP 的检查动作反推法条，也不得用 CP 的触发值替代本卡的法定时限。**
 
-**Step 6 — 收尾声明。** 每条结论标〔§ 108.xxx〕／〔§ 113.xxx〕／〔§ 114.xxx〕；表单细则（2541 系列具体栏目）、FURLS／Center Views 操作、CGMP 与 BAM 方法一律标「转引未收」。**全包自 v4.15 起十九类不可混引，当前为 27 张能力卡。**
+**Step 6 — 收尾声明。** 每条结论标〔§ 108.xxx〕／〔§ 113.xxx〕／〔§ 114.xxx〕；表单细则（2541 系列具体栏目）、FURLS／Center Views 操作、CGMP 与 BAM 方法一律标「转引未收」。**全包自 v4.16 起二十类不可混引，当前为 28 张能力卡。**
 
 ## B — 边界
 
@@ -231,8 +231,8 @@
 
 **B7 — 版本与转换口径。** `4–1–25 Edition` 是 CFR 年度编纂版次（修订至 2025-04-01），不是「2025 新规」；SOURCE 为 `42 FR 14334, Mar. 15, 1977, unless otherwise noted`，§108.35 末条 FR citation 至 `81 FR 46831, July 19, 2016`。转换件为 GPO 双栏印刷版连续页截取，已按「页 → 左栏 → 右栏」重排，保留印刷断词连字符（`per- mit`、`Commis- sioner`、`acidi- fied`）；逐字引证按归一化口径（去换行、空格、连字符）核对，**检索以 § 编号为准**。已定点修复 6 处重排缺陷（见来源文件「转换局限」），原文措辞未改。
 
-**B8 — 引用规范（全包统一，十九类不可混引）。** 〔§ 108.xxx〕／〔§ 113.xxx〕／〔§ 114.xxx〕／〔§ 117.xxx〕／〔§ 120.xxx〕／〔§ 123.xxx〕六套法条各自独立；CP 7303.070 用「CP 7303.070 PART x」，CP 7303.842 用「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」。**尤其不得把 §108.25(a) 的 `§§ 114.10, 114.80(a) (1) and (2), and (b), 114.83, 114.89, and 114.100 (b), (c), and (d)` 简写成「§§ 114.10–114.100」**——印刷版括号内空格是原文形态，简写即失去逐字性。
+**B8 — 引用规范（全包统一，二十类不可混引）。** 〔§ 108.xxx〕／〔§ 113.xxx〕／〔§ 114.xxx〕／〔§ 117.xxx〕／〔§ 120.xxx〕／〔§ 123.xxx〕六套法条各自独立；CP 7303.070 用「CP 7303.070 PART x」，CP 7303.842 用「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」。**尤其不得把 §108.25(a) 的 `§§ 114.10, 114.80(a) (1) and (2), and (b), 114.83, 114.89, and 114.100 (b), (c), and (d)` 简写成「§§ 114.10–114.100」**——印刷版括号内空格是原文形态，简写即失去逐字性。
 
 **B9 — 与 CAP-19 / CAP-20 的三层分工。** 本卡＝**手续与程序法条层**；CAP-20＝**实体工艺法条层**（Part 113／114）；CAP-19＝**检查员作业层**（CP 7303.070：FCE／SID 核验、Process Authority、温度分布、运行中 retort、卷边与异常罐）。问「要交什么表、几天内交」走本卡；问「工艺参数够不够」走 CAP-20；问「FDA 会怎么查」走 CAP-19。三张卡合起来才回答 LACF／AF 的完整问题。
 
-**B10 — 本卡不覆盖的内容。** 21 CFR part 110／120 正文、CGMP 判据细节、F0／D／z 计算与热穿透研究设计、BAM／AOAC／MPM 方法正文、IOM Chapter 4 Sample Schedule Chart 2、CPG 全套、Import Alert 99-37／99-38 全文、FURLS／Center Views 系统操作、2541 系列表单栏目细则、以及许可申请的举证材料组织方案 —— 均须另行复核或由具备资质的 Process Authority／PCQI／法规顾问判断。
+**B10 — 本卡不覆盖的内容。** 21 CFR part 110／120 正文、CGMP 判据细节、F0／D／z 计算与热穿透研究设计、BAM／AOAC／MPM 方法正文、CPG 全套、Import Alert 99-37／99-38 全文、FURLS／Center Views 系统操作、2541 系列表单栏目细则、以及许可申请的举证材料组织方案 —— 均须另行复核或由具备资质的 Process Authority／PCQI／法规顾问判断。**IOM Chapter 4 Sample Schedule Chart 2 自 v4.16 起已收（见 CAP-28）**，不属本卡覆盖。

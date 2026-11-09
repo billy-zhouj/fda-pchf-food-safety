@@ -16,8 +16,8 @@
 - **第十二来源**: books/fda-pchf-human-food-guidance/source-cfr-part114-2025.md（**21 CFR Part 114 — Acidified Foods，4-1-25 Edition**，7 页 / 8 条款；同一双栏脚本转出，标〔§ 114.xxx〕。文件头锁死「parts 110 and 117 不是过时引用、Part 110 至今有效」的纠错）
 - **第十三来源**: books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md（FDA CP 7303.878《Foreign Supplier Verification Programs Inspections》，**Transmittal 2023-CPM-CFSAN-003 / Implementation Date 09/27/2023 / Date of Issuance 08/28/2025 更正**，33 页 / 20 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。是 2023 版程序的 2025 更正本，不是 2025 新 program；其依据的 **21 CFR part 1, subpart L（§§1.500–1.514）法规正文仍未收**，一律标「转引未收」，见 CAP-21 `fsvp-inspection-program`）
 - **输出模式**: single（用户已确认，全书均衡提取；十四次来源合并均沿用 single，未改变产物形态）
-- **当前版本**: v4.15.1 ✅ 编译校验并安装完成（27 张卡 / 223 术语 / 158 用例 / 十九类来源 / dist-v19）；v4.10–v4.11 的评测欠账已补测完毕（seafood-* 用例 + CAP-23 / CAP-24 路由），**v4.12 及之后各版未重跑触发 / 输出 / 路由评测**，v4.7–v4.14 的既有结论不得冒用；逐版本明细见文末 v4.10–v4.15.1 各节
-- **开始时间**: 2026-11-04；最后更新 2026-11-06
+- **当前版本**: v4.16 ✅ 编译校验并安装完成（28 张卡 / 233 术语 / 168 用例 / 二十类来源 / dist-v20）；v4.10–v4.11 的评测欠账已补测完毕（seafood-* 用例 + CAP-23 / CAP-24 路由），**v4.12 及之后各版未重跑触发 / 输出 / 路由评测**，v4.7–v4.14 的既有结论不得冒用；逐版本明细见文末 v4.10–v4.16 各节
+- **开始时间**: 2026-11-04；最后更新 2026-11-09
 
 ## 阶段进度
 
@@ -32,7 +32,7 @@
 | 4 压力测试 | done | test-prompts.json v4.0（28 正例 + 5 负例诱饵 + 12 边界用例 = 45 条，darwin 兼容；盲测待补跑） |
 | 5 编译交付 | done | DIGEST.md + dist-v4/fda-pchf-food-safety（validate 0 errors / 0 warnings） |
 
-> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.15.1：27 张卡 / 223 术语 / 158 用例 / 十九类来源 / dist-v19**，见本文件顶部与末尾 v4.15.1 节；v4.11 的 24 卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15、v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
+> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.16：28 张卡 / 233 术语 / 168 用例 / 二十类来源 / dist-v20**，见本文件顶部与末尾 v4.16 节；v4.11 的 24 卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15、v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
 
 ## 第二至第四来源合并记录
 
@@ -415,3 +415,18 @@
 - **编译与安装**：`assemble_bundle.py` 27 卡不变、principles/stops 不变；`compile_single.py --out dist-v19` 重出 **32 个 .md**；`validate_skill_pack.py` **0 errors + 0 warnings**；`install_v15.py` 重装 **PASS**，产物与安装目录 **32/32 hash 差异 0**；`check_v4_15_routing.py` **39/39 PASS**。
 - **仍未做**：Part 117 的引用密度整体仍偏薄（0.4 块/条），若要提升需按 Subpart 逐块补，属独立工作量；v4.15.1 未重跑三类评测。
 
+## v4.16 — FDA IOM 2026 Chapter 4 落为第二十来源 + 取样全流程作业卡（28 张卡）
+
+> 上文 v4.15.1 及更早各节中的「IOM Ch.4 未收」「Sample Schedule Chart 2 未收」「702(b) 分割留样细则未收」均为**当时口径**，自 v4.16 起已随本件纳入，见 `source-iom-ch4-2026.md` 与 CAP-28 `iom-sampling-procedure`。本节之外的 v4.x 规模、「十九类不可混引」等历史数字一律保留不改。
+
+- **第二十来源**：**FDA《Investigations Operations Manual 2026, Chapter 4 — Sampling》**（189 页 / 361 书签 / 4.2 MB，PDF creationDate `2026-07-14`；用户提供的官方 PDF 经用户级技能 `pdf2md-pro` / pymupdf4llm 转换）。属**检查程序作业层**：给调查员的内部作业手册，非法规、非 Guidance for Industry、**不创设企业义务**。文件头补「来源 / 效力层级 / 关键口径 / 转换局限」说明块（对齐 IOM Ch.5 的写法）。
+- **转换与自检**：`.cangjie/iom-ch4-convert-report.json` 记录 **361/361 书签全用、0 丢弃**，405 标题（H1 1 / H2 89 / H3 68 / H4 169 / H5 78）、345 行表格、页眉 `CHAPTER 4` 与独立页码残留 0、自动检出噪声行 2；七节 `4.1`–`4.7` 与 Exhibit 4-1…4-25、Sample Schedule Chart 1–14 全在。CAP-28 R 段 **60 个英文引用块**经 `.cangjie/verify_v4_16_quotes.py` 核验 **60/60 命中正文区**（0 超 100 词、0 表格引用、0 仅命中文件头），`body_only()` 以 `**4.1 – GENERAL ...` 为正文分界排除自写文件头，避免自我验证循环。初跑 2 处未命中已修：D/E 句主语带脚注 `[6]` 改为从句中起、483 句被转换件插入错位书签改用 `…` 节引并注明。
+- **新增能力卡 CAP-28 `iom-sampling-procedure`**（`.cangjie/capabilities/cards/iom-sampling-procedure.md` + `_meta-iom-sampling-procedure.yaml`）。把一次取样拆成六道分流：类别（official physical / official DOC / INV / survey / non-regulatory）→ 数量（assignment → CP → IOM Sample Schedule 三级优先）→ 702(b) → 表单链（482 / 472 / 484 / 415a / 525 / 463a / 1664）→ 封存与运输 → 阳性结果与 483。
+- **六类实质纠偏**：① **DOC 仍是 official sample**，只是不贴封条、不发 FDA 484——「没开 484」不能读成「样品不算数」；② **INV 不是「非正式样品」**，原文 `can be used as evidence in court, they must be sealed`；③ **702(b) 七项豁免不是封闭清单**，污秽样品是唯一反向例外，环境拭子因被明文列入「无法以可行手段保存」通常不留；④ **环境取样不得预告**，且 50/100、Zone 1–4、24 小时到实验室全是**检查员侧**口径，不是企业 EMP 标准；⑤ **阳性环境结果上 483 有双门槛**（关账前已知 + Listeria Zone 1/2 或 Salmonella Zone 2/3；Zone 3/4 不写），且**环境样品明确不勾 704(d)**；⑥ **Sample Schedule Chart 2 终于有原文**，但它是**取样计划**，与 CP 7303.070 PART IV.2 的 4.40 / 4.65 / 4.75 实验室触发线仍属两层。
+- **Bundle 回补**：`.cangjie/apply_v4_16_revisions.py` 以「内存 dict 暂存 + 每处 `assert count == 1` + dry-run 后 `--apply`」写盘 **57 个文件**，把 cards/ 与 `assemble_bundle.py` 的当前态统一为「**二十类不可混引 / 28 张卡**」，并清除各卡把 IOM Ch.4 写作「未收」的裸断言；`assemble_bundle.py` 27 → **28 卡**（SLUGS、ALSO_READ 12 条正向链 + 13 张卡反向链）、`additional_sources` 18 → **19 条**（末条 `src-fda-iom-ch4-2026`）、core_principles 54 → **56**、stop_conditions 28 → **30**、entry.description 增加 IOM Ch.4 段落。
+- **术语与用例**：`candidates/glossary.md` 223 → **233 条**（t224–t233：official sample 三条件、DOC、INV/survey/non-regulatory、702(b) 七项豁免、Zone 1–4、不得预告与 D/E / 24 小时、表单链与 415a、阳性上 483 与 704(d)、Chart 2、六套数量分层与转换件引用纪律）。`test-prompts.json` 158 → **168 条**（`iom-sampling-01..10`：4 should_trigger / 5 edge_case / 1 should_not_trigger），version → **4.16**。
+- **转换局限（写入 CAP-28 B12）**：① 文件前部（L3–L17）是 Word 点线目录压成的巨型单行块，非正文，检索以 `4.x.x` 小节号为准；② 书签插入位置错位（`4.7.2` 在 `4.7.1` 之前、`4.6.4` 混入 4.7 区），小节标题常以 heading 与 plain text 两种形态各出现一次；③ `## **Dry Ice Guidance**` / `## **PRODUCT**` / `## **CODE**` 等为伪标题；④ Exhibit 4-1…4-25 表单为 `picture intentionally omitted` 占位（全章 41 处），字段名可引、表格式样不可引；⑤ Chart 2 的 48/CASE、24/CASE、12/CASE、6/CASE 四组在 GFM 转换后错列，只可引「批大小 → 检查数 → 提前终止数」对应关系。
+- **编译与安装（已完成）**：`compile_single.py --bundle .cangjie/capabilities --out dist-v20 --variant single` 产出 **33 个 .md / 28 张卡**（SKILL.md 162 行 / 128,582 字节）；`validate_skill_pack.py dist-v20` **0 errors + 1 warning**（`name-dir` 固有，安装后目录名一致即消失）。`.cangjie/install_v17.py` 先备份**真 v4.15.1** 为 `fda-pchf-food-safety-v4.15.1-20261109-085241`（27 卡），再清空目标目录整目录复制到用户级 `C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety`；安装后官方校验 **0 errors / 0 warnings**，产物与安装目录 **33/33 文件、逐文件 sha256 差异 0**、安装目录独有文件 0，glossary 5 份副本 hash 全同（`30b0c0aa35687fff…`）、严格解析 **233 条 id 唯一**；安装指标 28 卡 / 233 术语 / 168 用例 / version **4.16** / `二十类` 命中且无 `十九类` 残留。
+- **静态登记核对**：`.cangjie/check_v4_16_routing.py` **84/84 PASS** —— 28 卡 / 56 principles / 30 stops / 19 additional_sources（末条 `src-fda-iom-ch4-2026`）、CAP-28 `active`·`extended`·also_read 12 条、反向辅读链 13 张、能力索引主行 1 行、SKILL.md 无「十九类」且含「二十类」、CAP-28 **60 个引用块**且 4.1–4.7 七节与六类反直觉锚点全覆盖、meta 85 intents / 170 keywords 无重复、转换报告 361 书签 / 0 丢弃、glossary 严格解析 233 条、测试套件 168 条 / 10 条 `iom-sampling-*`、产物与安装目录 hash 差异 0、glossary 五副本一致。
+- **仍未收**：IOM Chapter 2 / 3 / 6 / 7 / 8 / 9 / 10 全本（尤其 Ch.3 的 3.2 权限、Ch.6 的 6.4 进口取样、Ch.8 的投诉与食源性疾病调查）、SOP-001052 / FMD-147 / OII SOP-000530、RPM 6-3 / 10-4、CPG 580.100 / 300.400 / 130.100 全文、BAM / AOAC / MPM 方法全文、FACTS / eNSpect / CMS / OASIS 内部操作、Form FDA 484 表单栏目细则。
+- **评测**：本版未重跑触发 / 输出 / 路由评测；v4.7–v4.14 的既有结论不得冒用。

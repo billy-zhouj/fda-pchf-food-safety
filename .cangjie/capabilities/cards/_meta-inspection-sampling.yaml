@@ -14,7 +14,7 @@ intents:
   - 处理进口状态样品、DWPE / Import Alert / same-or-similar entry lines 与 FSVP importer 通知
   - 回答污秽与霉变抽样量、奶酪制样、以及与 Food Defect Levels Handbook 行动水平的分工
   - 识别 2022 签发 / 2025-09-10 更正的版本形态，避免套用 7303.040 的 Transmittal 口径
-  - 判断哪些问题超出本包（IOM Chapter 4、702(b) 分割留样、eBAM/AOAC/MPM 方法正文、CPG 527.300、SOP-001052、FMD-147）
+  - 判断哪些问题超出本包（eBAM/AOAC/MPM 方法正文、CPG 527.300、SOP-001052、FMD-147）；IOM Chapter 4 与 702(b) 分割留样自 v4.16 起已收，转 CAP-28
   - 纠正「样品全合格就没事」「FDA 只抽 10 个所以内控也抽 10 个」两类效力层误读
 keywords:
   - "CP 7303.050"

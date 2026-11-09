@@ -22,7 +22,7 @@ intents:
   - 说明手册那句是 §110.110(c) 意译而非〔§ 117.110(c)〕，且理由已从「part 110 已删」更正为「那是 part 110 的 (c) 款」
   - 区分法定数字 4.6/0.85/4.0、CP 7303.070 检查员触发线 4.40/4.65/4.75/0.90/0.93/1%/24 罐、L.mono 建议层 ≤4.4/≤0.92
   - 识别 4-1-25 Edition 是 CFR 年度编纂版次而非 2025 新规，FR citation 才是修订出处
-  - 判断哪些问题超出本卡（part 110/120 正文、F0-D-z 计算、BAM、IOM Ch.4、Import Alert 全文）；part 108 的 FCE 注册/SID 备案/Emergency Permit 自 v4.12 起已收，转 CAP-25
+  - 判断哪些问题超出本卡（part 110 正文、F0-D-z 计算、BAM、Import Alert 全文）；IOM Ch.4 自 v4.16 起已收，转 CAP-28；part 108 的 FCE 注册/SID 备案/Emergency Permit 自 v4.12 起已收，转 CAP-25
 keywords:
   - "21 CFR part 113"
   - "21 CFR part 114"
@@ -121,7 +121,7 @@ keywords:
   - 电位法
   - 偏差处置
   - 三套数字
-  - 十九类不可混引
+  - 二十类不可混引
   - 转引未收
 member_units: []
 source_label: 21 CFR Part 113（4-1-25 Edition，36 页 / 10 条款）+ 21 CFR Part 114（4-1-25 Edition，7 页 / 8 条款）+ 21 CFR Part 117 法规正文〔§ 117.1(c)〕〔§ 117.5(d)(1)(2)〕〔§ 117.110〕+ CP 7303.070（检查员侧，见 CAP-19）+ FDA 2018-09-12 最终规则 FR Doc. 2018-19855（外部核实、正文未收）；21 CFR part 110 / 120 正文一律「转引未收」（part 108 自 v4.12 起已收，见 CAP-25；part 123 自 v4.9 起已收，见 CAP-22）

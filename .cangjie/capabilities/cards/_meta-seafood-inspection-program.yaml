@@ -19,7 +19,7 @@ one_liner: >-
   按「Table 1 产品/工艺风险 + Table 2 企业/进口商优先级 → 六类检查分流 → HACCP Program
   Evaluations → Sampling 三类与 PAC/PAF → PART IV A–G 实验室分流与 CPG 判据出口 → PART V
   Table 4 分级与裁量 → FIELD REPORTING 收口」走完检查判定链；但全链只是给 field staff 的
-  内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，十九类来源
+  内部作业指导层，凡法定义务回〔§ 123.xxx〕/ CAP-22、危害技术判定回 CAP-23，二十类来源
   不可混引，CPG / BAM / NSSP / Import Alert 等未收正文一律标转引未收。
 intents:
   - 复述 CP 7303.842 从检查优先级到报告上报的完整检查判定链
@@ -236,7 +236,7 @@ keywords:
   - CAP-22
   - CAP-23
   - CAP-24
-  - 十九类不可混引
+  - 二十类不可混引
   - 转引未收
   - 检查程序作业层
   - 法条义务层
@@ -262,5 +262,5 @@ source_label: >-
   技术指南层（CAP-23）之外的第三层。仍未收清单：CPG Sec. 540.525 / 540.370 / 555.600 /
   562.300 / 540.250 / 540.590 全文、21 CFR part 120 / 1240 / 108 / 110 / 507 正文、
   NSSP Guide 与 Model Ordinance、BAM / AOAC / LIB / MPM 方法全文、Import Alert 16-74 /
-  16-20 / 99-41 全文、21 CFR part 1 subpart L、IOM Chapter 4、FDA 3501 / 3502 表单全文、
+  16-20 / 99-41 全文、21 CFR part 1 subpart L、FDA 3501 / 3502 表单全文（IOM Chapter 4 自 v4.16 起已收，见 CAP-28）、
   Seafood List、eNSpect / CMS / FACTS 内部系统、FDA 与 NMFS 的 MOU —— 一律标转引未收。

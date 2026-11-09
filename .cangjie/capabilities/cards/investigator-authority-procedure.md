@@ -1,6 +1,6 @@
 # FDA 检查员权限、文书与证据链（investigator-authority-procedure）
 
-*来源分层：本卡取用两类权威，引用前先分层。① **FD&C Act**（`704(a)(1)`、`301(e)/(f)`、`807(b)`、`414(a)`、`402(a)(4)`）与 **21 CFR Part 117 法规正文**〔§ 117.xxx〕——只有这一层创设企业义务（Part 113 / 114 法规正文另见 CAP-20〔§ 113.xxx〕〔§ 114.xxx〕）；② **FDA Investigations Operations Manual 2026, Chapter 5 – Inspections**（221 页 / 410 书签，含 5.1–5.16 与 Exhibit 5-1…5-23），是 **FDA 给调查员的内部作业手册**，标注「IOM 5.x.x / IOM Exhibit 5-x」，规定到场、表单、取证、写 EIR 与签发 FDA 483 的规则，**不是法规、不是 Guidance for Industry、不创设企业义务**。全包自 v4.15 起**十九类不可混引**（v4.7 时为十二类）。⚠ CP 7303.070 PART II.2.B(2) 补上 RRA 的官方程序性定义（`RRAs are not considered inspections`），见 CAP-19；它不改变 IOM 5.2.7 的预告三层口径。*
+*来源分层：本卡取用两类权威，引用前先分层。① **FD&C Act**（`704(a)(1)`、`301(e)/(f)`、`807(b)`、`414(a)`、`402(a)(4)`）与 **21 CFR Part 117 法规正文**〔§ 117.xxx〕——只有这一层创设企业义务（Part 113 / 114 法规正文另见 CAP-20〔§ 113.xxx〕〔§ 114.xxx〕）；② **FDA Investigations Operations Manual 2026, Chapter 5 – Inspections**（221 页 / 410 书签，含 5.1–5.16 与 Exhibit 5-1…5-23），是 **FDA 给调查员的内部作业手册**，标注「IOM 5.x.x / IOM Exhibit 5-x」，规定到场、表单、取证、写 EIR 与签发 FDA 483 的规则，**不是法规、不是 Guidance for Industry、不创设企业义务**。全包自 v4.16 起**二十类不可混引**（v4.7 时为十二类）。⚠ CP 7303.070 PART II.2.B(2) 补上 RRA 的官方程序性定义（`RRAs are not considered inspections`），见 CAP-19；它不改变 IOM 5.2.7 的预告三层口径。*
 
 *⚠ **收录范围**：本包只有 **IOM 2026 的 Chapter 5 单章**。IOM Ch.3（权限 3.2）、Ch.4（Sampling）、Ch.6（Imports）、Ch.7（Recalls）、Ch.8（Investigations）、Ch.9、Ch.10，以及 RPM、CPG 全文均未收。IOM 正文大量交叉引用这些章节，本卡遇到时只标注「转引未收」，不代填内容。*
 
@@ -131,7 +131,7 @@
 6. **「FDA 取了样，样品全合格，这次检查应该没事了」**：IOM 5.6.4 两句原文直接否定——`Lack of a violative physical sample is not a bar ... providing the cGMP deficiencies have been well documented`、`physical samples found in compliance are not a bar to pursuing action under cGMP charges`。cGMP 是观察型结果义务；现场卫生、记录同步性、FSP 签署等与检测结果无关。
 7. **「检查员想直接登录我们的 MES 查数据，给不给」**：IOM 5.6.6.1 要求 `Do not personally access a firm's system`，应由企业人员操作、检查员旁视提问（BIMO / 生物制品有例外）。企业可主动安排「由我方操作员演示与导出、检查员现场提问」的方式配合，既满足取证又不破坏系统权限与数据完整性。
 8. **「检查员拿手机拍了车间」**：IOM 5.6.7 要求只用 FDA 配发设备，个人设备可能因后续诉讼被保全并进入 discovery。企业不宜自行抢拍或要求删除，但可在陪同记录里注明拍摄设备、时间与点位，并同步留存自己的照片作为对照证据。
-9. **「只抽了一个样，为什么没给我 484」**：IOM 5.5.12.5 规定只要采集**任何实体样品**就必须签发 Form FDA 484，且一般在检查结束时签发。若确实取了样而未收到 484，应在收尾会当场提出并记入陪同记录；但注意 484 是检查员侧凭证，不是企业的放行依据，也不替代 702(b) 分割留样规则（IOM Ch.4 未收）。
+9. **「只抽了一个样，为什么没给我 484」**：IOM 5.5.12.5 规定只要采集**任何实体样品**就必须签发 Form FDA 484，且一般在检查结束时签发。若确实取了样而未收到 484，应在收尾会当场提出并记入陪同记录；但注意 484 是检查员侧凭证，不是企业的放行依据，也不替代 702(b) 分割留样规则（**IOM Ch.4 自 v4.16 起已收，转 CAP-28**）。另注意 IOM 4.2.5 的两条例外：DOC sample 不发 FDA 484、induced/undercover/online 通常不发 482+484——所以「取了样却没收到 484」未必是程序瑕疵，先判样品类别。
 
 ## A2 — 未来触发
 
@@ -200,7 +200,8 @@
 | 这次检查的类型 / PAC / limited vs full scope / OAI-VAI-NAI | `inspection-readiness`（CPGM 7303.040） |
 | 抽多少 subs / 环境拭子 Zone / WGS / 阳性后执法阶梯 | `inspection-sampling`（CP 7303.050） |
 | FSP、记录、签字、2 年保存、24 小时 | 〔§ 117.305〕〔§ 117.310〕〔§ 117.315〕〔§ 117.320〕 |
-| 702(b) 分割留样、制样、检验方法 | IOM Ch.4 / eBAM / AOAC / MPM——**未收** |
+| 702(b) 分割留样 | **IOM Ch.4 自 v4.16 起已收 → CAP-28**（4.3.2.2 七项豁免、4.3.2.3 两倍量、4.7.4 独立容器封条） |
+| 制样、检验方法 | eBAM / AOAC / MPM——**未收** |
 | 警告信答复、进口扣留应诉、检查结果预测 | 超出本包，须专业法律与合规支持 |
 
 ## B — 边界
@@ -223,4 +224,4 @@
 
 **B9 — 不代写文书、不承诺结果、不代替法律意见。** 本卡给权限边界、表单地图与证据固定规则，不代写 483 回复、EIR 异议、警告信答复或进口扣留应诉；不预测 OAI/VAI/NAI；遇到具体拒绝、商业秘密争议或刑事调查迹象（IOM 5.6.2）须转具资质的法律顾问。
 
-**B10 — 引用规范（十九类不可混引，v4.8 时为十三类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FD&C Act 用 `704(a)(1)` / `301(f)` / `807(b)` / `402(a)(4)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A`）；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；**IOM 用「IOM 5.x.x」或「IOM Exhibit 5-x」**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。十四类不可混引；IOM 的 Exhibit 编号与 IOM 正文小节号也不同层，勿把 Exhibit 5-5 写成 IOM 5.5.5。
+**B10 — 引用规范（二十类不可混引，v4.8 时为十三类）。** 法规正文〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FD&C Act 用 `704(a)(1)` / `301(f)` / `807(b)` / `402(a)(4)`；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CPGM 7303.040 用「CPGM 7303.040 PART x」（附件带 `ATTACHMENT A`）；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；**IOM 按章号：Ch.5 用「IOM 5.x.x」或「IOM Exhibit 5-x」；Ch.4 用「IOM 4.x.x / IOM Exhibit 4-xx / IOM Sample Schedule Chart x」（自 v4.16 起已收，转 CAP-28）**；**CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」**。二十类不可混引；IOM 的 Exhibit 编号与 IOM 正文小节号也不同层，勿把 Exhibit 5-5 写成 IOM 5.5.5。

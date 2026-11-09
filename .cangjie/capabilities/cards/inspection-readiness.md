@@ -105,14 +105,14 @@
 3. 用户问"483 多久要回、境外怎么递交、回复里放什么"→ 15 个工作日 + 境外邮箱 + 回复骨架。
 4. 用户问"这次是 limited scope / full scope / focused PCHF，差别是什么"→ 检查类型与 PAC 码、转换条件。
 5. 用户问"检查员会不会看我们的 FSP / 危害分析 / 实施记录"→ 分检查类型回答，纠正常见误解。
-6. 用户问"FDA 现场要做环境取样/swab，我们按什么准备"→ 转 full/focused + 环境监测卡，并转 **CAP-17 `inspection-sampling`** 查拭子数量、Zone、WGS 与阳性升级（CP 7303.050 正文已收）；仅 AOAC/MPM 方法正文、IOM Ch.4 与 SOP-001052 未收。
+6. 用户问"FDA 现场要做环境取样/swab，我们按什么准备"→ 转 full/focused + 环境监测卡，并转 **CAP-17 `inspection-sampling`** 查拭子数量、Zone、WGS 与阳性升级（CP 7303.050 正文已收）；**IOM Ch.4 自 v4.16 起已收，转 CAP-28 `iom-sampling-procedure`** 查 Zone 1–4、子样数、不得预告与 24 小时到实验室；仅 AOAC/MPM 方法正文与 SOP-001052 未收。
 7. 用户问"记录能不能放总部/云端、保存多久、要不要签字"→〔§ 117.315〕〔§ 117.305〕〔§ 117.310〕。
 8. 用户问"qualified facility / 仅仓储未暴露包装食品 检查会怎么查"→〔§ 117.201〕〔§ 117.206〕+ CPGM PART III.1.A(4)(5)。
 9. 用户问"检查员说这条是 critical，是不是最严重"→ 版本口径纠错（2020 vs 2025 三层分级）。
 10. 用户问"被判 OAI 之后会怎样、多久复检"→ PART V.4.A 6 个月 / 1 年 + FSMA 频率。
 11. 用户问"无预告检查 / 远程评估 RRA / 检查前索取记录 该怎么准备"→ 政策层提示 + CP 7303.070 PART II.2.B(2) 的 RRA 程序性定义 + 明确 FDA 政策公告原文仍未收，须复核现行版本。
 12. 用户拿 2020–2024 年的迎检 SOP、培训教材或律所快讯来比对 → 先做版本判定，标出 `03040U`、观察项分级、CFSAN/ORA 三处旧口径。
-13. 用户问"检查当天谁陪同、能不能拍照、样品怎么分割留样、员工怎么回答"→ 现场流程骨架 + 转 **CAP-18 `investigator-authority-procedure`**（IOM 2026 Ch.5 正文已收：482/484 表单、电子记录与照片证据规则）；仅 702(b) 分割留样规则（IOM Ch.4）未收。
+13. 用户问"检查当天谁陪同、能不能拍照、样品怎么分割留样、员工怎么回答"→ 现场流程骨架 + 转 **CAP-18 `investigator-authority-procedure`**（IOM 2026 Ch.5 正文已收：482/484 表单、电子记录与照片证据规则）；**702(b) 分割留样规则与取样的形式要件自 v4.16 起已收**，转 **CAP-28 `iom-sampling-procedure`**（IOM 2026 Ch.4：七项豁免、污秽样品反向例外、FDA 415a 单签名）。
 14. 用户问"整改完成后要不要主动报 FDA、会不会有 warning letter / import alert"→ PART V.3 执法阶梯 + 明确 Direct Reference 与 HFP OCE 会签关系。
 
 ## E — 执行要点
@@ -190,7 +190,7 @@ PART V.1.D 的六个 Factors to Consider 值得逐条自评：食品是否 RTE�
 
 **B4 — 15 个工作日是双出处的程序口径，不是法定时限。** CPGM PART III.1 写 FDA 期望在检查结束日起 15 个工作日内收到 483 回复；v4.5 补入的 **IOM 5.5.12.3** 是通用程序出处（「15 个工作日内的充分回复可能影响 FDA 是否采取后续行动」）。两者都不是法定时限，与 Part 117 里法定的 7 个工作日记录审核、豁免撤销 15/90/120 日窗口分属不同体系，不得混算；也不要说成"逾期即违法"。
 
-**B5 — 迎检四卡的分工与仍缺的文件（本卡无法替代）。** **已收**：CPGM 7303.040 现行版全文 + 2020 历史对照（本卡）；**CP 7303.050**（2022 签发 / 2025-09-10 更正，62 页）全文（CAP-17，给样品量、环境拭子、WGS 与阳性升级）；**IOM 2026 Chapter 5**（221 页）全文（CAP-18，给权限、表单、483 措辞纪律与证据链）；**CP 7303.070**（2024 签发 / 2025-09-26 更正，61 页）全文（CAP-19，给 LACF/AF 管辖分流、酸化判定、FCE/SID 与 Process Authority 取证、pH/aw 实验室判读、Import 升级）。**仍未收**：IOM Chapter 3/4/6/7/8/9/10（尤其 Ch.4 的 702(b) 分割留样与制样）、RPM（Chapter 4/5/6/7/9/10-4）、CPG 全套（含 Sec. 130.100 / 527.300）、FMD-86、FMD-147 / SOP-001052 / SOP-000529、其他 Compliance Programs（7303.080 Produce Safety、7304.019 / 7371.000 / 7321.006 等；**7303.070 已由 CAP-19、7303.878 已由 CAP-21、7303.842 自 v4.11 起已由 CAP-24 收入**）、Import Alerts / Import Bulletins 正文、eBAM / BAM / AOAC / MPM 方法正文、21 CFR 2.10 / 133 / 1240.61 正文、Form FDA 483/484/1551 数据库、Inspections Database、21 CFR part 117 citations table、SOFO job aid、eNSpect / CAR / CMS 内部系统。因此**制样与显微判读、检验方法检出限、702(b) 分割规则、警告信判定阈值、警告信答复策略、进口扣留应诉**仍不在本包覆盖内，须另行复核或由具备资质的 PCQI / 审核员现场判断。
+**B5 — 迎检四卡的分工与仍缺的文件（本卡无法替代）。** **已收**：CPGM 7303.040 现行版全文 + 2020 历史对照（本卡）；**CP 7303.050**（2022 签发 / 2025-09-10 更正，62 页）全文（CAP-17，给样品量、环境拭子、WGS 与阳性升级）；**IOM 2026 Chapter 5**（221 页）全文（CAP-18，给权限、表单、483 措辞纪律与证据链）；**CP 7303.070**（2024 签发 / 2025-09-26 更正，61 页）全文（CAP-19，给 LACF/AF 管辖分流、酸化判定、FCE/SID 与 Process Authority 取证、pH/aw 实验室判读、Import 升级）。**已收（v4.16）**：**IOM 2026 Chapter 4**（189 页）全文（CAP-28，给取样类别、702(b) 与七项豁免、环境取样 Zone/子样数、表单链、封条与运输、Chart 2 取样计划）。**仍未收**：IOM Chapter 2/3/6/7/8/9/10（尤其 Ch.3 的 3.2 权限与 Ch.6 的 6.4 进口取样；Ch.4 已不在此列，但**制样与实验室方法仍不在内**）、RPM（Chapter 4/5/6/7/9/10-4）、CPG 全套（含 Sec. 130.100 / 527.300）、FMD-86、FMD-147 / SOP-001052 / SOP-000529、其他 Compliance Programs（7303.080 Produce Safety、7304.019 / 7371.000 / 7321.006 等；**7303.070 已由 CAP-19、7303.878 已由 CAP-21、7303.842 自 v4.11 起已由 CAP-24 收入**）、Import Alerts / Import Bulletins 正文、eBAM / BAM / AOAC / MPM 方法正文、21 CFR 2.10 / 133 / 1240.61 正文、Form FDA 483/484/1551 数据库、Inspections Database、21 CFR part 117 citations table、SOFO job aid、eNSpect / CAR / CMS 内部系统。因此**制样与显微判读、检验方法检出限、警告信判定阈值、警告信答复策略、进口扣留应诉**仍不在本包覆盖内，须另行复核或由具备资质的 PCQI / 审核员现场判断。
 
 **B6 — 境外适用有限制，且预告口径不得绝对化。** PART V.1 原文明确新的 OCIC / DCC 咨询流程 `does not apply to foreign inspection case routing`。v4.5 补入 IOM 5.2.7：境外检查**通常提前告知**、一般不签发 FDA 482（但仍须出示证件），拒绝境外食品检查可触发 FD&C Act 807(b) 拒绝入境；2025 年境外无预告检查扩张、RRA 适用范围、704(a)(4) 检查前索取记录属**政策层且 FDA 公告原文未收**，只作准备原则提示，须核对 FDA 当前公告，不得写成条款级结论；例外是 CP 7303.070 PART II.2.B(2) 已给 RRA 的程序性定义（不是 inspection、不满足 510(h)/503B(b)），该段可作条款级引用，详见 CAP-19 `lacf-inspection-program` B5。
 
@@ -204,4 +204,4 @@ PART V.1.D 的六个 Factors to Consider 值得逐条自评：食品是否 RTE�
 
 **B11 — 记录合规不等于现场合规。** CPGM PART V.1.D 明说底层控制实际到位时，记录缺失未必是 significant；但 cGMP 是观察型结果义务（〔§ 117.3〕`adequate`），完美的记录也抵不过现场卫生失守（见 `cgmp-compliance-guide`）。迎检准备必须**记录与现场状态成对**做，不能只补文件。
 
-**B12 — 引用规范（v4.7）。** 法规正文用〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕六套独立编号；CPGM 用「CPGM 7303.040 PART x」（附件须带 `ATTACHMENT A`）；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / IOM Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。**十九类不可混引**；本卡与 CAP-17 / CAP-18 / CAP-19 / CAP-20 的内容须按此分源引用。
+**B12 — 引用规范（v4.7）。** 法规正文用〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕六套独立编号；CPGM 用「CPGM 7303.040 PART x」（附件须带 `ATTACHMENT A`）；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / IOM Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。**二十类不可混引**；本卡与 CAP-17 / CAP-18 / CAP-19 / CAP-20 的内容须按此分源引用。

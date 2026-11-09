@@ -4,7 +4,7 @@
 
 *与 CAP-22 `seafood-haccp-statutory-requirements` 是**配对而非合并**：CAP-22 是**法条义务层**（21 CFR Part 123，`shall`／违反即法规不符合）；本卡是**指南建议层**（`should`／推荐／可替代／须科学论证）。必须同时防两个方向的误读：① 把指南当法规、把 `should` 读成 `shall`、把控制策略示例与 Appendix 5 数值当合规清单；② 因「指南非强制」就把 Part 123 的 `shall` 义务稀释成可选。指南内凡出现 `must`／`require`（如「每个显著危害至少一个 CCP」）几乎都是回指 21 CFR 123.6(c)(2)，其强制力来自法规而非指南。二者不可互相替代，也不得把二者合并成一张「合规清单」。*
 
-*全包自 v4.15 起「**十九类来源不可混引**」（v4.10 时为十五类）。本卡引用一律写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」（L 号以原始导出全文 `seafood_guide.md` 为准），法条一律写〔§ 123.xxx〕，**两者不可互换**，不得把指南章号写成条款号，也不得把指南内的法规转录（Appendix 8 / Addendum 1 / Additional Document 1–2）当作独立法源。层次为：法规正文 ＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序（仅检查员视角）。*
+*全包自 v4.16 起「**二十类来源不可混引**」（v4.10 时为十五类）。本卡引用一律写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」（L 号以原始导出全文 `seafood_guide.md` 为准），法条一律写〔§ 123.xxx〕，**两者不可互换**，不得把指南章号写成条款号，也不得把指南内的法规转录（Appendix 8 / Addendum 1 / Additional Document 1–2）当作独立法源。层次为：法规正文 ＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序（仅检查员视角）。*
 
 *正文本包**仍未收**：NSSP Guide（软体贝类）、21 CFR part 1240（贝类卫生）／part 110／part 507（part 108 自 v4.12 起、part 120 自 v4.13 起已收，见 CAP-25 / CAP-26）、Import Alert 16-xx 系列、BAM 海产品章节，以及本指南 Appendix 5 回指的 CPG Sec. 540.525／555.300／575.100、21 CFR 556 系列、40 CFR 180 系列、Import Tolerance 等外部法源。涉及其具体数值与条款级结论一律标「转引未收」。CP 7303.842 检查程序正文自 v4.11 起已收（CAP-24，检查程序作业层），但其回指的 CPG / BAM 判据全文仍未收，且不得与本指南建议层混引。本卡与 `hazard-analysis-method`、`chemical-hazard-controls`、`process-control-validation`、`allergen-program`、`inspection-sampling` 各有分工，见 B12。*
 
@@ -154,7 +154,7 @@
 5. **把「某步显著」直接等于「该步必须设 CCP」。** 显著是 STEP 10 的危害属性，CCP 是 STEP 11 的控制位置属性（L1823–1827）；同一危害换了控制策略示例，CCP 落点就变（L1843–1847）。
 6. **把示例数值当法定终点，或随意替代关键限值却不做科学论证。** 示例数值只是「经论证的起点」；可另选控制策略／关键限值，但须 `scientifically establish their adequacy`（L115–126）。Appendix 5 的多数水平是执法触发点，`may not always be suitable for critical limits`（L27442–27444），guidance levels 更是明文不作控制措施（L27618）。
 
-我拒绝：把 `should` 写成 `shall`；把控制策略示例／Appendix 5 数值当合规清单；代写 HACCP 计划、代填表单、判法定身份或出合规结论；从 Appendix 3 塌陷残表逐字复原判定树问答；把 Appendix 5 数值说成 FDA 在本指南中新设的限值；用本指南回答消费者／零售、retorting、可接受市场名称、濒危物种等已明确转出的问题；把指南章号与〔§ 123.xxx〕互换；混引十九类来源。
+我拒绝：把 `should` 写成 `shall`；把控制策略示例／Appendix 5 数值当合规清单；代写 HACCP 计划、代填表单、判法定身份或出合规结论；从 Appendix 3 塌陷残表逐字复原判定树问答；把 Appendix 5 数值说成 FDA 在本指南中新设的限值；用本指南回答消费者／零售、retorting、可接受市场名称、濒危物种等已明确转出的问题；把指南章号与〔§ 123.xxx〕互换；混引二十类来源。
 
 ## A1 — 书中案例
 
@@ -207,7 +207,7 @@
 29. 用户问「第 4 版 June 2022 是不是 2022 年新规／某章页脚 June 2021 算不算旧版」→ **版本口径**：封面 June 2022 第 4 版（L1444–1446），Ch.3 / Appendix 3 / Appendix 5 页脚仍 June 2021，属分章滚动修订；不得写成「2022 新规」，也不得据页脚否认其属第 4 版（B10）。
 30. 用户问「消费者／零售、retorting、可接受市场名称、濒危物种、Part 120/1240/NSSP、Import Alert 16-xx、BAM 怎么查」→ **仍未收／已转出**：本指南明文不覆盖（L92–95、L4654–4667、L2139–2140、L2144–2156），一律标「转引未收」，不给条款级结论。
 31. 用户问「帮我把这份 HACCP 计划写出来／判这个产品合不合法」→ 超出本包，转出（B12）：本卡只给方法论与层标签，不代写计划、不代填表单、不判法定身份。
-32. 用户问「十九类来源怎么引用／L 号是什么／能不能把指南章号写成 §123」→ 引用规范（B11）：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，两者不可互换；十九类不可混引。
+32. 用户问「二十类来源怎么引用／L 号是什么／能不能把指南章号写成 §123」→ 引用规范（B11）：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，两者不可互换；二十类不可混引。
 
 ## E — 执行要点
 
@@ -242,7 +242,7 @@
 
 **Step 7 — 收尾层与反向追溯（STEP 15–18）。** 补齐纠正措施、记录、验证三栏与签名日期；然后做可追溯性检查：Plan Form 任一栏应能回溯到 Ch.3 某张表（危害来源）与 Ch.4–21 某章某段（判定与参数来源），无法回溯的栏目即判定链断点，须回 Step 2 或 Step 3 补证据。Column 9 记录名称等由 18 步流程自身产生的栏目，属「流程产生」而非「章节可追溯」，须明确标注。
 
-**Step 8 — 输出必带层标签（收尾声明）。** 任何输出必须逐条标注三类层标签之一：① **法定层**〔§ 123.xxx〕／CAP-22（危害分析、书面 HACCP 计划、至少一个 CCP、纠偏、记录保存期、1 周复审、至少每年复审等 `shall` 义务，以及法定身份判定）；② **指南建议层**（本卡：18 步、Ch.3 三表、无控制条件判定、六栏／十栏表单、控制策略示例、冻结／组胺参数等 `should` 方法论与建议参数）；③ **外部法源转引未收**（Appendix 5 回指的 CPG / 21 CFR 556 / 40 CFR 180 / NSSP Guide / Import Tolerance、FD&C Act 掺假条款、part 1240/110/507、Import Alert 16-xx、BAM 海产品章节；CP 7303.842 检查程序正文自 v4.11 起已收但属检查程序层，见 CAP-24，仍不得把其触发值当成本指南的建议限值）。引用规范：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，**不可互换**；十九类来源不可混引。凡输出中出现「必须／违法／合规」字样，必须先确认它属于哪一层，不得把建议层的 `should` 直接写成法定层的 `shall`。
+**Step 8 — 输出必带层标签（收尾声明）。** 任何输出必须逐条标注三类层标签之一：① **法定层**〔§ 123.xxx〕／CAP-22（危害分析、书面 HACCP 计划、至少一个 CCP、纠偏、记录保存期、1 周复审、至少每年复审等 `shall` 义务，以及法定身份判定）；② **指南建议层**（本卡：18 步、Ch.3 三表、无控制条件判定、六栏／十栏表单、控制策略示例、冻结／组胺参数等 `should` 方法论与建议参数）；③ **外部法源转引未收**（Appendix 5 回指的 CPG / 21 CFR 556 / 40 CFR 180 / NSSP Guide / Import Tolerance、FD&C Act 掺假条款、part 1240/110/507、Import Alert 16-xx、BAM 海产品章节；CP 7303.842 检查程序正文自 v4.11 起已收但属检查程序层，见 CAP-24，仍不得把其触发值当成本指南的建议限值）。引用规范：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，**不可互换**；二十类来源不可混引。凡输出中出现「必须／违法／合规」字样，必须先确认它属于哪一层，不得把建议层的 `should` 直接写成法定层的 `shall`。
 
 ## B — 边界
 
@@ -266,6 +266,6 @@
 
 **B10 — 版本口径：封面 June 2022 与多章 June 2021 页脚属分章滚动修订。** 本导出件为 **June 2022 Edition（第 4 版）整册**（封面、导言 G 页页脚与 L1444–1446 的 fourth edition 声明），但 Ch.3 页脚 `3 - 1 (June 2021)`（L2160）、Appendix 3 `A3-1 (June 2021)`（L25886）、Appendix 5 各页 `A5 - 1 … A5 - 12 (June 2021)`（L27452 起）、Ch.19 书目 `August 2019` 均为各章最近修订时点；导言修订摘要按章列 2022 年改动（含 Chapter 9 更名、Table 9-1 归并入 Appendix 5，L695–717）。引用须写「第 4 版 June 2022（该章页脚 June 2021）」，**不得**写成「2022 年新规／新发布安全水平」，也不得因某章页脚 2021 就否认它属于第 4 版。指南页脚日期不产生法规效力、不设生效日期，与 CFR 年度编纂版次／Federal Register 生效日是两套「版本」，不可互相校对或替代。
 
-**B11 — 导出件转换质量红线与十九类不可混引引用规范。** 本导出件是 PDF／网页转 Markdown，**不是可信的逐字文本**：表格列头连写（`MARKETNAMES`／`LATINNAMES`／`Parasite3HazardsCHP5`）、词条重复粘连（`ALFONSINOALFONSINO`／`AMBERJACKAMBERJACKAMBERJACK`）、字符丢失（`fsh`→fish、`Pufer Fish`、`Specifcations`）、页码页眉混入正文（`3 - 2 (June 2021).`、`A5 - 2 (June 2021)`）、章节标题层级错乱、以及 Appendix 3 判定树图形塌陷（L25888–25902）。因此 R 段英文引用块**只能取自散文段落**，每段 ≤100 词，PDF 换行合并为空格、其余字符（含弯引号、`should`／`shall`、括号、`chose` 等原文细节）逐字保留；表格单元、页码页眉页脚、Appendix 3 残表、粘连文本、附加法规全文转录一律标为「不可引用区」。全包自 v4.15 起**十九类来源不可混引**（v4.10 时为十五类）：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，PCHF 指南用 Ch／小节号，L.mono 用其章节号，SECG 用 SECG 章号，Ed.5 用问答编号，Handbook 用「Handbook 章名 + 产品名」，CPGM 7303.040 用「CPGM 7303.040 PART x」，CP 7303.050 / 7303.070 / 7303.878 用各自 PART x，IOM 用「IOM 5.x.x / Exhibit 5-x」，Addendum／Appendix 8 的 Part 123 转录**只作对照不作引用依据**；part 1240 / 110 / 507（part 108 自 v4.12 起、part 120 自 v4.13 起已收）、NSSP Guide 一律标「转引未收」；CP 7303.842 自 v4.11 起已收（CAP-24），按「CP 7303.842 PART x / Table x / Lxxx」引用，属检查程序作业层，不得与指南建议层混引。
+**B11 — 导出件转换质量红线与二十类不可混引引用规范。** 本导出件是 PDF／网页转 Markdown，**不是可信的逐字文本**：表格列头连写（`MARKETNAMES`／`LATINNAMES`／`Parasite3HazardsCHP5`）、词条重复粘连（`ALFONSINOALFONSINO`／`AMBERJACKAMBERJACKAMBERJACK`）、字符丢失（`fsh`→fish、`Pufer Fish`、`Specifcations`）、页码页眉混入正文（`3 - 2 (June 2021).`、`A5 - 2 (June 2021)`）、章节标题层级错乱、以及 Appendix 3 判定树图形塌陷（L25888–25902）。因此 R 段英文引用块**只能取自散文段落**，每段 ≤100 词，PDF 换行合并为空格、其余字符（含弯引号、`should`／`shall`、括号、`chose` 等原文细节）逐字保留；表格单元、页码页眉页脚、Appendix 3 残表、粘连文本、附加法规全文转录一律标为「不可引用区」。全包自 v4.16 起**二十类来源不可混引**（v4.10 时为十五类）：指南写「Seafood Hazards Guide 第 4 版 Ch.x / Appendix x / L####」，法条写〔§ 123.xxx〕，PCHF 指南用 Ch／小节号，L.mono 用其章节号，SECG 用 SECG 章号，Ed.5 用问答编号，Handbook 用「Handbook 章名 + 产品名」，CPGM 7303.040 用「CPGM 7303.040 PART x」，CP 7303.050 / 7303.070 / 7303.878 用各自 PART x，IOM 用「IOM 5.x.x / Exhibit 5-x」，Addendum／Appendix 8 的 Part 123 转录**只作对照不作引用依据**；part 1240 / 110 / 507（part 108 自 v4.12 起、part 120 自 v4.13 起已收）、NSSP Guide 一律标「转引未收」；CP 7303.842 自 v4.11 起已收（CAP-24），按「CP 7303.842 PART x / Table x / Lxxx」引用，属检查程序作业层，不得与指南建议层混引。
 
 **B12 — 与其它卡的分工、不代写、仍未收清单。** 本卡＝第 15 类来源的**技术指南层／完整危害分析判定链**。问「法条义务、条款级判定、法定时限、法定身份」→ CAP-22 `seafood-haccp-statutory-requirements`〔§ 123.xxx〕；问「PCHF／Part 117 危害分析、PCQI、书面危害分析、known or reasonably foreseeable hazard」→ `hazard-analysis-method`（**两套判定体系不可互套**：本卡是 Seafood HACCP 的 `reasonably likely to occur` + 无控制假设态，Part 117 不设 species/process 二分、不设是否 CCP 一栏）；问「组胺／化学危害具体限值与检测方法」→ `chemical-hazard-controls`；问「工艺验证、科学论证充分性、温度分布／热穿透」→ `process-control-validation`；问「过敏原程序、交叉接触与清洁」→ `allergen-program`；问「取样方案与感官／分解检验」→ `inspection-sampling`；问「检查员作业／483／Import Alert」→ `inspection-readiness` / `investigator-authority-procedure`；问「LACF／酸化食品」→ `lacf-statutory-requirements` / `lacf-inspection-program`。**本卡不代写 HACCP 计划、不代填表单、不判法定身份、不承诺合规、不出法律结论**（计划须由〔§ 123.10〕合格者制定）。正文本包仍未收：NSSP Guide、21 CFR part 1240 / 110 / 507（part 108 自 v4.12 起、part 120 自 v4.13 起已收） 正文、CP 7303.842 回指的 CPG / BAM 判据全文（CP 7303.842 检查程序正文自 v4.11 起已收于 CAP-24）、Import Alert 16-xx 系列、BAM 海产品章节、Appendix 5 回指的 CPG Sec. 540.525 / 555.300 / 575.100 / 21 CFR 556 / 40 CFR 180 / Import Tolerance 全文 —— 一律标「转引未收」，不给条款级结论。

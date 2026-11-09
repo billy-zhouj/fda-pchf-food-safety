@@ -216,7 +216,7 @@
 
 **⚠ 三套 pH/aw 数字不可互替**：4.6 / 0.85 是〔§ 117.3〕〔§ 117.80(c)(14)(15)〕的**法定**平衡 pH 边界与持续维持义务；4.40 / 4.65 / 4.75 / 0.90 / 0.93 / 异常罐 1% / 24 罐是 CP 的**检查员与实验室触发线**；≤4.4 / ≤0.92 是 L.mono 草案**建议层**的抑制型配方基准。CP 的取样量与触发线**不是企业放行标准**。全包 v4.6 时为「十类不可混引」、v4.7 扩为「十二类不可混引」（新增两套法规正文）、v4.8 扩为「十三类不可混引」（新增 CP 7303.878 检查程序）、**v4.9 起扩为「十四类不可混引」**（新增 21 CFR Part 123 法规正文，见文末节）；21 CFR part 108 / 110 / 120、IOM Ch.4 Sample Schedule Chart 2、BAM Ch.13B/14/17/21A/22A–22D、CPG Sec. 520.200/520.300、Import Alert 全文、SOP-001642、RPM Ch.4/9 等未收正文一律标「转引未收」。
 
-**仍未收（v4.6 当时记录，v4.7 收窄）**：IOM 其余章节（尤其 Ch.4 的 702(b) 分割留样与制样、Sample Schedule Chart 2）、21 CFR part 108 / 110 / 120（**part 113 / 114 正文自 v4.7 起已收、part 123 自 v4.9 起已收**）与 21 CFR 2.10 / 133 / 1240.61 / 507 正文、eBAM / BAM / AOAC / MPM 方法正文、FMD-86 / FMD-147 / SOP-001052 / SOP-000529 / SOP-001642、CPG 全套（含 Sec. 130.100 / 527.300 / 520.200 / 520.300）、RPM、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、其他 Compliance Programs（7303.878 / 7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006）、FDA 483/484/1551 数据库、21 CFR part 117 citations table、SOFO job aid 与 eNSpect / CAR / CMS 内部系统；以及 FDA 境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的政策公告原文。
+**仍未收（v4.6 当时记录，v4.7 收窄；⚠ Ch.4 自 v4.16 起已收，见文末）**：IOM 其余章节（尤其 Ch.3 的法定权限与 Ch.6 的进口取样）、21 CFR part 108 / 110 / 120（**part 113 / 114 正文自 v4.7 起已收、part 123 自 v4.9 起已收**）与 21 CFR 2.10 / 133 / 1240.61 / 507 正文、eBAM / BAM / AOAC / MPM 方法正文、FMD-86 / FMD-147 / SOP-001052 / SOP-000529 / SOP-001642、CPG 全套（含 Sec. 130.100 / 527.300 / 520.200 / 520.300）、RPM、Import Alerts / Import Bulletins 与 Import Alert 99-37/99-38 正文、其他 Compliance Programs（7303.878 / 7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006）、FDA 483/484/1551 数据库、21 CFR part 117 citations table、SOFO job aid 与 eNSpect / CAR / CMS 内部系统；以及 FDA 境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的政策公告原文。
 
 **当时规模**：19 张能力卡 / 142 条术语 / 75 条测试用例（v4.6）；**当前规模见文末 v4.8 节**。
 
@@ -233,7 +233,7 @@
 
 **三套数字仍不可互替**：4.6 / 0.85 / 4.0（法条层）｜4.40 / 4.65 / 4.75 / 0.90 / 0.93 / 1% / 24 罐（CP 7303.070 检查员实验室触发线）｜≤4.4 / ≤0.92（L.mono 草案建议层）。全包 v4.7 时统一「十二类不可混引」、**v4.8 起统一「十三类不可混引」**；检查员作业指导（CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / CP 7303.878）不创设企业义务，与 CAP-19 分工为「本卡＝法条义务层，CAP-19＝检查员作业层」。
 
-**仍未收**：21 CFR part 108 / 110 / 120 正文（part 123 自 v4.9 起已收，见 CAP-22）、F0/D/z 计算与温度分布/热穿透研究设计、卷边解剖判读、商业无菌验证方案审批、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2、CPG 全套、Import Alert 全文、其余 Compliance Programs（7303.842 / 7303.847 / 7303.819 等；**7303.878 已由 v4.8 收入**）、Form 2541e 细则。
+**仍未收**：21 CFR part 108 / 110 / 120 正文（part 123 自 v4.9 起已收，见 CAP-22）、F0/D/z 计算与温度分布/热穿透研究设计、卷边解剖判读、商业无菌验证方案审批、BAM / AOAC / MPM 方法正文（**IOM Ch.4 Sample Schedule Chart 2 自 v4.16 起已收，见文末**）、CPG 全套、Import Alert 全文、其余 Compliance Programs（7303.842 / 7303.847 / 7303.819 等；**7303.878 已由 v4.8 收入**）、Form 2541e 细则。
 
 **当时规模**：20 张能力卡 / 152 条术语 / 85 条测试用例（v4.7）；**当前规模见下节 v4.8**。
 
@@ -250,7 +250,7 @@
 
 **十四类不可混引（v4.9 口径；v4.8 时为十三类）**：21 CFR Part 117 / PCHF 行业指南 / L.mono Draft Guidance / SECG / 过敏原 Ed.5 / Food Defect Levels Handbook / CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 / CP 7303.070 / 21 CFR Part 113 / 21 CFR Part 114 / CP 7303.878 / **21 CFR Part 123**。检查员作业指导一律不创设企业义务；shall/must 的法定义务只回法规正文。
 
-**仍未收**：21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、CP 7303.819 / 7303.842 / 7303.847 正文、21 CFR part 108 / 110 / 120 / 507 正文（part 123 自 v4.9 起已收）、IOM Ch.4、BAM / CPG 全套。v4.8 **未重跑**触发 / 输出 / 路由评测，v4.7 的评测结论不得冒用。
+**仍未收**：21 CFR part 1 subpart L 正文、Import Alert 99-41 全文、FSVP Guidance 与 IP guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、CP 7303.819 / 7303.842 / 7303.847 正文、21 CFR part 108 / 110 / 120 / 507 正文（part 123 自 v4.9 起已收）（**IOM Ch.4 自 v4.16 起已收，见文末**）、BAM / CPG 全套。v4.8 **未重跑**触发 / 输出 / 路由评测，v4.7 的评测结论不得冒用。
 
 **当时规模**：21 张能力卡 / 162 条术语 / 95 条测试用例 / 十三类来源（v4.8）；**当前规模见文末 v4.9 节**。
 
@@ -290,7 +290,7 @@
 
 - 上表与各节「仍未收 CP 7303.842」为 **v4.10 及以前**的当时口径，自 v4.11 起该件已纳入为**第十六来源**，见 `source-cp-7303-842-2023.md` 与 CAP-24 `seafood-inspection-program`。v4.11 时为 **十六类来源不可混引**、24 张能力卡 / 192 术语 / 125 用例 / `dist-v15`（v4.12 时为十七类 / 25 张 / 202 条 / 135 条 / `dist-v16`；**v4.13 现为十八类 / 26 张 / 212 条 / 145 条 / `dist-v17`**，见文末 v4.13 节）。
 - 该件是 **2023-11-01 版程序的 2025-09-30 更正本**（文件名 `20250929` 只是 PDF 生成日），CP 7303.842 与 CP 7303.844 已合并但 PAC 仍分进口/国产。层次为**检查程序作业层**：法规正文〔§ 123.xxx〕（CAP-22）＞ 技术指南（CAP-23）＞ 本 CP 的 field staff 指令（CAP-24）；CP 不创设企业义务，其 PART IV 触发值也不是法规限值。
-- 历史「仍未收」清单中除 CP 7303.842 外的项目（part 120 / 1240 / 110 / 507、NSSP Guide、CPG 与 Import Alert 全文、BAM 方法、IOM Ch.4 等）**仍然未收**；**21 CFR part 108 自 v4.12 起已收**（第十七来源，CAP-25），不再属未收项。
+- 历史「仍未收」清单中除 CP 7303.842 与 IOM Ch.4 外的项目（part 120 / 1240 / 110 / 507、NSSP Guide、CPG 与 Import Alert 全文、BAM 方法等）**仍然未收**；**IOM Ch.4 自 v4.16 起已收**；**21 CFR part 108 自 v4.12 起已收**（第十七来源，CAP-25），不再属未收项。
 
 ## v4.12 追加：第十七来源 21 CFR Part 108（紧急许可控制）
 
@@ -302,7 +302,7 @@
 - **核心纠偏（本版最重要的一条）**：**紧急许可不是 LACF／酸化食品企业的常态义务**。108.25(a) / 108.35(a) 用的都是 `may be required whenever the Commissioner finds, after investigation, that the commercial processor has failed to fulfill all the requirements of this section`，未履行义务只构成 `prima facie basis`（初步依据），仍须走 Subpart A 的裁定—通知—异议—听证—裁定链条；108.6(a) 另限定 `A permit shall be required only during such temporary period as is necessary to protect the public health.` 因此「LACF 企业必须持紧急许可证」是错误陈述。
 - **其余四处高频误读**：① Subpart A 全是 **working days**（3/5/10/20），Subpart B 全是**日历天**（10/30/60/90），不可互换；② 记录保存**四套口径**（108.25(g) 整段 3 年｜108.35(h) 1+2 年｜113.100(g) 1+2 年且可用 part 11 电子记录｜114.100(e) 整段 3 年无 part 11 条款）不得合并成「3 年」；③ 国内企业走紧急许可、**外国加工者走 §801 拒绝入境**（108.25(j) / 108.35(k)），两条路方向相反；④ 108.35 独有的 FSIS 连续检验豁免 (i)、加州视为合规 (j)(2)、FOIA 豁免 (l) 不得套到酸化食品。
 - **十七类不可混引（v4.12 口径；v4.11 时为十六类）**：在十六类之外增加 **21 CFR Part 108 法规正文**。层次仍为：法规正文（五套编号）＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序。Part 108 引用写〔§ 108.xxx〕，且 `§§ 114.10, 114.80(a) (1) and (2), and (b), 114.83, 114.89, and 114.100 (b), (c), and (d)` 这类交叉引用清单不得简写。
-- **仍未收**：2541 系列表单栏目细则、FURLS / Center Views 实际操作、21 CFR part 110 / 120 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文、IOM Ch.4 Sample Schedule Chart 2。
+- **仍未收**：2541 系列表单栏目细则、FURLS / Center Views 实际操作、21 CFR part 110 正文、CPG 全套、Import Alert 全文、BAM / AOAC / MPM 方法正文（**IOM Ch.4 Sample Schedule Chart 2 自 v4.16 起已收，见文末**）。
 - 转换链路：`.cangjie/convert_cfr_part.py`（页 → 左栏 → 右栏重排）→ `.cangjie/fix_part108_reflow.py`（定点修 **6 处**重排缺陷：1 处正文句被误升为条款标题、4 处句中断段、1 处两编号项并段，逐条断言）。自检：9/9 条款命中、页眉与独立页码残留 0、裁掉首部 Part 107 残段 9 段与尾部 Part 109 残段 14 段、串栏 0。完整变更与校验记录见 `PIPELINE_STATE.md` v4.12 段。
 
 ## v4.13 追加：第十八来源 21 CFR Part 120（果汁 HACCP）
@@ -337,3 +337,16 @@
 - **十九类不可混引（v4.15 口径；v4.14 时为十八类）**。
 - **仍未收**：CPG 510.150 / 555.425 全文、CP 7307.001 / 7304.019 / 7309.006 / 7321.005 全文、BAM / AOAC 方法全文、Import Alert 全文、FACTS / eNSpect / CMS 内部操作、21 CFR part 110 正文。
 
+## v4.16 追加：第二十来源 FDA IOM 2026 Chapter 4（Sampling）
+
+> 本节是 v4.16 增量记录；上文各节的 v4.x 规模、「十九类不可混引」与各版「仍未收 IOM Ch.4」均为**历史口径**，保留不改。
+
+- **v4.16 规模**：**28 张能力卡 / 233 条术语 / 168 条测试用例 / 二十类来源 / `dist-v20`**。
+- **第二十来源**：**FDA《Investigations Operations Manual 2026, Chapter 4 — Sampling》**（189 页 / 361 书签 / 4.2 MB，PDF creationDate `2026-07-14`），`source-iom-ch4-2026.md`。属**检查程序作业层**：给调查员（Investigator / CSO）的内部作业手册，非法规、非 Guidance for Industry、**不创设企业义务**。这是全包自 v4.5 起在 CAP-17 / CAP-18 / CAP-19 / CAP-20 / CAP-25 / CAP-24 / 术语表与状态文档里反复标注「未收」的最后一块检查程序层空白。
+- **转换与自检**：经用户级技能 `pdf2md-pro`（pymupdf4llm）转换；**361 书签全命中、0 丢弃**，405 个标题（H1 1 / H2 89 / H3 68 / H4 169 / H5 78）、345 行表格、页眉 `CHAPTER 4` 与独立页码残留 0、自动检出噪声行 2。文件头补「来源 / 效力层级 / 关键口径 / 转换局限」说明块（对齐 Ch.5 的写法）。CAP-28 R 段 **60 个英文引用块经 `.cangjie/verify_v4_16_quotes.py` 逐字核验 60/60 命中**，`body_only()` 只取 Word 点线目录起点之后的正文、排除自写文件头，避免自我验证循环。
+- **新增能力卡 CAP-28 `iom-sampling-procedure`**：把一次取样拆成六道分流——类别（official physical / official DOC / INV / survey / non-regulatory）→ 数量（assignment → CP → IOM Sample Schedule 三级优先）→ 702(b) → 表单链（482 / 472 / 484 / 415a / 525 / 463a / 1664）→ 封存与运输 → 阳性结果与 483。
+- **六类实质纠偏**：① **DOC sample 仍是 official sample**，只是不贴封条、不发 FDA 484——「没开 484」不能读成「样品不算数」；② **INV 不是「非正式样品」**，原文 `can be used as evidence in court, they must be sealed`；③ **`702(b)` 七项豁免不是封闭清单**，污秽样品是唯一「无论豁免与否仍要留」的反向例外，而环境拭子因被明文列入「无法以可行手段保存」通常不留；④ **环境取样不得预告**（防临时清洁抑制回收），且 50/100、Zone 1–4、24 小时到实验室全部是**检查员侧**口径，不是企业 EMP 标准；⑤ **阳性环境结果上 483 有双门槛**（关账前已知 + Listeria Zone 1/2 或 Salmonella Zone 2/3；Zone 3/4 不写），且**环境样品明确不勾 704(d)**；⑥ **`Sample Schedule Chart 2` 终于有原文**，但它是**取样计划**，与 CP 7303.070 PART IV.2 的 4.40 / 4.65 / 4.75 实验室触发线仍属两层。
+- **Bundle 回补**：`assemble_bundle.py` 27 → **28 卡**（SLUGS 追加、ALSO_READ 新增 12 条正向链 + 13 张卡反向链）、`additional_sources` 18 → **19 条**（末条 `src-fda-iom-ch4-2026`）、core_principles 54 → **56**、stop_conditions 28 → **30**、entry.description 增加 IOM Ch.4 段落。全包当前口径统一为「**二十类不可混引 / 28 张卡**」，并清除各卡把 IOM Ch.4 写作「未收」的裸断言。
+- **二十类不可混引（v4.16 口径；v4.15 时为十九类）**：在十九类之外增加 **IOM 2026 Chapter 4**。层次仍为：法规正文（六套编号）＞ FDA 指南 ＞ CPGM／CP／IOM 检查程序（仅检查员视角、不创设企业义务）。
+- **转换局限（写入 CAP-28 B12）**：① 文件前部（L3–L17）是 Word 点线目录被压成的巨型单行块，非正文，检索以 `4.x.x` 小节号为准；② 书签插入位置错位（`4.7.2` 出现在 `4.7.1` 之前、`4.6.4` 混入 4.7 区），小节标题常以 heading 与 plain text 两种形态各出现一次；③ `## **Dry Ice Guidance**` / `## **PRODUCT**` / `## **CODE**` 等为伪标题；④ Exhibit 4-1…4-25 表单为 `picture intentionally omitted` 占位（全章 41 处），字段名可引、表格式样不可引；⑤ Chart 2 的 48/CASE、24/CASE、12/CASE、6/CASE 四组在 GFM 转换后错列，只可引「批大小 → 检查数 → 提前终止数」对应关系。
+- **仍未收**：IOM Chapter 2 / 3 / 6 / 7 / 8 / 9 / 10 全本（尤其 Ch.3 的 3.2 权限、Ch.6 的 6.4 进口取样、Ch.8 的投诉与食源性疾病调查）、SOP-001052 / FMD-147 / OII SOP-000530、RPM 6-3 / 10-4、CPG 580.100 / 300.400 / 130.100 全文、BAM / AOAC / MPM 方法全文、FACTS / eNSpect / CMS / OASIS 内部操作、Form FDA 484 表单栏目细则。制样与显微判读、检验方法检出限仍须另行复核。

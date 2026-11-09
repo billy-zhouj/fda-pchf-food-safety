@@ -1360,7 +1360,7 @@
   source_chapter: FDA CP 7303.050 PART III.1.C / Sample Size；Table 2、Table 3；FD&C Act 702(b)；21 CFR 2.10(b)(3)
   source_quote: |
     "The sample size does not include 702(b) portions. See IOM Chapters 4 and 6 for additional information on 702(b) portion. Do not collect 702(b) sample portions for perishable products (see  21 CFR 2.10(b)(3)) or for samples collected in import status (unless otherwise requested)." / "In the absence of specific instruction, randomly collect ten (10), 2 lb. subsamples."
-  summary: CP 7303.050 的样品量以 **subs（份样）** 计：Table 2 给 Salmonella（如叶菜 30 subs × 100 g、番茄 10 subs × 454 g、RTE 三明治 30 subs × 100 g、散装奶酪按重量分 10/2/1 subs），Table 3 给其他分析物（如 L. mono 10 subs × 200 g、EHEC/STEC 10 × 50 g、Cyclospora 5 × 50 g、甲肝/诺如 3 × 150 g）。三条硬规则：① **样品量不含 702(b) 部分**；② 多分析物按最大 subs 数取足且每 sub 同时满足各分析物用量；③ **易腐产品与进口状态样品不取 702(b) 部分**（21 CFR 2.10(b)(3)）。ATTACHMENT B 的污秽/霉变样在无专门指令时为随机 10 个 2 lb subs，奶酪制样取 6 个 227 g 且不得合并。⚠ 这些是 **FDA 检查员的取证量**，不是企业批放行抽样计划、不是内控规格；企业抽样须依自身危害分析与验证另定。702(b) 分割留样细则在 IOM Chapter 4，本包未收。
+  summary: CP 7303.050 的样品量以 **subs（份样）** 计：Table 2 给 Salmonella（如叶菜 30 subs × 100 g、番茄 10 subs × 454 g、RTE 三明治 30 subs × 100 g、散装奶酪按重量分 10/2/1 subs），Table 3 给其他分析物（如 L. mono 10 subs × 200 g、EHEC/STEC 10 × 50 g、Cyclospora 5 × 50 g、甲肝/诺如 3 × 150 g）。三条硬规则：① **样品量不含 702(b) 部分**；② 多分析物按最大 subs 数取足且每 sub 同时满足各分析物用量；③ **易腐产品与进口状态样品不取 702(b) 部分**（21 CFR 2.10(b)(3)）。ATTACHMENT B 的污秽/霉变样在无专门指令时为随机 10 个 2 lb subs，奶酪制样取 6 个 227 g 且不得合并。⚠ 这些是 **FDA 检查员的取证量**，不是企业批放行抽样计划、不是内控规格；企业抽样须依自身危害分析与验证另定。**702(b) 分割留样细则自 v4.16 起已有原文出处**：IOM Chapter 4 `4.3.2.2 / 4.3.2.3 / 4.7.4`（第二十来源，见 CAP-28 与 t227）。
   tags: [CP 7303.050, 抽样量, 702(b), subs, 非放行标准, 高频误读]
 
 - id: t125
@@ -1505,7 +1505,7 @@
   source_chapter: CP 7303.070 PART III.1.A Inspectional Considerations、PART III.1.B、PART IV.2、PART V.1
   source_quote: |
     "Visual observation of warehoused product that shows a significant number of abnormal containers (greater than 1%) where the firm has not conducted a spoilage diagnosis" / "The total sample size for containers 795 grams (i.e., 28 oz.) net weight or smaller is 24 containers.  The total sample size for all others is 12 containers."
-  summary: 检查员取证口径。**异常容器 >1% 且企业未做 spoilage diagnosis**（判定腐败原因与批次能否放行）是检查员侧的显著观察项；PART V.1 把「异常容器 ≥1% 批确认掺假或进行性腐败」列为通知 Center 的触发之一；进口侧异常率 1% 以上须另提 DTR。pH 分析取样：**≤795 g（28 oz）取 24 罐，其余 12 罐**；具体抽样计划出处是 **IOM Chapter 4, Sample Schedule Chart 2（正文未收）**。实验室对正常容器做 **14 天 progressive decomp** 培养，异常罐另做气体/气味/外观、净重与沥干重、漏罐测试、卷边解剖与内壁状态检查；`C. botulinum` 分析**仅 for-cause**（PAF `MIC`），涉病走 BAM Ch.17、不涉病走 BAM Ch.21A，典型分离株做 WGS 送 HFP/OLOAS 做毒素基因评价。⚠ 这些都是 FDA 取证与执法建议口径，不是企业内控抽样或放行标准。
+  summary: 检查员取证口径。**异常容器 >1% 且企业未做 spoilage diagnosis**（判定腐败原因与批次能否放行）是检查员侧的显著观察项；PART V.1 把「异常容器 ≥1% 批确认掺假或进行性腐败」列为通知 Center 的触发之一；进口侧异常率 1% 以上须另提 DTR。pH 分析取样：**≤795 g（28 oz）取 24 罐，其余 12 罐**；具体抽样计划出处是 **IOM Chapter 4, Sample Schedule Chart 2（自 v4.16 起已收，见 CAP-28 与 t232）**；⚠ 它是取样计划，与 CP 7303.070 PART IV.2 的 pH 4.40/4.65 实验室触发线属两层。实验室对正常容器做 **14 天 progressive decomp** 培养，异常罐另做气体/气味/外观、净重与沥干重、漏罐测试、卷边解剖与内壁状态检查；`C. botulinum` 分析**仅 for-cause**（PAF `MIC`），涉病走 BAM Ch.17、不涉病走 BAM Ch.21A，典型分离株做 WGS 送 HFP/OLOAS 做毒素基因评价。⚠ 这些都是 FDA 取证与执法建议口径，不是企业内控抽样或放行标准。
   tags: [异常罐, 1%, 795 克, 24 罐, progressive decomp, BAM, 非放行标准]
 
 - id: t141
@@ -1523,7 +1523,7 @@
   source_chapter: CP 7303.070 PART II.2.B(2)、PART II.2.C(1)(2)；FD&C Act 704(a)(1)
   source_quote: |
     "RRAs are not considered inspections, conducted pursuant to section 704(a)(1) of the FD&C Act" / "Products labeled “Keep Refrigerated” are exempt from 21 CFR 113/114. These products should be covered under Compliance Program 7303.050."
-  summary: 程序定义与两条路由。**RRA（Remote Regulatory Assessment）**：FDA 可对 AF/LACF 企业开展**自愿、全程远程**的记录/设施评估；CP 明确 `RRAs are not considered inspections`，不满足 FD&C Act 704 条要求现场 inspection 的法定场景（如 510(h)、503B(b)）。这是 **CP 内的程序性定义**，可据此回答「RRA 算不算检查」，但 **FDA 扩大 RRA 适用范围 / 境外无预告检查的政策公告原文仍未收**，不得据此推导政策，也不能替换 IOM 5.2.7 的预告三层口径。**两条路由**：`Keep Refrigerated` 产品免 21 CFR 113/114 → 归 **CP 7303.050（CAP-17）**；未贴标 AF/LACF「brites」运至中央仓贴标装箱的检查报 **`PAC 03040`（CAP-16）**。另：动物食品 LACF 用 `71070` 并联动 7371.000 / 21 CFR 507.5(b)；海产品 LACF 并做 7303.842 HACCP。**收录边界（v4.7 更新）**：第十来源 CP 7303.070 已收（CAP-19）；**第十一、十二来源 21 CFR Part 113 / 114 法规正文亦已收（CAP-20）**，全包口径为 v4.6 十类 → v4.7 十二类 → v4.8 十三类 → **v4.9 十四类不可混引**。仍未收：21 CFR part 108（FCE/SID/Emergency Permit）、**part 110（旧 CGMP，至今有效但正文未收）**、part 120（**part 123 自 v4.9 起已收，见 CAP-22**）、IOM Ch.4 Chart 2、BAM、CPG、Import Alert 全文、其余 Compliance Programs，一律标「转引未收」。
+  summary: 程序定义与两条路由。**RRA（Remote Regulatory Assessment）**：FDA 可对 AF/LACF 企业开展**自愿、全程远程**的记录/设施评估；CP 明确 `RRAs are not considered inspections`，不满足 FD&C Act 704 条要求现场 inspection 的法定场景（如 510(h)、503B(b)）。这是 **CP 内的程序性定义**，可据此回答「RRA 算不算检查」，但 **FDA 扩大 RRA 适用范围 / 境外无预告检查的政策公告原文仍未收**，不得据此推导政策，也不能替换 IOM 5.2.7 的预告三层口径。**两条路由**：`Keep Refrigerated` 产品免 21 CFR 113/114 → 归 **CP 7303.050（CAP-17）**；未贴标 AF/LACF「brites」运至中央仓贴标装箱的检查报 **`PAC 03040`（CAP-16）**。另：动物食品 LACF 用 `71070` 并联动 7371.000 / 21 CFR 507.5(b)；海产品 LACF 并做 7303.842 HACCP。**收录边界（v4.7 更新）**：第十来源 CP 7303.070 已收（CAP-19）；**第十一、十二来源 21 CFR Part 113 / 114 法规正文亦已收（CAP-20）**，全包口径为 v4.6 十类 → v4.7 十二类 → v4.8 十三类 → **v4.9 十四类不可混引**。仍未收：21 CFR part 108（FCE/SID/Emergency Permit）、**part 110（旧 CGMP，至今有效但正文未收）**、part 120（**part 123 自 v4.9 起已收，见 CAP-22**）（**IOM Ch.4 Chart 2 自 v4.16 起已收，见 t232**）、BAM、CPG、Import Alert 全文、其余 Compliance Programs，一律标「转引未收」。
   tags: [RRA, Keep Refrigerated, brites, 7303.050, 7303.040, 十四类不可混引, 收录边界, v4.6, v4.7]
 
 - id: t143
@@ -1999,7 +1999,7 @@
     「Seafood Hazards Guide 第 4 版 Ch.x」；其它 CP / IOM / Handbook / SECG / Ed.5 各用其自身编号。
     仍未收：CPG 540.525 / 540.370 / 555.600 / 562.300 / 540.250 / 540.590 全文、21 CFR part 120 /
     1240 / 108 / 110 / 507、NSSP Guide、BAM / AOAC / MPM 方法全文、Import Alert 16-xx / 99-41 全文、
-    21 CFR part 1 subpart L、IOM Ch.4、FDA 3501 / 3502 表单全文、eNSpect / CMS / FACTS 内部系统。
+    21 CFR part 1 subpart L、FDA 3501 / 3502 表单全文、eNSpect / CMS / FACTS 内部系统（IOM Ch.4 自 v4.16 起已收，见 CAP-28）。
     转换件存在书签标题与正文伪标题交错（PART 各出现两次、H1 虚高 133）、`<u>` / `<br>` 标签、
     表格列头连写与页码混入，**检索以 PART / 小节 / 表号为准**，逐字引用只取散文段落且须剥离标记。
   tags: [十七类不可混引, 引用规范, 转引未收, 转换质量红线, 标题层级交错, v4.11]
@@ -2329,6 +2329,107 @@
   summary: 遇到无 HACCP 计划或计划不充分的企业，检查员**仍须做完整 HACCP 检查**，但**不得替企业编制流程图或 HACCP 计划**。这条既是检查纪律，也是本包「一律拒绝代写 HACCP 计划／代填表单／判法定身份」的规范出处之一（另见通用水产品卡与 Part 108 卡的同类边界）。配套：SSOP 相关 GMP 缺陷按〔§ 120.6〕引，其余 GMP 缺陷按 GMP 引并在 EIR 说明显著性；引文一律用 **eNSpect**。
   tags: [检查纪律, 边界, 十九来源]
 
+- id: t224
+  title: official sample（21 CFR 2.10 的三种管辖情形）
+  type: term
+  source_chapter: IOM 4.1.4 / 4.1.4.1；21 CFR 2.10
+  source_quote: |
+    "A sample is an _official sample_ if records (see IOM 4.4.4) or other evidence obtained show that the shipment, or other lot of the article from which the sample was collected, was: Introduced or delivered for introduction in interstate commerce, or Was in or was received in interstate commerce, or Was manufactured in a Territory or the District of Columbia."
+  summary: FDA 取样的**效力起点**。三条件任一成立且有记录或证据支持，样品才是 official sample，可作为扣留/禁令/起诉的执法基础；进口样品一律是 official sample。另有四要件使样品 `valid`：随附确立联邦管辖与知情人身份的记录、代表所采之批、够实验室分析并在必要时留 702(b)、以维持证据完整性的方式标识封存并有清晰监管链。⚠ **official sample 分 physical 与 documentary（DOC）两类**，不是「只有实物才算」；INV / survey / non-regulatory 三类都不是 official sample。本包自 v4.16 起有原文（CAP-28）。
+  tags: [取样程序, 法定管辖, IOM Ch.4, 二十类来源]
+
+- id: t225
+  title: DOC sample（documentary official sample）
+  type: term
+  source_chapter: IOM 4.1.4.1.1
+  source_quote: |
+    "A DOC sample is not a sample of records. It is a sample representing a lot of a regulated article"
+    "Because no product is collected, a Form FDA 484, Receipt for Samples, is not issued for DOC samples."
+  summary: 最易误读的样品类别。DOC **不是「记录复印件」**，而是「以记录代表一个批的 official sample」——记录本身就是样品本体，仍须代表可确立联邦管辖的批、仍须有 C/R。由标签/随附标识/州际运输记录/支持性证据构成。**两条硬例外**：`DOC samples are not officially sealed`（不贴 FDA 415a）、**不发 Form FDA 484**；但照片的电子介质另按 IOM 5.6.7.5 封。适用情形见 4.1.4.1.2（超大/固定安装/过贵/已不存在/无需化验/应急留用/拟按标签违法扣留）。⚠ 不要把「没贴封条、没开 484」读成「这次取样不算数」。
+  tags: [取样程序, 样品类别, IOM Ch.4, 反直觉]
+
+- id: t226
+  title: INV / survey / non-regulatory sample（三类非 official sample）
+  type: term
+  source_chapter: IOM 4.1.5 / 4.1.6 / 4.1.7 / 4.3.6.6.2
+  source_quote: |
+    "Investigational (INV) samples are _not_ official samples."
+    "Because these samples can be used as evidence in court, they must be sealed, and their integrity and chain of custody protected."
+    "Survey samples are not official samples."
+  summary: INV（investigational）：记录观察、支持监管行动，不需州际商业或联邦管辖；但**能进法庭，所以必须封条与完整证据链**。环境拭子、土壤、水、动物粪便、in-line/factory food、污秽 exhibit、部分投诉样一律按 **INV** 编号（产品码 `52Y[][]08` 等，不得用受检产品码）。**survey**：主动监督取数，只做数据、不作执法基础（如 DQST）。**non-regulatory**：替其他联邦/州/地方机构代做、FDA 对产品无管辖权。⚠ 把 INV 读成「非正式样品，随便采采」是本件最危险的误读。
+  tags: [取样程序, 样品类别, IOM Ch.4, 证据链]
+
+- id: t227
+  title: 702(b) portion 与七项豁免（含污秽样品反向例外）
+  type: term
+  source_chapter: IOM 4.3.2.2 / 4.3.2.3 / 4.7.4；FD&C Act 702(b) [21 U.S.C. 372(b)]
+  source_quote: |
+    "FDA must, “upon request, provide a part of such official sample for examination or analysis by any person named on the label of the article, or the owner thereof, or his attorney or agent.”"
+    "Note regarding filth samples: Regardless of the exemptions under 21 CFR 2.10(b) listed above, collect the 702(b) portion for filth samples, unless your supervisor directs otherwise."
+  summary: 法定**分割留样请求权**（`upon request`，不是自动给付）。默认留样量 `at least twice the quantity estimated to be sufficient for analysis`（含实验室 reserve），双份子样须来自同一袋/箱/容器，并建议独立容器独立封条。**七项豁免**：① 器械与烟草不在法定范围；② 可采量不足分析量两倍（有多少采多少）；③ 两倍量成本超 $150；④ 无法以可行保存手段维持可分析状态（**明列 fresh produce / water samples / environmental swabs**）；⑤ 进口样品；⑥ 取自标签具名且为货主本人；⑦ 无标签或标签无具名者。⚠ **污秽样品是唯一反向例外**：无论豁免与否都要留。不留须在 C/R 的 Collection Remarks 写明理由。
+  tags: [取样程序, 702(b), IOM Ch.4, 反直觉]
+
+- id: t228
+  title: Zone Concept 1–4 与检查员环境取样子样数
+  type: term
+  source_chapter: IOM 4.3.6.6.1；Exhibit 4-20 / 4-21
+  source_quote: |
+    "For Salmonella environmental swabbing, collect at least 100 swabs/subs and ideally 300 or more subs."
+    "For Listeria environmental swabbing, collect at least 50 swabs/subs and ideally 100 or more subs."
+  summary: Zone 1 直接接触面（切片机、混合机、输送带、器具、工作台）；**Zone 2** 紧邻 Zone 1（设备外表面、框架、推车、齿轮、通风、地面）；**Zone 3** 紧邻 Zone 2（走廊、门口、墙、电话、叉车）；**Zone 4** 远端（更衣室、干货/成品库、食堂、装卸区）。绝大多数子样取 Zone 1–2、Zone 3 次之、`Very few, if any ... from Zone 4`。Salmonella 以 Zone 2–4 为主（干性产品通常不采食品接触面），Listeria 以 Zone 1–2 为主（湿环境必须采接触面）；Listeria 须**生产 ≥4 小时且湿洗前**，Salmonella 宜在湿洗前。⚠ **50/100 是检查员侧最低量，不是企业 EMP 标准**；企业点位与频次依〔§ 117.165(a)(3)〕与自身危害分析。
+  tags: [环境取样, Zone, IOM Ch.4, 检查员口径]
+
+- id: t229
+  title: 环境取样不得预告 / D-E 中和液 / 24 小时到实验室
+  type: term
+  source_chapter: IOM 4.3.6.6.1 / 4.3.6.6.2 / 4.7.3.6
+  source_quote: |
+    "it is preferable during your discussions with a firm not to mention FDA's intent to collect environmental samples until, immediately, before sampling begins"
+    "transport/ship the sample to the servicing lab for analysis so it is received by the lab within 24 hours of collection."
+  summary: 不得预告的理由是防止企业临时清洁、抑制微生物回收（这与 IOM 5.2.7 的「检查是否预告」是两个问题，不要读成「检查本身不通知」）。作业要点：**Dey-Engley（D/E）中和肉汤/缓冲液**为通用中和液（中和消毒剂 + 提供运输存活营养）；大面积用海绵/海绵棒，单向 `10 times vertically, then 10 times horizontally`，小面积（约 10 cm × 10 cm）Dacron 拭子再加 `10 times diagonally`；双层袋 + 预冻凝胶冰袋冷藏不冻结，**24 小时内到实验室**；闭控按每个无菌器材批留一份、**环境样不交开控**；冷藏样 ≤4.4 °C（40 °F）。**换手套规则**：Zone 2–4 且属常规监督抽样时同一 zone 内不必逐子换（每子间用 70% 乙醇消毒），**Zone 1 与 for-cause 检查仍须逐子换**。
+  tags: [环境取样, 作业约束, IOM Ch.4, 反直觉]
+
+- id: t230
+  title: 表单链与 FDA 415a 官方封条的三条硬规则
+  type: term
+  source_chapter: IOM 4.2.5 / 4.7.4 / 4.7.5.3；Exhibit 4-4 / 4-5 / 4-17
+  source_quote: |
+    "The receipt is to be issued to the owner, operator, or agent-in-charge, upon completion of the inspection, but prior to leaving the premises."
+    "The seal must bear only one signature."
+    "Never place more than one sample in the same officially sealed package."
+  summary: 按动作对号：到场检查 → FDA 482；运途中取样 → 给承运人 FDA 482 + **FDA 472 Carriers Receipt**；取任何实体样品 → **FDA 484 Receipt for Samples**（检查结束、离场前签发）；封样 → **FDA 415a Official Seal**（或金属封条）；包装标识 → **FDA 525**；证言 → FDA 463a / 1664 / 1664a / 1664b；州际证据 → FD 1662。**三类不发 482/484**：induced / undercover / online；DOC 另明文不发 484、不贴封条。**封条三硬规则**：只能一个签名（多人时由编制并签署 C/R 者签）、一样一封、702(b) 建议独立容器独立封条；封条可用至厂商有效期后 **5 年**；拆封后须重封并把每一张用过的封条随记录提交。不封条的唯一例外是「连续亲自保管 + 主管与实验室同意 + 当日提交」。
+  tags: [取样程序, 表单链, 封条, IOM Ch.4]
+
+- id: t231
+  title: 阳性环境结果上 FDA 483 的门槛与 704(d) 四问
+  type: term
+  source_chapter: IOM 4.3.6.6.5 / 4.6.2.58 / 4.6.2.9
+  source_quote: |
+    "Significant positive environmental sample results, from swabs collected at food firms, are to be reported on the FDA 483 if the results are known prior to the conclusion/closeout of the inspection."
+    "Environmental samples do not meet the criteria of 704(d) but FDA provides the sample results to firms."
+  summary: 上 483 的三条件（foods program 适用）：① 属当前或未来 foods program 检查；② **检查未关账前已知**（原文明确不得为等结果延长检查）；③ 构成显著观察——Listeria 阳性在 **Zone 1/2**，或 Salmonella 阳性在 **Zone 2/3**。**Zone 3（Listeria）与 Zone 4（任一病原）不写**，除非与 Zone 1/2 阳性合并以加强执法。`704(d)` 四问全 yes 才勾（是食品 / 检查期间采 / 取自制造加工包装食品的场所 / 为查明是否含污秽腐败分解物质或不适于食用），且**选择性取样的食品部分要勾、环境样品明确不勾**（结果仍会给企业，由 HFP 发，非 OII 职责）。
+  tags: [阳性结果, FDA 483, 704(d), IOM Ch.4]
+
+- id: t232
+  title: IOM Sample Schedule Chart 2（LACF / AF 取样计划）
+  type: term
+  source_chapter: IOM Sample Schedule Chart 2；4.3.6.4
+  source_quote: |
+    "The sample will consist of all abnormal containers and the number of normal cans specified under “2. Official Samples” below"
+    "Sample size does not include 702(b) portion"
+  summary: 全包从 v4.6 起反复标「未收」的取样量出处，自 v4.16 起有原文（CAP-28）。**LACF 现场检查**：按批大小对表，达到规定异常罐数即提前终止并取样（3/5/6/7/8/9/10/11 对应八档）；异常罐分 flipper / springer / soft swell / hard swell，**leaker 不计入「abnormal containers」**、只报数不采。**official sample = 全部异常罐 + 规定正常罐**（正常罐数已含 702(b)）；**investigational / import = 全部异常 + 12 正常罐**。污秽/微生物取样：≤795 g（28 oz）≤50 箱取 48 罐、>50 箱取 96 罐；>795 g ≤600 箱取 48 罐、>600 箱取 72 罐。**AF 的 pH 取样**：>795 g 取 12 罐（12 箱各 1）、≤795 g 取 24 罐（12 箱各 2），**且明确不含 702(b)**，异常罐另加至多 24 罐。⚠ 这是**取样计划**，与 CP 7303.070 PART IV.2 的 4.40/4.65/4.75 **实验室触发线**属两层，不得混写成一条数。转换件的四组列在 GFM 后错列，只引「批大小 → 检查数 → 提前终止数」对应关系。
+  tags: [取样量, LACF, Chart 2, IOM Ch.4, 两层不得混引]
+
+- id: t233
+  title: 六套取样数量的分层与 IOM Ch.4 转换件引用纪律
+  type: term
+  source_chapter: CAP-28 E-Step 7 / B10 / B12；IOM 4.3.2 / 4.3.6.2
+  source_quote: |
+    "To determine sample size, first consult your assignment. If the assignment doesn't specify the sample size, follow the guidance in the applicable Compliance Program. The IOM SAMPLE SCHEDULE ... should be used if the Compliance Program doesn't state the sample size."
+  summary: 取样量三级优先 **assignment → 适用 Compliance Program → IOM Sample Schedule**；三级都无才用通用规则（箱数平方根、12–36 子样、不足 12 全取、带 702(b) 时双份）。**六套数字互不替代**：① 50/100 环境子样数（IOM 4.3.6.6.1）；② 114 g / 4 oz 与 10 个零售容器（IOM 4.3.6.6.3/4）；③ Chart 2 的 48/96/72 罐（LACF 取样计划）；④ AF 的 12/24 罐（pH 取样，不含 702(b)）；⑤ CP 7303.050 Table 2/3（CAP-17）；⑥ 4.40/4.65/4.75 与 24 罐/12 罐（CP 7303.070 PART IV.2 实验室触发线，CAP-19）。**转换件四处红线**：文件前部 Word 点线目录块与 `picture intentionally omitted` 占位不可逐字引；书签错位（4.7.2 在 4.7.1 之前、4.6.4 混入 4.7 区）故检索以 `4.x.x` 小节号为准；`## **Dry Ice Guidance**` 等为伪标题；Chart 2 表格错列须回查 PDF。引用写「IOM 4.x.x / IOM Exhibit 4-xx / IOM Sample Schedule Chart x」，**不得写成〔§ 117.xxx〕**。
+  tags: [引用规范, 分层, IOM Ch.4, 二十类来源]
+
+
 ```
 
 ## 自检记录
@@ -2364,6 +2465,8 @@
 - [x] **第二来源 21 CFR Part 117 全文自 v4.14 起随仓库分发**（`books/_inbox/21-CFR-Part-117-2025.md`，160,825 字节 / 3,577 行）。该件自 v1 起就在 metadata 里声明为「第二来源」，但文件从未入库，导致全包〔§ 117.xxx〕引文长期无法在本仓库内复核——v4.13 的 CAP-26 因此把 §117.5(c) 标为「转引未收」。本轮补入后新增术语 **t213**（§117.5 四款豁免的结构差异），并对全包 **23 处**〔§ 117.xxx〕引文做追溯核验（`.cangjie/verify_v4_14_part117_quotes.py`，**23/23 命中**，含 2 处带省略号的节引按段核验）。全库 **213 条**，v4.14。
 
 - [x] 第十九来源 **FDA CP 7303.847《Juice HACCP Inspection Program》**（2010-11-02 版 / 2025-09-18 更正，26 页 / 35 书签）检查程序已并入，术语 t214–t223 共 10 条，围绕「检查员侧取证」排布：版本口径与 CPGM 效力 → 三类样品分流（验证/有因/文档性）与 PAC → 「没取样」的三条理由 → HACCP 与非 HACCP 双组件 → 进口商 MOU 与 affirmative steps 判据 → ATTACHMENT A 采样量 → 铅拟议行动水平 → 60 天复检与升级路径 → 检查员不代写计划 → 与法条层 CAP-26 的分工。引文取自 CAP-27 R 段经 `.cangjie/verify_v4_15_quotes.py` 核验的 **28 个英文引用块**（28/28 命中正文区，0 超 100 词、0 表格引用）。原文标「CP 7303.847 PART x / ATTACHMENT A」，企业义务标〔§ 120.xxx〕；⚠ v4.13 曾把本程序误写为 `CP 7303.047`，v4.15 订正为 **7303.847**。全库 **223 条**，v4.15，**十九类来源不可混引**。
+
+- [x] 第二十来源 **FDA IOM 2026 Chapter 4《Sampling》**（189 页 / 361 书签 / 4.2 MB）检查程序已并入，术语 t224–t233 共 10 条，围绕「取样作为证据的形式要件」排布：21 CFR 2.10 的 official sample 三条件 → DOC 的两条反直觉 → INV/survey/non-regulatory 三类 → 702(b) 七项豁免与污秽反向例外 → Zone 1–4 与 50/100 → 不得预告与 D/E、24 小时 → 表单链与 FDA 415a 三硬规则 → 阳性上 483 的三条件与 704(d) 四问 → Sample Schedule Chart 2 → 六套数量分层与转换件引用纪律。引文取自 CAP-28 R 段经 `.cangjie/verify_v4_16_quotes.py` 核验的 **60 个英文引用块**（60/60 命中正文区，0 超 100 词、0 表格引用；`body_only()` 排除自写文件头以防自我验证循环）。原文标「IOM 4.x.x / IOM Exhibit 4-xx / IOM Sample Schedule Chart x」，企业义务标〔§ 117.xxx〕等法规正文；⚠ 环境拭子 50/100 是**检查员侧最低量**，不是企业 EMP 标准。**全包自 v4.16 起二十类来源不可混引，28 张能力卡**。全库 **233 条**，v4.16。
 
 
 
