@@ -7,6 +7,18 @@
 - 指标改为 27 卡 / 223 术语 / 157 用例 / version 4.15 / 十九类 / CAP-27。
 - 断言改为：CAP-27 的 28 个引用块、SKILL.md 里「十八类」旧口径必须为 0、卡目录已无错误 CP 号 7303.047。
 """
+
+
+# ⛔ DEPRECATED (2026-11-10 v4.19 收口)：本脚本属旧构建链 / 旧版安装器，禁止日常执行。
+#    当前权威产物 = dist-v21 (v4.19)；安装只走 install_v18.py。
+#    误跑后果：assemble_bundle.py 会用 v4.16 的 28 卡数据覆盖 .cangjie/capabilities/ 的
+#    verified.yaml + destinations.json + book/；install_vN.py (N<=17) 会把用户级已装技能
+#    回退到 v4.9~v4.16 的旧版。详见 .cangjie/README.md。
+#    仅「路线 A 全量移植」工作可设 ALLOW_DEPRECATED_CANGJIE=1 强制执行。
+import os as _os, sys as _sys
+if not _os.environ.get("ALLOW_DEPRECATED_CANGJIE"):
+    _sys.stderr.write("DEPRECATED: " + __file__.replace("\\", "/").rsplit("/", 1)[-1] + " — 旧构建链/旧版安装器已弃用，禁止执行。详见 .cangjie/README.md。如确需强跑（仅路线 A），先 export ALLOW_DEPRECATED_CANGJIE=1")
+    _sys.exit(2)
 import hashlib
 import re
 import shutil

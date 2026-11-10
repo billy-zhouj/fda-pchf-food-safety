@@ -8,6 +8,18 @@
 - 新增两条断言：CAP-25 的 27 个引用块、以及 SKILL.md 里「十六类」旧口径必须为 0。
 - 其余（路径推导、逐文件 hash 对比、5 份 glossary 副本一致性、严格 YAML）沿用 v4.11。
 """
+
+
+# ⛔ DEPRECATED (2026-11-10 v4.19 收口)：本脚本属旧构建链 / 旧版安装器，禁止日常执行。
+#    当前权威产物 = dist-v21 (v4.19)；安装只走 install_v18.py。
+#    误跑后果：assemble_bundle.py 会用 v4.16 的 28 卡数据覆盖 .cangjie/capabilities/ 的
+#    verified.yaml + destinations.json + book/；install_vN.py (N<=17) 会把用户级已装技能
+#    回退到 v4.9~v4.16 的旧版。详见 .cangjie/README.md。
+#    仅「路线 A 全量移植」工作可设 ALLOW_DEPRECATED_CANGJIE=1 强制执行。
+import os as _os, sys as _sys
+if not _os.environ.get("ALLOW_DEPRECATED_CANGJIE"):
+    _sys.stderr.write("DEPRECATED: " + __file__.replace("\\", "/").rsplit("/", 1)[-1] + " — 旧构建链/旧版安装器已弃用，禁止执行。详见 .cangjie/README.md。如确需强跑（仅路线 A），先 export ALLOW_DEPRECATED_CANGJIE=1")
+    _sys.exit(2)
 import hashlib
 import re
 import shutil
