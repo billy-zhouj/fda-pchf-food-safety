@@ -1,0 +1,31 @@
+# WorkBuddy skill package — v4.19
+# Keep the deliverable lean: exclude local backups, OS cruft, and large PDFs.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
+.vscode/
+
+# Local backups (kept outside the repo on purpose)
+backups/
+**/backups/
+
+# Large source PDFs and converted book dumps (not part of the installed skill)
+*.pdf
+source-*.md
+BOOK_OVERVIEW.md
+PIPELINE_STATE.md
+GLOSSARY.md
+verified.md
+rejected/
+candidates/
+test-results/
+.cangjie/
+
+# Python caches
+__pycache__/
+*.pyc
