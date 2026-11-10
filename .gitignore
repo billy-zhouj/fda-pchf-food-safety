@@ -1,4 +1,4 @@
-# ===== 编译产物（dist-v12 / dist-v13 为已发布产物，单独保留）=====
+# ===== 构建产物/基线（dist-v21 与 build/ 为权威链，须入库）=====
 dist/
 dist-update/
 dist-v3/
@@ -11,6 +11,9 @@ dist-v9/
 dist-v10/
 dist-v11/
 .staging-run-*/
+
+# ===== 本地归档（不入库：未追踪的旧产物/中间缓存）=====
+_legacy-local/
 
 # ===== 历史备份 =====
 backups/

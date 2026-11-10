@@ -441,3 +441,14 @@ v4.17 / v4.18 / v4.19 由三个独立 cangjie book 项目构建并**叠加安装
 合计 +23 张新卡（3 导航 + 20 细分）、术语 +85（t234–t318）、用例 +36（iom-* / part101-*）、来源 +3，主仓库既有零丢失。
 
 **路线 B 收口**：运行中 v4.19 成品逐文件 hash 一致地定为权威产物 **dist-v21**（57 文件，51 卡 / 318 术语 / 204 用例 / 4.19）；三个 book 的 source + candidates + apply/convert/verify 脚本归档进 **imported/**（排除 backups/dist/.git）。旧基构建（v4.16，28 基础卡）保留待**路线 A 全量移植**。GitHub 自此与本地运行版本一致。
+
+### 双血缘彻底收口（同日，L1+L2+L3）
+
+上面路线 B 解决了「权威是谁」，但主仓库仍并存两套可执行构建链、且没有可从源重建的全量入口。同日完成三层收口：
+
+- **L3 单一构建链（核心）**：新增全量构建入口 **`.cangjie/build_v4.19.py`**——从 `build/v4.16-baseline`（dist-v20 33 文件 + 根 test-prompts.json 168 用例）铺基线 → 叠加 `build/v4.19/{v4.17,v4.18,v4.19}/capabilities/` 23 张冻结卡 → 覆盖 `build/v4.19/final/` 6 个终态文件 → **57 文件 sha256 全等 dist-v21**，并断言 4.19 / 51 卡 / 318 术语 / 204 用例。build 链因此**可复现、零外部依赖**。
+  - 为何不用「重跑 3 个 apply 脚本」：v4.17 依赖原 book `dist/`（归档未收）且路径硬编码；v4.18 依赖 book 相对路径；**v4.19 原 book 根本没有 apply 脚本**（交互式手工完成）。故把当时实际写入内容固化为不可变输入，生成时逐文件断言与 dist-v21 同 hash。
+- **L2 物理隔离**：旧链整体移入 `_legacy/`——`old-chain-v416/`（capabilities 28 卡+meta+bundle / candidates / 15 个旧安装器与 assemble_bundle / eval-archive）、`dist-legacy/dist-v12…v19`；未追踪的 dist-v3…v11 与中间缓存移入本地 `_legacy-local/`（已 gitignore，不入库）。根目录只剩 `build/`、`dist-v21/`、`imported/`、`.cangjie/`。
+- **L1 权威决议**：`.cangjie/README.md` 重写为「唯一构建入口 build_v4.19.py + 唯一安装入口 install_v18.py」；16 个旧链脚本保留 DEPRECATED 守卫（默认 `exit 2`）。新增 `_legacy/README.md` 说明冻结边界。
+
+收口后：**单一血缘 = build/v4.16-baseline + build/v4.19 → build_v4.19.py → dist-v21 → install_v18.py → 已装技能**。旧链仅作审计与路线 A 备料，不参与生产。已装技能全程零触碰。

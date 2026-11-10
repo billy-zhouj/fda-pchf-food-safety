@@ -1,84 +1,72 @@
-# `.cangjie/` 构建脚本索引（2026-11-10，v4.19 收口后）
+# `.cangjie/` — 构建脚本与权威链（2026-11-10，v4.19 双血缘收口）
 
-> ⚠ **先读这里再跑任何脚本。** 本目录同时存在**新旧两套构建链**，旧链脚本已被加
-> `DEPRECATED` 守卫：默认 `exit 2` 拒绝执行，仅当显式
-> `export ALLOW_DEPRECATED_CANGJIE=1` 才放行（放行仅用于「路线 A 全量移植」）。
+> **一句话**：`build_v4.19.py` 是**唯一全量构建入口**；`install_v18.py` 是**唯一安装入口**；
+> 旧链已整体冻结进 `_legacy/old-chain-v416/`，脚本带 DEPRECATED 守卫（默认 `exit 2`）。
 
-## 1. 两套构建血缘（为什么会有两套）
+## 1. 权威链（唯一）
 
-| | 旧链（v4.16 及以前） | 新链（v4.17–v4.19，现权威） |
+```
+build/v4.16-baseline/           v4.16 基线（dist-v20 33 文件 + 根 test-prompts.json 168 用例）
+        │
+        ├── build/v4.19/v4.17/capabilities/   11 张卡（IOM Ch.6：入口 + imports/ 10）
+        ├── build/v4.19/v4.18/capabilities/    6 张卡（Part 101：入口 + labeling/ 5）
+        ├── build/v4.19/v4.19/capabilities/    6 张卡（Part 172：入口 + additives/ 5）
+        └── build/v4.19/final/                 6 个终态文件（SKILL.md / test-prompts.json /
+                                                capability-index / cheatsheet / glossary / overview）
+        │
+   .cangjie/build_v4.19.py   （铺基线 34 → 叠加 23 卡 → 覆盖 6 终态 → 57 文件 sha256 全等 dist-v21）
+        │
+   dist-v21/                 v4.19 参考产物（57 文件，权威）
+        │
+   .cangjie/install_v18.py   （备份 → 整目录镜像 → 官方校验 → sha256 比对）
+        │
+   ~/.workbuddy/skills/fda-pchf-food-safety   （用户级已装技能）
+```
+
+**验证方式**：`python .cangjie/build_v4.19.py` → 必须输出 `[4] 与 dist-v21 对齐：57 文件 sha256 全部一致`
+且 `[5] version 4.19 / 能力卡 51 文件 / 术语 318 / 用例 204`。任一不符即构建失败（脚本内 assert）。
+
+## 2. 为什么是「冻结增量」而不是重跑 apply 脚本
+
+| 版本 | apply 脚本可重放性 | 结论 |
 |---|---|---|
-| 卡源 | `cards/*.md`（28 张 RIA++ 六段卡）+ `_meta-*.yaml` | 各 book 项目的 `candidates/` + `verified.md` |
-| 组装 | `assemble_bundle.py`（SLUGS 硬编码 28 卡）→ `verified.yaml`/`destinations.json`/`book/` | 各 book 的 `apply_v4.1x.py` / `convert_*.py` 叠加安装 |
-| 产物 | `dist-v3` … `dist-v20` | 直接叠加进已装技能，收口后定格为 **`dist-v21`（v4.19 成品镜像）** |
-| 状态 | **已弃用，禁止日常执行**（守卫拦截） | 权威；v4.19 收口（路线 B）后以成品定权威，旧链保留待路线 A 移植 |
+| v4.17 | 依赖原 book 的 `dist/`（归档未收）＋路径硬编码原开发机 | 不可 |
+| v4.18 | 依赖 book 相对路径 `ROOT/candidates/glossary.md`，SKILL 路径硬编码 | 不可 |
+| v4.19 | **原 book 无 apply 脚本**（交互式手工完成，从未脚本化） | 不可 |
 
-v4.17–v4.19 由 3 个独立 book 项目（`iom-2026-ch6` / `cfr-part101-2026` /
-`cfr-part172-2026`）各自叠加安装，**未经旧链编译**，因此旧链 `SLUGS` 仍是 28 卡。
-误跑旧链会用 v4.16 数据覆盖 `.cangjie/capabilities/` 下的 bundle 文件，
-误跑旧安装器会把已装技能退回旧版。这就是守卫存在的原因。
+因此把「当时实际写入的内容」固化为 `build/v4.19/` 下的**不可变输入**（生成时逐文件断言与
+dist-v21 对应文件 sha256 相等）。构建因此确定性、零外部依赖、可在任何机器复现。
 
-## 2. 脚本分类
+## 3. 三件套职责
 
-### ✅ 可用（当前权威链）
-| 脚本 | 作用 | 指标 |
+| 文件 | 职责 | 何时改 |
 |---|---|---|
-| `install_v18.py` | 把 **`dist-v21`（v4.19）** 安装到用户级 `~/.workbuddy/skills/fda-pchf-food-safety`（备份→整目录镜像→官方校验→sha256 比对） | 51 卡（递归）/ 318 术语 / 204 用例 / version 4.19 |
+| `build_v4.19.py` | 全量构建 → dist-v21 等价产物 + 全量断言 | 只在新增版本时新建 `build_vX.py`，不改本文件 |
+| `install_v18.py` | 把 `dist-v21` 装到用户级技能目录（备份/镜像/校验） | 同上，新版本新建 `install_vX.py` |
+| `README.md` | 本索引 + 权威决议 + 目录地图 | 结构变化时同步 |
 
-### 🚫 已弃用（守卫拦截，`ALLOW_DEPRECATED_CANGJIE=1` 可强跑，仅限路线 A）
-- **旧链编译/组装**：`assemble_bundle.py`（28 卡 → bundle 三件套）。
-- **旧版安装器** `install_v3.py` … `install_v17.py`（共 15 个，按下表会把已装技能退回对应旧版）：
+## 4. 规则（硬性）
 
-| 脚本 | SRC | 退回到的版本 |
-|---|---|---|
-| `install_v3.py` | `dist-v3` | v3 |
-| `install_v4.py` | `dist-v4` | v4 |
-| `install_v5.py` | `dist-v5` | v4.1 |
-| `install_v6.py` | `dist-v9` | v4.5（注意：脚本号与 dist 号历史漂移） |
-| `install_v7.py` | `dist-v10` | v4.5 后期 |
-| `install_v8.py` | `dist-v11` | v4.6 |
-| `install_v9.py` | `dist-v12` | v4.7 |
-| `install_v10.py` | `dist-v13` | v4.8 |
-| `install_v11.py` | `dist-v15` | v4.11 |
-| `install_v12.py` | `dist-v16` | v4.12 |
-| `install_v13.py` | `dist-v17` | v4.13 |
-| `install_v14.py` | `dist-v18` | v4.14 |
-| `install_v15.py` | `dist-v19` | v4.15 |
-| `install_v16.py` | `dist-v19` | v4.15.1（27 卡 / 223 术语 / 158 用例） |
-| `install_v17.py` | `dist-v20` | **v4.16**（28 卡 / 233 术语 / 168 用例）← 最常被误跑的一个 |
+1. **构建只走 `build_v4.19.py`**，安装只走 `install_v18.py`。出新版：新建 `build_vX.py` / `install_vX.py`，
+   旧脚本加守卫、不改其内容。
+2. **禁止**执行 `_legacy/old-chain-v416/scripts/` 下任何脚本（旧链，默认 `exit 2`；
+   仅路线 A 研究可 `export ALLOW_DEPRECATED_CANGJIE=1` 放行）。
+3. 任何脚本改动后：`python -c "import ast; ast.parse(open(...))"` → 构建到临时目录验证 → 再跑正式目标。
+4. `build/` 与 `dist-v21/` 是**输入/参考产物**，不得在构建时被修改；产物只写到临时目录。
 
-### 📦 历史一次性脚本（无守卫、无需跑；当时任务已固化进产物/文档，重跑无意义且可能破坏现状）
-- 各版本增量回补：`apply_v4_*.py`、`apply_legacy_eval_state.py`、`append_v4*.py`、
-  `append_lmono_*.py`
-- 来源转换：`convert_*.py`、`finalize_*.py`、`fix_*.py`
-- 引文核验：`verify_*_quotes.py`
-- 评测：`build_*_eval_suites.py`、`check_*_routing.py`、`score_*.py`
-  （⚠ v4.12 起评测欠账：若重跑，**必须**基于 `dist-v21` 重写断言，旧脚本的卡数/来源数断言全部过期）
-- 数据文件：`part108_header.md`、`part120_header.md`、`cp847_header.md`、`v4-*-eval-report.md`
-
-## 3. 规则（硬性）
-
-1. **安装只走 `install_v18.py`**（当前指向 dist-v21）。出新版本时新建 `install_v19.py`
-   并给旧 `install_v18.py` 加守卫，不改旧脚本的 SRC。
-2. **禁止**在路线 A 完成前执行 `assemble_bundle.py`（含强跑）——产物与 v4.19 现状冲突。
-3. 任何脚本改动后：`python -c "import ast; ast.parse(open(...))"` 语法自检 →
-   真实运行前先在临时 DST 验证 → 再跑正式目标。
-4. 守卫环境变量 `ALLOW_DEPRECATED_CANGJIE` 是**一次性**放行：用后即忘，
-   不要写进 shell profile 或自动化任务。
-
-## 4. 目录地图（构建产物）
+## 5. 目录地图
 
 ```
 仓库根/
-├── dist-v3 … dist-v20/   旧链历史产物（v3–v4.16），仅存档
-├── dist-v21/             ★ 当前权威产物（v4.19 成品镜像，57 文件，与已装技能 hash 一致）
-├── dist-update/          旧链增量更新残留
-├── imported/             v4.17–v4.19 三个 book 项目的溯源归档（source + candidates + apply 脚本）
-├── source-*.md           第一~第二十来源的 eCFR/PDF 转换原文（旧链书源；Part 101/172 原文见 imported/）
-└── .cangjie/             本目录（脚本 + 历史评测报告）
-    └── capabilities/     旧链 28 卡 cards/ + _meta-*.yaml + bundle 三件套（v4.16 冻结态）
+├── build/                      ★ 构建输入（权威）
+│   ├── v4.16-baseline/         v4.16 基线（33 文件 + test-prompts.json）
+│   └── v4.19/                  v4.19 冻结增量（v4.17/ v4.18/ v4.19/ final/）
+├── dist-v21/                   ★ v4.19 参考产物（57 文件）
+├── imported/                   v4.17–v4.19 三个 book 项目溯源归档
+└── _legacy/                    冻结归档（只读，勿执行）
+    ├── old-chain-v416/         旧链：capabilities 28 卡+meta+bundle / candidates / scripts / eval-archive
+    └── dist-legacy/            旧产物 dist-v12 … dist-v19（git 留痕；v3–v11 在本地 _legacy-local/，不入库）
 ```
 
-已装技能（`~/.workbuddy/skills/fda-pchf-food-safety`）是**用户级**、随用户跨项目；
-本仓库是**开发源**，两者当前内容一致（v4.19），但已装目录自带孤立 `.git`（1 提交、无远端），
-勿在其中执行 git 操作（避免再次分叉——v4.17–19 分裂的根源）。
+已装技能（`~/.workbuddy/skills/fda-pchf-food-safety`）是**用户级**、随用户跨项目；本仓库是**开发源**。
+两者当前内容一致（v4.19）。已装目录自带孤立 `.git`（1 提交、无远端），**勿在其中执行 git 操作**。
