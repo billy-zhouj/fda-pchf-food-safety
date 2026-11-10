@@ -1,0 +1,65 @@
+[
+  {
+    "chunk": 1,
+    "path": ".cangjie\\chunks\\chunk-01.md",
+    "sections": "101.1..101.8",
+    "lines": 960,
+    "bytes": 66416
+  },
+  {
+    "chunk": 2,
+    "path": ".cangjie\\chunks\\chunk-02.md",
+    "sections": "101.9..101.9",
+    "lines": 2129,
+    "bytes": 130144
+  },
+  {
+    "chunk": 3,
+    "path": ".cangjie\\chunks\\chunk-03.md",
+    "sections": "101.10..101.11",
+    "lines": 714,
+    "bytes": 43702
+  },
+  {
+    "chunk": 4,
+    "path": ".cangjie\\chunks\\chunk-04.md",
+    "sections": "101.12..101.12",
+    "lines": 6100,
+    "bytes": 440567
+  },
+  {
+    "chunk": 5,
+    "path": ".cangjie\\chunks\\chunk-05.md",
+    "sections": "101.13..101.30",
+    "lines": 1627,
+    "bytes": 98972
+  },
+  {
+    "chunk": 6,
+    "path": ".cangjie\\chunks\\chunk-06.md",
+    "sections": "101.36..101.61",
+    "lines": 1418,
+    "bytes": 88863
+  },
+  {
+    "chunk": 7,
+    "path": ".cangjie\\chunks\\chunk-07.md",
+    "sections": "101.62..101.69",
+    "lines": 1741,
+    "bytes": 80783
+  },
+  {
+    "chunk": 8,
+    "path": ".cangjie\\chunks\\chunk-08.md",
+    "sections": "101.70..101.82",
+    "lines": 1894,
+    "bytes": 116955
+  },
+  {
+    "chunk": 9,
+    "path": ".cangjie\\chunks\\chunk-09.md",
+    "sections": "101.83..101.108",
+    "lines": 875,
+    "bytes": 52153
+  }
+]

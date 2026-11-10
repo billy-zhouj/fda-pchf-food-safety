@@ -1,0 +1,72 @@
+[
+  {
+    "id": "part101-01",
+    "type": "should_trigger",
+    "prompt": "我们要给一款圆柱罐装饮料设计标签，主展示面该怎么算面积？营养成分表和配料表能放背面吗？字号有没有法定要求？",
+    "expected_behavior": "应激活 CAP-30 入口卡并路由到 V01 `labeling-architecture`：〔§ 101.1〕PDP 面积按 (a) 矩形高×宽 / (b) 圆柱或近圆柱 40% 高×周长 / (c) 其他形状 40% 总表面，圆柱容器强制信息须落在这 40% 内；〔§ 101.2〕信息面板是紧邻 PDP 右侧的法定相对方位而非任意空白面；〔§ 101.4(a)(1)〕配料按重量降序以通用名列出；〔§ 101.15〕显著性与字号本身即义务。须提示这是法规正文层〔§ 101.xxx〕，不是〔§ 117.xxx〕，且标签合规不等于食品安全合规。",
+    "notes": "V01 正面场景：PDP 面积公式 + 信息面板方位 + 显著性"
+  },
+  {
+    "id": "part101-02",
+    "type": "should_trigger",
+    "prompt": "一款小包装零食要不要做 Nutrition Facts？serving size 是我们建议消费者一次吃的量吗？RACC 表里的数值能直接抄进内控规格吗？",
+    "expected_behavior": "路由到 V02 `nutrition-labeling-serving-size`：〔§ 101.9(a)〕默认一律提供营养信息，豁免须落在 (j) 列举款；serving size 由〔§ 101.9(b)〕+〔§ 101.12(b)〕RACC 推导，是监管比较基准而非厂商建议量，也是所有声称阈值的共同分母。§101.12 Table 1/2（约 113 页流式列值）与 Appendix B/C/D 图形为不可逐字引用区，只可引「产品类别 → RACC → label statement」对应关系并回原表核对；须核对 eCFR 2026-11-05 快照与 FR citation。",
+    "notes": "V02 正面场景：豁免对象 + serving size 推导 + 表值引用纪律"
+  },
+  {
+    "id": "part101-03",
+    "type": "should_trigger",
+    "prompt": "包装上印了个心形符号，品牌名里带 heart，写「high in oat bran」算不算需要授权的声称？我们有几篇论文支持，能做健康声称吗？",
+    "expected_behavior": "路由到 V03 `claims-authorization-gates`：〔§ 101.14(a)(1)〕health claim 含品牌名、heart 符号、vignette、第三方引用；〔§ 101.13(b)(2)〕implied nutrient content claim 同样受管。健康声称须〔§ 101.14(b)〕significant scientific agreement（法规级证据门槛，不是「有论文支持」）+ 不超 disqualifying level + 落在 §101.72–83 已授权模型或经 §101.70 请愿。须提示 gluten-free〔§ 101.91〕below 20 ppm 与亚硫酸盐〔§ 101.100(a)(4)〕10 ppm 是不同条款不同判据。",
+    "notes": "V03 正面场景：暗示/符号构成 claim + SSA 门槛"
+  },
+  {
+    "id": "part101-04",
+    "type": "should_trigger",
+    "prompt": "我们做未巴氏杀菌的苹果汁，已经按 Part 120 做完 5-log 验证了，是不是就不用贴 WARNING 了？反过来贴了警示是不是可以不做 5-log？果汁百分比声明怎么写？",
+    "expected_behavior": "路由到 V04 `specific-foods-warning-statements`：〔§ 101.17(g)〕未经 (g)(7) 所述工艺处理的果汁须带逐字 WARNING 声明；〔§ 101.30(b)〕百分比声明格式为 `Contains __ percent (or %) ______ juice`，<1% 用 `less than 1 percent juice`。两层义务不可互推：贴了警示不等于做过〔§ 120.24〕5-log（工艺义务转 CAP-26），做了 5-log 也只是让 (g) 警示不适用、不自动免 §101.30 等其他标签义务；检查员取证转 CAP-27 / CP 7303.847。",
+    "notes": "V04 ★ 三层接口：5-log ↔ 警示双向互推纠偏"
+  },
+  {
+    "id": "part101-05",
+    "type": "should_trigger",
+    "prompt": "我们产品属于 §101.100 的豁免范围，是不是不用做 Nutrition Facts 了？另外配料里亚硫酸盐很少，按 incidental additive 免申报可以吗？",
+    "expected_behavior": "路由到 V05 `labeling-exemptions-effect-level`（横切层，须依附 V01/V02 使用）：〔§ 101.100(a)〕免的是 FD&C Act **403(i)(2) 配料表**要求，营养标签豁免在〔§ 101.9(j)〕，两者不可互替；〔§ 101.108〕是 FDA 书面提案获批的临时标签实验，Part 117〔§ 117.5〕是主体/活动豁免，四套对象切分。〔§ 101.100(a)(3)〕incidental additive 须「量不显著且无技术或功能效果」，(a)(4) 明定亚硫酸盐成品 ≥**10 ppm** 即不得免申报（反向例外）。须提示 403 misbranding 与 402 adulteration 是两条独立执法钩子。",
+    "notes": "V05 正面场景：四套豁免对象 + 10 ppm 反向例外"
+  },
+  {
+    "id": "part101-06",
+    "type": "edge_case",
+    "prompt": "我们是 qualified facility，FSP 记录简化了；那标签是不是也可以整体免标？还有 FDA 那份过敏原问答 Ed.5 说未列入 Table 1 的树坚果不得进 Contains 声明，这条是不是 21 CFR 101 的规定？",
+    "expected_behavior": "应识别为跨层混淆。Part 117〔§ 117.5〕/〔§ 117.201〕的 qualified facility 是**主体/活动**豁免，只减 Subparts C/G 负担，不触及 Part 101 标签义务（转 CAP-09 + V05）。Ed.5（2025-01）解释的是 FD&C Act §201(qq)/§403(w)，属 **guidance 建议层**，Big 9 / Table 1 树坚果封闭清单 / allergen-free 与 advisory 声明互斥**不得标成〔§ 101.xxx〕**（转 CAP-05）。须明确七套法规编号与二十二类不可混引，且标签合规不替代危害分析。",
+    "notes": "兄弟诱饵①：主体豁免 + Ed.5 guidance 层不得混入 Part 101 法条层"
+  },
+  {
+    "id": "part101-router-01",
+    "type": "router_reachable",
+    "prompt": "我们想在包装上写「低脂」「高纤」，还想用 20 ppm 的 gluten-free 声明；另外包装正面有个心形图案，这些分别该按什么规则审？",
+    "expected_behavior": "CAP-30 入口卡路由表应把该意图指向 V03 `claims-authorization-gates`（`references/capabilities/labeling/claims-authorization-gates.md`），而非 V01（载体位置）、V02（份量基准）、V04（强制警示）或 V05（豁免/效力层）。V03 内再分：低脂/高纤是 §101.13 + Subpart D〔§ 101.62〕等营养素含量声称；gluten-free 是 Subpart F〔§ 101.91〕定量定义；心形图案按 §101.14(a)(1) 属健康声称暗示。serving size / RACC 分母不足时补读 V02。",
+    "notes": "router_reachable①：V03 与 V01/V02/V04 的近邻区分"
+  },
+  {
+    "id": "part101-router-02",
+    "type": "router_reachable",
+    "prompt": "未巴氏果汁的 WARNING 声明字号位置、随货单据披露、以及 100% juice 的百分比措辞，该看哪张卡？",
+    "expected_behavior": "CAP-30 入口卡应指向 V04 `specific-foods-warning-statements`（`references/capabilities/labeling/specific-foods-warning-statements.md`），而非 V01（PDP/显著性虽相关但不是警示措辞本体）、V03（声称授权）或 V05（豁免）。关键依据：〔§ 101.17〕各款是独立立法，措辞/位置/例外不得互借；〔§ 101.17(g)〕散装非零售或异地加工可免但随货单据须披露未处理；〔§ 101.30〕给百分比声明格式。5-log 工艺问题须另转 CAP-26〔§ 120.24〕，不得在本卡内回答。",
+    "notes": "router_reachable②：V04 与 V01/V03 的近邻区分 + CAP-26 外转"
+  },
+  {
+    "id": "part101-07",
+    "type": "edge_case",
+    "prompt": "我们的 Nutrition Facts 完全合规、标签也都贴对了，是不是就可以不做危害分析和预防控制了？另外进口时被 FDA 以 misbranding 扣留，IOM Chapter 6 的 Form FDA 766 改标重整是不是我们的标签义务？",
+    "expected_behavior": "两个都要否定并分层。**标签合规 ≠ 食品安全合规**：〔§ 101.18〕/FD&C Act §403 misbranding 与 §402 adulteration 是两条独立执法钩子，一张合规 Nutrition Facts 不能替代 Part 117 的危害分析与预防控制（转 CAP-01）。IOM 2026 Ch.6（CAP-29）是 FDA 给入境审查员/调查员的**内部作业手册**，非法规、不创设企业义务，`must/shall` 约束 FDA 内部作业；Form FDA 766 改标重整是扣留后的处置程序，不是企业的标签内容义务。错标的实体判定依据部分回到 Part 101，但 IOM 时限与文书不得写成企业义务。",
+    "notes": "兄弟诱饵②：标签合规不能替代危害分析 + IOM 作业层不创设义务"
+  },
+  {
+    "id": "part101-08",
+    "type": "should_not_trigger",
+    "prompt": "帮我们设计一条坚果共线产线的过敏原换产清洁验证方案，并制定 may contain 咨询声明的传递规则；另外给果汁巴杀工艺定 5-log 的关键限值和热穿透验证方案。",
+    "expected_behavior": "**不应**加载 CAP-30 / labeling 子卡。过敏原交叉接触控制、换产清洁验证、may contain / advisory 声明三选一属 `allergen-program` CAP-05（Part 117〔§ 117.135(c)(2)〕+ Ed.5 guidance 层）；果汁 5-log 工艺设计、关键限值与热穿透验证属 `juice-haccp` CAP-26〔§ 120.24〕与 `process-control-validation` CAP-03。CAP-30 只管标签内容与形式的法定义务，不设计工艺、不做厂内控制；仅当追问「那 §101.17(g) 警示要不要贴」时才转 CAP-30 V04。",
+    "notes": "互斥负例：厂内过敏原控制 + 5-log 工艺设计不得吸附到 CAP-30"
+  }
+]

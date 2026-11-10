@@ -1,0 +1,563 @@
+[p.23]
+
+
+
+
+
+
+
+
+
+When requesting field work, note any pertinent instructions in the “Instruction Text” field located in the
+“Work Details” section of the “Work Request and Work Request Details” screen. This may include previous
+findings, CMS/work activity number and/or entry number, instruction for field work.
+
+6.2.5.5 - Registration/Listing/Approval
+ Some products require registration, listing, and/or approval. Follow these steps to recommend detention when
+you cannot verify compliance.
+Registration and Listing
+1. If you cannot confirm compliance using the electronic data and internal FDA databases, request and
+review entry documentation.
+2. Recommend detention if you cannot verify the required registration or listing after reviewing entry
+documents and the appropriate center database.
+You must make a reasonable effort to verify compliance using the information provided. Do not recommend
+detention based solely on a failed data lookup or missing Affirmation of Compliance data.
+Documenting Your Findings
+Add comments in the "Instruction Text" field detailing the databases you reviewed and the information that did
+not match.
+•
+Example: "Searched DEVICE database. No listing found for manufacturing company XYZ Corp at 123 Main
+St, Anytown."
+Verifying Approval
+1. Check for approval: Review the entry documents and search the appropriate FDA database to verify the
+product's approval (e.g., NDA, 510(k), PMA).
+2. Recommend detention: If you cannot verify the approval, you may recommend detention. You do not
+need to collect product labeling unless other guidance requires it.
+3. Collect labeling if unsure: If you are unable to determine whether the product requires approval, collect
+the product's label.
+Documenting Your Findings
+Add comments in the "Instruction Text" field noting the databases you checked and your findings.
+•
+Example: "Searched AURA database. No PMA found for this product/manufacturer. Labeling and intended
+use letter are included in the submission."
+6.3 - Field Examination
+6.3.1 – General
+A field examination is a physical inspection of products subject to FDA jurisdiction. Examinations may take place at
+the port of entry, warehouse, cold storage facility, or other designated examination site. Additional information
+about performing field examinations, specific to product and program area, may be addressed in the Compliance
+Program Guidance Manuals (CPGMs) and the Compliance Policy Guides (CPGs).
+A field examination involves actual physical examination of the product to determine, for instance:
+1. If the product and quantity present correspond to the product and quantity declared on shipping
+documents.
+2. If there is any transit or storage damage.
+3. If the product has been subjected to inadequate storage temperature conditions.
+4. If there is any evident rodent, bird, or insect activity.
+5. If there is lead present in any ceramic ware (via a Quick Color Test or QCT and/or Rapid Abrasion Test or
+RAT).
+6. If any odors, uncharacteristic for the product or of spoilage, exist.
+7. If any non-permitted food ingredients and/or color additives, are present in the product.
+[p.24]
+
+
+
+
+
+
+
+
+
+8. If there is general label compliance (via label examinations).
+A label examination (LEX) is used when the investigations branch conducts a label review (LBL) of the physical
+product in the field to determine labeling compliance. This is significant as the remarks you enter and exam class
+you select may be used by compliance to make an admissibility decision for the product. A label exam should be
+consistently recorded as LEX. All other field examinations should be recorded as a FEX, along with the appropriate
+problem area flag (PAF)
+When conducting a field examination, you should compare the documents provided by the filer/importer to those
+physically available during your inspection as well as to those electronically submitted. Record your observations in
+your regulatory notebook at the time of the field exam, including such information as:
+•
+Date
+•
+Entry number
+•
+Name and address of the location where the exam is taking place
+•
+Name and title of the persons providing information about the entry/lot being examined
+•
+Information from the product labeling including the name of the product and any lot numbers or codes
+identified
+•
+Number of units examined
+•
+Documentation of any photos or labels collected
+•
+Any abnormalities or discrepancies observed
+•
+A record of the quantity of any product that was destroyed in the field as part of the field examination
+process, if any
+Note: Additional instructions on taking regulatory notes can be found in IOM Subchapter 2.1 REGULATORY NOTES.
+A field examination, of course, does not have the same level of confidence as a laboratory sample analysis.
+Consequently, you should be prepared to apply more rigorous standards of acceptance in the field than those used
+for formal regulatory levels. For example, if the formal action guideline for whole insects is 10 per 100 gm in
+product X, you may sample product X when your field examination shows only one or two insects per 100 gm.  A
+decision to collect samples should be made in accordance with relevant CPs and any applicable assignments but is
+ultimately your discretion; sample collection based on field exam results should be based on findings significantly
+lower than specified by the formal guideline.
+
+When the examination is classified as Class 2 or Class 3, you should take clear photographs of all products examined.
+(See 6.1.8 PHOTOGRAPHS: IDENTIFICATION AND STORAGE for more details and instructions.)
+Additionally, see IOM 5.5.9.3 for suggestions on what to do if you’re conducting a field examination and the firm
+responsible for the products invites individuals who are not directly employed by the firm to observe the
+examination.  IOM 6.3.10 provides instructions on recording field/label examination results in FDA Import Systems.
+6.3.2 - Field Examination Schedule
+A field examination should include a physical examination of a minimum of five containers (cases, cans, bags, etc.) of a
+product--or as directed by Compliance Programs, specific product examination schedules (for example, LACF), or other
+guidance. All containers opened for exam should be identified with FDA, division abbreviation, the date of the
+examination, and the lead investigator’s initials.
+When you conduct any field examination, in addition to specific items discussed in the following sections, be alert to
+these possible discrepancies and situations too: “over-labeling,” where a product name or identity may have been
+changed; a different manufacturer than the one transmitted or provided in the entry documents; a product without
+mandatory English labeling; changes in the expiration date or lot numbers; product quantity differences; product
+integrity issues; country of origin marking (under CBP authority 19 CFR 134), or similar questionable practices.  If you
+[p.25]
+
+
+
+
+
+
+
+
+
+encounter any of these situations, document your findings and discuss the appropriate action with your supervisor if
+needed.
+6.3.3 - Field and Label Examinations – Foods and Cosmetics
+6.3.3.1 - Food Safety
+Microbiological - field examinations cannot be used for suspected microbiological contamination.
+Filth and Foreign Objects - field examine only those product/container combinations in which you can physically
+view and examine the product, for instance, products which can be probed, products in see-through containers,
+etc.
+Canned and Acidified Foods – See IOM Chapter 4 SAMPLE SCHEDULE CHART 1 ITEM 2.
+Decomposition in Non-sealed Foods - This can include organoleptic examination for fish, seafood, frozen eggs, etc.
+6.3.3.2 - Pesticides, Industrial Chemicals, Aflatoxins, & Toxic Elements
+Field examinations cannot be performed for most pesticides, chemical contaminants, natural toxins, and metals,
+except for metals in dinnerware and the side-seam solders of cans.
+NOTE: Divisions should use commercial versions of the Quick Color Test (QCT) and the Rapid Abrasion Test for
+lead, for instance, Lead Check Swabs, while conducting field examination of dinnerware and food cans to
+determine if follow-up sampling is required. The testing scheme for dinnerware can be found in CP 7304.019.
+Specific information regarding the techniques of testing dinnerware can be found in Lab Information Bulletin (LIB)
+4127 on the Office of Regulatory Testing and Surveillance (ORTS) intranet site.
+6.3.3.3 - Food and Color Additives
+With regards to food and color additives, you should perform a visual examination of the container and a label
+review for the mandatory labeling requirements.  Determine if a color additive is declared for a product to which
+coloring appears to have been added. Determine if a declared color additive is acceptable for use in the product.
+The use of a color additive must conform with the requirements stated in the color additive’s listing regulation.
+These requirements are outlined in the “Color Additive Status List” and the “Summary of Color Additives Listed for
+Use in the United States in Food, Drugs, Cosmetics, and Medical Devices.” These lists provide the current status
+and use limitations of color additives permitted in food, drug, cosmetic, and medical device products.
+Requirements for declaring color additives on food labels are provided in 21 CFR 101.22 (k). Color additives subject
+to certification may be declared by the names listed in 21 CFR parts 74 and 82 or by abbreviated names that omit
+“FD&C” and “No.” The term “Lake” must be included in the names of color additive lakes. FD&C Yellow No. 5 is
+specifically required to be declared on food labels under 21 CFR 101.22 (k) and 21 CFR 74.705. Cochineal extract
+and carmine are specifically required to be declared on food labels under 21 CFR 101.22(k) and 21 CFR 73.100.
+Other color additives not subject to certification may be declared by the names listed in 21 CFR part 73 or in
+general terms such as “Artificial Color,” “Artificial Color Added,” or “Color Added.”
+Determine if a preservative declaration includes its purpose; for example, "Sodium Benzoate as a preservative."
+6.3.3.4 – Nutrition Labeling and Food Allergen Labeling
+The only valid field examination which can be performed for a nutritional or food allergen labeling related issues is
+a label examination for the mandatory labeling requirements. Refer to the "Industry Resources on the Changes to
+the Nutrition Facts Label” and Food Allergen Labeling and Consumer Protection Act of 2004 (FALCPA) requirements
+for guidance.
+Note that there are requirements for voluntary gluten-free label claims. Such claims must meet the requirements
+in the gluten-free labeling of foods regulation (found at 21 CFR 101.91). This is an important public health issue for
+persons suffering from Celiac disease. For products that bear gluten-free claims, refer to "Gluten and Food
+Labeling” page for guidance.
+[p.26]
+
+
+
+
+
+
+
+
+
+Also see the “Nutrition, Food Labeling, and Critical Foods” website for the most up-to-date information regarding
+claims in labeling. Also, see CP 7321.005 to determine areas of emphasis for food labeling violations.
+6.3.3.5 - Food Economics (On Consumer Size Containers only)
+Field exam guidance as it relates to the following aspects:
+•
+Label Examination - Review labels for all aspects of the labeling requirements.
+•
+Net weight - See IOM 4.3.7.1
+•
+Food Standards - The only valid field examination which can be performed for Food Standards is a label
+examination for the mandatory labeling requirements of a particular Food Standard.
+6.3.3.6 – Cosmetics
+Valid cosmetic field examinations include a reconciliation examination for security purposes and/or a label
+examination for the mandatory labeling requirements. The most important labeling considerations are:
+1. Ingredient Labeling (21 CFR 701.3).
+2. Prohibited ingredients (21 CFR 700.11 through 700.27 and 21 CFR 250.250).
+3. Non-permitted color additives (see Color Additives Status Lists).
+4. Warning Statements (21 CFR 740.11, 740.12, 740.17, and 740.19).
+2. Cautionary/Other Required Statements (for example, required caution statement and directions for patch
+test for coal-tar hair dyes - FD&C Act sec. 601(a); required caution statement for the color additive lead
+acetate - 21 CFR 73.2396; required label information for the color additive bismuth citrate – 21 CFR
+73.2110; and required label information for the color additive henna – 21 CFR 73.2190).
+3. Tamper-Resistant Packaging Requirements (21 CFR 700.25).
+4. Other Labeling Requirements (21 CFR 701.10 through 701.13).
+For further cosmetic-related questions, contact the Office of Cosmetics and Colors.
+6.3.4 - Field and Label Examination – Drugs
+A field examination involves actual physical examination of the product (minimum of five containers, or as directed
+by Compliance Programs). Please verify the following:
+• Confirm that the product and quantity present correspond to the product and quantity declared on shipping
+documents. If using a pill counter to determine quantity, ensure to follow manufacturer’s instructions
+regarding safety and cleaning procedures and utilize engineering controls, as appropriate (e.g., fume
+hoods, etc.) to limit potential particulate generation.
+• Examine the security and integrity of the container, including tamper-resistant packaging requirements.
+• Examine product for any in-transit or storage damage, or inadequate storage temperature conditions.
+• Examine for any over-labeling, where a product name or identity may have been changed.
+• Examine if the manufacturer is the same as the one transmitted or provided in the entry documents.
+A label exam involves an examination of the product label and all accompanying labeling. The drug products
+examined must comply with the general labeling requirements found in 21 CFR 201.1 – 201.328. Product labeling
+should bear all required information in English. If product labeling includes a language other than English, it should
+contain all required information in both languages. Exception: Labels in Spanish for distribution in the
+Commonwealth of Puerto Rico is authorized under 21 CFR 201.15 (c). For bulk drugs verify that product labeling
+complies with the requirement(s) found in 21 CFR 201.122.  (Section 201.125 does not apply to bulk drugs but only
+to finished dosage prescription drug products.)
+6.3.4.1 – Drug Listing and Establishment Registration
+Bulk drugs and finished dosage forms should be evaluated for compliance with the drug listing and drug
+establishment registration requirements.
+[p.27]
+
+
+
+
+
+
+
+
+
+6.3.4.2 – Contamination
+Drugs should be examined for container integrity, for example, cracked vials, ampoules, bottles, etc.
+Do not examine loose powders, broken capsules or tablets without proper controls.
+
+6.3.4.3 – Samples
+Samples collected from lots where the drug substance or finished product has been subjected to actual or
+suspected contamination should be decided on a case-by-case basis.
+6.3.4.4 - Special Instructions
+Field examinations may be performed on drug lots to obtain information to determine the new drug status of a
+given shipment. Divisions should contact the CDER Office of Compliance, Office of Drug Security, Integrity and
+Response, Division of Imports Exports and Recalls, Import Export Compliance Branch for guidance.
+6.3.5 - Field and Label Examinations – Devices
+Field and label examination instructions issued by CDRH for specific devices are located on the Import Program
+intranet site under product resources.
+At a minimum, the label should include the name and place of business of the manufacturer, UDI, packer or
+distributor, and product identity. Be aware of mis-declared devices, (for example, TENS (transcutaneous electrical
+nerve stimulation) devices are often declared as therapeutic massagers but, in fact, should be declared as neurological
+therapeutic devices.) Products declared as destined for veterinary use only must include such a statement on the
+packaging and product.
+CAUTION: If the sealed packaging, such as an outer crate, of a medical device indicates that the manufacturer’s
+warranty will be violated should it be opened by someone other than a factory representative, DO NOT open the
+packaging. Consult with your supervisor regarding any further action. For additional information please contact
+cdrhimport@fda.hhs.gov.
+It is a common industry practice to manufacture and/or assemble, package, and fully label a device as sterile at one
+establishment, and then ship such device in interstate commerce to another establishment or to a contract sterilizer
+for sterilization. During a field exam of non-sterile devices offered for entry that are labeled as sterile, which are
+destined for sterilization, per 21 CFR 801.150, each pallet, carton, or other designated unit must be conspicuously
+marked to show its non-sterile nature when it is introduced into and moving in interstate commerce, and while it is
+being held prior to sterilization.
+The FDA will not support import action against the device as misbranded or adulterated when the non-sterile device is
+labeled sterile if the lot is marked appropriately as noted previously. 21 CFR 801.150 also requires a written agreement
+between the foreign firm and the importer of record. Specifically, there should be a written agreement in effect which:
+(i) Contains the names and post office addresses of the firms involved and is signed by the person authorizing such
+shipment and the operator or person in charge of the establishment receiving the devices for sterilization.(ii) Provides
+instructions for maintaining proper records or otherwise accounting for the number of units in each shipment to insure
+that the number of units shipped is the same as the number received and sterilized.(iii) Acknowledges that the device
+is nonsterile and is being shipped for further processing, and (iv) States in detail the sterilization process, the gaseous
+mixture or other media, the equipment, and the testing method or quality controls to be used by the contract sterilizer
+to assure that the device will be brought into full compliance with the Federal Food, Drug, and Cosmetic Act. This
+should be verified upon import.
+6.3.6 – Field and Label Examinations – Biologics
+With regards to biologics, you should review any applicable import alerts prior to conducting any field examinations of
+biological products subject to import alert.
+[p.28]
+
+
+
+
+
+
+
+
+
+In general, products regulated by Center for Biologics Evaluation and Research (CBER) do not warrant a field
+examination, because they are licensed under Section 351 of the PHS Act. In addition, lot release procedures pursuant
+to 21 CFR 610.2 apply to many products, such as vaccines.
+If it is determined that a field examination is warranted for licensed or unlicensed CBER-regulated products, labeling
+for the product and its intended use should be examined.
+Any questions should be sent to CBER Import Inquiry at CBERImportInquiry@fda.hhs.gov
+6.3.7 - Label Examinations - Animal Products
+Contact the CVM mailbox CVMImportRequests@fda.hhs.gov with questions on the importation of animal foods, drugs,
+devices, and other animal products. You should also be aware of any relevant import alerts, Compliance Policy Guides,
+or other guidance documents as they affect individual import situations. See the Product Resources section in the
+Import Program intranet site for additional information or notifications on current import situations.
+6.3.7.1 – Animal Drugs
+Label examinations of animal drugs are visual examinations that are sometimes needed to determine product
+admissibility. A label examination may be necessary if:
+•
+the product is an unapproved new animal drug, especially one for use in food animals,
+•
+the product is sterile,
+•
+the manufacturer is not registered with FDA or differs from the firm in the foreign drug manufacturer
+registration,
+•
+the drug is not listed with CVM, or
+•
+discrepancies between the information on the product label and the import documentation exist.
+Bulk New Animal Drug substances and Active Pharmaceutical Ingredients (APIs) may be legally imported if the firm
+is registered with the FDA and it is destined to the holder of an approved New Animal Drug Application (NADA),
+Abbreviated New Animal Drug Application (ANADA), Index Listing or a Generic Investigational New Animal Drug
+Number (JINAD) or Investigational New Animal Drug Number (INAD) exemption. For bulk drugs for use in
+compounding for animals, confirm the registration and listing status of the firm and product, and consult with the
+Center for the current status of the bulk drug substance presented for import.
+Type A Medicated Articles are animal drugs and must meet the appropriate drug requirements listed above.
+FDA personnel may allow veterinarians and animal owners to import unapproved drugs under the Personal
+Importation Policy (PIP). For more information, refer to the Regulatory Procedures Manual, section 9-2 Coverage
+of Personal Importations.
+6.3.7.2 – Animal Devices
+Devices intended for animals do not require 510(k), PMA, or any premarket approval. However, they are still
+subject to examination for adulteration and misbranding violations. When conducting your label exam, verify that
+labeling is not false, or misleading, and bears adequate instruction for use in each target animal group. When
+conducting your label exam, you should ensure that:
+•
+Devices for animal use are clearly marked for animal use only.
+•
+Prescription animal medical devices are labeled in the following manner: “Caution Federal law restricts this
+device to sale by or on the order of a licensed veterinarian.”
+•
+Non-prescription animal medical device labeling bears adequate directions for use by the lay user.
+In addition to being regulated by CVM, animal devices that are radiation-emitting products are also regulated by
+CDRH. Import coverage for radiation-emitting products is provided for in CP 7386.007 Imported Electronic Product.
+Note: Animal devices that include a drug component should be referred to CVMImportRequests@fda.hhs.gov.
+[p.29]
+
+
+
+
+
+
+
+
+
+6.3.7.3 - Animal Food and Feeds
+Animal food and food components, including pet food, should be examined for conformance with all applicable
+and appropriate food labeling requirements listed in 21 CFR 501; be acceptable for animal food (for instance, not
+contain drug claims; be an approved food additive, generally recognized as safe (GRAS) for an intended use, or
+otherwise found acceptable as an animal food ingredient; and not contain hazardous levels of contaminants). For
+example, determine if a preservative declaration includes its function, such as “Sodium Propionate (preservative).”
+A list of approved food additives for use in animal food is found in 21 CFR 573 and a partial list of GRAS substances
+for use in animal food is found in 21 CFR 582. Substances affirmed as GRAS for use in animal foods are listed under
+21 CFR 584. Irradiation is considered a food additive and approvals for the use of irradiation for animal food are
+found in 21 CFR 579. Additionally, animal food GRAS substances that have been notified to the FDA can be found in
+the Animal Food GRAS Notices Inventory.
+Ensure the use of a color additive conforms with the requirements stated in the color additive’s listing regulation.
+For further questions, contact CVMImportRequests@fda.hhs.gov.
+6.3.7.4 – Animal Grooming Aids
+FDA does not regulate products intended solely to cleanse or beautify animals, commonly referred to as grooming
+aids. Cosmetic regulations outlined in the FD&C Act do not apply to products intended for animal use. Note,
+however, that products purporting to be animal grooming aids that are labeled as or otherwise intended for
+therapeutic purposes, may be considered animal drugs. This may occur when a grooming aid is labeled to contain
+an active drug ingredient, or to suggest or imply a therapeutic benefit. Refer to CPG Sec. 653.100 Animal Grooming
+Aids.
+NOTE: Medicated shampoos are not animal grooming aids and are regulated by the FDA as animal drugs. Consult
+CVM before detaining these products.
+6.3.7.5 – Animal Biological Products
+Although animal biological products are “drugs” within the meaning of the FD&C Act, animal drugs produced and
+distributed in full conformance with the Virus, Serum, Toxin Act (VSTA) and its implementing regulations
+administered by the United States Department of Agriculture Animal Health Inspection Service (USDA-APHIS) are
+not subject to the animal drug approval requirements in section 512 of the FD&C Act. Under the regulations
+implementing the VSTA, 9 CFR part 101, animal biological products are defined, in part, as “all viruses, serums,
+toxins (excluding substances that are selectively toxic to microorganisms, e.g., antibiotics), or analogous products
+at any stage of production, shipment, distribution, or sale which are intended for use in the treatment of animals
+and which act primarily through the direct stimulation, supplementation, enhancement, or modulation of the
+immune system or immune response.” (9CFR 101.2)
+An MOU between APHIS and FDA (APHIS Agreement #04-9100-0859-MU, FDA Serial #225-05-7000) addresses
+jurisdictional issues concerning the regulation of certain animal products as biological products. Examples of
+products listed in the MOU as products generally regulated as animal biological products by USDA-APHIS include
+vaccines, viruses, bacterins, bacterial extracts, allergens, antiserums, antitoxins, toxoids, immunomodulators,
+immunoglobulins, and serum and plasma for passive transfer. Examples of products listed in the MOU as products
+generally regulated as animal drugs by FDA include antibiotics, antimicrobial peptides, anti-inflammatories,
+anthelmintic, antiprotozoal, competitive exclusion products, genetic constructs (non-vaccine), stem cell therapies,
+gene and somatic cell therapies, hormones, growth factors, growth promotants, whole blood, transfusions, and
+clotting products (except serum and plasma for passive immunity).
+For questions regarding whether a product is regulated as a drug by the FDA, or an animal biological product by
+USDA-APHIS, contact CVMimportrequests@fda.hhs.gov.
+6.3.8 - Field and Label Examinations -Radiological Health
+Import coverage for radiation-emitting products is provided for in CP 7386.007, Imported Electronic Products.
+[p.30]
+
+
+
+
+
+
+
+
+
+When conducting fieldwork on radiation-emitting products, refer to the field and label examination work instructions
+issued by CDRH and located on the Import Program intranet site under product resources. Additionally, field and label
+examinations for imported electronic products should include a review of the entry documents and FDA-2877,
+Declaration for Imported Electronic Products Subject to Radiation Control Standards, to determine if they are properly
+completed and accurate. This applies to each shipment of electronic products for which performance standards exist.
+Performance standards covering ionizing, microwave, and light-emitting radiation-emitting products are specified in 21
+CFR 1020 through 1040.
+6.3.9 - Field Examinations – Tobacco Products
+Contact the Center for Tobacco Products (CTP) Office of Compliance and Enforcement, Division of Enforcement and
+Manufacturing, at CTP-ComplianceImports@fda.hhs.gov with general questions on the importation of tobacco
+products. Label examination instructions issued by CTP are located on the Import Program intranet site under product
+resources.
+6.3.10 – Field/Label Examination Results
+Examination results should be reported via FDA Import Systems for those lines that have been physically examined.
+Results should reflect the findings within the limitations of an examination for the specified problem area. An
+examination should not be reported on lines that have not been physically examined. If adverse findings are
+encountered, examination work type(s) should be added to the line, if needed, to record the adverse findings under
+the appropriate problem area.
+Review the Line Details screen prior to completing the examination results. For example, make sure the product code
+matches the product, and that the manufacturer, country of origin, quantity, and value are correct. Add any lot codes,
+if applicable, and update the Location of Goods if needed. If data has been changed, enter pertinent remarks for the
+change, assign fault as appropriate, and rescreen the line to see if changes in the data result in changes to the flags
+and/or other screening hits.
+Complete the examination results by navigating to Work Results:
+The system will auto-fill the following fields:   Entry/Doc/Line (Suffix), Lead Initials, Date Completed, Product Code,
+Product Description, Importer/Corrected Description, Requested By, Requested Of, PAF, PAC, and Reference.
+However, you will need to enter data in the following fields, as described below.
+6.3.10.1 – Date Completed
+The Date Completed field will default to the current date. If necessary, update the Date Completed field to the
+date the examination was completed.
+6.3.10.2 – Location of goods
+Enter the location where the examination was or will be conducted, if availability and location of goods have not
+been entered, or if the exam location has changed. Include location name and address or resident post location.
+Note: if location and availability has been provided by the Broker through ITACS, changes to this field cannot be
+made.
+6.3.10.3 – Remarks
+Enter the type of examination performed, describe how the examination was performed, and note any samples
+collected or photos taken, or product and quantity destroyed in the field, as part of the examination process. If the
+examination was performed due to an assignment, import bulletin, or import alert, then enter pertinent
+information as instructed.
+Example entries:
+“Conducted food filth exam under CP03819A.  Viewed outer cases under a black light.  Opened 5 of 10 cases and
+viewed contents through transparent packaging.  Collected a sample for micro analysis under CP03819C.”
+[p.31]
+
+
+
+
+
+
+
+
+
+“Exam was conducted according to DOPG-XXXX-XX. Examined 200 units and found 6 devices with integrity issues. A
+sample was collected for integrity analysis and 7 photos documenting the exam were uploaded.”
+Note: Text entered in the Remarks Field does not appear on the Notice of FDA Action
+6.3.10.4 – Summary
+Enter the findings of the examination. Be as specific as possible in the allowed space. If the examination will be
+reported as Class 2, provide specific remarks detailing why Class 2 was chosen.
+Example entries:
+“All cartons are accounted for. No macro filth observed during examination. Exam Class 2 as this line to be held for
+analysis of line 1 of 4.”
+“Observations include no ingredients statement, no serving size, and incomplete nutrition info.  Label submitted to
+CB for review.”
+Note: Text entered in the Summary Field does not appear on the Notice of FDA Action.
+6.3.10.5 – Exam Class
+Select the appropriate Exam Class:
+Class 1 – No Adverse Findings within Problem Area: No adverse findings were noted within the limitations of the
+examination for the specified problem area.  The entry line may be IB Released, sampled for a different problem
+area, referred to Compliance Branch for a different problem area or have additional work types added to it as
+appropriate. Additional action should not be taken within the specified problem area that was deemed Class 1
+Class 2 – Other Findings: Class 2 is intended to be used only for those situations that do not meet the definitions of
+Class 1 or Class 3. Some examples of when to use Class 2 include the following (this list is not intended to be all-
+inclusive):
+1. Potential adverse findings were observed. Observations lead to the collection of a sample or referral to
+compliance branch in the specified problem area for final admissibility determination.
+2. The product appears to be in violation, within the limitations of a field examination for the specified
+problem area; however, investigations branch is using discretionary authority to release the product. If this
+option is used, describe in detail in the Summary field the reason(s) why this violative product is being
+released, such as, “This product meets the criteria for release under the Personal Importation Policy (PIP)
+as stated in the Regulatory Procedures Manual (RPM).” Note: The exemption for releasing a personal
+importation with a class 2 field exam findings only applies to the mail environment.
+3. No adverse findings were observed, within the limitations of an examination for the specified problem
+area; however, the line is sampled within the same problem area due to the firm/product having a
+violative history in that problem area, or as directed by an assignment, import bulletin or other guidance.
+4. No adverse findings were noted, within the limitations of an examination for the specified problem area;
+however, the line is being held and referred to compliance branch pending sample analysis of another line.
+(Note: it is inappropriate to record a field examination if no physical examination occurred. The “Same
+Action As” function allows for the holding of lines where no examination occurred pending the analytical
+results of another sampled line.)
+Class 3 – Adverse Findings within Problem Area: The product appears to be in violation within the limitations of an
+examination for the specified problem area. Further action must be taken under the specified problem area, i.e.,
+sampled or referred to the compliance branch for final admissibility determination.
+NOTE: If a FEX/LEX is conducted and the examination identifies a violation, you should record the findings as a
+Class 3 FEX/LEX and submit to compliance as a DTR with the appropriate PAF. For example, if there are labeling
+claims that may warrant marketing clearance and/or approval, record the findings as a Class 3 LEX and submit to
+Compliance as a DTR/AAP.
+[p.32]
+
+
+
+
+
+
+
+
+
+Be sure to click “OK” to save the examination results.
+6.3.10.6 – Record Time
+Select the correct PAC from the drop-down menu. Enter your time. If more than one person worked on the
+examination, click on the “Add” button. A box will come up, and you can then select the person’s name from the
+drop-down menu and select the correct PAC from the drop-down menu. Enter that person’s time. Repeat for each
+person who worked on the examination. Click “OK.”  Note: Time is entered in decimal format in tenths of an hour
+(6-minute increments).
+6.3.10.7 – Next Steps
+Once the work has been submitted, and if no other work was set up on the line, you will be prompted to Next
+Steps.
+If the exam was classified as Class 1, you will have the option to IB Release or Add Work.
+If no other work needs to be added to the line, the line will be released by selecting IB Release and entering
+Remarks, including an appropriate summary of remarks entered in the Exam Results. If product was destroyed in
+the field as part of the field examination process, record what was destroyed in the Remarks field. Note: Text
+entered in the Remarks field does not appear on the Notice of FDA Action.
+If work needs to be added to the line, select Add Work. The system will take you to the Work Request and Work
+Request Details page to add work as appropriate.
+If the exam was classified as Class 2, you will have the option to IB Release, Refer to CB, or Add Work.
+If the exam was classified as Class 2 with no adverse findings, but the line is to be held pending sample analysis of
+another line, follow Division procedures for notifying Compliance Branch. If the exam was class 2 with adverse
+findings, but IB is using discretionary authority to IB Release the line, remarks should include a detailed description
+of why the product was released when adverse findings were found.
+If the exam was classified as Class 3, you will have the option to Refer to CB or Add Work.
+If no other work needs to be added to the line, the line will be referred to CB by selecting Refer to CB and entering
+Remarks, including an appropriate summary of remarks entered in the Exam Results.
+6.3.11 – Rescinding an IB Release
+Rescinding an IB Release should only occur for articles that are subject to a compliance action, or in other exceptional
+cases, and must be accomplished immediately. This action should not be used for routine or work plan examination or
+sampling purposes (See IOM 6.2.2.2.2 for Rescinding a May Proceed).
+Note that when an entry receives an IB Release, the conditional release period of the entry ends (See IOM 6.2.4) and
+does not re-open when IB Release is rescinded.
+If an entry line inadvertently receives an IB Release or additional information is received that warrants further review
+for admissibility, you should:
+•
+Obtain supervisory approval prior to rescinding the IB Release.
+•
+Notify the import filer immediately that the FDA IB release has been rescinded and the line is pending an FDA
+Admissibility decision.
+•
+Generate an updated Notice of FDA Action and forward it to the filer, importer of record, and consignee within
+24 hours of rescinding the IB Release.
+•
+Send a request to CBP, within 24 hours of rescinding the IB Release, to Unset/Hold the CBP Bond from
+liquidating in case Compliance Branch needs to pursue a liquidated damages case against the bond for cargo
+that the FDA has refused and not redelivered for export or destruction.
+•
+Send to the filer ABI codes to indicate “PGA Decision Rescinded-Do Not Distribute Product” and “Release
+Rescinded-Hold for Further Information From PGA”.

@@ -1,0 +1,465 @@
+[p.50]
+
+
+
+
+
+
+
+
+
+6.8.3.1– Establishment Inspection Report (EIR)
+Based on the observations documented on the FDA 483a and other information captured on the IP in eNSpect, you
+will use the FSVP Tabular Establishment Inspection Report (T-EIR) application in the eNSpect system to generate
+the T-EIR. The requirement to answer IP Question 1.5.1. replaces the requirement to complete the PRA
+“Memorandum to File.” Document the reason for selecting the importer for inspection in the EIR. Write the EIR
+according to this subsection and IOM subchapter 5.7.1.
+6.8.3.1.1 - FSVP Records Review
+Document the review of the importer’s required FSVP records in the T-EIR. Identify the product and foreign
+supplier covered by each FSVP. Report the results of the comparison of your preliminary assessment of
+potential hazards to the importer’s hazard analysis, if conducted, and any resulting discussion you had with the
+importer. This information must be documented with sufficient detail to demonstrate the firm’s compliance
+with FSVP, or lack thereof.
+For each product covered during the inspection, verify that the importer meets the definition of “importer”
+and document in the EIR as follows:
+•
+If the importer was the owner or consignee when the food was offered for entry into the United
+States, attach a copy of a purchase order or some other documentary proof.
+•
+If the importer was the U. S. agent or representative when the food was offered for entry into the
+United States, attach a copy of the written agreement to serve as the FSVP importer.
+•
+If the importer does not meet the definition of importer, explain this determination in the TEIR and
+obtain information on the actual importer.
+Document all corrective actions taken by the importer to correct the observations that were identified during
+the previous inspection. Describe what corrective actions were taken and whether those specific actions
+corrected the observations. Document any immediate corrective actions that the importer took during the
+inspection and any corrective actions promised for completion in the future, including when (date) they expect
+to complete the corrective action. In addition, document any corrective actions taken during the inspection in
+the corrective action reporting system (CARS) within eNSpect.
+6.9 – Glossary of Import Terms
+Note common import language and their meanings below. (Refer to the “Regulatory Procedures Manual Glossary” for
+a more complete listing of import terms.)
+6.9.1 – American/ US Goods Returned (AGR or USGR)
+Goods produced in the U.S. which are exported, and then returned to the United States. They are considered imports.
+(See Sec. 801(d)(1)of the FD&C Act [21 U.S.C. 381]).
+6.9.2 – Additional Sample
+A physical sample collected from a previously sampled lot of either a domestic or imported product. Generally, an
+additional sample is used to complete an initially designated analysis, or to allow the lab to perform
+additional analyses. Additional import samples will have a different sample number from the original sample.
+Additional domestic (or domestic import) samples may also have another sample number, but they must be flagged as
+an “ADD” Sample, with the original sample number referenced in the “Related Sample” block on the Collection Record.
+6.9.3 – Affidavit
+An affidavit is a written document for which the signer swears before an authorized official (FDA) that the statements
+in the document are true. The signer is referred to as the affiant and has knowledge of material facts relating to the
+movement or condition of the goods. FDA affidavits are used when collecting samples, establishing interstate
+commerce, for consumer complaints, and to document information from informants.
+[p.51]
+
+
+
+
+
+
+
+
+
+6.9.4 – Affirmation of Compliance (A of C)
+Data elements transmitted to FDA electronically that affirm a product meets a specific FDA regulation. This value is
+provided to help expedite the FDA’s review of product compliance in making an admissibility decision at time of entry.
+Some affirmations require a qualifier, which are numeric or alpha-numeric values representing a specific firm, product,
+certification, registration, application, or other value often on file with the FDA.
+6.9.5 – Air Waybill
+A type of bill of lading that serves as a receipt of goods by an airline and as a contract of carriage between the shipper
+and the carrier. It will include terms and conditions, description of goods, and charges. Unlike a bill of lading, an AWB is
+non-negotiable, and does not specify which flight the shipment will be sent on or when it will arrive.
+6.9.6 – Audit Sample
+A sample collected to verify analytical results provided by a certificate of analysis, or private laboratory analysis that
+purports to show a product complies with the FD&C Act and/or regulations. This sample type will usually be used with
+an import sample. At least one FDA audit sample should be included as evidence when processing removal of a
+product, shipper, or country from DWPE. (See IOM 4.1.4.2.8
+6.9.7 – Automated Broker Interface (ABI)
+A component of CBP’s Automated Commercial System (ACS) that tracks, controls, and processes all goods imported
+into the United States. It is a voluntary program available to brokers, importers, carriers, port authorities, and
+independent service centers and allows qualified participants to electronically file required9import data with Customs.
+ACS is being replaced by CBP’s Automated Commercial Environment (ACE), which will track, control, and process all
+imported and exported goods.
+6.9.8 – Automated Commercial Environment (ACE) (ACE Supplemental Guide)
+The Automated Commercial Environment, or ACE, is a centralized system for all transactions related to imports and
+exports. Filers electronically submit all information related to an inbound shipment using this system, and the
+government processes the transaction systematically and sends status updates.
+6.9.9 – Bill of Lading (BOL)
+The written order from a shipper to a carrier to move goods from one place to another. When available, this is the best
+source of shipping dates, origin, and name of shipper.
+6.9.10 – Break-Bulk Cargo
+Cargo transported in individual units, such as bags or cartons, which are not containerized.
+6.9.11 – Bond Action
+Action taken by Customs resulting in forfeiture of all, or a portion of, an entry bond when an importer fails to redeliver
+merchandise covered by such a bond.
+6.9.12 – Consumption Entry (CE)
+” Entered for Consumption” means that an entry summary for consumption has been filed with CBP in proper form,
+with estimated duties attached. The duty can be submitted electronically at the same time as the entry is transmitted,
+or on a 15-day schedule when approved by CBP. A consumption entry is a type of entry used when goods are imported
+for use in the United States and going directly into U.S. commerce without any time or use restrictions placed on them.
+“For use in the United States” means for commercial, business, or personal purposes.
+6.9.13 – Conditional Release
+Entry/Immediate Delivery must be filed within 15 calendar days of arrival of goods in the United States. Goods may be
+released for immediate delivery if they are arriving by land from Canada or Mexico. Products may be released for
+immediate delivery pending entry process completion. Even though CBP has allowed the immediate delivery, any FDA-
+[p.52]
+
+
+
+
+
+
+
+
+
+regulated products are conditionally released until the FDA makes an admissibility decision. The conditional release
+period ends when the FDA “May Proceeds” the entry or issues a refusal. The goods may be moved but CBP can request
+redelivery within 30 days.
+6.9.14 – Container Freight Station (CFS)
+Another location authorized to receive goods under U.S. Customs Bond for the purpose of breaking bulk and redelivery
+of cargo. Containerized cargo can be moved from the place of unlading to a designated container station or may be
+received directly at the container station from a bonded carrier after transportation in-bond before the filing of an
+entry of goods.
+6.9.15 – Customs Bonded Warehouse (CBW)
+One of several classes of CBP Warehouses authorized to receive goods that have not been entered into U.S.
+commerce. Goods are entered into a Customs Bonded Warehouse (CBW) by a “formal entry” or “warehouse entry”
+requiring complete documentation for the entry, and payment of a fee, but not payment of duty and taxes. Goods in
+the warehouse can be held for up to five years.  After five years, the goods must be entered, exported, or destroyed.
+Goods in a CBW can be manipulated, but except in certain smelting operations, cannot be manufactured into
+something else. If the CBW is located in the United States, the goods are in interstate commerce and subject to the
+FD&C Act. (See CPG Sec. 110.600 FDA Authority Over Products of Foreign Origin Located in Foreign Trade Zones,
+Bonded Warehouses or on Bonded Carriers.)
+6.9.16 – Data Universal Number System (DUNS)
+A unique nine-digit business identification number provided by the company Dun & Bradstreet (D&B). Upon request,
+D&B will assign a DUNS number for each physical location of a business.
+6.9.17 – Date Collected
+The date an import sample is collected.
+6.9.18 – Date of Arrival
+The date a carrier transporting imported cargo arrives in the United States.
+6.9.19 – Date of Availability
+The date imported cargo is available/accessible for examination by the FDA. Note that goods may not be available for
+examination as soon as they arrive in the United States, due to the way the items have been shipped/stored.
+6.9.20 – Detention Recommendation (DTR)
+Used when review of the entry information cannot confirm that products being offered for import meet FDA’s
+admissibility criteria. Examples include products in which the required registration, scheduled process filing, 510(k), or
+pre-market approval (PMA) cannot be verified at the entry review step.
+6.9.21 – Detention
+A temporary administrative action taken by the FDA against articles offered for entry which are not or appear not to be
+in-compliance with the laws the FDA administers. Detained articles can be released if brought into compliance, or are
+refused entry or seized, if not brought into compliance.
+6.9.22 - Detention Without Physical Examination (DWPE)
+An action directed against specific products manufactured or shipped by specific foreign firms. "Import Alerts" list
+products that may be detained without physical examination due to their violative history or potential.
+6.9.23 - Detention and Hearing Process
+The opportunity for an importer or designee to present evidence, or testimony, to overcome the appearance of a
+violation and to give the FDA confidence that the product is in compliance. This information is provided to the FDA
+compliance officer listed on the Notice of Detention and Hearing. The evidence must be provided during the hearing
+[p.53]
+
+
+
+
+
+
+
+
+
+period. The format for providing this evidence may vary from a series of email or telephone conversations to a more
+formal meeting.
+6.9.24 - Domestic Import (DI) Sample
+A sample of an imported article collected after it has been released from import status. (See IOM 4.1.4.2.5.)
+6.9.25 – Entry
+Delivery, or offer for delivery, of merchandise into the Customs Territory of the United States from an outside point.
+6.9.26 – Entry Admissibility File
+The file, in hard copy and/or electronic (whichever is appropriate) maintained by the Division that contains relevant
+documentation to support the Division's admissibility decision.
+6.9.27 - Entry Documents (Entry Package)
+Information submitted to CBP to determine the goods quantity, its contents, and the parties of interest.  Actual
+documentation for an individual entry can vary greatly, but it generally consists of an invoice, purchase order, AWB
+and/or BOL. Entry documents can be submitted electronically to the FDA, preferably through the Import Trade
+Auxiliary Communications System (ITACS) or via paper submission.
+6.9.28 – Entry Line Item
+Each portion of an entry that is listed as a separate item in an entry. An importer may identify merchandise in an entry
+in multiple portions; however, an item in the entry having a different tariff description must be listed separately.
+6.9.29 – Establishment
+A place of business or residence, including all equipment essential to such business or residence, identified, and
+defined accordingly as the following:
+•
+Grower: Raises livestock, raw agricultural products, or aquaculture products for sale, via farms, feedlots, dairy
+farms, and botanical farms/operations).
+•
+Manufacturer: The site-specific location where the product is manufactured, produced, or grown.
+•
+Packer/repacker: Packs a product, or products, into different containers without making any change in the
+form of the product. Includes packers of raw agricultural products and medical gas repackers.
+•
+Producer: A person who grows, mines, harvests, fishes, traps, hunts, manufactures, processes, or assembles a
+product.
+•
+Salvage Operation: An establishment dealing primarily in the reconditioning and resale of damaged goods.
+•
+Shipper: Firm or individual responsible for introducing merchandise into interstate commerce by way of
+transport who does not act as a manufacturer, repacker, or distributor.
+•
+Warehouse: A private or public facility for the storage of consumer products, including products reshipped
+from the producer or grower to the manufacturer or other customer.
+6.9.30 – Failure to Hold
+Failure to hold means that the goods have been distributed by the importer/consignee without an FDA release from
+import status. Such goods are usually subject to CBP's redelivery provisions. (See IOM 6.9.66 – REDELIVERY BOND.)
+6.9.31 – FDA Import Systems
+System for Entry Review and Imports Operations (SERIO) – SERIO is a 24/7/365 mission-critical system that supports
+the FDA’s surveillance and regulatory enforcement of import products into the nation. It provides a web browser
+interface, as well as back-end services to process business logic. SERIO is also available as a mobile application that can
+be installed on an FDA iOS device. This mobile application will securely communicate with the same back-end services
+that are available for the web browser interface.
+[p.54]
+
+
+
+
+
+
+
+
+
+Operational & Administrative System for Import Support (OASIS) – OASIS is a 24/7/365 mission-critical system that
+supports the FDA’s surveillance and regulatory enforcement of import products into the nation.
+6.9.32 – Field Examination, or FEX
+A comprehensive physical examination to perform surveillance activities to determine admissibility, including activities
+performed as part of required reconciliation exam. FEX examples: can-by-can exams, bag-by-bag exams for filth,
+and/or organoleptic examinations for decomposition to determine if a sample collection is indicated.
+6.9.33 – Filer
+A CBP term used to identify the individual or firm responsible for filing an entry. Also known as a Customs House
+Broker.
+6.9.34 – Filer Evaluation
+To determine the quality and accuracy of data that filers are submitting, the agency conducts periodic filer audits. This
+evaluation informs both the filer and the FDA about the overall performance of the filer.
+6.9.35 – Filer Misdeclaration
+Refers to the importer’s provision of correct information to the filer, who then files an erroneous entry to the FDA and
+CBP. (IOM 6.6.4.6)
+6.9.36 – Food Safety Modernization Act (FSMA)
+The FDA Food Safety Modernization Act (Pub. L. 111-353) enables the agency to better protect public health by
+strengthening the food safety system. It enables FDA to focus more on preventing food safety problems rather than
+relying primarily on reacting to problems after they occur. The law also provides the FDA with new enforcement
+authorities designed to achieve higher rates of compliance with prevention and risk-based food safety standards, and
+to better respond to and contain problems when they do occur. The law also provides the FDA with important new
+tools to hold imported foods to the same standards as domestic foods and directs the FDA to build an integrated
+national food safety system in partnership with federal, state, local, tribal, and territorial authorities.
+6.9.37 – Foreign Supplier Verification Program (FSVP)
+A program that importers covered by the rule must have in place to verify that their foreign suppliers are producing
+food in a manner that provides the same level of public health protection as U.S. safety standards--including the use of
+preventive controls or produce safety regulations as appropriate--and to ensure that the supplier’s food is not
+adulterated and is not misbranded with respect to allergen labeling.
+6.9.38 – Formal Entry
+The entry type required for shipments valued over $2500, or for shipments containing specific commodities designated
+by CBP. Formal entry is usually a three-step process in which:
+1. “Entry” gains the release of the goods from CBP control,
+2. “Entry Summary” includes determination of the classification and collection of the duty/taxes owed.
+3. “Liquidation” finalizes the entry process and CBP changes to classification and monies owed.
+6.9.39 – Foreign Trade Zones, or FTZ
+Zones established under the Foreign Trade Zones Act.  Goods properly admitted into an FTZ are considered outside the
+territory of the United States for the purposes of duty and taxes. Several classes of goods are present in an FTZ at any
+one time. Some of these classes provide duty advantages when the goods are eventually entered into U.S. commerce.
+Other classes of goods are prohibited by law from entering the commerce and must be exported or destroyed. There is
+no time limit on how long goods can remain in an FTZ without entry or export. Note that if the FTZ is located in the
+United States, the goods are in interstate commerce and subject to the FD&C Act. ( See CPG Sec. 110.200 Export of
+FDA Regulated Products from U.S. Foreign Trade Zones)
+[p.55]
+
+
+
+
+
+
+
+
+
+6.9.40 – FSVP and/or HACCP Importer
+The importer who, for a specific food, is subject to the importer requirements in FDA’s FSVP regulation (21 CFR part 1,
+subpart L), or the requirements applicable to importers in the juice or seafood HACCP regulations (21 CFR 120.14 and
+123.12, respectively). Under both the FSVP and the HACCP importer regulations, the importer is the U.S. owner or
+consignee at the time of entry into the United States or the U.S. agent or representative of the foreign owner or
+consignee at the time of entry into the United States (21 CFR 1.500 (FSVP)); (21 CFR 120.3(h) (juice HACCP)); and (21
+CFR 123.3(g) (seafood HACCP)).  An FSVP or HACCP importer must be physically located in the United States. When the
+FSVP or HACCP importer for a food is a U.S. agent or representative for the foreign owner or consignee, the U.S. agent
+or representative is responsible for meeting the FSVP or HACCP requirements with respect to that food.
+6.9.41 – Immediate Delivery (ID)/ Conditional Release
+Entry/Immediate Delivery (CF 3461) must be filed within 15 calendar days of arrival of goods in the United States.
+Goods may be released for immediate delivery if they are arriving by land from Canada and Mexico. Products may be
+released for immediate delivery pending entry process completion. Even though CBP has allowed the immediate
+delivery, any FDA-regulated products will be conditionally released until the agency makes an admissibility decision.
+The conditional release period ends when FDA “May Proceeds” the entry or issues a refusal.
+6.9.42 – Import Alerts
+Guidance documents concerning significant re-occurring, new, or unusual problems affecting import coverage. They
+can be found online here.
+6.9.43 – Importer of Record
+The party in whose name the entry is made. Note that, for example, a Customs House Broker might make an entry and
+become the “importer of record” by using their importer ID and bond on behalf of their client, the true “importer” of
+the goods. For FDA purposes, the “importer of record” is the person or company filing the redelivery bond under
+Sections 802(b)and 536(b) of the FD&C Act [21 U.S.C. 382(b) and 360mm(b)].
+6.9.44 – Import Refusal
+FDA’s final decision that a detained shipment is in violation of FDA laws and regulations. A refused shipment must
+either be destroyed or exported under the supervision of CBP and the FDA within 90 days of the date of the Notice of
+FDA Action (Refusal Notice).
+6.9.45 – Import Sections
+Import Sections 536, 801 and 802 are those sections of the FD&C Act containing the Import/Export Provisions.
+6.9.46 – Import Status
+The standing, or status, of an article in the import database system that has not yet been released.
+6.9.47 – Importer Misdeclaration
+Refers to the importer's providing incorrect and/or incomplete information to the FDA and CBP, usually via the filer.
+This misdeclaration may include incorrect product codes and/or product descriptions; incorrect/incomplete
+manufacturer/shipper name/address; and/or incorrect quantity and value. It may occur as an attempt to avoid FDA
+and/or CBP actions/regulations, such as DWPE, sampling, duties, etc.
+
+6.9.48 – Informal Entry
+A simplified import entry procedure accepted at the option of CBP for any shipment not exceeding a specified value.
+Informal entries are filed with complete paperwork and any duties and taxes are paid at the time of filing.  The entry
+liquidates at time of filing.
+[p.56]
+
+
+
+
+
+
+
+
+
+6.9.49 – Immediate Transportation (IT)
+An entry document filed with CBP by the importer that allows the immediate transport of goods without a
+determination of admissibility, from the port of unloading under CBP bond. In general, the importer must file a
+consumption entry within six months of the date of importation or export the goods.  The FDA typically examines
+these goods at an inland port of entry.
+6.9.50 – Import Trade Auxiliary Communication System (ITACS)
+A system that provides the import trade community with four functions: the ability to check the status of FDA-
+regulated entries and lines, the ability to submit entry documentation electronically, the ability to electronically submit
+the location of goods availability for those lines targeted for FDA exam, and the ability to check the estimated
+laboratory analysis completion dates for lines which have been sampled. ITACS account management functionality
+enables the electronic distribution of Notices of FDA Action via email and as downloads from within ITACS.
+6.9.51 – Label Examination
+Surveillance activities in the field to determine admissibility of a product based on a label/labeling examination
+performed on the physical product.
+6.9.52 - Line (Line Item)
+A line is each portion of an entry which is listed as a separate item on an entry document. An importer may identify
+goods in an entry in as many portions as they choose, except for items in the entry having a different tariff description
+and rate, which must be listed separately.
+6.9.53 – Lot
+A lot is an entry, group of entries, or a portion of an entry of goods that can clearly be defined as appropriate for FDA
+sampling and examination purposes.
+6.9.54 – Mail Entry
+
+Merchandise offered for entry through the U.S. mail. In instances where the value of the merchandise is less than
+$2,500, an entry document is generally not required to be filed with CBP. Mail entries are often informal entries and do
+not generally require a bond to be filed with CBP. Industry guidance can be found here.
+6.9.55 – Marks
+Words or symbols, usually including the country of origin, that marked on cartons, bags, and other containers of
+imported goods for identification purposes. Marks are a CBP requirement.
+6.9.56 – May Proceed
+The release performed after identifying and determining the line/entry meets certain admissibility requirements. This
+means the product can be distributed into U.S. commerce. However, a release does not preclude future FDA action if a
+problem is found later.
+6.9.57 – Notice of FDA Action
+Gives notice to the owner, operator, or agent- n-charge of an imported product, providing more specific information
+on the actions taken by the agency, broken down by each entry line (including, "sample collected," "intended for
+sampling," "detained," "released," or "refused"). The notice provides notification of the right to a hearing on the
+detention of a product which appears violative to the FDA, or for the administrative destruction of a drug or device.
+The notice identifies the charges for which the product appears violative.
+6.9.58 – Personal Baggage Entry
+Entry of merchandise by personal baggage.
+6.9.59 – Personal Import Policy (PIP)
+Instructions to FDA staff for handling personal-use quantities of FDA-regulated imported products encountered in
+[p.57]
+
+
+
+
+
+
+
+
+
+personal baggage and mail shipments, to best protect consumers with a reasonable expenditure of resources.
+6.9.60 – Port (Point) of Entry
+The CBP location where the Consumption Entry is made. This may or may not be at the Port of Unloading (the point of
+physical entry into the United States).
+6.9.61 – Predictive Risk-Based Evaluation for Dynamic Import Compliance Targeting
+(PREDICT)
+A risk-based analytics tool that the FDA uses to electronically screen all regulated shipments imported or offered for
+import into the United States.
+6.9.62 – Prior Notice of Imported Foods (Prior Notice)
+In the case of an article of food that is being imported or offered for import into the United States, a notice provided to
+the FDA prior to entry in the United States, with information about the article, manufacturer, shipper, grower, the
+country of origin, and anticipated port of entry. Prior notice must be submitted to the FDA electronically, via either the
+CBP Automated Commercial Environment (ACE) or the FDA Prior Notice System Interface (FDA PNSI). (Guidance for
+Industry: Prior Notice of Imported Food Questions and Answers)
+6.9.63 – Private Laboratory
+Independent laboratories providing analytical services to importers, customshouse brokers, and others.
+6.9.64 – Product Code
+An FDA product code describing a specific product and containing a combination of five to seven numbers and letters.
+The product code submitted with each FDA line item should match the actual product name and/or invoice description
+of the product.
+6.9.65 – Reconditioning
+When a product is detained because it violates FDA laws and regulations, the importer of record may submit an
+application to the agency requesting permission to re-label or recondition the product in an attempt to bring it into
+compliance.
+6.9.66 – Redelivery Bond (AKA Entry Bond) -
+A bond posted by the importer of record with CBP. For FDA-regulated products, this is currently in the amount of three
+times the value of the imported product, to insure redelivery of the product for examination, reconditioning, export, or
+destruction.
+6.9.67 – Re-export
+A term used to identify goods shipped out of the United States after being offered for entry. This is not the same as an
+export of U.S. manufactured goods and is not covered by the restrictions in Section 801(e) of the FD&C Act.
+6.9.68 – Relabeling -
+
+The process of modifying labeling in order to come into compliance with FDA regulations. Relabeling is considered a
+form of reconditioning.
+6.9.69 – Release with Comment -
+An FDA compliance action releasing goods into interstate commerce advising the importer of violations with the FD&C
+Act that are not a health risk to the public. It also advises that future entries which continue to violate the Act may be
+refused.
+6.9.70 – Sample/Product Collection (SAM)
+
+SAM is a physical collection of product in the field with a subsequent analysis submitted to an FDA servicing laboratory,
+or a documentary sample where the sample evaluation is based upon the documents accompanying the product.
+[p.58]
+
+
+
+
+
+
+
+
+
+6.9.71 – Section 321 (De Minimis)
+The process by which cargo can be imported by one person on one day, as cited in 19 CFR 10.151. The value of the
+imported cargo may be free of duties and taxes when valued at 800 U.S. dollars or less.
+6.9.72 - Stripping (Of Containers)
+The removal of articles from a transportation container for examination or sampling.
+6.9.73 – Substitution
+An attempt by the importer/consignee to present goods to the FDA as corresponding to a particular entry when they
+are in fact not the goods from that entry. May occur as an attempt to hide distribution without an FDA release and
+avoid CBP bond actions. (See IOM 6.6.4.1 Failure to hold or 6.6.4.4 Substitution.)
+6.9.74 – Supervisory Charges
+Supervisory charges are the charges associated with FDA supervision of the reconditioning and examination of articles
+after detention. (See 21 CFR 1.99.)
+6.9.75 – Testimony
+An individual’s statement given in writing (such as an affidavit or a declaration) or by appearance under oath at a
+proceeding. The statement might be in response to a deposition or interrogation. Testimony is covered by 21 CFR 20.1.
+Testimony may also be information a firm submits to overcome the appearance of the violation, or to otherwise
+support the release of their product. Testimony should be provided to the contact listed on the FDA Notice of Action,
+which is usually a compliance officer. It can be provided in person, or via email, telephone, fax, hard copy.
+6.9.76 – VQIP Quality Assurance Program (QAP)
+A compilation of the written policies and procedures used to ensure adequate control over the safety and security of
+the foods being imported by the VQIP importer. Any format can be used to organize the QAP to include all foods and
+all of the written policies and procedures under VQIP.
+6.9.77 – Warehouse Entry (WE)
+An entry document filed with CBP by the importer which allows the goods to go immediately into a bonded
+warehouse.
+6-9.78 – Relabler
+Relabeler - Changes the content of the labeling from that supplied from the original manufacturer for distribution
+under the establishment's own name.

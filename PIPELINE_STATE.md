@@ -16,7 +16,7 @@
 - **第十二来源**: books/fda-pchf-human-food-guidance/source-cfr-part114-2025.md（**21 CFR Part 114 — Acidified Foods，4-1-25 Edition**，7 页 / 8 条款；同一双栏脚本转出，标〔§ 114.xxx〕。文件头锁死「parts 110 and 117 不是过时引用、Part 110 至今有效」的纠错）
 - **第十三来源**: books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md（FDA CP 7303.878《Foreign Supplier Verification Programs Inspections》，**Transmittal 2023-CPM-CFSAN-003 / Implementation Date 09/27/2023 / Date of Issuance 08/28/2025 更正**，33 页 / 20 书签；用户提供的 508-Compliant PDF 经 `pdf2md-pro` 转换。是 2023 版程序的 2025 更正本，不是 2025 新 program；其依据的 **21 CFR part 1, subpart L（§§1.500–1.514）法规正文仍未收**，一律标「转引未收」，见 CAP-21 `fsvp-inspection-program`）
 - **输出模式**: single（用户已确认，全书均衡提取；十四次来源合并均沿用 single，未改变产物形态）
-- **当前版本**: v4.16 ✅ 编译校验并安装完成（28 张卡 / 233 术语 / 168 用例 / 二十类来源 / dist-v20）；v4.10–v4.11 的评测欠账已补测完毕（seafood-* 用例 + CAP-23 / CAP-24 路由），**v4.12 及之后各版未重跑触发 / 输出 / 路由评测**，v4.7–v4.14 的既有结论不得冒用；逐版本明细见文末 v4.10–v4.16 各节
+- **当前版本**: v4.19（51 张能力卡 / 318 条术语 / 204 条测试用例 / 二十三类来源 / dist-v21 ✅）。⚠ **架构说明（2026-11-10 收口）**：v4.17–v4.19 由三个独立 cangjie book 项目（iom-2026-ch6-imports / cfr-part101-2026 / cfr-part172-2026）分别构建并叠加安装进共享技能目录，曾与主仓库基构建（v4.16，28 张基础卡）分叉。本次把运行中 v4.19 成品定为权威产物 **dist-v21**（逐文件 hash 与已装技能一致），三个 book 的原始 source + candidates + apply 脚本归档进 **imported/**；旧 `.cangjie/capabilities` 基构建保留 v4.16（28 张基础卡）待后续全量移植（路线 A）。**单一可信源现为 dist-v21 + imported/ 溯源**。v4.10–v4.11 评测欠账已补测完毕，**v4.12 及之后各版（含 v4.17–v4.19）均未重跑触发 / 输出 / 路由评测**，v4.7–v4.14 既有结论不得冒用；逐版本明细见文末 v4.10–v4.19 各节v4.10–v4.11 的评测欠账已补测完毕（seafood-* 用例 + CAP-23 / CAP-24 路由），**v4.12 及之后各版未重跑触发 / 输出 / 路由评测**，v4.7–v4.14 的既有结论不得冒用；逐版本明细见文末 v4.10–v4.16 各节
 - **开始时间**: 2026-11-04；最后更新 2026-11-09
 
 ## 阶段进度
@@ -32,7 +32,7 @@
 | 4 压力测试 | done | test-prompts.json v4.0（28 正例 + 5 负例诱饵 + 12 边界用例 = 45 条，darwin 兼容；盲测待补跑） |
 | 5 编译交付 | done | DIGEST.md + dist-v4/fda-pchf-food-safety（validate 0 errors / 0 warnings） |
 
-> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.16：28 张卡 / 233 术语 / 168 用例 / 二十类来源 / dist-v20**，见本文件顶部与末尾 v4.16 节；v4.11 的 24 卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15、v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
+> ⚠ 上表是 **v4.0 阶段快照**（14 卡 / 106 术语 / 45 用例 / dist-v4），保留作阶段轨迹，不代表当前状态。当前为 **v4.19：51 张卡 / 318 术语 / 204 用例 / 二十三类来源 / dist-v21**，见本文件顶部与末尾 v4.16 节；v4.11 的 24 卡 / 192 术语 / 125 用例 / 十六类来源 / dist-v15、v4.8 的 21 卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12、v4.7 的 20 卡 / 152 术语 / 85 用例 / 十二类来源 / dist-v11、v4.6 的 19 卡 / 142 术语 / 75 用例 / 十类来源 / dist-v10 与 v4.5 的 18 卡 / 134 术语 / 67 用例 / 九类来源 / dist-v9 均已成历史记录。
 
 ## 第二至第四来源合并记录
 
@@ -430,3 +430,14 @@
 - **静态登记核对**：`.cangjie/check_v4_16_routing.py` **84/84 PASS** —— 28 卡 / 56 principles / 30 stops / 19 additional_sources（末条 `src-fda-iom-ch4-2026`）、CAP-28 `active`·`extended`·also_read 12 条、反向辅读链 13 张、能力索引主行 1 行、SKILL.md 无「十九类」且含「二十类」、CAP-28 **60 个引用块**且 4.1–4.7 七节与六类反直觉锚点全覆盖、meta 85 intents / 170 keywords 无重复、转换报告 361 书签 / 0 丢弃、glossary 严格解析 233 条、测试套件 168 条 / 10 条 `iom-sampling-*`、产物与安装目录 hash 差异 0、glossary 五副本一致。
 - **仍未收**：IOM Chapter 2 / 3 / 6 / 7 / 8 / 9 / 10 全本（尤其 Ch.3 的 3.2 权限、Ch.6 的 6.4 进口取样、Ch.8 的投诉与食源性疾病调查）、SOP-001052 / FMD-147 / OII SOP-000530、RPM 6-3 / 10-4、CPG 580.100 / 300.400 / 130.100 全文、BAM / AOAC / MPM 方法全文、FACTS / eNSpect / CMS / OASIS 内部操作、Form FDA 484 表单栏目细则。
 - **评测**：本版未重跑触发 / 输出 / 路由评测；v4.7–v4.14 的既有结论不得冒用。
+## v4.17–v4.19 收口记录（2026-11-10）
+
+v4.17 / v4.18 / v4.19 由三个独立 cangjie book 项目构建并**叠加安装**进共享技能目录，与主仓库基构建（v4.16，28 张基础卡，`assemble_bundle.py` + `compile_single.py`）是**分叉的两套构建血缘**（三个 book 用新版 `candidates/` + `verified.md` + `dist/capabilities/` 格式）。
+
+- **v4.17（iom-2026-ch6-imports）**：第二十一来源 FDA IOM 2026 Chapter 6 Imports；+10 进口细分卡（RIA++）+ 1 导航主卡。
+- **v4.18（cfr-part101-2026）**：第二十二来源 21 CFR Part 101 食品标签；+5 标签细分卡 + 1 导航主卡。
+- **v4.19（cfr-part172-2026）**：第二十三来源 21 CFR Part 172 食品添加剂；+5 添加剂细分卡 + 1 导航主卡。
+
+合计 +23 张新卡（3 导航 + 20 细分）、术语 +85（t234–t318）、用例 +36（iom-* / part101-*）、来源 +3，主仓库既有零丢失。
+
+**路线 B 收口**：运行中 v4.19 成品逐文件 hash 一致地定为权威产物 **dist-v21**（57 文件，51 卡 / 318 术语 / 204 用例 / 4.19）；三个 book 的 source + candidates + apply/convert/verify 脚本归档进 **imported/**（排除 backups/dist/.git）。旧基构建（v4.16，28 基础卡）保留待**路线 A 全量移植**。GitHub 自此与本地运行版本一致。

@@ -1,0 +1,335 @@
+[p.33]
+
+
+
+
+
+
+
+
+
+•
+If the shipment has been distributed, notify CBP and request that they issue a demand for redelivery. (See IOM
+6.1.4.2 for information regarding informal entries.) CBP has 30 days to demand redelivery from the date the
+conditional release period ended (i.e., the “IB Release” was issued.) Any delays compromise FDA’s ability to
+request CBP issue a Notice to Redeliver.
+•
+Record this process and communication with CBPI in the Entry Remarks and/or Miscellaneous Info Received
+field to document FDA follow-up when FDA issues an IB Release inadvertently.
+6.4 - Import Sample Collection
+6.4.1 – General
+In general, the difference between official domestic and import samples is that import samples do not require official
+seals or collection of a 702(b), reserve portion (See Chapter 4 for sampling instructions and guidelines.) There are
+instances when the collection of a reserve portion and an official seal is warranted, for instance, when enforcement
+action (a seizure, injunction, prosecution) is contemplated. Some sample sizes are provided in the Sample Schedule
+Section (See IOM Chapter 4). When using the sample sizes furnished elsewhere in this manual, do not collect the
+duplicate portion of the sample unless directed by your division. In addition, when preparing to collect import samples,
+you should always be aware of your personal safety. (Refer to IOM 5.3.)
+Import sub samples should be identified in accordance with IOM 4.7.2.1. If an Entry number is used for subsample
+identification, ensure the collection report is completed as soon as possible and notify the sample custodian of the
+sample number. The collection report should clearly indicate how the sub samples are identified.
+Collect, prepare, handle, and ship import samples in a manner which ensures the samples’ integrity. It is important
+that samples are packaged properly and labeled completely and legibly on the outside of the immediate sample
+container before delivery to the laboratory. This allows the sample custodian to properly store the samples and
+expedite delivery to the appropriate laboratory branch.
+Attaching a Form FDA 525, Sample Package Identification, is not required; however, if a Form FDA 525 is not used, the
+outside of the immediate sample package should be identified with the following information:
+•
+Sample number, if available at time of shipment.
+•
+Entry/Line number if sample number not available at the time of shipment or sample delivery.
+•
+PAC/PAF (include all if multiple PAC/PAFs going to the same lab) See IOM 6.4.6, Sample Collection Reports.
+•
+Date of collection.
+•
+Storage Condition (for instance, ambient, frozen, or refrigerated).
+•
+Lead CSO’s initials.
+•
+The number of bags/cartons in the sample if more than one, and the sub numbers in each container, (for
+instance, bag/box 1 of 3, subs 1-10, etc.)
+Note: If an FDA 525 is used, affix it to the outside of the sample container. Do not affix it on the outside of the shipping
+container.
+Including a copy of the collection report (CR) is not required unless specifically requested by a lab.
+You should also take clear photographs of all samples collected. (See 6.1.8 PHOTOGRAPHS: IDENTIFICATION AND
+STORAGE for more details and instructions.)
+The FDA does not pay for import samples at the time of collection. The importer should be advised they may bill the
+responsible division. Also, the FDA will not pay for violative import samples, per 21 CFR Part 1.91, (see IOM 6.4.2.5).
+When collecting an import additional sample (ADS), the original import collection report (CR) or sample number should
+be referenced in the remarks section of the CR. An ADS should always be recorded on the same entry/line as the
+original sample.
+[p.34]
+
+
+
+
+
+
+
+
+
+Import Samples are compliance samples, except for those collected for pesticide analysis. (See IOM Sample Schedule
+Chart 3 (Chapter 4) for guidance.)
+6.4.2 – General Import Sampling Policies
+6.4.2.1 - Ports Covered by FDA
+For electronic entry submissions, if the filer receives a message indicating FDA review, the filer will provide
+appropriate entry information to the FDA office having jurisdiction over the port of entry. The filer can also submit
+the entry documents electronically to the FDA via the Import Trade Auxiliary Communications System (ITACS). For
+those entries submitted by paper, all appropriate entry documents should be included with the package sent to
+the local FDA office.
+After evaluating the entry, if FDA decides to collect a sample, the appropriate individuals/firms will be provided
+with a Notice for Sampling and advised:
+1. If the entry is to be held intact for FDA examination or sampling.
+2. Only those items designated for examination or sampling items need be held.
+6.4.2.2 – Sampling for Ports with no FDA personnel present
+For those ports where the FDA does not generally have staff located under its normal operating schedule, the
+responsible FDA division office will coordinate coverage with the responsible CBP Port manager to assure FDA
+notification. If the FDA decides to examine or sample articles being entered through such a port, then CBP, the
+importer, and broker will be notified.
+Generally, for these entries, examination and/or sampling can take place at the point of destination. Under certain
+conditions, however, FDA may ask CBP to collect a sample at the point of entry for forwarding to the FDA servicing
+laboratory. Appropriate information on the entry, sample requirement, and requirements for holding the entry will
+be provided to the CBP officials and importer by the responsible division.
+6.4.2.3 – Notification of Exam/Sampling Requested
+If an examination or sample is requested, the FDA must notify CBP, the broker or filer, importer, or other
+designated parties. Notification, either through the electronic entry system or other form of notification (Notice of
+FDA Action), will indicate there is a hold on the entry identifies the specific product(s) to be sampled, etc.
+6.4.2.4 - "Notice of FDA Action - Samples Collected"
+After a sample has been collected by FDA, a "Notice of FDA Action - Samples Collected" is issued to the importer of
+record, consignee, and filer. If CBP collects the sample for FDA, depending on local FDA/CBP agreement, the
+division will enter the entry information into FDA Import systems and issue the Notice of FDA Action.
+For those entries where specific lines (items) of an entry are not sampled, examined, or are pending further
+review, the Notice of FDA Action will indicate which lines (items) have been issued a "May Proceed." (See RPM
+Chapter 9, subchapter 9-21 "Notice of Sampling" for detailed guidance.)
+6.4.2.5 - Payment for Samples
+The FDA will pay for all physical samples collected by FDA and found to be in compliance (See 21 CFR 1.91). In
+addition, the agency will pay for physical samples collected by FDA as an audit of private laboratory analytical
+results submitted to FDA when the FDA audit sample is found in compliance. (NOTE: The agency does not pay for
+samples found to be non-compliant (violative) or for samples taken in connection with the supervision of a
+reconditioning.) (See IOM 4.2.8.2 for guidance on sample costs.)
+Billing for reimbursement should be made to the FDA division office in whose territory the shipment was offered
+for import. FDA will not pay for a sample if the article is initially found to be in violation, even though it is
+subsequently released.  Refer to IOM 4.2.8 for payment for samples.
+Samples taken in connection with the supervision of a reconditioning are not paid for by FDA.
+[p.35]
+
+
+
+
+
+
+
+
+
+6.4.3 - Procedure When Products Cannot Be Sampled or Examined
+If the entry is still under the control of the import division, yet the sample collection cannot be completed, the division
+may annotate the notice to the filer and importer that no product was collected and return the entry to the filer
+designating the entry "May Proceed." If the designated product was part of a multi-line entry where other products
+were collected, the notice issued for the other items sampled will be appropriately updated with the release of the
+product not sampled.
+When a notice is issued for the collection or examination of a product in the FDA Import Systems, and neither
+operation is accomplished, the filer will be advised through a revised Notice indicating the article is given a "May
+Proceed" status. The system will print a status of "May Proceed" in the Line Summary, and print a detail section "Lines
+Which May Proceed."
+In FDA Import Systems, the following are definitions used to describe "May Proceed" or "Release" actions:
+May Proceed: "Product may proceed without FDA examination. FDA has made no determination the product complies
+with all provisions of the Food, Drug, and Cosmetic Act, or other related acts. This message does not preclude action
+should the products later be found violative." (No compliance decision has been made.)
+Release: "The product is released after FDA examination. This message does not constitute assurance the product
+complies with all provisions of the Food, Drug and Cosmetic Act, or other related Acts, and does not preclude action
+should the product later be found violative." (A compliance decision has been made.)
+Divisions will follow the appropriate guidance under each of the above procedures, according to their import
+operations.
+6.4.4 – Pre-Sampling Procedures
+Review the submitted entry (electronic or hard copy documentation) to ensure that the location of the product(s) is
+known and the lots are available for FDA examination/ sampling before initiating action. The general description of the
+shipment in the entry documentation submitted to the FDA should match the description of the product(s) in the
+invoice from the broker.
+6.4.5 – Sampling Techniques
+Follow guidance furnished in IOM Subchapter 4.3 - Collection Technique.
+6.4.6 - Sample Collection Reports
+For every sample collected, a corresponding electronic collection report must be completed in FDA Import Systems
+(See IOM 2.4 English language requirement.)
+Review the Line Details prior to completing the collection report. (See below for detailed steps.) You are responsible
+for making sure all fields in the Line Details screen are complete and correct. For example, make sure the product code
+matches the product, and that the manufacturer, country of origin, quantity, and value are correct. Add any lot codes
+if applicable and update the Location of Goods if needed. If the data has been changed, enter pertinent remarks for
+the change, assign fault as appropriate, and rescreen the line to see if changes in the data result in changes to the flags
+and/or other screening hits.
+NOTE: If you start a collection report and need to exit at any time to make a correction in the Line Details, you will lose
+the original collection report and a new sample number will be assigned when you return to the Collection Report
+screen.
+To review the Line Details:
+1. Access the Line Details screen by double clicking the work type field, (for example, “SAM”).  This will open the
+Entry/Line Summary screen. Click the “Line Details” button.
+2. Review all data and verify that it is complete and correct. For example, make sure the product code matches
+actual product, and that the manufacturer, country of origin, quantity, and value are correct. Add any lot codes,
+if applicable, and update the Line Availability information if needed. If there is a “build button” on the line you
+[p.36]
+
+
+
+
+
+
+
+
+
+need to correct, you must use the build function to make corrections. All fields that are white or highlighted in
+purple can be updated.
+3. If data has been changed, click the “Save” button, then enter a brief description in the pop-up box of
+corrections made. Assign fault to any errors as appropriate.
+4. After any changes are saved, click on “Rescreen” in the Application Tool bar to see if changing the data caused
+the line to hit on any other criteria or alerts.
+Complete the collection report by navigating to Work Results.
+If the line was sampled for more than one PAF, and analysis will be performed at the same laboratory, only one
+collection report should be generated, unless otherwise directed.  Select all PAFs going to the same laboratory before
+navigating to work results.
+NOTE: Collect a separate set of subs for each PAF, unless otherwise directed by the laboratory or assignment.
+MIC/MET samples cannot be split or shared between labs.
+If the sample will be split and sent to more than one laboratory, complete a separate collection report for each
+laboratory. The system autofills the following fields for you: Entry/Doc/Line (Suffix), Lead initials, Date Collected,
+Product Code, Product Code Description, Importer Corrected Description, Requested By, Requested Of, Location of
+Goods, and the Sample Number, Total Quantity, PAF, PAC, and Reference. The Date Collected, and Location of Goods
+can be corrected on this screen if needed.
+However, you will need to enter data in the fields below.
+6.4.6.1 - Date Collected
+The Date Collected should reflect the date the sample was collected, not the date the sample was recorded. Only
+one date can be entered. If the sample collection was accomplished over several days, use the last date of
+collection.   This date should also be used to identify the physical sample.
+6.4.6.2 – Episode
+An "episode" is defined as a violative pesticide (or other chemical contaminant) finding along with all samples
+collected in follow-up to that finding. All samples must be associated with one responsible firm (grower, pesticide
+applicator, etc.) and one specific time period (for instance, growing season). For example, if samples of
+cantaloupes from Mexico revealed violative residues, then any destination point samples or subsequent
+compliance samples from the same shipper or grower would, along with the original sample, be considered an
+episode. For this, you would enter the episode number. (See IOM 4.6.2.27.8.)
+6.4.6.3 - Submitted To
+Divisions are instructed to submit samples utilizing the Lab Servicing Table (LST) Dashboard located on the intranet
+on the ORTS Sample Distribution site. The LST Dashboard is an interactive tool showing respective sample
+capacities by PAF and servicing lab. The LST Dashboard can be used to identify all servicing labs with current
+available capacity for a selected PAF. Special notes or instructions are also included on the LST Dashboard, which
+may include directions pertaining to diversions and/or suspensions.
+The Lab Servicing Table (LST) will continue to be updated as a reference. The LST Dashboard is a supplement to the
+LST.
+When completing a sample collection, the Lab Selection screen will include a "Lab Reference" button that links to
+the LST Dashboard. After referring to the LST Dashboard to identify a lab with available capacity, select the
+appropriate servicing lab via the listed laboratory values.
+6.4.6.4 - Quantity Collected
+Enter the number of sampled units you collected.
+[p.37]
+
+
+
+
+
+
+
+
+
+6.4.6.5 – Units
+Select the appropriate units from the pull-down menu. The Calculated Cost will automatically populate based on
+the Value submitted in the Line Details, along with Quantity Collected, and Units selected.
+6.4.6.6 – DescText
+Enter a description of the sample, which includes the following details:
+1. Number of subs collected.
+2. Weight/volume of each sub.
+3. Brief product description.
+4. Type of container the subs were collected in.
+5. Lot sampled.
+Describe how you collected the sample:
+Specify any special sampling techniques; if the sample was collected randomly, aseptically, selectively, etc.; and the
+number of master cases that were collected from.
+For example: “Sample consists of 12 subs /16 oz. (1lb) each of IQF Cod Fillets collected at random from lot B129A1.
+Sample was collected aseptically from 12 master cases and packed in 12 whirl-pak bags.”
+Note that any text you enter in this field will be printed on the “Notice of FDA Action.”  This field also transfers to
+the “Sample Description” field in FACTS.
+6.4.6.7 - Hand Ship
+Enter the method of shipping and describe how sample integrity is maintained, including the sample chain of
+custody. This should reflect all of the following:
+1. How the sample was held and stored until shipment.
+2. How the sample was prepared for shipping.
+3. The method of shipment
+4.  The sub sample identification
+For example: “Transported from firm in a closed cooler with gel packs, sample was then transferred to freezer #1
+in the locked sample room until shipped via UPS to PRL- NW in a cooler with Gel packs.” Subs id’d 123-1234567-
+1,JD, 1/1/2024
+NOTE: This field only transfers to the "Lab Receipt of Samples" screen in FACTS and may not be easily seen by
+laboratory personnel.  As such, please enter any special handling instructions in the Remarks field.
+6.4.6.8 – Remarks
+Enter any additional information that is pertinent to the sample collection, such as:
+1. Special handling instructions or storage condition requirements as necessary.
+2. When applicable, any guidance documents that were consulted to complete the collection, such as
+Compliance Program Guidance Manuals, and assignment or field examination guidance documents.
+3. Additional information that your Division, Laboratory, Compliance Program, Assignment, or Import
+Alert/Bulletin requires.
+4. Any specific analysis instructions needed (for instance, any specific pathogen or mycotoxin screen needed).
+5. Any controls or photos collected.
+Examples: “Store frozen. Master case code: PRODUCTION DATE 1319.  Open and closed controls submitted with
+the sample. Analyze for milk protein per IB XX-BXX”
+“Store Ambient. Sample collected per DOPG-XXXX-XXXX. Examined 200 units from lot 1234 for defects and
+identified 6 with pitting. Analyze for device integrity”
+Notes:  This field transfers to the “Collection Remarks” field in FACTS.
+[p.38]
+
+
+
+
+
+
+
+
+
+Be sure to review the entire screen before clicking “OK.”  The sample will be transferred immediately in FACTS to
+the respective laboratory once the OK button is clicked (unless your supervisor has set up a supervisory review of
+your work).
+6.4.6.9 - Record Time Screen
+Enter your time in the Record Time screen. If more than one person has worked on the sample, click “Add”. A box
+will pop-up. You may then select the other person(s) from the drop-down list, select the PAC, and enter their time.
+Note: Time is entered in decimal format in tenths of an hour (6-minute increments).
+Examples:
+•
+6 min = 0.1
+•
+12 min = 0.2
+•
+18 min = 0.3
+•
+24 min = 0.4
+•
+30 min = 0.5
+6.4.7 – Updating a Sample Collection Report
+FDA Import Systems will allow users to make corrections to a collection report up until the laboratory has set the
+sample to “In Progress” in FACTS. Note that a collection report may only be corrected once. To update a collection
+report, select Sample Query from the Query drop down menu and search by sample number or entry number. Select
+the applicable sample number and click Update Collection Report. The updatable fields will become enabled for
+modification. These include: Quantity Collected, Units, Desc Text, Handling/Shipping, and Remarks. Once all necessary
+changes have been made, enter a reason for the update and click submit. At this point, the View Update will become
+enabled. If a change was made to the Quantity Collected, Units, or Desc Text, a new Notice of FDA Action must be
+generated.
+Note: It is important to generate and send the Notice as it notifies the parties that changes were made to the
+collection data. However, if a change was made to Hand/Ship or Remarks fields ONLY, then no new Notice is needed.
+6.4.8 – Additional Samples (ADS)
+An additional sample (referred to as "ADS" in FDA Import Systems) is a physical sample collected from a previously
+sampled lot of either a domestic or imported product. Additional import samples will have a different sample number
+from the original sample number. Generally, an additional sample is used to complete an initially designated analysis,
+or to allow the lab to perform additional analyses. Situations where an additional sample may be appropriate:
+•
+When you need to convert a sample from surveillance to compliance for the same PAF.
+•
+When sample is damaged in route, in cases where a new sample and sample number is needed (for instance,
+Lab Class 5).
+•
+When a new sample collection under the same PAF/PAC is needed as FDA Import Systems do not allow for a
+new sample collection on those situations.
+The additional sample must be collected from the same entry line as originally sampled. In the collection report,
+reference the original sample number in Remarks section of Collection Report to explain the link to the original sample
+(for instance, why the additional sample was collected).  The additional sample may be pulled from the same
+product boxes/containers, or from previously unopened ones, depending on the situation.
+6.4.9- Special Domestic Import Samples (SDI)
+The SDI sample work type should only be used when directed by a special sampling assignment, for certain perishable
+products collected for metal (MET) analysis or for products collected for nutritional analysis (NIS). It should not be used
+when collecting samples for multiple PAFs, or if the product appears to be violative or has a history of being violative.
+If a product is identified for collection as an SDI under a special sampling assignment, or other directive, follow the
+instructions outlined in the assignment or directive.

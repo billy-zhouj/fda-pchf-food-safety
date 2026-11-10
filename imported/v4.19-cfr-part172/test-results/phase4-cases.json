@@ -1,0 +1,93 @@
+[
+  {
+    "id": "part172-01",
+    "type": "should_trigger",
+    "prompt": "我们这个抗氧化剂复配物想用在焙烤食品里，BHA 和 BHT 都加了——是不是只要各自没超自己的限量就行？另外如果这批复配物是用载体稀释卖给我们下游的，标签上要写什么？",
+    "expected_behavior": "应激活 CAP-31 入口卡并路由到 V02 `preservatives-antimicrobials`（若先问的是四元组口径则先过 V01）：〔§ 172.110〕限量表列头为 `total BHA and BHT`，BHA 与 BHT **合计**不得超列值，不能各自擦线合格；〔§ 172.110(c)(2)〕以载体形式售卖须在标签申报添加剂在混合物中的百分比；〔§ 172.110(c)(3)〕干混料须附足以保证冲调后 ≤2 ppm BHA 的使用指南。须提示这是法规正文层第八套编号〔§ 172.xxx〕，表内数值属**不可逐字引用区**须回原 PDF 核对；并提示 §172.5(b) 许可不免除本法其他义务（标签内容回 CAP-30、过程控制回 CAP-01）。",
+    "notes": "V02 正面场景：合并限量 + 载体浓度披露 + 不可逐字引用区"
+  },
+  {
+    "id": "part172-02",
+    "type": "should_trigger",
+    "prompt": "纽甜在我们这款无糖饮料里最多能加多少？纽甜是「食品一般」许可，那肉制品里是不是也能用？如果是给糖尿病人用的特殊膳食产品，标签还要满足什么？",
+    "expected_behavior": "路由到 V03 `sweeteners-fat-substitutes`（用量兜底口径回 V01）：〔§ 172.829(c)〕纽甜**无 ppm 上限**，按 cGMP 且不超过实现预期技术效果所合理需要的量——落 §172.5(a)(1) 合理需要量，不能给数值；许可范围是 `foods generally, except in meat and poultry`（肉禽明文除外，并越入 USDA 管辖）；还须过「标准身份（section 401）不排除」闸门；〔§ 172.829(e)〕特殊膳食须符合 part 105 标签。须提示 §172.829(b) 的 7 项规格是**直写数值**可直接核对，与同 Subpart 的 §172.831 三氯蔗糖（整体 IBR 到 FCC）形成对照。",
+    "notes": "V03 正面场景：无 ppm + 类别闸门 + 标准身份 + part 105"
+  },
+  {
+    "id": "part172-03",
+    "type": "should_trigger",
+    "prompt": "我们想在即食火腿片上用李斯特菌噬菌体做抗菌处理，有没有硬性用量上限？适用范围怎么界定？需要满足什么规格指标？",
+    "expected_behavior": "路由到 V02 `preservatives-antimicrobials`：〔§ 172.785〕是 Identity→Specifications→Conditions of use 三段式。用量**不是硬 ppm**，而是 (c) cGMP 且与直接喷涂约 `1 mL/500 cm²` 一致；适用范围由 `products that comply with the ready-to-eat definition in 9 CFR 430.1` **外部定义**封闭，「接近即食」类推无效；(a) 身份要件（6 种等比例、各自纯化、裂解型无溶原性、靶 L. monocytogenes）与 (b) 规格（对 ATCC 35152/19118/15313 效价 OD600 ≤0.06、滴度、LLO、TOC 等）须逐条满足，其中测法多 IBR 外转，引用边界回 V05（只可引「方法名称+日期+出具方」，不转述数值）。抗菌剂不替代过程层环境病原控制（转 CAP-01～09）。",
+    "notes": "V02 生物类三段式 + 外部定义封闭 + IBR 边界外转"
+  },
+  {
+    "id": "part172-04",
+    "type": "should_trigger",
+    "prompt": "我们在冷熏鲢产品上报的亚硝酸盐是 250 ppm，盐分 3.2%（按整鱼重量算），想问为了更安全是不是可以再加一点亚硝酸盐？还有限量测在哪个部位？",
+    "expected_behavior": "路由到 V02 `preservatives-antimicrobials`：〔§ 172.177(b)〕亚硝酸盐是 **100–200 ppm 区间**（既有下限也有上限），250 ppm 已超上限，「更安全地加量」在本条方向错误；盐须 ≥3.5%（可食部**水相部分**）且两者均 `as measured in the loin muscle`——取样部位与计量对象都是法定要件，「按整鱼重量算」不合判据。另须核 (c) ≥160 °F/30 min 多点监控与 (d) 冷却曲线（50 °F/3 h + 38 °F/12 h + 冷链标示）。",
+    "notes": "V02 反面校准：区间限值不可单向加量 + 法定取样部位"
+  },
+  {
+    "id": "part172-05",
+    "type": "should_trigger",
+    "prompt": "我们用 Olestra 替代油脂做膨化零食，是不是可以不补维生素？补进去的维生素 A、D 能不能算进营养成分表？Olestra 本身在营养标签上要算多少脂肪和热量？",
+    "expected_behavior": "路由到 V03 `sweeteners-fat-substitutes`：〔§ 172.867(d)〕`shall be added` 是**强制营养补偿**（每克 Olestra 补 α-生育酚当量 1.9 mg / 视黄醇当量 51 RE / 维 D 12 IU / 维 K1 8 µg），不补即许可失效；〔§ 172.867(e)(1)〕补偿维生素须在配料表标注、加星号、其后标 `Dietarily insignificant`，且**不得计入**营养标签或任何营养声称；〔§ 172.867(e)(2)〕Olestra **不计作**脂肪或热量来源（对接 §§101.9/101.13）。须提示：许可层规定指向营养标签，实际营养标签格式与声称授权回 CAP-30 执行。",
+    "notes": "V03 强制补偿 + 营养标签接口外转 CAP-30"
+  },
+  {
+    "id": "part172-06",
+    "type": "should_trigger",
+    "prompt": "我们配方里要加一种天然香料，法规名录里有没有用量上限？另外氨基酸清单里的 DL-蛋氨酸，我们想用在婴幼儿配方食品里，可以吗？",
+    "expected_behavior": "路由到 V04 `quality-functionals-longtail-index`：〔§ 172.510(a)〕天然香料条首只给 `minimum quantity required ... in accordance with all the principles of good manufacturing practice`，**名录不提供用量**（§172.515 合成清单更连限制列都没有）；名录内部行属不可逐字引用区，只可做存在性判断并注明须回原文核对。《氨基酸》〔§ 172.320(a)〕是列举式许可，第 (14) 项 `DL-Methionine (not for infant foods)` 的行内限制**嵌在列举项内**，名录式阅读最易漏——不得用于婴幼儿食品。规格走二级引用链（FCC 页码 / NAS-NRC），引用边界回 V05。",
+    "notes": "V04 名录导航 + 行内限制 + 名录不提供用量"
+  },
+  {
+    "id": "part172-07",
+    "type": "should_trigger",
+    "prompt": "帮我们核对一下：三氯蔗糖的纯度数值是多少？还有食品化学法典（FCC）里那些 assay 和杂质限值能不能直接写进我们的合规报告？我看到有的地方引用的是 7th ed. (2014)。",
+    "expected_behavior": "路由到 V05 `effect-level-ibr-boundary`：〔§ 172.831(b)〕三氯蔗糖规格是 `meets the specifications of the Food Chemicals Codex, 7th ed. (2010), pp. 993-995, which is incorporated by reference`——**整体外转 IBR**，条文本体不含任何 assay/杂质数值，只可引「须符合该文件该版该页」，**不得转述 FCC 内部数值**；对照同 Subpart 的 §172.829(b) 纽甜 7 项规格为**直写**可直接引用（**不能假设「有规格＝有可读数值」**）。版次核对：**FCC 7th ed.=2010**、9th ed.=2014，故「7th ed. (2014)」是张冠李戴。IBR 文件与法规正文效力等同但内容不在包内；效力栈为法规正文＞指南（should）＞ CPGM/CP/IOM（不创设企业义务）。",
+    "notes": "V05 整体 IBR + 版本年份陷阱 + 不假设有可读数值"
+  },
+  {
+    "id": "part172-08",
+    "type": "edge_case",
+    "prompt": "我们的预混料里这个添加剂已经按 Part 172 拿到许可、用量也在限值内了，是不是就不用管标签、也不用做危害分析了？另外这个添加剂在 FDA 批准的营养强化目录里，我们能不能直接宣称它「膳食必需」？",
+    "expected_behavior": "两个都要否定并分层。**许可 ≠ 整体合规**：〔§ 172.5(b)〕明文——存在规定安全使用条件的法规不得被解释为免除该物质遵守本法其他任何条款的义务；标签内容本体回 CAP-30〔§ 101〕，过程危害分析与预防控制回 CAP-01～09〔§ 117〕。**营养物质许可 ≠ 有用性认定**：〔§ 172.5(c)〕明文——存在营养物质安全使用条件法规不构成其「对人类膳食有用或必需」的认定；据此做营养/膳食声称属越界，声称授权回 CAP-30。须提示 Part 172 的「合规」只是许可与限量层的合规。",
+    "notes": "兄弟诱饵①：§172.5(b)(c) 两条否定式元规则 + 跨卡分层"
+  },
+  {
+    "id": "part172-09",
+    "type": "edge_case",
+    "prompt": "我们在麦芽里用溴酸钾，限量是测麦芽还是测成品啤酒？如果成品里测出 30 ppm 溴化物，但其中一部分来自按其他法规使用的来源，这样算超标吗？",
+    "expected_behavior": "路由到 V01 `permission-gate-limitation-forms`（限值作用点判读；本例物质属加工助剂也含 V02 口径）：〔§ 172.730(a)(1)〕溴酸盐 ≤75 ppm（以 Br 计）测**麦芽**（中间品），处理麦芽只能用于发酵麦芽饮料或蒸馏酒；〔§ 172.730(a)(2)〕成品发酵麦芽饮料中无机溴化物**总残留** ≤25 ppm（以 Br 计）测**成品**，且明文要求把「按本章其他法规（408/409 条下）使用所产生的额外同类残留」**一并计入**。因此 30 ppm 若已含他源，仍按合并后的总残留判定是否超 25 ppm——不能只算自家贡献。须提示「有 ppm ≠ 全食品适用」「限值作用点不固定」，并提醒表内数值须回原 PDF 核对。",
+    "notes": "V01 限值作用点三形态 + 他源累计"
+  },
+  {
+    "id": "part172-10",
+    "type": "router_reachable",
+    "prompt": "我们在罐头蟹肉里同时用钙二钠 EDTA 和二钠 EDTA，这套限量该看哪张卡？还有噬菌体那种生物类抗菌剂，用量是看哪张卡？",
+    "expected_behavior": "CAP-31 入口卡应分别指向 V02 `preservatives-antimicrobials`（`references/capabilities/additives/preservatives-antimicrobials.md`）：钙二钠 EDTA 与二钠 EDTA 合用属〔§ 172.120(b)(2)〕`in combination` 合并限值（以无水物计）；李斯特菌噬菌体属〔§ 172.785〕三段式。二者都**不应**路由到 V01（四元组口径虽相关，但不是防腐剂逐条限值本体）、V03（甜味剂）、V04（名录）或 V05（IBR 边界）。V05 只有在追问「噬菌体规格的 IBR 测法数值能不能引用」时才介入（横切口径层，须依附业务卡）。",
+    "notes": "router_reachable①：V02 与 V01/V05 的近邻区分"
+  },
+  {
+    "id": "part172-11",
+    "type": "router_reachable",
+    "prompt": "甜味剂这块：阿斯巴甜的苯丙酮尿症警示语该写在哪、什么字体，Olestra 的维生素补偿标注，还有三氯蔗糖的纯度规格，这几件事该看哪张卡？",
+    "expected_behavior": "CAP-31 入口卡应把前两件指向 V03 `sweeteners-fat-substitutes`（阿斯巴甜〔§ 172.804(d)(2)〕`PHENYLKETONURICS: CONTAINS PHENYLALANINE` 须在主展示面或信息面板、显著粗体对比；Olestra〔§ 172.867(d)(e)〕强制补偿 + `Dietarily insignificant` 标注），把第三件（三氯蔗糖〔§ 172.831(b)〕整体 IBR）指向 V05 `effect-level-ibr-boundary`。**不应**把警示语或营养标签格式问题吸附到 CAP-30 去回答本体（CAP-30 只管〔§ 101〕标签内容与格式，本卡只指出「条款如此规定」）；也不应把三氯蔗糖 IBR 问题留在 V03（V03 只报告「有无可读数值」，引用边界归 V05）。",
+    "notes": "router_reachable②：V03/V05 分工 + CAP-30 不抢添加剂许可层"
+  },
+  {
+    "id": "part172-12",
+    "type": "should_not_trigger",
+    "prompt": "帮我们设计一条坚果共线产线的过敏原换产清洁验证方案，并制定 may contain 咨询声明的传递规则；另外帮我们把某款新食品的 Nutrition Facts 营养标签格式和低脂声称能不能写也一起定了。",
+    "expected_behavior": "**不应**加载 CAP-31 / additives 子卡。过敏原交叉接触控制、换产清洁验证、may contain / advisory 声明三选一属 `allergen-program` CAP-05（Part 117〔§ 117.135(c)(2)〕+ Ed.5 guidance 层）；Nutrition Facts 格式、份量与营养成分计算、低脂等营养声称授权属 `food-labeling-requirements` CAP-30〔§ 101.9/§ 101.12/§ 101.13/§ 101.54〕。CAP-31 只管**某直接添加剂能不能用、用多少、须符合什么纯度规格**（许可与限量层），不设计厂内工艺、不写标签版式、不判营养声称。仅当追问「那这个添加剂本身有没有限量、能不能用在这个食品里」时才转 CAP-31。",
+    "notes": "互斥负例：厂内过敏原控制 + 营养标签/声称不得吸附到 CAP-31"
+  },
+  {
+    "id": "part172-13",
+    "type": "should_not_trigger",
+    "prompt": "我们的包装膜里加了抗氧化剂，想确认这种从包装材料迁移到食品里的物质合规不合规；另外我们想把某物质认定为 GRAS，需要走什么程序？",
+    "expected_behavior": "**不应**加载 CAP-31 / additives 子卡，也不应据 Part 172 反推结论。包装材料迁移物属**间接添加剂**（21 CFR Part 175–178 与 Part 174），GRAS 认定属 FD&C Act §201(s)/§409 豁免体系与 Part 182/184/186，添加剂请愿程序属 Part 170/171——**这些法源本包未收**，一律标「转引未收」，不得据本 part 反推其内容、不得把〔§ 172.xxx〕套到间接添加剂或 GRAS 上。若话题回到「某直接添加剂在成品食品中能不能用、限量多少」，才转 CAP-31。",
+    "notes": "互斥负例：间接添加剂 / GRAS / 请愿程序属未收法源"
+  }
+]

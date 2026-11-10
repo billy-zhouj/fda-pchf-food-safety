@@ -1,0 +1,465 @@
+[p.6]
+
+
+
+
+
+
+
+
+
+6.1 – Imports General
+6.1.1 – Authority
+Section 801 of the Food Drug and Cosmetics Act (FD&C) Act [21 U.S.C. 381] authorizes the FDA to examine foods,
+drugs, cosmetics, devices, and tobacco products offered for entry into the United States. Section 536 of the FD&C Act
+[21 U.S.C. 360mm] authorizes refusal of radiation-emitting products which fail to comply with the requirements of
+Section 534 (h) of the FD&C Act [21 U.S.C. 360kk (h)]. 19 CFR 151.4 of the U.S. Customs and Border Protection (CBP)
+regulations authorizes employees of the FDA to examine or take samples of entry goods released under immediate
+delivery.
+The procedures outlined in this chapter cover imported goods subject to, but not limited to, the following
+acts/regulations:
+•
+Federal Food, Drug, and Cosmetic Act (FD&C)
+•
+Fair Packaging and Labeling Act  (FPLA)
+•
+Nutrition Labeling and Education Act (NLEA)
+•
+Import Milk Act/ Filled Milk Act
+•
+Federal Caustic Poison Act
+•
+Bioterrorism Preparedness Act of 2002
+•
+Public Health Service Act, Part, Part F, Subpart 1, Biologic Products
+•
+Title 21 CFR Subpart E - Imports and Exports (1.83), etc.
+•
+Title 19 CFR Customs Duties (authority to sample delegated by CBP Regulations, etc.)
+•
+Federal Cigarette Labeling and Advertising Act and Comprehensive Smokeless Tobacco Health Education Act
+•
+Family Smoking Prevention and Tobacco Control Act
+6.1.2 – Scope
+The procedures in this section cover imported goods. Your personal safety during any import procedures outlined in
+this subchapter is important. For more information concerning personal safety, see IOM 5.3 and IOM Chapter 10.
+6.1.3 – Division of Authority
+The FDA determines if an article complies with the Acts it enforces. It also determines whether the article can be
+brought into compliance with the appropriate statute and authorizes reconditioning for that purpose.
+Supervision over the reconditioning is exercised by either the FDA, or CBP, as mutually arranged. At ports in reasonable
+proximity to an FDA office, supervision is ordinarily exercised by the FDA. At remote ports, supervision may be
+exercised by CBP.
+In the case of a refusal of admission action is by compliance, exportation and / or destruction of goods is carried out
+under the direction of CBP. However, the actual supervision of the destruction and / or exportation of violative goods
+may be conducted by FDA pursuant to a local FDA/CBP agreement.
+6.1.4 – Entry Types
+6.1.4.1 - Formal Entries
+All articles offered for entry into the United States that are subject to the acts enforced by the FDA and possess a
+value greater than $2,500 are considered formal entries. These entries are subject to bond requirements, which
+include a condition for the redelivery of the goods, or any part of them, upon demand by CBP, at any time, and as
+prescribed for in the CBP regulations in effect on the date of entry. (Section 801(b) of the FD&C Act [21 U.S.C.
+381(b)], 19 CFR Part 113). The bond is filed with CBP which, in case of default, will take appropriate action for the
+collection of liquidated damages provided for in the bond after consultation with the FDA. (19 CFR Section 113.62
+and 21 CFR Section 1.97). Notification of the entry is generally accomplished by electronic submission through the
+CBP Automated Commercial Environment (ACE). Non-electronic entries are submitted directly to the FDA.
+Electronic entries received by the FDA may be subject to manual review to determine if further action is needed,
+[p.7]
+
+
+
+
+
+
+
+
+
+or if additional documentation is required. For entries requiring further review, the FDA will be provided the
+appropriate CBP entry documents (such as the CF 3461 / 3461ALT, commercial invoice, bill of lading and any other
+relevant documents to aid in making an admissibility decision), which will also document the extent of the
+interstate commerce. If an entry is not filed electronically, these documents will be submitted to the FDA at the
+time the CBP entry is made, in accordance with local port of entry operations.
+6.1.4.2 - Informal Entries
+Normally, informal entries with a value of less than $2,500) do not require a redelivery bond. All informal entries of
+articles subject to FDA jurisdiction and entered electronically, are forwarded to the FDA through the CBP/FDA ACE
+interface. In instances when the FDA takes action on an informal entry not filed electronically, agency personnel
+will record the informal entry in the FDA Import Systems as a manual entry (IOM 6.1.4.5). If agency action is
+indicated, the FDA will then request that a formal consumption entry be filed.
+6.1.4.3 – Mail Entries
+Mail entries consist of articles offered for entry by USPS international mail through International Mail Facilities
+(IMFs). They are often valued at less than $2,500 and are considered informal entries that do not require a bond or
+formal entry to be filed with CBP. When USPS receives international mail, CBP will screen the parcels and refer any
+FDA-regulated products of interest to the FDA. FDA divisions should arrange for coverage at their local IMF to
+receive these referrals. FDA personnel will review the referrals based on priority and determine whether the parcel
+should be sampled, released, or referred to compliance, or a Partner Government Agency / Other Government
+Agency (PGA/OGA), or if the Office of Criminal Investigations (OCI) should be notified. Note that drugs or devices
+encountered through international mail may be subject to destruction. For further details, refer to the Procedures
+for FDA-Regulated Articles Shipped Through International Mail Facilities.
+6.1.4.4 – Personal Baggage
+CBP is responsible for examination of personal baggage at border-crossing offices, airports, and seaports. If CBP
+encounters an article subject to FDA regulations, they may refer it to the local FDA office for review.
+During this review, if FDA personnel determine that the products referred are in violation of FDA regulations, they
+should refer the entry to compliance for applicable charges. FDA personnel may also need to determine if the
+products qualify as an exemption under personal importation. If it’s found that a personal importation meets the
+criteria of a formal entry, FDA personnel should request thru CBP that a formal entry be filed. If no formal entry is
+filed, the referral should be processed in accordance with manual entry procedures (IOM 6.1.4.5). Since most
+personal importations are small in size and value, guidance has been developed for evaluating these importations.
+(See RPM Chapter 9-2"Coverage of Personal Importations".)
+Entries with a value of $800 or less may fall under "Section 321.”Generally, this form of entry applies to articles
+which pass free of duty and tax, and are imported by one person on a single business day (19 C.F.R. 101.1 . CBP
+and the FDA may conduct periodic "blitzes" on such entries to determine the volume and type of FDA-regulated
+goods being admitted under "Section 321.”  Note, however, that the use of the “Section 321” entry process should
+not apply to multiple shipments covered by a single order or contract that have been sent separately for the
+express purpose of securing free entry and avoiding compliance with pertinent laws or regulations.
+6.1.4.5 – Manual Entries
+Manual Entry is a term often used interchangeably with non-ABI entry and/or paper entry in the context of entries
+submitted to CBP and the FDA in a non-electronic manner outside of ACE.
+Detailed instructions for creating a manual entry can be found in the Job Aid for the Entry Review Application.
+When a manual entry is received, it may be necessary to enter the entry information into an FDA Import System.
+You should do this when the agency plans to conduct additional work on an entry (for instance, examination,
+sampling, detention, etc.). Note that information entered by the FDA is not transmitted to CBP as the FDA does not
+collect all the information CBP requires for a given entry. Once you have input relevant information into an FDA
+[p.8]
+
+
+
+
+
+
+
+
+
+Imports Systems, (ER, SERIO, OASIS), the entry will be processed following usual procedures. Remember that for
+entries manually entered by FDA, there is no bond or monetary value attached.
+In instances of manual entries not requiring further action, you should not need to create an electronic record. This
+includes entries directly released by the FDA after review of entry documentation.
+Note: If the product being offered for manual entry is a human food or animal food/feed, prior notice filing is still
+required in advance of its arrival in the United States (IOM 6.1.5). For non-electronic entry filings, prior notice can
+be submitted through FDA’s Prior Notice System Interface (PNSI).
+As indicated in RPM 9-1, the FDA  historically has and will continue to accept and process paper entries to
+determine admissibility for imported FDA-regulated products (regardless of value), if the paper entry submission
+process continues to be an acceptable entry submission process for CBP. And though the FDA accepts entry data
+submitted via non-ABI (paper/manual) means, electronically filed entries do take priority. CBP regulation, found at
+19 CFR 141.61, cover the completion of entry and entry summary documentation.
+*Note: For detailed instructions on how to create a manual entry, please see the Job Aid for the Entry Review
+Application.
+6.1.4.6 – Import for Export (IFE) Entries
+These are products imported under the provisions of FD&C Act Section 801(d)(3) [21 U.S.C. 381(d)(3)].
+REFERENCES: Regulatory Procedures Manual Chapter 9-17, FD&C Act Section 801(d)(3) [21 U.S.C. 381(d)(3)] allows
+the importation of certain violative FDA-regulated articles into the U.S. on a conditional basis ensuring that they
+are not for domestic distribution. Those articles include human and veterinary drugs (or their components); device
+components or accessories, or other devices requiring further processing for health-related purposes; and food
+additives, color additives, and dietary supplements including in bulk form. They must be explicitly intended for
+further processing or incorporation into other products and subsequent export. This section outlines procedures to
+help you facilitate the uniform review and admissibility process for IFE entries, and those that enable sufficient
+notification for domestic follow-up of IFE shipments.
+The following documentation is required at the time of importation according to section 801(d)(3) of the Act [21
+U.S.C. 381 (d)(3)] includes:
+1. A statement that the article is intended to be further processed or incorporated into a drug, biologics
+product, device, food, food additive, color additive, or dietary supplement and will be exported under
+sections 801(e)or 802 of the FD&C Act [21 U.S.C. 381 (e) or 382] or Section 351(h) of the Public Health
+Service Act (PHSA) [42 U.S.C . 262(h)].
+2. Information/documentation that identifies the manufacturer of the article, as well as each processor,
+packer, distributor, and/or other entity in the chain of possession from manufacturer to importer.
+(Attempt to gather the name and address of each entity in the chain of possession if such details not
+evident.)
+3. Such certificates of analysis as necessary to identify the article, unless it is a device or falls under section
+801 (d)(4) of the FD&C Act [21 U.S.C. 381 (d)(4)] - to include blood and blood components.
+In addition, a good and sufficient bond must be executed providing for payment of liquidated damages in
+accordance with CBP requirements. Refer to RPM 9-17. However, note that some entry types may not be
+accompanied by a bond.
+6.1.4.6.1 – IFE Entry Review
+Import for Export entry procedures are as follows:
+1. Divisions should ensure that all information required under section 801(d)(3) FD&C Act [21 U.S.C. 381
+(d)(3)] is provided and that supporting documents are uploaded (if not already received from the
+broker or importer).
+[p.9]
+
+
+
+
+
+
+
+
+
+a. Confirm that IFE or suspected IFE entry/lines are submitted with an intended use code (IUC) of
+“Import for Export” and with the IFE in the Affirmation of Compliance (A of C). If the entry/line lacks
+the IUC IFE and/or the IFE A of C, update the entry/line, record the reason for the update, save, and
+rescreen the entry/line.   For entry/lines lacking complete supporting documents, request
+documents per IOM 6.2.3.1.
+b. If the required documents are not provided after they are requested, entry reviewers should request
+detention, indicating the products do not meet the regulatory requirements, are being offered for
+import using the IFE provisions, and are missing the required IFE documentation at the time of initial
+importation. Refer to RPM 9-17-3 for additional information.
+c. If all required documents are provided, including the IUC, and per conditions required by section
+801(d)(3) FD&C Act 21 U.S.C. 381 (d)(3), a “May Proceed” may be issued. NOTE: Ensure that all entry
+documentation has been uploaded to the entry/line prior to making an admissibility decision.
+2. If the entry/line was transmitted as an IFE, but review of the entry/line information or supporting
+documentation indicates that the articles are not intended to be further processed and exported per
+section 801(d)(3) of the Act 21 U.S.C. 381 (d)(3):
+a. Update the entry/line with appropriate IUC and A of Cs, as appropriate.
+b. Record the reason for update, save, and rescreen the entry/line.
+c. Review the entry/line according to applicable requirements.
+NOTE: If receiving a non-ABI entry declared as IFE, refer to the Entry Review Job Aid for specific instructions on
+creating a manual entry in ER.
+6.1.5 - Prior Notice of Importation of Food and Animal Feed
+The Public Health Security and Bioterrorism Preparedness and Response Act of 2002 (also known as the Bioterrorism
+Act) requires that FDA receive prior notice of food, including animal feed, that is imported into the United States. Most
+of the information required by the final rule is provided to CBP by importers and brokers when foods arrive in the
+United States. The Bioterrorism Act requires that this information also be provided to FDA, prior to the arrival of an
+imported article of food into the country. Advance notice of import shipments allows the FDA, with the support of CBP,
+to target import inspections more effectively and better protect the nation's food supply against potential
+contamination from acts of bioterrorism and other public health emergencies. Prior notice can be submitted either
+through the Automated Broker Interface (ABI)/Automated Commercial Environment (ACE) or FDA's Prior Notice
+System Interface (PNSI).
+6.1.5.1 – Prior Notice Inspection
+Prior notice for food articles subject to the rule must be received and confirmed electronically by the FDA no more
+than 15 calendar days before the anticipated date of arrival for submission made through the PNSI, and no more
+than 30 calendar days before the anticipated date of arrival for submission made through ABI/ACE, and,
+dependent on the mode of transportation below, no fewer than:
+•
+Two hours before arrival by land by road
+•
+Four hours before arrival by air or by land by rail
+•
+Eight hours before arrival by water
+In addition, prior notice must be received and confirmed electronically by FDA before food is mailed by
+international mail. (The parcel must be accompanied by confirmation of FDA receipt of prior notice.)
+6.1.5.2 – Products Requiring Prior Notice
+Prior notice applies to food for humans and other animals that is imported or offered for import into the United
+States. For purposes of prior notice requirements, "food" is defined by Section 201(f) of the FD&C Act [21 U.S.C
+321(f)] as articles used for food or drink for man or other animals (including chewing gum) and articles used for
+components of any such articles.
+[p.10]
+
+
+
+
+
+
+
+
+
+Examples of "food" include:
+• Dietary supplements and dietary ingredients.
+• Infant formula
+• Beverages (including alcoholic beverages and bottled water)
+• Fruits and vegetables
+• Seafood
+• Dairy products and eggs
+• Raw agricultural commodities for use as food or components of food
+• Canned and frozen foods
+• Bakery goods, snack foods, and candy (including chewing gum)
+• Live food animals
+• Animal feeds and pet food
+6.1.5.3 – Products Excluded from Prior Notice
+Foods that are excluded from the prior notice requirement include:
+•
+Food carried by, or otherwise accompanying, an individual arriving in the United States for that individual's
+personal use (that is, for consumption by themselves, family, or friends, and not for sale or other
+distribution).
+•
+Food that is exported without leaving the port of arrival until export.
+•
+Meat products, poultry products, and egg products that are subject to the exclusive jurisdiction of the U.S.
+Department of Agriculture (USDA) under the Federal Meat Inspection Act (21 USC 601), (21 USC 601), the
+Poultry Products Inspection Act, or the Egg Products Inspection Act.;
+•
+Food made by an individual in their personal residence and sent by that individual as a personal gift (that
+is., for non-business reasons) to an individual in the United States.
+•
+Articles of food subject to Article 27.3 of the Vienna Convention on Diplomatic Relations (1961). For
+example, shipped as baggage or cargo constituting the diplomatic bag.
+6.1.5.4 – Prior Notice Submission
+The prior notice must be submitted electronically and contain the following information, in accordance with 21
+CFR 1.281:
+1. Identification of the submitter, including name, telephone number, email address, and firm name and
+address.
+2. Identification of the transmitter (if different from the submitter), including name, telephone number,
+email address, and firm name and address. If the business address of the individual transmitting the prior
+notice is a registered facility, then the facility’s registration number, city, and country may be provided
+instead of the facility’s full address.
+3. Entry type and CBP entry identifier, if available.
+4. The identification of the article of food, including complete FDA product code, the common or usual name
+or market name, the estimated quantity described from the largest container size to the smallest package,
+and the lot or code numbers or other identifier (if applicable).
+5. If the food is no longer in its natural state (21 CFR 1.276(b)(10)), the name of the manufacturer and either
+(1) the registration number, city and country of the manufacturer or (2) both the full address of the
+manufacturer and the reason the registration number is not provided.
+6. If the food is in its natural state, the name and growing location address of the grower, if known.  If the
+identity of the grower is unknown, or the article has been consolidated from multiple unknown growers,
+the name and address of the firm that consolidated the articles of food from different growers or different
+growing locations can be provided.
+7. The FDA country of production.
+[p.11]
+
+
+
+
+
+
+
+
+
+8. The identification of the shipper, express consignment operators, carriers, other private delivery service or
+senders if the food is mailed. This should include the name and full address of the shipper if the shipper is
+different from the manufacturer. If the address of the shipper is a registered facility, the submitter may
+submit the registration number of the shipper’s registered facility city and country instead of the facility’s
+full address.
+9. The country from which the article of food was shipped.  If the food was imported by international mail,
+the country from which the food was mailed.
+10. The anticipated arrival information (port of arrival, date, and time). If the food is imported by international
+mail, the anticipated date of mailing.  If the article of food is arriving by express consignment operator or
+carrier, and neither the submitter nor transmitter is the express consignment operator or carrier, and the
+prior notice is submitted via PNSI, the express consignment operator or carrier tracking number may be
+submitted in lieu of the anticipated arrival information. For post-refusal submissions, the actual date the
+article arrived is required.
+11. The name and full address of the importer, owner, and ultimate consignee, except for food imported by
+international mail or transshipped through the United States. The name and address of the U.S. recipient
+should be provided for food arriving by international mail.  If the business address of the importer, owner,
+or ultimate consignee is a registered facility, then the facility’s registration number also may be provided in
+addition to the facility’s full address.
+12. The identification of the carrier and mode of transportation, except for food imported by international
+mail.
+13. Planned shipment information as applicable by mode of transportation and when it exists. For food
+arriving by express consignment operator or carrier, when neither the submitter nor transmitter is the
+express consignment operator or carrier, the tracking number can be submitted in lieu of the Bill of Lading
+or Airway Bill number for prior notices submitted via PNSI.
+14. The name of any country to which the article of food has been refused entry.
+15. The anticipated date of mailing, and beginning October 1, 2026, the name of the mail service and the mail
+tracking number 21 CFR 1.281 (b) (10).
+6.1.5.5 – Inadequate Prior Notice Submission
+Food that is imported or offered for import with inadequate prior notice is subject to refusal and holding at the
+port or in a secure storage facility. The FDA provided guidance to its stakeholders and CBP staff on enforcing such
+prior notice requirements in its Compliance Policy Guide, Prior Notice of Imported Food Under the Public Health
+Security and Bioterrorism Preparedness and Response Act of 2002. This guidance, however, does not limit the
+FDA's ability to take actions that may be necessary, including conducting inspections for food safety and security
+concerns, or taking any other action under the FD&C Act. This policy will also not affect the ability of CBP to assess
+penalties under 19 U.S.C. 1595a(b) or to take enforcement action under any other authority.
+6.1.5.6 – Prior Notice Process
+The prior notice review process begins with automated electronic screening. If additional evaluation of the prior
+notice information is necessary, a manual review is performed by FDA headquarters staff at the Division of
+Targeting and Analysis (DTA), which operates 24 hours a day, 7 days a week. The review process is designed to
+identify food products that may pose serious risks to public health so that appropriate action can be taken upon
+their arrival in the United States. Note that the review process is not impacted by the method of electronic
+submission and that results of the process are transmitted to CBP.
+The DTA  may initiate an examination or other action by the FDA or CBP at the port of arrival or elsewhere, or in
+the case of rail shipments, at the closest appropriate examination site. The DTA  will advise the FDA field offices
+and/or CBP of the inspection requirements. The DTA  is also responsible for communication with submitters
+regarding the following: prior notice compliance, the initiation of a refusal or hold due to inadequate prior notice
+[p.12]
+
+
+
+
+
+
+
+
+
+information or unregistered foreign manufacturers, responses to requests for review of refusals or holds, and
+completion of the prior notice process.
+Food that meets prior notice requirements will be subject to further review by FDA staff for admissibility
+determination under section 801(a) of the FD&C Act. The FDA Import Systems screening will determine if further
+evaluation of the article of food is necessary (for instance, subject to the guidance in an import alert). If the FDA
+determines that refusal under section 801(a) of the FD&C Act is applicable, the appropriate procedures will be
+followed.
+6.1.6 - Entry Processing
+FDA division offices generally receive notification of all formal and informal entries subject to FDA's jurisdiction.
+Management for each port of entry determines coverage, hours of operation, and resource allocation for any office
+closures impacting normal working hours. In addition, FDA Import Systems allow for entries to be reviewed remotely
+by off-site personnel.
+Entries submitted electronically to the FDA are screened against criteria established by FDA laws and regulations. Filers
+who submit entries via the ABI to Customs for cargo release are required to provide FDA-pertinent information on
+entries subject to its jurisdiction submitted through ACE. The means of receiving notification for non-ABI entries can be
+arranged through local Customs/FDA division agreements.
+6.1.6.1 - U.S. Customs and Border Protection (CBP)
+CBP's ACE uses guides established by each federal agency to identify which commodities are subject to their
+jurisdiction. These guides are known as Partner Government Agencies (PGA) flags. FDA flags include FD1, FD2, FD3,
+and FD4, which are defined accordingly:
+•
+FD1: Entries covered by an FD1 flag may or may not be subject to FDA regulations. Electronic entries made
+by the filer may, based on information received from the importer regarding the intended use of the
+commodity, specify that the entry is not subject to FDA regulations, hence the resulting decision to
+"Disclaim" the entry. Otherwise, FDA required information must be submitted. The agency periodically
+performs reviews of "Disclaimed" entries is to help ensure the accuracy of declarations.
+•
+FD2: Entries covered by an FD2 flag must include or reflect FDA-required information.
+•
+FD3: Entries covered by an FD3 flag may be subject to prior notice under section 801 (m) of the FD&C Act
+and 21 CFR Part 1, subpart I (for instance, when the article has both food and non-food uses).  The filer
+may, based on information received from the importer regarding the intended use of the commodity,
+specify the entry is not subject to prior notice and “Disclaim” the entry. If the product is an FDA-regulated
+product, but not a food, the entry can be disclaimed from prior notice by using the affirmation of
+compliance code “PND” in the entry.
+•
+FD4: Entries covered by an FD4 flag may be “food” for which prior notice is required under section 801(m)
+of the FD&C Act and 21 CFR Part 1, subpart I.  Entries covered by FD4 flag must include prior notice
+required information.
+Electronic entries for CBP review include all mandatory CBP entry-required information, (that is, entry number,
+entry date, importer identification, port of entry, vessel/voyage information, filer identification, Harmonized Tariff
+System (HTS) code for product description, information on foreign shipper, country of origin, etc.) Through the
+screening process in ACE, CBP determines if the article is subject to FDA examination (see OGA flag identifications
+above). Note that CBP, the FDA, and 46 other PGAs have been working to modernize business processes through
+the implementation of the Automated Commercial Environment/International Trade Data System (ACE/ITDS).
+ACE/ITDS is a single-access point whereby industry can electronically submit all data required by various
+government agencies involved in international trade. (ACE replaced the Automated Commercial System (ACS) in
+2016.)
+[p.13]
+
+
+
+
+
+
+
+
+
+6.1.6.2 – FDA
+FDA’s system enhancements include establishing Intended Use Codes (IUC) to assist  entry reviewers in
+determining the end-use of the imported product. Commodities will fall in one of the three categories:
+•
+IUC is required.
+•
+IUC is optional.
+•
+IUC is not applicable.
+Affirmation of Compliance (or A of C) codes provide FDA reviewers with information concerning the imported
+article. They are also used by filers to affirm that the firm and/or product identified in an FDA line meet the
+requirements specific to the product being imported. A of C code requirements are dependent on the commodity
+being imported and can be impacted by the IUC. If you need to review the specifications and requirements for
+filing in ACE as per the final rule, refer to 81 FR 85854 Submission of Food and Drug Administration Import Data in
+the Automated Commercial Environment, and the FDA’s Supplemental Guide for the Automated Commercial
+Environment/International Trade Data System (ACE/ITDS). (Direct link to the Supplemental Guide.)
+FDA Import Systems will generate a "Notice of FDA Action," which will provide more specific information on the
+actions taken, broken down by each entry line (for example, "Samples Collected", "Detention," "Lines Released," or
+"Refusal of Admission"). As the status changes for a particular line, a new "Notice of FDA Action" will be issued to
+advise appropriate parties of the changes. For parcels not received through a USPS IMF, the use of one of the
+following designations: "Product Collected by FDA," "Detained," "Released," "Refused," or similar language on the
+"Notice of FDA Action," should be considered as satisfying the requirements of the law for "giving notice thereof to
+the owner or consignee." (See 21 USC 381(a).) See Exhibit 6-1 for an example of the “Notice of FDA Action”.
+Notices are designed to be electronically or physically distributed to the addressees. Those who hold an approved
+Import Trade Auxiliary Communication System (ITACS) account may opt to receive notices via email or as a
+download within ITACS. A copy of each notice is generated for the filer, importer of record, and consignee, and
+delivered to the party on the addressee line. (If the same firm acts in one or more of those functions, only one
+copy is produced for the firm.) Notices are official documents that provide notification of a change in the status of
+an FDA-regulated entry/line. The distribution of the notices is made by the FDA, not the filer, to ensure proper
+notification to the parties involved. The intention is for the FDA to distribute notices to the responsible parties
+without an intermediary.
+6.1.7 – Voluntary Qualified Importer Program (VQIP) Entry Processing
+The Voluntary Qualified Importer Program (VQIP) is a voluntary, fee-based program that provides expedited review
+and import entry of human and animal foods into the United States for participating importers who must meet
+eligibility criteria and pay a user fee that covers costs associated with the FDA’s administration of the program.
+The FDA works with CBP to expedite entry of VQIP foods into the United States. The agency sets screening in its
+Predictive Risk-based Evaluation for Dynamic Import Compliance Targeting (PREDICT) import screening system to
+recognize shipments of food that are the subject of an approved VQIP application. The system is designed to recognize
+the information and release the shipment immediately after the receipt of entry information, unless examination
+and/or sampling are necessary for public health reasons. The FDA limits its examination and/or sampling of VQIP food
+entries to “for cause” situations for instance, when a food is or may be associated with a risk to the public health), to
+obtain statistically necessary risk-based microbiological samples, and to audit the effectiveness of VQIP.
+6.1.8 – Photographs: Identification and Storage
+Photographs are evidence documented during import field work and are a crucial element in case development. They
+should be clear (not fuzzy or pixelated, with labels legible) and capture evidence needed to support the appearance of
+a violation and the associated proposed charges. The photographs should capture, at a minimum, all sides of the
+product packaging (top, bottom, and sides); labeling (particularly any package inserts with labeling that provides or
+reveals the intended use of the product, product value, directions for use, daily intake, and firm information); any

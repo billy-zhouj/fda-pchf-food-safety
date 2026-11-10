@@ -1,0 +1,30 @@
+[
+  {
+    "chunk": 1,
+    "path": ".cangjie\\chunks\\chunk-01.md",
+    "sections": "172.5..172.385",
+    "lines": 1698,
+    "bytes": 106720
+  },
+  {
+    "chunk": 2,
+    "path": ".cangjie\\chunks\\chunk-02.md",
+    "sections": "172.395..172.660",
+    "lines": 1663,
+    "bytes": 67010
+  },
+  {
+    "chunk": 3,
+    "path": ".cangjie\\chunks\\chunk-03.md",
+    "sections": "172.665..172.844",
+    "lines": 1668,
+    "bytes": 114094
+  },
+  {
+    "chunk": 4,
+    "path": ".cangjie\\chunks\\chunk-04.md",
+    "sections": "172.846..172.898",
+    "lines": 1517,
+    "bytes": 107948
+  }
+]

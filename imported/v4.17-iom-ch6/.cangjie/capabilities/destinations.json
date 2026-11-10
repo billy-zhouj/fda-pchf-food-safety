@@ -1,0 +1,80 @@
+{
+  "bundle_version": "1.0.0",
+  "source_id": "src-iom-2026-ch6",
+  "source_book": "IOM 2026 Chapter 6 - Imports",
+  "output_strategy": "single",
+  "router_entry": {
+    "name": "CAP-29",
+    "entry_card": "references/capabilities/iom-imports-procedure.md",
+    "title": "FDA 进口准入判定与处置链（IOM 2026 Chapter 6）"
+  },
+  "budget": {
+    "discoverable_entrypoints": 1,
+    "note": "本轮增量升级只新增 1 个可发现入口 CAP-29；10 个能力全部判 router，不单独晋级为独立 Skill。可发现入口数 = 1（1 个来源路由入口 + 0 个 promoted Skill）。",
+    "promotion_budget": 8,
+    "promoted_count": 0,
+    "router_count": 10
+  },
+  "destinations": [
+    {
+      "capability_id": "cap.iom2026ch6.entry-review-admissibility-decision-gate",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/entry-review-admissibility-decision-gate.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.der-dtr-detention-routing",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/der-dtr-detention-routing.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.prior-notice-eligibility-gate",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/prior-notice-eligibility-gate.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.conditional-release-rescission-windows",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/conditional-release-rescission-windows.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.violation-disposition-chain",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/violation-disposition-chain.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.fda-766-reconditioning-authorization",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/fda-766-reconditioning-authorization.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.failure-to-hold-investigation",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/failure-to-hold-investigation.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.fsvp-inspection-483a-gate",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/fsvp-inspection-483a-gate.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.admission-status-concept-tree",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/admission-status-concept-tree.md"
+    },
+    {
+      "capability_id": "cap.iom2026ch6.iom-effect-level-modality",
+      "served_by": "CAP-29",
+      "entry_card": "references/capabilities/iom-imports-procedure.md",
+      "card": "references/capabilities/imports/iom-effect-level-modality.md"
+    }
+  ]
+}

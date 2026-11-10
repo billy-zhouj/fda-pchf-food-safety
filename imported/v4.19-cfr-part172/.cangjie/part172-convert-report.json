@@ -1,0 +1,41 @@
+{
+  "source": "G:\\下载\\21 CFR Part 172 (up to date as of 11-05-2026).pdf",
+  "output": "E:\\WeChatData\\2026-11-09-15-05-22\\books\\cfr-part172-2026\\source-cfr-part172-2026.md",
+  "pdf_pages": 178,
+  "pages_kept": 174,
+  "bookmarks_total": 198,
+  "bookmark_sections": 154,
+  "sections_found": 154,
+  "sections_missing": [],
+  "subparts_found": [
+    "Subpart A — General Provisions",
+    "Subpart B — Food Preservatives",
+    "Subpart C — Coatings, Films and Related Substances",
+    "Subpart D — Special Dietary and Nutritional Additives",
+    "Subpart E — Anticaking Agents",
+    "Subpart F — Flavoring Agents and Related Substances",
+    "Subpart G — Gums, Chewing Gum Bases and Related Substances",
+    "Subpart H — Other Specific Usage Additives",
+    "Subpart I — Multipurpose Additives"
+  ],
+  "tables_reconstructed": 16,
+  "noise_lines_removed": 0,
+  "noise_residual": 0,
+  "blank_pages_text_layer": [],
+  "output_bytes": 399609,
+  "output_lines": 6575,
+  "first_section_pages": {
+    "172.5": 5,
+    "172.105": 6,
+    "172.110": 7,
+    "172.115": 7,
+    "172.120": 8
+  },
+  "last_section_pages": {
+    "172.890": 172,
+    "172.892": 173,
+    "172.894": 176,
+    "172.896": 177,
+    "172.898": 177
+  }
+}

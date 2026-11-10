@@ -1,0 +1,233 @@
+# Capability Bundle — 21 CFR Part 172 (eCFR, up to date as of 11/05/2026)
+# 增量升级目标：fda-pchf-food-safety 技能包 v4.18 → v4.19（新增第八套编号 CAP-31）
+# 本 Bundle 为「单入口 + 5 张子卡」产物，全部 5 个能力判 router，由 CAP-31 来源路由入口统一分流。
+# also_read 关系按阶段 3 Zettelkasten 建立：真实依赖/对比/组合关系。
+# relation 取值：depends-on（依赖）/ contrasts-with（对比）/ composes-with（组合）。
+
+bundle_version: "1.0.0"
+source_book: "21 CFR Part 172 - Food Additives Permitted for Direct Addition to Food for Human Consumption (eCFR 2026-11-05)"
+source_id: "src-21-cfr-part172-2026"
+output_strategy: "single"
+served_by: "CAP-31"
+
+capabilities:
+
+  - capability_id: "cap.cfr172.permission-gate-limitation-forms"
+    revision: 1
+    status: active
+    slug: "permission-gate-limitation-forms"
+    title: "许可判定链与限制五形态"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 骨架第 1 层，全 Part 的读表底座。154 条里只有 80 条（52%）给 ppm/百分比
+      数值上限，其余 74 条靠 GMP、食品范围、功能或总则兜底。「有条款 ≠ 有剂量上限」
+      是全件最高频误读；§172.5(a) 的 GMP 双重限制与 (b)(c) 两条否定式元规则叠加在每条之上。
+    one_liner: "先定位条款、再判限制属五形态中哪一种、再过用途范围与用量、最后过纯度规格；许可的客体是物质×用途×用量×规格四元组，不是物质名称。"
+    intents:
+      - "判断某直接添加剂能否用在这款食品、什么功能、上限多少"
+      - "判断某条款的限制属五形态中哪一种（数值上限/GMP/食品范围/功能限定/无限制语）"
+      - "判断无 ppm 数字的条款按什么标准判用量合规"
+      - "判断限值的作用点（中间品/成品/特定取样部位）"
+      - "判断同物质多来源残留是否需要合并计算"
+      - "判断包装/载体前提是否构成独立许可要件"
+      - "判断条款是否带标签义务段（To assure safe use）及该写什么"
+      - "判断用途锁定声明是否须逐字法定措辞"
+    keywords: ["direct food additive", "§ 172.5", "good manufacturing practice", "amount reasonably required", "food grade", "specified foods", "limitation", "to assure safe use", "as measured in", "calculated as", "in combination", "用途锁定", "许可四元组", "限制五形态", "有条款不等于有剂量上限", "第八套编号", "§ 172.110", "§ 172.180", "§ 172.730", "§ 172.867", "§ 172.785"]
+    also_read:
+      - slug: "preservatives-antimicrobials"
+        relation: "composes-with 组合"
+        note: "本卡给出四元组与五形态判读规则后，V02 在防腐剂/抗菌剂这一最安全相关子集上执行；V01 不逐条列防腐剂限值（V01 differentiator）"
+      - slug: "effect-level-ibr-boundary"
+        relation: "depends-on 依赖"
+        note: "本卡判出的纯度规格要件，其 IBR 外转与可引用边界由 V05 定义；V01 不判 IBR 数值能否引用（V01 differentiator）"
+    card: "cards/permission-gate-limitation-forms.md"
+    frontmatter:
+      description: |
+        何时用：判某添加剂能否用/用多少、限制属五形态哪一种、GMP 兜底怎么算、限值测在哪、要不要合并他源、包装前提是否要件、标签义务段是否存在、用途锁定声明措辞。何时不用：不逐条列防腐剂/抗菌剂限值（→V02）、不判甜味剂/脂肪替代物（→V03）、不导航长尾名录（→V04）、不判 IBR 边界（→V05）、不判标签内容本体（→CAP-30）。Trigger「这个防腐剂能不能用在焙烤食品」「没有 ppm 是不是不限量」「配料表怎么写」；EN: "direct food additive", "GMP", "limitation", "specified foods", "to assure safe use".
+    promotion:
+      destination: router
+      reason: |
+        包内已有 30 张 CAP 卡，本单元与 CAP-06（化学危害识别）、CAP-14（CGMP）、CAP-30（Part 101 标签内容）抢路由；且它与 V02–V05 共享同一张限量表与同一套效力栈，单独晋级会与兄弟卡重复覆盖意图。按「一个来源 = 一张 CAP 入口卡」惯例，由 CAP-31 单入口统一分流。
+    source_evidence:
+      - "〔§ 172.5(a)〕[p.5]：GMP 双限制——用量不超合理需要量、物质须为食品级"
+      - "〔§ 172.5(b)(c)〕[p.5]：许可不免除本法其他义务；营养物质许可 ≠ 有用性认定"
+      - "〔§ 172.110〕[p.6]：共用限量表 total BHA and BHT、载体浓度披露、干混料使用说明"
+      - "〔§ 172.180〕[p.19]：一句话四元组（物质×护色×玻璃罐惰性衬里×≤20 ppm 以 Sn 计），无标签义务段"
+      - "〔§ 172.730(a)(1)(2)〕[p.104]：限值在麦芽（75 ppm 溴酸盐）、残留算成品（25 ppm 溴化物）、他源累计"
+      - "〔§ 172.177(b)〕[p.18]：法定取样部位 as measured in the loin muscle"
+      - "五形态实测分布：数值上限 80 / 仅 GMP 34 / 仅限食品 8 / 功能限定 11 / 无限制语 21，覆盖 154/154"
+
+  - capability_id: "cap.cfr172.preservatives-antimicrobials"
+    revision: 1
+    status: active
+    slug: "preservatives-antimicrobials"
+    title: "防腐剂与抗菌剂"
+    importance: critical
+    importance_rationale: |
+      与食品安全最直接相关的子集：Subpart B 21 条 + Subpart H 生物类抗菌剂。抗氧化剂
+      BHA/BHT 共用限量表、EDTA 双物质合用合并计数、烟熏鲢多栅栏工艺参数、
+      李斯特菌噬菌体三段式——都是「同一物质不同载体/不同组合」的高风险判读点。
+    one_liner: "先判是单用还是合用/与他源累计，再判限值测在哪个载体与部位，再取功能限制，最后看是否多栅栏工艺参数须同时达标。"
+    intents:
+      - "判断 BHA 与 BHT 合用要不要合并算限量"
+      - "判断钙二钠 EDTA 与二钠 EDTA 合用怎么算"
+      - "判断抗氧化剂能否超出表列 Use 栏功能使用"
+      - "判断烟熏鲢亚硝酸盐条款的盐/亚硝酸盐/加热/冷却四重控制"
+      - "判断亚硝酸盐限值的法定取样部位"
+      - "判断生物类抗菌剂按 cGMP 近似施用率还是按 ppm 判定"
+      - "判断抗菌剂适用的即食（RTE）范围如何界定"
+      - "判断抗菌剂是否须对指定 ATCC 菌株达到效价阈值"
+    keywords: ["antioxidant", "BHA", "BHT", "TBHQ", "EDTA", "calcium disodium EDTA", "sodium nitrite", "smoked chub", "loin muscle", "water phase", "antimicrobial", "bacteriophage", "Listeria monocytogenes", "L. monocytogenes", "ready-to-eat", "9 CFR 430.1", "lytic", "in combination", "多栅栏", "SubpartB", "SubpartH", "§ 172.110", "§ 172.115", "§ 172.120", "§ 172.175", "§ 172.177", "§ 172.185", "§ 172.785"]
+    also_read:
+      - slug: "permission-gate-limitation-forms"
+        relation: "depends-on 依赖"
+        note: "本卡执行 V01 定的四元组与五形态规则；V01 不给防腐剂逐条限值（V02 differentiator）"
+      - slug: "effect-level-ibr-boundary"
+        relation: "depends-on 依赖"
+        note: "本卡涉及的纯度规格与效价测法多 IBR 外转，引用边界由 V05 定义（V02 differentiator）"
+    card: "cards/preservatives-antimicrobials.md"
+    frontmatter:
+      description: |
+        何时用：判 BHA/BHT 合并限量、EDTA 双物质合用、抗氧化剂功能限制、烟熏鲢四重控制与取样部位、生物类抗菌剂 cGMP/施用率、RTE 范围、ATCC 效价。何时不用：不判一般许可链与四元组（→V01）、不判甜味剂（→V03）、不导航名录（→V04）、不判 IBR 数值引用（→V05）、不设计 HACCP/工艺验证（既有 CAP-03/26）。Trigger「BHA 和 BHT 要不要合并算」「噬菌体喷淋量有没有上限」「烟熏鱼限值测哪块肉」；EN: "BHA BHT total", "EDTA in combination", "sodium nitrite smoked chub", "bacteriophage".
+    promotion:
+      destination: router
+      reason: |
+        与 V01 共享许可链、与既有 CAP-03（工艺控制）/CAP-06（化学危害）邻近；单独晋级会让「许可限量」与「过程控制」两张卡边界模糊。由 CAP-31 统一分流。
+    source_evidence:
+      - "〔§ 172.110(b)(c)〕[p.6]：表列头 total BHA and BHT；脚注 1 BHA only；载体浓度与干混料方向"
+      - "〔§ 172.120(b)(2)〕[p.9]：与二钠 EDTA in combination 合并限值、以无水物计"
+      - "〔§ 172.177(b)(c)(d)〕[p.18]：盐 ≥3.5%、亚硝酸盐 100–200 ppm（loin muscle）、160 °F/30 min、50 °F/3h + 38 °F/12h"
+      - "〔§ 172.785(a)(b)(c)〕[p.108-109]：Identity/Specifications/Conditions of use 三段式；≈1 mL/500 cm²；RTE 定义外转 9 CFR 430.1"
+      - "〔§ 172.185(b)〕[p.19]：TBHQ ≥99.0% 半开放 IBR（或等效方法）"
+
+  - capability_id: "cap.cfr172.sweeteners-fat-substitutes"
+    revision: 1
+    status: active
+    slug: "sweeteners-fat-substitutes"
+    title: "甜味剂与脂肪替代物"
+    importance: critical
+    importance_rationale: |
+      限制形态分化最剧烈的一类：阿斯巴甜（用途+限量+强制警示）、纽甜/安赛蜜（foods
+      generally + cGMP + 标准身份不排除）、三氯蔗糖（整体 IBR）、Olestra（强制营养补偿
+      + 不计入脂肪/热量）。误判会同时触发标签与营养标签错误。
+    one_liner: "先判三重限制形态（用途范围 + 用量形态 + 标准身份不排除），再判是否带强制警示/浓度披露，最后判脂肪替代物的强制营养补偿与标注方式。"
+    intents:
+      - "判断无 ppm 的甜味剂按什么标准判用量合规"
+      - "判断肉禽能否使用通用甜味剂"
+      - "判断标准身份（section 401）是否排除某用途"
+      - "判断阿斯巴甜的 PHENYLKETONURICS 警示语措辞、位置与字体"
+      - "判断面向生产的中间混合料是否须标浓度"
+      - "判断纽甜的 7 项规格可否直引数值"
+      - "判断 Olestra 须补哪些维生素、每克补多少"
+      - "判断 Olestra 的补偿维生素能否计入营养标签或营养声称"
+      - "判断 Olestra 是否计作脂肪/热量来源"
+    keywords: ["aspartame", "neotame", "acesulfame potassium", "sucralose", "olestra", "PHENYLKETONURICS", "CONTAINS PHENYLALANINE", "foods generally", "except in meat and poultry", "standards of identity", "section 401", "special dietary use", "part 105", "nutrient compensation", "Dietarily insignificant", "alpha-tocopherol", "fats and oils", "脂肪替代物", "强制营养补偿", "§ 172.800", "§ 172.804", "§ 172.829", "§ 172.831", "§ 172.867"]
+    also_read:
+      - slug: "permission-gate-limitation-forms"
+        relation: "depends-on 依赖"
+        note: "本卡执行 V01 的四元组判定；V01 不判甜味剂三重限制形态（V03 differentiator）"
+      - slug: "effect-level-ibr-boundary"
+        relation: "contrasts-with 对比"
+        note: "§172.829 直写数值与 §172.831 整体 IBR 并存，由 V05 统一切分引用边界；V03 只报告「有无可读数值」（V03 differentiator）"
+    card: "cards/sweeteners-fat-substitutes.md"
+    frontmatter:
+      description: |
+        何时用：判阿斯巴甜警示语、纽甜/安赛蜜 cGMP 与肉禽除外、标准身份不排除、特殊膳食 part 105、三氯蔗糖 IBR、Olestra 强制营养补偿与 Dietarily insignificant 标注、Olestra 不计脂肪/热量。何时不用：不判一般许可链（→V01）、不判防腐剂（→V02）、不导航名录（→V04）、不判 IBR 数值能否引用（→V05）、不判营养声称授权（→CAP-30）。Trigger「纽甜有没有 ppm 上限」「Olestra 要补什么维生素」「阿斯巴甜警示语什么字体」；EN: "aspartame warning", "neotame", "olestra nutrient compensation", "except in meat and poultry".
+    promotion:
+      destination: router
+      reason: |
+        与 CAP-30（Part 101 营养标签/声称）在同一张标签上相邻、与 V05 IBR 边界重叠；单独晋级会诱导把「添加剂许可」与「营养声称授权」合并。由 CAP-31 统一分流。
+    source_evidence:
+      - "〔§ 172.804(c)(2)(d)(1)(2)〕[p.112-113]：烘焙 ≤0.5%、中间混合料浓度披露、PHENYLKETONURICS 警示语"
+      - "〔§ 172.829(b)(c)(e)〕[p.124-125]：7 项规格直写；foods generally, except in meat and poultry；标准身份不排除；part 105"
+      - "〔§ 172.800〕[p.109]：安赛蜜同型句式"
+      - "〔§ 172.831(b)〕[p.127]：三氯蔗糖规格整体 IBR 到 FCC 7th ed. pp. 993-995"
+      - "〔§ 172.867(c)(d)(e)〕[p.153-154]：适用范围封闭；强制补偿 A/D/E/K；Dietarily insignificant；不计脂肪/热量"
+
+  - capability_id: "cap.cfr172.quality-functionals-longtail-index"
+    revision: 1
+    status: active
+    slug: "quality-functionals-longtail-index"
+    title: "品质功能类与长尾名录导航"
+    importance: high
+    importance_rationale: |
+      覆盖体量最大、最易被误判为「有用量表」的部分：§172.510（366 行）+ §172.515
+      （834 行）名录占全文约 26%。名录型条款只解决「是否收录」不解决「怎么用」；
+      列举式条款的限制可能嵌在行内（not for infant foods）；Do. 行常被误读为无限制。
+    one_liner: "先分条款是名录型还是列举型；名录型只做存在性判断与导航、用量回到条首 GMP；列举型读行内限制；`Do.` 是同上而非空白。"
+    intents:
+      - "判断某天然/合成香料是否在许可名录内"
+      - "判断名录里某物质有没有用量限制、限制写在哪一列"
+      - "判断天然香料的 Common name / Scientific name 对应关系"
+      - "判断列举式条款（氨基酸）的行内限制（not for infant foods）"
+      - "判断氨基酸规格的二级引用链（FCC 页码 / NAS-NRC）"
+      - "判断品质功能类（甘氨酸等）的用途-限制双列"
+      - "判断改性淀粉的法定品名与双重兜底"
+      - "判断限量表中的 Do. 行含义与跨页列重置风险"
+    keywords: ["natural flavoring", "synthetic flavoring", "adjuvants", "flavoring substances", "amino acids", "DL-Methionine", "not for infant foods", "glycine", "food starch-modified", "Do.", "ditto", "Common name", "Scientific name", "Limitations", "SubpartF", "长尾名录", "名录型条款", "列举式", "二级引用链", "§ 172.320", "§ 172.510", "§ 172.515", "§ 172.812", "§ 172.892"]
+    also_read:
+      - slug: "permission-gate-limitation-forms"
+        relation: "depends-on 依赖"
+        note: "名录条首的 GMP 条件由 V01 定义；V01 不导航名录（V04 differentiator）"
+      - slug: "effect-level-ibr-boundary"
+        relation: "depends-on 依赖"
+        note: "列举式条款的 FCC 页码二级引用由 V05 定义引用边界（V04 differentiator）"
+    card: "cards/quality-functionals-longtail-index.md"
+    frontmatter:
+      description: |
+        何时用：导航 §172.510/§172.515 名录（存在性判断）、读列举式行内限制、氨基酸规格二级引用、甘氨酸用途-限制双列、改性淀粉法定品名与双重兜底、Do. 行语义。何时不用：不判一般许可链（→V01）、不判防腐剂（→V02）、不判甜味剂（→V03）、不判 IBR 数值能否引用（→V05）、不逐字引名录内部行或表值。Trigger「某香料能不能用」「这个香料有没有用量限制」「Do. 是什么意思」；EN: "natural flavoring list", "synthetic flavoring", "amino acids list", "Do. in table".
+    promotion:
+      destination: router
+      reason: |
+        名录导航是横切工具层，与 V01/V05 共享判读规则；单独晋级会与 V01 重复覆盖「许可判定」意图。由 CAP-31 统一分流。
+    source_evidence:
+      - "〔§ 172.510(a)(b)〕[p.48-49]：天然香料条首 GMP 条件；Common name / Scientific name / Limitations 三列名录（内部行不可逐字引）"
+      - "〔§ 172.515(a)(b)〕[p.55]：合成香料条首 GMP 条件；纯物质名清单，无用量列"
+      - "〔§ 172.320(a)(14)〕[p.30]：DL-Methionine (not for infant foods) 行内限制"
+      - "〔§ 172.320(b)(1)(2)〕：规格走 FCC 页码与 NAS/NRC 二级引用链"
+      - "〔§ 172.812〕[p.118]：用途-限制双列（掩蔽剂 ≤0.2% / 稳定剂 ≤0.02%）"
+      - "〔§ 172.892〕[p.173]：双重兜底 + 法定品名 food starch-modified；表内 Do. 行"
+
+  - capability_id: "cap.cfr172.effect-level-ibr-boundary"
+    revision: 1
+    status: active
+    slug: "effect-level-ibr-boundary"
+    title: "效力层与 IBR 边界"
+    importance: critical
+    importance_rationale: |
+      本次升级最危险的越界点：43 条（27%）纯度规格整体 IBR 到 FCC 页码、厂商方法、
+      ATCC 菌株资料——效力等同正文但内容不在包内。把外部文件数值当法规原文引用，
+      即属编造法规。同时须守住「八套编号不得互引、效力栈＝法规＞指南＞检查程序」。
+    one_liner: "先分层（法规正文＞FDA 指南＞CPGM/CP/IOM 检查程序），再判 IBR 是「半开放」还是「整体外转」，只可引『须符合某文件某版某页』，绝不转述其内部数值。"
+    intents:
+      - "判断某纯度规格是直写数值还是 IBR 外转"
+      - "判断 IBR 引用的文件能否转述其 assay/杂质数值"
+      - "判断 FCC 版次与页码是否对得上（7th ed.=2010 / 9th ed.=2014）"
+      - "判断哪些内容属不可逐字引用区（16 张表数值 / 名录内部行 / IBR 文件）"
+      - "判断 FDA 指南 should 能否作为合规依据"
+      - "判断 CPGM/CP/IOM 检查程序能否创设企业义务"
+      - "判断第八套编号〔§ 172.xxx〕与其余七套编号能否互引"
+      - "判断 twenty-three 类来源的效力栈分层"
+    keywords: ["incorporated by reference", "IBR", "Food Chemicals Codex", "FCC", "7th ed.", "9th ed.", "ATCC", "specifications", "不可逐字引用区", "效力栈", "第八套编号", "二十三套", "八套编号", "should", "must", "CPGM", "IOM", "法规正文层", "guidance", "§ 172.185", "§ 172.785", "§ 172.831", "§ 172.320"]
+    also_read:
+      - slug: "permission-gate-limitation-forms"
+        relation: "composes-with 组合"
+        note: "V01 判出的纯度规格要件是本卡 IBR 边界判定的输入；V05 不重列四元组（V05 differentiator）"
+      - slug: "sweeteners-fat-substitutes"
+        relation: "contrasts-with 对比"
+        note: "§172.829 直写数值与 §172.831 整体 IBR 的对照由本卡统一分层，V03 只报告形态（V05 differentiator）"
+    card: "cards/effect-level-ibr-boundary.md"
+    frontmatter:
+      description: |
+        何时用：判规格是直写还是 IBR、IBR 文件数值能否转述、FCC 版次页码核对、不可逐字引用区清单、指南 should 与检查程序效力、八套编号不得互引。何时不用：**本卡是横切口径层，不单独抢路由**，须依附 V01–V04 业务卡；不代写法律文书、不出合规结论、不判产品法定身份；不判 Part 117/101 细则（既有 CAP-09/14/30）。Trigger「IBR 里的数值能不能写进结论」「FCC 页码对不上怎么办」「guidance 能不能当依据」；EN: "incorporated by reference", "effect level", "guidance vs regulation", "not quotable".
+    promotion:
+      destination: router
+      reason: |
+        横切口径层，与 CAP-09（主体豁免）、CAP-14（should/must 分层）、CAP-30（Part 101 效力层）大面积邻近；单独晋级会与这些卡重复覆盖「效力层」「引用边界」意图，且违反既有「横切口径层不单独抢路由」的设计。由 CAP-31 统一分流。
+    source_evidence:
+      - "〔§ 172.185(b)〕[p.19]：半开放 IBR —— 给可判下限 + or an equivalent method"
+      - "〔§ 172.831(b)〕[p.127]：整体外转 IBR —— 规格全在 FCC 7th ed. pp. 993-995"
+      - "〔§ 172.785(b)(1)(2)(4)〕[p.109]：IBR 到厂商方法 + ATCC 菌株（测法、日期、出具方全外转）"
+      - "〔§ 172.320(b)〕[p.30-31]：二级引用链（FCC 具体页码 / NAS-NRC Publication）"
+      - "〔§ 172.5(b)〕[p.5]：许可不等于整体合规的效力边界"
+      - "转换件文件头：16 张重建表格数值 / §172.510/§172.515 名录内部行 / IBR 外部文件内容为不可逐字引用区"

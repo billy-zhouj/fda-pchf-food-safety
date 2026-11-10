@@ -1,0 +1,60 @@
+[p.45]
+
+
+
+
+
+
+
+
+
+•
+The importer provides the filer information that a product is manufactured by firm X, when it is, in fact,
+manufactured by firm Y. As a result, the filer declares the product as manufactured by firm X (misdeclared
+goods).
+6.6.4.6 - Filer Misdeclaration
+Although this section is oriented to filer interventions, it must always be recognized that the filer is the agent of
+the importer, and the importer is ultimately responsible. Filer misdeclaration refers to the importer’s provision of
+correct information to the filer who then files an erroneous entry to CBP.  The following are examples of this
+activity:
+•
+The filer omits a product properly listed on the entry invoice from the declaration (undeclared goods).
+•
+The importer provides the filer information that a product is manufactured by firm X, but the filer declares
+it as manufactured by firm Y (mis-declared goods).
+•
+The importer provides an invoice to the filer that lists product X, but the filer declares product Y. When
+FDA personnel encounter this situation, it is usually during the initial examination or sampling of the entry
+(mis-declared goods).
+•
+The filer selects a food Process Identification Code (PIC) for packaged food (which should only be selected
+when no other PIC applies, per the instructions of the FDA’s Product Code Builder on the Web) when the
+broker does not have sufficient information to determine if any other PIC applies (misdeclared goods).
+6.6.4.6.1 - Repeated Filer Misdeclaration
+In the event a filer continues to mis-declare a product to CBP or the FDA, and/or continues to introduce or
+present to CBP or FDA any erroneous types of documentation which may violate the FD&C Act, the following
+steps should be taken:
+1. Document what information was available to the filer to file the entry. Collect any relevant records not
+already obtained.
+2. Document the undeclared or mis-declared products through the collection of labeling and/or photos.
+3. Obtain the filer’s explanation for the discrepancies in an affidavit along with (1).
+4. It may be necessary, in some fact patterns, to also collect an affidavit from the importer. For example,
+if a filer declares a cosmetic product code for fluoridated toothpaste because the importer failed to
+provide the filer information about whether the toothpaste did or did not contain fluoride, it may be
+necessary to collect that information via an affidavit from the importer.
+5. Conduct a Filer Evaluation to examine records and determine the extent of the problem. The FDA
+should gather enough evidence to support a possible broker penalty, with the following to be
+considered:
+a. If the filer has no history of filing erroneous entries to FDA, divisions should consider further
+training and or placing the filer back to phase 1 filing status and withhold a request to assess a
+broker penalty against the filer.
+b. If the filer has a history of filing erroneous entries to FDA, and the filer continues to disregard
+FDA’s attempts to provide guidance, train, and document guidance provided of filing entries
+through the Automated Broker Interface (ABI), the FDA should contact (CBP) to request that a
+broker penalty be assessed against the filer.
+6.7 - Filer Evaluations
+6.7.1 – General
+The FDA makes admissibility decisions based on the electronic entry data transmitted by the filers. The admissibility
+process is reliant upon data provided by parties outside of the FDA, most notably, the entry filers transmitting import
+entry information to the FDA on behalf of importers. As such, the FDA is dependent on entry filers to submit the most
+accurate data to make sound, risk-based admissibility decisions.

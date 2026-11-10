@@ -1,0 +1,50 @@
+{
+  "bundle_version": "1.0.0",
+  "source_id": "src-21-cfr-part101-2026",
+  "source_book": "21 CFR Part 101 - Food Labeling (eCFR 2026-11-05)",
+  "output_strategy": "single",
+  "router_entry": {
+    "name": "CAP-30",
+    "entry_card": "references/capabilities/food-labeling-requirements.md",
+    "title": "21 CFR Part 101 食品标签法定义务与判定链"
+  },
+  "budget": {
+    "discoverable_entrypoints": 1,
+    "note": "本轮增量升级只新增 1 个可发现入口 CAP-30；5 个能力全部判 router，不单独晋级为独立 Skill。可发现入口数 = 1（1 个来源路由入口 + 0 个 promoted Skill）。沿用 v4.17 CAP-29 的『一个来源 = 一张入口卡 + 若干子卡』形态。",
+    "promotion_budget": 8,
+    "promoted_count": 0,
+    "router_count": 5
+  },
+  "destinations": [
+    {
+      "capability_id": "cap.cfr101.labeling-architecture",
+      "served_by": "CAP-30",
+      "entry_card": "references/capabilities/food-labeling-requirements.md",
+      "card": "references/capabilities/labeling/labeling-architecture.md"
+    },
+    {
+      "capability_id": "cap.cfr101.nutrition-labeling-serving-size",
+      "served_by": "CAP-30",
+      "entry_card": "references/capabilities/food-labeling-requirements.md",
+      "card": "references/capabilities/labeling/nutrition-labeling-serving-size.md"
+    },
+    {
+      "capability_id": "cap.cfr101.claims-authorization-gates",
+      "served_by": "CAP-30",
+      "entry_card": "references/capabilities/food-labeling-requirements.md",
+      "card": "references/capabilities/labeling/claims-authorization-gates.md"
+    },
+    {
+      "capability_id": "cap.cfr101.specific-foods-warning-statements",
+      "served_by": "CAP-30",
+      "entry_card": "references/capabilities/food-labeling-requirements.md",
+      "card": "references/capabilities/labeling/specific-foods-warning-statements.md"
+    },
+    {
+      "capability_id": "cap.cfr101.labeling-exemptions-effect-level",
+      "served_by": "CAP-30",
+      "entry_card": "references/capabilities/food-labeling-requirements.md",
+      "card": "references/capabilities/labeling/labeling-exemptions-effect-level.md"
+    }
+  ]
+}
