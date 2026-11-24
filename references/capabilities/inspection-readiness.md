@@ -204,4 +204,4 @@ PART V.1.D 的六个 Factors to Consider 值得逐条自评：食品是否 RTE�
 
 **B11 — 记录合规不等于现场合规。** CPGM PART V.1.D 明说底层控制实际到位时，记录缺失未必是 significant；但 cGMP 是观察型结果义务（〔§ 117.3〕`adequate`），完美的记录也抵不过现场卫生失守（见 `cgmp-compliance-guide`）。迎检准备必须**记录与现场状态成对**做，不能只补文件。
 
-**B12 — 引用规范（v4.7）。** 法规正文用〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕六套独立编号；CPGM 用「CPGM 7303.040 PART x」（附件须带 `ATTACHMENT A`）；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / IOM Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。**二十七类不可混引**；本卡与 CAP-17 / CAP-18 / CAP-19 / CAP-20 的内容须按此分源引用。
+**B12 — 引用规范（v4.7）。** 法规正文用〔§ 108.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕〔§ 117.xxx〕〔§ 120.xxx〕〔§ 123.xxx〕六套独立编号；CPGM 用「CPGM 7303.040 PART x」（附件须带 `ATTACHMENT A`）；PCHF 指南用 Ch/小节号；L.mono 指南用其章节号；SECG 用 SECG 章号；Ed.5 用问答编号；Handbook 用「Handbook 章名 + 产品名」；CP 7303.050 用「CP 7303.050 PART x / ATTACHMENT A Part x / Table x」；IOM 用「IOM 5.x.x / IOM Exhibit 5-x」；CP 7303.070 用「CP 7303.070 PART x / ATTACHMENT x」。**二十八类不可混引**；本卡与 CAP-17 / CAP-18 / CAP-19 / CAP-20 的内容须按此分源引用。

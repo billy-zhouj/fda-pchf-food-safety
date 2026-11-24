@@ -458,3 +458,22 @@
 - **仍未收**：FDA 网站公布的 Food Traceability List 现行清单内容（清单本身不在法规正文里，只能引「须在清单上」的判定规则，不得编造清单条目）；FTL 增补/删除的 FR 公告；Subpart S/O 的 Small Entity Compliance Guide；CPGM 与 PAC `03040T` 的卫生运输取证问卷内容（检查员侧口径归 CAP-16）；21 CFR part 1 subparts A–K/M–R 其余各 subpart 正文。
 - **测试**：新增 18 条用例（10 `should_trigger` / 4 `edge_case` / 4 `should_not_trigger`），钉住 FTL 清单封闭性、18 款豁免数、KDE 条数不可混、赋号双向规则、180 天期限、运输商反向制度、non-covered vs small business、五项回拉、carrier 合同闸门、402(i) 的 `may render` 口径，以及四条负例（检查员侧走 CAP-16、召回走 CAP-08、FSVP 走 CAP-33、Subpart S 运输豁免不得推到 Subpart O）。
 - **审计轨迹**：源件如上；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/subpartS/subpartS.md`（591 行）与 `.../subpartO/subpartO.md`（244 行）；核验脚本 `checkcard.py` 直接消费能力卡文件，把每个引文块与出处行的 `pdf-page N` 比对。
+
+---
+
+## v4.23 追加：第二十八来源 FDA 21 CFR Part 121 IA rule SECG（2017-08，指南层第 7 类）
+
+> 本节是 v4.23 增量记录；上文各节的 v4.x 规模、「N 类不可混引」与各版「仍未收」均为**历史口径**，保留不改。
+
+- **v4.23 规模**：**36 张主卡 + 10 张 imports 子卡 + 5 张 labeling 子卡 + 5 张 additives 子卡 / 366 条术语（YAML 块 t01–t366）/ 二十八类来源 / 十二套法规编号（本版不新增编号）**。
+- **第二十八来源**：**FDA, CFSAN, 《Mitigation Strategies to Protect Food Against Intentional Adulteration: What You Need to Know About the FDA Regulation — Guidance for Industry, Small Entity Compliance Guide》**，**August 2017**，Docket `FDA-2013-N-1425`，**23 页**（`Contains Nonbinding Recommendations`），SOURCE 为 IA 最终规则 `81 FR 34165, May 27, 2016`（effective 2016-07-26）。它是**FDA 指南建议层第 7 类**：指南本身不创设法律责任、不绑定 FDA 或公众，`should` 只表示建议；**但同一文件明确声明规则本身有完全法律效力**（`The rule is binding and has the full force and effect of law`）。
+- **新增 CAP-36 `intentional-adulteration-secg`**（单卡，10 章问答体 + Table 1–6，逐字引文 **68/68 命中且页码一致**），与 CAP-32 `intentional-adulteration-defense`（法规正文层）是**配对而非合并**：CAP-32 给法条，CAP-36 给 FDA 的白话判定口径、豁免条件细节、培训分档表与记录复用规则；冲突时以法规正文为准。
+- **补齐的是「指南层 FAQ」而非新法源**：v4.20 收 Part 121 法规正文时，CAP-32 B8/B9 明写「合规日期历史与 Mitigation Strategies 相关指南文件未收」。本版把这两处**翻转**：CAP-36 保存 2017-08 SECG 原文，但**仍不收合规日期延期史**——Table 3 的三档日期只是编制当时的历史快照。
+- **本件的方法层核心**：① 管辖看 §415 注册义务（境内外同口径，无需注册即整条不适用）；② 七项豁免逐条过，**holding 不含液体储罐**、**包装贴标须直接接触容器保持完整**、very small business（<$10,000,000，3 年滚动 + 通胀调整 + 未售市值）是**举证式豁免**、酒精豁免附 TTB 两条件 + 非酒精 ≤5%；③ 计划七项内容 + owner/operator/agent 在**初次与每次修改**时签名；④ 评估逐点评三要素（severity **× scale** / physical access / ability to contaminate）+ **强制考虑内部人员** + 逐点**双向**书面解释；⑤ APStep 三条件；⑥ 三件套写进计划、(a)(3)(ii) 其他验证活动须有**含频次**书面程序；⑦ 再分析 3 年底线 + 变更**生效前** / 生产后 90 日历日（超期书面理由）；⑧ 两套「2 年」对象不同、计划始终现场、part 11 豁免只覆盖为本 part 而建的记录、既有记录可复用且不必单一记录集。
+- **七类实质纠偏**：① **指南非约束 ≠ 规则非约束**——同一文件两句并列，把前者套到规则上等于否认整部 Part 121；② **Table 3 三档日期（2019-07-26 / 2020-07-27 / 2021-07-26）是 2017-08 历史快照**，延期史未收，不得当现行义务；③ **两份 SECG 不可互引**——本件是 2017-08 IA rule SECG（Docket FDA-2013-N-1425），CAP-14 的是 2016-10 cGMP SECG（Docket FDA-2011-N-0920）；④ **灵活性与举证责任成对出现**——FDA 不指定方法论、不指定监控频次，但逐点双向解释、策略充分性解释、含频次书面程序一个都不能省；⑤ **内部人员必须考虑**，写「不适用」直接不成立；⑥ **qualified individual 可非雇员**，四档培训职责不同；⑦ **页码基准不同**——本卡 `[pdf-page N]` 是 0-based 提取件标记（封面 0、目录 1–2、正文自 3 起），与法规卡页码不可直接对照。
+- **二十八类不可混引（v4.23 口径）**：在二十七类之外增加 FDA Part 121 IA rule SECG（指南层第 7 类）。层次仍为：法规正文（**十二套编号**〔§ 1 / 101 / 108 / 113 / 114 / 117 / 120 / 121 / 123 / 172.xxx〕+〔§ 1.13xx/1.14xx〕+〔§ 1.9xx〕）＞ FDA 指南（**7 类**，should 建议层）＞ CPGM / CP / IOM 检查程序（检查员视角、不创设企业义务）。**Part 1 三套 subpart（L / O / S）引用必须带 subpart 归属**，不得只说「part 1」。
+- **抽取与自检**：源件 `G://下载//Guidance-for-Industry--What-You-Need-to-Know-About-the-FDA-Regulation--Mitigation-Strategies-to-Protect-Food-Against-Intentional-Adulteration-(21-CFR-Part-121)---Small-Entity-Compliance-Guide-(PDF).pdf`（23 页）→ 提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/part121-secg/part121-secg.md`（494 行）；卡片 **68 段引文块 68/68 逐字命中且页码一致**；术语 t357–t366 **10/10 命中**。核验口径同 v4.22（`norm()` 归一去 `<u>`/`**`/智能引号/连字符换行 + 折叠空白 + 全线小写）。
+- **不可逐字引用区**：目录页（第 1–2 页）；表格页 6/7/8/9/13/14/20；多栏页 2/3/8/13/15/17/20/21。跨栏处不可按视觉行序引。**Table 6 中 supervisors 一行的第三个要点在提取件中为空**（疑似原 PDF 截断），本卡不补写，须回原 PDF 核对。
+- **仍未收**：Part 121 合规日期延期史与相关 FR 公告、Food Defense Plan Builder 操作、CARVER + Shock 等方法学、DHS 风险评估内容、食品防护专项检查程序（CP）与培训课程内容；21 CFR part 1 其余 subparts A–K/M–R 正文。
+- **测试**：新增 12 条用例（7 `should_trigger` / 3 `edge_case` / 2 `should_not_trigger`），钉住指南与规则的效力分层、两套 SECG 日期表不可互引、liquid storage tank 与 container intact 两个豁免例外、very small business 举证式豁免、三要素含 scale、内部人员强制项、方法论自由≠不用写解释、(a)(3)(ii) 含频次程序、两套 2 年、计划现场 24 小时、part 11 边界，以及负例（EMA 走 CAP-06、检查员侧走 CAP-16）。
+- **审计轨迹**：源件如上；核验脚本 `checkcard.py` 直接消费能力卡文件，把每个引文块与出处行的 `pdf-page N` 比对（本卡页码为 0-based）。

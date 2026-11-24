@@ -4192,6 +4192,146 @@
   - 法规正文层
   - 判定判据
 
+- id: t357
+  title: food defense（食品防护，Part 121 口径）
+  type: term
+  source_chapter: § 1.3 / SECG VII
+  source_quote: '"Food defense means, for purposes of this part, the effort to protect food from intentional acts of adulteration where there is an intent to cause wide scale public health harm."
+
+    '
+  summary: "构成意图门槛：须有「造成大规模公共卫生伤害」的意图。为牟利掺杂（EMA，食品欺诈）不满足这一要件，走 CAP-06；物理安保（门禁、CCTV）也不等同本定义。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 意图门槛
+
+- id: t358
+  title: significant vulnerability（显著脆弱性）
+  type: term
+  source_chapter: § 1.3 / SECG VII
+  source_quote: '"Significant vulnerability means a vulnerability that, if exploited, could reasonably be expected to cause wide scale public health harm."
+
+    '
+  summary: "判据是「若被利用，可合理预期造成大规模公共卫生伤害」。SECG 重申须由 qualified individual 做的评估包含三要素（severity and scale / physical access / ability to contaminate）并考虑内部人员。`scale` 是 Part 121 特有维度，只算单批严重度会把显著脆弱性误判为不显著。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 评估判据
+
+- id: t359
+  title: vulnerability assessment（脆弱性评估）
+  type: term
+  source_chapter: SECG IV.B.1
+  source_quote: '"A vulnerability assessment is an evaluation of each point, step, or procedure in your food operation to identify significant vulnerabilities and actionable process steps."
+
+    '
+  summary: "对象是**每一个** point / step / procedure，不是整条线给一个总评。FDA 不指定方法论，但三要素 + 内部人员 + 逐点双向书面解释（why it was or was not）不可省。⚠ 〔§ 121.130〕脆弱性评估 ≠ 〔§ 117.130〕危害分析，两套计划并存。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 评估方法
+
+- id: t360
+  title: actionable process step（可采取行动的过程步骤，APStep）
+  type: term
+  source_chapter: § 1.3 / SECG IV.B.2
+  source_quote: '"An actionable process step is a point, step, or procedure in a food process where a significant vulnerability exists and at which mitigation strategies can be applied and are essential to significantly minimize or prevent the significant vulnerability."
+
+    '
+  summary: "三条件同时成立才算：① 存在显著脆弱性；② 在该点可施加缓解策略；③ 该策略对显著最小化/预防不可或缺。SECG 强调 APStep 是 facility and process-specific，不可照抄别家计划，也不能凭「这环节很关键」下结论。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 主体判定
+
+- id: t361
+  title: mitigation strategies（缓解策略）
+  type: term
+  source_chapter: § 1.3 / SECG IV.C.1
+  source_quote: '"Mitigation strategies are risk-based, reasonably appropriate measures that a person knowledgeable about food defense would employ to significantly minimize or prevent significant vulnerabilities identified at actionable process steps, and that are consistent with the current scientific understanding of food defense at the time of the analysis."
+
+    '
+  summary: "定义含「分析时的当前科学理解」时间锚点，不是永久清单。FDA 允许企业自选策略，但必须附书面解释说明该策略如何充分最小化/预防对应 APStep 的显著脆弱性。⚠ 三件套（监控/纠正/验证）须写进食品防护计划。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 控制设计
+
+- id: t362
+  title: vulnerability（脆弱性）
+  type: term
+  source_chapter: § 1.3 / SECG VII
+  source_quote: '"Vulnerability means the susceptibility of a point, step, or procedure in a facility’s food process to intentional adulteration."
+
+    '
+  summary: "单个点/步骤/程序对蓄意掺假的易感性；「显著脆弱性」是在此基础上加上「可合理预期造成大规模公共卫生伤害」的门槛。两者不可混用——不是每个 vulnerability 都是 significant vulnerability。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 定义
+
+- id: t363
+  title: contaminant（污染物，Part 121 口径）
+  type: term
+  source_chapter: § 1.3 / SECG VII
+  source_quote: '"Contaminant means, for purposes of this part, any biological, chemical, physical, or radiological agent that may be added to food to intentionally cause illness, injury, or death."
+
+    '
+  summary: "四类的封闭列举：生物/化学/物理/放射性，且须「可能被加入食品以有意造成疾病、伤害或死亡」。与 Part 117 的危害（无意引入）不是同一判定对象。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 定义
+
+- id: t364
+  title: very small business（极小企业，Part 121 口径）
+  type: term
+  source_chapter: § 1.3 / SECG II.B / VII
+  source_quote: '"Very small business means, for purposes of this part, a business (including any subsidiaries and affiliates) averaging less than $10,000,000, adjusted for inflation, per year, during the 3-year period preceding the applicable calendar year in sales of human food plus the market value of human food manufactured, processed, packed, or held without sale (e.g., held for a fee)."
+
+    '
+  summary: "<$10,000,000，按前 3 年滚动年均、通胀调整、含子公司与关联方，分子包含未销售人食的市值。它是**豁免**而非减负，且是举证式豁免：应 FDA 要求须出示充分证明文件并留存 2 年。⚠ 与 small business（<500 FTE，只用于分档）是两套门槛。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 豁免判定
+
+- id: t365
+  title: small business / full-time equivalent employee（小企业与全职等效员工）
+  type: term
+  source_chapter: § 1.3 / SECG VII / VI
+  source_quote: '"Small business means, for purposes of this part, a business (including any subsidiaries and affiliates) employing fewer than 500 full-time equivalent employees."
+
+    '
+  summary: "<500 FTE，按 2,080 小时/年（40×52）折算、含关联企业与子公司、不足整数向下取整。它只决定合规分档与培训要求，**不是「管不管」的门槛**；把 small business 当 very small business 主张免责是高频误答。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 规模分档
+
+- id: t366
+  title: qualified individual（合格人员）
+  type: term
+  source_chapter: § 1.3 / SECG VI / VII
+  source_quote: '"Qualified individual means a person who has the education, training, or experience (or a combination thereof) necessary to perform an activity required under subpart C of this part, as appropriate to the individual’s assigned duties."
+
+    '
+  summary: "按职责匹配教育/培训/经验；**可以不是本设施雇员**（外部顾问可做）。SECG Table 6 分四档：APStep 岗位人员及主管需 qualified individual + 食品防护意识培训；编制计划/评估/识别策略/再分析者还需 FDA 认可的标准化课程或同等工作经验；负责 part 121 合规的主管另需相应教育与经验组合。"
+  tags:
+  - v4.23
+  - SECG
+  - 指南建议层
+  - 培训资格
+
 ```
 
 ## 自检记录
@@ -4404,3 +4544,22 @@
 | operating temperature | § 1.904 / § 1.908(a)(3) | 「在可预见温度波动下仍能满足〔§ 1.908(a)(3)〕」的温度，**不是法定数值** | 编造法定温度限值；忽略除霜、多点装卸等波动情形 |
 
 > 完整 10 条见上方 YAML 块 t347–t356；本部分术语为「判读用语」，引文块内为逐字原文，其余不作法规原文逐字引用。
+
+## v4.23 增量术语 — FDA 21 CFR Part 121 IA rule SECG（2017-08，t357–t366）
+
+> 本段收 10 条最易造成效力层、门槛或资格错判的词条，已并入上方 YAML 块（t357–t366，全表 366 条）。这些定义是 Part 121 的**法规正文定义**（SECG VII 章逐字重印），但本卡的引文来自**指南建议层**；引用时应回指〔§ 121.3〕，并写明指南出处。[pdf-page N] 采用本件 0-based 提取件标记（封面 0、正文自 3 起）。
+
+| 术语 | 条款 / SECG 章 | 浓缩释义 | 常见误读 |
+|---|---|---|---|
+| food defense | §121.3 / VII | 须有「造成大规模公共卫生伤害」的意图 | 把牟利性掺杂（EMA，CAP-06）或物理安保当食品防护 |
+| significant vulnerability | §121.3 / VII | 若被利用可合理预期造成大规模公共卫生伤害；含 `scale` 维度 | 只算单批严重度，漏掉波及范围 |
+| vulnerability assessment | §121.130 / IV.B.1 | 逐点评估；三要素 + 内部人员 + 双向书面解释；方法自选 | 整条线给一个总评；把「FDA 不指定方法」读成「不用写解释」 |
+| actionable process step | §121.3 / IV.B.2 | 三条件同时成立；随设施与工艺而变 | 凭「这环节很关键」就定为 APStep；照抄别家计划 |
+| mitigation strategies | §121.3 / IV.C.1 | 风险导向、合理适当；锚定「分析时的科学理解」 | 以为 FDA 有强制策略清单；漏写充分性解释 |
+| vulnerability | §121.3 / VII | 单点/步骤对蓄意掺假的易感性 | 把每个 vulnerability 都当 significant vulnerability |
+| contaminant | §121.3 / VII | 生物/化学/物理/放射性四类，须有意致病伤害死亡 | 与 Part 117 的无意危害混为一谈 |
+| very small business | §121.3 / II.B | <$10,000,000，3 年滚动 + 通胀调整 + 未售市值；举证式豁免 | 与 small business 混用；漏掉应要求出示证明并存 2 年 |
+| small business / FTE | §121.3 / VI | <500 FTE（2,080 小时/年、向下取整、含关联方）；只用于分档 | 当成「管不管」的门槛 |
+| qualified individual | §121.3 / VI / VII | 按职责匹配教育/培训/经验；可非雇员；四档培训职责 | 简化成「大家都培训一下」；以为外部顾问不能做 |
+
+> 另有两个高频词未单列词条但必须记准：**food defense monitoring**（按计划的观察/测量序列，评估策略是否按预期运行，记录可肯定可例外）与 **food defense verification**（监控之外的评价，四项含再分析验证；若用 §121.150(a)(3)(ii) 其他活动，须有含频次的书面程序）。完整 10 条见上方 YAML 块 t357–t366；本部分术语为「判读用语」，不作法规原文逐字引用（引文块内为逐字原文）。

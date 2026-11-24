@@ -1,7 +1,7 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.22",
-  "source_book": "27 类来源，分三层。【法规正文 12 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 1 Subpart O（卫生运输，§§1.900–1.934，eCFR 2026-11-20，v4.22 增量，CAP-35）、Part 1 Subpart S（食品追溯记录，§§1.1300–1.1465，eCFR 2026-11-20，v4.22 增量，CAP-34）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。⚠ 21 CFR Part 1 三套 subpart（L / O / S）同属一部 Part、编号连续但分属不同 Subpart，引用必须带 subpart 归属，不得只说「part 1」。合计 27 类，对应 35 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
+  "version": "4.23",
+  "source_book": "28 类来源，分三层。【法规正文 12 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 1 Subpart O（卫生运输，§§1.900–1.934，eCFR 2026-11-20，v4.22 增量，CAP-35）、Part 1 Subpart S（食品追溯记录，§§1.1300–1.1465，eCFR 2026-11-20，v4.22 增量，CAP-34）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 7 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）、21 CFR Part 121 IA rule SECG（2017-08，Docket FDA-2013-N-1425，v4.23 增量，CAP-36）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。⚠ 21 CFR Part 1 三套 subpart（L / O / S）同属一部 Part、编号连续但分属不同 Subpart，引用必须带 subpart 归属，不得只说「part 1」。合计 28 类，对应 36 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
   "darwin_compatible": true,
   "test_cases": [
     {
@@ -1666,6 +1666,90 @@
       "prompt": "培训记录要保存多久？是自然年还是滚动 12 个月？",
       "expected_behavior": "按**滚动 12 个月**，且起算点是**行为发生日**而不是自然年。Subpart O 的记录要求集中在〔§ 1.912〕，培训要求见〔§ 1.910〕：carrier 须为参与运输作业的人员提供培训（一般培训 + 按需的专项培训），并保留培训记录；记录保存期为**行为之后 12 个月（12 months beyond）**。⚠ 全 subpart 有**六处「12 个月 beyond」**，各自的**起算点不同**（培训、书面程序、清洁记录、温度记录、合同等），不能统一按「去年 1 月 1 日」起算，也不能把 12 个月读成「一个自然年」。另有减负口径：small business 只须保留培训记录〔§ 1.912(c)〕。",
       "notes": "硬点：12 个月滚动 + 六处起算点各异"
+    },
+    {
+      "id": "secg-01",
+      "type": "should_trigger",
+      "prompt": "这份 FDA 小企业合规指南说 should 只是建议，那我们是不是可以不按食品防护计划做？",
+      "expected_behavior": "**不能**——同一份 SECG 里两句并列：① `FDA's guidance documents ... do not establish legally enforceable responsibilities` 与 `should ... suggested or recommended, but not required`；② `The rule is binding and has the full force and effect of law` [SECG I 引言，pdf-page 3–4]。前者说的是**指南**，后者说的是**21 CFR Part 121 规则**。把指南的非约束性套到规则上，等于否认整部 Part 121。法定义务一律回 CAP-32 的〔§ 121.xxx〕；本卡（CAP-36）只给 FDA 的白话问答与培训分档，冲突时以法规正文为准。",
+      "notes": "主路径：效力分层，指南非约束 ≠ 规则非约束"
+    },
+    {
+      "id": "secg-02",
+      "type": "edge_case",
+      "prompt": "Part 121 到底哪一天必须合规？我在两个不同的合规指南里看到了不同的日期。",
+      "expected_behavior": "先分清是哪份 SECG：**CAP-36 是 2017-08 IA rule SECG**（Docket FDA-2013-N-1425），Table 3 三档日期为 very small business **2021-07-26**、small business（<500 FTE）**2020-07-27**、其余非豁免企业 **2019-07-26**，均为**编制当时的历史快照**；**CAP-14 是 2016-10 cGMP SECG**（Docket FDA-2011-N-0920），Table 4 是 PCHF 的另一套日期。两份文件、两套规则、两套日期表，**不得互引**。更关键：Part 121 后续有延期史（CAP-32 B8），本包未收延期公告，**不得据历史表断言现行状态**，现行时点须回 FDA 公告与 eCFR 核对。",
+      "notes": "边界：两套 SECG 日期表 + 历史快照不得当现行义务"
+    },
+    {
+      "id": "secg-03",
+      "type": "should_trigger",
+      "prompt": "我们只是个仓库，粮油干货常温存放，不做加工，食品防护规则管我们吗？",
+      "expected_behavior": "先过两道闸门：① 是否负有 §415 注册义务（境内外同口径）〔§ 121.1〕；② 是否落入〔§ 121.5〕豁免。**holding 普遍豁免**〔§ 121.5(b)〕——但**液体储罐储存除外**，SECG Table 2 明确 `Holding of food in liquid storage tanks is subject to the IA rule` [pdf-page 6]。所以常温干货仓库通常可豁免，但**糖浆、食用油等液体储罐**立即落回管辖，这是最高频误答。另一带例外的豁免是 (c) 包装/贴标：须**直接接触食品的容器保持完整**；拆内袋重包即失去豁免。",
+      "notes": "核心：两个带例外的豁免（液体储罐 / 容器完整）"
+    },
+    {
+      "id": "secg-04",
+      "type": "should_trigger",
+      "prompt": "我们年销售额八百多万美元，算小企业，可以直接说不适用吗？",
+      "expected_behavior": "**不能把两个「小」混用**。〔§ 121.5(a)〕**very small business** 门槛是年销售额 **<$10,000,000**（含未销售人食的市值、含子公司与关联方、按前 3 年滚动均值并通胀调整）[SECG II.B / Table 2，pdf-page 6]——符合才**豁免**。而 **small business**（<500 FTE）只是规模分档，影响合规期限与培训要求，**不是免责**。并且 very small business 是**举证式豁免**：应 FDA 要求须出示充分证明材料，支撑记录留在设施、保存 2 年〔§ 121.5(a)〕。",
+      "notes": "核心：very small business 举证式豁免 vs small business 分档"
+    },
+    {
+      "id": "secg-05",
+      "type": "should_trigger",
+      "prompt": "脆弱性评估到底要评到什么颗粒度？我们给整条生产线写了一份总评可以吗？",
+      "expected_behavior": "**不行**。评估对象是**每一个 point / step / procedure** [SECG IV.B.1，pdf-page 10]，每一点都须评三要素：① 潜在公共卫生影响（`severity` **and `scale`**）；② 物理接近程度；③ 攻击者成功污染的能力；并**强制考虑内部人员**〔§ 121.130(a)(b)〕。还要对每一点写**双向**书面解释——`why that point, step, or procedure was or was not identified as an actionable process step`〔§ 121.130(c)〕。只解释 Yes、No 写「不适用」等于没做。⚠ `scale`（波及范围）是 Part 121 特有维度，只算单批严重度会把显著脆弱性误判为不显著。",
+      "notes": "主路径：逐点评估 + 三要素 + 内部人员 + 双向解释"
+    },
+    {
+      "id": "secg-06",
+      "type": "should_trigger",
+      "prompt": "FDA 有没有推荐的评估方法？用 CARVER + Shock 是不是合规必需的？",
+      "expected_behavior": "**没有强制方法**。SECG IV.B.4 原文：`FDA does not prescribe or require a specific methodology for conducting vulnerability assessments` [pdf-page 10]，企业可自选方法。但自由与举证成对：无论用什么方法，三要素 + 内部人员 + 逐点双向书面解释一个都不能省。**CARVER + Shock 与 FDA Food Defense Plan Builder 在本包标「转引未收」**（CAP-32 B9 / CAP-36 B6），本卡只给法定判定标准，不给方法学操作或工程方案。",
+      "notes": "边界：方法论自由 ≠ 方法学已收编"
+    },
+    {
+      "id": "secg-07",
+      "type": "should_trigger",
+      "prompt": "我们把监控频次写成「定期」，审核员说不行，为什么？",
+      "expected_behavior": "SECG 确实说 `FDA does not specify any specific monitoring frequencies for mitigation strategies` [SECG IV.D / Table 4，pdf-page 12]——但紧接着要求 `adequate frequency to provide assurances that they are consistently performed`。「定期」没有可执行的频次、无法证明充分，**不满足书面程序要求**。企业须自定频次并说明其足以保证策略持续执行。⚠ 同理，若用 §121.150(a)(3)(ii) 的「其他验证活动」，**必须有含频次的书面程序**〔§ 121.150(b)〕——这是最常漏的一条。",
+      "notes": "硬点：不指定频次 ≠ 不用写频次"
+    },
+    {
+      "id": "secg-08",
+      "type": "should_trigger",
+      "prompt": "食品防护计划要保存多久？我们锁在总部档案室可以吗？",
+      "expected_behavior": "两套「2 年」对象不同：一般记录**自制备起 2 年**，食品防护计划**自停止使用起再 2 年** [SECG V.F，pdf-page 17]；very small business 用于支撑豁免的文件须留设施、保存 2 年。**位置**是硬要求：`The food defense plan must always be on site` [SECG V.G，pdf-page 18]——计划本身**没有 24 小时缓冲**，不能只锁总部。其余记录可异地存放，但须 24 小时内取回并现场提供；长期停业时计划可转移到合理可达处，仍须 24 小时内送回。记录还须**与活动同步创建**，不能当天末或周末补记〔§ 121.305(d)〕。",
+      "notes": "硬数字：两套 2 年 + 计划现场 + 24 小时"
+    },
+    {
+      "id": "secg-09",
+      "type": "edge_case",
+      "prompt": "我们的记录既为食品防护做，也为别的法规做，能不能适用 part 11 豁免？",
+      "expected_behavior": "**不能一概而论**。SECG V.D 原文：`Records that are established or maintained for the IA rule that meet the definition of electronic records in 21 CFR 11.3(b)(6) are exempt from the requirements of 21 CFR part 11`——但紧接着 `However, records that satisfy the requirements of 21 CFR 121, but that also are required under other applicable statutory provisions or regulations, remain subject to part 11.` [pdf-page 17] 即豁免**只覆盖为本 part 而建的记录**；一份记录同时受其他法源要求，仍须遵守 part 11。另：既有记录（如 ISO/HACCP 或其他法规记录）可复用或补充，只要含全部要求信息且满足本规则，**不必集中成单一记录集**〔§ 121.330〕。",
+      "notes": "边界：part 11 豁免边界 + 既有记录复用"
+    },
+    {
+      "id": "secg-10",
+      "type": "should_trigger",
+      "prompt": "谁有资格做脆弱性评估？外面的顾问可以吗？培训要做到什么程度？",
+      "expected_behavior": "**外部顾问可以**——SECG VII：`A qualified individual may be, but is not required to be, an employee of the establishment` [pdf-page 22]。但 Table 6 分四档：① APStep 岗位人员（含临时/季节工）须 qualified individual + **食品防护意识培训**；② 其主管同样须 qualified individual + 意识培训（提取件第三要点为空，须回原件核对，不得补写）；③ 负责 part 121 合规的主管须相应教育/培训/经验组合；④ **编制计划、做评估、识别与解释策略、再分析**的人，除 qualified individual 外，还须**成功完成 FDA 认可的标准化课程或同等工作经验**〔§ 121.4(c)(2)〕。培训记录须含日期、类型、受训人。",
+      "notes": "硬点：四档培训职责 + 外部顾问可做"
+    },
+    {
+      "id": "secg-11",
+      "type": "should_not_trigger",
+      "prompt": "我们采购时被人用低价原料以次充好，这属于食品防护（food defense）吗？",
+      "expected_behavior": "**不属于**。本卡的 `food defense` 定义以「**意图造成大规模公共卫生伤害**」为构成要件 [SECG VII，pdf-page 20]；为牟利掺杂（economically motivated adulteration，EMA）不满足这一要件，走 **CAP-06 食品欺诈**，法源与构成要件都不同。另外，食品防护也**不等于物理安保**：本规则不要求门禁、CCTV 或背景调查，装了监控但不能逐点书面评估仍不合规。若同一行为**同时**具备大规模伤害意图又涉过敏原蓄意投入，则 Part 121 与过敏原控制须**并列判定**，不是择一。",
+      "notes": "负例：EMA 走 CAP-06；食品防护 ≠ 物理安保"
+    },
+    {
+      "id": "secg-12",
+      "type": "should_not_trigger",
+      "prompt": "食品防护这块，FDA 检查员现场会问什么、用哪份问卷、怎么记观察项？",
+      "expected_behavior": "**不应据 CAP-36 回答**。CAP-36 只给企业义务与 FDA 的白话问答；检查员侧的取证问卷、PAC、CPGM/CP 作业口径属**检查员作业层**，转 **CAP-16 `inspection-readiness`**。⚠ 检查程序**不创设企业义务**：检查员看什么、怎么记、怎么分级，都不能反推成企业的法定义务；企业该做什么只看法规正文〔§ 121.xxx〕（CAP-32）与合同。另：〔§ 121.130〕脆弱性评估 ≠ 〔§ 117.130〕危害分析，不可互引，两套计划并存。",
+      "notes": "负例：检查员侧走 CAP-16；两套评估不可互引"
     }
   ],
   "minimum_pass_rate": 0.8,
