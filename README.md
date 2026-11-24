@@ -60,13 +60,21 @@ FDA 人类食品危害分析与基于风险的预防控制（PCHF / 21 CFR Part 
 cd ~/.workbuddy/skills/fda-pchf-food-safety
 MSYS_NO_PATHCONV=1 git sparse-checkout init --no-cone
 MSYS_NO_PATHCONV=1 git sparse-checkout set \
-  '/SKILL.md' '/README.md' '/test-prompts.json' '/.gitignore' '/references/'
+  '/SKILL.md' '/README.md' '/test-prompts.json' '/.gitignore' '/references/' '/scripts/'
 ```
 
-自检（**必须等于 1**）：
+**一条命令版**（推荐，clone 后先跑它）：
 
 ```bash
-find ~/.workbuddy/skills/fda-pchf-food-safety -name SKILL.md | wc -l
+bash scripts/install-sparse.sh          # 应用/刷新：工作树只留交付物
+bash scripts/install-sparse.sh --check  # 自检，不改动；SKILL.md 必须恰好 1 个
+bash scripts/install-sparse.sh --full   # 关闭 sparse，还原完整工作树（跑构建时用）
+```
+
+脚本幂等，`--full` 之后再跑默认模式即可收敛回 1 个 `SKILL.md`。等价自检：
+
+```bash
+find . -name SKILL.md -not -path './.git/*' | wc -l    # 必须等于 1
 ```
 
 > Git Bash 会把 `/SKILL.md` 当路径翻译成 `E:/Program Files/.../SKILL.md`，必须加 `MSYS_NO_PATHCONV=1`；
@@ -87,7 +95,7 @@ git -c http.sslVerify=false      push  origin HEAD:main    # 写
 
 `build_v4.19.py` 的验收条件是「产物与 `dist-v21` **57 个文件逐一 sha256 相等**」，它需要 `build/` 下的基线目录。sparse 状态下这些目录不在工作树里：
 
-- 要么 `git sparse-checkout disable`（嵌套 `SKILL.md` 会回来、重复技能随之上线），
+- 要么 `bash scripts/install-sparse.sh --full` / `git sparse-checkout disable`（嵌套 `SKILL.md` 会回来、重复技能随之上线），
 - 要么**另 clone 一份**专门跑构建（推荐）。
 
 ---
@@ -117,3 +125,4 @@ git -c http.sslVerify=false      push  origin HEAD:main    # 写
 - 能力索引：`references/capability-index.md`
 - 术语：`references/glossary.md`；速查：`references/cheatsheet.md`；规模与沿革：`references/overview.md`
 - 构建链决议：`.cangjie/README.md`、`_legacy/README.md`
+- 安装辅助脚本：`scripts/install-sparse.sh`
