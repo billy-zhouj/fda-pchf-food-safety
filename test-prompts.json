@@ -1,7 +1,7 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.19",
-  "source_book": "Hazard Analysis and Risk-Based Preventive Controls for Human Food: Guidance for Industry (Draft) + 21 CFR Part 117 (2025) 法规正文 + Control of Listeria monocytogenes in Ready-To-Eat Foods: Guidance for Industry (Draft, 2017-01) + IOM 2026 Chapter 6: Imports（FDA 内部 SOP，v4.17 增量，CAP-29） + 21 CFR Part 172: Food Additives Permitted for Direct Addition to Food for Human Consumption (eCFR 2026-11-05，v4.19 增量，CAP-31)",
+  "version": "4.20",
+  "source_book": "24 类来源，分三层。【法规正文 9 套】21 CFR Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。合计 24 类，对应 32 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
   "darwin_compatible": true,
   "test_cases": [
     {
@@ -1421,6 +1421,62 @@
       "prompt": "我们的包装膜里加了抗氧化剂，想确认这种从包装材料迁移到食品里的物质合规不合规；另外我们想把某物质认定为 GRAS，需要走什么程序？",
       "expected_behavior": "**不应**加载 CAP-31 / additives 子卡，也不应据 Part 172 反推结论。包装材料迁移物属**间接添加剂**（21 CFR Part 175–178 与 Part 174），GRAS 认定属 FD&C Act §201(s)/§409 豁免体系与 Part 182/184/186，添加剂请愿程序属 Part 170/171——**这些法源本包未收**，一律标「转引未收」，不得据本 part 反推其内容、不得把〔§ 172.xxx〕套到间接添加剂或 GRAS 上。若话题回到「某直接添加剂在成品食品中能不能用、限量多少」，才转 CAP-31。",
       "notes": "互斥负例：间接添加剂 / GRAS / 请愿程序属未收法源"
+    },
+    {
+      "id": "part121-01",
+      "type": "should_trigger",
+      "prompt": "我们是一个只做液体葡萄糖浆储存和转运的罐区，不做任何加工、也不贴标。客户问我们有没有 food defense plan，这个到底要不要做？",
+      "expected_behavior": "应激活 CAP-32 `intentional-adulteration-defense`。判定路径：〔§ 121.1〕的触发点是**§415 注册义务**（holding 也须注册），不是「有没有加工」；〔§ 121.5(b)〕`This part does not apply to the holding of food, except the holding of food in liquid storage tanks`——**holding 豁免明确排除液体储罐**，故仍受管辖，须建立含五要素的书面食品防护计划〔§ 121.126(b)〕。**不得**答「只做储存所以豁免」（漏掉 (b) 的例外），也不得与〔§ 121.5(c)〕的包装/贴标豁免（须「直接接触食品的容器保持完整」）混为一谈。",
+      "notes": "正面场景：管辖判定 + 液体储罐例外（最高频误答点）"
+    },
+    {
+      "id": "part121-02",
+      "type": "should_trigger",
+      "prompt": "FDA 问我们要脆弱性评估，我们写了一份，结论是「厂区风险低，有门禁和监控」。这样够不够？",
+      "expected_behavior": "不够。按〔§ 121.130(a)(1)–(3)〕必须**逐点**评估三要素：① 加入污染物后的公共卫生影响（`severity and scale`）；② 物理接近程度；③ 攻击者成功污染的能力。〔§ 121.130(b)〕另**强制**考虑内部人员（inside attacker）。门禁与监控是可能的缓解策略，**不是脆弱性评估本身**；把「有门禁」当评估结论，等于用控制措施替代了评估。且〔§ 121.130(c)〕`Regardless of the outcome` 要求对**每一个点、步骤、程序**双向书面说明是否构成 APStep，只写一句总体结论不满足书面义务。",
+      "notes": "正面场景：三要素 + 内部人员强制考量 + 逐点书面"
+    },
+    {
+      "id": "part121-03",
+      "type": "should_trigger",
+      "prompt": "我们已经有 HACCP 计划、CCP 也都定了，食品防护是不是直接把 CCP 抄过来当可采取行动的过程步骤就行？",
+      "expected_behavior": "不可以。APStep 的法定定义（〔§ 121.3〕）须**三条件同时成立**：该点存在显著脆弱性、该点可施加缓解策略、且该策略对显著最小化或预防该脆弱性**不可或缺**。CCP 针对**无意引入**的危害（〔§ 117.135〕，CAP-01/02），APStep 针对**蓄意**行为，两者判定链、记录与验证体系不同，不得互抄。某一点可能既是 CCP 又是 APStep，但须**分别举证**；把 CCP 清单直接改名为 APStep 清单，是结构性错误。",
+      "notes": "正面场景：APStep 三条件与 CCP 分流"
+    },
+    {
+      "id": "part121-04",
+      "type": "should_trigger",
+      "prompt": "我们的食品防护计划放在总部共享盘，工厂现场只留监控记录的电子版。FDA 来查，这样算合规吗？",
+      "expected_behavior": "不合规。〔§ 121.315(c)〕`Except for the food defense plan, offsite storage of records is permitted if such records can be retrieved and provided onsite within 24 hours` 且 `The food defense plan must remain onsite.`——**计划本身必须留现场**，其余记录可异地但须 24 小时内送达（长期停产另有〔§ 121.315(d)〕的转移与 24 小时送回）；电子记录若可从现场访问视为在场。另须提示：〔§ 121.305(g)〕的 part 11 豁免只覆盖「为满足本 part 而建立」的记录，同时受其他法源要求者仍适用 part 11。期限上注意两个 2 年对象不同（〔§ 121.315(a)(1)〕记录自制备起 2 年、〔§ 121.315(b)〕计划停用后 2 年）。",
+      "notes": "正面场景：记录地点、24 小时、part 11 豁免边界"
+    },
+    {
+      "id": "part121-05",
+      "type": "edge_case",
+      "prompt": "我们年销售额大概 800 万美元，是不是就不用做食品防护计划了？",
+      "expected_behavior": "不能直接答「不用」，须先算门槛。极小企业定义在〔§ 121.3〕：含**子公司与关联企业**在内、前 3 个日历年年均**人类食品销售额 + 未销售食品的市值**（如代持收费）合计 < 1,000 万美元（按通胀调整）。800 万只是销售额，须加上未销售部分市值、按 3 年均值、并合并关联企业；小企业另有 500 FTE 门槛，两个门槛不是一回事。即使符合极小企业，〔§ 121.5(a)〕仍要求**应官方要求提供证明文件并保存 2 年**。因此正确输出是「先按口径算，再给结论」，而非凭一个销售额数字下判断。",
+      "notes": "边界场景：豁免门槛的三要素（含未销售市值、3 年均值、关联企业）"
+    },
+    {
+      "id": "part121-06",
+      "type": "edge_case",
+      "prompt": "我们发现一个员工为了多拿加班费，故意把一批产品做成不合格再返工。这算不算 intentional adulteration？要不要按 Part 121 处理？",
+      "expected_behavior": "须分流，不得一刀切。〔§ 121.3〕`food defense` 的构成要件是 `intent to cause wide scale public health harm`——**意图 + 大规模**两项都不满足时，不落入 Part 121 的核心情形；但该行为仍构成 §402 掺假风险与内部威胁问题，须按 CAP-01（危害分析）、CAP-13（人员卫生与诚信）、CAP-06（经济欺诈/EMA 一侧）分别评估，并触发纠正措施与再分析讨论（〔§ 121.157(b)(3)〕仅在其确已属本 part 范围时适用）。正确输出是「分别说明两项要件的判断 + 分流到哪几张卡」，而不是「属 121」或「与 121 无关」。",
+      "notes": "边界场景：食品防护与 EMA/内部威胁的分水岭=意图+规模"
+    },
+    {
+      "id": "part121-07",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下 FDA 对食品防护的专项检查程序（CP）是怎么写的，检查员会重点查哪些、开 483 会怎么写？",
+      "expected_behavior": "**不应**据 CAP-32 反推检查动作。Part 121 是**法条义务层**，本包**未收食品防护专项 Compliance Program**，一律标「转引未收」。检查程序的一般框架（检查类型、取样、483 措辞纪律）分别归 CAP-16 / CAP-17 / CAP-18，但**不得把 Part 121 的条文改写成「检查员会怎么查」**，也不得虚构 CP 编号或 PART 结构。可回答的是「企业侧法定义务是什么、要留什么记录」，检查员侧口径须另行取得该 CP 原件。",
+      "notes": "负例：食品防护专项 CP 未收，不得从法条反推检查程序"
+    },
+    {
+      "id": "part121-08",
+      "type": "should_not_trigger",
+      "prompt": "我们 RTE 产品要做环境李斯特菌监测，供应商也得每年验证。这些是不是 Part 121 要求的？",
+      "expected_behavior": "不是。环境病原监测的义务出处在〔§ 117.165(a)(3)〕与 CAP-04 `environmental-pathogen-sanitation`；供应链验证在 Part 117 Subpart G 与 CAP-07 `supply-chain-verification`；Part 121 只管**蓄意掺假防护**。一个设施可能同时受 117 与 121 管辖，**两套计划并行不替代**，但把 117 的义务记到 121 名下（或反过来）属法源错置。若确有食品防护问题，再回 CAP-32。",
+      "notes": "负例：Part 117 义务不得记为 Part 121"
     }
   ],
   "minimum_pass_rate": 0.8,

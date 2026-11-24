@@ -19,7 +19,10 @@ backups/
 source-*.md
 BOOK_OVERVIEW.md
 PIPELINE_STATE.md
-GLOSSARY.md
+# 注意：Windows 下 gitignore 大小写不敏感，裸写 GLOSSARY.md 会连
+# references/glossary.md（交付物的一部分）一起忽略；故只排除书籍级产物并显式放回交付词典。
+books/**/GLOSSARY.md
+!references/glossary.md
 verified.md
 rejected/
 candidates/

@@ -397,3 +397,22 @@
 - **不可逐字引用区**：16 张重建表格的数值（词级坐标启发式重建，跨页续表与 `Do.` 行有归属歧义）、§172.510（366 行）/ §172.515（834 行）名录内部行、全部 IBR 引用的外部规格文件内容（FCC 页码、厂商方法、ATCC 菌株资料）。
 - **仍未收**：FD&C Act 全文、21 CFR Part 170（添加剂请愿程序）/ 171 / 175–178（间接添加剂）/ 180（临时许可）/ 182 / 184 / 186（GRAS）/ 102（通用名）/ 105（特殊膳食）、1 CFR part 51、FCC 各版正文、9 CFR 430.1、40 CFR 725.421(d)、AOAC / 厂商检测方法正文、ATCC 菌株资料。
 - **审计轨迹**：`E:/WeChatData/2026-11-09-15-05-22/books/cfr-part172-2026/`（BOOK_OVERVIEW / PIPELINE_STATE / source-cfr-part172-2026.md / candidates / verified.md / rejected / .cangjie/capabilities/{destinations.json,verified.yaml,cards} / GLOSSARY.md / test-results/phase4-cases.json），备份 `backups/fda-pchf-food-safety-v4.18-20261110-104537`。
+
+---
+
+## v4.20 追加：第二十四来源 21 CFR Part 121（蓄意掺假防护法规正文）
+
+> 本节是 v4.20 增量记录；上文各节的 v4.x 规模、「二十三类不可混引」与各版「仍未收」均为**历史口径**，保留不改。
+
+- **v4.20 规模**：**32 张主卡 + 10 张 imports 子卡 + 5 张 labeling 子卡 + 5 张 additives 子卡 / 327 条术语（YAML 块 t01–t327）/ 212 条测试用例 / 二十四类来源 / 九套法规编号**。
+- **第二十四来源**：**21 CFR Part 121《Mitigation Strategies to Protect Food Against Intentional Adulteration》**（eCFR 导出 PDF，`up to date as of 11/20/2026`，11 页 / **20 条款** / 5 Subpart（Subpart B 为 Reserved），页脚自述 `authoritative but unofficial`；SOURCE `81 FR 34219, May 27, 2016, unless otherwise noted`；Authority `21 U.S.C. 331, 342, 350g, 350(i), 371, 374`）。上位授权为 FD&C Act **§420**（FSMA §106 增订）。
+- **新增 CAP-32 `intentional-adulteration-defense`**（**单卡，不拆子卡**：20 条款体量远小于 Part 172 的 154 条，判定链单一，拆子卡只会分散路由）。
+- **补齐的是「整块法规缺席且未声明」的缺口**：v4.19 及以前全包对 Part 121 的命中为 **0**——`Part 121`、`intentional adulteration`、`mitigation strateg`、`脆弱性`、`vulnerability`、`insider`、`actionable process step`、`食品防护`、`蓄意` 均无任何出现，且边界段也**未登记为「转引未收」**。这比「声明未收」更危险：技能会硬答而不说超出范围。
+- **本件的方法层核心**：Part 121 与 Part 117 **条款编号结构同构、判定对象相反**（121.126↔117.126 计划、121.130↔117.130 评估、121.135↔117.135 控制、121.138↔117.135(c)/140 管理组件、121.140↔117.145 监控、121.145↔117.150 纠正、121.150↔117.165 验证、121.157↔117.170 再分析、121.301–330↔117.3xx 记录、121.401↔117.1 合规）。正因编号相近，最危险的错误是**按编号类推**；本卡的处理是强制按判据差异记忆：117 问「危害是否显著」，121 问「**脆弱性**是否显著」。
+- **六类实质纠偏**：① **食品防护 ≠ 食品欺诈（EMA）**——EMA 以牟利为目的、不要求造成大规模公共卫生危害，归 CAP-06，条款号绝不可互引；② **〔§ 121.5(b)〕holding 豁免不含液体储罐**——只做储存的罐区仍受管辖，最高频误答；③ **〔§ 121.130(c)〕`Regardless of the outcome`**——每个点/步骤/程序都要双向书面说明，判 No 留空等于未评估；④ **〔§ 121.305(g)〕part 11 是豁免不是禁止**，且只覆盖「为满足本 part 而建立」的记录，同时受其他法源要求者仍适用；⑤ **两个 2 年、两个 3 年对象不同**（记录 2 年 vs 计划停用后 2 年；再分析 3 年 vs 极小企业销售窗口 3 年）；⑥ **〔§ 121.401〕两个钩子按原文形态引用**——(a) 引 §418/§301(uu)、(b) 引 §420/§301(ww)，本卡不推断是否笔误，执法申辩场景引用前须回 eCFR 与 FD&C Act 核对。
+- **二十四类不可混引（v4.20 口径）**：在二十三类之外增加 21 CFR Part 121 法规正文。层次仍为：法规正文（**九套编号**〔§ 101 / 108 / 113 / 114 / 117 / 120 / 121 / 123 / 172.xxx〕）＞ FDA 指南（should 建议层）＞ CPGM / CP / IOM 检查程序（检查员视角、不创设企业义务）。
+- **抽取与自检**：源件为用户提供的 eCFR 导出 PDF（`G://下载//21 CFR Part 121 (up to date as of 11-20-2026).pdf`，131 KB / 11 页），用 pdf-inspector v1.27.0 提取（`TextBased`，confidence 1.00，`pagesNeedingOcr` 为空），按「去页眉页脚 `page N of 11` + 去 `<u>` 标记 + 压空白」归一化后核验：卡片 **20 段引文块 / 24 个可核片段，24/24 逐字命中，0 未命中**（4 段过短片段跳过）；条款覆盖 **20/20**（121.1、121.3、121.4、121.5、121.126、121.130、121.135、121.138、121.140、121.145、121.150、121.157、121.301、121.305、121.310、121.315、121.320、121.325、121.330、121.401）。
+- **不可逐字引用区**：本件无表格、无 IBR 外部文件；唯一需谨慎处是 §121.401 的交叉引用形态（见纠偏⑥）。
+- **仍未收**：FDA Food Defense Plan Builder 工具、Mitigation Strategies 相关指南文件、CARVER + Shock 等方法学、DHS 风险评估内容、食品防护专项检查程序（CP）、21 CFR 1 subpart H（注册）与 FD&C Act §420/§301(ww) 正文、CPG 全套、Import Alert 全文、IOM Chapter 2/3/7/8/9/10、BAM 方法全文、part 110、part 1 subpart L。
+- **测试**：新增 8 条用例（4 `should_trigger` / 2 `edge_case` / 2 `should_not_trigger`），钉住液体储罐例外、三要素与内部人员、APStep≠CCP、计划须留现场与 24 小时、极小企业三要素口径、EMA 分流，以及两条负例（专项 CP 未收、Part 117 义务不得记为 121）。
+- **审计轨迹**：源件 `G://下载//21 CFR Part 121 (up to date as of 11-20-2026).pdf`；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/part121/part121.md`（232 行）；核验脚本口径见上条。
