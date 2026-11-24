@@ -4330,7 +4330,117 @@
   - v4.23
   - SECG
   - 指南建议层
-  - 培训资格
+- id: t367
+  title: Key Activity Types (KATs) / 关键活动类型
+  type: term
+  source_chapter: Revised Draft Guidance III.B / Ch.2.D [pdf-page 13]
+  source_quote: |
+    "The four KATs are: bulk liquid receiving and loading, liquid storage and handling, secondary ingredient handling, and mixing and similar activities."
+
+  summary: "**四类**（不是七类），源于 FDA 对 50 余次 VA 的分析；落入一类或多类即 actionable process step，不落入即无需缓解策略。与 CAP-38 FDMSD 的**七大类**是两套分类，不可混答。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - KATs
+  - CAP-37/r/n/r/n- id: t368
+  title: KATs 已内含三要素
+  type: term
+  source_chapter: Revised Draft Guidance Ch.2.F [pdf-page 35]
+  source_quote: |
+    "Note that if you are using KATs to conduct a VA, you do not need to separately consider the three fundamental elements because they are already incorporated into the KAT approach."
+
+  summary: "用 KATs 做评估就**不必**再逐点单独打三要素分；只有 Hybrid 才对部分步骤深挖。把 KATs 与三要素叠加成双重评估是重复劳动。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - VA method
+  - CAP-37/r/n/r/n- id: t369
+  title: inside attacker（内部攻击者）
+  type: term
+  source_chapter: Revised Draft Guidance Ch.2.F.1.a [pdf-page 36]
+  source_quote: |
+    "Failing to consider the possibility of an inside attacker likely would lead to artificially low scores for each of the fundamental elements and adversely affect identification of significant vulnerabilities."
+
+  summary: "每个要素都须考虑内部人员可能性；漏评会整体压低分数并漏判显著脆弱性。写「不适用」直接不成立（法条在〔§ 121.130(b)〕）。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - inside attacker
+  - CAP-37/r/n/r/n- id: t370
+  title: 14-25 灰区（sum score）
+  type: term
+  source_chapter: Revised Draft Guidance Ch.2.G.1 [pdf-page 59]
+  source_quote: |
+    "When a process step sum score is within 14-25, whether significant vulnerabilities are present depends on the nature of the vulnerability at the process step under evaluation and the contribution of each of the three elements in each case."
+
+  summary: "≥26 预期显著、≤13 预期非显著、14–25 须逐案逐要素解释——全部出自**草案表格**，法规〔§ 121.130〕没有任何分数阈值。灰区是解释最详细的区间。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - 评分非法规
+  - CAP-37/r/n/r/n- id: t371
+  title: hybrid approach（混合方法）
+  type: term
+  source_chapter: Revised Draft Guidance Ch.2.H [pdf-page 64]
+  source_quote: |
+    "In the hybrid approach, a facility first assesses each point, step, or procedure to identify steps that fit within any of the four key activity types."
+
+  summary: "[New March 2019]：先用 KATs 快筛，再对需进一步判断的步骤用三要素深挖；不是两套结果取并集，**可能比纯 KAT 识别出更少的 APStep**。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - hybrid
+  - CAP-37/r/n/r/n- id: t372
+  title: existing measures（既有措施）
+  type: term
+  source_chapter: Revised Draft Guidance Ch.3.E [pdf-page 76]
+  source_quote: |
+    "Generally, such measures are not, by nature, inherent characteristics of the process step's operation and the VA should not consider these practices when identifying whether the process step is an actionable process step."
+
+  summary: "因质量/工安而设、非工艺固有的措施在 VA 阶段**不纳入**，留到策略阶段评估；若依赖其降低脆弱性，须识别为缓解策略并配管理组件。与 inherent characteristics 方向相反。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - existing measures
+  - CAP-37/r/n/r/n- id: t373
+  title: exception records（例外记录）
+  type: term
+  source_chapter: Revised Draft Guidance Ch.4.F [pdf-page 93]
+  source_quote: |
+    "In some cases, you can document monitoring of a mitigation strategy with a record of when the mitigation strategy is not functioning, or operating, as intended."
+
+  summary: "只在**部分情形**可用：自动化持续监控、人员持续看守可行；静态且非持续的措施（如罐口锁）须肯定记录。不可把例外记录当普适减负。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - exception records
+  - CAP-37/r/n/r/n- id: t374
+  title: food defense corrective actions（食品防御纠正措施）
+  type: term
+  source_chapter: Supplemental Draft Guidance Ch.5.C [pdf-page 5]
+  source_quote: |
+    "Corrective actions are taken after food defense monitoring or verification determines that a mitigation strategy is not operating as intended."
+
+  summary: "由监控**或**验证判定策略未按预期运行触发；两层目标是纠正已发生问题 + 必要时降低复发。**不承担** PCHF〔§ 117.150(a)(2)(iii)(iv)〕的全部受影响食品评估与拦截义务。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - corrective actions
+  - CAP-38/r/n/r/n- id: t375
+  title: food defense verification（食品防御验证）
+  type: term
+  source_chapter: Supplemental Draft Guidance Ch.6.C.3 [pdf-page 17]
+  source_quote: |
+    "You must verify that mitigation strategies are properly implemented and are significantly minimizing or preventing the significant vulnerabilities. (21 CFR 121.150(a)(3))."
+
+  summary: "四类验证活动之一，要求最高：须记录审查**加**其他适当活动；用 (a)(3)(ii) 其他验证活动须有含频次的书面程序并写进 FDP〔§ 121.150(b)〕。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - verification
+  - CAP-38/r/n/r/n- id: t376
+  title: FDMSD（食品防御缓解策略数据库）
+  type: term
+  source_chapter: Supplemental Draft Guidance App.2 [pdf-page 44]
+  source_quote: |
+    "The FDMSD is intended as a starting point for facilities to consider when identifying potential mitigation strategies. Facilities can customize and tailor strategies listed in the FDMSD to apply to their specific circumstances. Use of the FDMSD is voluntary."
+
+  summary: "**自愿使用**、只是起点、可定制、非穷尽清单；七大类（含 KAT）× 42 条策略。KAT 类下无 points/steps/procedures，与 CAP-37 的四类 KATs 不可混答。"
+  tags:/r/n  - v4.24
+  - 草案建议层
+  - FDMSD
+  - CAP-38/r/n/r/n  - 培训资格
 
 ```
 
@@ -4339,7 +4449,7 @@
 - [x] 全部条目回 source.md 原文核验（Introduction III.A 150–372 行、III.B 374–610 行、Ch3 3278–3400 行、Ch4/6/11/14/15/16 及 Appendix 3 18790–18845 行）
 - [x] 区分法定定义（21 CFR 117.3）与指南自定义（III.B / 各章 Terms 表）——用 tags 标注
 - [x] 不做筛选：三层级 hazard 词族、五类预防控制、管理组件、过敏原、供应链、化学、召回、酸化、卫生全覆盖
-- [x] 110 条（原始 84 条 + 21 CFR Part 117 增量 1 条 + L.mono 指南 XIX Glossary 增量 15 条 + SECG 增量 10 条；按"宁错杀"原则超额收录，多为同一词条的法定/自定义双轨或成对辨析条目）
+- [x] 130 条（原始 84 条 + 21 CFR Part 117 增量 1 条 + L.mono 指南 XIX Glossary 增量 15 条 + SECG 增量 10 条 + v4.24 IA 两份草案增量 10 条 t367–t376；按"宁错杀"原则超额收录，多为同一词条的法定/自定义双轨或成对辨析条目）
 - [x] 第三来源《Control of Listeria monocytogenes in RTE Foods (Draft, 2017-01)》术语 t86–t100 已并入；t64 与 t98 为同源词条的通用定义/专项精确定义双轨，已互链；harborage site / lethality treatment / operating limits / prerequisite programs / cleaning-sanitize / correction / validation / verification / FSP 等已有等价条目，不重复新增 id
 - [x] 第四来源 FDA《Small Entity Compliance Guide》(2016-10) 术语 t101–t106 已并入；SECG 章节号与〔§ 117.xxx〕分列标注，四层效力栈见 cgmp-compliance-guide 卡；allergen cross-contact 已有既有条目，不重复新增 id
 - [x] SECG 三处已知简化（供应商强制现场审核、qualified facility 双向通知、撤销豁免完整程序）与 § 117.5(k) 五类不适用情形已补为 t107–t110，均标注 SECG 未展开之处
@@ -4547,7 +4657,7 @@
 
 ## v4.23 增量术语 — FDA 21 CFR Part 121 IA rule SECG（2017-08，t357–t366）
 
-> 本段收 10 条最易造成效力层、门槛或资格错判的词条，已并入上方 YAML 块（t357–t366，全表 366 条）。这些定义是 Part 121 的**法规正文定义**（SECG VII 章逐字重印），但本卡的引文来自**指南建议层**；引用时应回指〔§ 121.3〕，并写明指南出处。[pdf-page N] 采用本件 0-based 提取件标记（封面 0、正文自 3 起）。
+> 本段收 10 条最易造成效力层、门槛或资格错判的词条，已并入上方 YAML 块（t357–t366 / t367–t376，全表 376 条）。这些定义是 Part 121 的**法规正文定义**（SECG VII 章逐字重印），但本卡的引文来自**指南建议层**；引用时应回指〔§ 121.3〕，并写明指南出处。[pdf-page N] 采用本件 0-based 提取件标记（封面 0、正文自 3 起）。
 
 | 术语 | 条款 / SECG 章 | 浓缩释义 | 常见误读 |
 |---|---|---|---|
@@ -4563,3 +4673,9 @@
 | qualified individual | §121.3 / VI / VII | 按职责匹配教育/培训/经验；可非雇员；四档培训职责 | 简化成「大家都培训一下」；以为外部顾问不能做 |
 
 > 另有两个高频词未单列词条但必须记准：**food defense monitoring**（按计划的观察/测量序列，评估策略是否按预期运行，记录可肯定可例外）与 **food defense verification**（监控之外的评价，四项含再分析验证；若用 §121.150(a)(3)(ii) 其他活动，须有含频次的书面程序）。完整 10 条见上方 YAML 块 t357–t366；本部分术语为「判读用语」，不作法规原文逐字引用（引文块内为逐字原文）。
+
+## v4.24 增量术语 — FDA IA 两份指南草案（2019-03 / 2020-02，t367–t376）
+
+> 本段收 10 条最易造成方法层/效力层错判的词条，已并入上方 YAML 块（t367–t376，全表 376 条）。两份文件均为 `Draft—Not for Implementation` 草案，引用写 `Revised Draft Guidance 章.节 [pdf-page N]` / `Supplemental Draft Guidance 章.节 [pdf-page N]`，**不得当 FDA 最终定论或合规依据**；法条仍回指〔§ 121.xxx〕（CAP-32）。10/10 逐字命中且页码一致。
+
+> 高频但未单列：**sum score ≥26 / ≤13 / 14–25**（全部是草案工具，法规无分数阈值）、**penetration audit**（可同时满足 §121.150(a)(1)(a)(2)(a)(3)，但程序与频率必须书面写进 FDP）、**$11,011,028**（$10M 在 2018 年的通胀调整示例值，每年变化）。

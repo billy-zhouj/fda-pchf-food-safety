@@ -1,7 +1,7 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.23",
-  "source_book": "28 类来源，分三层。【法规正文 12 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 1 Subpart O（卫生运输，§§1.900–1.934，eCFR 2026-11-20，v4.22 增量，CAP-35）、Part 1 Subpart S（食品追溯记录，§§1.1300–1.1465，eCFR 2026-11-20，v4.22 增量，CAP-34）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 7 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）、21 CFR Part 121 IA rule SECG（2017-08，Docket FDA-2013-N-1425，v4.23 增量，CAP-36）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。⚠ 21 CFR Part 1 三套 subpart（L / O / S）同属一部 Part、编号连续但分属不同 Subpart，引用必须带 subpart 归属，不得只说「part 1」。合计 28 类，对应 36 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
+  "version": "4.24",
+  "source_book": "30 类来源，分三层。【法规正文 12 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 1 Subpart O（卫生运输，§§1.900–1.934，eCFR 2026-11-20，v4.22 增量，CAP-35）、Part 1 Subpart S（食品追溯记录，§§1.1300–1.1465，eCFR 2026-11-20，v4.22 增量，CAP-34）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 7 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）、21 CFR Part 121 IA rule SECG（2017-08，Docket FDA-2013-N-1425，v4.23 增量，CAP-36）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。⚠ 21 CFR Part 1 三套 subpart（L / O / S）同属一部 Part、编号连续但分属不同 Subpart，引用必须带 subpart 归属，不得只说「part 1」。合计 28 类，对应 36 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。 v4.24 新增第二十九、三十来源：FDA IA 指南草案 2019-03 Revised Draft Guidance 与 2020-02 Supplemental Draft Guidance（同一 docket FDA-2018-D-1398，均为 Draft—Not for Implementation，指南层第 8/9 类草案子类，CAP-37/CAP-38）。",
   "darwin_compatible": true,
   "test_cases": [
     {
@@ -1750,6 +1750,76 @@
       "prompt": "食品防护这块，FDA 检查员现场会问什么、用哪份问卷、怎么记观察项？",
       "expected_behavior": "**不应据 CAP-36 回答**。CAP-36 只给企业义务与 FDA 的白话问答；检查员侧的取证问卷、PAC、CPGM/CP 作业口径属**检查员作业层**，转 **CAP-16 `inspection-readiness`**。⚠ 检查程序**不创设企业义务**：检查员看什么、怎么记、怎么分级，都不能反推成企业的法定义务；企业该做什么只看法规正文〔§ 121.xxx〕（CAP-32）与合同。另：〔§ 121.130〕脆弱性评估 ≠ 〔§ 117.130〕危害分析，不可互引，两套计划并存。",
       "notes": "负例：检查员侧走 CAP-16；两套评估不可互引"
+    },
+    {
+      "id": "draft-01",
+      "type": "should_trigger",
+      "prompt": "我们做食品防护脆弱性评估，FDA  recommended 的 KATs 到底有几类？是不是七类？",
+      "expected_behavior": "应激活本技能并加载 `intentional-adulteration-draft-2019` 卡（CAP-37）。**四类**，不是七类：`bulk liquid receiving and loading`、`liquid storage and handling`、`secondary ingredient handling`、`mixing and similar activities`（Revised Draft Guidance III.B / Ch.2.D [pdf-page 13]），源于 FDA 对 **over 50 次 VA** 的分析。七类若是把 CAP-38 FDMSD 的七大类（Conveyance / Material Handling / Packaging / Processing / Storage / Transportation-Distribution / KAT）误搬过来；两套分类不可混答。落入任一 KAT 即 actionable process step，不落入即无需缓解策略，但仍须书面留痕。",
+      "notes": "硬点：KATs 四类 vs FDMSD 七类；落入即 APStep"
+    },
+    {
+      "id": "draft-02",
+      "type": "should_trigger",
+      "prompt": "脆弱性评估三要素打分，26 分是不是 FDA 规定的显著脆弱性门槛？",
+      "expected_behavior": "应激活 CAP-37。**不是法规数字**。`≥26` 预期存在显著脆弱性、`≤13` 预期不存在、`14–25` 灰区逐案逐要素判断（Ch.2.G.1 [pdf-page 59]）；`1/3/5/8/10` 五档、`top 20–25%`、`40 mg/serving`、`85 kg` 全部是 2019-03 草案里的 FDA 可选工具与示例。法规〔§ 121.130〕只要求评三要素（公共卫生影响含 scale / 物理接近 / 攻击者成功污染能力）并强制考虑内部人员，**没有任何分数阈值**。写成「FDA 规定 26 分以上算显著」是实质错误。",
+      "notes": "硬点：评分阈值非法规；法规只给三要素 + 内部人员"
+    },
+    {
+      "id": "draft-03",
+      "type": "edge_case",
+      "prompt": "我们先用 KATs 筛了一遍，是不是还要对每个点再逐项打三要素分？",
+      "expected_behavior": "应激活 CAP-37 并明确**不必**。原文：`Note that if you are using KATs to conduct a VA, you do not need to separately consider the three fundamental elements because they are already incorporated into the KAT approach.`（Ch.2.F [pdf-page 35]）。只有走 **Hybrid**（先用 KATs 快筛、再对落入 KAT 且因固有特征需进一步判断的步骤用三要素深挖）才做第二轮，且 Hybrid **可能比纯 KAT 识别出更少的 APStep**——不是两套结果取并集。逐点双向书面解释〔§ 121.130(c)〕仍不可省。",
+      "notes": "硬点：KATs 内含三要素；Hybrid 不是取并集"
+    },
+    {
+      "id": "draft-04",
+      "type": "edge_case",
+      "prompt": "罐口装了锁，这个点是不是就可以从 APStep 名单里删掉了？",
+      "expected_behavior": "**不能**。CAP-37 Ch.3.E [pdf-page 78]：`Actionable process steps identified through a VA do not cease to become actionable process steps just because they are protected with mitigation strategies.` 策略只是降低脆弱性，不改变 APStep 身份。另外要注意阶段分工：**固有特征**（封闭设备、高速输送）参与 VA 打分；**既有措施**（因质量/工安而设的资深员工定点、特殊工服、铅封）在 VA 阶段**不纳入**，留到策略阶段评估；若依赖其降低脆弱性，须识别为缓解策略并配齐管理组件。全厂围栏/门禁默认也不算策略。",
+      "notes": "硬点：上锁仍是 APStep；固有特征 vs 既有措施方向相反"
+    },
+    {
+      "id": "draft-05",
+      "type": "should_trigger",
+      "prompt": "监控发现策略没执行，要不要像 PCHF 那样评估并拦截全部受影响食品？",
+      "expected_behavior": "应激活 CAP-38（CAP-37 上册标 coming soon）。**不承担** PCHF〔§ 117.150(a)(2)(iii)(iv)〕的全部受影响食品评估与拦截义务：原文 `your corrective actions procedures do not need to ensure that all affected food is evaluated for safety and that all affected food is prevented from entering into commerce...`（Ch.5.B [pdf-page 5]）。理由：IA 事件须「策略未正确实施的机会 + 有意图的内部攻击者」并存，多数实施失败不会导致掺假。两层目标是**纠正已发生问题 + 必要时降低复发**；怀疑污染或 root cause 无法确定时立即上报（通常在意识培训中讲授）。",
+      "notes": "硬点：食品防御纠正 ≠ PCHF 纠正；与 CAP-02 分流"
+    },
+    {
+      "id": "draft-06",
+      "type": "edge_case",
+      "prompt": "用 penetration audit 代替记录审查，还需要写程序吗？",
+      "expected_behavior": "应激活 CAP-38。penetration audit 可**同时满足** §121.150(a)(1)(a)(2)(a)(3)、免做记录审查，但**程序与频率必须书面写进 FDP**（对应 (a)(3)(ii) 与 §121.150(b)）。反过来，若选记录审查路线，把频率写进 FDP 只是 FDA 建议而非法定要求。验证共四类：验证监控在实施 / 验证纠正决策适当 / 验证策略正确实施并显著最小化 / 验证再分析已发生；(a)(3) 须记录审查**加**其他适当活动。IA 验证不含 validation、calibration、product testing、environmental monitoring。",
+      "notes": "硬点：penetration audit 一鱼三吃；含频次书面程序不可省"
+    },
+    {
+      "id": "draft-07",
+      "type": "should_trigger",
+      "prompt": "我们上个月做过一次部分再分析，3 年时钟是不是重新起算？",
+      "expected_behavior": "**不重启**。CAP-38 Ch.7.B.1 [pdf-page 31]：`Note that a reanalysis that does not include the entire FDP does not restart the three-year time period.` 再分析触发是「1 个 3 年整体周期 + 4 类情境」（重大变更 / 新信息 / 实施不当 / FDA 要求）；下次整体再分析仍须涵盖此前部分分析过的部分。变更类须在**生效前**完成，生产后情形必要时 **90 日历日**内；超期须合理且备书面理由，`「无需修订」`也要书面记录依据。",
+      "notes": "硬点：1+4 触发；部分再分析不重启 3 年时钟"
+    },
+    {
+      "id": "draft-08",
+      "type": "should_trigger",
+      "prompt": "FDA 那个缓解策略数据库里的措施能直接抄进计划吗？规模判定是按服务费算吗？",
+      "expected_behavior": "应激活 CAP-38 两处：**FDMSD 自愿使用、只是起点、可定制、非穷尽清单**（七大类 × 42 条策略，KAT 类下无 points/steps/procedures）；规模判定 very small business 是 <$10,000,000，**3 年均值 + 通胀调整 + 未销售人类食品市值**，`Use the value of the food, not the fee for the service`（App.3.B.7 [pdf-page 59]）；含子公司/关联方、含出口与 USDA 肉制品、排除动物食品。`$11,011,028` 只是 **2018 年**的通胀调整示例值，每年变化；`$250,000` 全文零命中，属 Parts 117/507 语境；small business <500 FTE 是另一套分档。",
+      "notes": "硬点：FDMSD 自愿；市值按食品价值非服务费；示例值非现行门槛"
+    },
+    {
+      "id": "draft-09",
+      "type": "should_not_trigger",
+      "prompt": "我们采购时为省钱掺了便宜原料，按 KATs 的「次级配料处理」做食品防护评估就行了吧？",
+      "expected_behavior": "**不属于 food defense**。KATs 服务于〔§ 121.130〕的脆弱性评估，而 Part 121 以 `intent to cause wide scale public health harm`（造成大规模公共卫生伤害的意图）为构成要件；为牟利掺杂（EMA）无此意图，走 **CAP-06 食品欺诈**，法源与构成要件都不同。另：食品防护也不等于物理安保，装了门禁/CCTV 但不能逐点书面评估仍不合规。〔§ 121.130〕脆弱性评估 ≠〔§ 117.130〕危害分析，两套计划并存。",
+      "notes": "负例：EMA 走 CAP-06；食品防护 ≠ 物理安保；两套评估不可互引"
+    },
+    {
+      "id": "draft-10",
+      "type": "should_not_trigger",
+      "prompt": "这两份 2019/2020 草案就是现行合规依据吧？检查员现场按哪条判我们不符合？",
+      "expected_behavior": "**都不是**。两份均为 `Draft—Not for Implementation` 的**草案建议层**（2019-03 Revised Draft Guidance / 2020-02 Supplemental Draft Guidance，同 docket FDA-2018-D-1398），效力低于 2017-08 SECG 最终指南；IA 三层资料链冲突裁定顺序为 CAP-32〔§ 121.xxx〕法条 ＞ CAP-36 SECG 最终指南 ＞ CAP-37/CAP-38 草案。检查员侧的取证问卷、PAC、CPGM/CP 作业口径属**检查员作业层**，转 **CAP-16 `inspection-readiness`**，且检查程序不创设企业义务。文件名 `2016-436...061418.pdf` 实为 2019-03 修订草案，须以封面为准。",
+      "notes": "负例：草案非现行依据；检查员侧走 CAP-16；文件名年份错位"
     }
   ],
   "minimum_pass_rate": 0.8,

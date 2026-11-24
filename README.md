@@ -12,11 +12,11 @@ FDA 人类食品危害分析与基于风险的预防控制（PCHF / 21 CFR Part 
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v4.23** |
-| 能力卡 | **36 张主卡** + 20 张子卡（imports 10 / labeling 5 / additives 5） |
-| 术语 | **366 条**（YAML 块 t01–t366） |
-| 测试用例 | **251 条**（`test-prompts.json`，version 4.23） |
-| 来源类数 | **28 类**（法规正文 12 套 + FDA 指南 7 类 + 检查程序与内部作业 9 类） |
+| 版本 | **v4.24** |
+| 能力卡 | **38 张主卡** + 20 张子卡（imports 10 / labeling 5 / additives 5） |
+| 术语 | **376 条**（YAML 块 t01–t376） |
+| 测试用例 | **261 条**（`test-prompts.json`，version 4.24） |
+| 来源类数 | **30 类**（法规正文 12 套 + FDA 指南 9 类（含 2 类草案） + 检查程序与内部作业 9 类） |
 | 法规编号 | **12 套**独立编号，见 `SKILL.md` 原则 37 |
 
 `SKILL.md` 的 `metadata.cangjie.capability-count` 必须与主卡数一致，提交前核对。
