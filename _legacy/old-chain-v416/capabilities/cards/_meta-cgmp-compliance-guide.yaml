@@ -1,0 +1,44 @@
+slug: cgmp-compliance-guide
+title: cGMP 合规分诊与内审索引
+importance: extended
+importance_rationale: cGMP 是 Part 117 的底层通用义务，覆盖所有注册设施且无规模豁免；但此前全包只把它当法定义务锚点，缺少「找哪份文件、按什么效力层级读、九条逐条看什么」的判定层。SECG 作为 FDA 官方白话版规则说明补上这一层，属高频入口型问题，场景频率中等偏高、与多张执行层卡交叉，故定 extended。
+one_liner: 合规判定基准是法规不是指南；先按主体身份分流文件效力，再用「条款—法规结果义务—现场观察点」三列索引逐条取证，SECG 只作白话转述、不创设义务。
+intents:
+  - 回答 cGMP 合规有没有官方指南、该看哪份文件、各类资料效力如何分层
+  - 组织 cGMP 内审或迎检准备，按 Subpart B 九条逐条建 GAP 清单与取证要点
+  - 判断一份 FDA 指南里的 should/recommend 对自己是不是必须做，以及能否采用替代方案
+  - 区分 cGMP 与 PCHF 的分层关系，处理「有 FSP / 有 HACCP / 属豁免主体」时是否仍受 Subpart B 约束
+  - 识别 cGMP 失守的法律定性（adulterated）与不遵守 C–G 分部的 prohibited act 两条不同执法钩子
+  - 核对 SECG 事实口径（2016-10、80 FR 55907 与 56145 的关系、合规日期已过期）
+  - 判定 pH 4.6 / a_w 0.85 与 pH ≤ 4.4 / a_w ≤ 0.92 两套基准的用途与不可互替性
+keywords:
+  - cGMP
+  - CGMP
+  - Subpart B
+  - Small Entity Compliance Guide
+  - SECG
+  - 合规指南
+  - 内审
+  - GAP
+  - 迎检
+  - adequate
+  - current thinking
+  - alternative approach
+  - "117.10"
+  - "117.20"
+  - "117.35"
+  - "117.37"
+  - "117.40"
+  - "117.80"
+  - "117.93"
+  - "117.95"
+  - "117.110"
+  - "117.3"
+  - "80 FR 55907"
+  - "80 FR 56145"
+  - cross-contact
+  - adulterated
+  - "402(a)(3)"
+  - "402(a)(4)"
+member_units: []
+source_label: FDA SECG 2016-10 + 21 CFR Part 117 法规正文 + 本包交叉卡

@@ -1,0 +1,634 @@
+{
+  "suite_id": "fda-pchf-v4-7-trigger-v2",
+  "target": "fda-pchf-food-safety",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "should-trigger-01",
+      "prompt": "我们工厂要上一条新的坚果烘焙产线，帮我做一份危害分析，面粉和花生酱里有什么潜在危害、哪些需要设预防控制？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-02",
+      "prompt": "我们的 RTE 冷藏汤在灌装前会暴露在车间环境里，危害分析说李斯特菌需要控制，除了杀菌还应该做什么？环境监测要不要做？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-03",
+      "prompt": "我们要从两家供应商采购用于无奶饼干的焦糖豆，一家专线一家共线，批准时分别要做哪些验证活动、每年现场审核能不能免？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-04",
+      "prompt": "生产中发现贴错标签了，什么情况下算 correction 不用走完整纠正措施程序？已贴到产品上的呢？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-05",
+      "prompt": "我们的沙拉酱要跟含花生的酱料共用一条产线，排产顺序怎么排、换产时要做什么清洁、验证用什么检测？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-06",
+      "prompt": "婴儿米粉用的米糠里无机砷偏高，这种化学危害应该走供应链控制还是厂内工艺控制？铅镉砷要分别怎么判？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-07",
+      "prompt": "热处理烤箱杀沙门氏菌，工艺是 350°F 烤 13 分钟，这个关键限值怎么验证才有效？监控要监控哪些参数、多久一次？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-08",
+      "prompt": "如果我们的产品确认了沙门氏菌污染要召回，召回计划必须包含什么、什么时候必须 24 小时内通知 FDA？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-09",
+      "prompt": "我们的莎莎酱是酸化食品，pH 4.3，FDA 的 PCHF 和酸化食品法规 21 CFR 114 的要求怎么对应？哪些是 114 特有的？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-trigger-10",
+      "prompt": "附录 1 危害表里我们这类产品标了 B. cereus，但我们只是做干混料不水合，能判 No 吗？依据怎么写？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-not-trigger-01",
+      "prompt": "我们要出口水产品到美国，帮我把 HACCP 计划里的组胺控制点设计一下",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-not-trigger-02",
+      "prompt": "帮我对标 GB 14881 和 GB 31654，检查我们工厂的卫生规范合规差距清单",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-not-trigger-03",
+      "prompt": "我们是 USDA FSIS 注册的禽肉屠宰厂，沙门氏菌限量执行标准帮我梳理一下",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "should-not-trigger-04",
+      "prompt": "我们的饼干卖相不好，包装机经常把饼干压碎，帮我看看设备哪里要改",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "edge-01",
+      "prompt": "我们的鹰嘴豆泥用了 ROP 包装延长货架期，产品酸度不高，这样安全吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "edge-02",
+      "prompt": "供应商的达规-may contain 奶声明，我们的饼干产品里本来就有奶粉，标签还要加 may contain 吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-trigger-01",
+      "prompt": "我们厂是 qualified facility，刚收到 FDA 的豁免撤销令，15 天内要答复，我们该走上诉还是直接整改？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-trigger-02",
+      "prompt": "我们销售额 60 万美元，但主要卖给本州的超市，FDA 说我们不够格当 qualified facility，为什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-trigger-03",
+      "prompt": "我们的环境监测方案点位是不是不够？法规对环境监测程序有什么法定要求？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-trigger-04",
+      "prompt": "客户要求我们提供书面保证，说他们就不用自己做供应商验证了，这个保证有什么法定格式要求吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-trigger-05",
+      "prompt": "监管记录审查的时候，我们能把记录放在总部，24 小时内送回来行不行？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-edge-03",
+      "prompt": "我们做酸化的泡菜，pH 测 4.5，但货架期会不会回升？法规怎么要求？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "cfr-edge-04",
+      "prompt": "我们厂去年做过一次环境监测，李斯特菌阳性，还能出货吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "term-rename-01",
+      "prompt": "我们的热处理关键限值怎么定才合规？法规里 process control 这一类预防控制具体要求什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-01",
+      "prompt": "我们要新建一条冷藏即食色拉产线，车间怎么分区、RTE 区要不要做正压、排水沟和地漏怎么设计才不会把李斯特菌带进来？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-02",
+      "prompt": "工人从原料区走到 RTE 包装区，手套什么时候必须换？泡脚器应该怎么选、怎么防止有人绕过去？工服能不能穿回家洗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-03",
+      "prompt": "我们做冷藏即食甜点，没法加热杀菌，能不能靠调低 pH 或水分活度来控李斯特菌？验证要怎么做，必须自己做挑战试验吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-04",
+      "prompt": "环境监测这个月同一个点位第三次检出李斯特菌，前面两次加强清洁都过了，现在要不要停产？复产条件是什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-01",
+      "prompt": "我们的 RTE 产品做到 pH 4.5，酸化食品法规的 4.6 门槛是不是就满足了？李斯特菌是不是也算控制住了？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-02",
+      "prompt": "我们成品抽检想直接套环境监测那套，检 Listeria spp. 就行了吧？环境样品和成品样品的前处理方法能通用吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-03",
+      "prompt": "FDA 那份李斯特菌指南里说每个产线至少采 5 个食品接触面加 5 个非食品接触面点位，我们只做了 3 个，检查会不会直接判不合格？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-04",
+      "prompt": "我们杀菌工序验证做到了 5 log 削减，成品用灵敏度 10 CFU/g 的方法检不出李斯特菌，能算这个致死工艺验证通过了吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-05",
+      "prompt": "我们的 RTE 产品杀菌后整线都不暴露环境了，是不是还要按李斯特菌专项指南做全套环境监测和产品抽检？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-edge-06",
+      "prompt": "我们把成品冷藏库设成 4°C，可冷却协议写的是降到 41°F（5°C）就行，同一份食品安全计划里两个冷藏数字是不是写错了？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-05",
+      "prompt": "槽车拉原料、冷藏车配送成品，装车前要不要预冷并记录温度？洗车标签能不能当清洁消毒的证明？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lmono-trigger-06",
+      "prompt": "我们要给冷藏即食食品写环境监测程序，采样点位数、时机、频次和阳性后的升级路径具体怎么定？清洁消毒程序里必须写哪些字段？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-01",
+      "prompt": "cGMP 合规到底有没有官方指南？我们厂要做一次 Subpart B 内审，九条逐条该看什么、证据怎么留？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-02",
+      "prompt": "FDA 那份小企业合规指南里通篇写的是 should，我们是不是可以不做？能不能用别的做法替代？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-03",
+      "prompt": "我们是 qualified facility，也已经有 HACCP 计划了，cGMP 是不是就免了？FDA 来检查会看什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-04",
+      "prompt": "有一批原料缺陷超标，掺到合格批次里之后终产品检测是合格的，这样处理算违法吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-05",
+      "prompt": "我记得那份 Small Entity Compliance Guide 是 2016 年 11 月发的？还有 80 FR 55907 和 80 FR 56145 是不是两份不同的规则？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-trigger-06",
+      "prompt": "我们要做 cGMP 迎检，怎么把 § 117.20 的厂房要求和 § 117.40 的设备要求落成检查要点？法规里没写具体数值怎么判？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-edge-01",
+      "prompt": "SECG 的 Table 4 写着 qualified facility 合规日期是 2018 年 9 月 17 日，我们现在是不是还没到期限、可以先不合规？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-edge-02",
+      "prompt": "帮我按中国 GB 14881 出一份可直接签发的食品厂 cGMP 内审检查表，顺便把药品 21 CFR 211 的偏差调查要求也写进去。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-negative-01",
+      "prompt": "帮我查一下 2026 年国内食品生产许可证 SC 证的续证材料清单和办理窗口。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-audit-01",
+      "prompt": "我们买一款即食原料，致病菌危害是供应商控制的，能不能每批拿个 COA、每年看一次供应商记录就够了，不做现场审核？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-qf-01",
+      "prompt": "我们厂去年销售额降到 45 万美元，超过一半卖给本地餐馆，今年变成 qualified facility 了，需要通知 FDA 吗？什么时候？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-withdraw-01",
+      "prompt": "FDA 给我们发了撤销 qualified facility 豁免的意向通知，我们 15 天内答复了，之后还能做什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "secg-1175k-01",
+      "prompt": "我们只做坚果的去壳、干燥和包装，不做烘烤，也不做其他加工。CGMP 我们是不是也要全做？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "ed5-tree-nut-01",
+      "prompt": "我们饼干里用了椰子粉和乳木果油，标签上的 Contains 要不要写 tree nuts？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "ed5-milk-eggs-01",
+      "prompt": "我们做山羊奶酸奶和鸭蛋糕点，过敏原标签该怎么写？以前只写 milk 和 egg 可以吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "ed5-freefrom-01",
+      "prompt": "我们产品想标 milk-free，但和含奶产品共线，能不能再加一句 may contain milk 保险一点？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "defect-level-01",
+      "prompt": "我们磨碎的多香果检出 25 个虫碎片/10 克，FDA 表里是 30 个/10 克，低于行动水平是不是就能放行？内控规格直接定 28 行不行？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "defect-level-02",
+      "prompt": "供应商给的资料引用 21 CFR 110.110 说符合缺陷行动水平就没事，这条现在还有效吗？另外手册里写不良生产实践可不论行动水平执法，是不是〔§ 117.110(c)〕？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "defect-level-03",
+      "prompt": "我们一款复配调味料不在 FDA 缺陷表里，检验报告写『无适用标准，判定合格』；另外原料全多香果有 5% 霉变，同事说这只是 Aesthetic 美学缺陷，是不是不用进危害分析？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "inspection-01",
+      "prompt": "FDA 检查员说我们有一条 critical observation，要按最严重级别整改；483 我们打算等通知再回，多久之内必须回复？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "inspection-02",
+      "prompt": "这次是 limited scope PCHF 检查，同事说检查员不看 FSP，我们把全套危害分析和实施记录收起来；另外 FDA 今天要做环境擦拭取样，应该还是 limited scope 吧？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "inspection-03",
+      "prompt": "我们的 FSP 和监控记录都存在总部服务器，工厂现场只有纸质摘要，检查员要的时候第二天发邮件过去可以吗？记录要留多久、要不要签字？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "inspection-04",
+      "prompt": "我们按 2021 年的迎检 SOP 准备：03040U 是跟进检查、联系人写 CFSAN/ORA；上次被判 OAI，整改报告交完是不是就结束了？境外工厂也要走 HFP OCE 的合规咨询流程吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "sampling-01",
+      "prompt": "FDA 检查员今天来我们 RTE 沙拉厂取样，说要抽 Salmonella 和 L. monocytogenes，我们要准备多少个 subs、每份多少克？702(b) 那份能不能也给我们留一份？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "sampling-02",
+      "prompt": "FDA 在我们厂做了环境擦拭，Zone 1 检出 L. monocytogenes，但同期成品抽检全部阴性，是不是就不用整改了？另外让实验室数一下拭子的 CFU 看严不严重。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "sampling-03",
+      "prompt": "我手上这份文件名叫 20250915_7303.050，是不是 2025 年新版的抽样检查计划？里面 PART V 表 7 写了检出 Salmonella 就会 seizure 和注册暂停，我们是不是一检出就要停厂？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "iom-01",
+      "prompt": "收到的 FDA 483 上写『未遵循 FDA 行业指南的建议』，还直接引了 21 CFR 117 的条款并说这条 violative。我们能不能据此主张整条观察项无效？另外我们只是没按 SECG 做，会不会被开 483？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "iom-02",
+      "prompt": "FDA 从来不预告检查吧？境外工厂应该都是突击检查、也不发 482。这次提前 5 天通知我们，能不能跟检查员约个更方便的时间？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "iom-03",
+      "prompt": "检查员要我们的配方和发货清单，还说想直接登录 MES 查电子记录、把唯一一份原始记录带走；我们拒绝了算不算拒绝检查？另外取了样只给了一张 484，这是什么？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "iom-04",
+      "prompt": "FDA 483 回复的 15 个工作日到底是哪里规定的？CPGM 里有，IOM 里有没有？482、483、484、4056 分别什么时候给谁？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "iom-05",
+      "prompt": "检查员拿自己的手机拍了车间，我们能不能要求删掉？另外 IOM 里提到的 Chapter 4 取样细则、702(b) 和 RPM Chapter 10-4 记录索取权，帮我们按条款解释一下。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-01",
+      "prompt": "我们是做酸化莎莎酱的（pH 4.1），听说低酸罐头企业可以免 PCHF 的 Subparts C 和 G，那我们是不是也不用做危害分析、FSP 和预防控制了？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-02",
+      "prompt": "我们是低酸罐头厂，肉毒风险由杀菌工艺控制；那化学危害（比如罐头内壁涂层迁移）和物理危害（金属碎屑）还要不要进 PCHF 的危害分析和预防控制？另外 §117.201 是不是就是 LACF 的修改要求？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-03",
+      "prompt": "我们有一款冷藏销售的酸化素食酱标签写了 Keep Refrigerated，还有一批没贴标的 brite 罐要运到中央仓贴标。FDA 来查会按 7303.070 吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-04",
+      "prompt": "我们往低酸蔬菜里加了少量酸味配料，成品测 pH 4.3，这算酸性食品还是酸化食品？我们自己定就行吧，检查员要配方和包装信息合理吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-05",
+      "prompt": "我们成品 pH 做到 4.5，是不是就合规了？检查员说还要第二个人用另一台 pH 计重测，两家结果能不能取平均？他们抽了 24 罐，我们内控是不是也照 24 罐抽？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-06",
+      "prompt": "我们进口的一批酸化食品被查出没做 process filing，是不是马上会被列进 Import Alert 99-37 自动扣留？FCE 和 SID 到底怎么核？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-07",
+      "prompt": "FDA 通知要对我们做 RRA（远程监管评估），这是不是就等于检查完了？我们是不是可以不给记录？2025 年不是扩大无预告检查了吗，帮我们把政策依据列一下。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "lacf-08",
+      "prompt": "这份 20250929 的 7303.070 是 2025 年新规吧？顺便帮我把 21 CFR part 113 里关于杀菌釜记录保存年限、Form 2541e 提交时限和 BAM Ch.21A 的培养步骤逐条列出来。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-01",
+      "prompt": "我们做低酸罐头，是不是只要按 21 CFR part 113 走，就完全不用管 Part 117 的 CGMP 和 PCHF 了？两套法规是不是二选一？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-02",
+      "prompt": "低酸罐头厂只要「按要求遵守且实际遵守 part 113」，是不是整个厂就不用做危害分析、FSP 和预防控制了？酸化食品是不是也能套这个豁免？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-03",
+      "prompt": "酸化食品法条 §114.5 里写的是 parts 110 and 117，Part 110 不是 2018 年就被删了吗？这应该是笔误吧？另外手册引用的 110.110 是不是作废了？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-04",
+      "prompt": "我们酸化酱成品平衡 pH 4.5，法规到底要求多少？检查员说 4.40、4.65 要复测，研发说李斯特菌要 ≤4.4，这三个数字哪个是法定义务？另外 4.0 和 0.85 呢？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-05",
+      "prompt": "低酸罐头和酸化食品的加工记录分别要保存几年？能不能都用电子记录、按 part 11 走？我们想把两套写成一条 SOP。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-06",
+      "prompt": "酸化食品已经把 pH 降到 4.5 了，是不是可以不做热处理？我们一直用比色法测成品 pH，合规吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-07",
+      "prompt": "酸化食品这批成品 pH 测到 4.7，或者杀菌工序偏离了 scheduled process，是不是再加点酸调到 4.5 就能放行？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-08",
+      "prompt": "BPCS 培训证书和 scheduled process 分别是哪条法规要求的？FDA 检查员来要 scheduled process，我们能以配方保密为由不给吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-09",
+      "prompt": "我们买的 21 CFR Part 113 / 114 是 4-1-25 Edition，这是 FDA 2025 年新发布的规则吧？条文里的 shall 和 FDA 指南里的 should 有区别吗？",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "stat-10",
+      "prompt": "帮我把 21 CFR part 108 的 FCE 注册和 SID 备案流程、Emergency Permit 条件、F0/D/z 值计算和 BAM Ch.21A 培养步骤逐条列出来，顺便说说 Part 113/114 是不是也没收。",
+      "expected": "should_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-01",
+      "prompt": "这份 GPO 出的双栏 CFR PDF，用 markitdown 转出来表格全丢了，帮我高保真转成 Markdown，表格要保留、书签标题层级要还原、页眉页脚要清掉。",
+      "expected": "sibling",
+      "sibling_target": "pdf2md-pro",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-02",
+      "prompt": "把这个品牌 Logo 做成一套 IP 吉祥物角色设定卡，要一张主视觉，再配性格设定和三视图。",
+      "expected": "sibling",
+      "sibling_target": "brand-ip",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-03",
+      "prompt": "我想把手里这本食品法规指南蒸馏成一个可复用的 skill，按 cangjie 的流程该怎么做？",
+      "expected": "sibling",
+      "sibling_target": "cangjie-skill",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-04",
+      "prompt": "打开我桌面那份 Excel，把 B 列按数值降序排，再基于 C 列生成一个柱状图。",
+      "expected": "sibling",
+      "sibling_target": "officecli1098",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-05",
+      "prompt": "一份 300 页的扫描版法规 PDF，帮我批量转 md，要求按 PDF 内置书签重建标题层级并附转换质量自检报告。",
+      "expected": "sibling",
+      "sibling_target": "pdf2md-pro",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-06",
+      "prompt": "给我家柯基设计一套宠物 IP 形象，含表情包和角色设定卡。",
+      "expected": "sibling",
+      "sibling_target": "brand-ip",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-07",
+      "prompt": "把这段课程录像的文字稿拆成若干条可执行 skill，做成技能包。",
+      "expected": "sibling",
+      "sibling_target": "cangjie-skill",
+      "runs": 3
+    },
+    {
+      "case_id": "sib-08",
+      "prompt": "帮我在这个 csv 里加一列求和公式，并把前两行合并单元格。",
+      "expected": "sibling",
+      "sibling_target": "officecli1098",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-01",
+      "prompt": "帮我查一下今天上证指数收盘点位和涨跌幅。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-02",
+      "prompt": "用 Python 写一个快速排序，并解释它的平均时间复杂度。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-03",
+      "prompt": "21 CFR 210/211 药品 cGMP 对洁净区相邻房间的压差有什么要求？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-04",
+      "prompt": "9 CFR 416/417 对肉类屠宰厂的 SSOP 与 HACCP 计划分别要求写哪些内容？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-05",
+      "prompt": "GB 2763-2021 里茶叶的农药最大残留限量是多少？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-06",
+      "prompt": "欧盟 Regulation (EC) No 852/2004 对食品经营者的注册义务怎么规定？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-07",
+      "prompt": "化妆品 GMP（ISO 22716）对灌装车间微生物监控频次的要求是什么？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-08",
+      "prompt": "帮我拟一份设备采购合同模板，含交货期与违约责任条款。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-09",
+      "prompt": "明天上海天气怎么样，需要带伞吗？",
+      "expected": "should_not_trigger",
+      "runs": 3
+    },
+    {
+      "case_id": "neg-10",
+      "prompt": "把这段产品介绍翻译成日语，语气要正式。",
+      "expected": "should_not_trigger",
+      "runs": 3
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+[p.39]
+
+
+
+
+
+
+
+
+
+SDI samples should be recorded per IOM 6.4.6 – Sample Collection Reports. Additionally, SDI samples require the
+following:
+•
+A description of the product label as per IOM 4.5.9 - Product Label in the “Remarks” section.
+o Include brand names and size of lot if not already recorded in the “Line Details” screen.
+•
+An official seal (Form FDA 415a) on the sample container(s).
+o Follow instructions in IOM 4.7.4.
+•
+Collector’s ID on the seal per IOM 4.6.2.12 Collector’s ID on Seal.
+o Include collectors ID on the seal in the “Remarks” section.
+Note: This information is required so that the FDA can utilize its domestic authority if the sample analysis results are
+violative.
+After sample collection time is recorded, the user will be prompted to “Add Work” or “IB Release.” The collector
+should select “IB Release” after any necessary work is completed. After the “SDI” sample work type has been recorded,
+additional work that would hold the line cannot be added. Once the line is released, the user should generate the
+Notice of FDA Action (NOA). The NOA will contain a section labeled “SAMPLES COLLECTED AND RELEASED” with
+additional language pertaining to the release of those lines. When the SDI line is released, the line will be closed. If all
+lines in the entry have been closed, the entry will be closed.
+The import compliance branch will be notified of and responsible for any necessary follow up (such as submitting a
+screening criteria request and/or coordinating with the appropriate domestic division and program for follow-up
+actions) on SDI samples found to be violative.
+6.5 - Import Procedures After Examination / Sampling
+6.5.1 - Procedure When No Violation Is Found
+If the shipment is found in compliance after examination, the importer of record, consignee (where applicable), filer,
+and CBP are notified with a Notice of Release. The shipment may be admitted. (See RPM Chapter 9-7 “Release Notices"
+for detailed guidance).
+6.5.2 - Procedure When Violation Is Found
+6.5.2.1 - "Notice of FDA Action - Detained"
+If examination of the sample or other evidence indicates the article appears to be in violation and detention is the
+course of action chosen by the Division, the filer, owner, and consignee (where applicable) are advised of such
+action by "Notice of FDA Action - Detained." The Notice will specify the nature of the violation charged and
+designate a site for the owner or consignee (or authorized representative) to appear at a hearing. These hearings
+are informal meetings with the Division, designed to provide the respondents an opportunity to present evidence
+supporting admissibility of the article. Ordinarily, the respondents are allowed 10 working days to appear.
+However, if for some compelling reason the Division determines ten (10) working days are insufficient, this time
+period may be extended. On the FDA Import System generated "Notice of FDA Action," this date is identified under
+the caption "Respond By." (See RPM Chapter 9, subchapter 9-10 “Response (Hearing) to Notice of FDA Action –
+Detained.)
+6.5.2.2 - Response to "Notice of FDA Action - Detained"
+Response to the "Notice of FDA Action - Detained" may be made personally by representative, or by mail. The
+importer may present evidence supporting the admissibility of the article, request refusal of admission, propose an
+effective manner of reconditioning or other method to remove the product from the authority of the FD&C Act.
+[p.40]
+
+
+
+
+
+
+
+
+
+6.5.2.3 - Request for Authorization to Relabel or Recondition Non-Compliant Articles
+The FDA may authorize relabeling or other remedial action upon the timely submission of an "Application for
+Authorization to Relabel or To Recondition Non-Compliant Articles," (Form FDA 766 - See Exhibit 6-2). This form is
+also available in fillable formats online here.
+Application may also be made by letter and the execution of a good and sufficient bond by the owner or consignee
+(See Section 801(b) of the FD&C Act [21 U.S.C. 381(b)]). The redelivery bond on file with the Port Director of CBP
+for the particular importation applies to any relabeling or other action authorized; a new bond will not have to be
+filed.
+After review of the application, FDA will notify the importer of its approval or disapproval. If approved the original
+application will be returned outlining the conditions to be fulfilled and the time limit within which to fulfill them
+will be noted. Notification to other parties will be made where appropriate. A copy will be retained in the division
+files. (RPM Chapter 9, subchapter 9-10 "Response (Hearing) to Notice of FDA Action - Detained", and subchapter 9-
+12, "Reconditioning" for detailed guidance).
+6.5.2.4 - Inspection after Approved Reconditioning Has Been Completed
+After the relabeling or reconditioning operation has been completed, the applicant will submit the "Importer's
+Certificate" (page 2 of Form FDA 766, Exhibit 6-2) or advise the division that reconditioning is complete. At this
+point, the FDA may conduct a follow-up inspection and/or sampling to determine compliance with the terms of the
+approved reconditioning application, or it may accept the statement from the importer with no further follow-up.
+The follow-up inspection and/or sampling may be made by FDA or CBP, depending on agreements between the
+division and local CBP. Photographs should also be taken as warranted (See 6.1.8 PHOTOGRAPHS: IDENTIFICATION
+AND STORAGE for more information and instructions).  The "Report of Investigator/Inspector" (section 4, page 2 of
+Form FDA 766, Exhibit 6-2), or other appropriately completed summary of reconditioning, should be forwarded to
+the appropriate FDA office.
+6.5.2.5 - Procedure When Conditions of the Approved Reconditioning Application Have
+Been Fulfilled
+If the conditions of the approved reconditioning application have been fulfilled, the division will notify the owner
+or consignee by Notice of Release. This notice is usually identified as "Released after Reconditioning." A copy is
+also sent to the filer. Where there is a non-admissible portion (or rejects), they must be destroyed or re-exported
+under FDA or CBP supervision. A Notice of Refusal of Admission should also be issued for the rejected portion.
+Additionally, the FDA may include in its approval of the reconditioning a provision for the non-admissible portions
+(rejects) of the reconditioning to be destroyed and not exported.
+6.5.2.6 - Procedure when Conditions of the Approved Reconditioning Application Have Not
+Been Fulfilled
+If the initial attempt at reconditioning is unsuccessful, a second attempt should not be considered unless a revised
+method of reconditioning shows a reasonable assurance of success.
+If the conditions of the approved reconditioning application have not been fulfilled, a "Notice of Refusal of
+Admission" is issued to the importer, consignee (where applicable) to the filer, with a copy also sent to CBP.
+6.5.2.7 - Procedure after Hearing – Release Notice
+If, after presentation of testimony, the division determines the article should be released, the importer of record
+and consignee are issued a notice of release. The Notice will declare that the detained goods may be admitted. The
+Notice will also be identified "LINES RELEASED AFTER DETENTION" and, where appropriate, explain the reason for
+the change of action. A copy of the Notice is sent to all parties receiving the Notice of Sampling/Notice of
+Detention. (See RPM Chapter 9, subchapter 9-7 "Release Notices" for detailed guidance.)
+[p.41]
+
+
+
+
+
+
+
+
+
+6.5.2.8 - Procedure after Hearing - Refusal of Admission
+When the importer requests the Division issue a “Notice of FDA Action - Refusal of Admission,” or the Division
+decides the shipment still appears to be in violation, the importer, owner, and consignee where applicable, are
+issued a "Notice of FDA Action - Refusal of Admission." On this Notice, the charge(s) is stated exactly as shown on
+the original (or amended) “Notice of FDA Action - Detained”. A copy of the Notice is also sent to CBP. (See RPM
+Chapter 9, subchapter 9-11 "Notice of FDA Action - Refusal of Admission" for detailed guidance.)
+The “Notice of FDA Action - Refusal of Admission” provides for the exportation or destruction of the shipment,
+under CBP supervision, within 90 days of the date of the notice, or within such additional time as specified by CBP
+Regulation. The Notice will also contain language regarding the requirement for redelivery and contain all the
+above required information concerning the product and associated charge(s). The FDA file remains open until the
+division receives notification indicating that the goods were either destroyed or exported.
+Following issuance of the “Notice of FDA Action - Refusal of Admission,” the entry refusal is communicated with
+CBP for the issuance of the CBP form 4647 Notice to Mark and/or Redeliver (CBP form 4647), per Work Instruction
+WI-000618. In certain situations, CBP may follow up to ask for the hard copy notice of refusal. CBP then issues the
+CBP form 4647 (Demand for Redelivery) for the entry and notifies the appropriate FDA Division Mailbox.  Divisions
+should follow local port post-refusal processes after receipt of the CBP form 4647 email, including uploading a
+copy of the CBP form 4647 to the entry/line. If it is discovered that the CBP form 4647 has not been issued for a
+refused entry, please check with the compliance officer and notify CBP CTAC (CTAC@cbp.dhs.gov).
+Keep in mind that, throughout this process, the FDA is responsible for the protection of the U.S. public regarding
+foods, drugs, cosmetics, tobacco products, etc., until the violative article is either destroyed or exported.
+6.5.2.9 - Payment of Costs of Supervision of Relabeling and/or Other Action
+After completion of the authorized relabeling or other action, the FDA will submit a detailed statement of
+expenses incurred, including travel, per diem or subsistence, and supervisory charges on a Form FDA 790 (See IOM
+Exhibit 6-3, Charges for Supervision). This is completed by FDA employees regarding the supervision of the
+authorized relabeling or other action to CBP–Revenue Division. The expenses shall be computed based upon the
+following:
+•
+Supervising officer’s time
+•
+Analyst's time
+•
+Per diem allowance
+•
+Travel other than by auto (actual cost of such travel)
+•
+Travel by auto (mileage, toll fees, etc.)
+•
+Administrative support
+Future enhancements to FDA’s import system may result in electronic processing of the supervisory charges
+submitted to CBP, in which case the Form FDA 790 will no longer be used. (See RPM Chapter 9, subchapter 9-13
+"Supervisory Charges" for detailed guidance.)
+CBP, upon receipt of the charges for supervision, will send a notice for payment to the identified importer of
+record. The expenses shall include charges for supervision of destruction of the article or rejects. The remittance
+by the owner or consignee shall be to CBP. Payment of supervisory charges should not be accepted by any FDA
+division offices.
+6.5.2.10 – Exportation and Destruction of Goods Refused Admission -
+Exportation and destruction of refused goods are done under CBP supervision. However, if after a reasonable time,
+the FDA has not received notification of exportation or destruction, the Division should investigate the status of
+disposition. Divisions should also consider, under certain conditions, verifying that the refused goods have, in fact,
+been held intact pending exportation or destruction, or that a re-export actually occurred. During these activities,
+plan to take photographs of destructions witnessed and any discrepancies noted as warranted (See 6.1.8
+[p.42]
+
+
+
+
+
+
+
+
+
+PHOTOGRAPHS: IDENTIFICATION AND STORAGE). Note, too, that guidance on refusals to be verified may change,
+based on the reason for detention and other factors, and that each Division involved in performing Import
+Operations has been assigned a set number of import exams of refused entries as part of OII’s workplan.
+6.5.2.11 – Bond Action
+Under the provisions of the FD&C Act (Section 801(b) of the FD&C Act [21 U.S.C. 381(b)]) and CBP regulations (19
+CFR 113.62), a bond is required for all conditionally released articles offered for importation. This bond provides
+relief to the government on the default of the conditions of the bond and the payment of liquidated damages in
+the amount specified in the CBP Notice of Assessment or Liquidated Damages for failure to redeliver such goods.
+Bond actions are taken when an entry is distributed prior to FDA release and cannot be redelivered, or when an
+article has been detained and refused, and the article is not destroyed or exported in accordance with the
+requirements of the law.
+If the division has evidence that the entry, or any portion of an entry subject to FDA jurisdiction, was disposed of in
+violation of the terms of the appropriate Act, or its regulations, or of the terms of the bond, (see 19 CFR Section
+113.62 (l)(1)) it should immediately contact the appropriate Customs office.
+The division, upon receiving evidence that the refused article was not exported or destroyed, should immediately
+investigate the matter. (See IOM 6.5- Import Investigations.) The division should also send a detailed statement
+showing the importer's liability under the redelivery bond or other applicable customs bond to the responsible CBP
+office. If the facts warrant, and the article was under detention, and the Notice of Refusal of Admission has not
+been issued, immediately issue a Notice of Refusal to the owner or consignee, with a copy to CBP.
+Upon the receipt of an application for relief (appeal for Mitigation or Cancellation of Assessed Liquidated
+Damages), CBP may agree to mitigate the damages assessed. However, in cases involving FDA goods, CBP does not
+usually mitigate unless the FDA is in full agreement with the action [see 21 CFR section 1.97 (b)]. (See RPM Chapter
+9, subchapter 9-14 "Bond Actions" for detailed guidance.)
+6.6 - Import Investigations
+6.6.1 – Import Investigations General
+Import operations normally focus on entry review, field examinations, and sample collections.  However, investigations
+are also an essential tool in uncovering and developing evidence documenting violations such as entry misdeclaration,
+product substitutions, and “port shopping.” Invaluable sources of information that may prove relevant to such
+violations include Import Alerts, assignments from headquarters or other Programs / Divisions, interagency
+cooperation, and local intelligence.
+When documenting these situations, your supervisor will request a memo of investigation be sent to the compliance
+branch. Refer to IOM Subchapter 8.1.9.2 and Exhibit 8-3-1 for preparing import investigation memorandums.
+When examining, sampling, or following up on refused imported products, you may use an affidavit to document the
+facts surrounding the situation. (Refer to IOM 4.4.5 and Exhibit 6-5 for guidance on preparation of an affidavit.)
+6.6.2 - Investigations Involving the Importation Process
+During the importation process, FDA personnel often encounter attempts to bypass proper FDA record review,
+inspection and/or sampling, as well as the willful attempt to import goods known to violate the Act. In addition to such
+actions as detention, refusal, and placement onto an Import Alert, the FDA also performs investigations and forwards
+the evidence collected to support a recommendation for CBP sanction under Title 19, which includes authorities for
+administrative seizures, civil money penalties, revocation of conditional release privileges, and bond actions (including
+liquidated damages, increases to bond amount, requirement of single-transaction bond).
+As outlined in IOM 8.1.4, OII’s Office of Criminal Investigations (OCI) has primary responsibility for all criminal
+investigations conducted by FDA, including the importation of unlawful FDA-regulated products. Unlawful FDA-

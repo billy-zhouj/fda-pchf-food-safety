@@ -1,0 +1,104 @@
+{
+  "fsvp-01": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-02": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-03": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-04": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-05": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-06": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-07": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-08": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-09": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "fsvp-10": {
+    "capability_id": "CAP-21",
+    "version": "v4.8",
+    "basis": "expected_behavior 明写主卡 fsvp-inspection-program"
+  },
+  "seafood-01": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-02": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-03": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-04": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-05": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-06": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-07": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-08": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-09": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层"
+  },
+  "seafood-10": {
+    "capability_id": "CAP-22",
+    "version": "v4.9",
+    "basis": "notes 考 Part 123 法条层",
+    "open_boundary": true,
+    "note": "notes 明说分流 CAP-22 与 CAP-20，top-1 无唯一解；单独统计"
+  }
+}

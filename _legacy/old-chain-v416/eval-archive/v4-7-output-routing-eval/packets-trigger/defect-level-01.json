@@ -1,0 +1,13 @@
+{
+  "case_id": "defect-level-01",
+  "runs": 3,
+  "prompt": "我们磨碎的多香果检出 25 个虫碎片/10 克，FDA 表里是 30 个/10 克，低于行动水平是不是就能放行？内控规格直接定 28 行不行？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

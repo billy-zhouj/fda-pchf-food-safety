@@ -1,0 +1,13 @@
+{
+  "case_id": "lmono-edge-03",
+  "runs": 3,
+  "prompt": "FDA 那份李斯特菌指南里说每个产线至少采 5 个食品接触面加 5 个非食品接触面点位，我们只做了 3 个，检查会不会直接判不合格？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

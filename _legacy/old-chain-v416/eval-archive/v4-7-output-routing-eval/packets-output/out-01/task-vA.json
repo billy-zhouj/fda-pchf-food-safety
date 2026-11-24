@@ -1,0 +1,9 @@
+{
+  "case_id": "out-01",
+  "variant_label": "vA",
+  "prompt": "低酸罐头（21 CFR Part 113）的杀菌与容器封口记录要保存多久？可以用电子记录吗，需要满足什么额外条件？请给出条款号。",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/.cangjie/v4-7-output-routing-eval/packets-output/out-01/vA.md"
+}

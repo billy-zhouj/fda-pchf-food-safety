@@ -1,0 +1,32 @@
+{
+  "case_id": "route-03",
+  "prompt": "巴杀工艺关键限值怎么定？文献里的 D 值能直接拿来用吗，validation 研究（热分布/热穿透）要怎么做？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。已安装技能 fda-pchf-food-safety 内含 24 张能力卡，候选清单（卡 id / 标题 / 重要度 / 意图 / 关键词 / 卡文件）见：C:/Users/周至/WorkBuddy/美国食品安全法规技能/.workbuddy/skills/fda-pchf-food-safety/references/capability-index.md；请先读取该文件。对用户 prompt 只判断应加载哪一张能力卡（top-1），不得输出多张。注意三层配对：CAP-22 是 21 CFR Part 123 法条义务层、CAP-23 是 FDA 技术指南层的危害分析判定链、CAP-24 是 FDA CP 7303.842 给 field staff 的检查程序作业层。按问题实际问的是「法定义务/条款号」「怎么判危害/怎么填表」还是「FDA 检查怎么排优先级/取样/PAC/上报」来区分，不要按关键词一概论。FSVP 专属问题走 CAP-21，通用取样走 CAP-17。输出一行 JSON：{\"case_id\": \"...\", \"selected_capability\": \"<候选清单中的 slug>\", \"reason\": \"<=30字\"}。slug 必须严格取自候选清单中的 capabilities/<slug>.md 文件名，不要编造。",
+  "candidates_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/.workbuddy/skills/fda-pchf-food-safety/references/capability-index.md",
+  "candidate_capabilities": [
+    "allergen-program",
+    "cgmp-compliance-guide",
+    "chemical-hazard-controls",
+    "defect-action-levels",
+    "environmental-engineering-controls",
+    "environmental-pathogen-sanitation",
+    "exemption-withdrawal-procedure",
+    "fsvp-inspection-program",
+    "hazard-analysis-method",
+    "inspection-readiness",
+    "inspection-sampling",
+    "investigator-authority-procedure",
+    "lacf-inspection-program",
+    "lacf-statutory-requirements",
+    "management-components",
+    "personnel-hygiene-controls",
+    "process-control-validation",
+    "recall-plan",
+    "reference-tools-discipline",
+    "regulatory-boundaries",
+    "seafood-haccp-statutory-requirements",
+    "seafood-hazards-controls-guide",
+    "seafood-inspection-program",
+    "supply-chain-verification"
+  ]
+}

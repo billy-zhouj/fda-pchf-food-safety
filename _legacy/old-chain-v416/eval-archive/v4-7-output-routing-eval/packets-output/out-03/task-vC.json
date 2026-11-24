@@ -1,0 +1,9 @@
+{
+  "case_id": "out-03",
+  "variant_label": "vC",
+  "prompt": "21 CFR 114.5 里写掺假判定要同时适用 parts 110 and 117，Part 110 不是早就被 PCHF 最终规则删掉了吗？这是不是印刷错误？请说明现行状态与依据。",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/.cangjie/v4-7-output-routing-eval/packets-output/out-03/vC.md"
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "out-09",
+  "variant_label": "vA",
+  "prompt": "食品过敏原标签问答 Ed.5 对「may contain」这类预防性标签和主要过敏原清单是怎么说的？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "可用参考材料（请先读取再作答）：E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/backups/fda-pchf-food-safety-v4.6-20261106-132910/SKILL.md 与该目录下 references/ 中的能力卡。遇到条款号、保存期限、来源分层等问题，请以材料为准。",
+  "output_file": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/.cangjie/v4-7-output-routing-eval/packets-output/out-09/vA.md"
+}

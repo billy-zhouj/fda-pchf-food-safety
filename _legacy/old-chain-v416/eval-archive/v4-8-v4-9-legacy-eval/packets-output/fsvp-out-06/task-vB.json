@@ -1,0 +1,9 @@
+{
+  "case_id": "fsvp-out-06",
+  "variant_label": "vB",
+  "prompt": "刚收到 FSVP 检查的 Form FDA 483a，哪些观察项算最严重、会怎么升级？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "可用参考材料（请先读取再作答）：C:/Users/周至/WorkBuddy/美国食品安全法规技能/.workbuddy/skills/fda-pchf-food-safety/SKILL.md 与其 references/ 下的能力卡、capability-index.md、glossary.md。遇到条款号、期限、来源分层、转引未收等问题请以材料为准。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-8-v4-9-legacy-eval/packets-output/fsvp-out-06/vB.md"
+}

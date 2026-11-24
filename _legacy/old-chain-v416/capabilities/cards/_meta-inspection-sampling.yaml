@@ -1,0 +1,87 @@
+slug: inspection-sampling
+title: FDA 现场取样、样品量与阳性结果应对
+importance: extended
+importance_rationale: 上一版 inspection-readiness 明确把「抽样量、制样判读、证据充分性」列为未收边界，用户随后提供 CP 7303.050 与 IOM Ch.5 两份正文。补入后可同时纠正「7303.050 是一次检查」「样品量等于企业放行标准」「样品合格即 cGMP 合规」「检出致病菌必定导致某一执法后果」四类高频误读，并把 ATTACHMENT A 的 50/100 subs、Zone 1–3、WGS/GenomeTrakr 与三档 Findings 落成可执行矩阵。属入口型判定能力，与 inspection-readiness、investigator-authority-procedure、environmental-pathogen-sanitation、defect-action-levels、chemical-hazard-controls 多卡交叉，故定 extended。
+one_liner: 先判这是 7303.040 检查中的哪一类 7303.050 抽样，再按 Table 2/3 与 ATTACHMENT A 看取证量——产品样按 subs、环境拭子 Listeria ≥50 / Salmonella ≥100、确认阳性一律 WGS；PART V 的执法响应是逐案建议清单，不是法定后果表。
+intents:
+  - 判断一次 FDA 取样属于哪个 program 与哪个 PAC（03037D / 03803D / 03819C / 03050B / 03050E / 03050N / 03S050N）
+  - 回答产品样品要抽多少 subs、每 sub 多少克、多分析物如何取足，以及 702(b) 部分是否计入
+  - 判断哪些 RTE 工厂够格被做环境取样、Listeria 与 Salmonella 分别抽多少拭子、覆盖哪些 Zone
+  - 处理湿区/干区目标菌选择、历史环境阳性厂的点位加密与检查结束前的点位不足处置
+  - 解释确认阳性后的 WGS / GenomeTrakr / 历史与临床株比对，以及为什么环境拭子不做计数
+  - 按 ATTACHMENT A Part V.1 三档 Findings 判断 ZONE 1 与 ZONE 2-3 阳性的升级差别
+  - 拆解 PART V 表 7/8 的可能 FDA 响应与 402(a)(1)/(4)、801(a)(3)、402(a)(3) 指控条款
+  - 处理进口状态样品、DWPE / Import Alert / same-or-similar entry lines 与 FSVP importer 通知
+  - 回答污秽与霉变抽样量、奶酪制样、以及与 Food Defect Levels Handbook 行动水平的分工
+  - 识别 2022 签发 / 2025-09-10 更正的版本形态，避免套用 7303.040 的 Transmittal 口径
+  - 判断哪些问题超出本包（eBAM/AOAC/MPM 方法正文、CPG 527.300、SOP-001052、FMD-147）；IOM Chapter 4 与 702(b) 分割留样自 v4.16 起已收，转 CAP-28
+  - 纠正「样品全合格就没事」「FDA 只抽 10 个所以内控也抽 10 个」两类效力层误读
+keywords:
+  - "CP 7303.050"
+  - "7303.050"
+  - Sampling for Foodborne Biological Hazards and Filth
+  - "Correction date 09/10/2025"
+  - "06/03/2022"
+  - subsamples
+  - subs
+  - "702(b)"
+  - "21 CFR 2.10(b)(3)"
+  - "704(d)"
+  - "Table 2"
+  - "Table 3"
+  - "Table 4"
+  - "ATTACHMENT A"
+  - "ATTACHMENT B"
+  - environmental swab
+  - "Zone 1"
+  - "Zone 2"
+  - "Zone 3"
+  - "50 subsamples"
+  - "100 subs"
+  - "300 subs"
+  - Listeria
+  - Salmonella
+  - EHEC
+  - STEC
+  - WGS
+  - GenomeTrakr
+  - "No enumeration"
+  - "Dealer Voluntarily Holding"
+  - "UPS Next Day Air Early A.M."
+  - "48 ± 2h"
+  - CRO
+  - "Cannot Rule Out"
+  - "FDA Form 1551"
+  - "SOP-001052"
+  - "SOP-000529"
+  - "FMD-147"
+  - "Direct Reference Authority"
+  - "CPG Sec. 527.300"
+  - alkaline phosphatase
+  - PAC
+  - PAF
+  - FACTS
+  - SERIO
+  - OASIS
+  - PREDICT
+  - DWPE
+  - "Import Alert"
+  - "03050N"
+  - "03819C"
+  - "03037D"
+  - "402(a)(1)"
+  - "402(a)(3)"
+  - "402(a)(4)"
+  - "801(a)(3)"
+  - "117.110"
+  - "117.170"
+  - "117.190"
+  - filth
+  - "mold/rot"
+  - "AOAC 994.05"
+  - "Macroanalytical Procedures Manual"
+  - 环境取样
+  - 抽样量
+  - 阳性升级
+member_units: []
+source_label: FDA CP 7303.050（2022-06-03 签发 / 2025-09-10 更正，62 页，含 ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文与 FD&C Act 条款 + IOM 2026 Ch.5 交叉

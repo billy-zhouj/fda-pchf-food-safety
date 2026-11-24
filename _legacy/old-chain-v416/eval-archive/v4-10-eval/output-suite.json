@@ -1,0 +1,227 @@
+{
+  "suite_id": "fda-pchf-v4-10-output-seafood-hazards",
+  "target": "fda-pchf-food-safety",
+  "split_seed": 42,
+  "output_cases": [
+    {
+      "case_id": "sh-out-01",
+      "prompt": "我们做冷冻金枪鱼排，查了 Ch.3 的 Table 3-2，表里这个鱼种组胺那栏没打勾，是不是危害分析里就可以直接写「组胺不显著」？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "Table 3-2|三表|三张表"
+        },
+        {
+          "kind": "regex",
+          "value": "潜在危害|potential hazard|只列潜在"
+        },
+        {
+          "kind": "regex",
+          "value": "无控制|absence of controls|reasonably likely to occur|合理(发生)?(的)?可能性"
+        },
+        {
+          "kind": "regex",
+          "value": "第\\s*4\\s*栏|Column 4|理由"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-02",
+      "prompt": "我们船上一直有时间温度控制，这几年从没检出过组胺，是不是就能判定组胺不是显著危害、不用写进 HACCP 计划？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "无控制|absence of controls"
+        },
+        {
+          "kind": "regex",
+          "value": "组胺|scombrotoxin|histamine"
+        },
+        {
+          "kind": "regex",
+          "value": "第\\s*4\\s*栏|Column 4|书面理由"
+        },
+        {
+          "kind": "regex",
+          "value": "转引未收|540\\.525|CPG"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-03",
+      "prompt": "接收步骤判定组胺显著，是不是 CCP 就必须设在接收这一步？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "Step\\s*11|STEP\\s*11|判定树|decision tree"
+        },
+        {
+          "kind": "regex",
+          "value": "123\\.6\\(c\\)\\(2\\)|至少一个|at least one"
+        },
+        {
+          "kind": "regex",
+          "value": "Appendix 3|残表|塌陷|逐字"
+        },
+        {
+          "kind": "regex",
+          "value": "控制策略|control strategy|漂移"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-04",
+      "prompt": "危害分析工作表第 3 栏填了 No 的那些步骤，第 4 栏还要写理由吗？后面 18 步是不是都得走完？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "第\\s*4\\s*栏|Column 4"
+        },
+        {
+          "kind": "regex",
+          "value": "跳过|Steps?\\s*1[128]|剪枝"
+        },
+        {
+          "kind": "regex",
+          "value": "十栏|HACCP Plan Form|映射"
+        },
+        {
+          "kind": "regex",
+          "value": "十五类不可混引|123\\.6|不得(把|将)"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-05",
+      "prompt": "帮我把海产品 HACCP 危害分析从头到尾走一遍：从描述产品到定监控频率，完整判定链是什么？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "Table 3-2|Table 3-3|三表"
+        },
+        {
+          "kind": "regex",
+          "value": "Table 3-4"
+        },
+        {
+          "kind": "regex",
+          "value": "Step\\s*10|STEP\\s*10|第\\s*10\\s*步|无控制|absence of controls"
+        },
+        {
+          "kind": "regex",
+          "value": "What|How|Frequency|Who|监控四问"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-06",
+      "prompt": "指南里写了组胺 50 ppm / 500 ppm、寄生虫 -20°C 7 天，我们直接把这些数抄进 HACCP 计划当关键限值，检查员是不是就认了？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "非约束性|legally enforceable|不(具|设).{0,10}(法律|强制)|should"
+        },
+        {
+          "kind": "regex",
+          "value": "540\\.525|NSSP|40 CFR 180|转引未收"
+        },
+        {
+          "kind": "regex",
+          "value": "-20|-35|7\\s*天|6\\s*英寸|盐渍|醋渍"
+        },
+        {
+          "kind": "regex",
+          "value": "CAP-22|123\\.|科学|scientifically"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-07",
+      "prompt": "同一个组胺危害，Ch.7 给了好几条 Control Strategy Example，我们换一条控制策略，CCP 和关键限值要不要跟着改？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "control strategy|Control Strategy|控制策略"
+        },
+        {
+          "kind": "regex",
+          "value": "CCP|Step\\s*11|第\\s*5\\s*栏|第\\s*6\\s*栏"
+        },
+        {
+          "kind": "regex",
+          "value": "四段式|Understand|Determine Significant|Identify CCPs|Develop Control Strategy"
+        },
+        {
+          "kind": "regex",
+          "value": "科学|scientifically|充分性"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-08",
+      "prompt": "既然这份指南自己说没有法律约束力、可以用别的控制策略，那我们是不是连 Part 123 要求的书面 HACCP 计划和危害分析都可以不做？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "123\\.6"
+        },
+        {
+          "kind": "regex",
+          "value": "shall|法定义务|法条层"
+        },
+        {
+          "kind": "regex",
+          "value": "非约束性|should|legally enforceable|建议层"
+        },
+        {
+          "kind": "regex",
+          "value": "十五类不可混引|CAP-22|反向误读"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-09",
+      "prompt": "2022 年 6 月第 4 版是新规吧？麻烦把 Appendix 3 的 CCP 判定树逐字原文、CPG 540.525 全文、以及 NSSP 贝类生长区分类都列出来。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "June 2021|2021|滚动修订|分章"
+        },
+        {
+          "kind": "regex",
+          "value": "转引未收"
+        },
+        {
+          "kind": "regex",
+          "value": "Appendix 3|残表|塌陷|逐字|不得"
+        },
+        {
+          "kind": "regex",
+          "value": "June 2022|第\\s*4\\s*版|4th"
+        }
+      ]
+    },
+    {
+      "case_id": "sh-out-10",
+      "prompt": "按中国 GB 2733 帮我判定这批鲜冻动物性水产品的组胺限量和感官要求，顺便写一份出口欧盟的卫生证书。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "超出|不适用|不覆盖|不(提供|代写)|无法(提供|给出)|建议咨询|停(用|止)"
+        },
+        {
+          "kind": "regex",
+          "value": "GB 2733|欧盟|FDA|本包"
+        },
+        {
+          "kind": "not_contains",
+          "value": "卫生证书编号："
+        },
+        {
+          "kind": "not_contains",
+          "value": "组胺限量为"
+        }
+      ]
+    }
+  ]
+}

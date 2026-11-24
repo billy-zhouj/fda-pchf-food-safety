@@ -1,0 +1,264 @@
+slug: iom-sampling-procedure
+title: FDA 取样全流程作业程序（IOM 2026 Chapter 4）
+importance: extended
+importance_rationale: 全包从 v4.5 起就反复把「IOM Chapter 4 / Sample Schedule Chart 2」标为未收——CAP-17 的样品量只能停在 CP 7303.050 的表，CAP-19 的 24 罐/12 罐只能标「转引未收」，CAP-18 只能覆盖表单与证据链、不能覆盖取样动作本身，CAP-04 的环境病原卡也只能说「FDA 会采环境样」而没有 Zone 与子样数。用户于 v4.16 提供该章全本（189 页 / 361 书签），本卡补齐检查程序层的最后一块空白：**取样这一动作作为证据的形式要件**。它钉死七类高频误读：① 把 DOC sample 当成「记录复印件」而不是「以记录代表一个批的 official sample」（它仍是 official，只是不贴封条、不发 FDA 484）；② 把 INV 当成「非正式样品」（原文明确 it must be sealed，因为它能进法庭）；③ 把 survey sample 当成送检样（Survey samples are not official samples）；④ 把 702(b) 的七项豁免当封闭清单（污秽样品是反向例外，无论豁免与否都要留）；⑤ 把检查员的环境子样数 50/100 当成企业的 EMP 标准；⑥ 把「检出即上 483」当成规则（实为关账前已知 + Zone 1/2 或 2/3 双门槛，Zone 3/4 不写）；⑦ 把 Sample Schedule Chart 2 的取样计划与 CP 7303.070 的 4.40/4.65/4.75 实验室触发线混成一条数。属检查程序层的通用底座，与 CAP-17/18 交叉、与 CAP-19/20 强配对，故定 extended。
+one_liner: 先定类别（official physical／official DOC／INV／survey／non-regulatory，五类只有前两类是 official sample），再定数量（assignment → CP → IOM Sample Schedule 三级优先，通用规则为箱数平方根且 12–36 子样），再判 702(b)（默认留分析量两倍，七项豁免逐条排，污秽样品反向必须留），表单按动作对号（482／472／484／415a／525／463a／1664；DOC 不发 484、induced/undercover/online 通常不发 482+484），封条一样一封单签名、环境拭子 24 小时到实验室，阳性结果先问「关账了吗」与「哪个 Zone 哪种菌」再谈 483。
+intents:
+  - 判定一份样品是否构成 21 CFR 2.10 意义上的 official sample
+  - 说明 official sample 的三条件（输入/处于/曾收到于州际商业，或在 Territory 或 DC 制造）
+  - 说明 valid sample 的四要件（记录、代表性、足量含 702(b)、标识封存与监管链）
+  - 说明进口样品一律是 official sample 且须同等谨慎处理
+  - 回答 DOC sample 是不是 official sample（是，只是不贴封条、不发 484）
+  - 说明 DOC sample 组成（标签、随附标识、州际商业记录、支持性证据）
+  - 回答 DOC sample 能否贴官方封条（不得）
+  - 说明什么情况下用 DOC 而非实体样（超大、固定安装、过贵、已不存在、无需化验、应急留用、拟按标签违法扣留）
+  - 说明 field-stripping 剥离标签做法的适用与记录要求
+  - 回答 INV 是不是 official sample（不是，但必须封条、必须保证据链）
+  - 列举 INV 的四类典型（in-line/factory food、exhibit、环境样、部分投诉样）
+  - 回答 survey sample 的效力（不是 official sample，只做数据）
+  - 说明 non-regulatory sample 的定义（替其他机构代做、FDA 无管辖权）
+  - 说明环境样、土壤、水、动物粪便一律按 INV 编号
+  - 说明 301(k) 样品的三个取证要件与「州际商业靠进厂原料证明」这一反直觉点
+  - 说明 in-transit sample 的三种在途判定
+  - 说明 post-seizure sample 只能依法院裁定采集且不付费
+  - 说明 DI 样品与普通国内 official sample 的差异
+  - 回答取样量怎么定（assignment → CP → IOM Sample Schedule 三级优先）
+  - 说明通用取样规则（箱数平方根、12–36 子样、不足 12 全取、带 702(b) 双份）
+  - 说明随机取样与选择性取样的适用分界
+  - 说明 702(b) 的法定语与「on request」的性质
+  - 列举 702(b) 的七项豁免
+  - 回答污秽样品要不要留 702(b)（要，反向例外）
+  - 回答环境拭子为什么不留 702(b)（明文列入无法保存）
+  - 说明 702(b) 留样量（至少分析量两倍，含实验室 reserve）
+  - 说明 702(b) 子样须来自同一容器及单独封条建议
+  - 回答 FDA 484 的签发时点（检查结束、离场前）
+  - 回答哪些情形不发 482 与 484（induced / undercover / online）
+  - 回答运途中取样对承运人开哪张单（482 + 472）
+  - 回答 DOC sample 有没有 484（没有）
+  - 说明 FDA 415a 封条只能有一个签名
+  - 说明一个封条只能封一个样品
+  - 说明 702(b) 应独立容器独立封条
+  - 回答封条过期能否使用（可延至厂商有效期后 5 年）
+  - 说明封条被拆后的重封与记录要求
+  - 说明不贴封条的唯一例外（连续亲自保管 + 主管与实验室同意）
+  - 回答环境取样会不会提前通知（通常不会，且理由为防止临时清洁）
+  - 回答环境取样要采多少子样（Salmonella ≥100 理想 300；Listeria ≥50 理想 100）
+  - 说明 Zone 1/2/3/4 的定义与举例
+  - 回答环境取样以哪个 Zone 为主（1 与 2 为主、3 次之、4 极少）
+  - 说明 Salmonella 为何少采 Zone 1、Listeria 为何必采 Zone 1
+  - 回答 Listeria 取样的时间窗（生产 ≥4 小时且湿洗前）
+  - 回答 Salmonella 取样与湿洗的先后（宜在湿洗前）
+  - 回答环境取样用什么中和液（D/E 中和肉汤或缓冲液）
+  - 回答海绵与拭子的擦拭手势与面积（10 纵 10 横；小面积加 10 斜）
+  - 回答环境拭子多久须到实验室（24 小时内）
+  - 回答是否每子换手套（Zone 2–4 常规监督不必，Zone 1 与 for-cause 必须）
+  - 回答 in-line 样品每子样量（约 114 g / 4 oz，双份）
+  - 回答成品样品量（10 个零售容器，每个 ≥114 g，双份）
+  - 说明 closed control 与 open control 的处理规则（环境样不交开控）
+  - 说明环境样跨日取样须每日新样品号、子样连续编号
+  - 回答阳性环境结果能否上 FDA 483（三条件 + Zone 门槛）
+  - 回答 Zone 3（Listeria）与 Zone 4 阳性能否上 483（不能）
+  - 回答环境样品要不要勾 704(d)（不勾）
+  - 说明 704(d) 四问的具体内容
+  - 回答选择性取样的食品要不要勾 704(d)（要）
+  - 回答选择性取样中的产品部分要不要 702(b)（要）
+  - 说明 CPG 580.100 鼠患直接扣留的最低判据
+  - 说明「孤立 vs 广域」鼠患判定分别对应 402(a)(3) 与 402(a)(4)
+  - 说明紫外线查鼠尿斑的作业要点
+  - 回答 LACF 现场检查看多少罐（Chart 2 批大小对表）
+  - 说明 LACF 现场检查的提前终止判据（3/5/6/7/8/9/10/11）
+  - 说明 flipper / springer / swell 的判别
+  - 回答 leaker 是否计入异常罐（不计，只报数不采）
+  - 回答 LACF 官方样品的构成（全部异常 + 规定正常罐）
+  - 回答 LACF investigational/import 样品的构成（全部异常 + 12 正常罐）
+  - 回答 LACF 污秽/微生物样品量（48/96/72 罐四档）
+  - 回答酸化食品 pH 取样量（>795 g 取 12 罐；≤795 g 取 24 罐）
+  - 回答 AF 的 pH 取样量是否含 702(b)（不含）
+  - 回答 AF 发现异常罐如何处理（另采至多 24 罐）
+  - 回答肿胀罐的运输方式（双层袋陆运、中度以上加冰袋）
+  - 回答冷藏样品的温度要求（4.4 °C / 40 °F 或以下）
+  - 回答干冰的时限与用量（48 小时上限、隔夜 1:1）
+  - 回答干冰能否放入已封样品包内（不能）
+  - 回答取样是否付费（一律要约，法院裁定项下除外）
+  - 回答进口样品是否现场付费（不付，后续请款）
+  - 回答取样造成的工时费如何处理
+  - 回答拒绝取样会怎样（702/704 授权、301(f)、501(j)）
+  - 回答自愿扣货的适用与易腐品的限制
+  - 回答 borrowed sample 的标识要求
+  - 回答 for-cause 罐头能否贴不干胶标签（不能）
+  - 回答取样照片算不算样品（不算，是 exhibit）
+  - 回答多页附件要不要编页码（要，1 of 10 式）
+  - 判断哪些问题超出本卡（企业义务、某 program 抽样表、BAM/AOAC 方法、CPG 全文、FACTS 操作）
+keywords:
+  - "IOM Chapter 4"
+  - "IOM 4.1"
+  - "IOM 4.1.4"
+  - "IOM 4.1.4.1"
+  - "IOM 4.1.4.1.1"
+  - "IOM 4.1.5"
+  - "IOM 4.1.6"
+  - "IOM 4.1.7"
+  - "IOM 4.2.5"
+  - "IOM 4.2.8"
+  - "IOM 4.2.9"
+  - "IOM 4.3.2"
+  - "IOM 4.3.2.2"
+  - "IOM 4.3.2.3"
+  - "IOM 4.3.6.2"
+  - "IOM 4.3.6.3"
+  - "IOM 4.3.6.4"
+  - "IOM 4.3.6.6.1"
+  - "IOM 4.3.6.6.2"
+  - "IOM 4.3.6.6.3"
+  - "IOM 4.3.6.6.4"
+  - "IOM 4.3.6.6.5"
+  - "IOM 4.6.2.58"
+  - "IOM 4.7.1"
+  - "IOM 4.7.2.1"
+  - "IOM 4.7.2.2"
+  - "IOM 4.7.2.4"
+  - "IOM 4.7.3"
+  - "IOM 4.7.4"
+  - "IOM 4.7.4.1"
+  - "IOM 4.7.4.5"
+  - "IOM 4.7.5"
+  - "IOM Exhibit 4-17"
+  - "IOM Exhibit 4-19"
+  - "IOM Exhibit 4-20"
+  - "IOM Exhibit 4-21"
+  - "IOM Exhibit 4-22"
+  - "IOM Exhibit 4-1"
+  - "IOM Exhibit 4-2"
+  - "IOM Sample Schedule Chart 1"
+  - "IOM Sample Schedule Chart 2"
+  - "Sample Schedule Chart 2"
+  - "SAMPLE SCHEDULE"
+  - "Investigations Operations Manual"
+  - "IOM 2026"
+  - "official sample"
+  - "valid sample"
+  - "21 CFR 2.10"
+  - "2.10(b)"
+  - "DOC sample"
+  - "documentary sample"
+  - "INV"
+  - "investigational sample"
+  - "survey sample"
+  - "non-regulatory sample"
+  - "physical sample"
+  - "in-transit sample"
+  - "301(k) sample"
+  - "post-seizure sample"
+  - "PS sample"
+  - "DI sample"
+  - "SDI sample"
+  - "ADD sample"
+  - "audit/certification sample"
+  - "reconditioning sample"
+  - "induced sample"
+  - "undercover buy"
+  - "online sample"
+  - "factory food sample"
+  - "in-line sample"
+  - "environmental swab"
+  - "environmental sampling"
+  - "Zone 1"
+  - "Zone 2"
+  - "Zone 3"
+  - "Zone 4"
+  - "zone concept"
+  - "Dey-Engley"
+  - "D/E neutralizing broth"
+  - "sponge on a stick"
+  - "Dacron tip swab"
+  - "closed control"
+  - "open control"
+  - "control subs"
+  - "702(b)"
+  - "702(a)"
+  - "704(d)"
+  - "704(a)"
+  - "301(f)"
+  - "301(k)"
+  - "402(a)(3)"
+  - "402(a)(4)"
+  - "501(j)"
+  - "801"
+  - "reserve portion"
+  - "split sample"
+  - "FDA 482"
+  - "FDA 472"
+  - "FDA 484"
+  - "FDA 415a"
+  - "FDA 525"
+  - "FDA 463a"
+  - "FDA 1664"
+  - "FDA 1664a"
+  - "FDA 1664b"
+  - "FDA 463"
+  - "FDA 464a"
+  - "FDA 485"
+  - "FD 1662"
+  - "receipt for samples"
+  - "official seal"
+  - "metal seal"
+  - "chain of custody"
+  - "collection report"
+  - "C/R"
+  - "FACTS"
+  - "EIR"
+  - "FDA 483"
+  - "closeout"
+  - "Listeria monocytogenes"
+  - "Salmonella"
+  - "at least 50 swabs"
+  - "at least 100 swabs"
+  - "114 g"
+  - "4 oz"
+  - "ten (10) retail size containers"
+  - "24 hours"
+  - "4.4 C"
+  - "40 F"
+  - "dry ice"
+  - "48 hours"
+  - "flipper"
+  - "springer"
+  - "hard swell"
+  - "soft swell"
+  - "leaker"
+  - "abnormal containers"
+  - "low-acid canned foods"
+  - "acidified foods"
+  - "equilibrium pH"
+  - "CPG 580.100"
+  - "FMD-147"
+  - "SOP-001052"
+  - "Field Bulletin #30"
+  - "CP 7303.050"
+  - "CP 7303.070"
+  - "CPGM 7303.844"
+  - "CP 7356.008"
+  - "RPM 6-3"
+  - "21 CFR 1.91"
+  - "21 CFR 145.3"
+  - "取样"
+  - "取样程序"
+  - "官方样品"
+  - "文件性样品"
+  - "调查性样品"
+  - "监督样品"
+  - "分割留样"
+  - "留样"
+  - "封条"
+  - "证据链"
+  - "环境取样"
+  - "环境棉签"
+  - "环境分区"
+  - "子样"
+  - "抽样量"
+  - "提前终止"
+  - "异常罐"
+  - "酸化食品pH"
+  - "二十类不可混引"
+member_units: []
+source_label: FDA《Investigations Operations Manual 2026, Chapter 4 – Sampling》（189 页 / 361 书签 / 4.2 MB，creationDate 2026-07-14，检查程序作业层）；法条侧回 21 CFR 2.10、FD&C Act 702(b) / 704(d) / 301(k) / 801（本包未收这些条文的全本，仅有本章转引）；抽样量与阳性升级路径见 CAP-17 的 CP 7303.050；检查员权限与 483 写法见 CAP-18 的 IOM Ch.5；LACF 检查程序见 CAP-19 的 CP 7303.070。仍属「转引未收」：IOM Chapter 2 / 3 / 6 / 7 / 8 / 9 / 10 全本、SOP-001052（ORA Field Bulletin #30）、FMD-147、OII SOP-000530、RPM Chapter 6-3 与 10-4、CPG 300.400 / 335.700 / 335.800 / 345.100 / 580.100 / 130.100 / 690.600、CP 7356.008、CPGM 7303.844、21 CFR 1.91 / 145.3、BAM / AOAC 方法全文、FACTS / eNSpect / OASIS / SERIO 内部操作

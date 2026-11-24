@@ -1,0 +1,13 @@
+{
+  "case_id": "secg-trigger-04",
+  "runs": 3,
+  "prompt": "有一批原料缺陷超标，掺到合格批次里之后终产品检测是合格的，这样处理算违法吗？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "si-out-02",
+  "variant_label": "vB",
+  "prompt": "CP 7303.842 和 CP 7303.844 现在合并了吗？合并后进口和国产样品是不是都报同一个 PAC 码？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "可用参考材料（请先读取再作答）：C:/Users/周至/WorkBuddy/美国食品安全法规技能/.workbuddy/skills/fda-pchf-food-safety/SKILL.md 与其 references/ 下的能力卡、capability-index.md、glossary.md。遇到检查判定链、Table / PART 编号、PAC 码表、来源分层、转引未收等问题请以材料为准；尤其先读 seafood-inspection-program 卡。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-11-eval/packets-output/si-out-02/vB.md"
+}

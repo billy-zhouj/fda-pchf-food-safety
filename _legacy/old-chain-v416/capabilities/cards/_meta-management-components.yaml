@@ -1,0 +1,30 @@
+slug: management-components
+title: 预防控制管理组件闭环
+importance: core
+importance_rationale: Ch5 贯穿全书、五类控制共用的运行框架；监控/纠正/验证/记录是所有食品企业最高频的日常决策点
+one_liner: 每个预防控制配"监控→纠正→验证→记录→再分析"闭环——偏差默认自上次合格点起失控，correction 与纠正措施按"是否影响食品×孤立还是反复"分诊
+intents:
+  - 设计预防控制的监控方案（测什么/怎么测/多久/谁负责）
+  - 发生偏差后判定走 correction 还是 corrective action、隔离多少产品
+  - 设计关键限值与操作限双线、确定校准与记录频次
+  - 区分 validation 与 verification、确定哪些控制可豁免 validation
+  - 用例外记录减负、确定 FSP 再分析触发条件
+  - 法定记录要件与保存期限判定、官方调阅应对、PCQI 职能边界
+keywords:
+  - 监控
+  - 纠正措施
+  - corrective action
+  - 关键限值
+  - 操作限
+  - validation
+  - verification
+  - 记录审查
+  - exception record
+  - 再分析
+  - "117.165"
+  - "117.305"
+  - "117.315"
+  - "7 working days"
+  - "validation 90日"
+  - "PCQI职能"
+member_units: [fA-20, fA-42, fA-45, fA-46, fA-47, fA-49, fA-50, fA-51, fA-52, fA-53, pV-30, pV-31, pV-32, pV-33, pV-34, pV-35, pV-36, pV-37, pV-38, pV-39, pV-40]

@@ -1,0 +1,9 @@
+{
+  "case_id": "sh-out-05",
+  "variant_label": "vA",
+  "prompt": "帮我把海产品 HACCP 危害分析从头到尾走一遍：从描述产品到定监控频率，完整判定链是什么？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-10-eval/packets-output/sh-out-05/vA.md"
+}

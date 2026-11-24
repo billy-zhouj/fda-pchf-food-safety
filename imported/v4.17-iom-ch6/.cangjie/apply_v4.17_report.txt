@@ -1,0 +1,10 @@
+[1] 入口卡已定点修 A2：加入 483/483a 触发判别句 + V08 路由行硬标记
+[2] 已复制 CAP-29 入口卡 1 张 + 子卡 10 张 → references/capabilities/
+[3] capability-index.md 追加 CAP-29 索引行
+[4d] SKILL.md 能力路由表已插入 CAP-29 行（紧随 CAP-28）
+[4] SKILL.md 完成 11 处精确更新（frontmatter / description / 路由表 / 边界）
+[5] test-prompts.json: version 4.17, cases 181 (+13)
+[6a] overview.md 追加 v4.17 增量段
+[6b] glossary.md 追加 12 条 IOM Ch.6 高价值术语
+[6c] cheatsheet.md 追加 CAP-29 速查行
+[7] 全部校验通过：18 项

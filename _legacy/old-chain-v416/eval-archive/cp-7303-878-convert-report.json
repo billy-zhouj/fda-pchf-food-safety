@@ -1,0 +1,30 @@
+{
+  "output": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/source-cp-7303-878-2023.md",
+  "chars": 75893,
+  "lines": 510,
+  "headings": {
+    "H1": 2,
+    "H2": 10,
+    "H3": 27,
+    "H4": 11,
+    "H5": 0,
+    "H6": 0
+  },
+  "total_headings": 50,
+  "table_lines": 93,
+  "bookmarks_used": 20,
+  "bookmarks_dropped": 0,
+  "auto_detected_noise_lines": 3,
+  "residual_standalone_pagenum": 0,
+  "residual_dash_page": 0,
+  "header_lines_removed": 62,
+  "header_removed_samples": [
+    "**Date of Issuance** : 08/28/2025",
+    "**Transmittal Number** : 2023-CPM-CFSAN-003",
+    "**Transmittal Number** : 2023-CPM-CFSAN-003 **Date of Issuance** : 08/28/2025"
+  ],
+  "underline_tags": 92,
+  "final_chars": 82178,
+  "final_lines": 487,
+  "version_judgement": "2023-09-27 program (Transmittal 2023-CPM-CFSAN-003), corrected 2025-08-28; not a 2025 new program"
+}

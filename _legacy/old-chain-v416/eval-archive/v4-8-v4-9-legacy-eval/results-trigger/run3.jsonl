@@ -1,0 +1,38 @@
+{"case_id": "fsvp-01", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 供应链验证关系"}
+{"case_id": "fsvp-02", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 检查取样布点"}
+{"case_id": "fsvp-03", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "进口报关 UFI 填报"}
+{"case_id": "fsvp-04", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 豁免范围"}
+{"case_id": "fsvp-05", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "VSI 修改要求"}
+{"case_id": "fsvp-06", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 483a 升级"}
+{"case_id": "fsvp-07", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 缺陷后续"}
+{"case_id": "fsvp-08", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "进口警报 99-41"}
+{"case_id": "fsvp-09", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "低酸罐头备案分流"}
+{"case_id": "fsvp-10", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "FSVP 法规条款"}
+{"case_id": "neg-01", "run": 3, "selected_skill": "none", "reason": "股票行情无关"}
+{"case_id": "neg-02", "run": 3, "selected_skill": "none", "reason": "编程算法无关"}
+{"case_id": "neg-03", "run": 3, "selected_skill": "none", "reason": "药品 cGMP 非食品"}
+{"case_id": "neg-04", "run": 3, "selected_skill": "none", "reason": "USDA 肉类非 FDA"}
+{"case_id": "neg-05", "run": 3, "selected_skill": "none", "reason": "中国国标非 FDA"}
+{"case_id": "neg-06", "run": 3, "selected_skill": "none", "reason": "欧盟法规非 FDA"}
+{"case_id": "neg-07", "run": 3, "selected_skill": "none", "reason": "化妆品非食品"}
+{"case_id": "neg-08", "run": 3, "selected_skill": "none", "reason": "合同模板无关"}
+{"case_id": "neg-09", "run": 3, "selected_skill": "none", "reason": "天气无关"}
+{"case_id": "neg-10", "run": 3, "selected_skill": "none", "reason": "翻译无关"}
+{"case_id": "seafood-01", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "Part123 烟熏鱼 HACCP"}
+{"case_id": "seafood-02", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "Part123 与 PCHF 豁免"}
+{"case_id": "seafood-03", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "113 与 117.5b 分流"}
+{"case_id": "seafood-04", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "123.9 记录保存"}
+{"case_id": "seafood-05", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "123.12 与 FSVP"}
+{"case_id": "seafood-06", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "牡蛎标签记录"}
+{"case_id": "seafood-07", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "CCP 记录复核"}
+{"case_id": "seafood-08", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "关键限值偏离纠偏"}
+{"case_id": "seafood-09", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "123 SSOP 条款"}
+{"case_id": "seafood-10", "run": 3, "selected_skill": "fda-pchf-food-safety", "reason": "烟熏鱼与罐头管辖"}
+{"case_id": "sib-01", "run": 3, "selected_skill": "pdf2md-pro", "reason": "PDF 转 Markdown"}
+{"case_id": "sib-02", "run": 3, "selected_skill": "brand-ip", "reason": "Logo 做 IP 吉祥物"}
+{"case_id": "sib-03", "run": 3, "selected_skill": "cangjie-skill", "reason": "书籍蒸馏成 skill"}
+{"case_id": "sib-04", "run": 3, "selected_skill": "officecli1098", "reason": "Excel 排序与图表"}
+{"case_id": "sib-05", "run": 3, "selected_skill": "pdf2md-pro", "reason": "扫描 PDF 转 md"}
+{"case_id": "sib-06", "run": 3, "selected_skill": "brand-ip", "reason": "宠物 IP 形象"}
+{"case_id": "sib-07", "run": 3, "selected_skill": "cangjie-skill", "reason": "课程稿拆技能包"}
+{"case_id": "sib-08", "run": 3, "selected_skill": "officecli1098", "reason": "csv 公式与合并"}

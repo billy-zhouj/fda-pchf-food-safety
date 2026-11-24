@@ -1,0 +1,171 @@
+{
+  "version": "v4.6",
+  "generated": "2026-11-06",
+  "task": "把用户提供的 CP 7303.070（低酸/酸化罐头 program）落为第十来源，新增 CAP-19 管辖分流卡，并把迎检链扩为四卡/十类来源",
+  "source": {
+    "source_id": "src-fda-cp-7303-070-2024",
+    "input_pdf": "G:/下载/20250929_CP 7303.070 Acidified and Low-Acid Canned Foods Program 508-Compliant.pdf",
+    "output_md": "source-cp-7303-070-2024.md",
+    "pages": 61,
+    "bookmarks_total": 40,
+    "bookmarks_used": 40,
+    "bookmarks_dropped": 0,
+    "headings": 96,
+    "table_lines": 162,
+    "residual_standalone_pagenum": 0,
+    "chars": 132919,
+    "lines": 1130,
+    "version_facts": {
+      "date_of_issuance": "09/26/2024",
+      "implementation_date": "9/26/2024",
+      "correction_date": "9/26/2025",
+      "pdf_creation_date": "2025-09-29",
+      "pdf_author": "FDA",
+      "pdf_title": "CP 7303.070, Acidified and Low-Acid Canned Foods Program – Import & Domestic (Implementation Date: 09/26/2024)",
+      "chapter": "CHAPTER 03 – FOOD MICROBIOLOGICAL HAZARDS",
+      "program": "7303.070",
+      "verdict": "文件名 20250929 只是 PDF 生成日；本件为 2024-09-26 版程序的 2025-09-26 更正本，不是 2025 新签发 program；与 CP 7303.050 同形态，与 CPGM 7303.040 的 2025-CPM-HFP-001 新 Transmittal 不同"
+    },
+    "authority_layer": "inspection-program（FDA 给检查员、实验室分析员与合规官的内部作业指导；非法规、非 Guidance for Industry、不创设企业义务）",
+    "citation_format": "CP 7303.070 PART x / ATTACHMENT x",
+    "pac_paf": {
+      "PAC": [
+        "03070A 境内 AF",
+        "03070B 境内 LACF",
+        "03070C 境内无菌 LACF",
+        "03070F 进口 LACF",
+        "03070G 进口 AF",
+        "03070J 进口无菌 LACF",
+        "71070 境内外 LACF 动物食品"
+      ],
+      "PAF": [
+        "ACD 常规低酸/酸化/酸性产品",
+        "MIC 仅 C. botulinum for-cause"
+      ],
+      "ProblemCodes": [
+        "AFD",
+        "ACF",
+        "LAF"
+      ]
+    }
+  },
+  "key_findings": [
+    "PART II.2.C(1)：LACF products are subject to the CGMP and PCHF rule，但 subparts C/G 不适用于 part 113 覆盖活动；〔§ 117.5(d)(2)〕限定仅豁免 part 113 管辖的微生物危害；未被热处理控制且需 PC 的危害（S. aureus 生长产毒、化学、物理）仍归 C/G",
+    "PART II.2.C(1)：Acidified foods are subject to the CGMP & PCHF rule——酸化食品不在 §117.5(d) 豁免内，PCHF 覆盖转 7303.040，检查重点仍在 part 108/114（不论规模）",
+    "⚠〔§ 117.201〕是 qualified facility 的 modified requirements，不是 LACF 条款（核对 CFR 正文后纠正的最初误判）",
+    "PART II.2.C(2)：Products labeled Keep Refrigerated are exempt from 21 CFR 113/114 → 归 CP 7303.050（CAP-17）；brites 中央仓报 PAC 03040（CAP-16）；动物食品 71070 / 507.5(b)；海产品 7303.842 HACCP",
+    "PART II.2.B(2)：RRA 自愿、全程远程，RRAs are not considered inspections，不满足 FD&C Act 704 条法定检查场景（510(h)/503B(b)）——程序性定义，可条款级引用；FDA 政策公告原文仍未收",
+    "PART I / II.1：法源三角 21 CFR part 108（FCE 注册 / SID 备案 / Emergency Permit）、113、114 正文未收，CP 内相关内容标「转引未收」",
+    "PART III.1.A：酸化判定三步（酸成分+水 → 加低酸成分研磨测 Maximum Equilibrium pH → 送 HFP 邮箱判 significant difference）；ROP 阈值 OTR <10,000 cc/m²/24h at 24°C；企业自判至少 6 个成品单元；法定身份由 HFP 判定",
+    "PART III.1.A：AF / LACF / Aseptic LACF 三类检查目标；六组取证记录（FCE/SID 与 Process Authority、TD/HP 研究、交付与偏差、容器与冷却水、人员与 BPCS、现场异常罐与投诉）",
+    "PART IV.2：≤795 g 取 24 罐 / 其余 12 罐；pH 4.40 触发第二分析师同日换仪器复测、4.65 触发各测余下半数、Never average the two analysts' results together；异常罐 >1%、14 天 progressive decomp、pH >4.75 且特定菌相 → 肉毒毒素 + C. botulinum PCR；C. botulinum 仅 for-cause（PAF MIC）",
+    "PART V.2：Import Alert 99-37（无 filed scheduled process）/ 99-38（过程控制不足）；Do not recommend firm/products for an Import Alert/DWPE solely based on firm/product not registered and/or filed processes with FDA；FCE/SID 在 FURLS / Center Views 核验，不符 → DTR",
+    "PART II.2.B(1)：Emergency Permit / OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率；重大重复观察 24 小时通电 HFP/OCE/OE 与 OII/OHFI"
+  ],
+  "three_number_sets": {
+    "statutory": "pH 4.6（平衡 pH）/ aw 0.85 ——〔§ 117.3〕〔§ 117.80(c)(14)(15)〕，法定边界与持续维持义务",
+    "inspector": "pH 4.40 / 4.65 / 4.75、aw 0.90 / 0.93、异常罐 1%、795 g / 24 罐与 12 罐、3/6/12 个月 —— CP 7303.070 实验室与取证触发线，检查员作业口径，不是企业放行标准",
+    "guidance": "pH ≤4.4 / aw ≤0.92 —— L.mono 2017 草案抑制型（listeristatic）配方基准，建议层",
+    "rule": "三者用途不同、不得互替；pH 4.5 勉强满足酸化管辖、会触发 CP 复测、却不满足 L.mono 抑制目标"
+  },
+  "quote_verification": {
+    "method": "提取 CAP-19 R 段全部 > \"...\" 引用块，剥离 source 文件头后仅比对 PDF 正文区，NFKC + 去标点/空白/Markdown 归一化后检查是否为源文连续子串",
+    "total": 25,
+    "matched": 25,
+    "misses": 0,
+    "note": "`Do not recommend ... process filing.` 一条引文末尾的源文加粗标记 `**` 在归一化时被去除，不影响逐字结论"
+  },
+  "structural_checks": {
+    "meta_yaml_files": 19,
+    "meta_string_fields_all_str": true,
+    "glossary_terms": 142,
+    "glossary_new_segment_yaml_valid": true,
+    "test_cases": 75,
+    "test_case_ids_unique": true,
+    "test_prompts_version": "4.6",
+    "cards_six_sections": "19/19（新增 CAP-19 含 R / I / A1 / A2 / E / B）",
+    "existing_cards_revised": 8,
+    "revisions_applied": 31,
+    "note": "全库 fenced yaml 术语块自 v1 起有历史遗留的 t03 解析错误，作为 markdown 交付不参与 parse 校验；v4.6 新增 t135–t142 段已单独验证合法"
+  },
+  "authority_discipline": {
+    "rule": "十类不可混引",
+    "layers": [
+      "21 CFR Part 117 法规正文〔§ 117.xxx〕（唯一法定义务判定基准）",
+      "FDA PCHF 行业指南（Ch/小节号，Draft 建议层）",
+      "L.mono RTE 指南（其章节号，2017 Draft 建议层）",
+      "SECG（SECG 章号，白话转述不创设义务）",
+      "过敏原 Ed.5（问答编号，FD&C Act 标签解释）",
+      "Food Defect Levels Handbook（Handbook 章名 + 产品名，执法裁量参考）",
+      "CPGM 7303.040（PART x，检查员内部作业指导）",
+      "CP 7303.050（PART x / ATTACHMENT A Part x / Table x，抽样作业指导）",
+      "IOM 2026 Ch.5（IOM 5.x.x / Exhibit 5-x，调查员内部作业手册）",
+      "CP 7303.070（PART x / ATTACHMENT x，LACF/AF 专门体系作业指导）"
+    ],
+    "external_uncollected": "21 CFR part 108/113/114、IOM Ch.4、BAM、CPG、Import Alert、SOP、RPM 等一律标「转引未收」，不得从 CP 反推法条"
+  },
+  "cards_added": [
+    {
+      "capability_id": "CAP-19",
+      "slug": "lacf-inspection-program",
+      "title": "低酸罐头与酸化食品检查（CP 7303.070）与 Part 117 管辖分流"
+    }
+  ],
+  "cards_revised": [
+    "inspection-readiness（11 处）",
+    "investigator-authority-procedure（5 处）",
+    "cgmp-compliance-guide（4 处）",
+    "defect-action-levels（4 处）",
+    "inspection-sampling（3 处）",
+    "regulatory-boundaries（2 处，含新增 B10）",
+    "reference-tools-discipline（新增第 12 条）",
+    "process-control-validation（两套基准框增补第三套数字）"
+  ],
+  "build_and_install": {
+    "assemble": "assemble_bundle.py → 19 capabilities (CAP-01..CAP-19), 19 meta yaml",
+    "compile": {
+      "command": "cangjie.py compile --bundle .cangjie/capabilities --out dist-v10 --output single --yes",
+      "output_dir": "dist-v10",
+      "run_id": "run-20261106-115659-0e1060",
+      "variant": "single",
+      "capability_count": 19,
+      "scanned_md": 24
+    },
+    "validation": {
+      "staged_dist": {
+        "errors": 0,
+        "warnings": 1,
+        "warning_detail": "name-dir: SKILL.md name fda-pchf-food-safety 与目录名 dist-v10 不一致；为编译产物目录名的固有提示"
+      },
+      "installed": {
+        "errors": 0,
+        "warnings": 0,
+        "scanned_md": 24
+      }
+    },
+    "backup": "backups/fda-pchf-food-safety-v4.5-20261106-115728",
+    "installed_to": "C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety",
+    "installed_cards": 19,
+    "installed_glossary": 142,
+    "installed_test_cases": 75,
+    "install_script": ".cangjie/install_v7.py",
+    "render_rule": "references/overview.md 用自然语言登记「第十来源 — FDA CP 7303.070」，source_id 仅存在于 .cangjie/capabilities/verified.yaml；SKILL.md 由入口描述/核心原则/停用条件带出 CAP-19 内容（skill 内 lacf-inspection-program 命中 8 次）"
+  },
+  "still_not_collected": [
+    "21 CFR part 108 / 113 / 114 正文（FCE/SID、scheduled process、商业无菌、Emergency Permit、Form 2541e）",
+    "IOM Chapter 3/4/6/7/8/9/10（尤其 Ch.4 的 702(b) 分割留样、Sample Schedule Chart 2）",
+    "BAM Ch.13B/14/17/21A/22A-22D、eBAM / AOAC OMA / MPM 方法正文",
+    "CPG Sec. 130.100 / 527.300 / 520.200 / 520.300 与 CPG Ch.5 全套、RPM Ch.4/9、SOP-001642 / SOP-001052 / SOP-000529 / FMD-86 / FMD-147",
+    "Import Alerts / Import Bulletins 与 Import Alert 99-37 / 99-38 全文",
+    "其他 Compliance Programs（7303.878 / 7303.080 / 7303.842 / 7371.000 / 7321.006 / 7304.019 / 7304.004A / 7309.006）",
+    "21 CFR 2.10 / 133 / 1240.61 / 507 正文、FDA 483/484/1551 数据库、Inspections Database",
+    "21 CFR part 117 citations table、SOFO job aid、Human Food By-Products GFI #239、eNSpect / CAR / CMS 内部系统",
+    "FDA 境外无预告检查、RRA 适用范围与 FD&C Act 704(a)(4) 检查前索取记录的政策公告原文"
+  ],
+  "conversion_limits": [
+    "40/40 书签命中、残留独立页码 0、表格 162 行；首页封面表转 GFM 后单元格合并、<br> 保留为断行（如 Use appropriateproduct codes. 为 PDF 转录连写）",
+    "书签标题与正文粗体小节同时被提升为 ##，标题有重复且部分错位（PART II 出现两次、(2) Foreign Inspections 与 B. Inspection Priorities 交错）；检索以 PART / 小节号 / 表号为准",
+    "图片以 ==> picture [...] intentionally omitted <== 占位；ATTACHMENT B/C 与进口产品代码表有空单元格与跨页表头重复；菌名斜体以 _C. botulinum_ 保留",
+    "转换运行时出现过一次 Windows 子进程 stdout 的 UnicodeDecodeError 告警（pymupdf4llm 内部线程读控制台），不影响输出；文件头为导入说明，非原文"
+  ]
+}

@@ -1,0 +1,274 @@
+[p.46]
+
+
+
+
+
+
+
+
+
+Towards this end, the FDA also conducts periodic filer evaluations to monitor the accuracy of this transmitted entry
+data. Filer evaluations are conducted based on the physical location within an import division and may include entry
+lines transmitted by filers that are physically located within a different import division. (Follow SOP-000217 “Import
+Filer Evaluation”. when conducting import filer evaluations. and the Filer Evaluation Program Resources.) The FDA’s
+Filer Evaluation website also contains helpful regarding the Filer Evaluation Program.
+6.8 – Foreign Supplier Verification Programs (FSVP)
+6.8.1 - FSVP Inspections
+FSVP inspections are conducted to ensure that imported food is produced using processes and procedures that provide
+at least the same level of public health protection as food produced in the United States. The FSVP website contains
+resources for legal, regulatory, guidance, and policy issues for the FSVP regulation.
+The FSVP Resources website also contains an all-in-one resource for investigators who are conducting FSVP
+Inspections.
+Refer to the FSVP Implementation Work Instructions in conjunction with this subchapter when conducting an FSVP
+Inspection.
+Additionally, refer to Compliance Program 7303.878 Foreign Supplier Verification Programs Inspections for more
+information on FSVP.
+6.8.1.1 - Pre-Inspection Activities
+Prior to conducting an FSVP inspection, you’ll want to contact the FSVP importer by email, using the FSVP Pre-
+Inspectional Contact Email Template. If the FSVP Importer does not provide their telephone number in response to
+the email, or does not respond to the email, you should call the importer. During this pre-inspection
+communication you should:
+1. Identify yourself and inform the importer that the FDA will be conducting an FSVP inspection.
+2. Verify the firm or person identified at entry is the "importer," as defined in 21 CFR 1.500, and that the
+imported food is subject to the FSVP regulation.
+3. Verify the importer’s contact information (their name, email address, phone number, and physical
+address).
+4. Determine if the importer of the food is a manufacturer/processor or re-packer, and if they should be
+inspected under any other specific human or animal programs, such as the Current Good Manufacturing
+Practice, Hazard Analysis, and Risk-Based Preventive Controls for Human Foods Regulation (Preventive
+Controls for Human Foods Rule) or Current Good Manufacturing Practice, Hazard Analysis, and Risk-Based
+Preventive Controls for Animal Foods Regulation (Preventive Controls for Animal Food Rule).
+5. If the importer is a produce importer, determine whether the importer is also a grower, and as such should
+be inspected under the Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human
+Consumption (Produce Safety Rule).
+6. Verify the FSVP records are available on-site. If the records are off-site, advise the importer that they will
+need to retrieve the records.
+7. Determine if any FSVP records need to be translated. If translation is required, the importer may be given a
+reasonable time-period to acquire the translated versions of the document.
+6.8.1.2 - Preparation and References
+Steps to take before undertaking an inspection:
+1. Using FDA Import Systems, review the firm’s FSVP inspectional history (including active consumer
+complaints), the compliance history of the products, and the foreign supplier associated with the products
+targeted for FSVP review. Ensure the highest risk products are covered.
+[p.47]
+
+
+
+
+
+
+
+
+
+2. Using FDA Import Systems, prepare a list of the foods imported by the importer and the foreign supplier
+for each food.
+3. Conduct the preliminary assessment of potential hazards to determine the known, or reasonably
+foreseeable hazards, that should be addressed in the importer’s hazard analysis, if applicable.
+4. Still using FDA Import Systems, determine if the FSVP Importer may be a Very Small Importer (VSI) as
+defined by 21 CFR 1.512(b)(1)(i)(B). If you determine that the importer may be a VSI, confirm with the
+importer during the inspection that this is the case and if, as a VSI, they choose to follow the VSI Modified
+Requirements. Document this VSI status discussion, including the importer’s response, in the Tabular EIR
+(T-EIR).
+5. Review and become familiar with the appropriate parts of the FSVP regulation found at 21 CFR Part 1,
+subpart L.
+6. Ensure that you have received all necessary training that may be required. Consult your supervisor with
+any questions.
+6.8.1.3 - Inspectional Authority
+Authority to review records required of FSVP importers falls under the statutory provisions of section 805 of the
+FD&C Act, 21 CFR 1.510(b)(1), 21 CFR 1.510(b)(3), 21 CFR 1.512(b)(5)(ii)(A), and/or 21 CFR 1.512(b)(5)(ii)(C).
+You can also consult IOM subchapter 3.2 for broader information on inspectional authority.
+6.8.1.4 - FSVP Inspectional Activities
+At the start of the inspection, locate the person who is most responsible on site. Introduce yourself by name, title,
+and organization. Show your credentials (for on-site inspections only), explain the purpose of the inspection, and
+issue a properly signed and completed original of the Form FDA 482d, Request for FSVP Records (the division office
+address should be the pre-alignment district office associated with the importer’s geographical location).
+If this is an initial inspection, provide FSVP education materials. Briefly explain the fact sheets and refer the
+importer to additional documents that can be found on the FSVP website.
+(See also IOM subchapter 5.1.4.2.1 for general information on issuing the Notice of Inspection.)
+If this is a remote inspection, refer to the FSVP Implementation Work Instructions for conducting Remote
+Inspectional Activities.
+6.8.1.4.1 – Conducting the FSVP Records Review
+Review the importer’s required FSVP records for the products and foreign suppliers as assigned, or as needed,
+to ensure appropriate coverage of the firm’s FSVP programs. When following up on an inspection during which
+an FDA 483a was issued, review the FSVP records for the observations documented on the FDA 483a during
+the previous inspection. You’ll also want to determine, of course, if the importer corrected the observations
+that were identified during the previous inspection and what those corrective actions were. Also, verify that it
+was those specific actions that corrected the observations.
+For each FSVP product reviewed during the inspection, review documentation that the importer meets the
+definition of "importer," per 21 CFR 1.500.
+Review the list of the imported foods you prepared in IOM Subchapter 6.8.1.2 with the importer, and then
+document which foods do not have an FSVP plan. If the importer is required to comply with the requirements
+in 21 CFR 1.504, request to review the importer’s hazard analysis. It is important to determine if the importer
+has identified any known or reasonably foreseeable hazards for each food. Compare your preliminary
+assessment of potential hazards to the importer’s hazard analysis. If there are discrepancies, discuss with the
+importer to determine their reasoning behind the discrepancy. After reviewing the importer’s hazard analysis,
+request to review the necessary records. Document the results of your preliminary assessment of potential
+hazards comparison to the importer’s hazard analysis in the T-EIR.
+[p.48]
+
+
+
+
+
+
+
+
+
+If the importer states that they do not have an FSVP, determine whether the importer maintains records that
+satisfy the FSVP requirements. Importers may not be aware of the specific requirements of the FSVP
+regulation, but upon further questioning, may be able to provide documents that fulfill FSVP requirements.
+Encourage the importer to take corrective actions for any observations identified during the inspection.
+If the records review indicates there may be a public health concern relating to a food or foreign supplier (for
+instance, evidence that the food is adulterated or misbranded, or that there are significant deficiencies at the
+foreign supplier), determine if the importer took the appropriate corrective actions and also documented the
+corrective actions taken. For example, if an importer’s sampling and testing records indicate that a sample was
+positive for Salmonella, determine if the importer took appropriate corrective actions (for example, importer
+did not import the food, imported food was recalled, importer worked with the foreign supplier to address the
+problem, importer discontinued use of the foreign supplier). In addition, document and collect available
+information relating to the food and foreign supplier; document FSVP observations on the Form FDA 483a,
+when applicable; and report the findings to your supervisor.
+Document all discussions with the importer as it relates to FSVP and the records review in the T-EIR.
+6.8.2 - FSVP Observations
+The FDA 483a, FSVP Observations is intended to assist firms inspected in complying with the laws and regulations
+enforced by the FDA. The FDA 483a is the agency’s primary means of notifying, in writing, an inspected establishment’s
+top management of significant objectionable conditions relating to violations of the FD&C Act observed during an
+inspection. The issuance of written inspectional observations is mandated by law and by OII policy.
+6.8.2.1 - Preparation of Form FDA 483a
+The FDA 483a should only be issued at the conclusion of the inspection. Use care, during the inspection, to not
+show or reveal to the firm’s management any draft, unsigned copy of the FDA 483a, or electronic copy of the FDA
+483a on your computer screen. You should issue only a signed FDA 483a at the closeout discussion with
+management.
+The FDA 483a should adhere to the following general principles:
+•
+Observations that are listed should be significant and correlate to regulated products being inspected.
+•
+Observations of questionable significance should not be listed on the FDA 483a. Discuss these observations
+with the firm’s management immediately so that they understand how uncorrected problems could
+become a violation. Detail this discussion in the T-EIR.
+The FDA 483a should have the following characteristics:
+•
+Each observation should be clear and specific.
+•
+Each observation should be significant and ranked in order of significance.
+•
+All copies of the FDA-483a should be legible.
+If an observation made during a prior inspection has not been corrected, or is a recurring observation, it is
+appropriate to note this on the FDA 483a and document it in the T-EIR. Corrective actions are not listed on the FDA
+483a but are reported in the T-EIR.
+The products and foreign supplier inspected must be identified on the FDA 483a, when documenting an
+observation for the importer’s lack of an FSVP.
+Collect documentation to support observations. Do not copy records that do not support observations, unless
+otherwise directed. Contact your supervisor if you are unsure of the evidence required to support an observation.
+Generate the FDA 483a in eNSpect. To generate the FDA 483a, complete the FSMA and FSVP Inspection Protocol
+(IP) for each FSVP product that is reviewed.
+[p.49]
+
+
+
+
+
+
+
+
+
+At the close of the inspection, provide the importer with a copy of the FDA 483a and discuss each observation with
+them. Also discuss any non-significant observations not documented on the FDA 483a. Encourage the importer to
+make voluntarily corrective actions.
+During the closeout discussion with the FSVP importer, inform the importer that they should respond to the FDA
+483a within 15 business days after the end-date of the inspection and that their response may impact FDA’s
+determination of the need for follow-up action. Provide information to the importer on where to send their
+response according to their division’s procedures (That should be the address of the Division office associated with
+the importer’s geographical location, which is listed on the FDA 483a or FDA 483a response e-mail address
+associated with the applicable division). Hard copies of inspections records should be stored at the pre-alignment
+district office associated with the importer’s geographical location.
+6.8.2.1.1 - Individual Headings
+Enter data in the individual FDA483 headings as advised here:
+District Office Address and Phone Number – Legibly print the district office address where the firm is
+physically located, regardless of investigator’s division or duty station. Include the district office commercial
+telephone number and area code.
+For example, if a firm is located in Salt Lake City, UT, then the district office would be Denver District Office.
+See Appendix E for boundary maps.
+Name and Title of Individual to Whom Report Is Issued – Enter the legal first name, middle initial, and last
+name, along with full title, of the person to whom the form is being issued.
+Firm Name - Enter the full, legal name of the firm, including any abbreviations, quotation marks, dashes,
+commas, etc.
+Street Address-Enter Street address of the firm (However, not a P.O. Box unless P.O. Box is part of the address
+such as on a Rural Route).
+City, State and ZIP Code - Enter the firm’s city, state, and ZIP code.
+E-Mail Address – Enter the email address for the FSVP contact at the firm.
+Date(s) of Review of your FSVP Records - Enter actual or inclusive date(s) of inspection.
+FEI Number - If the FDA Establishment Identifier is on the assignment, enter it here. If not readily available,
+leave blank.
+Employee(s) signature and Employee(s) name and title – List here the names of everyone who participated in
+the inspection with the issuance of an FDA 482d even if they are not available to sign the FDA 483a. Each
+member of an inspection team should sign the FDA 483a; however, absence of a team member at the
+conclusion of an inspection need not prevent issuance of the FDA 483a. (See IOM 5.2.8.) If you use an eNSpect-
+generated FDA 483a, ensure you have a copy for the program division files; an unsigned photocopy or printed
+duplicate is unacceptable. See IOM 5.5.10.3.
+6.8.2.1.2 - Signature Policy
+Everyone present at issuance signs the first and last pages of the FDA 483a and initials each intervening page in
+the signature block. The lead CSO’s signature will appear on all pages of the FDA 483a, and the remaining team
+members’ signature will appear on the last page.
+(See IOM 5.5.10.5 for more information on Signature Policy.)
+6.8.3 - FSVP Reporting
+Following an inspection, you are required to prepare a report of your findings. Reporting includes the data and
+summary entered using eNSpect, a Tabular Establishment Inspection Report (T-EIR), attachments, and exhibits. Your
+(T-EIR) should be prepared to accurately and concisely communicate the findings of your inspection and be adequate
+for its intended use.
+[p.50]
+
+
+
+
+
+
+
+
+
+6.8.3.1– Establishment Inspection Report (EIR)
+Based on the observations documented on the FDA 483a and other information captured on the IP in eNSpect, you
+will use the FSVP Tabular Establishment Inspection Report (T-EIR) application in the eNSpect system to generate
+the T-EIR. The requirement to answer IP Question 1.5.1. replaces the requirement to complete the PRA
+“Memorandum to File.” Document the reason for selecting the importer for inspection in the EIR. Write the EIR
+according to this subsection and IOM subchapter 5.7.1.
+6.8.3.1.1 - FSVP Records Review
+Document the review of the importer’s required FSVP records in the T-EIR. Identify the product and foreign
+supplier covered by each FSVP. Report the results of the comparison of your preliminary assessment of
+potential hazards to the importer’s hazard analysis, if conducted, and any resulting discussion you had with the
+importer. This information must be documented with sufficient detail to demonstrate the firm’s compliance
+with FSVP, or lack thereof.
+For each product covered during the inspection, verify that the importer meets the definition of “importer”
+and document in the EIR as follows:
+•
+If the importer was the owner or consignee when the food was offered for entry into the United
+States, attach a copy of a purchase order or some other documentary proof.
+•
+If the importer was the U. S. agent or representative when the food was offered for entry into the
+United States, attach a copy of the written agreement to serve as the FSVP importer.
+•
+If the importer does not meet the definition of importer, explain this determination in the TEIR and
+obtain information on the actual importer.
+Document all corrective actions taken by the importer to correct the observations that were identified during
+the previous inspection. Describe what corrective actions were taken and whether those specific actions
+corrected the observations. Document any immediate corrective actions that the importer took during the
+inspection and any corrective actions promised for completion in the future, including when (date) they expect
+to complete the corrective action. In addition, document any corrective actions taken during the inspection in
+the corrective action reporting system (CARS) within eNSpect.
+6.9 – Glossary of Import Terms
+Note common import language and their meanings below. (Refer to the “Regulatory Procedures Manual Glossary” for
+a more complete listing of import terms.)
+6.9.1 – American/ US Goods Returned (AGR or USGR)
+Goods produced in the U.S. which are exported, and then returned to the United States. They are considered imports.
+(See Sec. 801(d)(1)of the FD&C Act [21 U.S.C. 381]).
+6.9.2 – Additional Sample
+A physical sample collected from a previously sampled lot of either a domestic or imported product. Generally, an
+additional sample is used to complete an initially designated analysis, or to allow the lab to perform
+additional analyses. Additional import samples will have a different sample number from the original sample.
+Additional domestic (or domestic import) samples may also have another sample number, but they must be flagged as
+an “ADD” Sample, with the original sample number referenced in the “Related Sample” block on the Collection Record.
+6.9.3 – Affidavit
+An affidavit is a written document for which the signer swears before an authorized official (FDA) that the statements
+in the document are true. The signer is referred to as the affiant and has knowledge of material facts relating to the
+movement or condition of the goods. FDA affidavits are used when collecting samples, establishing interstate
+commerce, for consumer complaints, and to document information from informants.

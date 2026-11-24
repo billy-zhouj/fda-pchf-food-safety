@@ -1,0 +1,13 @@
+{
+  "case_id": "should-trigger-07",
+  "runs": 1,
+  "prompt": "热处理烤箱杀沙门氏菌，工艺是 350°F 烤 13 分钟，这个关键限值怎么验证才有效？监控要监控哪些参数、多久一次？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

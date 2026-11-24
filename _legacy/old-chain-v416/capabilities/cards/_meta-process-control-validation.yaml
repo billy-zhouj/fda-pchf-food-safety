@@ -1,0 +1,32 @@
+slug: process-control-validation
+title: 工艺控制与热处理验证
+importance: core
+importance_rationale: Ch6 五个完整示例厂全部演示该能力，数值密度最高；工艺研发与安全限值设定的直接工具
+one_liner: 目标菌由"包装氧环境×储运温度×最耐热"推出，削减倍数查表再用 D/z 换算，文献层+厂内热分布/热穿透取交集才是关键限值
+intents:
+  - 为热处理/巴杀/酸化/ROP 工艺设定关键限值（温度/时间/pH/a_w）
+  - 判断目标病原菌是谁、该做几 log 削减（6D/5D）
+  - 判断文献参数能否直接用、validation 研究怎么做（热分布/热穿透/EPIPT）
+  - 连续工艺的时间参数怎么监控（泵速/RPM/颗粒尺寸代理）
+  - 附录 3 表格换算、冷却协议、工艺陷阱（毒素不可逆/冷却窗口/再污染）
+  - 屏障参数的法定监测义务（平衡 pH 4.6、安全水分水平、validation 90 日窗）
+  - 判断工艺控制（process control）这一预防控制类别是否适用、法定须含哪些要素
+keywords:
+  - 工艺控制
+  - process control
+  - 热处理
+  - 关键限值
+  - 目标菌
+  - "6D"
+  - D 值 z 值
+  - EPIPT
+  - 热分布 热穿透
+  - a_w 0.85
+  - pH 4.6
+  - 冷却协议
+  - ROP 屏障
+  - "117.80(c)(14)"
+  - "117.160(b)(1)"
+  - equilibrium pH
+  - 安全水分水平
+member_units: [fA-14, fA-15, fA-17, fA-22, fA-23, fA-32, fA-33, fA-34, fA-38, fA-43, fB-51, pV-16, pV-17, pV-18, pV-19, pV-20, pV-21, pV-22, pV-23, pV-24, pV-25, pV-26, pV-27, pV-28, pV-29, nA-B-14, rC-D-07]

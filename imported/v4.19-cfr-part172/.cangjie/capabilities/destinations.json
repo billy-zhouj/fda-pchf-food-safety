@@ -1,0 +1,50 @@
+{
+  "bundle_version": "1.0.0",
+  "source_id": "src-21-cfr-part172-2026",
+  "source_book": "21 CFR Part 172 - Food Additives Permitted for Direct Addition to Food for Human Consumption (eCFR 2026-11-05)",
+  "output_strategy": "single",
+  "router_entry": {
+    "name": "CAP-31",
+    "entry_card": "references/capabilities/direct-food-additives.md",
+    "title": "21 CFR Part 172 直接食品添加剂许可、限量与规格判定链"
+  },
+  "budget": {
+    "discoverable_entrypoints": 1,
+    "note": "本轮增量升级只新增 1 个可发现入口 CAP-31；5 个能力全部判 router，不单独晋级为独立 Skill。可发现入口数 = 1（1 个来源路由入口 + 0 个 promoted Skill）。沿用 v4.18 CAP-30 的『一个来源 = 一张入口卡 + 若干子卡』形态。",
+    "promotion_budget": 8,
+    "promoted_count": 0,
+    "router_count": 5
+  },
+  "destinations": [
+    {
+      "capability_id": "cap.cfr172.permission-gate-limitation-forms",
+      "served_by": "CAP-31",
+      "entry_card": "references/capabilities/direct-food-additives.md",
+      "card": "references/capabilities/additives/permission-gate-limitation-forms.md"
+    },
+    {
+      "capability_id": "cap.cfr172.preservatives-antimicrobials",
+      "served_by": "CAP-31",
+      "entry_card": "references/capabilities/direct-food-additives.md",
+      "card": "references/capabilities/additives/preservatives-antimicrobials.md"
+    },
+    {
+      "capability_id": "cap.cfr172.sweeteners-fat-substitutes",
+      "served_by": "CAP-31",
+      "entry_card": "references/capabilities/direct-food-additives.md",
+      "card": "references/capabilities/additives/sweeteners-fat-substitutes.md"
+    },
+    {
+      "capability_id": "cap.cfr172.quality-functionals-longtail-index",
+      "served_by": "CAP-31",
+      "entry_card": "references/capabilities/direct-food-additives.md",
+      "card": "references/capabilities/additives/quality-functionals-longtail-index.md"
+    },
+    {
+      "capability_id": "cap.cfr172.effect-level-ibr-boundary",
+      "served_by": "CAP-31",
+      "entry_card": "references/capabilities/direct-food-additives.md",
+      "card": "references/capabilities/additives/effect-level-ibr-boundary.md"
+    }
+  ]
+}

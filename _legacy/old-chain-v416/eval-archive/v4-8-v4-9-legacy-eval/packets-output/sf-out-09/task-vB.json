@@ -1,0 +1,9 @@
+{
+  "case_id": "sf-out-09",
+  "variant_label": "vB",
+  "prompt": "21 CFR 123 里 SSOP 写的是 should，是不是可以不建立？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-8-v4-9-legacy-eval/packets-output/sf-out-09/vB.md"
+}

@@ -1,0 +1,245 @@
+# Capability Bundle — 21 CFR Part 101 (eCFR, up to date as of 11/05/2026)
+# 增量升级目标：fda-pchf-food-safety 技能包 v4.17 → v4.18（新增第二十二来源 CAP-30）
+# 本 Bundle 为「单入口 + 5 张子卡」产物，全部 5 个能力判 router，由 CAP-30 来源路由入口统一分流。
+# also_read 关系按阶段 3 Zettelkasten 建立：共 11 条真实依赖/对比/组合关系。
+# relation 取值：depends-on（依赖）/ contrasts-with（对比）/ composes-with（组合）。
+
+bundle_version: "1.0.0"
+source_book: "21 CFR Part 101 - Food Labeling (eCFR 2026-11-05)"
+source_id: "src-21-cfr-part101-2026"
+output_strategy: "single"
+served_by: "CAP-30"
+
+capabilities:
+
+  - capability_id: "cap.cfr101.labeling-architecture"
+    revision: 1
+    status: active
+    slug: "labeling-architecture"
+    title: "标签载体与强制信息架构"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 骨架第 1 层，全部标签义务的物理与形式底座。§101.1 PDP 面积公式、
+      §101.2 信息面板方位、§101.4 配料表降序通用名、§101.15 显著性、§101.18 misbranding
+      都是可开观察项的法定要件，且与 CAP-05 过敏原标签控制、CAP-29 进口扣留抢路由，
+      须靠 differentiator 严格分流。
+    one_liner: "先定哪些信息强制，再定放哪块面板、按什么公式算面积、写多大名字，最后把不合规定性为 403 misbranding；PDP 不是视觉正面，圆柱容器是法定 40% 公式。"
+    intents:
+      - "判断某条强制信息该放主展示面 PDP 还是信息面板"
+      - "计算圆柱或异形容器的 PDP 面积以及 40% 强制信息落位"
+      - "判断配料表该按什么顺序、用通用名还是可统称"
+      - "判断 §101.22 的香料/调味/色素/化学防腐剂哪些可统称、哪些须具体名"
+      - "判断厂商名址与净含量声明的法定要件"
+      - "判断字号、显著性、拥挤是否构成标签不合规"
+      - "判断某标签问题定性为 misbranding 还是 adulteration"
+      - "区分 Part 101 标签内容义务与 Part 117 标签控制这一预防控制"
+    keywords: ["PDP", "principal display panel", "information panel", "配料表", "common or usual name", "descending order of predominance", "净含量", "prominence", "type size", "misbranding", "403(i)(2)", "§ 101.1", "§ 101.2", "§ 101.4", "§ 101.15", "§ 101.18", "§ 101.22", "香料", "化学防腐剂", "标签载体", "40 percent", "七套编号"]
+    also_read:
+      - slug: "nutrition-labeling-serving-size"
+        relation: "composes-with 组合"
+        note: "本卡定完载体位置后，V02 在同一块面板上叠加 Nutrition Facts 与 serving size；V01 不判是否须标营养标签（V01 differentiator）"
+      - slug: "labeling-exemptions-effect-level"
+        relation: "depends-on 依赖"
+        note: "本卡产出的『强制信息』清单，其豁免对象与法源位阶由 V05 定义；V01 不判豁免（V01 differentiator）"
+    card: "cards/labeling-architecture.md"
+    frontmatter:
+      description: |
+        何时用：判强制信息放 PDP 还是信息面板、PDP 面积公式与 40% 落位、配料表顺序与通用名、§101.22 可统称项、厂商名址与净含量、字号显著性、misbranding 定性。何时不用：不判营养标签与份量（→V02）、不判声称授权（→V03）、不判警示声明（→V04）、不判豁免与效力层（→V05）、不判过敏原厂内控制（→CAP-05）。Trigger「PDP 怎么算」「配料表顺序」「标签合规是不是就安全」；EN: "principal display panel", "information panel", "ingredient list", "prominence", "misbranding".
+    promotion:
+      destination: router
+      reason: |
+        包内已有 29 张 CAP 卡，本单元与 CAP-05（过敏原标签控制）、CAP-29（进口扣留）、CAP-14（资料分层）抢路由；且它与 V02/V03/V04/V05 共享同一张标签的四个层次，单独晋级会与兄弟卡重复覆盖意图。按「一个来源 = 一张 CAP 入口卡」惯例，由 CAP-30 单入口统一分流。
+    source_evidence:
+      - "〔§ 101.1〕[p.3]：PDP 定义、面积 (a) 高×宽 / (b) 圆柱 40% 高×周长 / (c) 其他形状 40% 总表面，强制信息须落在 40% 内"
+      - "〔§ 101.2〕[p.3-6]：information panel 是紧邻 PDP 右侧的法定相对方位"
+      - "〔§ 101.4(a)(1)〕[p.7]：配料按重量降序、以 common or usual name 列于 PDP 或信息面板，§101.100 豁免者除外"
+      - "〔§ 101.15〕[p.211]：法定语句须以显著性、醒目度呈现"
+      - "〔§ 101.18〕[p.220]：标签/标签说明中虚假或误导性陈述使食品错标"
+      - "〔§ 101.22〕[p.220-225]：spice / flavoring / coloring / chemical preservative 的统称与具体名分界"
+
+  - capability_id: "cap.cfr101.nutrition-labeling-serving-size"
+    revision: 1
+    status: active
+    slug: "nutrition-labeling-serving-size"
+    title: "营养标签与份量基准体系"
+    importance: critical
+    importance_rationale: |
+      §101.9 占全文 1,993 行，是 Part 101 的体量核心；serving size 由 §101.12 RACC 推导是
+      所有声称阈值、Daily Value、disqualifying level 的共同分母。BOOK_OVERVIEW 优先级 2，
+      且「营养标签豁免在 §101.9(j) 而非 §101.100」是全包最高频误读之一。
+    one_liner: "先判是否须标与免的是哪一条，再由 §101.12 RACC 推导 serving size（不是厂商建议食用量），再选格式与主体通道；RACC 是所有声称阈值的共同分母，表值不可逐字引。"
+    intents:
+      - "判断某产品要不要 Nutrition Facts、豁免落在 §101.9(j) 哪一款"
+      - "判断 serving size 怎么由 §101.12 RACC 推导"
+      - "判断 standard / simplified / linear 等格式适用条件"
+      - "区分包装食品、餐馆食品、连锁标准菜单项、膳食补充剂、生鲜果蔬鱼五类主体"
+      - "判断 Supplement Facts 与 Nutrition Facts 的体系差别"
+      - "判断 §101.42–45 生鲜果蔬鱼营养标签是自愿还是强制"
+      - "判断一个 serving size 数值能否作为企业内控规格或营养建议"
+      - "定位 §101.12 Table 1/2 的 RACC 与 label statement 对应关系"
+    keywords: ["Nutrition Facts", "§ 101.9", "§ 101.9(j)", "serving size", "RACC", "reference amount", "§ 101.12", "Daily Value", "DRV", "RDI", "simplified format", "linear format", "Supplement Facts", "§ 101.36", "covered establishment", "§ 101.11", "§ 101.10", "自愿营养标签", "§ 101.44", "Appendix C", "Appendix D", "份量基准", "营养标签豁免"]
+    also_read:
+      - slug: "labeling-architecture"
+        relation: "depends-on 依赖"
+        note: "Nutrition Facts 须落在 V01 定出的 PDP / 信息面板上；V02 不重算面板面积（V02 differentiator）"
+      - slug: "claims-authorization-gates"
+        relation: "composes-with 组合"
+        note: "V02 产出的 RACC / serving size 是 V03 声称阈值与 disqualifying level 的共同分母；V02 不判某句话能不能说（V02 differentiator）"
+      - slug: "labeling-exemptions-effect-level"
+        relation: "contrasts-with 对比"
+        note: "§101.9(j) 营养标签豁免与 §101.100 配料表豁免对象不同，由 V05 统一切分；V02 只执行 §101.9(j)（V02 differentiator）"
+    card: "cards/nutrition-labeling-serving-size.md"
+    frontmatter:
+      description: |
+        何时用：判要不要 Nutrition Facts 与 §101.9(j) 豁免、由 RACC 推 serving size、选 standard/simplified/linear 格式、分包装食品/餐馆/连锁菜单/膳食补充剂/生鲜自愿五类主体、Supplement Facts 差异、Appendix C/D 图形。何时不用：不判载体与配料表（→V01）、不判声称授权（→V03）、不判警示（→V04）、不判豁免体系切分（→V05）、不判果汁 5-log（→CAP-26）。Trigger「要不要营养标签」「serving size 怎么定」「RACC 能不能抄表」；EN: "Nutrition Facts", "serving size", "RACC", "Supplement Facts".
+    promotion:
+      destination: router
+      reason: |
+        与 V01/V03 共享同一张标签与同一份量基准，与 CAP-26（果汁 HACCP）、CAP-14（资料分层）存在邻近意图；单独晋级会稀释主路由表。由 CAP-30 统一分流。
+    source_evidence:
+      - "〔§ 101.9(a)〕[p.21]：除 (j) 豁免外，供人食用并销售的产品一律提供营养信息"
+      - "〔§ 101.9(b)〕：serving size 由 §101.12(b) 的 RACC 推导，不是厂商建议食用量"
+      - "〔§ 101.9(j)(13)〕：小包装与简化格式"
+      - "〔§ 101.12(a)(b)〕[p.83-200]：RACC 一般原则与 Table 1 / Table 2（表值不可逐字引）"
+      - "〔§ 101.11〕[p.70-82]：covered establishment 与 standard menu item 定义"
+      - "〔§ 101.36〕[p.229-243]：膳食补充剂 Supplement Facts 独立体系"
+      - "〔§ 101.42/43/44/45〕[p.244-247]：生鲜果蔬鱼自愿营养标签与 20 种清单"
+
+  - capability_id: "cap.cfr101.claims-authorization-gates"
+    revision: 1
+    status: active
+    slug: "claims-authorization-gates"
+    title: "声称三层闸门与逐词授权"
+    importance: critical
+    importance_rationale: |
+      横跨 Subpart D/E/F 共 24 条款，是全书最易漏判的一类义务：§101.13(b)(2) 与
+      §101.14(a)(1) 把暗示、品牌名、符号、vignette、第三方引用都纳入 claim。
+      「有研究支持即可作健康声称」与「gluten-free＝无添加」是 BOOK_OVERVIEW 明列的高频误读。
+    one_liner: "先判是不是 claim（明示/暗示/品牌名/符号都算），再分含量声称/健康声称/描述性声称，再过 disqualifying level 等负面门槛，再过 SSA 与 Subpart D/E 的正面授权，最后套模型措辞与定量条件。"
+    intents:
+      - "判断某句广告语、品牌名、心形符号或第三方引用是否构成 claim"
+      - "区分 express / implied nutrient content claim"
+      - "区分营养素含量声称、健康声称与 Subpart F 描述性声称"
+      - "判断 significant scientific agreement 门槛与 §101.70 请愿程序"
+      - "判断 disqualifying level 是否使某食品丧失健康声称资格"
+      - "查 §101.54/56/60/61/62/65/67 的逐词阈值与相对声称条件"
+      - "判断 §101.71 未授权健康声称清单与 §101.72–83 已授权模型的选择"
+      - "判断 gluten-free below 20 ppm 的法定含义"
+      - "判断 §101.93 膳食补充剂免责声明与 §101.95 fresh 用语"
+      - "判断婴幼儿食品能否作营养素含量声称"
+    keywords: ["nutrient content claim", "health claim", "implied claim", "express claim", "§ 101.13", "§ 101.14", "significant scientific agreement", "SSA", "disqualifying level", "§ 101.71", "model health claim", "petition", "§ 101.69", "§ 101.70", "good source", "light", "lite", "low fat", "gluten-free", "20 ppm", "§ 101.91", "§ 101.93", "§ 101.95", "fresh", "heart symbol", "vignette", "声称授权", "暗示声称"]
+    also_read:
+      - slug: "nutrition-labeling-serving-size"
+        relation: "depends-on 依赖"
+        note: "所有声称阈值以 V02 的 RACC / per labeled serving 为分母；V03 不推 serving size（V03 differentiator）"
+      - slug: "labeling-exemptions-effect-level"
+        relation: "contrasts-with 对比"
+        note: "Ed.5 的 allergen-free / advisory 声明规则是 FD&C Act §403(w) guidance 层，与 §101.91 gluten-free 法规层不同源，由 V05 统一分层；V03 不引 Ed.5 为〔§ 101.xxx〕（V03 differentiator）"
+    card: "cards/claims-authorization-gates.md"
+    frontmatter:
+      description: |
+        何时用：判某句话/品牌名/符号是否构成 claim、分含量声称与健康声称、SSA 与 disqualifying level、Subpart D 逐词阈值、Subpart E 已授权模型与 §101.70 请愿、gluten-free 20 ppm、§101.93 免责声明、§101.95 fresh。何时不用：不判载体（→V01）、不推份量（→V02）、不判强制警示（→V04）、不判豁免（→V05）、不判过敏原 Big 9 / advisory 声明（→CAP-05 + Ed.5）。Trigger「low fat 能不能写」「heart 符号算不算健康声称」「gluten-free 标准」；EN: "nutrient content claim", "health claim", "SSA", "disqualifying level", "gluten-free".
+    promotion:
+      destination: router
+      reason: |
+        与 V02 共享 RACC 分母、与 CAP-05（Ed.5 allergen-free / advisory）和 CAP-15（402(a)(3) 阈值）存在高混淆风险；单独晋级会把「声称资格」与「过敏原声明」「缺陷阈值」搅在一起。由 CAP-30 统一分流。
+    source_evidence:
+      - "〔§ 101.13(a)(b)〕[p.200]：通则适用域、express / implied nutrient content claim 定义与「须依本法规作出」"
+      - "〔§ 101.14(a)(1)〕[p.207]：health claim 含 third party references、品牌名 heart、heart 符号与 vignette"
+      - "〔§ 101.14(b)〕：significant scientific agreement 与 disqualifying levels 负面门槛"
+      - "〔§ 101.13(q)(3)〕/〔§ 101.13〕婴幼儿与儿童食品不得作营养素含量声称"
+      - "〔§ 101.71〕[p.296]：未授权健康声称清单"
+      - "〔§ 101.70〕[p.291-296]：健康声称请愿程序"
+      - "〔§ 101.91(a)(3)〕[p.331]：gluten-free 与 below 20 ppm"
+      - "〔§ 101.93〕/〔§ 101.95〕[p.333-335]：膳食补充剂免责声明、fresh 用语"
+
+  - capability_id: "cap.cfr101.specific-foods-warning-statements"
+    revision: 1
+    status: active
+    slug: "specific-foods-warning-statements"
+    title: "特定品类与强制警示声明"
+    importance: critical
+    importance_rationale: |
+      承载本次升级最有价值的三层接口：〔§ 101.17(g)〕未巴氏果汁 WARNING ↔
+      Part 120〔§ 120.24〕5-log 工艺义务（CAP-26）↔ CP 7303.847 检查取证（CAP-27）。
+      「贴了警示等于做过 5-log」或「做了 5-log 就免一切标签义务」是会造成实质
+      病原控制漏洞的双向误推，BOOK_OVERVIEW 优先级 2 明列。
+    one_liner: "先定产品落在 §101.17 哪一款，再取该款逐字警示措辞/位置/例外，最后守住『警示不替代 5-log、做了 5-log 也不自动免除其他标签义务』的三层接口。"
+    intents:
+      - "判断某产品须贴 §101.17 哪一款警示及其逐字措辞"
+      - "判断未巴氏果汁是否须带 §101.17(g) WARNING 与 (g)(7) 工艺处理的关系"
+      - "判断 §101.17(g) 的散装非零售/异地加工例外与随货单据披露义务"
+      - "判断果汁百分比声明 §101.30 的触发条件与填空格式"
+      - "判断 §101.30 的 less than 1 percent juice 与 100% juice 措辞"
+      - "判断 §101.8 自动售货机卡路里声明与 §101.11 连锁菜单的主体差别"
+      - "判断 §101.17 各款例外能否互相借用"
+      - "判断 5-log、警示声明、检查取证三层能否互推"
+    keywords: ["§ 101.17", "warning statement", "未巴氏果汁", "§ 101.17(g)", "WARNING", "5-log", "§ 120.24", "§ 101.30", "percentage juice declaration", "Contains __ percent", "less than 1 percent juice", "§ 101.8", "vending machine", "自加压容器", "120 °F", "400 Calories", "极低热量蛋白膳食", "铁含剂", "safe handling statement", "CP 7303.847", "CAP-26", "CAP-27", "果汁警示", "三层接口"]
+    also_read:
+      - slug: "claims-authorization-gates"
+        relation: "contrasts-with 对比"
+        note: "警示声明是强制信息，不是可自由选择的声称；V03 的授权闸门不适用于 V04，二者在「标签上能写什么」相邻但产物不同（V04 differentiator）"
+      - slug: "labeling-exemptions-effect-level"
+        relation: "depends-on 依赖"
+        note: "§101.17 各款自身的例外须按 V05 的『免的是哪一条义务』口径读；V04 不判 §101.100 豁免（V04 differentiator）"
+    card: "cards/specific-foods-warning-statements.md"
+    frontmatter:
+      description: |
+        何时用：判 §101.17 各款警示的逐字措辞/位置/例外（自加压容器、极低热量蛋白膳食、铁含剂、未巴氏果汁 (g)）、§101.30 果汁百分比声明格式、§101.8 自动售货机卡路里、5-log↔警示三层接口。何时不用：不判载体（→V01）、不判份量（→V02）、不判声称授权（→V03）、不判豁免体系（→V05）、不设计 5-log 工艺或 HACCP 计划（→CAP-26）、不判检查员 PAC/取样（→CAP-27/17/28）。Trigger「未巴氏果汁要不要贴警示」「做了 5-log 还用贴吗」「果汁百分比怎么写」；EN: "warning statement", "unpasteurized juice", "percentage juice declaration", "5-log".
+    promotion:
+      destination: router
+      reason: |
+        本单元与 CAP-26（Part 120 工艺义务）、CAP-27（CP 7303.847 检查程序）构成三层链路，单独晋级会诱使把工艺义务与标签义务合并到一张卡，正是本次升级要防的误读。由 CAP-30 统一分流。
+    source_evidence:
+      - "〔§ 101.17(a)(1)〕[p.212]：自加压容器 WARNING 逐字措辞与 120 °F"
+      - "〔§ 101.17(d)〕：below 400 Calories per day 极低热量蛋白膳食警示"
+      - "〔§ 101.17(g)(7)〕[p.214-219]：果汁须经所述工艺处理方可不带警示"
+      - "〔§ 101.30(a)(b)〕[p.225]：触发条件与 Contains __ percent (or %) ______ juice 格式"
+      - "〔§ 101.8〕[p.17-20]：自动售货机卡路里声明"
+      - "接口：21 CFR Part 120〔§ 120.24(a)〕5 log reduction（包内 CAP-26，条款号不得写成 §101.x）"
+
+  - capability_id: "cap.cfr101.labeling-exemptions-effect-level"
+    revision: 1
+    status: active
+    slug: "labeling-exemptions-effect-level"
+    title: "标签豁免体系与效力层元规则"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 1 与「最强反对意见」的落点：把标签法条层并入 PCHF 包而不做
+      效力层标注，会诱导把「标签合规」误当「安全合规」。本单元横切四套豁免对象与
+      七套编号，是 V01–V04 的前置边界层（与 v4.17 的 V10 同构），本身不单独抢路由。
+    one_liner: "先分层（法规＞指南＞检查程序），再问免的是哪一条义务（§101.100 配料表 403(i)(2) / §101.9(j) 营养标签 / §101.108 实验 / Part 117 主体豁免），最后守住标签合规≠安全合规与七套编号不得互引。"
+    intents:
+      - "判断某豁免免的是配料表、营养标签、临时实验还是主体/活动"
+      - "判断 §101.100 能否用来主张免做 Nutrition Facts"
+      - "判断 incidental additives 免申报的功能效果前提"
+      - "判断亚硫酸盐 10 ppm 可检出阈值与反向例外"
+      - "判断 §101.108 临时实验豁免是否须 FDA 书面提案获批"
+      - "区分 §101.69/70 请愿与豁免"
+      - "判断 403 misbranding 与 402 adulteration 两条执法钩子"
+      - "判断七套法规编号能否互引、guidance 的 should 能否作为豁免依据"
+      - "判断 Part 117 标签控制与 Part 101 标签内容的分工"
+      - "判断 IOM/CPGM/CP 检查程序能否创设企业标签义务"
+    keywords: ["§ 101.100", "403(i)(2)", "incidental additives", "sulfiting agent", "10 ppm", "§ 101.108", "labeling experiment", "§ 101.9(j)", "营养标签豁免", "主体豁免", "qualified facility", "§ 117.5", "misbranding", "403", "adulteration", "402", "七套编号", "二十二类不可混引", "效力栈", "should", "must", "petition", "§ 101.69", "§ 101.70", "标签合规不等于安全合规"]
+    also_read:
+      - slug: "labeling-architecture"
+        relation: "composes-with 组合"
+        note: "V01 的强制信息清单是本卡豁免判定的输入；V05 不重列强制信息（V05 differentiator）"
+      - slug: "nutrition-labeling-serving-size"
+        relation: "contrasts-with 对比"
+        note: "§101.9(j) 与 §101.100 两套豁免对象由本卡切分，V02 只执行前者（V05 differentiator）"
+    card: "cards/labeling-exemptions-effect-level.md"
+    frontmatter:
+      description: |
+        何时用：判免的是哪一条义务（§101.100 配料表 / §101.9(j) 营养标签 / §101.108 实验 / Part 117 主体豁免）、incidental additives 与亚硫酸盐 10 ppm、§101.108 书面提案、403 vs 402、七套编号与二十二类不可混引、should/must 分层。何时不用：**本卡是横切口径层，不单独抢路由**，须依附 V01–V04 业务卡；不代写法律文书、不出合规结论、不判产品法定身份；不判 Part 117 主体豁免细则（→CAP-09）、不判指南 should 对企业是否必须做（→CAP-14）。Trigger「§101.100 是不是免营养标签」「标签合规是不是就安全」「guidance 能不能当豁免依据」；EN: "exemption", "incidental additives", "sulfites", "misbranding vs adulteration".
+    promotion:
+      destination: router
+      reason: |
+        横切口径层，与 CAP-09（主体豁免）、CAP-14（should/must 分层）、CAP-29（IOM 效力层）大面积邻近；单独晋级会与这些卡重复覆盖「豁免」「效力层」意图，且违反 v4.17 V10「不单独抢路由」的既有设计。由 CAP-30 统一分流。
+    source_evidence:
+      - "〔§ 101.100(a)〕[p.336]：The following foods are exempt from compliance with the requirements of section 403(i)(2) of the act"
+      - "〔§ 101.100(a)(3)〕：incidental additives 须 insignificant levels 且无技术或功能效果"
+      - "〔§ 101.100(a)(4)〕[p.337]：亚硫酸盐 10 ppm (mg/kg) 可检出阈值"
+      - "〔§ 101.108(b)〕[p.341]：拟做标签实验须提交书面提案并逐项讨论"
+      - "〔§ 101.9(a)(j)〕：营养标签豁免清单在 (j)"
+      - "〔§ 101.18〕/ FD&C Act §403：misbranding 与 §402 adulteration 两条独立钩子"

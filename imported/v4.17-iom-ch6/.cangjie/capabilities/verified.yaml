@@ -1,0 +1,423 @@
+# Capability Bundle — IOM 2026 Chapter 6: Imports
+# 增量升级目标：fda-pchf-food-safety 技能包 v4.16 → v4.17（新增第二十一来源 CAP-29）
+# 本 Bundle 为「单入口 + 10 张子卡」产物，全部 10 个能力判 router，由 CAP-29 来源路由入口统一分流。
+# also_read 关系按阶段 3 Zettelkasten 建立：共 14 条真实依赖/对比/组合关系（V01×2, V02×2,
+# V03×1, V04×2, V05×3, V06×1, V07×1, V08×1, V09×1；V10 为全包共享 Boundary 层，被多卡依赖，
+# 本身不补读业务卡）。relation 取值：depends-on（依赖）/ contrasts-with（对比）/ composes-with（组合）。
+
+bundle_version: "1.0.0"
+source_book: "IOM 2026 Chapter 6 - Imports"
+source_id: "src-iom-2026-ch6"
+output_strategy: "single"
+served_by: "CAP-29"
+
+capabilities:
+
+  - capability_id: "cap.iom2026ch6.entry-review-admissibility-decision-gate"
+    revision: 1
+    status: active
+    slug: "entry-review-admissibility-decision-gate"
+    title: "入境审查决策门与可辩护判定留痕"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 1「最高频的判定动作、预测力最强」。6.2 是整条进口链的决策中枢，
+      其动作集与「决定须可被听证复核」是后续所有处置的输入；一旦动作选错，下游全链不可逆。
+      与 CAP-18（IOM Ch.5）/ CAP-28（IOM Ch.4）抢路由，须靠 differentiator 严格分流。
+    one_liner: "先审 PREDICT 风险分与 rule flags，再把每条 line 判入有限动作集；凡与 PREDICT 相悖的放行、请求扣留、请求现场工作，必须写出可核验的具体事实理由，不能只写动作码。"
+    intents:
+      - "判断某条 entry line 应发 May Proceed、请求现场工作、提交扣留建议，还是以 OGA referral 关闭"
+      - "审查员想在 Priority Review flag 下仍放行时，判断备注写到什么程度才合格"
+      - "判断与 PREDICT 筛查结果相悖的决定该如何留痕才可在听证/复核中站得住"
+      - "他机关已扣押/拒绝同一批货时，判断 FDA 是否还应作出可采性判定"
+      - "企业侧〔推导〕理解 FDA 电子审查阶段会看哪些输入、为何申报数据要自洽"
+    keywords: ["May Proceed", "PREDICT", "入境审查", "entry reviewer", "Remarks", "空泛备注", "Priority Review flag", "OGA Referral", "Compliance Branch", "可采性判定", "rule flags", "decision gate", "admissibility"]
+    also_read:
+      - slug: "der-dtr-detention-routing"
+        relation: "composes-with 组合"
+        note: "本卡决策门选出「请求扣留/建议扣留」后即交棒，V02 接手决定向 Compliance Branch 提交 DER 还是 DTR 及提交前的合理努力核实义务（同属 6.2，V01/V02 differentiator）"
+      - slug: "admission-status-concept-tree"
+        relation: "depends-on 依赖"
+        note: "本卡产出的 May Proceed / 撤消 / OGA 关闭等动作，其法律含义与「能否分销」由 V09 状态口径层定义；本卡不定义状态词（V01 differentiator）"
+    card: "cards/entry-review-admissibility-decision-gate.md"
+    frontmatter:
+      description: |
+        何时用：判某条 entry line 在 6.2 电子审查该发 May Proceed / 请求现场工作 / 提交扣留建议 / OGA Referral 关闭 / 撤消；与 PREDICT 相悖的放行备注写什么；他机关已扣押时 FDA 是否仍作判定。何时不用：不选 DER/DTR（→V02）、不算条件放行期（→V04）、不定义状态词（→V09）、不执行取样（→CAP-28）。Trigger 中「该放行还是扣」「备注写 N/A 行不行」；EN: "May Proceed", "PREDICT", "clear remarks", "OGA Referral", "rescind".
+    promotion:
+      destination: router
+      reason: |
+        包内已有 28 张 CAP 卡，本单元与 CAP-17/18/21/28 抢路由（Ch.4 取样、Ch.5 检查权限与 483、CP 7303.878 FSVP、CP 7303.050 取样量）；且它与 V02/V04/V05/V07 共享同一条 6.1→6.2→6.5→6.6 流程链，单独晋级会与兄弟卡重复覆盖意图。按「一个 IOM 单章 = 一张 CAP 卡」惯例，由 CAP-29 单入口统一分流。
+    source_evidence:
+      - "IOM 6.2.2.2 [p.16]：自动筛查未发 May Proceed 即强制人工审查；带 Priority Review flag 的放行须在 Remarks 写 clear reason"
+      - "IOM 6.2.2.2.1 [p.17]：能用电子单据确认全部合规且无需扣留/现场 → 签发 May Proceed"
+      - "IOM 6.2.5 [p.21]：产品看似不合规只有两个选项——请求现场工作，或向 Compliance Branch 建议扣留"
+      - "IOM 6.2.1 [p.14]：三类决定须 clear remarks；Avoid vague remarks like 'May Proceed' or 'N/A'"
+      - "IOM 6.2.2.2.6 [p.19]：OGI/OGC work type 在他机关处理该票时关闭 line，FDA 不作可采性判定；关闭前须上传他机关处置证明"
+      - "IOM 6.9.57 / 6.1.6.2 [p.56]/[p.13]：Notice of FDA Action 按每个 entry line 逐项、随状态变化反复出具"
+
+  - capability_id: "cap.iom2026ch6.der-dtr-detention-routing"
+    revision: 1
+    status: active
+    slug: "der-dtr-detention-routing"
+    title: "DER/DTR 按触发依据分流与 DWPE「不检查就扣住」"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 1 的另一半、核心命题 5。DER/DTR 是用户点名的反直觉口径，
+      且 Import Alert / DWPE 判定直接决定货物是否免查验即扣，是全章预测力最强的分流点。
+    one_liner: "扣留建议先问『触发依据是不是 DWPE/Import Alert』——是则 DER，其余一切疑似违规走 DTR；这是触发依据分流，不是严重程度分级，且查不到数据不等于违规。"
+    intents:
+      - "判断某条疑似违规的 line 该用 DER 还是 DTR 提交扣留建议"
+      - "命中 Import Alert 时判断可否免索单据直接 DER、何时必须先索取证书"
+      - "数据库查不到注册/510(k)/PMA 或 A of C 缺失时，判断能否直接建议扣留"
+      - "判断企业自行送检合格报告是否足以解除 DWPE"
+      - "区分 Import Alert（别再请求现场工作、走 DER）与 Import Bulletin（指示去请求现场工作）"
+      - "判断命中多个 Import Alert 时扣留建议要列哪些内容"
+    keywords: ["DER", "DTR", "DWPE", "Import Alert", "Import Bulletin", "扣留建议", "Compliance Branch", "IA 28-02", "audit sample", "reasonable effort", "PAF", "触发依据", "detention recommendation"]
+    also_read:
+      - slug: "entry-review-admissibility-decision-gate"
+        relation: "depends-on 依赖"
+        note: "仅在 V01 决策门选出「请求扣留」这一支后才接手，属其下游分流；V01 不决定 work type（V02 differentiator）"
+      - slug: "admission-status-concept-tree"
+        relation: "contrasts-with 对比"
+        note: "V02 判 DER/DTR work type 与 DWPE 触发依据，V09 判 DWPE/Detention 等状态词含义；二者在「扣留术语口径」上相邻但产物不同（V02 overlap_risk）"
+    card: "cards/der-dtr-detention-routing.md"
+    frontmatter:
+      description: |
+        何时用：疑违规 line 该用 DER 还是 DTR 提交扣留建议；命中 Import Alert 能否免索单据直接 DER；查不到注册/510(k)/PMA 或 A of C 缺失能否直接建议扣留；企业送检合格报告能否解除 DWPE。何时不用：不选决策门动作（→V01）、不定义状态词（→V09）、不执行取样（→CAP-28）。Trigger 中「DER 还是 DTR」「查无记录能不能直接扣」「解除 DWPE」；EN: "DER vs DTR", "DWPE", "Import Alert", "reasonable effort", "audit sample".
+    promotion:
+      destination: router
+      reason: |
+        本单元只输出向 Compliance Branch 提交的 work type 及其提交前核实义务，与 V01 决策门共享 6.2 同一条链、与 CAP-18（483）/ CAP-28（取样）/ 包内 Import Alert 类卡抢路由；包内已有 28 卡，单独晋级会重复覆盖「扣留」意图。由 CAP-29 统一分流。
+    source_evidence:
+      - "IOM 6.2.5.1 [p.21]：Use DER when a product is subject to DWPE；Use DTR for all other situations where a product appears to be violative"
+      - "IOM 6.2.5.3 [p.21-22]：DER 免单据三条件（电子数据匹配 IA / IA 不要求特定文书 / 无需额外信息）；IA 28-02 印度黑胡椒须先索取证书"
+      - "IOM 6.2.5.5 [p.23]：You must make a reasonable effort to verify compliance… Do not recommend detention based solely on a failed data lookup or missing A of C"
+      - "IOM 6.2.5.2 [p.21]：多重违规须列全 applicable alerts 与 PAF"
+      - "IOM 6.3.10.5 [p.31]：Class 3 FEX/LEX 发现违规 → 记录并提交 DTR + 相应 PAF"
+      - "IOM 6.9.22 [p.52] / 6.9.6 [p.51]：DWPE 凭违规史/Import Alert 免实物查验扣留；移除 DWPE 至少须一份 FDA audit sample"
+      - "IOM 6.2.2.2.x [p.17]：Import Alerts: Do not routinely request work for a line that is already subject to an Import Alert"
+
+  - capability_id: "cap.iom2026ch6.prior-notice-eligibility-gate"
+    revision: 1
+    status: active
+    slug: "prior-notice-eligibility-gate"
+    title: "事先通知（Prior Notice）适用性硬时限判定"
+    importance: high
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 5。2/4/8 小时与 15/30 天是可机械判定的硬约束，且与既有
+      CAP-01…28（PCHF/取样/检查）几乎不重叠，是增量价值最干净的一张卡；但适用面限食品/饲料，
+      故不列 critical。
+    one_liner: "先判是否 §201(f) food 且不在免列，再按提交渠道取上限（PNSI 15 天 / ABI-ACE 30 天）、按运输方式取下限（2/4/8 小时），以『FDA 电子接收并确认』为完成点；不满足即 refusal + hold，且指导文件不构成豁免。"
+    intents:
+      - "判断某批食品是否须提交 Prior Notice、是否落在豁免清单内"
+      - "按运输方式与提交渠道计算事前通知的合法时间窗"
+      - "判断『已提交但无 FDA 确认回执』是否算合规"
+      - "判断国际邮件/随行李携带/外交邮袋等特殊情形的口径"
+      - "理解 inadequate prior notice 的后果及其他执法权是否受影响"
+    keywords: ["Prior Notice", "事先通知", "PNSI", "ABI/ACE", "2/4/8 hours", "15/30 calendar days", "received and confirmed", "inadequate", "refusal and holding", "豁免清单", "21 CFR 1.281", "DTA", "FD3/FD4"]
+    also_read:
+      - slug: "iom-effect-level-modality"
+        relation: "depends-on 依赖"
+        note: "x13 以 6.1.5.5「指导 does not limit FDA」为 Boundary 锚点；「指导文件是否构成豁免」的位阶结论由 V10 裁定，本卡不判法律位阶（V03 overlap_risk / V10）"
+    card: "cards/prior-notice-eligibility-gate.md"
+    frontmatter:
+      description: |
+        何时用：判某批食品/饲料是否须 Prior Notice、是否落豁免清单；按运输方式 2/4/8 小时下限、渠道 PNSI 15 天 / ABI-ACE 30 天上限算合法窗；无 FDA 确认回执算不算合规。何时不用：不判可采性（→V01）、不判位阶或「指导是否豁免」（→V10）、不涉危害分析（→PCHF 类 CAP）。Trigger 中「要不要事先通知」「15 天还是 30 天」「没回执算不算合规」；EN: "Prior Notice", "PNSI", "ABI/ACE", "received and confirmed", "inadequate", "exemption".
+    promotion:
+      destination: router
+      reason: |
+        本卡判定对象是运输方式×提交渠道的时限窗与豁免适用性，与包内 PCHF / 供应商批准 / 记录保存类 CAP 在「发运前置校验」上可能抢路由；且它与 V01（6.1.6.1 的 FD3/FD4 flag）、V10（x13 锚点）共享同一条链。包内已有 28 卡，由 CAP-29 单入口分流，不单独晋级。
+    source_evidence:
+      - "IOM 6.1.5.1 [p.9]：no more than 15 calendar days (PNSI) / 30 calendar days (ABI/ACE)；no fewer than 2h 公路 / 4h 空运铁路 / 8h 水运"
+      - "IOM 6.1.5.1 [p.9]：国际邮件须在寄出前 received and confirmed，包裹须附 FDA 接收确认"
+      - "IOM 6.1.5.5 [p.11]：inadequate prior notice → refusal and holding at the port or in a secure storage facility；CPG 指导 does not limit FDA / will not affect CBP 罚款权"
+      - "IOM 6.1.5.3 [p.10]：5 类豁免（个人随身自用、港内不离港即出口、USDA 专属管辖肉禽蛋、个人住所自制作为个人礼物、维也纳公约 27.3 外交邮袋）"
+      - "IOM 6.1.4.5 [p.8]：manual/paper entry 的人用或动物用食品仍须事先通知（可经 PNSI）"
+      - "IOM 6.1.6.1 [p.12]：FD3/FD4 PGA flag 判定是否须 PN；FD3 可用 A of C 码 PND 申明豁免"
+
+  - capability_id: "cap.iom2026ch6.conditional-release-rescission-windows"
+    revision: 1
+    status: active
+    slug: "conditional-release-rescission-windows"
+    title: "条件放行 / 撤消 / redelivery 时间窗体系"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 2/3、核心命题 4。30 天窗口、撤消不重开、24 小时硬动作
+      一旦错过即不可逆（货物无法召回、只能追偿 liquidated damages），是后果最不可挽回的一张卡。
+    one_liner: "条件放行期通常 30 天，以 May Proceed / Refusal / 30 天届满三者最先发生者永久结束；DRQ/DTR/DER/DEF/INF 都不延期，撤消放行也不重开，CBP 的 30 天 redelivery 反而从放行日起算。"
+    intents:
+      - "计算某批条件放行货物还剩多少可采性决定时间"
+      - "判断哪些动作会/不会延长条件放行期"
+      - "误发 May Proceed 或 IB Release 后，判断 24 小时/30 天内必须完成哪些动作"
+      - "判断撤消放行后条件放行期能否重新计时"
+      - "区分 30 天 redelivery 窗口与拒绝后的 90 天出口/销毁窗口"
+    keywords: ["Conditional Release", "条件放行期", "30 days", "May Proceed rescind", "IB Release", "redelivery", "24 hours", "bond hold", "ABI Do Not Distribute", "DRQ/DTR/DER/DEF/INF", "90 days", "irreversible"]
+    also_read:
+      - slug: "failure-to-hold-investigation"
+        relation: "composes-with 组合"
+        note: "用户示例「条件放行后未收 May Proceed 即发经销商」同时命中两卡：本卡只供 30 天窗口背景，是否构成 Failure to Hold 的认定交 V07（V04/V07 differentiator、verified.md 附提示 3）"
+      - slug: "admission-status-concept-tree"
+        relation: "contrasts-with 对比"
+        note: "Conditional Release 状态词定义归 V09；本卡只管 30 天窗口的起算/终止/不延长/不重开（V04 overlap_risk）"
+    card: "cards/conditional-release-rescission-windows.md"
+    frontmatter:
+      description: |
+        何时用：算条件放行货物还剩多少可采性决定时间；哪些动作会/不会延长 30 天；误发 May Proceed 或 IB Release 后 24 小时/30 天内必须完成什么；撤消后期间能否重开；30 天 redelivery 与拒绝后 90 天之分。何时不用：不认定 FTH（→V07）、不定义状态词（→V09）、不展开 Refusal 后处置链（→V05）。Trigger 中「条件放行期还剩几天」「误发放行怎么补救」「撤消后能不能重来」；EN: "Conditional Release", "30 days", "rescind", "IB Release", "redelivery".
+    promotion:
+      destination: router
+      reason: |
+        本卡与 V07（用户示例同时命中）、V09（状态词定义）、V05（90 天窗口）、CAP-28（取样期间货物状态）高度相邻，共享同一条 6.2/6.3/6.5 流程链；包内已有 28 卡，单独晋级会与兄弟卡重复覆盖「30 天」意图。由 CAP-29 单入口按「时间窗 vs 违规认定」分流。
+    source_evidence:
+      - "IOM 6.2.4 [p.20]：条件放行期典型 30 天，以 May Proceed / 拒绝通知 / 30 天届满三者最先发生者结束；DRQ/DTR/DER/DEF/INF 均不延长"
+      - "IOM 6.2.4 [p.20]：延长只有一条路——首个 30 天内书面通知进口商，且须声明 FDA 将查验、取样或扣留"
+      - "IOM 6.2.2.2.2 [p.17]：Once you issue a 'May Proceed,' the conditional release period … ends permanently. Even if you rescind the notice, the period does not reopen."
+      - "IOM 6.2.2.2.2 [p.18]：24 小时内发更新 NOA、24 小时内请求 CBP bond hold、确认 ABI『勿分销』码、已分销则请求 redelivery（CBP 30 天窗口）"
+      - "IOM 6.3.11 [p.32-33]：Rescinding an IB Release 同构七步；30 天从 IB Release 签发日起算，任何延误损害 FDA 请求 redelivery 的能力"
+      - "IOM 6.9.13 / 6.9.41 [p.51,p.55]：货物 may be moved，但 CBP 可 30 天内要求 redelivery；期间以 May Proceed 或拒绝结束"
+      - "IOM 6.5.2.11 [p.42]：放行前已分销且无法 redelivery → Bond Action"
+
+  - capability_id: "cap.iom2026ch6.violation-disposition-chain"
+    revision: 1
+    status: active
+    slug: "violation-disposition-chain"
+    title: "违规处置主链与文书矩阵（拒绝不是终点）"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 2、核心命题 8/10。不可逆时间链（听证 10 工作日 → 766 →
+      放行/拒绝 → 90 天出口销毁 → Bond Action），文书与时限一旦错后果不可逆；
+      「拒绝不是终点」是用户点名的反直觉口径。
+    one_liner: "扣留后走听证→举证→重整→复核→放行或拒绝；拒绝通知发出后档案不关闭，须在 90 天内于 CBP 监督下出口或销毁并回传证明，否则转 Bond Action——发通知不等于结案。"
+    intents:
+      - "判断某批被扣货物下一步该出哪张通知/文书、由谁签字"
+      - "计算听证期、90 天出口/销毁期等硬时限"
+      - "判断收到 Refusal Notice 后企业内部能否结案"
+      - "理解 Detention（临时可回转）与 Refusal（终局）的分界"
+      - "判断拒绝后未按期处置会触发什么经济后果"
+      - "核对 Refusal 通知上的 charge 是否合法"
+    keywords: ["Notice of FDA Action", "Detained", "Refusal of Admission", "10 working days", "90 days", "CBP 4647", "FDA 790", "Bond Action", "file remains open", "export or destroy", "charge 逐字一致", "liquidated damages", "听证"]
+    also_read:
+      - slug: "fda-766-reconditioning-authorization"
+        relation: "composes-with 组合"
+        note: "V06 是本卡 Detained→听证→766→放行/拒绝 链中的改标/重整授权门子链；766 内部判据转 V06，本卡只给全链与文书/时限矩阵（V05/V06 differentiator）"
+      - slug: "conditional-release-rescission-windows"
+        relation: "contrasts-with 对比"
+        note: "90 天（拒绝后出口销毁）与 30 天（放行/条件放行期后 redelivery）两套窗口由 V04 区分计算，本卡只列处置链全貌（V05 overlap_risk）"
+      - slug: "failure-to-hold-investigation"
+        relation: "contrasts-with 对比"
+        note: "「放行前分销 → Bond Action」的触发条件由 V07 认定 Failure to Hold，本卡不认定违规（V05 overlap_risk）"
+    card: "cards/violation-disposition-chain.md"
+    frontmatter:
+      description: |
+        何时用：被扣货物下一步出哪张通知/文书、由谁签字；算听证 10 工作日与拒绝后 90 天出口/销毁期；收到 Refusal 后能否结案；Detention 与 Refusal 分界；核对 charge 是否逐字一致。何时不用：不放行 766 判据（→V06）、不算条件放行期（→V04）、不认定 FTH（→V07）；483 属 CAP-18。Trigger 中「被扣后出什么文书」「拒绝通知算不算结案」「90 天出口销毁」；EN: "Notice of FDA Action", "Detained", "Refusal", "10 working days", "90 days".
+    promotion:
+      destination: router
+      reason: |
+        本卡管 6.5 下游处置链全貌，与 V06（766 子链）、V04（90/30 天窗口）、V07（FTH→Bond）以及 CAP-18（483）、CAP-28（取样证据）抢路由；包内已有 28 卡，且它共享同一条 6.5→6.6 流程链。由 CAP-29 单入口统一分流。
+    source_evidence:
+      - "IOM 6.5.2.1 [p.39]：Notice of FDA Action - Detained，通常允许 10 working days 到场（有 compelling reason 可延长）"
+      - "IOM 6.5.2.8 [p.41]：Refusal 后 90 天内 CBP 监督下出口或销毁；The FDA file remains open until… destroyed or exported；FDA 责任延续到违规品被销毁或出口"
+      - "IOM 6.5.2.8 [p.41]：Refusal 版 charge 须与原 Detained 通知逐字一致，副本送 CBP"
+      - "IOM 6.5.2.10 [p.41-42]：合理期限未收到处置通知须调查状态、核实货物 intact / 再出口确已发生"
+      - "IOM 6.5.2.11 [p.42]：Bond Action 两类触发；CBP 一般不在 FDA 不完全同意时减免违约金（21 CFR 1.97(b)）"
+      - "IOM 6.9.21 [p.52]：Detention 是 temporary administrative action，基于『appear not to be』违规"
+      - "IOM 6.9.44 [p.55]：Refusal 是 final decision，90 天内销毁或出口"
+      - "IOM 6.6.2 [p.42-43]：证据转 CBP Title 19 制裁 / OCI 刑事调查，且刑事取证不改变 FDA 处置顺序"
+
+  - capability_id: "cap.iom2026ch6.fda-766-reconditioning-authorization"
+    revision: 1
+    status: active
+    slug: "fda-766-reconditioning-authorization"
+    title: "改标 / 重整 Form FDA 766 授权门"
+    importance: high
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 2 子链、核心命题 9。「未经批准的自行整改不产生放行效力」与
+      「第二次机会的举证对象是方法而非态度」都是强反直觉口径，直接命中用户给的
+      『进口商收到 Detained 通知后想自行改标再申报』场景。
+    one_liner: "重整效力来自『importer of record 申请 → FDA 766 批准并载明条件与时限 → 复核』三段，企业自行返工无效；首次失败后第二次机会的门槛是修订后的方法能合理保证成功，且 rejects 仍须单独拒绝销毁。"
+    intents:
+      - "收到 Detained 通知后判断能否自行改标/返工再申报"
+      - "判断重整申请应由谁提交、需不需要新 bond"
+      - "首次重整失败后判断是否还能再试一次、要举证什么"
+      - "合格部分放行后判断 rejects 该如何处置"
+      - "理解 FDA 766 / Importer's Certificate / FDA 790 在链条中的位置"
+    keywords: ["Form FDA 766", "Reconditioning", "Relabeling", "importer of record", "Released after Reconditioning", "rejects", "revised method", "reasonable assurance of success", "redelivery bond", "自行整改无效", "Importer's Certificate"]
+    also_read:
+      - slug: "iom-effect-level-modality"
+        relation: "depends-on 依赖"
+        note: "IOM 6.5.2.3 `may authorize` 的「机构裁量而非企业权利」定性由 V10 效力层给出；本卡不把重整授权读成企业权利（V06 overlap_risk / V10）"
+    card: "cards/fda-766-reconditioning-authorization.md"
+    frontmatter:
+      description: |
+        何时用：收到 Detained 通知后能否自行改标/返工再申报；766 申请由谁提交（importer of record）、要不要新 bond；首次失败后能否再试、举证对象（修订方法须 reasonable assurance of success）；rejects 怎么处置。何时不用：不展开听证→拒绝→90 天→Bond 全链（→V05）、不定义术语（→V09）、不下位阶结论（→V10）。Trigger 中「能自己改标吗」「766 谁签字」「第一次没过还能再试吗」；EN: "Form FDA 766", "Reconditioning", "Relabeling".
+    promotion:
+      destination: router
+      reason: |
+        本卡是 V05 处置主链的 766 子链，与 V05 路由高度相邻，并与 V09（术语）、V10（may authorize 裁量）、包内过敏原控制/排产/返工类 CAP 抢路由；包内已有 28 卡，共享同一条 6.5 流程链。由 CAP-29 单入口分流。
+    source_evidence:
+      - "IOM 6.5.2.3 [p.40]：FDA may authorize relabeling… upon timely submission of Form FDA 766；批准后退回原件列明 conditions 与 time limit；已备案 redelivery bond 适用，无须新 bond"
+      - "IOM 6.5.2.4 [p.40]：完成后提交 Importer's Certificate（766 第 2 页）或告知完成，FDA 可复核查验/取样或仅接受声明"
+      - "IOM 6.5.2.5 [p.40]：条件满足 → Notice of Release『Released after Reconditioning』；rejects 仍须销毁或再出口并单独出具 Refusal"
+      - "IOM 6.5.2.6 [p.40]：a second attempt should not be considered unless a revised method of reconditioning shows a reasonable assurance of success"
+      - "IOM 6.1.3 [p.6]：FDA 才有权判定物品能否经重整带入合规并授权重整，监督由 FDA 或 CBP 按就近/远程约定"
+      - "IOM 6.9.65 / 6.9.68 [p.57]：申请主体是 importer of record；Relabeling is considered a form of reconditioning"
+
+  - capability_id: "cap.iom2026ch6.failure-to-hold-investigation"
+    revision: 1
+    status: active
+    slug: "failure-to-hold-investigation"
+    title: "Failure to Hold 判定与 8 步调查清单"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 3、核心命题 11，用户点名的头号反直觉口径。定义要件
+      『无放行而分销 ≠ 移出港区』直接决定企业是否构成违规，且与条件放行概念强绑定；
+      8 步清单 + 健康危害/DWPE 加重是可直接执行的调查下限。
+    one_liner: "Failure to Hold 的判定要件是『未获 FDA 放行即已分销』，不是『货物被移出港区』；所有该类案件统一走 8 步取证，健康危害/DWPE 情形再追加召回与公共警告协调，30 天与 90 天按 4647 签发依据区分。"
+    intents:
+      - "判断某批条件放行货物是否已构成 Failure to Hold"
+      - "区分『移库/位移』与『分销』在违规认定上的差别"
+      - "列出所有 FTH 案件必做的 8 步取证与 affidavit 要求"
+      - "判断健康危害 / DWPE 情形是否须追加召回、收货人通知、公共警告"
+      - "判断 CBP 4647 的 redelivery 期限该用 30 天还是 90 天"
+      - "企业侧〔推导〕理解放行前须保持货物 intact 且不进入分销"
+    keywords: ["Failure to Hold", "无放行而分销", "distribution not movement", "8 steps", "affidavit", "CBP 4647", "30 days vs 90 days", "Salmonella", "RTE food", "DWPE 加重", "Recall and Emergency Coordinator", "Bond Action", "Substitution"]
+    also_read:
+      - slug: "admission-status-concept-tree"
+        relation: "contrasts-with 对比"
+        note: "Conditional Release / FTH 术语定义归 V09；本卡不定义状态词、不算条件放行期倒计时（V07 overlap_risk / differentiator）"
+    card: "cards/failure-to-hold-investigation.md"
+    frontmatter:
+      description: |
+        何时用：判条件放行货物是否已构成 Failure to Hold（要件「无放行而分销」而非「移出港区」）；8 步取证、①–⑤ 作成 affidavit；健康危害/DWPE 是否追加召回、公共警告；4647 用 30 天还是 90 天；Substitution 查明前按 FTH 处理。何时不用：不算条件放行期（→V04）、不定义状态词（→V09）。Trigger 中「没出港区算不算违规」「8 步调查」「4647 是 30 还是 90 天」；EN: "Failure to Hold", "distribution without a release", "8 steps".
+    promotion:
+      destination: router
+      reason: |
+        本卡与 V04（用户示例同时命中、抢 30 天窗口）、V09（状态词定义）以及包内放行/分销控制类 CAP（企业侧 WMS 发货闸门）抢路由；包内已有 28 卡，共享同一条 6.6 调查链。由 CAP-29 单入口分流，V04 只提供 30 天窗口背景。
+    source_evidence:
+      - "IOM 6.6.4.1 [p.43]：Failure to hold means… distributed… without an FDA release… *Please note that this is defined as distribution without a release, not merely moving the goods outside of the port area."
+      - "IOM 6.6.4.1 [p.43]：8 步清单（单据→分销记录→授权人→健康危害知悉→授权人说明+affidavit→ORADSS 历史→CBP 4647→bond 核定）；第 7 步 deadline for redelivery is 30 days, instead of the 90 days post-refusal"
+      - "IOM 6.6.4.2 [p.43-44]：直接证据的重大健康危害（RTE 食品检出 Salmonella）= highest priority，追加召回/通知/公共警告协调"
+      - "IOM 6.6.4.3 [p.44]：仅达 §801(a) 外观违规标准的 DWPE 情形仍为 high priority，追加是否取样 + 同样召回协调"
+      - "IOM 6.9.30 [p.53]：术语表逐字复述定义并指向 redelivery bond"
+      - "IOM 6.9.13 [p.51]：The goods may be moved but CBP can request redelivery within 30 days"
+      - "IOM 6.6.4.4 [p.44]：Substitution 在查明前一律按『实际货物无 FDA 放行而分销』处理，回指 6.6.4.1"
+      - "IOM 6.6.3 [p.43]：调查备忘录末次调查活动后 10 个工作日内提交、主管 5 个工作日内背书"
+
+  - capability_id: "cap.iom2026ch6.fsvp-inspection-483a-gate"
+    revision: 1
+    status: active
+    slug: "fsvp-inspection-483a-gate"
+    title: "FSVP 检查链与 FDA 483a 签发门"
+    importance: high
+    importance_rationale: |
+      BOOK_OVERVIEW 优先级 4，与用户既有 HACCP / 预防控制工作直接衔接；但既有技能包
+      已有 CAP-21（CP 7303.878 FSVP 检查），重叠风险最高，须靠 differentiator 严格区分，
+      故列 high 而非 critical。
+    one_liner: "FSVP 检查对象是进口商的记录（非货物）；须先把自己的潜在危害初步评估与进口商危害分析比对并追问差异理由；FDA 483a 只在检查结束（closeout）时签发且只签已签名版，检查期间不得展示任何草稿/未签版/电子稿。"
+    intents:
+      - "判断 FSVP 检查对象与 Importer of Record 的区别"
+      - "现场检查期间能否向企业展示 483a 草稿"
+      - "判断观察项该写进 483a、T-EIR 还是 CARS"
+      - "理解危害分析比对与差异追问的检查动作"
+      - "计算 FDA 483a 的 15 工作日回应窗口"
+      - "判断 importer 不满足定义时 EIR 该怎么处理"
+    keywords: ["FSVP", "FDA 483a", "T-EIR", "EIR", "closeout", "已签名版", "hazard analysis 比对", "importer 定义", "U.S. agent", "Very Small Importer", "15 business days", "CARS", "FDA 482d", "21 CFR 1.500"]
+    also_read:
+      - slug: "iom-effect-level-modality"
+        relation: "depends-on 依赖"
+        note: "IOM 6.8.2.1 `should only be issued` 用裁量词承载唯一签发时点，其情态判读依 V10；483a≠483（CAP-18）亦属 V10 服务的「二十一类不可混引」约束（V08 overlap_risk）"
+    card: "cards/fsvp-inspection-483a-gate.md"
+    frontmatter:
+      description: |
+        何时用：FSVP 检查对象是进口商的记录（非货物）；检查期间能否展示 483a 草稿（禁止）；观察项写进 483a、T-EIR 还是 CARS；危害分析比对追问；15 工作日回应；importer 不满足定义时 EIR 怎么处理。何时不用：不判 §1.500 主体、不写 subpart L 条款级（→CAP-21）；483（CAP-18）≠ 483a。Trigger 中「483a 什么时候签」「检查中能给草稿吗」「483 和 483a 区别」；EN: "FSVP", "FDA 483a", "closeout", "signed copy", "15 business days".
+    promotion:
+      destination: router
+      reason: |
+        重叠风险最高：包内已有 CAP-21（CP 7303.878 FSVP 检查）管 FSVP 合规程序层，CAP-18 的 483 与 483a 名称相近极易混引；本卡只是 IOM 6.8 检查执行 SOP，单独晋级会与 CAP-21/CAP-18 直接抢路由。按「一个 IOM 单章 = 一张 CAP 卡」由 CAP-29 统一分流，FSVP 合规程序层转 CAP-21。
+    source_evidence:
+      - "IOM 6.8.1.1 [p.46]：核实 entry 上标识者是否为 21 CFR 1.500 定义的 importer、食品是否受 FSVP 约束；判定是否 PC/HACCP/Produce Safety 覆盖"
+      - "IOM 6.8.1.4.1 [p.47]：Compare your preliminary assessment of potential hazards to the importer's hazard analysis. If there are discrepancies, discuss… to determine their reasoning"
+      - "IOM 6.8.2.1 [p.48-49]：The FDA 483a should only be issued at the conclusion of the inspection… respond within 15 business days after the end-date"
+      - "IOM 6.8.2.1 [p.48]：Use care, during the inspection, to not show or reveal to the firm's management any draft, unsigned copy… or electronic copy"
+      - "IOM 6.8.3.1.1 [p.50]：EIR 须记录危害分析比对结果、importer 定义三类证明；纠正措施及预计完成日期记 CARS"
+      - "IOM 6.9.40 / 6.9.43 [p.55]：FSVP Importer 须位于美国境内；Importer of Record 是 CBP 报关/bond 主体，二者常非同一人"
+      - "IOM 6.8.1.3 [p.47]：记录审查权依 §805、21 CFR 1.510/1.512"
+
+  - capability_id: "cap.iom2026ch6.admission-status-concept-tree"
+    revision: 1
+    status: active
+    slug: "admission-status-concept-tree"
+    title: "进口状态概念区分树（放行 / 扣留 / 条件放行）"
+    importance: high
+    importance_rationale: |
+      本轮唯一允许 glossary 独立成能力卡的例外：这组术语本身构成判定框架
+      （用户明确点名「扣留/放行/条件放行」概念区分树）。它是消除「二十一类不可混引」
+      的口径前置层，直接决定企业能否把某状态理解为「可分销」；但不产出业务判定，
+      故不列 critical 且须依附业务卡使用。
+    one_liner: "先把状态词归位：Conditional Release 是等待判定的状态（可移动不可分销、附 3 倍货值 bond），May Proceed / Release / IB Release / Release with Comment 是四种法律含义不同的放行，Detention 临时可回转，Refusal 终局但非终点；三个『30 天』与一个『90 天』分属不同窗口。"
+    intents:
+      - "判断某个 FDA 状态词到底意味着『能不能分销』"
+      - "区分 May Proceed / Release / IB Release / Release with Comment 四种放行"
+      - "区分 Conditional Release 与 May Proceed（等待状态 vs 结束该状态的决定）"
+      - "区分 Detention（临时）与 Refusal（终局但非终点）"
+      - "区分三个 30 天与一个 90 天窗口"
+      - "判断『货可以移动』是否等于『货可以销售』"
+    keywords: ["May Proceed", "Release", "IB Release", "Release with Comment", "Conditional Release", "Detention", "Refusal of Admission", "No compliance decision has been made", "可移动不可分销", "三个30天", "90 days", "AGR", "Re-export", "概念区分树", "同形异义 IB"]
+    also_read:
+      - slug: "iom-effect-level-modality"
+        relation: "contrasts-with 对比"
+        note: "同为不产出业务判定的前置层：V09 是术语口径层（回答状态词意味着什么、能否分销），V10 是法律位阶与情态判读层；二者都服务「不可混引」但约束不同（V10 相邻混淆）"
+    card: "cards/admission-status-concept-tree.md"
+    frontmatter:
+      description: |
+        何时用：判某个 FDA 状态词意味着「能不能分销」；区分 May Proceed / Release / IB Release / Release with Comment 四种放行；Detention 与 Refusal 分界；三个 30 天与一个 90 天。何时不用：口径前置层不产出动作（→V01）、不算倒计时（→V04）、不认定违规（→V07），须依附业务卡。Trigger 中「这个状态能不能卖货」「放行有几种」「30 和 90 天怎么分」；EN: "May Proceed", "Release", "IB Release", "Conditional Release".
+    promotion:
+      destination: router
+      reason: |
+        本卡是口径判定层，状态词贯穿全链，与 V01/V04/V05/V07 全部抢路由，是阶段 1.6 晋级门重点审视对象；包内已有 28 卡，若单独晋级会与多张业务卡重复覆盖意图。保留为 CAP-29 入口内的前置层，专门服务「二十一类不可混引」，不产出业务判定。
+    source_evidence:
+      - "IOM 6.4.3 [p.35]：May Proceed =『未经 FDA 查验、No compliance decision has been made』；Release =『查验后放行、A compliance decision has been made』"
+      - "IOM 6.9.56 [p.56]：May Proceed 是放行、产品可进入美国流通，但 does not preclude future FDA action"
+      - "IOM 6.9.13 / 6.9.41 [p.51,p.55]：Conditional Release 期间 goods may be moved 但 CBP 可 30 天内要求 redelivery；以 May Proceed 或拒绝结束"
+      - "IOM 6.9.21 [p.52]：Detention = temporary administrative action，基于 appear not to be"
+      - "IOM 6.9.44 / 6.5.2.8 [p.55]/[p.41]：Refusal = final decision，但档案到销毁/出口证明才关闭"
+      - "IOM 6.3.10.7 / 6.3.11 [p.32]：IB Release 的 IB 指 Investigations Branch（非 Import Bulletin），Class 2 有不良发现仍可裁量放行但须详述理由"
+      - "IOM 6.9.69 [p.57]：Release with Comment = 已明确认定存在违规（无公共健康风险）仍放行，并预告后续同类 entry 可能被拒"
+      - "IOM 6.9.1 / 6.9.67 [p.50]/[p.57]：AGR 美国货退回视为进口（§801(d)(1)）；Re-export 不适用 §801(e)"
+      - "IOM 6.9.25 / 6.9.28 [p.53]：Entry 是报关行为、Line 是可单独判定的最小单元"
+
+  - capability_id: "cap.iom2026ch6.iom-effect-level-modality"
+    revision: 1
+    status: active
+    slug: "iom-effect-level-modality"
+    title: "IOM 效力层判读元规则（法律位阶与情态分层）"
+    importance: critical
+    importance_rationale: |
+      BOOK_OVERVIEW §3「最强反对意见」+ 全部能力卡的 Boundary (B) 字段来源，也是 p12
+      元规则与 x13 反例的落点。若不单独成卡，下游 9 张卡会系统性把 IOM 当法规、
+      把 should 当 shall，直接违反「二十一类不可混引」的法律位阶约束。
+    one_liner: "IOM 是内部操作指导、不是法规；must/shall/祈使 = 审查员硬性作业动作，should/as warranted/may = 机构裁量且几乎不给判据；任何结论须回到 FD&C Act §801、21 CFR Part 1、19 CFR 113.62 与当前版本 IOM/RPM 复核。"
+    intents:
+      - "判断某条 IOM 表述能否对企业主张为法定义务或权利"
+      - "把 should / as warranted / may 与 must / shall 分开读"
+      - "识别 `should only` / `should not` 这类『用裁量词承载禁止/唯一时点』的反向陷阱"
+      - "判断指导文件（CPG / IOM）是否构成豁免或宽限"
+      - "理解 IOM 是 2026 版快照、系统编号会随改版失效"
+      - "为企业侧迎检推导内容标注『推导·非原书主张』"
+    keywords: ["IOM 不是法规", "must vs should", "as warranted", "机构裁量", "FD&C Act §801", "21 CFR Part 1", "19 CFR 113.62", "legal hierarchy", "guidance does not limit", "版本快照", "Boundary", "should only", "should on all cases", "复核锚点"]
+    also_read: []
+    card: "cards/iom-effect-level-modality.md"
+    frontmatter:
+      description: |
+        何时用：判某条 IOM 表述能否对企业主张为义务/权利；把 should / as warranted / may 与 must / shall 分开读；识别 `should only` 反向陷阱；判 CPG/IOM 指导是否构成豁免；企业侧推导标〔推导·非原书主张〕。何时不用：共享 Boundary 层，不回答任何业务判定，须依附业务卡 B 段。Trigger 中「IOM 写了 must 就是法定要求吗」「should 是不是建议」「指导能不能当豁免」；EN: "IOM is not a regulation", "must vs should", "as warranted".
+    promotion:
+      destination: router
+      reason: |
+        本卡是全部 10 张卡的 Boundary (B) 字段来源与共享边界层，与全部 9 张业务卡抢 Boundary 路由；包内已有 28 卡，若单独晋级会替代任何业务判定、违反「前置/边界层不独立路由」原则。保留在 CAP-29 入口内，直接服务「二十一类不可混引」的法律位阶约束与阶段 4 负例设计。
+    source_evidence:
+      - "BOOK_OVERVIEW §3 最强反对意见：IOM 是内部操作指导，不是法规，也不是可对外主张的法律依据；真义务来自 FD&C Act §801、21 CFR Part 1、19 CFR 113.62"
+      - "IOM 6.1.5.5 [p.11]：This guidance… does not limit the FDA's ability… will not affect the ability of CBP to assess penalties under 19 U.S.C. 1595a(b)"
+      - "IOM 6.2.2.2.2 [p.17]：You should only rescind a 'May Proceed' in rare cases… You must act immediately（同句 should 与 must 并存）"
+      - "IOM 6.5.2.3 [p.40]：The FDA may authorize relabeling…（机构裁量而非企业权利）"
+      - "IOM 6.6.4.1 [p.43]：The following steps should be taken on all Failure to Hold cases（裁量词覆盖全部个案）"
+      - "IOM 6.8.2.1 [p.48]：The FDA 483a should only be issued at the conclusion of the inspection（should 承载唯一时点）"
+      - "IOM 6.5.2.9 [p.41]：The expenses shall be computed… / Payment of supervisory charges should not be accepted by any FDA division offices"
+      - "IOM 6.5.2.11 [p.42]：Under… FD&C Act §801(b) and 19 CFR 113.62, a bond is required（原文把义务锚回法条）"

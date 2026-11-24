@@ -1,0 +1,191 @@
+slug: seafood-hazards-controls-guide
+title: 海产品危害分析与控制的完整判定链（FDA 第 4 版技术指南层，与 21 CFR Part 123 法条层配对）
+importance: extended
+importance_rationale: >-
+  本卡是第 15 类来源的入口型方法判定能力：把「具体鱼种 + 具体加工包装储运方式」映射到
+  Ch.3 三表、Ch.4–21 四段式、无控制条件下 reasonably likely to occur 显著性判定、六栏
+  Hazard Analysis Worksheet、Step 11 CCP 判定树、关键限值与监控四问、到 HACCP Plan Form
+  签名的端到端完整危害分析判定链，是用户问「怎么判、怎么填表、怎么定 CCP」时唯一承接卡。
+  它与 CAP-22 seafood-haccp-statutory-requirements 的 21 CFR Part 123 法条义务层构成
+  指南层与法条层配对而非合并，并与 hazard-analysis-method、chemical-hazard-controls、
+  process-control-validation、allergen-program、inspection-sampling、inspection-readiness
+  多卡交叉分流。它同时纠正两类最高频误读：① 把指南当法规、把 should 读成 shall、把
+  控制策略示例与 Appendix 5 数值当合规清单；② 因指南非强制把 Part 123 的 shall 义务
+  稀释成可选。且须守住 Ch.3 表不可单独用、显著性须在无控制条件下判定、显著不等于该步
+  控制、CCP 随控制策略漂移、替代关键限值须科学论证、Appendix 5 数值外部法源回指转引
+  未收、June 2022 封面与多章 June 2021 页脚的分章滚动修订口径、导出件表格与判定树
+  残表不可逐字引用等边界，故定 extended。
+one_liner: >-
+  按「产品描述与流程图 → Ch.3 三表识别品种相关与工艺相关潜在危害 → Ch.4–21 理解危害 →
+  在无控制条件下逐步判 reasonably likely to occur → Column 3/4 的 Yes/No 都写理由 →
+  Step 11 CCP 判定树定位 → 选控制策略示例 → 定关键限值与监控四问 → 纠偏记录验证签名」
+  走完整条判定链；但全链只是非约束性指南建议层，凡法定义务与条款级判定一律回
+  〔§ 123.xxx〕/ CAP-22，二十类来源不可混引，Appendix 5 数值一律标转引未收。
+intents:
+  - 复述从产品描述到 HACCP 计划签名的 18 步完整危害分析判定链
+  - 按 STEP 1 至 5 填写产品描述、分销储存、预期用途与消费者并绘制流程图
+  - 用 Table 3-2 与 Table 3-3 识别品种相关潜在危害并区分脊椎与无脊椎物种
+  - 用 Table 3-4 按成品形态、包装类型与储运方式识别工艺相关潜在危害
+  - 处理同一产品同时命中 Table 3-4 多个成品类别时的危害并集登记
+  - 判断 Ch.3 三张表能否单独用于 reasonably likely to occur 判定并给出正确用法
+  - 用自身或外部专家补出表外、区域特有、厂房特有与新出现危害
+  - 以 Column 2 潜在危害为检索键查阅 Ch.4–21 四段式章节
+  - 在无控制条件下按审慎加工者标准判定 reasonably likely to occur
+  - 区分 scombrotoxin 未观察到的两种归因并给出相反判定结论
+  - 按每个加工步骤独立评估显著性并套用引入、增长、可降低三情形
+  - 把分销储存方式、预期用途与消费者、跨步骤累积滥用纳入显著性判定
+  - 填写 Hazard Analysis Worksheet 六栏并在 Yes 与 No 时都写出 Column 4 理由
+  - 应用 Column 3 为 No 与 Column 6 为 No 的两道剪枝闸门
+  - 区分显著危害判定与 CCP 定位两个不同步骤
+  - 用 Appendix 3 CCP 判定树逻辑复原定位控制点并说明不可完全依赖
+  - 解释同一危害不同控制策略示例导致 CCP 位置漂移的原因
+  - 确认每个显著危害至少一个 CCP 并把条款级判定转 CAP-22
+  - 为关键限值界定最大最小值并使其对应将被监控的参数
+  - 判断控制策略示例或 Appendix 5 数值能否直接用作关键限值
+  - 论证替代关键限值或替代控制策略时的科学充分性要求
+  - 按 What、How、Frequency、Who 四问填写 HACCP Plan Form 监控四栏
+  - 列出纠正措施、记录系统与验证程序并对应 Plan Form 第 8 至 10 栏
+  - 完成 STEP 18 签名与日期并做两表逐行反向追溯
+  - 给每条输出标注法定层、指南建议层或外部法源转引未收层标签
+  - 纠正把指南当法规、把 should 读成 shall 的误读
+  - 纠正因指南非强制而把 Part 123 法定义务稀释成可选的反向误读
+  - 分流法定义务、法定时限与条款级判定至 CAP-22 与〔§ 123.xxx〕
+  - 分流 PCHF 危害分析至 hazard-analysis-method 并说明两套判定体系不可互套
+  - 分流组胺与化学危害限值至 chemical-hazard-controls、取样至 inspection-sampling
+  - 分流工艺验证与科学论证方法至 process-control-validation、过敏原程序至 allergen-program
+  - 回答寄生虫冻结三条件、6 英寸例外与盐渍醋渍不杀虫的参数边界
+  - 区分组胺 50 ppm 分解指示与 500 ppm 毒性水平并说明分解即掺假
+  - 说明 Appendix 5 数值的外部法源回指与转引未收标注
+  - 解释 June 2022 封面与多章 June 2021 页脚的分章滚动修订版本口径
+  - 标识导出件表格、页眉页脚与 Appendix 3 残表为不可逐字引用区
+  - 说明主体范围不含消费者零售、不含 retorting、市场名称归 Seafood List
+  - 拒绝代写 HACCP 计划、不判法定身份与不出合规结论
+keywords:
+  - reasonably likely to occur
+  - in the absence of controls
+  - prudent processor
+  - significant hazard
+  - species-related hazard
+  - process-related hazard
+  - Table 3-1
+  - Table 3-2
+  - Table 3-3
+  - Table 3-4
+  - species substitution
+  - Hazard Analysis Worksheet
+  - HACCP Plan Form
+  - Column 1
+  - Column 2
+  - Column 3
+  - Column 4
+  - Column 5
+  - Column 6
+  - 18 steps
+  - STEP 10
+  - STEP 11
+  - STEP 13
+  - STEP 14
+  - flow diagram
+  - Figure A-1
+  - CCP decision tree
+  - Figure A-2
+  - critical control point
+  - CCP
+  - control strategy example
+  - critical limit
+  - operating limit
+  - monitoring
+  - What How Frequency Who
+  - corrective action
+  - recordkeeping
+  - verification
+  - reassessment
+  - hazard analysis
+  - HACCP plan
+  - should
+  - shall
+  - recommendations
+  - scientifically establish their adequacy
+  - histamine
+  - scombrotoxin
+  - scombrotoxin poisoning
+  - 50 ppm
+  - 500 ppm
+  - decomposed
+  - guidance level
+  - parasites
+  - freezing
+  - -20°C
+  - -35°C
+  - 7 days
+  - 15 hours
+  - 24 hours
+  - 6 inches
+  - ambient temperature
+  - brining
+  - pickling
+  - ceviche
+  - aquaculture drugs
+  - water phase salt
+  - Clostridium botulinum
+  - cold-smoked fish
+  - natural toxins
+  - ciguatera
+  - allergen
+  - sulfiting agents
+  - Appendix 1
+  - Appendix 2
+  - Appendix 3
+  - Appendix 4
+  - Appendix 5
+  - fish and fishery products
+  - processor
+  - FDA
+  - 21 CFR Part 123
+  - Seafood List
+  - retorting
+  - LACF
+  - NSSP Guide
+  - CPG Sec. 540.525
+  - 40 CFR 180
+  - Import Tolerance
+  - FD&C Act
+  - Ch.3
+  - Ch.4–21
+  - Ch.5
+  - Ch.7
+  - Ch.13
+  - Ch.19
+  - intended use and consumer
+  - cumulative effect
+  - potential hazard
+  - Yes No
+  - 二十类不可混引
+  - 转引未收
+  - 指南建议层
+  - 法条义务层
+  - 非约束性
+  - 第 4 版 June 2022
+  - June 2021
+  - 分章滚动修订
+  - 导出件转换质量
+  - 判定树塌陷
+  - 危害分析判定链
+  - CAP-22
+  - CAP-23
+  - 完整危害分析判定链
+  - 六栏工作表
+  - 外部法源回指
+member_units: []
+source_label: >-
+  第 15 类来源：FDA《Fish and Fishery Products Hazards and Controls Guidance》
+  第 4 版 June 2022（SGR 129，U.S. FDA / HHS / PHS / CFSAN / Office of Food Safety,
+  Division of Seafood Safety），本地文件 source-seafood-hazards-guide-2022.md，
+  导出全文 1,709,446 字节 / 约 31,321 行。属非约束性 Guidance for Industry：
+  should 只表示建议或推荐、不设可依法强制执行的责任，可另选控制策略与关键限值但须
+  科学论证其充分性，Ch.3 三表不得单独使用、指南不替代加工者自行实施的危害分析。
+  它是 21 CFR Part 123 与 Part 1240 的配套技术指南层，与 CAP-22 的 21 CFR Part 123
+  法条义务层配对而非合并；CP 7303.842 检查程序自 v4.11 起已收（CAP-24）。仍未收清单：NSSP Guide、
+  21 CFR part 120 / 1240 / 110 / 507 正文（part 108 自 v4.12 起已收，见 CAP-25）、Import Alert 16-xx 系列、
+  BAM 海产品章节，以及 Appendix 5 回指的 CPG Sec. 540.525 / 555.300 / 575.100、
+  21 CFR 556 系列、40 CFR 180 系列、Import Tolerance 等外部法源 —— 一律标转引未收。

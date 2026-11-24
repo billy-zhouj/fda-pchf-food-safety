@@ -1,0 +1,29 @@
+{"case_id": "should-trigger-01", "prompt": "我们工厂要上一条新的坚果烘焙产线，帮我做一份危害分析，面粉和花生酱里有什么潜在危害、哪些需要设预防控制？"}
+{"case_id": "should-trigger-02", "prompt": "我们的 RTE 冷藏汤在灌装前会暴露在车间环境里，危害分析说李斯特菌需要控制，除了杀菌还应该做什么？环境监测要不要做？"}
+{"case_id": "should-trigger-03", "prompt": "我们要从两家供应商采购用于无奶饼干的焦糖豆，一家专线一家共线，批准时分别要做哪些验证活动、每年现场审核能不能免？"}
+{"case_id": "should-trigger-04", "prompt": "生产中发现贴错标签了，什么情况下算 correction 不用走完整纠正措施程序？已贴到产品上的呢？"}
+{"case_id": "should-trigger-05", "prompt": "我们的沙拉酱要跟含花生的酱料共用一条产线，排产顺序怎么排、换产时要做什么清洁、验证用什么检测？"}
+{"case_id": "should-trigger-06", "prompt": "婴儿米粉用的米糠里无机砷偏高，这种化学危害应该走供应链控制还是厂内工艺控制？铅镉砷要分别怎么判？"}
+{"case_id": "should-trigger-07", "prompt": "热处理烤箱杀沙门氏菌，工艺是 350°F 烤 13 分钟，这个关键限值怎么验证才有效？监控要监控哪些参数、多久一次？"}
+{"case_id": "should-trigger-08", "prompt": "如果我们的产品确认了沙门氏菌污染要召回，召回计划必须包含什么、什么时候必须 24 小时内通知 FDA？"}
+{"case_id": "should-trigger-09", "prompt": "我们的莎莎酱是酸化食品，pH 4.3，FDA 的 PCHF 和酸化食品法规 21 CFR 114 的要求怎么对应？哪些是 114 特有的？"}
+{"case_id": "should-trigger-10", "prompt": "附录 1 危害表里我们这类产品标了 B. cereus，但我们只是做干混料不水合，能判 No 吗？依据怎么写？"}
+{"case_id": "should-not-trigger-01", "prompt": "我们要出口水产品到美国，帮我把 HACCP 计划里的组胺控制点设计一下"}
+{"case_id": "should-not-trigger-02", "prompt": "帮我对标 GB 14881 和 GB 31654，检查我们工厂的卫生规范合规差距清单"}
+{"case_id": "should-not-trigger-03", "prompt": "我们是 USDA FSIS 注册的禽肉屠宰厂，沙门氏菌限量执行标准帮我梳理一下"}
+{"case_id": "should-not-trigger-04", "prompt": "我们的饼干卖相不好，包装机经常把饼干压碎，帮我看看设备哪里要改"}
+{"case_id": "edge-01", "prompt": "我们的鹰嘴豆泥用了 ROP 包装延长货架期，产品酸度不高，这样安全吗？"}
+{"case_id": "edge-02", "prompt": "供应商的达规-may contain 奶声明，我们的饼干产品里本来就有奶粉，标签还要加 may contain 吗？"}
+{"case_id": "cfr-trigger-01", "prompt": "我们厂是 qualified facility，刚收到 FDA 的豁免撤销令，15 天内要答复，我们该走上诉还是直接整改？"}
+{"case_id": "cfr-trigger-02", "prompt": "我们销售额 60 万美元，但主要卖给本州的超市，FDA 说我们不够格当 qualified facility，为什么？"}
+{"case_id": "cfr-trigger-03", "prompt": "我们的环境监测方案点位是不是不够？法规对环境监测程序有什么法定要求？"}
+{"case_id": "cfr-trigger-04", "prompt": "客户要求我们提供书面保证，说他们就不用自己做供应商验证了，这个保证有什么法定格式要求吗？"}
+{"case_id": "cfr-trigger-05", "prompt": "监管记录审查的时候，我们能把记录放在总部，24 小时内送回来行不行？"}
+{"case_id": "cfr-edge-03", "prompt": "我们做酸化的泡菜，pH 测 4.5，但货架期会不会回升？法规怎么要求？"}
+{"case_id": "cfr-edge-04", "prompt": "我们厂去年做过一次环境监测，李斯特菌阳性，还能出货吗？"}
+{"case_id": "term-rename-01", "prompt": "我们的热处理关键限值怎么定才合规？法规里 process control 这一类预防控制具体要求什么？"}
+{"case_id": "lmono-trigger-01", "prompt": "我们要新建一条冷藏即食色拉产线，车间怎么分区、RTE 区要不要做正压、排水沟和地漏怎么设计才不会把李斯特菌带进来？"}
+{"case_id": "lmono-trigger-02", "prompt": "工人从原料区走到 RTE 包装区，手套什么时候必须换？泡脚器应该怎么选、怎么防止有人绕过去？工服能不能穿回家洗？"}
+{"case_id": "lmono-trigger-03", "prompt": "我们做冷藏即食甜点，没法加热杀菌，能不能靠调低 pH 或水分活度来控李斯特菌？验证要怎么做，必须自己做挑战试验吗？"}
+{"case_id": "lmono-trigger-04", "prompt": "环境监测这个月同一个点位第三次检出李斯特菌，前面两次加强清洁都过了，现在要不要停产？复产条件是什么？"}
+{"case_id": "lmono-edge-01", "prompt": "我们的 RTE 产品做到 pH 4.5，酸化食品法规的 4.6 门槛是不是就满足了？李斯特菌是不是也算控制住了？"}

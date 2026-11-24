@@ -1,0 +1,13 @@
+{
+  "case_id": "defect-level-02",
+  "runs": 3,
+  "prompt": "供应商给的资料引用 21 CFR 110.110 说符合缺陷行动水平就没事，这条现在还有效吗？另外手册里写不良生产实践可不论行动水平执法，是不是〔§ 117.110(c)〕？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

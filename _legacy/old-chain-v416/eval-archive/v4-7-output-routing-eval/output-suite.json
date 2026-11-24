@@ -1,0 +1,175 @@
+{
+  "suite_id": "fda-pchf-v4-7-output-v1",
+  "target": "fda-pchf-food-safety",
+  "split_seed": 42,
+  "output_cases": [
+    {
+      "case_id": "out-01",
+      "prompt": "低酸罐头（21 CFR Part 113）的杀菌与容器封口记录要保存多久？可以用电子记录吗，需要满足什么额外条件？请给出条款号。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "113\\.100\\(g\\)"
+        },
+        {
+          "kind": "regex",
+          "value": "113\\.100\\(h\\)|part\\s*11"
+        },
+        {
+          "kind": "regex",
+          "value": "1\\s*年"
+        }
+      ]
+    },
+    {
+      "case_id": "out-02",
+      "prompt": "酸化食品（21 CFR Part 114）的记录保存期限到底是几年？是不是也和低酸罐头一样「厂内 1 年 + 异地再 2 年」并且可用 part 11 电子记录？请给出条款号并说明与 Part 113 的差别。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "114\\.100\\(e\\)"
+        },
+        {
+          "kind": "regex",
+          "value": "3\\s*年"
+        },
+        {
+          "kind": "not_contains",
+          "value": "§ 114.100(h)"
+        },
+        {
+          "kind": "not_contains",
+          "value": "两 part 都是 1+2 年"
+        }
+      ]
+    },
+    {
+      "case_id": "out-03",
+      "prompt": "21 CFR 114.5 里写掺假判定要同时适用 parts 110 and 117，Part 110 不是早就被 PCHF 最终规则删掉了吗？这是不是印刷错误？请说明现行状态与依据。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "110\\s*and\\s*117"
+        },
+        {
+          "kind": "regex",
+          "value": "2018|撤回|withdraw"
+        },
+        {
+          "kind": "not_contains",
+          "value": "Part 110 已移除"
+        }
+      ]
+    },
+    {
+      "case_id": "out-04",
+      "prompt": "我们既做低酸罐头又做普通即食食品，是不是做了 Part 113 的 scheduled process 就不用管 21 CFR Part 117 的 Subparts C 和 G 了？请从条款层面回答。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "117\\.1\\(c\\)"
+        },
+        {
+          "kind": "regex",
+          "value": "117\\.5\\(d\\)"
+        },
+        {
+          "kind": "regex",
+          "value": "条件|豁免|并行"
+        }
+      ]
+    },
+    {
+      "case_id": "out-05",
+      "prompt": "低酸食品定义里的 equilibrium pH > 4.6 和 water activity > 0.85 分别出自哪个条款？这两个数值在 Part 117 里扮演什么角色？",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "113\\.3"
+        },
+        {
+          "kind": "regex",
+          "value": "4\\.6"
+        },
+        {
+          "kind": "regex",
+          "value": "0\\.85"
+        }
+      ]
+    },
+    {
+      "case_id": "out-06",
+      "prompt": "什么是 scheduled process？低酸罐头企业必须把它归档吗，FDA 检查时能不能调阅？请给出条款依据。",
+      "assertions": [
+        {
+          "kind": "regex",
+          "value": "(?i)scheduled process"
+        },
+        {
+          "kind": "regex",
+          "value": "113\\.|114\\."
+        }
+      ]
+    },
+    {
+      "case_id": "out-07",
+      "prompt": "本技能包说来源不可混引，请列出当前共有几类来源、法规正文有哪几套编号，并示范一个规范的条款引用写法。",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "十二类"
+        },
+        {
+          "kind": "regex",
+          "value": "〔§\\s*(117|113|114)\\."
+        },
+        {
+          "kind": "not_contains",
+          "value": "十类不可混引"
+        }
+      ]
+    },
+    {
+      "case_id": "out-08",
+      "prompt": "新上一条坚果烘焙线，帮我说明危害分析六列工作表怎么填，以及哪些危害需要设预防控制。",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "危害分析"
+        },
+        {
+          "kind": "regex",
+          "value": "117\\.130|六列"
+        }
+      ]
+    },
+    {
+      "case_id": "out-09",
+      "prompt": "食品过敏原标签问答 Ed.5 对「may contain」这类预防性标签和主要过敏原清单是怎么说的？",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "过敏原"
+        },
+        {
+          "kind": "regex",
+          "value": "Ed\\.5|第五版|2025"
+        }
+      ]
+    },
+    {
+      "case_id": "out-10",
+      "prompt": "FDA 明天来现场检查，FSP 与记录举证要提前准备什么？PCQI 当天不在厂里可以吗？",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "记录"
+        },
+        {
+          "kind": "regex",
+          "value": "FDA|检查"
+        }
+      ]
+    }
+  ]
+}

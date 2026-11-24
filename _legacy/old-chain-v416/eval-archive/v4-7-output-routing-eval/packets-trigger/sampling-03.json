@@ -1,0 +1,13 @@
+{
+  "case_id": "sampling-03",
+  "runs": 3,
+  "prompt": "我手上这份文件名叫 20250915_7303.050，是不是 2025 年新版的抽样检查计划？里面 PART V 表 7 写了检出 Salmonella 就会 seizure 和注册暂停，我们是不是一检出就要停厂？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

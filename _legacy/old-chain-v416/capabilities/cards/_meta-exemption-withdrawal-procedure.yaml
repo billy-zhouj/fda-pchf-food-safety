@@ -1,0 +1,31 @@
+slug: exemption-withdrawal-procedure
+title: 豁免撤销应对程序
+importance: supporting
+importance_rationale: 程序性防御能力，触发频率低但时限刚性极强——错过 15 日上诉期即丧失该程序救济；Subpart E 在 FDA 行业指南中零覆盖，只能由 21 CFR Part 117 法规正文供给，属指南无法替代的增量。
+one_liner: 收到 FDA 豁免撤销文书后按 15 日申辩 / 15 日上诉 / 120 日合规三条硬时限走完程序，盯死 FDA 10 日裁决时限并利用逾期自动撤销机制。
+intents:
+  - 收到 FDA 豁免撤销预告通知或撤销令后怎么办
+  - 判断能否上诉、要不要申请非正式听证、听证门槛是什么
+  - 计算撤销令的合规期限（120 日）与上诉期限（15 日）
+  - 核查撤销令的形式合法性（签发层级、必备内容、期限表述）
+  - 撤销令被维持或撤销后如何恢复豁免
+  - FDA 逾期不裁决时撤销令自动失效的运用
+keywords:
+  - 豁免撤销
+  - withdrawal of exemption
+  - withdrawal order
+  - 撤销令
+  - 上诉
+  - appeal
+  - 非正式听证
+  - informal hearing
+  - reinstatement
+  - 恢复豁免
+  - "117.251"
+  - "117.257"
+  - "117.264"
+  - "117.280"
+  - "120天"
+  - "15日"
+  - "10日"
+member_units: [nEFG-01, nEFG-02, nEFG-03, nEFG-04, nEFG-05, nEFG-06, nEFG-07, nEFG-08, nEFG-09, nEFG-10, nEFG-11]

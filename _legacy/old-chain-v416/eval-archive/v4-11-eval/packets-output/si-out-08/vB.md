@@ -1,0 +1,11 @@
+# Major 既不会自动触发执法，也不是危害分析里的 significant hazard
+
+**结论：两个判断都是否定的。Table 4 的 Major 只是逐案（case-by-case）的违规排序，不自动发 Warning Letter、不自动列入 DWPE；它与危害分析里的 significant hazard 也不是一回事。**
+
+**一、Table 4 只是逐案 ranking，不是自动执法开关。** Table 4（CP 7303.842 PART V / Table 4 / L987–L1060）全称 `Seafood HACCP Enforcement Strategy: Ranking of violation`，逐条给 `Deficiency → Citation(123.x) → Major/Minor`，原文说它 `provides information for determining the significance of violations of Part 123`（L987）；但紧接着 L1057 明写 `Significance must be determined on a case-by-case basis`。它只覆盖 Part 123 缺陷的违规分级，记录伪造归 Title 18 / OCI（L1008），不是「标成 Major 就必然执行某动作」的对照表，也不覆盖非 123 违规。
+
+**二、Warning Letter、DWPE、judicial actions 都须裁量与 concurrence。** Warning Letters 原文是 `should be considered for significant deviations... to communicate the Agency's position... and to notify the firm that the agency may initiate enforcement action if the deviations are not corrected`（L1074）——是「应予考虑」且以未改正为前提；DWPE 是境外加工商在境外检查或 HFP OCE 记录审评发现偏差**未纠正**时 `may be subject`（L1077），且放行/移出须 HFP OCE concurrence 与英文证据；judicial actions 原文 `Recommendations for legal actions must be submitted to HFP OCE for evaluation and concurrence`（L1084），还须 FACTS 入案、经 CMS 电子提交 Center。NAI/VAI/OAI 分类与 Center 一致同样是逐案裁量（B9）。因此「Table 4 标 Major → 自动发 WL + 自动列入 DWPE」是双重误读。
+
+**三、Table 4 的 Major 与〔§ 123.6〕的 significant hazard 完全不是一回事。** Major/Minor 是检查员对 **HACCP 系统完整性缺陷与食品安全风险**作的违规分级，属 CP 7303.842 PART V 检查程序作业层；而 significant hazard（即 `reasonably likely to occur`）是危害分析闸门，法源在〔§ 123.6(a)(c)〕（CAP-22 法条义务层），判定方法在 Seafood Hazards Guide 第 4 版 Ch.3（CAP-23 指南建议层）——须在**无控制条件**下按审慎加工者标准逐步判，Column 3 的 Yes/No 都要在第 4 栏写理由，显著性与 CCP 定位是两个不同步骤、CCP 由 Step 11 判定树另定（显著≠必须在该步控制）。前者判「这个缺陷有多严重」，后者判「这个危害要不要进 HACCP 计划」，两层概念、不同法源，绝不可等同（CAP-24 A1 案例 6、B4）。
+
+**四、效力层与双向误读防护（三层必须分开）。** 法规正文〔§ 123.xxx〕（CAP-22，`shall`）＞ FDA 技术指南（CAP-23，Seafood Hazards Guide 第 4 版 Ch.x 的 `should`）＞ CP 7303.842 检查程序作业层（CAP-24，给 field staff、不创设企业义务）。既不能把 Table 4 的 Major/Minor、WL/DWPE 建议写成企业义务或自动后果，也不能因 CP 非强制把〔§ 123.6〕的 `shall` 义务稀释成可选。CP 7303.842 内容按「CP 7303.842 PART x / Table x / Lxxx」定位，不与〔§ 123.xxx〕或指南 Ch.x 混引；全包自 v4.11 起**十六类来源不可混引**。CPG、BAM、NSSP Guide、Import Alert、21 CFR part 120 等未收正文一律标「转引未收」。本答复不预测检查分类、不判法定身份、不出合规结论，也不代写 483 回复或警告信答复。

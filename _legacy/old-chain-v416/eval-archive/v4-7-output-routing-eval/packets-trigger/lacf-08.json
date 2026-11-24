@@ -1,0 +1,13 @@
+{
+  "case_id": "lacf-08",
+  "runs": 3,
+  "prompt": "这份 20250929 的 7303.070 是 2025 年新规吧？顺便帮我把 21 CFR part 113 里关于杀菌釜记录保存年限、Form 2541e 提交时限和 BAM Ch.21A 的培养步骤逐条列出来。",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

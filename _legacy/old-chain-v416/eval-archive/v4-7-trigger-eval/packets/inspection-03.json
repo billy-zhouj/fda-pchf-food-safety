@@ -1,0 +1,13 @@
+{
+  "case_id": "inspection-03",
+  "runs": 1,
+  "prompt": "我们的 FSP 和监控记录都存在总部服务器，工厂现场只有纸质摘要，检查员要的时候第二天发邮件过去可以吗？记录要留多久、要不要签字？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

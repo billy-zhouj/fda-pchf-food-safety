@@ -1,0 +1,42 @@
+slug: defect-action-levels
+title: 食品缺陷行动水平与原料验收判定
+importance: extended
+importance_rationale: 缺陷行动水平是 Part 117 Subpart B 的法定条款（§ 117.110），也是原料验收、不合格批处置与内审的高频争议点；此前全包只在 SECG XIII.H 与化学危害卡里间接提到，且明确记为「Handbook 正文未纳入」。补入后能同时纠正「action level 等于法规上限」「110.110 仍现行」「表内无产品即无标准」三类高频误读，属入口型判定能力，与多张执行层卡交叉，故定 extended。
+one_liner: 先分法源再查数字——法定义务是〔§ 117.110(a)〕把天然不可避免缺陷降到当前可行最低水平，Handbook 表只是 FDA 据 402(a)(3) 执法的裁量参考；低于阈值不等于合规，掺混稀释一律禁止，霉菌类缺陷须联动化学危害分析。
+intents:
+  - 判断虫碎片、鼠毛、霉变、异物等检出值能否放行，以及 FDA 对该产品的 defect action level 是多少
+  - 拆解「action level 是不是法规上限 / 低于阈值是否即合规 / 内控规格该定多少」这类效力层误读
+  - 判定不合格批能否掺混稀释，区分掺混禁令与经证明有效的 reconditioning 返工
+  - 识别 21 CFR 110.110 这一过时引用，回指现行〔§ 117.110〕与 Part 117 Subpart B
+  - 处理产品未列入缺陷表、或缺陷类型不契合表内判据时的逐案评估逻辑
+  - 依据 SIGNIFICANCE 判断美学缺陷是否联动黄曲霉毒素等化学危害与〔§ 117.80(b)(3)(4)〕原料验收
+  - 用 DEFECT SOURCE 的 preharvest / post harvest / processing 定位失控环节与供应商责任
+  - 核对 defect action level 与其他阈值体系（污染物、微生物、过敏原、农残）的边界
+keywords:
+  - defect action level
+  - Food Defect Levels Handbook
+  - 缺陷行动水平
+  - 天然不可避免缺陷
+  - lowest level currently feasible
+  - "117.110"
+  - "117.80"
+  - "117.3"
+  - "110.110"
+  - "402(a)(3)"
+  - "402(a)(4)"
+  - adulterated
+  - 掺混稀释
+  - insect fragments
+  - rodent hair
+  - mold
+  - filth
+  - extraneous materials
+  - AOAC
+  - MPM
+  - Howard mold count
+  - SIGNIFICANCE
+  - mycotoxin
+  - 原料验收
+  - reconditioning
+member_units: []
+source_label: 21 CFR Part 117 法规正文 + FDA Food Defect Levels Handbook（网页版，页面标注 2018-09-07）+ SECG XIII.H 交叉

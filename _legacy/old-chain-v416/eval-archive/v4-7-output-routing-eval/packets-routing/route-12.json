@@ -1,0 +1,28 @@
+{
+  "case_id": "route-12",
+  "prompt": "厂房地面排水坡度与天花板冷凝水怎么设计才符合 cGMP？设备布局要留多大检修与清洁空间？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。已安装技能 fda-pchf-food-safety 内含 20 张能力卡，候选清单（卡 id / 标题 / 意图 / 关键词 / 卡文件）见：C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety/references/capability-index.md；请先读取该文件。对用户 prompt 只判断应加载哪一张能力卡（top-1），不得输出多张。输出一行 JSON：{\"case_id\": \"...\", \"selected_capability\": \"<候选清单中的 slug>\", \"reason\": \"<=30字\"}。slug 必须严格取自候选清单中的 capabilities/<slug>.md 文件名，不要编造。",
+  "candidates_file": "C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety/references/capability-index.md",
+  "candidate_capabilities": [
+    "hazard-analysis-method",
+    "management-components",
+    "process-control-validation",
+    "environmental-pathogen-sanitation",
+    "allergen-program",
+    "chemical-hazard-controls",
+    "supply-chain-verification",
+    "recall-plan",
+    "regulatory-boundaries",
+    "reference-tools-discipline",
+    "exemption-withdrawal-procedure",
+    "environmental-engineering-controls",
+    "personnel-hygiene-controls",
+    "cgmp-compliance-guide",
+    "defect-action-levels",
+    "inspection-readiness",
+    "inspection-sampling",
+    "investigator-authority-procedure",
+    "lacf-inspection-program",
+    "lacf-statutory-requirements"
+  ]
+}

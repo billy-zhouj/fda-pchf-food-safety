@@ -1,0 +1,9 @@
+# documentary sample 只报 03842，且不计入 Division Workplan
+
+**结论：报 `03842`，不是 `03842H`；也不算 Division Workplan 的取样任务。** 原文（CP 7303.842 PART III.F / Documentary Samples / L339）：`All documentary samples (e.g., to support interstate commerce) are to be reported only under PAC 03842. Documentary samples are NOT to use the PACs (those ending in "H") reserved for HACCP verification samples nor are they to count towards division Workplan obligations.` 你为支持州际贸易开的正是文中举例的 documentary sample，因此三条硬口径同时成立：① 只报 `03842`；② **不得**用以 `H` 结尾的 PAC——那些 PAC 保留给 HACCP verification samples；③ **不计入** Division Workplan 义务／取样配额。
+
+**为什么容易错：两套码表 + 一个同名坑。** 本 CP 的取样／分析 PAC 按进口 `03844x` / 国产 `03842x` 分列（例如感官国产 `03842C`、组胺国产 `03842A`，进口对应 `03844C` / `03844A`，CP 7303.842 PART IV.C / L484）；检查报告另有 03842 / 03842H / 03844H / 03040 一套报告 PAC。而 `03842H` **同名不同义**：在取样／分析表里它是 `HACCP Verification`（验证 HACCP 计划关键限值的充分性），且进口列注明 `Not applicable`（L18）；在检查报告表里它却是 `Processor HACCP Inspection` 的报告 PAC（L31）。把 documentary sample 报成 03842H，等于既违反「H 保留给 verification samples」的禁令，又踩了同名不同义的坑。documentary sample 属文书性样品，不是用于验证 HACCP 关键限值充分性的实体分析取样，因此既不占 H 码，也不占用 Workplan 取样数。另须记住：CP 7303.842 与 CP 7303.844 已合并为单一程序（首页 NOTE、PART I / L142），但合并的是程序不是码表，PAC 仍分进口／国产。
+
+**效力层与误读防护（三层必须分开）。** 法规正文〔§ 123.xxx〕（CAP-22，`shall` 法定义务）＞ FDA 技术指南（CAP-23，Seafood Hazards Guide 第 4 版 Ch.x 的 `should` 建议层）＞ CP 7303.842 检查程序作业层（CAP-24，给 field staff、不创设企业义务）。PAC/PAF 归属是检查员向 FACTS／CMS 上报与统计的作业口径：既不能把 CP 的 PAC、Table 1/2 优先级、PART IV 触发值写成企业义务或产品放行标准，也不能因 CP 非强制把 Part 123 的 `shall` 义务稀释成可选。本件按「CP 7303.842 PART x / Table x / ATTACHMENT A #x / Lxxx」定位，不与〔§ 123.xxx〕、指南 Ch.x 或 CP 7303.050/070/878 各自的 PART 混引；全包自 v4.11 起**十六类来源不可混引**。CPG、BAM、NSSP Guide、Import Alert、21 CFR part 120 / part 1 subpart L、FDA 3501/3502 表单全文等未收正文一律标「转引未收」。
+
+**不确定处。** 本包未逐行收录完整 PAC 清单，某一具体分析项目的后缀字母须回 CP 7303.842 PART IV 与 PAC 表原文核对；但「documentary samples 只报 03842、不用 H 结尾 PAC、不计入 Workplan」是材料逐字给出的硬口径。本答复不代填表单、不预测检查分类、不出法律结论。

@@ -1,0 +1,27 @@
+slug: environmental-pathogen-sanitation
+title: 环境病原与卫生控制
+importance: extended
+importance_rationale: 聚焦 RTE 食品细分场景（Ch3/Ch4 卫生节），受众窄于前三张卡但为 RTE 品类的法定刚需
+one_liner: 湿区防李斯特靠保持干燥、干区防沙门靠严格控水——同点位反复检出同型菌株即定殖信号，常规清洁无效须强化根除
+intents:
+  - 判断 RTE 产品要不要做环境病原评估与环境监测
+  - 设计湿区/干区清洁策略与卫生分区
+  - 环境监测检出李斯特菌/沙门氏菌后的处置与升级判定
+  - 区分 transient 与 resident 菌、制定根除方案
+  - 环境病原法定边界判定（芽孢类是否触发 117.130(c) 强制评估）
+  - 干/湿接触面清洁的法定分界（湿洗后彻底干燥、中断后重新清洁）
+keywords:
+  - 环境病原
+  - 李斯特菌
+  - 沙门氏菌
+  - 环境监测
+  - 卫生控制
+  - 卫生分区
+  - transient resident
+  - 定殖
+  - 湿区 干区
+  - 强化卫生程序
+  - "117.35(d)"
+  - "117.165(a)(3)"
+  - 环境病原法定边界
+member_units: [fA-18, fA-24, pV-41, pV-42, pV-43, pV-44, nA-B-03, nA-B-12, rC-D-11, nC-D-11]

@@ -1,0 +1,37 @@
+{"case_id": "route-01", "run": 2, "selected_capability": "hazard-analysis-method", "reason": "六列工作表危害分析属CAP-01"}
+{"case_id": "route-02", "run": 2, "selected_capability": "management-components", "reason": "偏差纠正与记录审查属管理组件"}
+{"case_id": "route-03", "run": 2, "selected_capability": "process-control-validation", "reason": "巴杀关键限值与validation属工艺控制"}
+{"case_id": "route-04", "run": 2, "selected_capability": "environmental-pathogen-sanitation", "reason": "李斯特菌环境监测升级属环境病原"}
+{"case_id": "route-05", "run": 2, "selected_capability": "allergen-program", "reason": "共线排产与过敏原清洁属过敏原程序"}
+{"case_id": "route-06", "run": 2, "selected_capability": "chemical-hazard-controls", "reason": "无机砷与Closer to Zero属化学危害"}
+{"case_id": "route-07", "run": 2, "selected_capability": "supply-chain-verification", "reason": "SAHCODH验证活动属供应链决策"}
+{"case_id": "route-08", "run": 2, "selected_capability": "recall-plan", "reason": "Class I召回与RFR属召回计划"}
+{"case_id": "route-09", "run": 2, "selected_capability": "regulatory-boundaries", "reason": "酸化食品双法规豁免边界"}
+{"case_id": "route-10", "run": 2, "selected_capability": "reference-tools-discipline", "reason": "附录1 X标记使用纪律属参考表"}
+{"case_id": "route-11", "run": 2, "selected_capability": "exemption-withdrawal-procedure", "reason": "qualified facility豁免撤销应对"}
+{"case_id": "route-12", "run": 2, "selected_capability": "environmental-engineering-controls", "reason": "排水坡度与冷凝水属厂房工程控制"}
+{"case_id": "route-13", "run": 2, "selected_capability": "personnel-hygiene-controls", "reason": "手部卫生与手套属人员卫生"}
+{"case_id": "route-14", "run": 2, "selected_capability": "cgmp-compliance-guide", "reason": "SECG分诊索引属cGMP合规"}
+{"case_id": "route-15", "run": 2, "selected_capability": "defect-action-levels", "reason": "缺陷行动水平与掺混稀释"}
+{"case_id": "route-16", "run": 2, "selected_capability": "inspection-readiness", "reason": "迎检记录举证与FSP准备"}
+{"case_id": "route-17", "run": 2, "selected_capability": "inspection-sampling", "reason": "样品量份数与阳性应对属通用取样"}
+{"case_id": "route-18", "run": 2, "selected_capability": "investigator-authority-procedure", "reason": "拍照复印权限与482/483属检查员权限"}
+{"case_id": "route-19", "run": 2, "selected_capability": "lacf-inspection-program", "reason": "CP7303.070检查分流与RRA属LACF检查"}
+{"case_id": "route-20", "run": 2, "selected_capability": "lacf-statutory-requirements", "reason": "113.100g/114.100e记录期属法规正文层"}
+{"case_id": "route-21", "run": 2, "selected_capability": "fsvp-inspection-program", "reason": "CP7303.878 FSVP检查PART IV空"}
+{"case_id": "route-22", "run": 2, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "§123.12进口商验证属Part123法条"}
+{"case_id": "route-23", "run": 2, "selected_capability": "seafood-hazards-controls-guide", "reason": "Table3-2判组胺显著性属指南判定链"}
+{"case_id": "route-24", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "Table1/2用途属CP7303.842作业层"}
+{"case_id": "cap22-a", "run": 2, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "§123.9记录保存期属Part123法条层"}
+{"case_id": "cap22-b", "run": 2, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "§117.5(b)豁免双条件属法条层"}
+{"case_id": "cap22-c", "run": 2, "selected_capability": "seafood-haccp-statutory-requirements", "reason": "§123.11 should/shall属法条层"}
+{"case_id": "cap23-a", "run": 2, "selected_capability": "seafood-hazards-controls-guide", "reason": "18步危害分析判定链属指南层"}
+{"case_id": "cap23-b", "run": 2, "selected_capability": "seafood-hazards-controls-guide", "reason": "Worksheet第3/4栏填表属指南层"}
+{"case_id": "cap23-c", "run": 2, "selected_capability": "seafood-hazards-controls-guide", "reason": "Appendix5能否作关键限值属指南层"}
+{"case_id": "cap24-a", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "20250929版本判定属检查程序层"}
+{"case_id": "cap24-b", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "PAC码表与03842H属检查程序层"}
+{"case_id": "cap24-c", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "国产官方样品ATTACHMENT A属检查程序层"}
+{"case_id": "cap24-d", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "PART IV组胺触发值属检查程序层"}
+{"case_id": "cap24-e", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "Table4违规分级属检查程序层"}
+{"case_id": "cap24-f", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "六类检查分流属检查程序层"}
+{"case_id": "cap24-g", "run": 2, "selected_capability": "seafood-inspection-program", "reason": "海产品进口商检查属CP7303.842作业层"}

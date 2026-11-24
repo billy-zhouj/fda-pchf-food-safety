@@ -1,0 +1,172 @@
+{
+  "version": "4.9",
+  "generated_at": "2026-11-06T16:19:31",
+  "trigger": "用户提供 G:/下载/CFR-2025-title21-vol2-part123.pdf（21 CFR Part 123《Fish and Fishery Products》，4-1-25 Edition，9 页），按 v4.6/v4.7/v4.8 既有模式纳为第十四来源并发布 v4.9。该件是 v4.7 阶段暂缓的 5 份资料之一。",
+  "scope": {
+    "new_source": "source-cfr-part123-2025.md（第十四来源，法规正文层第四套独立编号〔§ 123.xxx〕）",
+    "new_card": "CAP-22 seafood-haccp-statutory-requirements",
+    "new_terms": "t163–t172（10 条）",
+    "new_cases": "seafood-01..10（10 条）",
+    "scale": "22 卡 / 172 术语 / 105 用例 / 十四类来源 / dist-v13"
+  },
+  "source_conversion": {
+    "input": "G:\\下载\\CFR-2025-title21-vol2-part123.pdf",
+    "output": "source-cfr-part123-2025.md",
+    "method": "page → left column → right column clip; paragraph recombination; hyphenated line breaks preserved",
+    "pages": 9,
+    "raw_lines": 1091,
+    "hyphenated_line_ends_preserved": 232,
+    "toc": {
+      "toc_dropped": true,
+      "toc_start_index": 0,
+      "toc_lines_removed": 34,
+      "toc_entries_removed": 13
+    },
+    "h2_sections": 13,
+    "sections_expected": 13,
+    "sections_hit": 13,
+    "sections_found": [
+      "123.3",
+      "123.5",
+      "123.6",
+      "123.7",
+      "123.8",
+      "123.9",
+      "123.10",
+      "123.11",
+      "123.12",
+      "123.15",
+      "123.16",
+      "123.20",
+      "123.28"
+    ],
+    "residual_header_lines": 0,
+    "residual_standalone_pagenum": 0,
+    "final_chars": 41669,
+    "version_judgement": "4-1-25 Edition = CFR 年度编纂版次（修订至 2025-04-01），非 2025 新规则；SOURCE 60 FR 65197 (1995-12-18)，§123.5/§123.11 经 80 FR 56167 (2015-09-17) 修订",
+    "script_fixes": [
+      "start_patterns: § 起点要求条号后同行为大写起首标题词，或条号独占一行（避免 §123.7 whenever... 误提升为 H2）",
+      "drop_toc: 裁掉卷首 Sec. 目录区（避免 Subpart 标题与目录条目并段）"
+    ],
+    "quality_notes": [
+      "GPO 双栏印刷版按「页 → 左栏 → 右栏」裁剪（LEFT=120,170,306,712；RIGHT=306,170,495,712），段落重组，保留 232 处印刷断词连字符。",
+      "回归测试：同一脚本对 Part 113 仍产 10 条款、Part 114 仍产 8 条款，未被 drop_toc / start_patterns 改动破坏。",
+      "本件 SOURCE 为 60 FR 65197 (1995-12-18)；4–1–25 Edition 是 CFR 年度编纂版次，不是 2025 年新规则。"
+    ]
+  },
+  "card_cap22": {
+    "file": "cards/seafood-haccp-statutory-requirements.md",
+    "chars": 22025,
+    "sections_present": true,
+    "boundaries": 12,
+    "a2_triggers": 30,
+    "r_quote_blocks": 33,
+    "quotes_verified": "33 / 33 逐字命中（32 条 Part 123 + 1 条 §117.5(b)），失配 0",
+    "quote_verifier": ".cangjie/verify_seafood_quotes.py（body_only() 只取第一个 `## § ` 之后正文区，避免文件头自述造成自我验证循环）",
+    "meta_file": "cards/_meta-seafood-haccp-statutory-requirements.yaml",
+    "meta_chars": 4616,
+    "importance": "extended",
+    "also_read": 9
+  },
+  "bundle": {
+    "capabilities": 22,
+    "additional_sources": 13,
+    "source_categories": "十四类（四套法规正文 + 五类参考指南 / CP + 五类检查员作业层）",
+    "core_principles": 42,
+    "out_of_scope": 7,
+    "stop_conditions": 18,
+    "destinations": 22,
+    "cards_md": 22,
+    "meta_yaml": 22,
+    "note": "verified.yaml 由 assemble_bundle.py 生成；本轮所有来源注记 / 核心原则改动均落在 assemble_bundle.py 内，重组装后回灌"
+  },
+  "content": {
+    "glossary_terms": 172,
+    "glossary_ids_unique": true,
+    "glossary_strict_yaml": true,
+    "glossary_tail_ids": [
+      "t170",
+      "t171",
+      "t172"
+    ],
+    "test_cases": 105,
+    "test_version": "4.9",
+    "seafood_cases": [
+      "seafood-01",
+      "seafood-02",
+      "seafood-03",
+      "seafood-04",
+      "seafood-05",
+      "seafood-06",
+      "seafood-07",
+      "seafood-08",
+      "seafood-09",
+      "seafood-10"
+    ],
+    "test_ids_unique": true
+  },
+  "residue_backfill": {
+    "problem_1": "v4.8 的全局「十二类→十三类」替换把 v4.7 的历史陈述也改了，出现「十三类：列 12 项」自相矛盾。v4.9 按版本复原并为每处补完整阶梯（十→十二→十三→十四）。",
+    "problem_2": "Part 123 已收，但 8 张既有卡 + 3 份 meta + 2 份 overview + 3 份 glossary + 3 个来源文件头 + test-prompts 共约 40 处仍写「part 108/110/120/123 未收」「part 120/123 正文本包未收」。逐处改为「part 120 未收、part 123 自 v4.9 起已收（见 CAP-22）」，并把「三套独立编号」统一为「四套」。",
+    "scripts": [
+      "apply_v4_9_revisions.py",
+      "apply_v4_9_residue.py",
+      "apply_v4_9_residue2.py",
+      "apply_v4_9_residue3.py",
+      "apply_v4_9_bundle_arrays.py",
+      "apply_v4_9_docs.py"
+    ],
+    "backups": [
+      ".cangjie/backup-v4-9-pre-revisions/（29 文件）",
+      ".cangjie/backup-v4-9-pre-residue/（52 文件）"
+    ],
+    "lesson": "verified.yaml 是生成物：手改会被下一次 assemble_bundle.py 覆盖，必须改脚本内硬编码文本",
+    "post_scan": {
+      "dist_SKILL_md_十三类": 0,
+      "dist_glossary_十三类": "6（全部为版本阶梯 / v4.7·v4.8 changelog，属历史记录保留）",
+      "dist_未收误声明": "0（2 处命中为「供应商符合 part 120 / 123」法规原文引用）"
+    }
+  },
+  "documents": {
+    "PIPELINE_STATE.md": "头部当前版本改 v4.9；阶段快照注改为「当前 v4.9 / v4.8 成历史」；v4.9 节补口径回补、两类缺陷、verified.yaml 教训、编译与安装记录",
+    "BOOK_OVERVIEW.md": "来源分层段改十四类口径并补 Part 123；来源阶梯补 v4.9；当时规模标注 v4.8",
+    "DIGEST.md": "顶部当前版本改 v4.9；v4.9 段补口径回补与编译安装结果",
+    "GLOSSARY.md": "t163–t172 并入；v4.7/v4.8 历史陈述按版本复原"
+  },
+  "compile": {
+    "out": "dist-v13",
+    "command": "python C:/Users/HG/.workbuddy/skills/cangjie-skill/scripts/compile_single.py --bundle .cangjie/capabilities --out dist-v13 --variant single",
+    "variant": "single",
+    "files": 27,
+    "md_files": 27,
+    "validate_staging": "0 errors, 1 warning（name-dir：dist-v13 与 SKILL.md 的 name 不一致，产物目录名固有提示）",
+    "skill_md_lines_bytes": "129 行 / 67964 字节（CRLF）",
+    "skill_md_sha256": "5a29291a693ce164d00b4ef14742bafdde8896e1d65a815c58bfea9860fbc6ea"
+  },
+  "install": {
+    "target": "C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety",
+    "installer": ".cangjie/install_v10.py",
+    "backup": "backups/fda-pchf-food-safety-v4.8-20261106-161843",
+    "validate_after_install": "0 errors, 0 warnings",
+    "sha256_diff": 0,
+    "glossary_copies": 5,
+    "glossary_unique_hash": 1,
+    "glossary_hash_prefix": "9e366adcb39daa2e",
+    "installed_scale": "22 卡 / 172 术语 / 105 用例（version 4.9）/ 十四类来源",
+    "installed_skill_md_bytes": 67964,
+    "skill_md_byte_identical": true
+  },
+  "known_boundaries": [
+    "CP 7303.842《Seafood HACCP》检查程序正文未收（用户下载目录有 20250929 版 PDF，本版未纳入），检查员侧取证量、抽样与升级口径一律标「转引未收」，不得从 Part 123 反推",
+    "21 CFR part 120（果汁 HACCP）、part 1240（贝类卫生）、part 108 / 110 / 507 正文未收；§123.28(d) 回指的 §1240.60(c) 只能转引",
+    "NSSP Guide、FDA《Fish and Fishery Products Hazards and Controls Guidance》4th ed.、Import Alert 16-xx、BAM 海产品章节、组胺/河豚毒素/雪卡毒素限值均未收",
+    "§117.5(b) 无 part 113〔§ 117.5(d)(2)〕那样的「仅限微生物危害」限缩款，但豁免边界仍是受 part 123 管辖的 activities（〔§ 123.3(k)(2)〕三项排除不在内），且不免 Part 117 Subpart B 的 CGMP",
+    "本版未重跑触发 / 输出 / 路由评测；v4.7 的 F1 1.000 / 0.994、输出 10/10、路由 40/40 不得冒用"
+  ],
+  "next_candidates": [
+    "CP 7303.842 Seafood HACCP 检查程序（用户已下载，补齐海产品检查员侧）",
+    "21 CFR Part 120 果汁 HACCP 法规正文（补齐 §117.5(c) 另一侧）",
+    "CP 7303.847 果汁/果汁产品 Compliance Program",
+    "IOM 2026 Chapter 4（702(b) 分割留样、Sample Schedule Chart 2）"
+  ]
+}

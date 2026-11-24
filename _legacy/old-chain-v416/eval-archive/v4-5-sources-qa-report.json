@@ -1,0 +1,184 @@
+{
+  "version": "v4.5",
+  "generated": "2026-11-06",
+  "task": "把用户提供的两份 FDA 检查员侧 PDF 落为第八/第九来源并回补技能包",
+  "sources": [
+    {
+      "source_id": "src-fda-cp-7303-050-2025",
+      "input_pdf": "G:/下载/20250915_7303.050_Sampling for Foodborne Biological Hazards and Filth-Domestic and Import 508-Compliant.pdf",
+      "output_md": "source-cp-7303-050-2025.md",
+      "pages": 62,
+      "bookmarks_total": 75,
+      "bookmarks_used": 75,
+      "bookmarks_dropped": 0,
+      "headings": 136,
+      "table_lines": 253,
+      "residual_standalone_pagenum": 0,
+      "version_facts": {
+        "date_of_issuance": "06/03/2022",
+        "implementation_date": "06/03/2022",
+        "correction_date": "09/10/2025",
+        "pdf_creation_date": "2025-09-10",
+        "pdf_author": "HFP/OCE",
+        "chapter": "CHAPTER 03 - Foodborne Biological Hazards",
+        "program": "7303.050",
+        "verdict": "2022 版程序的 2025 年更正本，不是 2025 年新签发 program；文件名 20250915 与 FDA 网页列表日期均不得当作版本依据"
+      },
+      "authority_layer": "inspection-program (FDA 给检查员/分部/实验室的内部抽样作业指导；非法规、非 Guidance for Industry、不创设企业义务)",
+      "citation_format": "CP 7303.050 PART x / ATTACHMENT A Part x / Table x",
+      "key_findings": [
+        "PART III.1.A: Inspections are not planned under this compliance program —— 是抽样 program 不是检查 program",
+        "PART III.1.C Sample Size: 样品量不含 702(b) 部分；易腐与进口状态样品不取 702(b)；多分析物按最大 subs 数取足",
+        "Table 2/3: Salmonella 多为 30 subs × 100 g；L. mono 10 subs × 200 g；奶酪按零售单元重量分 10/2/1 subs",
+        "ATTACHMENT A Sample Size: Listeria ≥50 subs（理想 100）、Salmonella ≥100 subs（理想 300）",
+        "ATTACHMENT A Table 1: Listeria 主要 Zone 1-3、Salmonella 主要 Zone 2-3；湿区偏 Listeria、偶发受潮干区偏 Salmonella",
+        "ATTACHMENT A Part IV.3.A: 环境拭子不做计数；Part IV.3.C: 确认阳性立即 WGS 并上传 GenomeTrakr",
+        "ATTACHMENT A Part V.1: 三档 Findings，Zone 1 阳性属 Level at which regulatory action is expected",
+        "ATTACHMENT A Part V.3.B: HFP 尚未授予环境取样相关 Direct Reference Authority",
+        "PART V: 表 7/8 逐案、非穷尽的可能 FDA 响应清单；指控 402(a)(1)/(3)/(4)、801(a)(3)",
+        "ATTACHMENT B: 污秽/霉变无专门指令时 10 个 2 lb subs；奶酪 6 个 227 g 不合并",
+        "首页与 Table 4/6: PAC 03037D / 03803D / 03819C / 03050B / 03050E / 03050N / 03S050N；FACTS / SERIO / OASIS / CMS"
+      ],
+      "conversion_limits": [
+        "封面表与 Contents 的点线目录转 GFM 后单元格合并、<br> 保留、H**.** 等 Word 锚点残留；检索以 PART / 小节号 / 表号为准",
+        "部分书签标题与正文错位（PART II 重复、#### C. Sample Collections 出现在 ### 1. Operations 前）",
+        "图片占位；跨页表头重复；2. 27 kg、modifiedmolecularstructures 等断词为 PDF 转录瑕疵，逐字引文按源文保留并加注",
+        "文件头为导入说明，非原文；转换自检报告的 chars/lines 为加文件头之前的数值"
+      ]
+    },
+    {
+      "source_id": "src-fda-iom-2026-ch5",
+      "input_pdf": "G:/下载/2026 IOM Chapter 5.pdf",
+      "output_md": "source-iom-ch5-2026.md",
+      "pages": 221,
+      "bookmarks_total": 410,
+      "bookmarks_used": 409,
+      "bookmarks_dropped": 1,
+      "headings": 450,
+      "table_lines": 259,
+      "residual_standalone_pagenum": 0,
+      "version_facts": {
+        "document": "INVESTIGATIONS OPERATIONS MANUAL 2026 / CHAPTER 5",
+        "pdf_title": "2026 IOM Chapter 5 - Inspections",
+        "pdf_creation_date": "2026-07-13",
+        "scope": "仅 Chapter 5 单章（5.1-5.16 正文 + Exhibit 5-1..5-23），不是 IOM 全书"
+      },
+      "authority_layer": "investigator-manual (FDA 给调查员的内部作业手册；非法规、非 Guidance for Industry、不创设企业义务)",
+      "citation_format": "IOM 5.x.x / IOM Exhibit 5-x",
+      "key_findings": [
+        "5.1.1: 检查法定基础 FD&C Act 704(a)(1) [21 U.S.C. 374]，reasonable times / reasonable manner；三类检查",
+        "5.1.4.2.1 / 5.5.1: 国内到场出示 credentials 并签 FDA 482；境外一般不发 482 但仍须出示证件",
+        "5.2.7: 预告三层口径 —— 医疗器械 surveillance 与部分 BIMO 强制、produce farm 应预告、食品企业一般不预告由 program division 裁量、境外通常提前告知；国内 ≥5 个日历日、改期不晚于原日期 +5 天；预告不是预约",
+        "5.5.10 / 5.5.10.7: 483 不得引用法规原文、不得纳入标准、不得引用 policy/guidance 偏离",
+        "5.5.11: 不得写 opinions / conclusions / violative；是否违法是 agency 事后决定",
+        "5.5.11.3: 仅偏离官方 guidance 未违反法规的属 Category 3 non-reportable observation，只口头讨论并进 EIR",
+        "5.5.12.3: 15 个工作日内的充分 483 回复 may impact FDA's determination of the need for subsequent action（双出处之一）",
+        "5.5.12.5: 采集任何实体样品必发 FDA 484，一般在检查结束时签发",
+        "5.5.2.3: 拒绝提供法规未强制要求的信息（配方/发货清单/生产编码）不构成 inspection refusal；5.5.2.1 境外拒绝可触发 807(b)",
+        "5.6.4: 没有阳性样或样品合格都不阻碍 cGMP 指控",
+        "5.6.5.1 / 5.6.6.1 / 5.6.7: 不得取走唯一记录副本；检查员不得亲自登录企业系统；照片是 exhibit 且只能用 FDA 配发设备"
+      ],
+      "conversion_limits": [
+        "前 11 页 Word 点线目录被压成 9 条约 9 KB 单行文本，另 1 页目录被识别为图片文字块；不得以目录行做逐字引证",
+        "410 书签命中 409，丢弃 1 个首页/结构性锚点",
+        "书签插入位置与正文有错位（如 5.1.4 在 5.1.1 之前、Exhibit 5-1 书签落在目录区），但小节正文连续完整；引用按小节号",
+        "个别标题被误降级为 H2；表单空表以 ||||| 一行呈现；文件头为导入说明，非原文"
+      ]
+    }
+  ],
+  "quote_verification": {
+    "method": "提取两张新卡 R 段全部 > \"...\" 引用块，双方做 NFKC + 去标点/空白/Markdown 归一化后检查是否为源文（CP 7303.050 / IOM Ch.5 / CPGM 7303.040 / 21 CFR 117 正文）的连续子串",
+    "inspection-sampling_quotes": 16,
+    "investigator-authority-procedure_quotes": 27,
+    "total": 43,
+    "matched": 43,
+    "misses_fixed": [
+      "IOM 5.8.1.3 引文 'When you issue the FDA 482' → 按源文改为 'When issuing the FDA 482'"
+    ]
+  },
+  "structural_checks": {
+    "meta_yaml_files": 18,
+    "meta_string_fields_all_str": true,
+    "glossary_terms": 134,
+    "glossary_new_segment_yaml_valid": true,
+    "test_cases": 67,
+    "test_case_ids_unique": true,
+    "cards_six_sections": "18/18（新增两卡均含 R / I / A1 / A2 / E / B）",
+    "note": "全库 fenced yaml 术语块自 v1 起有历史遗留的 t03 解析错误，作为 markdown 交付不参与 parse 校验；v4.5 新增段已单独验证合法"
+  },
+  "authority_discipline": {
+    "rule": "九类不可混引",
+    "layers": [
+      "21 CFR Part 117 法规正文〔§ 117.xxx〕（唯一法定义务判定基准）",
+      "FDA PCHF 行业指南（Ch/小节号，Draft 建议层）",
+      "L.mono RTE 指南（其章节号，2017 Draft 建议层）",
+      "SECG（SECG 章号，白话转述不创设义务）",
+      "过敏原 Ed.5（问答编号，FD&C Act 标签解释）",
+      "Food Defect Levels Handbook（Handbook 章名 + 产品名，执法裁量参考）",
+      "CPGM 7303.040（PART x，检查员内部作业指导）",
+      "CP 7303.050（PART x / ATTACHMENT A Part x / Table x，抽样作业指导）",
+      "IOM 2026 Ch.5（IOM 5.x.x / Exhibit 5-x，调查员内部作业手册）"
+    ],
+    "institutional_proof": "IOM 5.5.10.7 / 5.5.11.3 从检查员侧证明：仅偏离 official published guidance 而未违反法规的观察不得写进 FDA 483（Category 3 non-reportable observation）。但同一事实若同时构成〔§ 117.xxx〕失守，仍会被写成事实性观察项——不得反读成『指南可以不做』。"
+  },
+  "cards_added": [
+    {
+      "capability_id": "CAP-17",
+      "slug": "inspection-sampling",
+      "title": "FDA 现场取样、样品量与阳性结果应对"
+    },
+    {
+      "capability_id": "CAP-18",
+      "slug": "investigator-authority-procedure",
+      "title": "FDA 检查员权限、文书与证据链"
+    }
+  ],
+  "cards_revised": [
+    "inspection-readiness（12 处）",
+    "cgmp-compliance-guide（7 处 + 新增 B13）",
+    "defect-action-levels（B4 / B8）",
+    "reference-tools-discipline（新增第 11 条）",
+    "regulatory-boundaries（新增第 9 条）"
+  ],
+  "still_not_collected": [
+    "IOM Chapter 3 / 4 / 6 / 7 / 8 / 9 / 10（尤其 Ch.4 的 702(b) 分割留样与制样）",
+    "eBAM / BAM / AOAC OMA / MPM / Macroanalytical Procedures Manual 方法正文",
+    "SOP-001052（原 Field Bulletin 30）、SOP-000529 / FMD-147、FMD-86",
+    "CPG Sec. 130.100 / 527.300 与 CPG Ch.5 全套、RPM Ch.6/9/10-4",
+    "Import Alerts / Import Bulletins 正文、其他 Compliance Programs（7303.878 / 7303.080 / 7303.070 / 7304.019 / 7303.842）",
+    "21 CFR 2.10 / 133 / 1240.61 正文、FDA 483/484/1551 数据库、Inspections Database",
+    "21 CFR part 117 citations table、SOFO job aid、Human Food By-Products GFI #239、eNSpect / CAR / CMS 内部系统",
+    "FDA 境外无预告检查与 RRA 政策公告原文"
+  ],
+  "build_and_install": {
+    "assemble": "assemble_bundle.py → 18 capabilities (CAP-01..CAP-18), 18 meta yaml",
+    "compile": {
+      "command": "cangjie.py compile --bundle .cangjie/capabilities --out dist-v9 --output single --yes",
+      "output_dir": "dist-v9",
+      "run_id": "run-20261106-112136-89eead",
+      "variant": "single",
+      "capability_count": 18,
+      "published_files": 23
+    },
+    "validation": {
+      "staged_dist": {
+        "errors": 0,
+        "warnings": 1,
+        "warning_detail": "name-dir: SKILL.md name fda-pchf-food-safety 与目录名 dist-v9 不一致；为编译产物目录名的固有提示"
+      },
+      "installed": {
+        "errors": 0,
+        "warnings": 0,
+        "scanned_md": 23
+      }
+    },
+    "backup": "backups/fda-pchf-food-safety-v4.4-20261106-112234",
+    "installed_to": "C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety",
+    "installed_cards": 18,
+    "installed_glossary": 134,
+    "installed_test_cases": 67,
+    "test_prompts_version": "4.5",
+    "dist_vs_installed": "逐文件 sha256 一致（安装目录额外仅 test-prompts.json）",
+    "install_script": ".cangjie/install_v6.py"
+  }
+}

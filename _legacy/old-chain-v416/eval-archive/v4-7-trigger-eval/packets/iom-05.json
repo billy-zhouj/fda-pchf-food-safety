@@ -1,0 +1,13 @@
+{
+  "case_id": "iom-05",
+  "runs": 1,
+  "prompt": "检查员拿自己的手机拍了车间，我们能不能要求删掉？另外 IOM 里提到的 Chapter 4 取样细则、702(b) 和 RPM Chapter 10-4 记录索取权，帮我们按条款解释一下。",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

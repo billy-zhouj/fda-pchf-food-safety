@@ -1,0 +1,148 @@
+slug: lacf-inspection-program
+title: 低酸罐头与酸化食品检查（CP 7303.070）与 Part 117 管辖分流
+importance: extended
+importance_rationale: 此前 regulatory-boundaries 只有 PCHF 指南第 16 章的双法规并集概念，检查员侧的 LACF/AF 落地一直列为未收；用户随后提供 CP 7303.070 正文。补入后可同时纠正四类高频误读——① 把 AF 与 LACF 一并援引〔§ 117.5(d)〕免掉 Subparts C/G；② 把 CP 的检查动作写成企业法定义务；③ 把 4.40/4.65/4.75/1%/24 罐当成法定放行数值；④ 把 Import Alert 99-37 简化成「未备案即自动扣留」。它还首次给出 RRA 不是 704(a)(1) inspection 的官方程序定义，并把 Keep Refrigerated、brites、动物食品、海产品四条路由接到已收的 7303.040/7303.050 两卡。属入口型判定能力，与 regulatory-boundaries、inspection-readiness、inspection-sampling、process-control-validation、cgmp-compliance-guide 多卡交叉，故定 extended。
+one_liner: 先判产品进的是 LACF、AF 还是 Keep Refrigerated 轨道，再按〔§ 117.5(d)(1)(2)〕把「part 113 管辖的微生物危害」与「仍需 PCHF 的化学/物理/金葡危害」切开；酸化食品不免 C/G；检查查的是 FCE/SID、Process Authority、温度分布与热穿透、运行中 retort、卷边与异常罐；4.40/4.65 是实验室复测触发线、4.6 才是法定边界。
+intents:
+  - 判断一个产品属于 LACF、酸化食品 AF、酸性食品、Keep Refrigerated 还是不进 7303.070 轨道
+  - 按〔§ 117.5(d)(1)(2)〕判定 LACF 活动免 Subparts C/G 的范围，指出哪些危害仍归 Part 117
+  - 纠正把酸化食品当成 LACF 豁免孪生、或误引〔§ 117.201〕为 LACF 条款的错误
+  - 解释〔§ 117.1(c)〕专项 CGMP 与 Part 117 并行不互斥，及与 regulatory-boundaries 并集矩阵的关系
+  - 回答 Keep Refrigerated 产品为什么归 CP 7303.050、brites 中央仓为什么报 PAC 03040
+  - 说明动物食品 71070 与 21 CFR 507.5(b)、海产品 7303.842 HACCP 的并行路由
+  - 解释 RRA 自愿、远程、不是 704(a)(1) inspection、不满足 510(h)/503B(b) 法定检查要求
+  - 复述酸化食品判定三步与 Maximum Equilibrium pH、ROP 氧透过率阈值、成品至少 6 单元自判
+  - 列出 AF / LACF / Aseptic LACF 三类检查目标与检查员会索取的六组记录
+  - 回答 pH 分析取样量 24 罐/12 罐、4.40 与 4.65 双分析师触发线、禁止合并两位分析师结果
+  - 区分 4.6/0.85 法定边界、4.40/4.65/4.75/0.90/0.93 检查员触发线、4.4/0.92 L.mono 建议层基准
+  - 处理异常罐 1%、14 天 progressive decomp、pH >4.75 与肉毒毒素/PCR、C. botulinum 仅 for-cause
+  - 解释 Import Alert 99-37/99-38 与「不得仅因未注册未备案建议 DWPE」的反直觉限制
+  - 回答 Emergency Permit/OAI 3 个月与 6 个月、VAI 12 个月、NAI 按 FSMA 频率、24 小时通电
+  - 识别 2024-09-26 签发 / 2025-09-26 更正本的版本形态，避免套用 7303.040 的 Transmittal 口径
+  - 判断哪些问题超出本卡（BAM、CPG 520.200/520.300、Import Alert 全文、F0/D/z 与 TD/HP 研究设计）；IOM Ch.4 Chart 2 自 v4.16 起已收，转 CAP-28；113/114 正文转 CAP-20、108 正文转 CAP-25
+keywords:
+  - "CP 7303.070"
+  - "7303.070"
+  - Acidified and Low-Acid Canned Foods Program
+  - "09/26/2024"
+  - "9/26/2025"
+  - "Correction Date"
+  - "20250929"
+  - "21 CFR part 108"
+  - "21 CFR part 113"
+  - "21 CFR part 114"
+  - "117.5(d)"
+  - "117.1(c)"
+  - "117.201"
+  - "117.3"
+  - "117.80(c)(14)"
+  - "117.80(c)(15)"
+  - "117.110"
+  - LACF
+  - AF
+  - acidified food
+  - low-acid canned food
+  - aseptic LACF
+  - "C. botulinum"
+  - Clostridium botulinum
+  - botulinum neurotoxin
+  - "Staphylococcus aureus"
+  - commercial sterility
+  - "Emergency Permit Control"
+  - "FCE"
+  - "SID"
+  - "SUP-SID"
+  - "scheduled process"
+  - "Process Authority"
+  - "Better Process Control School"
+  - BPCS
+  - "FURLS"
+  - "Center Views"
+  - "Form 2541e"
+  - "temperature distribution"
+  - "heat penetration"
+  - retort
+  - "crateless retort"
+  - "container integrity"
+  - "can seam"
+  - "abnormal containers"
+  - "spoilage diagnosis"
+  - "hard swell"
+  - "progressive decomp"
+  - "Maximum Equilibrium pH"
+  - "equilibrium pH"
+  - "4.6"
+  - "4.40"
+  - "4.65"
+  - "4.75"
+  - "0.85"
+  - "0.90"
+  - "0.93"
+  - "0.92"
+  - "795 grams"
+  - "24 containers"
+  - "12 containers"
+  - "Never average the two analysts"
+  - "original analysis"
+  - "check analysis"
+  - "pH meter"
+  - ROP
+  - "oxygen transmission rate"
+  - "10,000 cc"
+  - "Keep Refrigerated"
+  - brite
+  - "PAC 03040"
+  - "03070A"
+  - "03070B"
+  - "03070C"
+  - "03070F"
+  - "03070G"
+  - "03070J"
+  - "71070"
+  - "PAC"
+  - "PAF"
+  - "ACD"
+  - "MIC"
+  - "AFD"
+  - "ACF"
+  - "LAF"
+  - "Import Alert 99-37"
+  - "Import Alert 99-38"
+  - DWPE
+  - DTR
+  - "AofC"
+  - "RRA"
+  - "Remote Regulatory Assessment"
+  - "704(a)(1)"
+  - "510(h)"
+  - "503B(b)"
+  - "OAI"
+  - "VAI"
+  - "NAI"
+  - "SOP-001642"
+  - "IOM Chapter 4"
+  - "Sample Schedule Chart 2"
+  - "BAM Chapter 17"
+  - "BAM Chapter 21A"
+  - "CPG Sec. 520.200"
+  - "CPG Sec. 520.300"
+  - "CMS"
+  - "HFP/OCE/OCIC/DCC"
+  - "HFP/OCE/OE/IEB"
+  - "21 CFR 507.5(b)"
+  - "7303.842"
+  - "7371.000"
+  - "7321.006"
+  - "7304.004A"
+  - "7309.006"
+  - 低酸罐头
+  - 酸化食品
+  - 管辖分流
+  - 双法规并集
+  - 定时工艺备案
+  - 商业无菌
+  - 卷边完整性
+  - 异常罐
+  - 进口扣留
+member_units: []
+source_label: FDA CP 7303.070（2024-09-26 签发 / 2025-09-26 更正，61 页，含 ATTACHMENT A/B/C）+ 21 CFR Part 117 法规正文〔§ 117.5(d)(1)(2)〕〔§ 117.1(c)〕+ 21 CFR Part 113 / 114 法规正文（v4.7 已收，见 CAP-20）+ 21 CFR part 108 / 110 / 120（转引未收）+ 21 CFR Part 123（v4.9 已收，见 CAP-22）+ CPGM 7303.040 / CP 7303.050 / IOM 2026 Ch.5 交叉

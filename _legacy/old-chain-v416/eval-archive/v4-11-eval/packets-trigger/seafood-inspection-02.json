@@ -1,0 +1,13 @@
+{
+  "case_id": "seafood-inspection-02",
+  "runs": 3,
+  "prompt": "CP 7303.842 和 CP 7303.844 现在合并了吗？合并后进口和国产样品是不是都报同一个 PAC 码？",
+  "instruction": "你是一个未参与蒸馏的干净 agent。给定用户 prompt 与已安装 skill 清单，判断该激活哪一个 skill（或 none）。输出 JSON: {\"selected_skill\": \"<slug>|none\", \"reason\": \"...\"}。每条 prompt 独立判断，重复运行之间不携带记忆。",
+  "installed_skills": [
+    "fda-pchf-food-safety",
+    "brand-ip",
+    "cangjie-skill",
+    "officecli1098",
+    "pdf2md-pro"
+  ]
+}

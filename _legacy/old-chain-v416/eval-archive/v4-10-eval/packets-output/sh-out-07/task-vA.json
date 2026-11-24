@@ -1,0 +1,9 @@
+{
+  "case_id": "sh-out-07",
+  "variant_label": "vA",
+  "prompt": "同一个组胺危害，Ch.7 给了好几条 Control Strategy Example，我们换一条控制策略，CCP 和关键限值要不要跟着改？",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "C:/Users/周至/WorkBuddy/美国食品安全法规技能/fda-pchf-food-safety/.cangjie/v4-10-eval/packets-output/sh-out-07/vA.md"
+}

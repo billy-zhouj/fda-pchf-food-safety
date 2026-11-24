@@ -1,0 +1,594 @@
+[p.14]
+
+
+
+
+
+
+
+
+
+available production (lot) codes and/or dates; an overall view of the lot(s) examined; and any adverse conditions
+observed.
+Photographic evidence must be captured with a government-issued digital device and copied to your work computer’s
+hard drive to prepare it for labeling and uploading to an FDA Import System. Blurry or otherwise unusable photographs
+may be deleted once you confirm that you have captured all the necessary clear usable photographs. Briefly document
+in your regulatory notes that photographs were taken and uploaded to the FDA Import Systems.
+Photographic evidence must be uploaded electronically to the entry/line via FDA Import Systems for all sample
+collections, Class 2 and Class 3 field/label exams, detention requests (when warranted), destructions, reconditioning,
+refusal verification discrepancies, and other situations as warranted. Digital photographs may be deleted from your
+work computer’s hard drive after you have uploaded them to an FDA Import Systems.
+All photographic evidence (including photographs of labeling) must be identified with the following required
+information: entry/line number, collection/examination date, investigator’s initials, a brief description of the photo,
+and numbering that allows future reviewers to determine if any pages or photos are missing. (An example of an
+adequately identified photographic notation: 123-456789-1/11/1; 8/10/20; RS, information panel, right side, 1 of 4).
+Photographs may be uploaded directly from a government-issued mobile device or computer file to an entry/line via
+FDA Import Systems. The system records the date, time, and investigator’s initials at the time of upload. The required
+information described above must be included within the file name and/or using the Document Remarks section
+specific to each photograph during the document upload process. However, there is no need to include the entry/line
+number when uploading from a mobile device or computer file as the photograph(s) will be directly associated to the
+entry/line. As such and using the example given above, the file name or Document Remarks section would be fulfilled
+by simply including the remarks: “information panel/right side, 1 of 4.”
+Photographs may also be downloaded and combined into a single document (Word or PDF) for each entry/line, with
+the required information included within the document.
+If photographic evidence is printed, it should be documented in your regulatory notes and the required information
+must be permanently affixed to the printed photos so that there is never any loss of association between the
+photographic evidence and the associated entry/line. This information must be recorded immediately above or below
+the photograph(s) (not directly on the photos) so that the integrity of the evidence is not compromised.
+Note: If additional enforcement or legal actions, including, but not limited to, seizure, injunction, debarment, or
+prosecution are contemplated with respect to an import case, the procedures for preparing and maintaining digital
+photographs and video as evidence, as described in IOM 5.6.7 and IOM 5.7.3, must be followed.
+6.2 – Entry Review
+The FDA uses the Entry Review (ER) process to decide if a regulated product can legally enter the United States. In this
+process, reviewers examine the product's electronic and hard-copy documentation. All reviewers must complete both
+formal and on-the-job training before they can conduct these reviews independently.
+6.2.1 – Responsibilities
+Use Import Systems Correctly
+•
+Conduct ER using the appropriate FDA Import Systems
+•
+Report your entry review activities as import investigation time in FDA Import Systems and OASIS
+Ensure Data Integrity
+•
+Correct any inaccurate data (manufacturer, shipper, product code, quantity, etc.) that could affect PREDICT
+screening.
+•
+Assign fault to the responsible party.
+•
+Save and rescreen the entry/line after making corrections.
+[p.15]
+
+
+
+
+
+
+
+
+
+Verify Admissibility Requirements
+•
+Use PREDICT screening information and FDA databases/applications (Center Views, Interstate Certified Shipper
+List, etc.) to verify commodity-specific requirements
+•
+Manually verify information if database lookups fail
+Document Your Decisions
+•
+Provide clear remarks in the FDA Import System when you:
+o
+Request a detention
+o
+Request field work
+o
+Issue a may proceed that contradicts PREDICT screening results
+•
+Avoid vague remarks like "May Proceed" or "N/A"
+•
+Note: remarks field is for internal FDA use only.
+Use Available Resources
+Base your decisions on:
+•
+Electronic and hard-copy entry documentation, including declarations of intended use
+•
+PREDICT screening (scores, mashup grid, rule flags)
+•
+Import Alerts (IA) and Import Bulletins (IB)
+•
+Compliance Program Guidance Manuals (CPGM)
+•
+Past compliance history and database queries
+•
+Import Assignments, DIO Field Advisories and Notices, and SCOPE
+•
+Intelligence from Other Government Agencies (OGAs)
+o
+Note: Other Government Agencies (OGAs) are also known as Partnering Government Agencies (PGAs).
+•
+Management directives
+Coordinate and Escalate When Needed
+•
+Understand OII Field Work Plan and SCOPE obligations to ensure center-prioritized work is completed
+•
+Notify OCI when appropriate
+•
+Refer entries to PGA/OGAs when warranted
+•
+Engage division management for situations that may require a national screening criteria recommendation
+
+6.2.2 – Initial Entry Review
+The FDA receives electronically submitted lines with one of two initial work types:
+•
+Quantity and Value (QAV)
+•
+No Quantity and Value (NQV)
+To aid in the admissibility process, filers typically provide the quantity and value for each line electronically. Both are
+required to set up a work request. For paper (non-ABI) entries, apply the same decision-making criteria as you would
+for electronic entries.
+NOTE: For instructions on creating a manual entry in the Entry Review (ER) application for a non-ABI entry, please
+consult the ER Job Aid.
+To prioritize lines for review, use the following date and time information:
+•
+Trucks: Actual arrival date and time.
+•
+Air, Rail, and Sea: Submission date and time.
+In general, prioritize lines as follows:
+[p.16]
+
+
+
+
+
+
+
+
+
+1. Lines with a QAV work type have priority over those with an NQV work type.
+2. Lines with documents submitted through the Import Trade Auxiliary Communications System (ITACS) take
+priority over lines with documents sent by other methods.
+6.2.2.1 –Emergency and Perishable Shipments
+Emergency and perishable products are time sensitive and take precedence over all others.
+Emergency products are when one or more items need immediate review due to an urgent situation. Import
+divisions decide how to handle these entries to prevent abuse.
+Perishable products are items that can spoil or lose quality if stored too long under normal conditions. Examples
+include:
+•
+Raw/fresh seafood
+•
+Fresh fruits and vegetables
+The Centers identify time-sensitive products to help divisions prioritize their reviews.
+Release device shipments only if the entry documents show CDRH approval. If you can't verify the approval
+document, contact CDRH at cdrhimport@fda.hhs.gov.
+6.2.2.2 – Reviewing Entry Data and Information
+When the FDA's initial automated screening does not issue a "May Proceed," an entry reviewer must manually
+review it.
+You will use the FDA Import Systems to conduct your review. This system includes PREDICT, a screening tool that
+helps identify high-risk shipments. PREDICT does this by analyzing:
+•
+The product's known risks.
+•
+The history of the importer, manufacturer, and shipper.
+The system then flags the highest-risk lines for your review.
+Before you take any action, you must review and consider the recommendations from the FDA Import System,
+including the PREDICT risk score and any rule flags.
+Priority Review Flags
+A "Priority Review" flag points to a major public safety risk. This includes products that are subject to Detention
+Without Physical Examination (DWPE).
+If you decide to issue a "May Proceed" for a line with a priority review flag, you must write a clear reason in the
+"Remarks" field. Vague remarks do not provide enough information.
+Examples of Clear Remarks:
+•
+“The product brand submitted for entry is not a brand name subject to DWPE.”
+•
+“Product is in powdered rather than liquid form.”
+•
+“Specific manufacturer and/or product is exempt from IA XX-XX.”
+•
+“Documentation shows imported item does not contain heparin.”
+Examples of Vague Remarks:
+•
+“Line is not subject to IA”
+•
+“NA”
+•
+“May Proceeded”
+Before deciding, you must perform the following activities:
+•
+Analyze Risk: Review the PREDICT risk score and all flags in the FDA Import Systems.
+[p.17]
+
+
+
+
+
+
+
+
+
+•
+Investigate Alerts: If you see an Import Alert (IA) flag, confirm if the firm or product is subject to DWPE.
+If you believe a flag is missing, investigate it.
+•
+Report Errors: If a PREDICT rule works incorrectly, report it using the system's feedback function.
+•
+Research: Search for the firm and product in the relevant databases and review entry documents as
+needed.
+•
+Request Field Work: Set-up field work based on current plans, assignments, and obligations.
+•
+Follow Guidance: Use the correct guidance documents to check for compliance.
+As an entry reviewer, you must be familiar with the following resources:
+•
+Commodity-Specific Information: Find product-specific details and contacts on the Import Program
+page.
+•
+Compliance Manuals and Guides: Use these to help you evaluate if a product follows FDA laws. This
+includes Compliance Program Guidance Manuals, the PREDICT Guide for Rules and Scoring, and
+Chapter 9 of the RPM.
+•
+Internal Documents: Refer to the OII Field Work Plan, SCOPE, active assignments, and other internal
+notices and procedures.
+•
+Affirmations of Compliance (A of C): Understand the definitions for the codes used with entries.
+•
+The most current FDA Supplemental Guide for specific ACE submission requirements and mandatory
+data elements
+•
+Regulatory Procedure Manual (RPM) Chapter 9 and the OIO SharePoint site for additional information.
+•
+
+6.2.2.2.1 – Manual “May Proceed”
+ Issuing a "May Proceed"
+You should issue a "May Proceed" for an entry line if you can confirm it meets all regulatory requirements
+using the electronic information and documents, and you see no need to detain it or request field work.
+NOTE: If the system’s automated check clears the line, do not manually verify the Affirmation of Compliance (A
+of C) data.
+The "May Proceed" Notice
+The FDA automatically sends a "May Proceed Notice" to both Customs and Border Protection (CBP) and the
+filer. The filer is then responsible for telling the importer. This notice means the shipment can continue
+without further FDA examination.
+A shipment can receive a "May Proceed" notice in two ways:
+1. It passes the FDA's initial automated screening.
+2. An entry reviewer manually issues a “May Proceed” it after review.
+Important: A product that is allowed to enter the country can still face legal action later if the FDA finds it
+violates the law (as stated in section 304(d) of the FD&C Act).
+6.2.2.2.2 – Rescinding a “May Proceed”
+You should only rescind a "May Proceed" in rare cases, such as when a product requires a compliance action.
+You must act immediately, as this action is not for routine examinations.
+Once you issue a "May Proceed," the conditional release period for that entry ends permanently. Even if you
+rescind the notice, the period does not reopen.
+Steps to Rescind a "May Proceed"
+If a "May Proceed" was issued in error or new information requires another review, follow these steps:
+1. Get your supervisor's approval before taking any other action.
+[p.18]
+
+
+
+
+
+
+
+
+
+2. Notify the filer immediately that you rescinded the "May Proceed" and are holding the line for a new
+admissibility decision.
+3. Send an updated "Notice of FDA Action" to the filer, importer, and consignee within 24 hours.
+4. Request a bond hold from CBP within 24 hours to protect against financial loss if the product is
+refused.
+5. Confirm the system sends the ABI codes to the filer, which tells them not to distribute the product.
+6. Instruct CBP to demand redelivery if the shipment has already been distributed. Act quickly, as CBP has
+a 30-day window to issue this demand.
+7. Document all your actions and communications in the FDA's Import system to maintain a clear record.
+6.2.2.2.3 – Request Examination and/or Sampling (LEX/FEX/SAM)
+As an entry reviewer, follow these steps when you need to request a field examination or sample collection.
+1. Correct Inaccurate Data
+If you find errors in the transmitted data that could affect the admissibility decision, correct them first. Record
+the reason for the update, save your changes, and then rescreen the data.
+2. Set Up the Work Request
+Next, set up the examination or sample collection using the correct work type and Problem Area Flag (PAF).
+Align the work request with the agency's current priorities, work plans, and assignments.
+3. Provide Clear Instructions
+For any non-routine work, you must give the investigator clear directions in the "Instruction Text" field.
+Provide instructions when:
+•
+An OII assignment requires specific remarks.
+•
+The exam requires special instructions (e.g., following a specific procedure guide).
+•
+You found a specific issue during your review that needs to be checked.
+•
+You need to reference a previous violation (include the entry/sample number).
+•
+An Import Bulletin directs you to do so.
+•
+You need to note safety precautions or other important product details.
+Important Notes
+•
+Import Alerts (IA): Do not routinely request work for a line that is already subject to an Import Alert.
+•
+Job Aid: For more detailed instructions on these steps, refer to the Job Aid for the Entry
+Review Application.
+6.2.2.2.4 – Notices
+When you recommend detention or request field work, the FDA's Import systems automatically notify the filer
+in two ways:
+•
+Through the Automated Broker Interface (ABI).
+•
+With a "Notice of FDA Action."
+Distribute Notices of FDA Action per IOM 6.1.6.2. You can also find additional information regarding the
+issuance of notices in RPM Chapter 9.
+6.2.2.2.5 – Cancelled Entries
+Entry reviewers can identify CBP cancelled entries in FDA Import Systems. Cancelled CBP entries display static
+text at the top of multiple screens that reads, "This Entry is Cancelled." The Entry Review Grab Bag (ERGB)
+displays a "Y" in the "Cncld" column, and the Current Entry Status field displays "ACS/ACE Entry Cancelled."
+[p.19]
+
+
+
+
+
+
+
+
+
+6.2.2.2.6 – Partner/Other Government Agency (OGA) Referral
+Use the OGI (Other Government Agency - Investigations) and OGC (Other Government Agency - Compliance)
+work types to close an entry line without the FDA making an admissibility decision. This is done when another
+government agency is handling the entry.
+•
+To send a line to the Investigations Branch (IB): Select "OGI/OGA" from the "Possible Actions." This
+allows the IB to close the line with no further FDA action.
+•
+To send a line to the Compliance Branch (CB): Select "OGC/OGA" from the "Possible Actions." This
+routes the line to the CB and allows them to close it with no further FDA action.
+When to Use an OGA Referral to Close a Line
+You can close a line with an OGA referral when another agency (like CBP) has decided to refuse or seize a
+shipment. Before you close the line, you must obtain and upload documents that show what the other agency
+did with the product.
+Sharing Information vs. Closing a Line
+If you only need to share information with another agency but the FDA will make an initial admissibility
+decision, use an Ad-Hoc OGA Referral (an Ad-Hoc referral does not close the line).
+Handling Cancelled Entries
+If CBP cancels an entry, the entry is handled in one of two ways:
+•
+No Work Assigned: The system will automatically close the entry.
+•
+Work Assigned: You must email OII-OBISM-DIBIS-IMPORT-APPS-PROBLEM-REPORTS@fda.hhs.gov to
+request that they close the cancelled entry.
+Requesting a New OGA
+If you need to refer an entry to an agency that is not listed in the system, submit your request using the Import
+Support Form.
+6.2.3 - Entry Documentation
+To decide if an article is admissible, you may need to review its entry documents. These can include:
+•
+Bills of Lading (BOL) or Airway Bills (AWB)
+•
+Invoices or purchase orders
+•
+Certificates of analysis
+•
+Copies of labeling
+•
+Intended use statements
+Do not delay electronic entries waiting for CBP Forms 3461 and 7501. The ACE system has eliminated these forms for
+electronic entries. However, you will still use these forms when processing paper (Non-ABI) entries.
+6.2.3.1 – Request of Entry Documents (DRQ)
+Request documents using the "Documents Required" Entry Option (DRQ) when you need additional information to
+make an admissibility decision.
+In the "Remarks" field of the "Issue Entry Option" page, enter:
+•
+Why you requested documents. Explain how they will assist future review of the entry or line.
+•
+Summarize the data elements you reviewed, and the admissibility requirements needed for review.
+Example: “All affirmations of compliance reviewed (NDA, NDC or DLS) appear valid; requesting documents per
+Assignment 123 to confirm product is an API. Set up work as indicated in the assignment."
+The DRQ entry option sends an electronic message to the filer via the FDA/CBP ACE Interface but does NOT
+generate a Notice of FDA Action.
+6.2.3.2 – Receipt of Entry Documents
+Filers can submit entry documents to the FDA in various ways. Documents sent through ITACS receive priority over
+those sent by other methods. Filers can send documents before or when you request them (DRQ).
+If you do not receive the documents, refer to IOM 6.2.3.4, "Failure to Submit Entry Documents and Follow-up
+Requests."
+[p.20]
+
+
+
+
+
+
+
+
+
+6.2.3.2.1 – Uploading documents received outside of ITACS
+If you receive documents for an entry outside of ITACS (for example, by email), you must upload them into the
+FDA Import Systems.
+For instructions on how to do this, refer to the Job Aid for the Entry Review Application.
+You should upload documents such as:
+•
+Product labeling
+•
+Email conversations that could affect admissibility
+•
+Entry paperwork like invoices, packing slips, or official forms
+Note: You can also upload screenshots of web pages. Always follow the official record retention policy for all
+documents you upload.
+6.2.3.3 – Review of Entry Documents
+Review documents in the order they arrive.
+After reviewing the documents, decide which action to take next.
+•
+If you find evidence of a violation (or cannot confirm compliance), send a Detention Request (DTR) to the
+Compliance Branch.
+•
+If an examination or sample collection is indicated, set up a work request (e.g., LEX, FEX, or SAM).
+If the documents are not sufficient, you have three ways to follow up with the filer:
+1. Direct Communication: Email or call the filer.
+2. DEF Option: Use the "Entry Incomplete - Return, Deficient Entry" option.
+3. INF Activity: Use the "Request Information" activity.
+In your message, clearly state the specific information you need and let the filer know that the admissibility review
+will proceed without it if not provided.
+If you do not receive the requested documents within three business days, the system will automatically send a
+"Second and Final Request" (DR2) to the filer. Note: This is an electronic message, not a formal "Notice of FDA
+Action."
+Documenting Your Communication
+•
+Direct Calls/Emails: Log all direct communications in the "Remarks" field or use the "Log Miscellaneous
+Information" (MIB) function. Include the date, contact person, information requested, and your initials.
+•
+DEF and INF: These options generate a formal "Notice of FDA Action." You must write the details of your
+request in the "Narrative" or "Information Requested" field.
+•
+Note: narrative field appears on the public "Notice of FDA Action".
+6.2.4 – Conditional Release Period
+Customs and Border Protection (CBP) may conditionally release a product while it awaits an FDA admissibility decision.
+You must make this decision before the conditional release period ends.
+This period typically lasts for 30 days. It ends as soon as one of these things happens first:
+•
+The FDA issues a "May Proceed" notice.
+•
+The FDA issues a notice of refusal.
+•
+The 30-day period expires.
+How to Extend the Period
+To extend the conditional release period, you must notify the importer in writing within the first 30 days. Your notice
+must state that the FDA will examine, sample, or detain the product.
+Important: The following actions do not extend the conditional release period:
+•
+Requesting Documents (DRQ)
+•
+Detention Requests (DTR or DER)
+•
+Deficient Entry (DEF)
+•
+Requesting Information (INF)
+[p.21]
+
+
+
+
+
+
+
+
+
+6.2.5 - Detention Recommendations by Entry Reviewers
+If a product appears non-compliant, you have two options:
+1. Request field work.
+2. Recommend detention to the Compliance Branch (CB).
+
+6.2.5.1 - Submission of Detention Recommendations to the Compliance Branch
+As an entry reviewer, you will use one of two work types to recommend detention: DER or DTR.
+DER (Detention without Physical Examination): Use DER when a product is subject to Detention without Physical
+Examination (DWPE).
+DTR (All Other Detentions): Use DTR for all other situations where a product appears to be violative.
+Before sending the detention request to the Compliance Branch (CB), you must:
+•
+Gather all necessary documents to support your case.
+•
+Add clear comments explaining the reason for detention for each line.
+•
+Include photos when needed to support the violation.
+6.2.5.2 - General Procedures Pertaining to all Detention Recommendations (DER and DTR)
+Before you submit a detention recommendation, you must complete the following steps to ensure it is accurate
+and aligns with FDA requirements.
+Check the Import Program page for any product-specific instructions. Then, search all relevant center databases.
+Important: You must document all the research you conduct in the detention recommendation's "Remarks"
+section.
+Note: All information in "Line Details" must be accurate. Inaccurate data will affect PREDICT screening.
+
+If a product has multiple violations (for example, it is subject to more than one Import Alert), you must include all
+applicable alerts and problem area flags (PAFs) in your detention recommendation.
+6.2.5.2.1 – Obtaining Entry Documents for Compliance Review
+Entry documents are needed for the Compliance Officer (CO) to review the case. If you do not have the
+documents, follow these steps.
+When you select the detention option (DER or DTR), choose an "Entry Option" from the drop-down menu that
+also requests documents.
+For example, select "Hold Designated, Others Go, Docs Required." This automatically tells the filer to submit
+the needed paperwork.
+If you receive documents outside of ITACS, you must upload them into the FDA Import system.
+Refer to these guides for specific instructions on how to upload documents:
+•
+Job Aid for the Entry Review Application
+•
+SERIO User Manual
+6.2.5.3 - DER - Import Alert (IA)
+Use a DER when an entry is subject to DWPE.
+You can submit a DER to the Compliance Branch (CB) without requesting entry documents if all the following are
+true:
+•
+The electronic data matches the Import Alert criteria (e.g., country, manufacturer, product).
+•
+The Import Alert does not require specific documents.
+•
+You do not need any additional information.
+When You MUST Request Documents First
+You must request and review documents before submitting a DER if the Import Alert requires specific paperwork
+for a product to be released.
+[p.22]
+
+
+
+
+
+
+
+
+
+For example, IA 28-02 requires a certificate for all shipments of black pepper from India. If the certificate is
+missing, you must request it before recommending detention.
+How to Submit a DER
+1. Confirm that all the electronic information (country, firm name, product description) matches the criteria
+in the Import Alert. Update and rescreen the entry if you make corrections.
+2. In the "Instruction Text" field, explain why you are recommending detention. For example: "Manufacturer
+is subject to IA XX-XX." Also, document any database research you performed if the IA requires it.
+3. Submit to the Compliance Branch (CB).
+6.2.5.4 - DTR
+Use a DTR when you cannot confirm that a product meets the FDA's admissibility requirements.
+To make this decision, first review all available information, including:
+•
+The electronic submission
+•
+Internal FDA databases
+•
+Any documents submitted by the filer
+If you still need more information, you can also request a field exam or sample collection.
+6.2.5.4.1 - Similar to Import Alert Listing
+If an entry line appears to match an Import Alert (IA) listing, but you need more information to be sure, follow
+these steps.
+First, request and review the entry documents. If you find any errors in the electronic data, correct them and
+rescreen the line.
+Determine the Next Step
+•
+If the entry line is matches an IA listing (red/green/yellow list) follow the guidance section in the IA.
+•
+If the entry line does not match the IA listing:
+•
+Continue your initial admissibility review.
+•
+Using the feedback functionality in SERIO Entry Review, explain why it was not subject to the
+IA. For example: "Flagged for IA XX-XX, but manufacturer not listed on IA".
+6.2.5.4.2 – Pending Addition to DWPE
+As an entry reviewer, you may find entries with the same product and manufacturer as a previous violative
+entry. That previous entry may be pending addition to DWPE.
+What you do next depends on if OII has direct reference authority.
+NOTE: The CO may set up screening criteria in these cases. This helps reviewers know about violative findings.
+6.2.5.4.2.1 Direct Reference Authority for DWPE
+When OII has direct reference authority (DIO Advisory #1) AND the electronic entry exactly matches a
+previous violative entry.
+When you encounter this:
+1. Recommend Detention without physical examination (DER).
+2. Add comments in the "Instruction Text" field (found in Work Details > Work Request and Work
+Request Details screen). Include:
+o
+Previous violative findings
+o
+CMS/work activity number and/or entry number
+o
+Reference to the IA
+o
+Any evidence you collected
+6.2.5.4.2.2 - No Direct Reference Authority for DWPE
+When OII does not have direct reference authority, the entry must stand on its own.
+Discuss next steps with your supervisor and CB. Possible next steps could include the following:
+•
+Request and/or review entry documents.
+•
+Request Field Work (via SAM/FEX/LEX).

@@ -1,0 +1,135 @@
+{
+  "version": "4.8",
+  "generated_at": "2026-11-06",
+  "trigger": "用户提供 G:/下载/CP7303.878 Foreign Supplier Verification Programs Inspections 508-Compliant.pdf，纳入为第十三来源并发布 v4.8",
+  "scope": {
+    "included": ["CP 7303.878（第十三来源）", "CAP-21 fsvp-inspection-program", "glossary t153-t162", "test-prompts fsvp-01..10", "三份状态文档"],
+    "excluded": ["21 CFR Part 120 / 123", "CP 7303.842 / 7303.847 / 7303.819", "21 CFR part 1 subpart L 法规正文", "21 CFR Part 117 up to date as of 4-07-2026.pdf 版本差核查"],
+    "not_rerun": ["触发盲测", "输出质量评测", "能力卡路由评测"]
+  },
+  "source_conversion": {
+    "pdf": "G:/下载/CP7303.878 Foreign Supplier Verification Programs Inspections 508-Compliant.pdf",
+    "pages": 33,
+    "bookmarks": 20,
+    "bookmarks_used": 20,
+    "bookmarks_dropped": 0,
+    "raw_chars": 75893,
+    "raw_lines": 510,
+    "raw_headings": 50,
+    "raw_table_lines": 93,
+    "residual_standalone_pagenum": 0,
+    "residual_dash_page": 0,
+    "header_lines_removed": 62,
+    "final_file": "source-cp-7303-878-2023.md",
+    "final_chars": 82178,
+    "final_lines": 487,
+    "underline_tags": 92,
+    "report": ".cangjie/cp-7303-878-convert-report.json",
+    "version_judgement": "2023-09-27 版程序（Transmittal 2023-CPM-CFSAN-003）的 2025-08-28 更正版；Change History 的 2025 条目只改 POC 与机构名称缩写，不是 2025 新 program"
+  },
+  "card_cap21": {
+    "file": ".cangjie/capabilities/cards/fsvp-inspection-program.md",
+    "meta": ".cangjie/capabilities/cards/_meta-fsvp-inspection-program.yaml",
+    "six_sections": true,
+    "english_quotes": 46,
+    "quotes_verified": "46/46",
+    "quote_verifier": ".cangjie/verify_fsvp_quotes.py",
+    "quote_fix": "初版 strip_markup() 只剥 </?u>，Change History 表格 <br> 残留导致 46 MISS；改为 re.sub(r\"<[^>]+>\", \"\", s) 后全中",
+    "boundaries": "B1-B12",
+    "meta_type_problems": 0
+  },
+  "bundle": {
+    "capabilities": 21,
+    "meta_files": 21,
+    "six_section_issues": 0,
+    "meta_type_problems": 0,
+    "sources": 12,
+    "source_ids": [
+      "src-21-cfr-part-117-2025",
+      "src-fda-lmono-rte-2017-draft",
+      "src-fda-secc-part117-2016",
+      "src-fda-allergen-qa-ed5-2025",
+      "src-fda-defect-levels-handbook",
+      "src-fda-cpgm-7303-040-2025",
+      "src-fda-cp-7303-050-2025",
+      "src-fda-iom-2026-ch5",
+      "src-fda-cp-7303-070-2024",
+      "src-fda-cfr-part113-2025",
+      "src-fda-cfr-part114-2025",
+      "src-fda-cp-7303-878-2023"
+    ],
+    "note": "additional_sources 共 12 项 + 主来源 1 项 = 十三类不可混引",
+    "entry_core_principles": 40,
+    "entry_out_of_scope": 7,
+    "entry_stop_conditions": 16,
+    "destinations": 21,
+    "stale_十二类_in_verified_yaml": 0,
+    "stale_20张能力卡_in_verified_yaml": 0
+  },
+  "content": {
+    "glossary_entries": 162,
+    "glossary_strict_yaml": "OK (162 条, ids unique, t153..t162 present)",
+    "glossary_yaml_baseline_issue": "v4.7 基线同样解析失败（.cangjie/backup-v4-8-pre-revisions/glossary.md 复核），非 v4.8 回归；7 行 summary 改为内容逐字保留的 |- 块标量，见 .cangjie/fix_glossary_yaml.py",
+    "test_prompts_version": "4.8",
+    "test_cases": 95,
+    "test_case_ids_unique": true,
+    "test_case_types": {"should_trigger": 54, "edge_case": 36, "should_not_trigger": 5},
+    "test_prompts_十二类_residual": 2,
+    "test_prompts_十二类_judgement": "两处均为顶层 notes 中描述 v4.7 当时状态的历史记录，保留不改；v4.8 段已写明十三类不可混引"
+  },
+  "documents": {
+    "updated": ["PIPELINE_STATE.md", "BOOK_OVERVIEW.md", "DIGEST.md"],
+    "script": ".cangjie/apply_v4_8_docs.py",
+    "pre_doc_snapshot": ".cangjie/backup-v4-8-pre-docs/",
+    "first_run_failure": "第 5 个锚点少写 7304.019 导致 count=0；从快照回滚 3 份文档、修正锚点并改为内存暂存 + flush() 原子写盘后重跑成功",
+    "current_state": "v4.8：21 张卡 / 162 术语 / 95 用例 / 十三类来源 / dist-v12"
+  },
+  "compile": {
+    "command": "cangjie.py compile --bundle .cangjie/capabilities --out dist-v12 --output single --yes",
+    "run_id": "run-20261106-151203-02dd78",
+    "output_files": 27,
+    "markdown_scanned": 26,
+    "staging_validation": "0 errors, 1 warnings (name-dir: dist-v12 与 SKILL.md 的 name 不一致，安装后消失)"
+  },
+  "install": {
+    "script": ".cangjie/install_v9.py",
+    "destination": "C:/Users/HG/.workbuddy/skills/fda-pchf-food-safety",
+    "backup": "backups/fda-pchf-food-safety-v4.7-20261106-151259",
+    "official_validation": "0 errors, 0 warnings",
+    "capabilities": 21,
+    "test_cases": 95,
+    "terms": 162,
+    "cap21_route_hits": 8,
+    "十三类_hits_skill_plus_overview": 6,
+    "十二类_residual_in_skill": 0,
+    "artifact_vs_install_hash_diffs": 0,
+    "glossary_copies": 5,
+    "glossary_unique_hashes": 1,
+    "installed_glossary_strict_yaml": "OK (162 条)",
+    "result": "PASS"
+  },
+  "known_boundaries": {
+    "not_collected": [
+      "21 CFR part 1, subpart L（§§1.500-1.514）FSVP 法规正文",
+      "Import Alert 99-41 全文",
+      "FSVP Guidance for Industry / IP guidance tabs / Implementation Work Instructions",
+      "HFP Enforcement Bulletin #13/#6、RPM 4-1-8",
+      "CP 7303.819 / 7303.842 / 7303.847 正文",
+      "21 CFR part 108 / 110 / 120 / 123 / 507 正文",
+      "IOM Ch.4、BAM / CPG 全套、F0/D/z 计算、卷边解剖判读"
+    ],
+    "discipline": [
+      "CP 7303.878 是 FDA 检查员内部作业指导，不创设企业义务",
+      "FSVP 与 Part 117 Subpart G 是两套法源、两类主体（FSVPI vs receiving facility）",
+      "deemed compliance 有 §1.509 例外：每一 entry line 的 UFI/DUNS 电子申报不豁免",
+      "FSVP 检查不取样，不得套 CP 7303.050 的样品量与环境拭子",
+      "Import Alert 99-41 与 99-37 / 99-38 不得混引",
+      "十三类来源不可混引，检查员作业层不替代法规正文"
+    ]
+  },
+  "next_candidates": [
+    "补跑 v4.8 触发 / 输出 / 能力卡路由评测（含 10 条 fsvp-* 与 CAP-21 路由）",
+    "核查 21 CFR Part 117 (up to date as of 4-07-2026).pdf 与包内 2025 版正文的版本差",
+    "按用户意愿决定是否纳入余下 5 份暂缓资料（Part 120 / 123、7303.842 / 7303.847 / 7303.819）"
+  ]
+}

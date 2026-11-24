@@ -1,0 +1,236 @@
+[p.42]
+
+
+
+
+
+
+
+
+
+PHOTOGRAPHS: IDENTIFICATION AND STORAGE). Note, too, that guidance on refusals to be verified may change,
+based on the reason for detention and other factors, and that each Division involved in performing Import
+Operations has been assigned a set number of import exams of refused entries as part of OII’s workplan.
+6.5.2.11 – Bond Action
+Under the provisions of the FD&C Act (Section 801(b) of the FD&C Act [21 U.S.C. 381(b)]) and CBP regulations (19
+CFR 113.62), a bond is required for all conditionally released articles offered for importation. This bond provides
+relief to the government on the default of the conditions of the bond and the payment of liquidated damages in
+the amount specified in the CBP Notice of Assessment or Liquidated Damages for failure to redeliver such goods.
+Bond actions are taken when an entry is distributed prior to FDA release and cannot be redelivered, or when an
+article has been detained and refused, and the article is not destroyed or exported in accordance with the
+requirements of the law.
+If the division has evidence that the entry, or any portion of an entry subject to FDA jurisdiction, was disposed of in
+violation of the terms of the appropriate Act, or its regulations, or of the terms of the bond, (see 19 CFR Section
+113.62 (l)(1)) it should immediately contact the appropriate Customs office.
+The division, upon receiving evidence that the refused article was not exported or destroyed, should immediately
+investigate the matter. (See IOM 6.5- Import Investigations.) The division should also send a detailed statement
+showing the importer's liability under the redelivery bond or other applicable customs bond to the responsible CBP
+office. If the facts warrant, and the article was under detention, and the Notice of Refusal of Admission has not
+been issued, immediately issue a Notice of Refusal to the owner or consignee, with a copy to CBP.
+Upon the receipt of an application for relief (appeal for Mitigation or Cancellation of Assessed Liquidated
+Damages), CBP may agree to mitigate the damages assessed. However, in cases involving FDA goods, CBP does not
+usually mitigate unless the FDA is in full agreement with the action [see 21 CFR section 1.97 (b)]. (See RPM Chapter
+9, subchapter 9-14 "Bond Actions" for detailed guidance.)
+6.6 - Import Investigations
+6.6.1 – Import Investigations General
+Import operations normally focus on entry review, field examinations, and sample collections.  However, investigations
+are also an essential tool in uncovering and developing evidence documenting violations such as entry misdeclaration,
+product substitutions, and “port shopping.” Invaluable sources of information that may prove relevant to such
+violations include Import Alerts, assignments from headquarters or other Programs / Divisions, interagency
+cooperation, and local intelligence.
+When documenting these situations, your supervisor will request a memo of investigation be sent to the compliance
+branch. Refer to IOM Subchapter 8.1.9.2 and Exhibit 8-3-1 for preparing import investigation memorandums.
+When examining, sampling, or following up on refused imported products, you may use an affidavit to document the
+facts surrounding the situation. (Refer to IOM 4.4.5 and Exhibit 6-5 for guidance on preparation of an affidavit.)
+6.6.2 - Investigations Involving the Importation Process
+During the importation process, FDA personnel often encounter attempts to bypass proper FDA record review,
+inspection and/or sampling, as well as the willful attempt to import goods known to violate the Act. In addition to such
+actions as detention, refusal, and placement onto an Import Alert, the FDA also performs investigations and forwards
+the evidence collected to support a recommendation for CBP sanction under Title 19, which includes authorities for
+administrative seizures, civil money penalties, revocation of conditional release privileges, and bond actions (including
+liquidated damages, increases to bond amount, requirement of single-transaction bond).
+As outlined in IOM 8.1.4, OII’s Office of Criminal Investigations (OCI) has primary responsibility for all criminal
+investigations conducted by FDA, including the importation of unlawful FDA-regulated products. Unlawful FDA-
+[p.43]
+
+
+
+
+
+
+
+
+
+regulated products encountered during the importation process may serve as criminal evidence. OCI may generally
+take possession of such products for evidentiary purposes only after they have gone through the FDA regulatory
+process for refusal of admission and are subject to destruction; or after they have undergone CBP’s administrative
+seizure and forfeiture process. FDA personnel involved in the import process will handle the FDA-regulated products
+according to existing authorities and processes. The possibility that these products could serve as criminal evidence
+will not result in the application of different standards or processes for their handling.
+6.6.3 - Reporting Investigations Involving the Importation Process
+An investigational memo with supervisory endorsement should be generated for all instances described under IOM
+6.6.4, Import Violation Patterns. The memo should normally be provided to supervisory staff for endorsement within
+ten business days of the last investigational activity and endorsed by supervisory staff within five business days. The
+Compliance Branch should be notified for further follow-up when the investigation memo is endorsed for regulatory
+consideration. If no memo is generated, then the importer and/or broker should be advised, and that advisement
+should be documented in accordance with division policy. Refer to IOM Subchapter 8.1.9.2 for preparing and recording
+import investigation memorandums.
+6.6.4 - Import Violation Patterns
+The below investigational points should be covered to promote a thorough investigation. Note than any given situation
+may overlap into more than one pattern. While not an exhaustive list, the following four patterns may be encountered:
+1. Failure to hold
+
+
+(See IOM 6.6.4.1 – 6.6.4.3)
+2. Substitution
+
+
+(See IOM 6.6.4.4)
+3. Importer misdeclaration
+(See IOM 6.6.4.5)
+4. Filer misdeclaration
+
+(See IOM 6.6.4.6)
+6.6.4.1 - Failure to Hold
+Failure to hold means that the goods have been distributed by the importer/consignee without an FDA release
+from import status. *Please note that this is defined as distribution without a release, not merely moving the
+goods outside of the port area. FDA personnel may encounter this situation at various points in the importation
+process, including initial exam/inspection, sample collection, audit sample collection, reconciliation examination
+after a health hazard finding, verification of a reconditioning, and refusal verification. The following steps should
+be taken on all Failure to Hold cases:
+1. Collect entry documentation (CBP form 3461 or 7501, invoice, packing list, bill of lading).
+2. Determine distribution, by collecting and analyzing pertinent distribution records.
+3. Determine who authorized the distribution. (Note: There may be more than one responsible party.)
+4. Determine if the importer was aware of the health hazard associated with the product.
+5. Obtain the authorizing person’s explanation as to why the goods were distributed. (Items (1), (2), (3), (4),
+and (5) should be covered in one or more affidavits.)
+6. Perform a data search via ORADSS or other means to determine the importer’s history and discuss relevant
+findings with supervisory and compliance staff.
+7. Coordinate with CBP the issuance of a Demand for Redelivery (form 4647) if one has not already issued per
+a refusal. Form 4647 can be issued for the purposes of examination/sampling, not merely because of an
+FDA refusal. In such circumstances, the deadline for redelivery is 30 days, instead of the 90 days post-
+refusal.
+8. Determine the importer’s bond type and amount.
+6.6.4.2 - Failure to Hold – Health Hazards
+Distribution of goods where there is direct evidence of a significant health hazard, such as an FDA finding of
+Salmonella contamination in a ready-to-eat food entry, should be regarded as a concern of the highest priority. In
+addition to the eight common steps listed above, the following additional step should be taken:
+[p.44]
+
+
+
+
+
+
+
+
+
+•
+Consult with supervisory staff, compliance staff, and the division’s Recall and Emergency Coordinator as
+needed to address retrieval from and/or notification to the consignees, as well as consideration for any
+public warning.
+6.6.4.3 - Failure to Hold - Health Hazards – Detention Without Physical Examination
+(DWPE)
+Distribution of goods where there is evidence of a significant health hazard that only meets the appearance of a
+violation evidentiary standard (the standard under the 801(a), admissibility process) --such as an entry of a ready-
+to-eat food detained without physical examination (DWPE) due to a history of Salmonella contamination--should
+still be regarded as a concern of high priority. In addition to the eight common elements listed above under IOM
+6.6.4.1, the following additional steps should be taken:
+•
+Consult with supervisory staff and compliance staff as needed to determine if the FDA should collect
+samples for analysis.
+•
+Consult with supervisory staff, compliance staff, and the district’s Recall and Emergency Coordinator, as
+needed, to address retrieval from and/or notification to the consignees, as well as consideration for any
+public warning.
+6.6.4.4 – Substitution
+Substitution is an attempt by the importer or importer’s agent to present goods to the FDA as corresponding to a
+particular entry when they are, in fact, not the goods from that entry. FDA personnel may encounter this situation
+at various points in the importation process, including initial exam/inspection, sample collection, audit sample
+collection, reconciliation examination after a health hazard finding, verification of a reconditioning, and redelivery
+examination. Substitution may occur as an attempt to hide distribution without FDA release (Failure to Hold). The
+investigation may reveal negligence, gross negligence, or fraud. The following steps should be taken when
+evidence of substitution is encountered:
+1. Confirm that the goods are being presented to the FDA as corresponding to a particular entry. In some
+situations, you may only be able to show associated entry documents to the importer or importer’s agent
+and request confirmation that the goods presented correspond to that entry. Confirmation can be
+accomplished by performing the following steps:
+a. Collect all available evidence supporting that the presented goods were substituted. This may include
+labeling, lot codes, and the condition of the goods themselves. Photos are invaluable in these
+instances. Examine the entire shipment as this would minimize the possibility of the importer
+successfully claiming at a later time that the portion not examined was in fact not substituted.
+b. Collect all available evidence to show any attempt to conceal the substitution. For example, in a
+partially substituted entry, the substituted goods are in the center, bottom position on a pallet; or
+placement of the substituted goods is in the front position of the trailer.
+2. Determine the importer’s, or importer’s agent’s, explanation for the discrepancies. Collect this in an
+affidavit, along with a description of the declared/actual goods and the substituted goods.
+3. Until it is determined otherwise, consider all substitution cases to involve distribution of the actual goods
+without FDA release.  (See IOM 6.6.4.1, FAILURE TO HOLD.)
+6.6.4.5 - Importer Misdeclaration
+Importer misdeclaration refers to the importer’s provision of incorrect and/or incomplete information to the FDA
+and CBP, usually via the filer. When FDA personnel encounter this situation, it is usually during the initial
+examination or sampling of the entry. It may be the case that the investigation reveals negligence, gross
+negligence, or fraud. The following are examples of this kind of activity:
+•
+The importer provides information to the filer that does NOT include a product that is present in the entry,
+and as a result, that product is not included in the declaration (undeclared goods).
+[p.45]
+
+
+
+
+
+
+
+
+
+•
+The importer provides the filer information that a product is manufactured by firm X, when it is, in fact,
+manufactured by firm Y. As a result, the filer declares the product as manufactured by firm X (misdeclared
+goods).
+6.6.4.6 - Filer Misdeclaration
+Although this section is oriented to filer interventions, it must always be recognized that the filer is the agent of
+the importer, and the importer is ultimately responsible. Filer misdeclaration refers to the importer’s provision of
+correct information to the filer who then files an erroneous entry to CBP.  The following are examples of this
+activity:
+•
+The filer omits a product properly listed on the entry invoice from the declaration (undeclared goods).
+•
+The importer provides the filer information that a product is manufactured by firm X, but the filer declares
+it as manufactured by firm Y (mis-declared goods).
+•
+The importer provides an invoice to the filer that lists product X, but the filer declares product Y. When
+FDA personnel encounter this situation, it is usually during the initial examination or sampling of the entry
+(mis-declared goods).
+•
+The filer selects a food Process Identification Code (PIC) for packaged food (which should only be selected
+when no other PIC applies, per the instructions of the FDA’s Product Code Builder on the Web) when the
+broker does not have sufficient information to determine if any other PIC applies (misdeclared goods).
+6.6.4.6.1 - Repeated Filer Misdeclaration
+In the event a filer continues to mis-declare a product to CBP or the FDA, and/or continues to introduce or
+present to CBP or FDA any erroneous types of documentation which may violate the FD&C Act, the following
+steps should be taken:
+1. Document what information was available to the filer to file the entry. Collect any relevant records not
+already obtained.
+2. Document the undeclared or mis-declared products through the collection of labeling and/or photos.
+3. Obtain the filer’s explanation for the discrepancies in an affidavit along with (1).
+4. It may be necessary, in some fact patterns, to also collect an affidavit from the importer. For example,
+if a filer declares a cosmetic product code for fluoridated toothpaste because the importer failed to
+provide the filer information about whether the toothpaste did or did not contain fluoride, it may be
+necessary to collect that information via an affidavit from the importer.
+5. Conduct a Filer Evaluation to examine records and determine the extent of the problem. The FDA
+should gather enough evidence to support a possible broker penalty, with the following to be
+considered:
+a. If the filer has no history of filing erroneous entries to FDA, divisions should consider further
+training and or placing the filer back to phase 1 filing status and withhold a request to assess a
+broker penalty against the filer.
+b. If the filer has a history of filing erroneous entries to FDA, and the filer continues to disregard
+FDA’s attempts to provide guidance, train, and document guidance provided of filing entries
+through the Automated Broker Interface (ABI), the FDA should contact (CBP) to request that a
+broker penalty be assessed against the filer.
+6.7 - Filer Evaluations
+6.7.1 – General
+The FDA makes admissibility decisions based on the electronic entry data transmitted by the filers. The admissibility
+process is reliant upon data provided by parties outside of the FDA, most notably, the entry filers transmitting import
+entry information to the FDA on behalf of importers. As such, the FDA is dependent on entry filers to submit the most
+accurate data to make sound, risk-based admissibility decisions.

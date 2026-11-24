@@ -1,0 +1,9 @@
+{
+  "case_id": "out-02",
+  "variant_label": "vB",
+  "prompt": "酸化食品（21 CFR Part 114）的记录保存期限到底是几年？是不是也和低酸罐头一样「厂内 1 年 + 异地再 2 年」并且可用 part 11 电子记录？请给出条款号并说明与 Part 113 的差别。",
+  "input_files": [],
+  "instruction": "按 prompt 完成任务，输出保存为同目录 <label>.md。评审者不知道你是哪个版本。",
+  "condition_hint": "不要读取本机任何技能包、能力卡或参考文件；仅凭你自身知识作答，不要调用文件读取工具去查资料。",
+  "output_file": "E:/WeChatData/2026-11-04-09-51-05/books/fda-pchf-human-food-guidance/.cangjie/v4-7-output-routing-eval/packets-output/out-02/vB.md"
+}
