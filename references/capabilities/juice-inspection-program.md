@@ -206,7 +206,7 @@
 
 **Step 5 — 缺陷引用与升级路径分层。** SSOP 缺陷按〔§ 120.6〕引；cGMP 问题按 21 CFR 120 引；进口商按 §120.14 引；引文一律用 **eNSpect**。升级：高风险/CCP 缺陷 → CMS + RPM Ch.4；巴氏企业不回应 → **60 天**复检；仅州内 → 州/地方当局；病原阳性 → 州际判定 → HFP/Recalls 或 HFP/OCE/OCIC/DCC。
 
-**Step 6 — 收尾声明。** 每条结论标「CP 7303.847 PART x / ATTACHMENT A」或〔§ 120.xxx〕；本件不创设企业义务，**不得把检查动作写成企业义务**，也不得从 CP 反推法条。**全包自 v4.16 起二十类不可混引，当前为 28 张能力卡；取样形式要件转 CAP-28。**
+**Step 6 — 收尾声明。** 每条结论标「CP 7303.847 PART x / ATTACHMENT A」或〔§ 120.xxx〕；本件不创设企业义务，**不得把检查动作写成企业义务**，也不得从 CP 反推法条。**全包自 v4.16 起二十五类不可混引，当前为 28 张能力卡；取样形式要件转 CAP-28。**
 
 ## B — 边界
 
@@ -230,4 +230,4 @@
 
 **B10 — PART VII 是行政信息，不是判定依据。** PART VII 只有三块：① **References**（10 件：Juice HACCP Regulator Training Manual、Juice HACCP Hazards and Controls Guidance 1st ed.、Juice HACCP Q&A（2001-08-31 / 2003-09-04）、IOM、66 FR 6137（2001-01-19 终规）、Bulk Transport of Juice Concentrates 指南、苹果汁臭氧 pathogen reduction 建议、Refrigerated Carrot Juice 指南、Miscellaneous Food Products Vol.1 inspection guide）；② **Attachments**（**仅 Attachment A**，即采样量与制备）；③ **Program Contact** 与各实验室联系人（微生物 / 污秽 / 天然毒素 / 有毒元素 / COL-FAD 添加剂分口）。**用法边界**：References 只用来给「仍未收」的文献定位到准确名称与年份，**不得据其标题反推内容**；联系人信息会随人员变动失效，**不得作为答复依据**；附件仅 A 一件，凡涉及 B 及以后一律视为不存在。
 
-**B10 — 本卡不覆盖的内容。** 企业义务的条款级判定（CAP-26）、HACCP 计划编制与 5-log 验证设计、BAM/AOAC 方法全文、CPG 510.150 / 555.425 全文（未收）、CP 7307.001 / 7304.019 / 7309.006 / 7321.005 全文（未收）、FACTS / eNSpect / CMS 系统内部操作、Import Alert 全文、以及检查结论预测。**二十类不可混引，当前 28 张能力卡；取样形式要件转 CAP-28。**
+**B10 — 本卡不覆盖的内容。** 企业义务的条款级判定（CAP-26）、HACCP 计划编制与 5-log 验证设计、BAM/AOAC 方法全文、CPG 510.150 / 555.425 全文（未收）、CP 7307.001 / 7304.019 / 7309.006 / 7321.005 全文（未收）、FACTS / eNSpect / CMS 系统内部操作、Import Alert 全文、以及检查结论预测。**二十五类不可混引，当前 28 张能力卡；取样形式要件转 CAP-28。**

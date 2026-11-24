@@ -156,7 +156,7 @@
 - **「有记录＝有合规」假设**：Importer's Certificate、复核报告、766 第 2 页各栏目被高度规范化，但记录齐备与实际可采性之间的差距本章未讨论。
 
 **相邻混淆**
-- **Form FDA 766（企业→FDA 的授权申请）≠ Notice of FDA Action / Refusal（FDA→企业的处置文书）≠ FDA 790（费用文书）**：签发方向、主体、环节都不同，且与 CAP-18 的 483 / 483a 分属不同章节（「二十类不可混引」）。
+- **Form FDA 766（企业→FDA 的授权申请）≠ Notice of FDA Action / Refusal（FDA→企业的处置文书）≠ FDA 790（费用文书）**：签发方向、主体、环节都不同，且与 CAP-18 的 483 / 483a 分属不同章节（「二十五类不可混引」）。
 - **Reconditioning（须 FDA 授权并监督的进口处置程序）≠ 企业生产返工 / rework（内部质量动作）**：同名异义，且自行整改不产生放行效力。
 - **importer of record（CBP 报关 / bond 主体，766 申请人）≠ FSVP Importer（FSMA 供应商验证主体，须在美国境内）≠ 境外生产商**：主体字段必须与动作匹配（6.9.65 [p.57]、6.9.40 / 6.9.43 [p.55]）。
 - **Relabeling ⊂ Reconditioning**，不是并列；**Redelivery Bond（已备案、适用、无须新立）≠ Supervisory Charges（FDA 790 向 CBP 缴）**。

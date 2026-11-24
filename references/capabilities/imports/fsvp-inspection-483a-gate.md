@@ -119,7 +119,7 @@
 - English: "FSVP inspection", "FDA 483a", "closeout / conclusion of the inspection", "draft / unsigned copy / electronic copy", "observations of questionable significance", "hazard analysis comparison", "preliminary assessment of potential hazards", "reasoning behind the discrepancy", "T-EIR / EIR / CARS", "15 business days", "21 CFR 1.500 importer", "FSVP Importer vs Importer of Record", "21 CFR 1.510/1.512", "Form FDA 482d"
 
 **与相邻能力的区分（依 verified.md differentiator；以下两条为硬约束）**
-- **483a（FSVP 观察项，IOM 6.8）≠ 483（现场检查观察项，IOM Ch.5 / CAP-18）。** 二者名称相近但分属不同章节、不同文书序列、不同签发场景：483a 是 FSVP 记录审查的观察项，受「只在 closeout 签发、只签已签名版」约束；483 是 IOM Ch.5 一般现场检查的观察项（CAP-18）。**不得混引、不得互相替代、不得把本卡的内容写成 483 的规则。** 这正是「二十类不可混引」的重点对象，阶段 4 应专门设计「483 / 483a 混用」负例。
+- **483a（FSVP 观察项，IOM 6.8）≠ 483（现场检查观察项，IOM Ch.5 / CAP-18）。** 二者名称相近但分属不同章节、不同文书序列、不同签发场景：483a 是 FSVP 记录审查的观察项，受「只在 closeout 签发、只签已签名版」约束；483 是 IOM Ch.5 一般现场检查的观察项（CAP-18）。**不得混引、不得互相替代、不得把本卡的内容写成 483 的规则。** 这正是「二十五类不可混引」的重点对象，阶段 4 应专门设计「483 / 483a 混用」负例。
 - **CAP-21 是 CP 7303.878 合规程序层（FSVP 检查依据 / 合规程序）；本卡是 IOM 6.8 检查执行 SOP 层。** 重叠风险最高，须靠本 differentiator 严格区分：问「FSVP 规则要求什么、检查依据是什么」→ CAP-21 / CP 7303.878；问「这次检查具体怎么走、483a 何时签、观察项/纠正措施往哪张表写、报告记什么字段」→ **本卡（IOM 6.8）**。本卡不解释 FSVP 法规实体要求、不替代合规程序。
 - 与 **V01（入境审查决策门）**：V01 管货物准入决策；本卡管进口商记录审查，是与货物查验**并行的独立合规轨**（IOM 6.2.4 货物准入勿混同）。
 - 与 **V10（效力层元规则）**：`should only be issued` 属 `should` 承载唯一时点，V10 只提供情态判读；本卡是 483a 签发门的执行层，不下法律位阶结论。
@@ -207,7 +207,7 @@
 - **直接判「进口商漏了某项危害」**：跳过了「监管方初步评估 vs 进口商危害分析」的比对与差异理由追问（6.8.1.4.1 [p.47]）。
 - **把重要性存疑的观察项塞进 483a**、或**把纠正措施写进 483a**：前者应当场讨论并记 T-EIR，后者应报 T-EIR + CARS。
 - **找错主体**：把 Importer of Record / 报关行 / 境外货主当作 FSVP importer（6.9.40 / 6.9.43 [p.55]）；FSVP importer 须位于美国境内。
-- **483 与 483a 混引**：名称一字之差，章节、文书序列、签发约束全不同，是「二十类不可混引」的重点负例。
+- **483 与 483a 混引**：名称一字之差，章节、文书序列、签发约束全不同，是「二十五类不可混引」的重点负例。
 - **把 `should only be issued` 读成「建议、可酌情」**：形式软、语义是唯一时点（详见 V10 效力层元规则）。
 
 **阶段 0 批判（BOOK_OVERVIEW §3，作为本卡 Boundary 来源）**

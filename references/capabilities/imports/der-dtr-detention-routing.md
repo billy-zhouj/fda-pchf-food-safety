@@ -235,5 +235,5 @@ DER 的「免索单据」是条件式例外：电子数据匹配 IA 标准、IA 
 **相邻混淆**
 - 与 V01 共享「扣留」字样但层次不同：V01 选「是否建议扣留」，本卡选「建议用 DER 还是 DTR」；审查员提交的始终是 recommendation / request，终局权在 Compliance Branch。
 - 与 V09 共享 DWPE / Detention 术语：本卡只在「触发依据」意义上使用，V09 才是口径层；「DWPE 是扣留而非免检」的术语纠偏以 V09 / x14 为准。
-- 与 CAP-18 的 483、V08 的 483a：扣留建议与检查观察项是不同章节、不同文书序列，正对应「二十类不可混引」。
+- 与 CAP-18 的 483、V08 的 483a：扣留建议与检查观察项是不同章节、不同文书序列，正对应「二十五类不可混引」。
 - 三个「同形/同数」陷阱：IB = Import Bulletin（6.2 情报来源）vs IB = Investigations Branch（IB Release）；Alert vs Bulletin 方向相反；`Detention Recommendation`（6.9.20）/ `Detention Request`（6.2.3.3 [p.20]）/ `Detention Recommendations`（6.2.5 标题）为同一 work type 的三种称法，检索时勿当三个对象。

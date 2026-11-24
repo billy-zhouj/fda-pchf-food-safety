@@ -1,6 +1,6 @@
 # FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流（fsvp-inspection-program）
 
-*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文本包未收，一律标「转引未收」**，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**二十类不可混引**。*
+*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文自 v4.21 起已收（CAP-33 `fsvp-statutory-requirements`）**，企业义务一律以〔§ 1.5xx〕为准，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**二十五类不可混引**。*
 
 *⚠ **版本陷阱**：首页 `Date of Issuance: 08/28/2025` 是**更正版签发日**，不是新程序年份。Change History（PDF p4）为 Initial Issuance 10/20/2021 → Update 09/27/2023（改名为 FSVP Inspections、补程序交互、Part V 澄清）→ Pen/Ink 08/20/2024 → **Corrections 08/28/2025（仅 POC 与机构名称/缩写更新）**。故本件是 **2023-09-27 版程序的 2025-08-28 更正版**，与 CP 7303.050（2022 / 2025-09-10 更正）、CP 7303.070（2024 / 2025-09-26 更正）同型，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal）。引用写「CP 7303.878（2023 版 / 2025-08-28 更正）」。*
 
@@ -166,7 +166,7 @@
 
 我能给的是**检查员视角的清单与执法阶梯**：FSVP 是否按食品建立、书面危害分析与供应商批准评价、供应商验证活动记录、§1.509 每一 entry line 的 UFI/DUNS、modified requirements 适用判定与资格证明、483a 观察分级、NAI/VAI/OAI、Warning Letter → Import Alert 99-41 Red List → §801(a)(3) 拒绝入境。我也能给出**关键反直觉口径**：FSVP 检查不取样；deemed compliance 不免除 §1.509；§1.507 disclosure 不能替代 §801(b)/§1.95 整改资料；未上 Red List 仍可继续进口；首次违法不默认优先执法。
 
-我明确拒绝三件事：把 CP 7303.878 的检查动作写成企业法定义务；**从 CP 反推 21 CFR part 1 subpart L 条文**（正文本包未收，一律「转引未收」）；以及把 **Import Alert 99-41** 与 CP 7303.070 的 **99-37 / 99-38**（LACF/AF 备案与过程控制）混为一谈。企业侧「怎么选验证活动、SAHCODH 年审、检测能否当唯一手段」请回 `supply-chain-verification`；法规条文级的 Part 117 义务请回〔§ 117.xxx〕；Part 113/114 条文请回 CAP-20。
+我明确拒绝三件事：把 CP 7303.878 的检查动作写成企业法定义务；**从 CP 反推 21 CFR part 1 subpart L 条文**（正文见 CAP-33，本卡只给检查员侧动作）；以及把 **Import Alert 99-41** 与 CP 7303.070 的 **99-37 / 99-38**（LACF/AF 备案与过程控制）混为一谈。企业侧「怎么选验证活动、SAHCODH 年审、检测能否当唯一手段」请回 `supply-chain-verification`；法规条文级的 Part 117 义务请回〔§ 117.xxx〕；Part 113/114 条文请回 CAP-20。
 
 ## A1 — 书中案例
 
@@ -219,7 +219,7 @@
 
 **Step 2 — 把「法定义务 / 检查动作 / 转引未收」三层切开**
 
-- **法定义务层**：FD&C Act §805、§801(a)(3)、§301(zz) 与 21 CFR part 1 subpart L（§§1.500–1.514）——**法规正文本包未收**，只能写「转引未收」，不得从 CP 反推条文；CP PART I.1 自己声明 `Below is a summary of the FSVP requirements`。
+- **法定义务层**：FD&C Act §805、§801(a)(3)、§301(zz) 与 21 CFR part 1 subpart L（§§1.500–1.514）——**法规正文自 v4.21 起已收（CAP-33）**，引用写〔§ 1.5xx〕，检查动作不得反推条文；CP PART I.1 自己声明 `Below is a summary of the FSVP requirements`。
 - **检查动作层**：CP 7303.878 PART x 的取证清单、483a 观察分级、CAR/eNSpect、执法建议路由——**不创设企业义务**。
 - **Part 117 层**：〔§ 117.135〕起的 Subpart G 供应链程序是法条，可用〔§ 117.xxx〕引用；与 FSVP 的 deemed-compliance 接口写「CP 7303.878 PART II.3.A」而不是写成 Part 117 条文。
 - ⚠ 不要把 §117.5(d)（part 113 活动的 Subparts C/G 豁免）套到 FSVP 上——那是 LACF 接口，见 CAP-19 / CAP-20。
@@ -260,11 +260,11 @@
 
 **Step 6 — 每条结论标来源层级**
 
-法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写「21 CFR part 1 subpart L §1.5xx（转引未收）」；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 按章号写「IOM 5.x.x」或「IOM 4.x.x」（Ch.4 自 v4.16 起已收，转 CAP-28）。**二十类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
+法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写〔§ 1.5xx〕（CAP-33）；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 按章号写「IOM 5.x.x」或「IOM 4.x.x」（Ch.4 自 v4.16 起已收，转 CAP-28）。**二十五类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
 
 ## B — 边界
 
-**B1 — 21 CFR part 1, subpart L（§§ 1.500–1.514）法规正文本包未收。** CP PART I.1 自己声明只是 summary；凡「§1.5xx 原文怎么规定」一律标「转引未收」，不得从检查员作业指导反推条文，也不得把 CP 的检查动作写成企业法定义务。CP 7303.878 是 **FDA 内部作业指导**（`provides instruction to field staff`），不是法规、不是 Guidance for Industry。
+**B1 — 21 CFR part 1, subpart L（§§ 1.500–1.514）法规正文自 v4.21 起已收（CAP-33）。** 凡「§1.5xx 原文怎么规定」一律回 CAP-33 引〔§ 1.5xx〕；CP PART I.1 自己声明 `Below is a summary of the FSVP requirements`，本卡只给**检查员作业动作**。仍不得从检查员作业指导反推条文，也不得把 CP 的检查动作写成企业法定义务。CP 7303.878 是 **FDA 内部作业指导**（`provides instruction to field staff`），不是法规、不是 Guidance for Industry。
 
 **B2 — 不要把 FSVP 与 Part 117 Subpart G 供应链程序合并叙述。** 主体不同（FSVPI vs receiving facility）、法源不同（FD&C Act §805 / 21 CFR part 1 subpart L vs FD&C Act §418 / 21 CFR part 117 Subpart G）。deemed compliance 的原文带 `except they must comply with section 1.509`；「不是 receiving facility」的进口商没有该通道。
 

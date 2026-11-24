@@ -1,7 +1,7 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.20",
-  "source_book": "24 类来源，分三层。【法规正文 9 套】21 CFR Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。合计 24 类，对应 32 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
+  "version": "4.21",
+  "source_book": "25 类来源，分三层。【法规正文 10 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。合计 25 类，对应 33 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
   "darwin_compatible": true,
   "test_cases": [
     {
@@ -1477,6 +1477,69 @@
       "prompt": "我们 RTE 产品要做环境李斯特菌监测，供应商也得每年验证。这些是不是 Part 121 要求的？",
       "expected_behavior": "不是。环境病原监测的义务出处在〔§ 117.165(a)(3)〕与 CAP-04 `environmental-pathogen-sanitation`；供应链验证在 Part 117 Subpart G 与 CAP-07 `supply-chain-verification`；Part 121 只管**蓄意掺假防护**。一个设施可能同时受 117 与 121 管辖，**两套计划并行不替代**，但把 117 的义务记到 121 名下（或反过来）属法源错置。若确有食品防护问题，再回 CAP-32。",
       "notes": "负例：Part 117 义务不得记为 Part 121"
+    },
+    {
+      "id": "fsvp-stat-01",
+      "type": "should_trigger",
+      "prompt": "我们是美国的接收设施，已经按 21 CFR 117 建了供应链程序。这样 FSVP 是不是就全免了？入境报关时也不用报进口商信息了吧？",
+      "expected_behavior": "应激活 CAP-33 `fsvp-statutory-requirements`。〔§ 1.502(c)〕的条件满足后只是 **deemed to be in compliance**，且原文明确 `except for the requirements in § 1.509`——**每一 entry line 仍须电子申报进口商名称、邮箱与 UFI（DUNS 等）**〔§ 1.509(a)〕。因此正确结论是「视为合规，但 §1.509 不豁免」，不得答「全免」。另须指出 deemed compliance 的三条件之一：须同时符合〔§ 117.135〕实施预防控制、或〔§ 117.136〕不要求实施预防控制、或已建立 Subpart G 供应链程序。",
+      "notes": "正面场景：deemed compliance 的 §1.509 硬例外（全 subpart 最易漏的一句）"
+    },
+    {
+      "id": "fsvp-stat-02",
+      "type": "should_trigger",
+      "prompt": "我们从泰国进口芒果汁浓缩液，对方工厂有 HACCP 证书。FSVP 这块我们就不用做了吧？",
+      "expected_behavior": "不能答「不用做任何事」。芒果汁属〔§ 120.1(a)〕的 juice，若境外供应商「须遵守且正在遵守」part 120，则〔§ 1.501(b)(1)〕使 FSVP **不适用**——但义务**换轨**：须符合〔§ 120.14〕对进口商的要求（转 CAP-26）。且〔§ 1.501(b)(2)〕对「作为原料进口再自行加工」另有条件。第三方 HACCP 证书不是〔§ 1.501(b)(1)〕的判据，判据是「须遵守且正在遵守 part 120」。",
+      "notes": "正面场景：juice/seafood 的豁免是换轨不是免除"
+    },
+    {
+      "id": "fsvp-stat-03",
+      "type": "should_trigger",
+      "prompt": "境外供应商每年给我们一份他们自己做的内部审核报告，这能算 FSVP 要求的现场审核吗？",
+      "expected_behavior": "不算。〔§ 1.506(e)(2)(ii)〕原文 `You may not rely on the foreign supplier itself or employees of the foreign supplier to perform supplier verification activities, except with respect to sampling and testing of food`——**供应商自证无效，唯一例外是抽样检测**。现场审核须由 **qualified auditor**〔§ 1.503(b)〕执行，记录须含「审核由合格审核人执行」的证明〔§ 1.506(e)(1)(i)(D)〕。供应商自审报告可作为〔§ 1.505(a)(1)(iii)〕评估供应商表现的一个因素，但它不是〔§ 1.506〕的验证活动。",
+      "notes": "正面场景：不得依赖供应商自证（仅抽样检测例外）"
+    },
+    {
+      "id": "fsvp-stat-04",
+      "type": "should_trigger",
+      "prompt": "我们进口婴幼儿配方基粉，沙门氏菌这个危害是境外工厂控制的。是不是每年都得去现场审核一次？",
+      "expected_behavior": "满足〔§ 1.506(d)(2)〕两项要件即触发：① 危害**由境外供应商控制**；② 暴露后**可能造成严重健康后果或死亡**。结论是**初次进口前 + 至少每年一次现场审核**；若要改为其他验证活动或降低频次，须做出并留存**书面判定**（`adequate written determination`）。另须提示：审核须由 qualified auditor 执行，且须考虑适用的 FDA 食品安全法规、审阅供应商书面食品安全计划及其执行情况〔§ 1.506(e)(1)(i)(B)〕；官方检查结果可在「本应审核之日」起 1 年内替代〔§ 1.506(e)(1)(i)(E)〕。",
+      "notes": "正面场景：严重危害→初次前 + 每年现场审核"
+    },
+    {
+      "id": "fsvp-stat-05",
+      "type": "should_trigger",
+      "prompt": "FDA 来要我们的 FSVP 记录：我们的记录存在第三方仓库，可以吗？另外是不是每次报关都要填我们作为进口商的信息？",
+      "expected_behavior": "两问分开答。① 异地存放**允许**〔§ 1.510(b)(2)〕，但须能在要求后 **24 小时内**送达现场；电子记录若可从现场访问视为在场；另须随时提供并在 FDA 要求时提供**英文翻译**〔§ 1.510(b)(1)〕，FDA **书面**要求时须电子发送而非「放厂里等你来看」〔§ 1.510(b)(3)〕。② 〔§ 1.509(a)〕是**每一条 entry line** 申报进口商名称、邮箱与 UFI，不是每票、不是每年。期限口径：通用 2 年〔§ 1.510(c)(1)〕、程序类记录**停用后**再 2 年〔§ 1.510(c)(2)〕。",
+      "notes": "正面场景：记录可及性与 entry line 粒度"
+    },
+    {
+      "id": "fsvp-stat-06",
+      "type": "edge_case",
+      "prompt": "我们年进口额 90 万美元左右，是不是就可以走简化版 FSVP 了？",
+      "expected_behavior": "不能只看一个数字。〔§ 1.500〕very small importer 的口径是 3 年均值、含**子公司与关联企业**、且为「人类食品销售额 + **未销售部分的美国市场价值**」合计 <100 万美元；90 万若只是销售额，加上未销售市值可能已越线；动物食品另设 **<250 万美元** 门槛，两套金额不可混用。若确属极小进口商，〔§ 1.512(b)(2)〕只需遵守〔§ 1.502〕〔§ 1.503〕〔§ 1.509〕，验证活动改为**每 2 年**一次的书面保证〔§ 1.512(b)(3)(i)〕，但须每年 **12 月 31 日**前记录身份，且身份证明记录保存 **3 年**〔§ 1.512(b)(5)(iii)(C)〕。",
+      "notes": "边界场景：极小进口商双金额 + 未销售市值 + 3 年均值"
+    },
+    {
+      "id": "fsvp-stat-07",
+      "type": "edge_case",
+      "prompt": "FSVP 的记录是不是都保存两年就够了？",
+      "expected_behavior": "不够——本 subpart 有五组不同口径，须逐项落：① 通用记录自创建或取得起 **2 年**〔§ 1.510(c)(1)〕；② 程序类（含评估与判定结果）在**使用停用后**再 2 年〔§ 1.510(c)(2)〕；③ 支撑极小进口商地位的记录 **3 年**〔§ 1.512(b)(5)(iii)(C)〕；④ 供应商评估的**重评估兜底 3 年**〔§ 1.505(c)(2)〕——这是行为周期不是保存期，不可混为一谈；⑤ 极小进口商的书面保证**每 2 年一次**〔§ 1.512(b)(3)〕——这是频次不是保存期。把五者压成「保存 2 年」是典型错误。",
+      "notes": "边界场景：五组 2 年/3 年不可互换（保存期 vs 频次 vs 行为周期）"
+    },
+    {
+      "id": "fsvp-stat-08",
+      "type": "should_not_trigger",
+      "prompt": "FDA 来做 FSVP 检查时会取样吗？483a 上的观察项目怎么分级、后面会不会上 Import Alert？",
+      "expected_behavior": "**不应**据 CAP-33 回答。这三问都属**检查员作业层**：CP 7303.878 明写 `Samples will not be collected as part of an FSVP inspection.`（取样）、483a 的观察层级与 closeout 签发规则、Import Alert 99-41 的 Red List 增删——一律转 **CAP-21 `fsvp-inspection-program`**。CAP-33 只给企业义务（〔§ 1.5xx〕），**不得据法条反推检查动作**，也不得把一个 CP 的触发值写成法定限值。",
+      "notes": "负例：检查员侧口径不得由法条卡回答"
+    },
+    {
+      "id": "fsvp-stat-09",
+      "type": "should_not_trigger",
+      "prompt": "我们的原料是从国内供应商买的，也要按 FSVP 做外国供应商验证吗？",
+      "expected_behavior": "不需要。FSVP 的义务主体是**进口商**（FD&C Act §805 / 〔§ 1.500〕importer = 美国货主或收货人），只约束**进口**食品；国内采购走 Part 117 Subpart G **供应链程序**（FD&C Act §418），转 **CAP-07 `supply-chain-verification`**。两者是两套法源、两类主体，互不替代；〔§ 1.502(c)〕的 deemed compliance 是二者的接缝，不是替代关系。若同一企业既进口又接收，两套可能都要。",
+      "notes": "负例：国内采购走 Subpart G，不走 FSVP"
     }
   ],
   "minimum_pass_rate": 0.8,

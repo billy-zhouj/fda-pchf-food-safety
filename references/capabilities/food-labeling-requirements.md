@@ -18,7 +18,7 @@
 | V02 | 营养标签与份量基准体系 | 判某产品要不要 Nutrition Facts、豁免落在 §101.9(j) 哪一款、serving size 怎么由 §101.12 RACC 推导、simplified/linear 格式、餐馆食品与连锁标准菜单项、Supplement Facts、生鲜果蔬鱼自愿标签 | `references/capabilities/labeling/nutrition-labeling-serving-size.md` |
 | V03 | 声称三层闸门与逐词授权 | 判某句话是不是 claim（含暗示/品牌名/符号/第三方引用）、属于营养素含量声称还是健康声称、SSA 与 disqualifying level、Subpart D 逐词阈值、Subpart E 已授权模型、gluten-free / fresh / 膳食补充剂免责声明 | `references/capabilities/labeling/claims-authorization-gates.md` |
 | V04 ★ | 特定品类与强制警示声明 | 〔§ 101.17〕各款警示的逐字措辞/位置/例外（自加压容器、极低热量蛋白膳食、铁含剂、**未巴氏果汁 (g)**）、〔§ 101.30〕果汁百分比声明、〔§ 101.8〕自动售货机卡路里；果汁「5-log ↔ 警示」三层接口 | `references/capabilities/labeling/specific-foods-warning-statements.md` |
-| V05 | 标签豁免体系与效力层元规则 | 判免的是**哪一条**义务（§101.100 配料表 403(i)(2) / §101.9(j) 营养标签 / §101.108 实验 / Part 117 主体豁免）、incidental additives 与亚硫酸盐 10 ppm、七套编号与二十二类不可混引、403 vs 402、should/must 分层 | `references/capabilities/labeling/labeling-exemptions-effect-level.md` |
+| V05 | 标签豁免体系与效力层元规则 | 判免的是**哪一条**义务（§101.100 配料表 403(i)(2) / §101.9(j) 营养标签 / §101.108 实验 / Part 117 主体豁免）、incidental additives 与亚硫酸盐 10 ppm、七套编号与二十五类不可混引、403 vs 402、should/must 分层 | `references/capabilities/labeling/labeling-exemptions-effect-level.md` |
 
 **用户问题的既定路由**（供阶段 4 负例设计核对）：
 - 「我们产品属于 §101.100 豁免，是不是不用做 Nutrition Facts？」→ **V05 判豁免对象 + V02 补营养标签义务**（典型跨 2 张），答案是不成立。
@@ -53,7 +53,7 @@
 
 ## 与既有 CAP 的分流（不得混引）
 
-> 「二十二类不可混引」自 v4.18 起含 21 CFR Part 101。本卡〔§ 101.xxx〕引用不得与〔§ 117.xxx〕等六套法规正文、FDA 各类指南、CPGM/CP/IOM 检查程序交叉混引；遇边界问题回 V05。
+> 「二十五类不可混引」自 v4.18 起含 21 CFR Part 101。本卡〔§ 101.xxx〕引用不得与〔§ 117.xxx〕等六套法规正文、FDA 各类指南、CPGM/CP/IOM 检查程序交叉混引；遇边界问题回 V05。
 
 - **CAP-05 `allergen-program`（过敏原程序）**：管**厂内**交叉接触控制、排产、换产清洁验证、may contain 咨询声明三选一，以及 Part 117〔§ 117.135(c)(2)〕把「标签控制」作为预防控制来管理的义务；Big 9 类别、Table 1 树坚果封闭清单、allergen-free 与 advisory 声明互斥来自 **FDA Ed.5 guidance（2025-01）**，法源是 FD&C Act §201(qq)/§403(w)，**不属 Part 101、不得标成〔§ 101.xxx〕**。本卡 V01 只给配料表〔§ 101.4〕、显著性〔§ 101.15〕、V03 只给 gluten-free〔§ 101.91〕与亚硫酸盐〔§ 101.100(a)(4)〕的法条层内容义务。两套法源**互不减免**：标签口径收窄不减少厂内预防控制，厂内控制到位也不免除标签义务。
 - **CAP-26 `juice-haccp`（21 CFR Part 120）与 CAP-27 `juice-inspection-program`（CP 7303.847）**：管果汁 HACCP 危害分析、〔§ 120.24〕**5-log 持续削减**法定工艺要求、SSOP、记录与检查员取证。本卡 V04 只给〔§ 101.17(g)〕未巴氏果汁 WARNING 声明、〔§ 101.30〕果汁百分比声明与〔§ 101.8〕自动售货机卡路里。**贴了警示不等于做过 5-log；做了 5-log 只是让 (g) 警示不适用，不自动免除 §101.30 等其他标签义务**；CP 7303.847 是检查员作业层，不创设企业义务。
@@ -77,7 +77,7 @@
 **来源与位阶边界**
 - **eCFR 快照，非 GPO 正式文本**：本文自述 `authoritative but unofficial`；2026-11-05 是快照日期而非修订生效日。RACC、DV、声称阈值属持续修订对象，引用具体数值须回 eCFR 当前版与条文末尾 FR citation 复核；不得与 4-1-25 Edition 年度编纂版混称。
 - **不可逐字引用区**：§101.12 Table 1 / Table 2（约 113 页，文本层为流式列值、表头脚注逐页重复、列可能错列）；Appendix B 图形增强、Appendix C 生鲜果蔬与 Appendix D 熟鱼 Nutrition Facts 图形；9 个纯图形页（44 / 45 / 51 / 239 / 240 / 344 / 347 / 348 / 351）。只可引「产品类别 → RACC → label statement」对应关系，数值与版式一律回原表核对。
-- **转引未收**：FD&C Act 全文（§201(n)/§403 系列）、21 CFR part 1 subpart L、part 102 通用名、part 130 标准身份、part 105 / §105.66、§104.20 强化政策、1 CFR part 51 并入材料、AOAC / 检测方法正文、请愿表格栏目、Form FDA 相关表单、营养数据库与消费调查原始文献、FALCPA 法定过敏原定义本体（在 §201(qq)/§403(w)）。涉及这些法源一律标「转引未收」，不得据本 part 反推其内容。
+- **转引未收**：FD&C Act 全文（§201(n)/§403 系列）、part 102 通用名、part 130 标准身份、part 105 / §105.66、§104.20 强化政策、1 CFR part 51 并入材料、AOAC / 检测方法正文、请愿表格栏目、Form FDA 相关表单、营养数据库与消费调查原始文献、FALCPA 法定过敏原定义本体（在 §201(qq)/§403(w)）。涉及这些法源一律标「转引未收」，不得据本 part 反推其内容。
 - **监管者视角与合规成本**：全篇写「标签上必须有什么、话只能怎么说」，默认企业有定量检测、营养数据库、法规事务与标签审核能力；对小微企业只给 §101.9(j) 类豁免，未给出低成本取得可靠营养数据的方法。它不处理「标签正确但产品被污染」或「标签错误但产品安全」的风险分配——后者要靠 Part 117 / 402 掺假条款另行解决。
 - **最强反对意见必须保留**：把海量合规成本压在排版、字号、份量换算与逐词声称审查上，而真正造成健康危害的往往是生产过程失控。若不做严格的效力层与接口标注，把 Part 101 并入以危害分析为核心的技能包，反而会诱导使用者把「标签合规」误当「安全合规」——**这是本卡与 5 张子卡 B 段共同的红线**。
-- **二十二类不可混引**：七套法规编号〔§ 101 / 108 / 113 / 114 / 117 / 120 / 123.xxx〕并列；FDA 指南（PCHF 指南、L.mono 草案、SECG、Ed.5、Handbook）为 should 建议层；CPGM / CP / IOM 为检查员视角、不创设企业义务。冲突时法规正文为准，指南只作解释与例证。
+- **二十五类不可混引**：七套法规编号〔§ 101 / 108 / 113 / 114 / 117 / 120 / 123.xxx〕并列；FDA 指南（PCHF 指南、L.mono 草案、SECG、Ed.5、Handbook）为 should 建议层；CPGM / CP / IOM 为检查员视角、不创设企业义务。冲突时法规正文为准，指南只作解释与例证。

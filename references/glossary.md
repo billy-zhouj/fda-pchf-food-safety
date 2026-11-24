@@ -1636,7 +1636,7 @@
 - id: t153
   title: FSVPI（§1.500 importer）与美国货主/收货人定义
   type: term
-  source_chapter: CP 7303.878 PART I.1 / 21 CFR part 1 subpart L §1.500（转引未收）
+  source_chapter: CP 7303.878 PART I.1 / 〔§ 1.500〕（v4.21 起正文已收，CAP-33）
   summary: FSVP 语境下的 importer 指入境时该食品的美国货主或收货人；若入境时没有美国货主/收货人，则为经签署同意书确认、代表境外货主/收货人的美国代理或代表，可缩写 FSVPI。不要把「进口商」泛化成报关行、货代或境外出口商；CP 7303.878 自己写明 `the term importer hereinafter means importer as defined in 21 CFR 1.500`。
   tags: [FSVP, FSVPI, 1.500, 进口商定义, CP 7303.878, v4.8]
 
@@ -1644,7 +1644,7 @@
   title: FSVP 与 Part 117 Subpart G 供应链程序是两套法源、两类主体
   type: term
   source_chapter: CP 7303.878 PART II.3.A / 21 CFR part 117 Subpart G〔§ 117.135〕
-  summary: FSVP 由 FSMA §301 增订的 FD&C Act §805 授权，法规为 21 CFR part 1 subpart L（§§1.500–1.514），义务主体是进口商 FSVPI；Supply-Chain Program 由 FD&C Act §418 授权、法规为 21 CFR part 117 Subpart G，义务主体是接收设施 receiving facility。二者常被混为「供应商验证」，但法条编号、记录要求与检查 program 都不同。本包未收 part 1 subpart L 正文，一律标「转引未收」。
+  summary: FSVP 由 FSMA §301 增订的 FD&C Act §805 授权，法规为 21 CFR part 1 subpart L（§§1.500–1.514），义务主体是进口商 FSVPI；Supply-Chain Program 由 FD&C Act §418 授权、法规为 21 CFR part 117 Subpart G，义务主体是接收设施 receiving facility。二者常被混为「供应商验证」，但法条编号、记录要求与检查 program 都不同。part 1 subpart L 正文自 v4.21 起已收（CAP-33 `fsvp-statutory-requirements`），〔§ 1.5xx〕为企业义务的唯一基准，检查员侧仍回 CAP-21。
   tags: [FSVP, 供应链程序, 双法源, 805, 418, 1.500, 117.135, v4.8]
 
 - id: t155
@@ -3789,6 +3789,129 @@
   - 人员资格
   - 记录
 
+- id: t328
+  title: U.S. owner or consignee（美国货主或收货人）
+  type: term
+  source_chapter: § 1.500
+  source_quote: '"the person in the United States who, at the time of U.S. entry, either owns the food, has purchased the food, or has agreed in writing to purchase the food."
+
+    '
+  summary: 这是 FSVP 语境下 importer 的第一顺位人选：入境时在美国境内拥有、已购买或已书面同意购买该食品的人。只有不存在这样的主体时，才由境外货主指定的美国代理承担 importer 义务（须有签署同意书）。常见误读是把报关行、货代或境外出口商当成 importer。
+  tags:
+  - v4.21
+  - subpart L
+  - 法规正文层
+  - 主体判定
+
+- id: t329
+  title: foreign supplier（境外供应商）
+  type: term
+  source_chapter: § 1.500
+  source_quote: '"the establishment that manufactures/processes the food, raises the animal, or grows the food that is exported to the United States without further manufacturing/processing by another establishment, except for further manufacturing/processing that consists solely of the addition of labeling or any similar activity of a de minimis nature."
+
+    '
+  summary: 指最后制造/加工该食品、饲养动物或种植该食品并出口美国的实体。关键在例外句：**只加贴标签或类似轻微活动不构成「进一步加工」**，故该实体仍是 foreign supplier。常见误读是把品牌方、贸易商或再包装商当成供应商，从而错判验证对象。
+  tags:
+  - v4.21
+  - subpart L
+  - 法规正文层
+  - 主体判定
+
+- id: t330
+  title: very small importer（极小进口商）
+  type: term
+  source_chapter: § 1.500 / § 1.512(b)(1)
+  source_quote: '"With respect to the importation of human food, an importer (including any subsidiaries and affiliates) averaging less than $1 million per year, adjusted for inflation, during the 3-year period preceding the applicable calendar year, in sales of human food combined with the U.S. market value of human food imported, manufactured, processed, packed, or held without sale"
+
+    '
+  summary: 人类食品 <100 万美元/年、动物食品 <250 万美元/年（两套金额不可混用）；口径含子公司与关联企业、取 3 年均值、并把「未销售部分的美国市场价值」计入。符合者可走〔§ 1.512〕简化路径（书面保证每 2 年），但须每年 12 月 31 日前记录身份，证明记录存 3 年。
+  tags:
+  - v4.21
+  - subpart L
+  - 门槛
+  - 简化路径
+
+- id: t331
+  title: receiving facility（接收设施）与 deemed compliance 的 except § 1.509
+  type: term
+  source_chapter: § 1.502(c) / § 1.500
+  source_quote: '"You are deemed to be in compliance with the requirements of this subpart for a food you import, except for the requirements in § 1.509, if you are a receiving facility as defined in § 117.3 or § 507.3 of this chapter and you are in compliance with the following requirements of part 117 or part 507 of this chapter, as applicable"
+
+    '
+  summary: 既是接收设施、又符合〔§ 117.135〕/〔§ 117.136〕/Subpart G 之一者，视为已满足 FSVP 要求——**但排除〔§ 1.509〕**。即 UFI/DUNS 的每一 entry line 电子申报义务永远不豁免。这是全 subpart 最常被漏的一句，也是「我们是接收设施所以不用报 UFI」这类错误结论的来源。
+  tags:
+  - v4.21
+  - subpart L
+  - 法规正文层
+  - 例外条款
+
+- id: t332
+  title: hazard requiring a control（需控制的危害，FSVP 口径）
+  type: term
+  source_chapter: § 1.500 / § 1.504
+  source_quote: '"a known or reasonably foreseeable hazard for which a person knowledgeable about the safe manufacturing, processing, packing, or holding of food would, based on the outcome of a hazard analysis"
+
+    '
+  summary: FSVP 的危害分析结论单位。判定须按「不存在控制时的发生概率 + 发生后的严重性」评估（〔§ 1.504(c)(1)〕），且书面无论结论（〔§ 1.504(a)〕）。若无 hazards requiring a control，可免〔§ 1.505〕评估与〔§ 1.506〕验证，但**不免危害分析本身的书面义务**，且 covered produce 不适用该豁免。
+  tags:
+  - v4.21
+  - subpart L
+  - 判定判据
+
+- id: t333
+  title: serious hazard → 初次进口前 + 至少每年现场审核
+  type: term
+  source_chapter: § 1.506(d)(2)
+  source_quote: '"there is a reasonable probability that exposure to the hazard will result in serious adverse health consequences or death to humans or animals, you must conduct or obtain documentation of an onsite audit of the foreign supplier before initially importing the food and at least annually thereafter"
+
+    '
+  summary: 两项要件同时成立才触发年度现场审核：① 危害**由境外供应商控制**；② 暴露后**可能造成严重健康后果或死亡**。要改为其他活动或降低频次，须做出并留存**书面判定**。常见误读是把「严重危害」等同于「显著危害」，或忽略「由供应商控制」这一前提。
+  tags:
+  - v4.21
+  - subpart L
+  - 验证活动
+  - 硬时限
+
+- id: t334
+  title: written assurance（书面保证）三要素（FSVP）
+  type: term
+  source_chapter: § 1.507(b)
+  source_quote: '"Any written assurances required under this section must contain the following: (1) Effective date; (2) Printed names and signatures of authorized officials; and (3) The assurance specified in the applicable paragraph."
+
+    '
+  summary: 〔§ 1.507〕五种免验证情形、〔§ 1.511(b)〕膳食补充剂、〔§ 1.512〕极小进口商路径都要用到的书面对价。三要素缺一即不成立：生效日期、授权官员印刷姓名与签名、以及该款所要求的保证内容。且出具方须**与保证一致行动并留记录**〔§ 1.507(c)〕——保证书不是纸面免责。
+  tags:
+  - v4.21
+  - subpart L
+  - 书面义务
+
+- id: t335
+  title: qualified auditor（合格审核人）
+  type: term
+  source_chapter: § 1.500 / § 1.503(b)
+  source_quote: '"has technical expertise obtained through education, training, or experience (or a combination thereof) necessary to perform the auditing function"
+
+    '
+  summary: 做〔§ 1.506(e)(1)(i)〕或〔§ 1.511(c)(5)(i)(A)〕现场审核的人，须先是 qualified individual、另须具备审计职能所需技术专长。法定例举包括政府雇员（含外国政府）与依 subpart M 获认可的认证机构审核员。审核记录须包含「由合格审核人执行」的证明。
+  tags:
+  - v4.21
+  - subpart L
+  - 人员资格
+
+- id: t336
+  title: good compliance standing（良好合规状态，等效国家路径）
+  type: term
+  source_chapter: § 1.513(b)(2)
+  source_quote: '"you must determine and document whether the foreign supplier of the food is in good compliance standing with the food safety authority of the country in which the foreign supplier is located."
+
+    '
+  summary: 走〔§ 1.513〕「FDA 已正式认可或判定等效的食品安全体系」路径时的第二个条件：除须记录供应商处于该国监管之下、且食品在认可范围内，还须判定并记录其在该国主管机关处的合规状态，并持续监控。常见误读是以为「来自等效国家」即自动免验证——仍免不了〔§ 1.503〕〔§ 1.509〕〔§ 1.510〕，也不适用于需进一步加工的食品。
+  tags:
+  - v4.21
+  - subpart L
+  - 简化路径
+  - 判定判据
+
 ```
 
 ## 自检记录
@@ -3945,3 +4068,21 @@
 | qualified individual（Part 121 语境） | § 121.4 / § 121.3 | 四类核心活动须受标准化课程或等效岗位经验；APStep 人员另须 food defense awareness 培训 | 直接等同〔§ 117.180〕的 PCQI 培训体系 |
 
 > 完整 9 条见上方 YAML 块 t319–t327；本部分术语为「判读用语」而非 21 CFR 117.3 式法定定义，不可逐字引作法规原文。
+
+## v4.21 增量术语 — 21 CFR Part 1 Subpart L: FSVP（t328–t336）
+
+> 本段收 9 条最易造成主体或时限错判的词条，已并入上方 YAML 块（t328–t336，全表 336 条）。FSVP 的定义属**本 subpart 自用口径**（`as they are used in this subpart`），不得直接替换〔§ 117.3〕的术语。
+
+| 术语 | 条款 | 浓缩释义 | 常见误读 |
+|---|---|---|---|
+| U.S. owner or consignee | § 1.500 | importer 的第一顺位：入境时在美拥有／已购买／已书面同意购买者 | 把报关行、货代、境外出口商当 importer |
+| foreign supplier | § 1.500 | 最后制造/加工、饲养或种植并出口美国的实体；**只加贴标签不算进一步加工** | 把品牌方或贸易商当供应商 |
+| very small importer | § 1.500 / § 1.512 | 人食 <100 万、动物食品 <250 万（3 年均值、含关联企业、计入未销售市值） | 只算销售额、漏掉未销售部分市值；两套金额混用 |
+| receiving facility + deemed compliance | § 1.502(c) | 三条件满足即视为合规，**但排除〔§ 1.509〕** | 「我们是接收设施所以不用报 UFI」 |
+| hazard requiring a control | § 1.500 / § 1.504 | 按「无控制时概率 × 严重性」判定；书面无论结论 | 结论为「无」就不写；以为可免危害分析本身 |
+| serious hazard → 年度现场审核 | § 1.506(d)(2) | 供应商控制的危害 + 可能致严重健康后果/死亡 → 初次前 + 每年 | 等同「显著危害」；忽略「由供应商控制」前提 |
+| written assurance 三要素 | § 1.507(b) | 生效日期 / 授权官员印刷姓名与签名 / 该款保证内容 | 以为有对方盖章即成立；忽略〔§ 1.507(c)〕须一致行动 |
+| qualified auditor | § 1.500 / § 1.503(b) | qualified individual + 审计技术专长（政府雇员或 subpart M 认证机构审核员） | 把内部质检員当合格审核人 |
+| good compliance standing | § 1.513(b)(2) | 等效国家路径的第二个条件：须判定并记录供应商在该国主管机关的合规状态 | 「来自等效国家＝自动免验证」 |
+
+> 完整 9 条见上方 YAML 块 t328–t336；本部分术语为「判读用语」，不作法规原文逐字引用。

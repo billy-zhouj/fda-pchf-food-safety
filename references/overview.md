@@ -416,3 +416,22 @@
 - **仍未收**：FDA Food Defense Plan Builder 工具、Mitigation Strategies 相关指南文件、CARVER + Shock 等方法学、DHS 风险评估内容、食品防护专项检查程序（CP）、21 CFR 1 subpart H（注册）与 FD&C Act §420/§301(ww) 正文、CPG 全套、Import Alert 全文、IOM Chapter 2/3/7/8/9/10、BAM 方法全文、part 110、part 1 subpart L。
 - **测试**：新增 8 条用例（4 `should_trigger` / 2 `edge_case` / 2 `should_not_trigger`），钉住液体储罐例外、三要素与内部人员、APStep≠CCP、计划须留现场与 24 小时、极小企业三要素口径、EMA 分流，以及两条负例（专项 CP 未收、Part 117 义务不得记为 121）。
 - **审计轨迹**：源件 `G://下载//21 CFR Part 121 (up to date as of 11-20-2026).pdf`；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/part121/part121.md`（232 行）；核验脚本口径见上条。
+
+---
+
+## v4.21 追加：第二十五来源 21 CFR Part 1 Subpart L（FSVP 法规正文）
+
+> 本节是 v4.21 增量记录；上文各节的 v4.x 规模、「二十四类不可混引」与各版「仍未收」均为**历史口径**，保留不改。
+
+- **v4.21 规模**：**33 张主卡 + 10 张 imports 子卡 + 5 张 labeling 子卡 + 5 张 additives 子卡 / 336 条术语（YAML 块 t01–t336）/ 221 条测试用例 / 二十五类来源 / 十套法规编号**。
+- **第二十五来源**：**21 CFR Part 1, Subpart L《Foreign Supplier Verification Programs for Food Importers》**（§§ 1.500–1.514，共 **15 条**，eCFR 导出 PDF `up to date as of 11/20/2026`，**25 页**，页脚自述 `authoritative but unofficial`；Subpart L 的 SOURCE 为 `80 FR 74340, Nov. 27, 2015, as amended at 81 FR 25327, Apr. 28, 2016`）。上位授权为 FD&C Act **§805**（FSMA §301 增订）。
+- **新增 CAP-33 `fsvp-statutory-requirements`**（单卡，不拆子卡：15 条、义务链单线、无表格与 IBR）。
+- **补齐的是全包被点名最多的一条悬空引用**：v4.20 及以前有 **13 个文件**把「21 CFR part 1 subpart L 正文」标为「转引未收」，而 CAP-21 只有 **CP 7303.878**（检查员侧内部作业指导，明写 `provides instruction to field staff`，不创设企业义务）。结果是：能回答「检查员会索要哪六组记录」，却回答不了「这些记录本来由哪条法规要求、要求到什么程度」。本轮把 6 张卡（CAP-21 及 labeling / imports / inspection-readiness / seafood-inspection 相关段）与 glossary 的相关声明全部翻转为正向引用〔§ 1.5xx〕。
+- **本件的方法层核心**：FSVP 的义务链是**六环节单向推进**——判主体〔§ 1.500〕→ 判适用〔§ 1.501〕→ 判标准〔§ 1.502〕→ 做评估〔§ 1.504–1.505〕→ 做验证〔§ 1.506–1.507〕→ 留证据〔§ 1.509–1.510〕。任一环节判错，后面的活动再完备也不成立；尤其**「一份 FSVP 对应一份 food，不是一家供应商」**（〔§ 1.502(a)〕`for each food you import`）。
+- **六类实质纠偏**：① **〔§ 1.502(c)〕deemed compliance 明确排除〔§ 1.509〕**——接收设施仍须每一 entry line 报 UFI/DUNS；② **〔§ 1.501(b)〕juice/seafood 的豁免是「换轨」**到〔§ 120.14〕/〔§ 123.12〕，说成「不用做任何事」即实质错误；③ **〔§ 1.506(e)(2)(ii)〕不得依赖供应商本身**执行验证活动（仅抽样检测例外），供应商自检报告不构成验证；④ **极小进口商是双金额制**（人食 <100 万、动物食品 <250 万）、且须计入「未销售部分的美国市场价值」、含关联企业；⑤ **五组「2 年/3 年」对象各不相同**（记录 2 年、程序类停用后 2 年、极小进口商证明 3 年、供应商重评 3 年、保证每 2 年），压成一个数字即错；⑥ **〔§ 1.227〕（farm 定义）不属本 subpart**，是外部锚点。
+- **二十五类不可混引（v4.21 口径）**：在二十四类之外增加 21 CFR Part 1 subpart L 法规正文。层次仍为：法规正文（**十套编号**〔§ 1 / 101 / 108 / 113 / 114 / 117 / 120 / 121 / 123 / 172.xxx〕）＞ FDA 指南（should 建议层）＞ CPGM / CP / IOM 检查程序（检查员视角、不创设企业义务）。注意 FSVP 的编号写法是〔§ 1.5xx〕，**不是〔§ 1.xxx〕全段**——subpart L 只到 §1.500–1.514。
+- **抽取与自检**：源件 `G://下载//21 CFR Part 1 Subpart L (up to date as of 11-20-2026).pdf`（266 KB / 25 页），pdf-inspector v1.27.0 提取（`TextBased`，confidence 1.00，`pagesNeedingOcr` 为空），去页眉 `page N of 25`、去 `<u>` 标记、压空白后核验：卡片 **25 段引文块 / 26 个可核片段，26/26 逐字命中**；术语 t328–t336 **9/9 逐字命中**；条款覆盖 **15/15**。
+- **不可逐字引用区**：本件无表格、无 IBR 外部文件。唯一需注意处：§1.500 的金额门槛是**通胀调整项**，卡片给的 $1M/$2.5M 是条文基数，不等于当年生效数。
+- **仍未收**：Import Alert 99-41 全文、FSVP Guidance for Industry、FSVP Implementation Work Instructions / Inspection Protocol guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、21 CFR part 111 / 112 / 507 正文、DUNS 申请与 CBP entry 系统操作、SRA 国别清单内容。
+- **测试**：新增 9 条用例（5 `should_trigger` / 2 `edge_case` / 2 `should_not_trigger`），钉住 deemed compliance 的 §1.509 例外、juice/seafood 换轨、供应商自证无效、极小进口商双金额、五组年限不可互换，以及两条负例（检查员侧走 CAP-21、Part 117 Subpart G 走 CAP-07）。
+- **审计轨迹**：源件 `G://下载//21 CFR Part 1 Subpart L (up to date as of 11-20-2026).pdf`；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/fsvp/fsvp.md`（511 行）；核验口径同上。
