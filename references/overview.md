@@ -435,3 +435,26 @@
 - **仍未收**：Import Alert 99-41 全文、FSVP Guidance for Industry、FSVP Implementation Work Instructions / Inspection Protocol guidance tabs、HFP Enforcement Bulletin #13/#6、RPM 4-1-8、21 CFR part 111 / 112 / 507 正文、DUNS 申请与 CBP entry 系统操作、SRA 国别清单内容。
 - **测试**：新增 9 条用例（5 `should_trigger` / 2 `edge_case` / 2 `should_not_trigger`），钉住 deemed compliance 的 §1.509 例外、juice/seafood 换轨、供应商自证无效、极小进口商双金额、五组年限不可互换，以及两条负例（检查员侧走 CAP-21、Part 117 Subpart G 走 CAP-07）。
 - **审计轨迹**：源件 `G://下载//21 CFR Part 1 Subpart L (up to date as of 11-20-2026).pdf`；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/fsvp/fsvp.md`（511 行）；核验口径同上。
+
+---
+
+## v4.22 追加：第二十六、二十七来源 21 CFR Part 1 Subpart S 与 Subpart O
+
+> 本节是 v4.22 增量记录；上文各节的 v4.x 规模、「二十五类不可混引」与各版「仍未收」均为**历史口径**，保留不改。
+
+- **v4.22 规模**：**35 张主卡 + 10 张 imports 子卡 + 5 张 labeling 子卡 + 5 张 additives 子卡 / 356 条术语（YAML 块 t01–t356）/ 二十七类来源 / 十二套法规编号**。
+- **第二十六来源**：**21 CFR Part 1, Subpart S《Additional Traceability Records for Certain Foods》**（§§ 1.1300–1.1465，共 **33 条**，eCFR 导出 PDF `up to date as of 11/20/2026`，**26 页**；SOURCE `87 FR 71077, Nov. 21, 2022, as amended at 88 FR 65815, Sept. 26, 2023`）。上位授权为 FD&C Act **§204(d)**（FSMA 增订），执法钩子为 **§301(e)** 与 **§301(hh)**，拒绝入境走 **§801(a)(4)**（本 subpart）——不是 FSVP 的 §801(a)(3)。
+- **第二十七来源**：**21 CFR Part 1, Subpart O《Sanitary Transportation of Human and Animal Food》**（§§ 1.900–1.934，共 **21 条**，同批 PDF，**10 页**；SOURCE `81 FR 20166, Apr. 6, 2016`）。掺假定性走 FD&C Act **§402(i)**——这是 Subpart O 独有的钩子，**不要求证明食品实际不安全**，仅需 `may render` 的条件成立。
+- **新增 CAP-34 `food-traceability-records`**（单卡，33 条、义务链按六个 CTE 分支、无 IBR）与 **CAP-35 `sanitary-transportation`**（单卡，21 条、四类主体、无 IBR）。
+- **补齐的是同一部 Part 1 下最后两块空缺**：v4.21 收到 Subpart L 后，Part 1 在包内只剩 Subpart S / O 两处「转引未收」。二者与 Subpart L **同属 21 CFR Part 1、分属三个不同 Subpart、编号连续且互不覆盖**（L = §1.500–1.514、O = §1.900–1.934、S = §1.1300–1.1465，中间隔着 M–R），因此全包口径由「十套法规编号 / 二十五类」升为**十二套 / 二十七类**，且新增第 11、12 两套编号〔§ 1.13xx/1.14xx〕〔§ 1.9xx〕。
+- **本件的方法层核心（Subpart S）**：义务链是**清单驱动 + 事件驱动**——先判食品是否在 FTL 上〔§ 1.1300〕→ 再逐款排 18 项豁免〔§ 1.1305〕→ 再判本主体是不是 FTRI / initial packer〔§ 1.1300〕→ 再判事件属七类 CTE 的哪一类〔§ 1.1325–1.1350〕→ 再定赋号规则〔§ 1.1320〕→ 最后落到记录留存与可得性〔§ 1.1455〕。任一环节判错，后面的记录再全也不成立。
+- **本件的方法层核心（Subpart O）**：义务链是**主体 × 合同 × 容器形态**三轴——先判是 shipper / loader / carrier / receiver 中的哪几类〔§ 1.904〕→ 再判是否 non-covered business 而整条不适用 → 再判是否构成完全封闭容器排除（五项回拉先过一遍）→ 最后判 carrier 组义务是否因**与 shipper 的书面合同**而被激活〔§ 1.908(e)〕。
+- **七类实质纠偏（Subpart S）**：① **FTL 清单封闭**，不在清单即不受本 subpart 约束，但「不受 CTE 约束」≠「不受本 subpart 约束」；② **18 款豁免（a–r）**而非 21 款，且 (d) 加工后免六款全挂条件；③ **KDE 条数 8/7/7/8/8/9**，另有 initial packing 一般情形 16 项、芽苗菜 +7 项；④ 赋号是**双向规则**（正向三处必须新赋 / 反向禁止新赋 / 收无管辖上家货时补赋），不是「有批号就赋」；⑤ 记录期限有五套（2 年 / 旧计划 2 年 / 部分豁免 2 年 / 协议 3 年续签 / **180 天**）；⑥ **§301(e) 有 `except ... by a farm` 农场例外**，与 §301(hh) 不得混；⑦ **运输商在本 subpart 完全豁免**〔§ 1.1305(n)〕。
+- **七类实质纠偏（Subpart O）**：① 管辖覆盖 `whether or not ... enters interstate commerce`；② **non-covered business（<$500,000，revenues、2011 基年）判「管不管」，small business（<500 FTE / 纯 motor carrier <$27,500,000）只是规模分类**；③ 完全封闭容器排除有**五项回拉**；④ **carrier 全部实体义务以书面合同为前提**；⑤ 402(i) 掺假不要求证明食品实际不安全；⑥ 清洁程序是**一份、含三项内容**、且须留现场，(e)(6)(i) 的「现场」要求常被漏；⑦ `promptly` 与 24 小时只适用于**异地取回**，六处「12 个月 beyond」起算点各异。
+- **最强的跨卡反向陷阱**：**运输商（transporter / carrier）在 Subpart S 完全豁免〔§ 1.1305(n)〕，在 Subpart O 却是四大义务主体之一**。同一部 Part 1、两个相邻 subpart，方向相反，任何互推都是实质错误。第二处是 **§801(a)(4)**（追溯，本 subpart）≠ **§801(a)(3)**（FSVP，CAP-33）。
+- **二十七类不可混引（v4.22 口径）**：在二十五类之外增加 21 CFR Part 1 subpart S 与 subpart O 法规正文。层次仍为：法规正文（**十二套编号**〔§ 1 / 101 / 108 / 113 / 114 / 117 / 120 / 121 / 123 / 172.xxx〕+〔§ 1.13xx/1.14xx〕+〔§ 1.9xx〕）＞ FDA 指南（should 建议层）＞ CPGM / CP / IOM 检查程序（检查员视角、不创设企业义务）。**Part 1 三套编号必须带 subpart 归属**，不得只说「part 1」。
+- **抽取与自检**：Subpart S 源件 `G://下载//21 CFR Part 1 Subpart S (up to date as of 11-20-2026).pdf`（26 页）→ 提取件 591 行；卡片 **46 段引文块 46/46 逐字命中且页码一致**；条款覆盖 33/33；术语 t337–t346 **10/10 命中**。Subpart O 源件 `G://下载//21 CFR Part 1 Subpart O (up to date as of 11-20-2026).pdf`（10 页）→ 提取件 244 行；卡片 **35 段引文块 35/35 命中且页码一致**；条款覆盖 21/21；术语 t347–t356 **10/10 命中**。核验口径同 v4.21（`norm()` 归一去 `<u>`/`**`/智能引号/连字符换行 + 折叠空白 + 全线小写）。
+- **不可逐字引用区**：两份 PDF 均含目录页（S 第 1 页、O 第 1 页）；S 另有 11 页多栏排版（1/4/7/8/9/11/12/13/15/21/22），O 有 4 页（1/3/7/10），跨栏处不可按视觉行序引。两份来源均无 IBR 外部文件。
+- **仍未收**：FDA 网站公布的 Food Traceability List 现行清单内容（清单本身不在法规正文里，只能引「须在清单上」的判定规则，不得编造清单条目）；FTL 增补/删除的 FR 公告；Subpart S/O 的 Small Entity Compliance Guide；CPGM 与 PAC `03040T` 的卫生运输取证问卷内容（检查员侧口径归 CAP-16）；21 CFR part 1 subparts A–K/M–R 其余各 subpart 正文。
+- **测试**：新增 18 条用例（10 `should_trigger` / 4 `edge_case` / 4 `should_not_trigger`），钉住 FTL 清单封闭性、18 款豁免数、KDE 条数不可混、赋号双向规则、180 天期限、运输商反向制度、non-covered vs small business、五项回拉、carrier 合同闸门、402(i) 的 `may render` 口径，以及四条负例（检查员侧走 CAP-16、召回走 CAP-08、FSVP 走 CAP-33、Subpart S 运输豁免不得推到 Subpart O）。
+- **审计轨迹**：源件如上；提取件 `E:/WeChatData/2026-11-04-09-51-05/.tmp-research/subpartS/subpartS.md`（591 行）与 `.../subpartO/subpartO.md`（244 行）；核验脚本 `checkcard.py` 直接消费能力卡文件，把每个引文块与出处行的 `pdf-page N` 比对。

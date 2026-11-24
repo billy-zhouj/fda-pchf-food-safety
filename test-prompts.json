@@ -1,7 +1,7 @@
 {
   "skill": "fda-pchf-food-safety",
-  "version": "4.21",
-  "source_book": "25 类来源，分三层。【法规正文 10 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。合计 25 类，对应 33 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
+  "version": "4.22",
+  "source_book": "27 类来源，分三层。【法规正文 12 套】21 CFR Part 1 Subpart L（FSVP，§§1.500–1.514，eCFR 2026-11-20，v4.21 增量，CAP-33）、Part 1 Subpart O（卫生运输，§§1.900–1.934，eCFR 2026-11-20，v4.22 增量，CAP-35）、Part 1 Subpart S（食品追溯记录，§§1.1300–1.1465，eCFR 2026-11-20，v4.22 增量，CAP-34）、Part 101（eCFR 2026-11-05）、Part 108（4-1-25）、Part 113（4-1-25）、Part 114（4-1-25）、Part 117（2025）、Part 120（4-1-25）、Part 121（eCFR 2026-11-20，v4.20 增量，CAP-32）、Part 123（4-1-25）、Part 172（eCFR 2026-11-05）；【FDA 指南 6 类】PCHF 行业指南（Draft）、Control of L. monocytogenes in RTE Foods（Draft, 2017-01）、Small Entity Compliance Guide（2016-10）、Food Allergen Q&A Ed.5（2025-01 修订终版）、Food Defect Levels Handbook、Fish and Fishery Products Hazards and Controls Guidance 第 4 版（2022-06）；【检查程序与 FDA 内部作业 9 类】CPGM 7303.040、CP 7303.050、CP 7303.070、CP 7303.842、CP 7303.847、CP 7303.878、IOM 2026 Chapter 4、Chapter 5、Chapter 6。⚠ 21 CFR Part 1 三套 subpart（L / O / S）同属一部 Part、编号连续但分属不同 Subpart，引用必须带 subpart 归属，不得只说「part 1」。合计 27 类，对应 35 张主卡 + 20 张子卡（imports 10 / labeling 5 / additives 5）。",
   "darwin_compatible": true,
   "test_cases": [
     {
@@ -1540,6 +1540,132 @@
       "prompt": "我们的原料是从国内供应商买的，也要按 FSVP 做外国供应商验证吗？",
       "expected_behavior": "不需要。FSVP 的义务主体是**进口商**（FD&C Act §805 / 〔§ 1.500〕importer = 美国货主或收货人），只约束**进口**食品；国内采购走 Part 117 Subpart G **供应链程序**（FD&C Act §418），转 **CAP-07 `supply-chain-verification`**。两者是两套法源、两类主体，互不替代；〔§ 1.502(c)〕的 deemed compliance 是二者的接缝，不是替代关系。若同一企业既进口又接收，两套可能都要。",
       "notes": "负例：国内采购走 Subpart G，不走 FSVP"
+    },
+    {
+      "id": "trace-01",
+      "type": "should_trigger",
+      "prompt": "我们做鲜切叶菜沙拉，客户是连锁超市。FSMA 204 的追溯记录义务我们要不要做？从哪一步开始判？",
+      "expected_behavior": "先判「管不管」，不先谈记录。三步：① 产品是否在 **Food Traceability List（FTL）** 上〔§ 1.1300〕〔§ 1.1310〕——鲜切叶菜在列；注意清单由 FDA 在网站公布、**不在法规正文里**，且清单**封闭**，不在清单即不受本 subpart 约束。② 逐款排〔§ 1.1305〕**a–r 共 18 款豁免**（小农场 $25,000 三均值、小零售餐饮 $250,000、蛋鸡单场 3,000 只、(d) 加工后免六款、运输、加工等）。③ 判本主体是否属〔§ 1.1300〕的 manufacture/process/pack/hold。只有三步都过才进入义务链（TLP 追溯计划〔§ 1.1315〕→ 赋号〔§ 1.1320〕→ 七类 CTE 记录〔§ 1.1325–1.1350〕→ 可得性〔§ 1.1455〕）。⚠「查不到清单」不是免责理由。",
+      "notes": "主路径：清单驱动 + 豁免逐款排"
+    },
+    {
+      "id": "trace-02",
+      "type": "should_trigger",
+      "prompt": "我们是家庭农场，年销售额大概两三万美元，也要按 204 做追溯记录吗？",
+      "expected_behavior": "可能豁免，但**要按条判、不能按印象判**。〔§ 1.1305(a)(1)(ii)〕对农产品农场给 **$25,000** 门槛：口径是「上一 3 年期农产品销售额 + 未销售但制造/加工/包装/持有部分的市值」的**年均合计**，按 rolling basis、**以 2020 为通胀调整基年**；不超过即不适用。另有〔§ 1.1305(a)(1)(i)〕的 covered farm 判定（挂 Part 112）、〔§ 1.1305(a)(3)〕对其他 RAC 生产者同类 $25,000 门槛、〔§ 1.1305(b)〕直接售予/捐赠消费者的农场豁免。⚠ 2020 基年与 FSVP〔§ 1.512〕的 **2011 基年**不是同一个数，两张卡金额不可互推；$25,000 与小零售/餐饮的 **$250,000** 相差十倍。",
+      "notes": "边界：金额门槛 + 基年差异"
+    },
+    {
+      "id": "trace-03",
+      "type": "should_trigger",
+      "prompt": "我们的货上游已经给了批次号，我们自己还要不要再赋一个 traceability lot code？",
+      "expected_behavior": "这是**双向规则**，不是「有批号就赋」也不是「有批号就不赋」。〔§ 1.1320(a)〕正向三处**必须新赋**：initial pack 非渔船来源 RAC、对渔船来源食品做 first land-based receiving、transform a food。〔§ 1.1320(b)〕反向：除本 subpart 另有规定外，做其他活动（**明列 shipping**）时**不得**新设批号——只能沿用上游批号。另有一个未在 (a)(b) 明写的补赋情形：收到**不属本 subpart 管辖**的上家货时，须由自己补赋。⚠ 因此「上游给了号」在 shipping/receiving 环节的正确动作是**沿用**；只有落入 (a) 三处才新赋。",
+      "notes": "核心：赋号双向规则 + shipping 不得新赋"
+    },
+    {
+      "id": "trace-04",
+      "type": "should_trigger",
+      "prompt": "追溯记录要保存几年？FDA 来要的话多久必须给？",
+      "expected_behavior": "保存 **2 年**（〔§ 1.1455(d)〕，自记录创建或取得起算，不是售出日）；应要求 **24 小时内**提供（〔§ 1.1455(c)(1)〕）。三处常错：① 代管安排下**同样 24 小时**——〔§ 1.1455(b)〕明写由他方代建代管时，你仍须保证记录能在要求后 24 小时内取回并在现场提供；② 异地存储也按 24 小时（〔§ 1.1455(c)(2)〕），电子记录只要能从事发现场访问即视为 onsite；③〔§ 1.1455(c)(3)〕在 FDA 需防止/缓解食源性疾病暴发、协助召回等情形下，可**当面或远程（如电话）**提出，仍须 24 小时内以**电子可排序表格**提供（法定三类主体可免用表格：≤$250,000 农场、≤$1,000,000 零售/餐饮等）。另注意 180 天（〔§ 1.1305(j)(2)〕）不是 2 年。",
+      "notes": "硬数字：2 年 / 24 小时 / 180 天不可混"
+    },
+    {
+      "id": "trace-05",
+      "type": "edge_case",
+      "prompt": "我们只是帮客户把货从产地拉到仓库，运输商也要留 FSMA 204 的追溯记录吗？",
+      "expected_behavior": "**不要**——但必须把理由说准。运输商在本 subpart 是**整体豁免**〔§ 1.1305(n)〕，不是「记录少一点」。⚠ 这正是全包最强的反向陷阱：同一部 21 CFR Part 1 下，运输商在 **Subpart S 完全豁免**，在 **Subpart O（卫生运输）却是四大义务主体之一**（shipper / loader / carrier / receiver），且 carrier 的实体义务以与 shipper 的**书面合同**为前提。两个 subpart 方向相反，任何互推都是实质错误。另需提醒：豁免的是运输商身份下的本 subpart 义务，若同一主体另有 manufacture/process/pack/hold 活动且食品在 FTL 上，该部分仍受管辖。",
+      "notes": "反向制度：Subpart S 豁免运输商 vs Subpart O 以其为主体"
+    },
+    {
+      "id": "trace-06",
+      "type": "should_trigger",
+      "prompt": "我们发豆芽（sprouts），追溯记录和别的蔬菜一样吗？",
+      "expected_behavior": "不一样——芽苗菜是全 subpart **唯一有二级追溯**的品类。〔§ 1.1330(b)〕在 initial packing 的一般要求之外，另加 **7 项**与种子（seed）有关的追溯信息。基准条数也要记准：harvesting **8** / cooling before initial packing **7** / initial packing 一般情形 **16** 项 / first land-based receiving **8** / shipping **8** / receiving **8** / transformation **9**（〔§ 1.1325–1.1350〕）。⚠ 同类事件在 §1.1330(b)(c)、§1.1345(b) 情形下条数还会变（7 / 10 / 7），不可用一组数字套全部场景；每项都须能 linking 到 traceability lot。",
+      "notes": "硬数字：芽苗菜 +7、KDE 条数分组"
+    },
+    {
+      "id": "trace-07",
+      "type": "edge_case",
+      "prompt": "我们把两个农场的番茄混在一起重新装筐再卖，这算 transformation 吗？批号怎么处理？",
+      "expected_behavior": "构成 transformation。〔§ 1.1310〕transformation 包含 manufacturing/processing 或 **changing a food（明列 commingling、repacking、relabeling）**，且输出物仍在 FTL 上；它**排除** initial packing 及此前的活动（harvesting、cooling）——所以单纯「装了一下」不构成，但「不同来源混合后重新包装」构成。因此〔§ 1.1320(a)〕触发**必须新赋批号**。两点补充：① 若混合属 commingled RAC，须同时看〔§ 1.1305(h)〕部分豁免的条件（不同农场且不同公司管理；渔船来源须不同上岸船），且 (h)(2) 的书面协议**每 3 年须续签**；② 若加工后输出物**已不在 FTL 上**，走的不是 transformation 而是〔§ 1.1305(d)(4)〕改变豁免，须留收货记录。",
+      "notes": "边界：transformation vs 改变豁免 vs initial packing"
+    },
+    {
+      "id": "trace-08",
+      "type": "should_trigger",
+      "prompt": "FDA 更新了 Food Traceability List，新加了一个品类，我们马上要合规吗？",
+      "expected_behavior": "不用马上，但删除是马上。〔§ 1.1465(c)〕：FTL 更新时，**删除项立即生效**；**新增项自 FR 公告发布日起 2 年后生效**，除非公告另有说明。这个不对称是最易错处——「新增有 2 年宽限」不能反推「删除也有宽限」。程序上〔§ 1.1465(a)(b)〕须经 FR 拟议公告 + 最终公告，修订后的清单在 FDA 网站公布。⚠ 因此清单的**时点**很重要：判断某食品是否受管辖，须看当时有效的清单版本，不能用旧记忆。",
+      "notes": "硬数字：新增 2 年 vs 删除立即"
+    },
+    {
+      "id": "trace-09",
+      "type": "should_not_trigger",
+      "prompt": "我们发现有批货可能被沙门氏菌污染，要做追溯、召回、还要报 FDA，流程怎么走？",
+      "expected_behavior": "追溯部分走 **CAP-34**（〔§ 1.13xx/1.14xx〕只给记录与赋号义务），但**召回与报告义务不在本 subpart**：召回计划、Class 分级、RFR 24 小时、有效性核查一律转 **CAP-08 `recall-plan`**（FD&C Act §423 / 21 CFR 7 Subpart C）。⚠ 关键边界：Subpart S **只创设记录义务，不创设安全标准、不创设召回义务、不创设扣留权**；记录 2 年也不等于召回记录期限。FDA 依〔§ 1.1455(c)(3)〕索要追溯信息是**协助召回**的取证动作，不是召回的法律依据。",
+      "notes": "负例：召回归 CAP-08，不得由 Subpart S 回答"
+    },
+    {
+      "id": "trace-10",
+      "type": "should_not_trigger",
+      "prompt": "我们从墨西哥进口牛油果，作为进口商我们要做 FSVP 还是做 204 追溯？",
+      "expected_behavior": "可能两套都要，但**不能混答**。FSVP 的义务主体是 importer，法源是 FD&C Act §805 / 21 CFR Part 1 **Subpart L**〔§ 1.500–1.514〕→ **CAP-33**；追溯记录的法源是同部 Part 1 的 **Subpart S**〔§ 1.1300–1.1465〕→ **CAP-34**。两套同属 Part 1 但分属不同 Subpart、判据完全不同：FSVP 看「谁进口 + 境外供应商验证」，Subpart S 看「食品在不在 FTL 上 + 我是否 manufacture/process/pack/hold」。拒绝入境钩子也不同：FSVP 是 **§801(a)(3)**，追溯是 **§801(a)(4)**。引用必须带 subpart 归属，不得只说「part 1」。",
+      "notes": "负例：FSVP 走 CAP-33；两套编号不得混写"
+    },
+    {
+      "id": "sanitary-01",
+      "type": "should_trigger",
+      "prompt": "我们用罐车给食品厂送糖浆，是食品直接接触罐体的那种。卫生运输规则里我们要满足什么？",
+      "expected_behavior": "先定身份：安排运输的一方是 **shipper**〔§ 1.904〕（以「安排」为判据，制造商与货代均可是）；把货装上车的是 **loader**；实际移动的是 **carrier**；收货方是 **receiver**（**不必是最终收货点**）。同一企业可能同时是多个身份，义务按身份叠加。糖浆直接接触罐体即构成 **bulk vehicle**〔§ 1.904〕，清洁与「前载货物」检查口径随之升级：车辆与运输设备须在设计、材质、做工上适合〔§ 1.906〕；运输作业须防止食品在运输中变得不安全〔§ 1.908〕；**carrier 的实体义务以与 shipper 的书面合同为前提**〔§ 1.908(e)〕〔§ 1.910(a)〕——无合同即无该组义务。⚠ 本 subpart **不设定任何法定温度限值**，「必须保持 X°C」无依据。",
+      "notes": "主路径：四类主体 + bulk vehicle + 合同闸门"
+    },
+    {
+      "id": "sanitary-02",
+      "type": "should_trigger",
+      "prompt": "我们公司年收入四十多万美元，做食品配送，受卫生运输规则管吗？",
+      "expected_behavior": "不受——**整条 subpart 不适用**。〔§ 1.904〕**non-covered business**：从事运输作业的 shipper/loader/receiver/carrier，其**3 年期滚动年均收入 <$500,000**（通胀调整、**2011 为基年**）即不属覆盖范围，〔§ 1.900(a)〕明确排除。⚠ 必须与 **small business** 分清：small business 是 <500 个全职等效员工（2,080 小时/年折算，不足整数向下取整），**单纯的机动车承运人**（不兼 shipper/receiver）改用 <$27,500,000 年营业收入——它只是**规模分类**，触发的是减负（只须留培训记录），**不是免责**。把 small business 当 non-covered business 主张整条不适用，是最高频误答。",
+      "notes": "核心：non-covered（管不管）vs small business（规模分类）"
+    },
+    {
+      "id": "sanitary-03",
+      "type": "should_trigger",
+      "prompt": "承运人需要准备哪些书面程序？几份？要放在哪？",
+      "expected_behavior": "**一份**——〔§ 1.908(e)(6)〕要求的是**一条**书面程序，须含**三项内容**：① 车辆的清洁与检查程序；② 温度控制合规的程序（适用于需温控的食品）；③ bulk vehicle 装货前的前载货物检查与清洗程序。⚠ 不是「三份程序」，也不是「三项各自成文」。**位置**是硬要求：该程序**必须留在现场**（供检查时取用），不能只存总部。前置条件是**与 shipper 存在书面合同**〔§ 1.908(e)〕；无合同则这组义务不激活。另注意 shipper 侧另有设计卫生规范与书面程序要求〔§ 1.908(b)〕，两者不是同一份。",
+      "notes": "硬点：一份程序三项内容 + 必须留现场 + 合同前提"
+    },
+    {
+      "id": "sanitary-04",
+      "type": "edge_case",
+      "prompt": "我们的食品是密封罐头，装在有顶的卡车里运，应该不用管卫生运输吧？",
+      "expected_behavior": "先别下结论——**完全封闭容器的排除有五个回拉**。〔§ 1.904〕transportation operations 的定义排除了「完全封闭于容器」的食品运输，但紧接着列了五类**仍受管辖**的例外：① 需温控保安全的食品；② 压缩食品气体（compressed food gases）；③ 食品接触物质（§409(h)(6)）；④ 无进一步加工即用作动物食品的人食副产品；⑤ **活体食用动物（软体贝类除外）**。另有一条独立排除：**农场实施的运输活动**不属于运输作业。因此密封罐头若**不需温控**，通常可排除；但若客户要求保温/冷藏，则落回第①项。判序是先过五项回拉、再看排除。⚠「完全封闭」与 **bulk vehicle** 是两套概念：散装车辆中食品直接接触车体，走清洁程序那一路。",
+      "notes": "边界：五项回拉 + 农场排除，须逐项过"
+    },
+    {
+      "id": "sanitary-05",
+      "type": "edge_case",
+      "prompt": "我们运的食品被 FDA 认定掺假了，但他们没证明食品真的不安全，这能成立吗？",
+      "expected_behavior": "**能成立**——这是 Subpart O 独有的钩子。〔§ 1.902(a)〕：本 subpart 的判据与定义用于判定食品是否构成 FD&C Act **§402(i)** 意义上的掺假，即「由 shipper、机动车/铁路承运人、loader 或 receiver 在运输作业中，以**不符合本 subpart 的条件**运输或要约运输该食品」。⚠ 402(i) **不要求证明食品实际不安全**，只要运输条件不符合本 subpart 即足；这与 402(a)(1)（ poisonous/deleterious 等）、402(a)(4)（在不卫生条件下制备/包装/持有）的构成要件不同，不得套用后者的「实际不安全/掺杂物」标准。「食品后来检测合格」也不构成抗辩——判的是**条件**，不是结果。",
+      "notes": "边界：402(i) 的构成要件独立于 402(a)(1)/(a)(4)"
+    },
+    {
+      "id": "sanitary-06",
+      "type": "should_not_trigger",
+      "prompt": "卫生运输这块，FDA 检查员会用什么问卷、看哪些记录？PAC 03040T 是什么？",
+      "expected_behavior": "**不应**据 CAP-35 回答。PAC `03040T` 与 CPGM ATTACHMENT A 的取证口径属**检查员作业层**，转 **CAP-16 `inspection-readiness`**（CPGM 7303.040 体系）。CAP-35 只给企业义务（〔§ 1.900–1.934〕）。⚠ 检查程序层**不创设企业义务**：检查员看什么、怎么记、怎么分级，都不能反推成企业的法定义务，也不能把 CP 的取证量写成法定限值。企业该做什么只看法规正文与合同约定。",
+      "notes": "负例：检查员侧口径走 CAP-16"
+    },
+    {
+      "id": "sanitary-07",
+      "type": "should_not_trigger",
+      "prompt": "我们是承运人，食品在 FTL 清单上，要留 FSMA 204 的追溯记录吗？",
+      "expected_behavior": "**不要**——运输商在 Subpart S 是**整体豁免**〔§ 1.1305(n)〕。这一问的正确回答必须点明跨 subpart 的反向关系：同一部 21 CFR Part 1 下，**Subpart S 完全豁免运输商**，而 **Subpart O 以承运人为四大义务主体之一**。所以承运人该看的是 CAP-35（卫生运输：车辆与设备、清洁程序、温控、培训、记录），不是 CAP-34（追溯）。⚠ 若该企业同时从事 manufacture/process/pack/hold 且食品在 FTL 上，那部分活动仍受 Subpart S 管辖——豁免的是**运输商身份**下的义务，不是企业全部活动。",
+      "notes": "负例 + 反向制度：承运人走 CAP-35"
+    },
+    {
+      "id": "sanitary-08",
+      "type": "edge_case",
+      "prompt": "培训记录要保存多久？是自然年还是滚动 12 个月？",
+      "expected_behavior": "按**滚动 12 个月**，且起算点是**行为发生日**而不是自然年。Subpart O 的记录要求集中在〔§ 1.912〕，培训要求见〔§ 1.910〕：carrier 须为参与运输作业的人员提供培训（一般培训 + 按需的专项培训），并保留培训记录；记录保存期为**行为之后 12 个月（12 months beyond）**。⚠ 全 subpart 有**六处「12 个月 beyond」**，各自的**起算点不同**（培训、书面程序、清洁记录、温度记录、合同等），不能统一按「去年 1 月 1 日」起算，也不能把 12 个月读成「一个自然年」。另有减负口径：small business 只须保留培训记录〔§ 1.912(c)〕。",
+      "notes": "硬点：12 个月滚动 + 六处起算点各异"
     }
   ],
   "minimum_pass_rate": 0.8,

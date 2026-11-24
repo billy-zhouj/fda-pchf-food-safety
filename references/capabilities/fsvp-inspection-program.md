@@ -1,6 +1,6 @@
 # FSVP 进口商检查（CP 7303.878）与 Part 117 供应链程序分流（fsvp-inspection-program）
 
-*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文自 v4.21 起已收（CAP-33 `fsvp-statutory-requirements`）**，企业义务一律以〔§ 1.5xx〕为准，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**二十五类不可混引**。*
+*来源分层：本卡取用四类权威，引用前先分层。① **21 CFR Part 117 法规正文**（〔§ 117.xxx〕，具法律约束力，判定 **Part 117 义务**的唯一基准）——关键接口是 Subpart G 供应链程序（〔§ 117.135〕起）与〔§ 117.5〕豁免清单；② **FDA Compliance Program 7303.878**（`Transmittal Number 2023-CPM-CFSAN-003`，`Implementation Date 09/27/2023`，`Date of Issuance 08/28/2025`，33 页），是 **FDA 给检查员、进口分区合规官与中心审评人员的内部作业指导**，标注「CP 7303.878 PART x」，**不创设企业义务**；③ **21 CFR part 1, subpart L（§§ 1.500–1.514）FSVP 法规**——由 FSMA §301 增订的 FD&C Act §805 授权，**正文自 v4.21 起已收（CAP-33 `fsvp-statutory-requirements`）**，企业义务一律以〔§ 1.5xx〕为准，不得从本 CP 反推条文；④ 交叉参照 CPGM 7303.040（Program Interaction 第 15 项、FSVP handout）、CP 7303.050（取样）、CP 7303.070（LACF/AF）、IOM 2026 Ch.5（eNSpect / CAR / 483 措辞）、`supply-chain-verification`（企业侧供应链验证决策）。与其余各类合计**二十七类不可混引**。*
 
 *⚠ **版本陷阱**：首页 `Date of Issuance: 08/28/2025` 是**更正版签发日**，不是新程序年份。Change History（PDF p4）为 Initial Issuance 10/20/2021 → Update 09/27/2023（改名为 FSVP Inspections、补程序交互、Part V 澄清）→ Pen/Ink 08/20/2024 → **Corrections 08/28/2025（仅 POC 与机构名称/缩写更新）**。故本件是 **2023-09-27 版程序的 2025-08-28 更正版**，与 CP 7303.050（2022 / 2025-09-10 更正）、CP 7303.070（2024 / 2025-09-26 更正）同型，不同于 CPGM 7303.040 的 `2025-CPM-HFP-001`（新 Transmittal）。引用写「CP 7303.878（2023 版 / 2025-08-28 更正）」。*
 
@@ -260,7 +260,7 @@
 
 **Step 6 — 每条结论标来源层级**
 
-法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写〔§ 1.5xx〕（CAP-33）；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 按章号写「IOM 5.x.x」或「IOM 4.x.x」（Ch.4 自 v4.16 起已收，转 CAP-28）。**二十五类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
+法规义务写〔§ 117.xxx〕〔§ 113.xxx〕〔§ 114.xxx〕；FSVP 法规写〔§ 1.5xx〕（CAP-33）；CP 内容写「CP 7303.878 PART x」；CPGM 7303.040 / CP 7303.050 / CP 7303.070 各按自身章号；IOM 按章号写「IOM 5.x.x」或「IOM 4.x.x」（Ch.4 自 v4.16 起已收，转 CAP-28）。**二十七类不可混引**。遇到需要 FSVP 法规条文、Import Alert 99-41 全文、FSVP Guidance、IP guidance tabs、HFP Enforcement Bulletin、RPM 4-1-8、part 1 subpart L 正文的问题，直接转出本包；遇到 part 113/114 条文转 CAP-20；遇到企业侧供应商验证方法转 `supply-chain-verification`。
 
 ## B — 边界
 

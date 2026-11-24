@@ -3912,6 +3912,286 @@
   - 简化路径
   - 判定判据
 
+- id: t337
+  title: Food Traceability List（食品追溯清单，FTL）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"the list of foods for which additional traceability records are required to be maintained, as designated in accordance with section 204(d)(2) of the FDA Food Safety Modernization Act."
+
+    '
+  summary: 决定「管不管」的第一道闸门：清单**封闭**，只有清单上的食品（及以清单食品为配料且**形态未变**的食品）才触发本 subpart。清单由 FDA 在官网公布、**不在法规正文里**——「我查不到清单」不是免责理由，也不是「不在清单」的证明。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 管辖判定
+
+- id: t338
+  title: critical tracking event（关键追踪事件，CTE）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"an event in the supply chain of a food involving the harvesting, cooling (before initial packing), initial packing of a raw agricultural commodity other than a food obtained from a fishing vessel, first land-based receiving of a food obtained from a fishing vessel, shipping, receiving, or transformation of the food."
+
+    '
+  summary: "**封闭枚举的七类**：harvesting / cooling（限 initial packing 之前）/ initial packing（限非渔船来源的 RAC）/ first land-based receiving（限渔船来源）/ shipping / receiving / transformation。holding、retail、transport 都不在枚举内——但「不是 CTE」≠「不受本 subpart 约束」，holding 主体仍可能因其他事件成为义务人。"
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 记录义务
+
+- id: t339
+  title: key data element（关键数据元，KDE）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"information associated with a critical tracking event for which a record must be maintained and/or provided in accordance with this subpart."
+
+    '
+  summary: 与某个 CTE 绑定、必须留存并应要求提供的信息项。各事件条数不等（harvesting 8 / cooling 7 / initial packing 7 / first land-based receiving 8 / shipping 8 / receiving 8 / transformation 9，另有 initial packing 一般情形 16 项与芽苗菜加 7 项），且每一项都须能 linking 到 traceability lot。常见误读是把「记了批次号」当成记全 KDE。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 记录义务
+
+- id: t340
+  title: traceability lot code（追溯批号）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the records of the traceability lot code source."
+
+    '
+  summary: 唯一标识一个 traceability lot 的描述符，**只需在本主体自身记录体系内唯一**，不要求全行业统一编码。赋号规则是双向的：正向三处必须新赋（initial packing、first land-based receiving、transformation），反向在特定情形**禁止新赋**（只能沿用上游批号）；收到无管辖上家的货时须补赋。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 赋号规则
+
+- id: t341
+  title: traceability lot（追溯批）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"a batch or lot of food that has been initially packed (for raw agricultural commodities other than food obtained from a fishing vessel), received by the first land-based receiver (for food obtained from a fishing vessel), or transformed."
+
+    '
+  summary: 批的成立点只有三个——initial packing、first land-based receiver 收货、transformation。换言之「批」由这三个事件**创生**，harvesting/cooling/shipping 本身不产生新的 traceability lot。常见误读是把每一次装运都当成一个新批。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 赋号规则
+
+- id: t342
+  title: initial packing（初次包装）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"packing a raw agricultural commodity (other than a food obtained from a fishing vessel) for the first time."
+
+    '
+  summary: 对**非渔船来源**的 RAC 第一次包装。它是七类 CTE 之一、也是赋号的正向触发点之一，且 KDE 条数最多（一般情形 16 项）。注意定义把渔船来源食品整体排除——那一路走 first land-based receiving，两条线不可混用。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 主体判定
+
+- id: t343
+  title: first land-based receiver（首个陆上接收人）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"the person taking possession of a food for the first time on land directly from a fishing vessel."
+
+    '
+  summary: 渔船来源食品进入陆上链条的第一个占有人，对应第一次赋号。与 initial packing 二选一：渔船来源走本条，非渔船来源走 initial packing，二者不得同时适用，也不得都跳过。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 主体判定
+
+- id: t344
+  title: transformation（转化）
+  type: term
+  source_chapter: § 1.1310
+  source_quote: '"an event in a food''s supply chain that involves manufacturing/processing a food or changing a food"
+
+    '
+  summary: 制造/加工，或改变食品（commingling、repacking、relabeling）或其包装，**且输出物仍是清单食品**。定义明确排除 initial packing 及其之前的活动（harvesting、cooling）——所以「包装了一下」不构成 transformation，但「把两批混在一起再包装」构成。输出物若已不在清单上，则走〔§ 1.1305(d)(4)〕改变豁免而不是 transformation。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 记录义务
+
+- id: t345
+  title: transporter（运输商，Subpart S 口径）
+  type: term
+  source_chapter: § 1.1310 / § 1.1305(n)
+  source_quote: '"a person who has possession, custody, or control of an article of food for the sole purpose of transporting the food, whether by road, rail, water, or air."
+
+    '
+  summary: 本 subpart 的定义，但其**义务被整体豁免**〔§ 1.1305(n)〕。⚠ 这是全包最强的反向陷阱：承运人在 Subpart S 完全豁免，在 Subpart O（卫生运输）却是四大义务主体之一——同一部 Part 1、两个 subpart 方向相反，绝不可互推。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 反向制度
+
+- id: t346
+  title: commingled raw agricultural commodity（混合 RAC）
+  type: term
+  source_chapter: § 1.1310 / § 1.1305(h)(2)
+  source_quote: '"any commodity that is combined or mixed after harvesting but before processing"
+
+    '
+  summary: 采收后、加工前被合并或混合的农产品。构成「混合」的判据很窄：须为**不同农场且不同公司管理**的食品混合；渔船来源则须为**不同上岸船**且在上岸后混合。走〔§ 1.1305(h)〕部分豁免时仍须留上家/下家记录，且须有每 3 年续签的书面协议——过期未续，豁免立即断裂。
+  tags:
+  - v4.22
+  - subpart S
+  - 法规正文层
+  - 豁免判定
+
+- id: t347
+  title: shipper（发货人）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"a person, e.g., the manufacturer or a freight broker, who arranges for the transportation of food in the United States by a carrier or multiple carriers sequentially."
+
+    '
+  summary: 以「**安排**运输」为判据，不以是否拥有货物或车辆为判据——制造商、货代都可以是 shipper。义务最重（设计卫生规范、书面程序、温控、清洁程序、培训、记录），也是 carrier 义务的合同相对方。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 主体判定
+
+- id: t348
+  title: loader（装载人）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"a person that loads food onto a motor or rail vehicle during transportation operations."
+
+    '
+  summary: 只做「把食品装上机动车或铁路车辆」这一个动作的主体。义务集中在装载前检查三件事（食品状态、车辆适宜性、前载货物是否可能造成掺假）——不是持续监控义务，也不因装载动作而承担 carrier 的清洁与温控义务。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 主体判定
+
+- id: t349
+  title: carrier（承运人）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"a person who physically moves food by rail or motor vehicle in commerce within the United States."
+
+    '
+  summary: 以「**实际移动**食品」为判据（铁路或机动车），**不含**以包裹投递服务方式运输食品的人。⚠ 本 subpart 中 carrier 的实体义务全部以**与 shipper 存在书面合同**为前提〔§ 1.908(e)〕〔§ 1.910(a)〕——无合同即无该组义务；这与 Subpart S 对运输商的整体豁免〔§ 1.1305(n)〕方向相反。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 合同闸门
+
+- id: t350
+  title: receiver（收货人）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"any person who receives food at a point in the United States after transportation, whether or not that person represents the final point of receipt for the food."
+
+    '
+  summary: 运输结束后在美国境内接收食品的人，**不要求是最终收货点**——中间仓、转运点同样是 receiver。常见误读是以为「不是最终客户就不算 receiver」，从而漏掉到货检查与疑似掺假不得销售的义务。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 主体判定
+
+- id: t351
+  title: non-covered business（非覆盖企业，Subpart O 口径）
+  type: term
+  source_chapter: § 1.904 / § 1.900(a)
+  source_quote: '"a shipper, loader, receiver, or carrier engaged in transportation operations that has less than $500,000, as adjusted for inflation, in average annual revenues, calculated on a rolling basis, during the 3-year period preceding the applicable calendar year."
+
+    '
+  summary: 决定**整条 subpart 管不管**的门槛：3 年滚动平均年收入 <$500,000（2011 为通胀基年）即不受本 subpart 约束。⚠ 与 small business 是两回事：non-covered business 判「适不适用」，small business 只是「规模分类」并据此减负（只留培训记录）。两者金额、判据、后果都不同，混用即实质错误。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 管辖判定
+
+- id: t352
+  title: small business（小企业，Subpart O 口径）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"a business employing fewer than 500 full-time equivalent employees except that for carriers by motor vehicle that are not also shippers and/or receivers, this term would mean a business subject to § 1.900(a) having less than $27,500,000 in annual receipts."
+
+    '
+  summary: 双轨判据：一般主体 <500 个全职等效员工（按 2,080 小时/年折算、含关联企业与子公司、不足整数向下取整）；**单纯的机动车承运人**（不兼 shipper/receiver）改用 <$27,500,000 年营业收入。它是规模分类，触发的是减负而非免责——常见误读是把 small business 当成 non-covered business 而整条不适用。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 管辖判定
+
+- id: t353
+  title: food not completely enclosed by a container（未完全封闭于容器的食品）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"any food that is placed into a container in such a manner that it is partially open to the surrounding environment."
+
+    '
+  summary: 相对周围环境**部分敞开**的食品（开口木筐/板条箱、开口纸箱、带顶通风纸箱、通风塑料袋均为法定例举）。定义明确排除散装车辆中的食品——散装走 bulk vehicle 与清洁程序那一路，两条线不重叠。「完全封闭」的判定直接决定运输作业是否受管辖〔§ 1.906〕。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 管辖判定
+
+- id: t354
+  title: transportation operations（运输作业）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"all activities associated with food transportation that may affect the sanitary condition of food including cleaning, inspection, maintenance, loading and unloading, and operation of vehicles and transportation equipment."
+
+    '
+  summary: 受管辖的作业范围：一切**可能影响食品卫生状况**的运输相关活动。定义给出**完全封闭容器排除**，但同时列了**五项回拉**——需温控保安全的食品、压缩食品气体、食品接触物质、无进一步加工用作动物食品的人食副产品、活体食用动物（软体贝类除外）。另明确排除农场实施的运输活动。判断时须先看是否落入五项回拉之一，再看排除。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 管辖判定
+
+- id: t355
+  title: bulk vehicle（散装车辆）
+  type: term
+  source_chapter: § 1.904
+  source_quote: '"a tank truck, hopper truck, rail tank car, hopper car, cargo tank, portable tank, freight container, or hopper bin, or any other vehicle in which food is shipped in bulk, with the food coming into direct contact with the vehicle."
+
+    '
+  summary: 食品**直接接触车辆**的散装运输载具（罐车、漏斗车、铁路罐车、槽罐、可移动罐、货运集装箱、料斗等）。判据是「食品与车辆直接接触」，不是「装了散货」。一旦构成 bulk vehicle，清洁程序与「前载货物」检查的口径随之升级，且〔§ 1.904〕的「未完全封闭」定义明确把它排除在外。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 判定判据
+
+- id: t356
+  title: operating temperature（运行温度）
+  type: term
+  source_chapter: § 1.904 / § 1.908(a)(3)
+  source_quote: '"a temperature sufficient to ensure that under foreseeable circumstances of temperature variation during transport"
+
+    '
+  summary: 不是某个固定温度值，而是「在可预见的运输温度波动下（季节条件、制冷机组除霜、多点装卸）仍能持续满足〔§ 1.908(a)(3)〕」的那个温度。⚠ 本 subpart **不设定任何法定温度限值**，「必须保持 X °C」一律无依据；企业须自证其设定值在上述波动情形下仍足以保证食品安全。
+  tags:
+  - v4.22
+  - subpart O
+  - 法规正文层
+  - 判定判据
+
 ```
 
 ## 自检记录
@@ -4086,3 +4366,41 @@
 | good compliance standing | § 1.513(b)(2) | 等效国家路径的第二个条件：须判定并记录供应商在该国主管机关的合规状态 | 「来自等效国家＝自动免验证」 |
 
 > 完整 9 条见上方 YAML 块 t328–t336；本部分术语为「判读用语」，不作法规原文逐字引用。
+
+## v4.22 增量术语 — 21 CFR Part 1 Subpart S: 食品追溯记录（t337–t346）
+
+> 本段收 10 条最易造成管辖、赋号或期限错判的词条，已并入上方 YAML 块（t337–t346，全表 356 条）。Subpart S 的定义属**本 subpart 自用口径**（`as they are used in this subpart`），与〔§ 117.3〕、〔§ 1.904〕（Subpart O）三套术语**同属 Part 1 但不得互引**。
+
+| 术语 | 条款 | 浓缩释义 | 常见误读 |
+|---|---|---|---|
+| Food Traceability List（FTL） | § 1.1310 | 清单封闭；只有清单食品（含以清单食品为配料且形态未变者）才受管辖 | 把「查不到清单」当免责理由；把含清单配料的产品一律排除 |
+| critical tracking event（CTE） | § 1.1310 | **七类封闭枚举**：harvest / cooling（packing 前）/ initial packing（非渔船）/ first land-based receiving（渔船）/ shipping / receiving / transformation | 把 holding、retail、transport 也当 CTE；或反过来以为「不是 CTE 就不受本 subpart 约束」 |
+| key data element（KDE） | § 1.1310 | 与 CTE 绑定、须留存并提供的信息项；条数 8/7/7/8/8/9（另有 16 项与芽苗菜 +7） | 以为记了批次号即算记全 KDE |
+| traceability lot code | § 1.1310 | 只需在本主体记录内唯一；正向三处必须新赋、反向禁止新赋、收无管辖上家货须补赋 | 以为要全行业统一编码；或在上游已赋号时又新赋一个 |
+| traceability lot | § 1.1310 | 「批」只由三个事件创生：initial packing / first land-based receiving / transformation | 把每次装运都当新批；把 harvesting 也当创批点 |
+| initial packing | § 1.1310 | 对**非渔船来源** RAC 的第一次包装；KDE 最多（16 项） | 与 first land-based receiving 混用（渔船来源走后者） |
+| first land-based receiver | § 1.1310 | 渔船来源食品在陆上第一次被占有的主体 | 以为渔船本身是主体；与 initial packing 同时适用 |
+| transformation | § 1.1310 | 制造/加工或改变食品/包装，**且输出物仍在清单上**；排除 initial packing 及其前活动 | 把单纯包装当 transformation；输出物已离清单时错用本条（应走〔§ 1.1305(d)(4)〕） |
+| transporter | § 1.1310 / § 1.1305(n) | 本 subpart 有定义，但义务**整体豁免** | 用本卡口径去推 Subpart O 的承运人义务（反向制度，见 CAP-35） |
+| commingled raw agricultural commodity | § 1.1310 / § 1.1305(h)(2) | 采收后加工前混合；须不同农场且不同公司管理（渔船须不同上岸船） | 把同一公司内部拼批当 commingled；忘记 (h)(2) 的 3 年续签协议 |
+
+> 完整 10 条见上方 YAML 块 t337–t346；本部分术语为「判读用语」，不作法规原文逐字引用（引文块内为逐字原文）。
+
+## v4.22 增量术语 — 21 CFR Part 1 Subpart O: 卫生运输（t347–t356）
+
+> 本段收 10 条最易造成主体、门槛或排除范围错判的词条，已并入上方 YAML 块（t347–t356，全表 356 条）。Subpart O 的定义属**本 subpart 自用口径**，与 Subpart S、〔§ 117.3〕互不覆盖。
+
+| 术语 | 条款 | 浓缩释义 | 常见误读 |
+|---|---|---|---|
+| shipper | § 1.904 | 以「**安排**运输」为判据（制造商、货代均可是）；义务最重，也是 carrier 义务的合同相对方 | 以「是否拥有货物/车辆」判主体 |
+| loader | § 1.904 | 只做「装上机动车或铁路车辆」；义务限于装载前检查三件事 | 把装载义务扩成持续监控义务；或让 loader 承担 carrier 的清洁义务 |
+| carrier | § 1.904 | 以「**实际移动**」为判据；**不含**包裹投递服务 | 把快递/包裹投递当 carrier；忽略「实体义务以书面合同为前提」 |
+| receiver | § 1.904 | 运输结束后在美接收食品的人，**不必是最终收货点** | 「我们不是最终客户所以不算 receiver」 |
+| non-covered business | § 1.904 / § 1.900(a) | 3 年滚动平均年收入 **<$500,000**（2011 基年）→ **整条 subpart 不适用** | 与 small business 混用；用单年收入而非 3 年均值 |
+| small business | § 1.904 | <500 FTE；**单纯机动车承运人**改用 <$27,500,000 年营业收入 → 仅减负（留培训记录） | 当成 non-covered business 而主张免责 |
+| food not completely enclosed by a container | § 1.904 | 部分敞开于环境（开口筐、开口纸箱、通风纸箱、通风袋）；**排除**散装车辆中的食品 | 把任何有包装的都当「完全封闭」；把 bulk 与未封闭混为一谈 |
+| transportation operations | § 1.904 | 一切可能影响卫生状况的运输活动；有完全封闭容器排除，但有**五项回拉**（需温控/压缩气体/食品接触物质/人食副产品作动物食品/活体食用动物除软体贝类）；另排除农场实施的运输 | 只看排除、漏五项回拉；把农场自运也纳入 |
+| bulk vehicle | § 1.904 | 判据是「食品与车辆**直接接触**」，不是「装了散货」 | 把装散货的非接触载具当 bulk vehicle |
+| operating temperature | § 1.904 / § 1.908(a)(3) | 「在可预见温度波动下仍能满足〔§ 1.908(a)(3)〕」的温度，**不是法定数值** | 编造法定温度限值；忽略除霜、多点装卸等波动情形 |
+
+> 完整 10 条见上方 YAML 块 t347–t356；本部分术语为「判读用语」，引文块内为逐字原文，其余不作法规原文逐字引用。
